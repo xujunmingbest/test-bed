@@ -1,0 +1,143 @@
+  电工电路试验台.一阶电路的响应测试实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.一阶电路的响应测试实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.一阶电路的响应测试实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.一阶电路的响应测试实验步骤.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.一阶电路的响应测试实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.主窗体.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.元件伏安特性的测试实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.元件伏安特性的测试实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.元件伏安特性的测试实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.元件伏安特性的测试实验报告.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.元件伏安特性的测试实验目的.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly 电工电路试验台, Version=0.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.Speech, Version=10.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly Microsoft.Speech.VoiceXml, Version=10.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Interop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=None, flags=None
+Assembly AxInterop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=None, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.底部: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.SerialControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    serialPortOpen(String): PrivateScope, Public, HideBySig
+    serialPort1Close(): PrivateScope, Public, HideBySig
+    Send(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SendNoCrc(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    Recv(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, Int32): PrivateScope, Public, HideBySig
+    RecvNoCrc(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, Int32): PrivateScope, Public, HideBySig
+    check_crc16(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+Class 电工电路试验台.SerialHandle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SerialHandleInit(): PrivateScope, Public, HideBySig
+    SerialHandleClose(): PrivateScope, Public, HideBySig
+    GetMonitorTesterId(): PrivateScope, Public, HideBySig
+    GetliKongData(S_PLCRecv*): PrivateScope, Public, HideBySig
+    MonitorTesterId(UInt32): PrivateScope, Public, HideBySig
+Class 电工电路试验台.SerialControlSource: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SerialHandleInit(): PrivateScope, Public, HideBySig
+    SerialHandleClose(): PrivateScope, Public, HideBySig
+    SetDirectVoltage(Int32): PrivateScope, Public, HideBySig
+    SetDirectCurrent(Int32): PrivateScope, Public, HideBySig
+    SetAlternatingVoltage(SByte IsSignUnspecifiedByte, Int32): PrivateScope, Public, HideBySig
+    OpenSource(Int32): PrivateScope, Public, HideBySig
+    CloseSource(Int32): PrivateScope, Public, HideBySig
+    SetWaveForm(Int32): PrivateScope, Public, HideBySig
+    SetFrequency(Int32): PrivateScope, Public, HideBySig
+Class 电工电路试验台.Voice: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Close(): PrivateScope, Public, HideBySig
+    SetVolume(Int32): PrivateScope, Public, HideBySig
+    SetRate(Int32): PrivateScope, Public, HideBySig
+    Speak(String): PrivateScope, Public, HideBySig
+Class 电工电路试验台.Waver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Init(): PrivateScope, Public, HideBySig
+    Add(PictureBox): PrivateScope, Public, HideBySig
+    Add(Label, Color): PrivateScope, Public, HideBySig
+    waver(): PrivateScope, Public, HideBySig
+    twaver(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.VideoShowWidget: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Clear(): PrivateScope, Public, HideBySig
+    AddLabel(Label, Int32): PrivateScope, Public, HideBySig
+    ShowLabel(Int32): PrivateScope, Public, HideBySig
+    SuddenChange(Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Pupilage : Public, Static
+    System.Threading.Thread t : Public, Static
+    S_PLCRecv* PLCRecv : Public, Static
+    电工电路试验台.SerialHandle sh : Public, Static
+    电工电路试验台.SerialControlSource scs : Public, Static
+    电工电路试验台.Voice voice : Public, Static
+  Methods:
+    SystemStart(): PrivateScope, Public, Static, HideBySig
+    SystemShortDown(): PrivateScope, Public, Static, HideBySig
+    LiKongMonter(): PrivateScope, Public, Static, HideBySig
+    SetDV(String): PrivateScope, Public, Static, HideBySig
+Class 电工电路试验台.元件伏安特性的测试实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.元件伏安特性的测试实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.元件伏安特性的测试实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.元件伏安特性的测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.元件伏安特性的测试实验报告: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验步骤: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

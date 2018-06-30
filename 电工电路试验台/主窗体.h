@@ -1,0 +1,398 @@
+#pragma once
+#include <windows.h>
+#include "tool/gradeSubmit.h"
+namespace 电工电路试验台 {
+
+	using namespace System;
+	using namespace System::ComponentModel;
+	using namespace System::Collections;
+	using namespace System::Windows::Forms;
+	using namespace System::Data;
+	using namespace System::Drawing;
+
+	/// <summary>
+	/// 主窗体 摘要
+	/// </summary>
+	public ref class 主窗体 : public System::Windows::Forms::Form
+	{
+	public:
+		主窗体(void)
+		{
+			InitializeComponent();
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Font = gcnew System::Drawing::Font("宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+
+			//
+			//TODO:  在此处添加构造函数代码
+			//
+		}
+
+	protected:
+		/// <summary>
+		/// 清理所有正在使用的资源。
+		/// </summary>
+		~主窗体()
+		{
+			if (components)
+			{
+				delete components;
+			}
+		}
+	private: System::Windows::Forms::Panel^  panel1;
+
+
+
+	private: System::Windows::Forms::PictureBox^  pictureBox1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	private: System::Windows::Forms::ImageList^  imageList1;
+	private: System::Windows::Forms::Panel^  panel2;
+	private: System::Windows::Forms::Label^  label6;
+
+	private: System::Windows::Forms::Label^  label4;
+	private: System::Windows::Forms::Label^  label3;
+	private: System::Windows::Forms::Label^  label2;
+	private: System::Windows::Forms::ListView^  listView1;
+
+	private: System::Windows::Forms::Label^  label1;
+	private: System::Windows::Forms::Label^  label7;
+
+
+
+
+	private: System::Windows::Forms::Panel^  panel4;
+	private: System::Windows::Forms::ColumnHeader^  columnHeader1;
+	private: System::Windows::Forms::Label^  label5;
+	private: System::ComponentModel::IContainer^  components;
+	protected:
+
+	private:
+		/// <summary>
+		/// 必需的设计器变量。
+		/// </summary>
+
+
+#pragma region Windows Form Designer generated code
+		/// <summary>
+		/// 设计器支持所需的方法 - 不要修改
+		/// 使用代码编辑器修改此方法的内容。
+		/// </summary>
+		void InitializeComponent(void)
+		{
+			this->components = (gcnew System::ComponentModel::Container());
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(主窗体::typeid));
+			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->listView1 = (gcnew System::Windows::Forms::ListView());
+			this->columnHeader1 = (gcnew System::Windows::Forms::ColumnHeader());
+			this->imageList1 = (gcnew System::Windows::Forms::ImageList(this->components));
+			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->panel4 = (gcnew System::Windows::Forms::Panel());
+			this->panel1->SuspendLayout();
+			this->panel2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			this->SuspendLayout();
+			// 
+			// panel1
+			// 
+			this->panel1->Controls->Add(this->panel2);
+			this->panel1->Controls->Add(this->pictureBox1);
+			this->panel1->Dock = System::Windows::Forms::DockStyle::Left;
+			this->panel1->Location = System::Drawing::Point(0, 0);
+			this->panel1->Name = L"panel1";
+			this->panel1->Size = System::Drawing::Size(319, 1053);
+			this->panel1->TabIndex = 1;
+			// 
+			// panel2
+			// 
+			this->panel2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"panel2.BackgroundImage")));
+			this->panel2->Controls->Add(this->label5);
+			this->panel2->Controls->Add(this->label7);
+			this->panel2->Controls->Add(this->label6);
+			this->panel2->Controls->Add(this->label4);
+			this->panel2->Controls->Add(this->label3);
+			this->panel2->Controls->Add(this->label2);
+			this->panel2->Controls->Add(this->listView1);
+			this->panel2->Controls->Add(this->label1);
+			this->panel2->Dock = System::Windows::Forms::DockStyle::Bottom;
+			this->panel2->Location = System::Drawing::Point(0, 262);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(319, 791);
+			this->panel2->TabIndex = 1;
+			// 
+			// label5
+			// 
+			this->label5->AutoSize = true;
+			this->label5->BackColor = System::Drawing::Color::Transparent;
+			this->label5->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label5->ForeColor = System::Drawing::Color::Green;
+			this->label5->Location = System::Drawing::Point(75, 626);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(149, 24);
+			this->label5->TabIndex = 9;
+			this->label5->Text = L"实 验 报 告";
+			this->label5->Click += gcnew System::EventHandler(this, &主窗体::label5_Click);
+			// 
+			// label7
+			// 
+			this->label7->AutoSize = true;
+			this->label7->BackColor = System::Drawing::Color::Transparent;
+			this->label7->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label7->ForeColor = System::Drawing::Color::Red;
+			this->label7->Location = System::Drawing::Point(98, 687);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(99, 24);
+			this->label7->TabIndex = 8;
+			this->label7->Text = L"退   出";
+			this->label7->Click += gcnew System::EventHandler(this, &主窗体::label7_Click);
+			// 
+			// label6
+			// 
+			this->label6->AutoSize = true;
+			this->label6->BackColor = System::Drawing::Color::Transparent;
+			this->label6->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label6->ForeColor = System::Drawing::Color::Green;
+			this->label6->Location = System::Drawing::Point(75, 573);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(149, 24);
+			this->label6->TabIndex = 7;
+			this->label6->Text = L"实 验 内 容";
+			this->label6->Click += gcnew System::EventHandler(this, &主窗体::label6_Click);
+			// 
+			// label4
+			// 
+			this->label4->AutoSize = true;
+			this->label4->BackColor = System::Drawing::Color::Transparent;
+			this->label4->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label4->ForeColor = System::Drawing::Color::Green;
+			this->label4->Location = System::Drawing::Point(75, 521);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(149, 24);
+			this->label4->TabIndex = 5;
+			this->label4->Text = L"实 验 器 件";
+			this->label4->Click += gcnew System::EventHandler(this, &主窗体::label4_Click);
+			// 
+			// label3
+			// 
+			this->label3->AutoSize = true;
+			this->label3->BackColor = System::Drawing::Color::Transparent;
+			this->label3->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label3->ForeColor = System::Drawing::Color::Green;
+			this->label3->Location = System::Drawing::Point(75, 471);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(149, 24);
+			this->label3->TabIndex = 4;
+			this->label3->Text = L"实 验 原 理";
+			this->label3->Click += gcnew System::EventHandler(this, &主窗体::label3_Click);
+			// 
+			// label2
+			// 
+			this->label2->AutoSize = true;
+			this->label2->BackColor = System::Drawing::Color::Transparent;
+			this->label2->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label2->ForeColor = System::Drawing::Color::Green;
+			this->label2->Location = System::Drawing::Point(75, 423);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(149, 24);
+			this->label2->TabIndex = 3;
+			this->label2->Text = L"实 验 目 的";
+			this->label2->Click += gcnew System::EventHandler(this, &主窗体::label2_Click);
+			// 
+			// listView1
+			// 
+			this->listView1->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(224)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
+				static_cast<System::Int32>(static_cast<System::Byte>(224)));
+			this->listView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::ColumnHeader^  >(1) { this->columnHeader1 });
+			this->listView1->Font = (gcnew System::Drawing::Font(L"宋体", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->listView1->FullRowSelect = true;
+			this->listView1->GridLines = true;
+			this->listView1->HeaderStyle = System::Windows::Forms::ColumnHeaderStyle::None;
+			this->listView1->Location = System::Drawing::Point(3, 54);
+			this->listView1->Name = L"listView1";
+			this->listView1->Size = System::Drawing::Size(313, 322);
+			this->listView1->SmallImageList = this->imageList1;
+			this->listView1->TabIndex = 2;
+			this->listView1->UseCompatibleStateImageBehavior = false;
+			this->listView1->View = System::Windows::Forms::View::Details;
+			this->listView1->SelectedIndexChanged += gcnew System::EventHandler(this, &主窗体::listView1_SelectedIndexChanged);
+			// 
+			// imageList1
+			// 
+			this->imageList1->ColorDepth = System::Windows::Forms::ColorDepth::Depth8Bit;
+			this->imageList1->ImageSize = System::Drawing::Size(1, 30);
+			this->imageList1->TransparentColor = System::Drawing::Color::Transparent;
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->BackColor = System::Drawing::Color::Transparent;
+			this->label1->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label1->Location = System::Drawing::Point(98, 12);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(110, 24);
+			this->label1->TabIndex = 1;
+			this->label1->Text = L"实验目录";
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(0, 0);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(319, 209);
+			this->pictureBox1->TabIndex = 0;
+			this->pictureBox1->TabStop = false;
+			// 
+			// panel4
+			// 
+			this->panel4->BackColor = System::Drawing::Color::Transparent;
+			this->panel4->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->panel4->Location = System::Drawing::Point(319, 0);
+			this->panel4->Name = L"panel4";
+			this->panel4->Size = System::Drawing::Size(1518, 1053);
+			this->panel4->TabIndex = 6;
+			this->panel4->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &主窗体::panel4_Paint);
+			// 
+			// 主窗体
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(1837, 1053);
+			this->ControlBox = false;
+			this->Controls->Add(this->panel4);
+			this->Controls->Add(this->panel1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->IsMdiContainer = true;
+			this->MaximizeBox = false;
+			this->MinimizeBox = false;
+			this->Name = L"主窗体";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
+			this->Text = L"主窗体";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			this->Load += gcnew System::EventHandler(this, &主窗体::主窗体_Load);
+			this->panel1->ResumeLayout(false);
+			this->panel2->ResumeLayout(false);
+			this->panel2->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
+			this->ResumeLayout(false);
+
+		}
+#pragma endregion
+	private: System::Void 主窗体_Load(System::Object^  sender, System::EventArgs^  e) {
+		show实验目的F();
+		实验目的click(6);
+		listView1Load();
+	}
+			void listView1Load(){
+				listView1->Items->Clear();
+
+				for (int i = 0; i < Grades.size(); i++) {
+					listView1->Items->Add(gcnew String(Grades[i+1].c_str()));
+				}
+				listView1->Columns[0]->Width = -2;
+			}
+private: System::Void label2_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (listView1->SelectedIndices->Count == 0) return;
+	int index = listView1->SelectedIndices[0] + 1;
+	show实验目的F();
+	实验目的click(index);
+}
+private: System::Void label3_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (listView1->SelectedIndices->Count == 0) return;
+	int index = listView1->SelectedIndices[0] + 1;
+	 show实验原理F();
+	 实验原理click(index);
+}
+private: System::Void label4_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (listView1->SelectedIndices->Count == 0) return;
+	int index = listView1->SelectedIndices[0] + 1;
+	 show实验器件F();
+	 实验器件click(index);
+}
+
+private: System::Void label6_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (listView1->SelectedIndices->Count == 0) return;
+	int index = listView1->SelectedIndices[0] + 1;
+	show实验内容F();
+	实验内容click(index);
+}
+private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+	if ( listView1->SelectedIndices->Count == 0) return ;
+	listViewForeBlack();
+	listView1->SelectedItems[0]->ForeColor = Color::YellowGreen;
+	SelectWindows(listView1->SelectedIndices[0] + 1);
+}
+		 void show实验目的F();
+		 void show实验原理F();
+		 void show实验器件F();
+		 void show实验内容F();
+		 void show实验报告F();
+		 void showBlackF();
+         /*******设置前景色******/
+		 void SelectWindows(int index);
+		 void listViewForeBlack();
+		 void CloseAllMidchild();
+		 bool GetWindowsChild(String ^FormName);
+
+		 /*******窗体打开******/
+		 void open元件伏安特性的测试实验目的();
+		 void open元件伏安特性的测试实验原理();
+		 void open元件伏安特性的测试实验器件();
+		 void open元件伏安特性的测试实验内容();
+
+
+		 void open一阶电路的响应测试实验目的();
+		 void open一阶电路的响应测试实验原理();
+		 void open一阶电路的响应测试实验器件();
+		 void open一阶电路的响应测试实验内容();
+		 
+		 /*******实验具体按钮点击******/
+		 void 实验目的click(int index);
+		 void 实验原理click(int index);
+		 void 实验器件click(int index);
+		 void 实验步骤click(int index);
+		 void 实验内容click(int index);
+		 void 实验报告click(int index);
+
+
+	private: System::Void label7_Click(System::Object^  sender, System::EventArgs^  e) {
+		exit(-1);
+	}
+
+
+private: System::Void panel4_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
+}
+private: System::Void label5_Click(System::Object^  sender, System::EventArgs^  e) {
+	if (listView1->SelectedIndices->Count == 0) return;
+	int index = listView1->SelectedIndices[0] + 1;
+	show实验报告F();
+	实验报告click(index);
+}
+};
+}

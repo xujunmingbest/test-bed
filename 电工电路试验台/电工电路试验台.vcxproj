@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9086D3C2-666D-47D2-91C8-9BE6C5D60E98}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>电工电路试验台</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Speech">
+      <HintPath>C:\Program Files\Microsoft Speech Platform SDK\Assembly\Microsoft.Speech.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Speech.VoiceXml">
+      <HintPath>C:\Program Files\Microsoft Speech Platform SDK\Assembly\Microsoft.Speech.VoiceXml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tool\gradeSubmit.h" />
+    <ClInclude Include="tool\json\autolink.h" />
+    <ClInclude Include="tool\json\config.h" />
+    <ClInclude Include="tool\json\features.h" />
+    <ClInclude Include="tool\json\forwards.h" />
+    <ClInclude Include="tool\json\json.h" />
+    <ClInclude Include="tool\json\json_batchallocator.h" />
+    <ClInclude Include="tool\json\reader.h" />
+    <ClInclude Include="tool\json\value.h" />
+    <ClInclude Include="tool\json\writer.h" />
+    <ClInclude Include="tool\log.h" />
+    <ClInclude Include="tool\message_Queue.h" />
+    <ClInclude Include="tool\Ref_global_var.h" />
+    <ClInclude Include="tool\resource.h" />
+    <ClInclude Include="tool\seriesPort.h" />
+    <ClInclude Include="tool\SynchroShortConnection.h" />
+    <ClInclude Include="tool\SysLog.h" />
+    <ClInclude Include="tool\ThreeSegmentTransmissionProtocol.h" />
+    <ClInclude Include="tool\tool.h" />
+    <ClInclude Include="tool\uci\CMD_COMVer2.h" />
+    <ClInclude Include="tool\uci\comApiDef.h" />
+    <ClInclude Include="tool\uci\dso_base.h" />
+    <ClInclude Include="tool\uci\ItemCode_COMVer2.h" />
+    <ClInclude Include="tool\uci\uci.h" />
+    <ClInclude Include="tool\uci\ucidef.h" />
+    <ClInclude Include="tool\uci\uci_cpp.h" />
+    <ClInclude Include="tool\uci\unit.h" />
+    <ClInclude Include="tool\uci\UPO.h" />
+    <ClInclude Include="tool\uci\UTG2025Def.h" />
+    <ClInclude Include="tool\uci\UTG4162.h" />
+    <ClInclude Include="tool\xml\tinystr.h" />
+    <ClInclude Include="tool\xml\tinyxml.h" />
+    <ClInclude Include="tool\xml\xml.h" />
+    <ClInclude Include="tool\_Mutex.h" />
+    <ClInclude Include="一阶电路的响应测试实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验步骤.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="主窗体.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验报告.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="实验汇总头文件.h" />
+    <ClInclude Include="底部.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="一阶电路的响应测试实验内容.resx">
+      <DependentUpon>一阶电路的响应测试实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验原理.resx">
+      <DependentUpon>一阶电路的响应测试实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验器件.resx">
+      <DependentUpon>一阶电路的响应测试实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验步骤.resx">
+      <DependentUpon>一阶电路的响应测试实验步骤.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验目的.resx">
+      <DependentUpon>一阶电路的响应测试实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="主窗体.resx">
+      <DependentUpon>主窗体.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验内容.resx">
+      <DependentUpon>元件伏安特性的测试实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验原理.resx">
+      <DependentUpon>元件伏安特性的测试实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验器件.resx">
+      <DependentUpon>元件伏安特性的测试实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验报告.resx">
+      <DependentUpon>元件伏安特性的测试实验报告.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验目的.resx">
+      <DependentUpon>元件伏安特性的测试实验目的.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mdi子窗体注册.cpp" />
+    <ClCompile Include="tool\exception.cpp" />
+    <ClCompile Include="tool\json\json_reader.cpp" />
+    <ClCompile Include="tool\json\json_value.cpp" />
+    <ClCompile Include="tool\json\json_writer.cpp" />
+    <ClCompile Include="tool\json\main.cpp" />
+    <ClCompile Include="tool\MdiFormControl.cpp" />
+    <ClCompile Include="tool\oscillograph.cpp" />
+    <ClCompile Include="tool\resource.cpp" />
+    <ClCompile Include="tool\seriesPort.cpp" />
+    <ClCompile Include="tool\SynchroShortConnection.cpp" />
+    <ClCompile Include="tool\tool.cpp" />
+    <ClCompile Include="tool\waver.cpp" />
+    <ClCompile Include="tool\xml\tinystr.cpp" />
+    <ClCompile Include="tool\xml\tinyxml.cpp" />
+    <ClCompile Include="tool\xml\tinyxmlerror.cpp" />
+    <ClCompile Include="tool\xml\tinyxmlparser.cpp" />
+    <ClCompile Include="tool\xml\xml.cpp" />
+    <ClCompile Include="tool\_Mutex.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="主窗体.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tool\ClassDiagram.cd" />
+    <None Include="tool\json\json_internalarray.inl" />
+    <None Include="tool\json\json_internalmap.inl" />
+    <None Include="tool\json\json_valueiterator.inl" />
+    <None Include="tool\json\sconscript" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tool\log.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ShockwaveFlashObjects.1.0.dll">
+      <Guid>d27cdb6b-ae6d-11cf-96b8-444553540000</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>false</Isolated>
+    </COMReference>
+    <COMReference Include="AxShockwaveFlashObjects.1.0.dll">
+      <Guid>d27cdb6b-ae6d-11cf-96b8-444553540000</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>aximp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="pz.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

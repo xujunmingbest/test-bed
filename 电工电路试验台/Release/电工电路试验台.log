@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are main.cpp, tool\json\main.cpp.
+  mdi子窗体注册.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(315): warning C4018: “<”: 有符号/无符号不匹配
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+Release\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  电工电路试验台.vcxproj -> E:\clr中腾\电工电路试验台\Release\电工电路试验台.exe
+  电工电路试验台.vcxproj -> E:\clr中腾\电工电路试验台\Release\电工电路试验台.pdb (Full PDB)

@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="一阶电路的响应测试">
+      <UniqueIdentifier>{f6b5221e-f7a9-4f70-a78d-6ba437f55a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="元件伏安特性的测试">
+      <UniqueIdentifier>{26079419-ec97-45d2-98ed-c92855c3d8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{d5ba7a50-1194-46c7-bc9c-7785b30f98ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\xml">
+      <UniqueIdentifier>{a4240ba6-44b8-49fb-b4fb-e77015962577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\json">
+      <UniqueIdentifier>{15b044c1-5977-4559-9bca-a405f7600750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\uci">
+      <UniqueIdentifier>{9ee5709c-4f8a-44bd-82b0-97cfb27e35a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="配置文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="主窗体.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验目的.h">
+      <Filter>一阶电路的响应测试</Filter>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验原理.h">
+      <Filter>一阶电路的响应测试</Filter>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验器件.h">
+      <Filter>一阶电路的响应测试</Filter>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验步骤.h">
+      <Filter>一阶电路的响应测试</Filter>
+    </ClInclude>
+    <ClInclude Include="一阶电路的响应测试实验内容.h">
+      <Filter>一阶电路的响应测试</Filter>
+    </ClInclude>
+    <ClInclude Include="实验汇总头文件.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验目的.h">
+      <Filter>元件伏安特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验原理.h">
+      <Filter>元件伏安特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验器件.h">
+      <Filter>元件伏安特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验内容.h">
+      <Filter>元件伏安特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\_Mutex.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\gradeSubmit.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\log.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\message_Queue.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Ref_global_var.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\resource.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\seriesPort.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\SynchroShortConnection.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\SysLog.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\ThreeSegmentTransmissionProtocol.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\tool.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="底部.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\autolink.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\config.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\features.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\forwards.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\json.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\json_batchallocator.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\reader.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\value.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\json\writer.h">
+      <Filter>tool\json</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\CMD_COMVer2.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\comApiDef.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\dso_base.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\ItemCode_COMVer2.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\uci.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\uci_cpp.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\ucidef.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\unit.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\UPO.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\UTG2025Def.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\uci\UTG4162.h">
+      <Filter>tool\uci</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\xml\tinystr.h">
+      <Filter>tool\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\xml\tinyxml.h">
+      <Filter>tool\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\xml\xml.h">
+      <Filter>tool\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验报告.h">
+      <Filter>元件伏安特性的测试</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="主窗体.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mdi子窗体注册.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\_Mutex.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\exception.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\MdiFormControl.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\oscillograph.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\resource.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\seriesPort.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\SynchroShortConnection.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\tool.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\json\json_reader.cpp">
+      <Filter>tool\json</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\json\json_value.cpp">
+      <Filter>tool\json</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\json\json_writer.cpp">
+      <Filter>tool\json</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\json\main.cpp">
+      <Filter>tool\json</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\xml\tinystr.cpp">
+      <Filter>tool\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\xml\tinyxml.cpp">
+      <Filter>tool\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\xml\tinyxmlerror.cpp">
+      <Filter>tool\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\xml\tinyxmlparser.cpp">
+      <Filter>tool\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\xml\xml.cpp">
+      <Filter>tool\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\waver.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="一阶电路的响应测试实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验步骤.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="一阶电路的响应测试实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="主窗体.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="元件伏安特性的测试实验报告.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tool\ClassDiagram.cd">
+      <Filter>tool</Filter>
+    </None>
+    <None Include="tool\json\json_internalarray.inl">
+      <Filter>tool\json</Filter>
+    </None>
+    <None Include="tool\json\json_internalmap.inl">
+      <Filter>tool\json</Filter>
+    </None>
+    <None Include="tool\json\json_valueiterator.inl">
+      <Filter>tool\json</Filter>
+    </None>
+    <None Include="tool\json\sconscript">
+      <Filter>tool\json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tool\log.txt">
+      <Filter>tool</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="pz.xml">
+      <Filter>配置文件</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
