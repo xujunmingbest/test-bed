@@ -217,7 +217,7 @@ int GetDcNum(string &in);
 String^ DcNumToString(uint in, uint DcSymbol); /*返回数值 有 整数和小数*/
 
 
-void SetDVNum(String ^text,int min,int max);
+bool SetDVNum(String ^text,int min,int max);
 
 
 struct oscillographParam {

@@ -174,6 +174,9 @@
     <ClInclude Include="元件伏安特性的测试实验报告.h">
       <Filter>元件伏安特性的测试</Filter>
     </ClInclude>
+    <ClInclude Include="元件伏安特性的测试.h">
+      <Filter>元件伏安特性的测试</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -238,6 +241,9 @@
     </ClCompile>
     <ClCompile Include="tool\waver.cpp">
       <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="元件伏安特性的测试.cpp">
+      <Filter>元件伏安特性的测试</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -189,6 +189,7 @@
     <ClInclude Include="主窗体.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="元件伏安特性的测试.h" />
     <ClInclude Include="元件伏安特性的测试实验内容.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -266,6 +267,7 @@
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
     </ClCompile>
     <ClCompile Include="主窗体.cpp" />
+    <ClCompile Include="元件伏安特性的测试.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="tool\ClassDiagram.cd" />

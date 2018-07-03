@@ -14,4 +14,4 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	global::SystemShortDown();
 
 	global::SystemShortDown();
-}   
+}     

@@ -5,6 +5,16 @@ e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
 e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验内容.h(7552): warning C4101: “E”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4232): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4250): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4261): warning C4101: “e”: 未引用的局部变量
+  元件伏安特性的测试.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4232): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4250): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4261): warning C4101: “e”: 未引用的局部变量
+元件伏安特性的测试.cpp(77): warning C4101: “E”: 未引用的局部变量
+  正在生成代码...
 Release\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
   电工电路试验台.vcxproj -> E:\clr中腾\电工电路试验台\Release\电工电路试验台.exe
   电工电路试验台.vcxproj -> E:\clr中腾\电工电路试验台\Release\电工电路试验台.pdb (Full PDB)

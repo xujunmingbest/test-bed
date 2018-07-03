@@ -260,29 +260,28 @@ void global::SetDV(String^t)
 }
 
 
-void SetDVNum(String ^text,int min,int max) {
+bool SetDVNum(String ^text,int min,int max) {
 	string a = IsDClegal(text);
 	if (a.length() == 0) {
 		MessageBox::Show("输入不合法");
-		return;
+		return false;
 	}
 	int num = GetDcNum(a);
 	if (num < min * 100) {
 		MessageBox::Show("不能小于" + min.ToString());
-		return;
+		return false;
 	}
 	if (num > max * 100) {
 		MessageBox::Show("不能大于" + max.ToString());
-		return;
+		return false;
 	}
 
 	if (!global::scs->SetDirectVoltage(num)) {
 		MessageBox::Show("设置失败");
-		return;
+		return false;
 	}
 	else {
 		//MessageBox::Show("设置成功");
-		return;
+		return true;
 	}
-
 }
