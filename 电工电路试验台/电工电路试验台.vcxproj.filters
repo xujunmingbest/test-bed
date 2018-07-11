@@ -31,6 +31,15 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="登入">
+      <UniqueIdentifier>{d3d1f496-9233-4572-bf6b-0c0da1032ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{40e9f0b1-c057-4ddd-8a49-9eb719280679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data_transf">
+      <UniqueIdentifier>{3e737d6e-7c7c-433a-84e3-9b8fdfcc8ee1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="主窗体.h">
@@ -60,9 +69,6 @@
     <ClInclude Include="元件伏安特性的测试实验原理.h">
       <Filter>元件伏安特性的测试</Filter>
     </ClInclude>
-    <ClInclude Include="元件伏安特性的测试实验器件.h">
-      <Filter>元件伏安特性的测试</Filter>
-    </ClInclude>
     <ClInclude Include="元件伏安特性的测试实验内容.h">
       <Filter>元件伏安特性的测试</Filter>
     </ClInclude>
@@ -87,13 +93,7 @@
     <ClInclude Include="tool\seriesPort.h">
       <Filter>tool</Filter>
     </ClInclude>
-    <ClInclude Include="tool\SynchroShortConnection.h">
-      <Filter>tool</Filter>
-    </ClInclude>
     <ClInclude Include="tool\SysLog.h">
-      <Filter>tool</Filter>
-    </ClInclude>
-    <ClInclude Include="tool\ThreeSegmentTransmissionProtocol.h">
       <Filter>tool</Filter>
     </ClInclude>
     <ClInclude Include="tool\tool.h">
@@ -177,6 +177,21 @@
     <ClInclude Include="元件伏安特性的测试.h">
       <Filter>元件伏安特性的测试</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\c++\libsocket\libsocket\libsocket.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="loginWnd.h">
+      <Filter>登入</Filter>
+    </ClInclude>
+    <ClInclude Include="data_transf.h">
+      <Filter>data_transf</Filter>
+    </ClInclude>
+    <ClInclude Include="元件伏安特性的测试实验器件.h">
+      <Filter>元件伏安特性的测试</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -204,9 +219,6 @@
       <Filter>tool</Filter>
     </ClCompile>
     <ClCompile Include="tool\seriesPort.cpp">
-      <Filter>tool</Filter>
-    </ClCompile>
-    <ClCompile Include="tool\SynchroShortConnection.cpp">
       <Filter>tool</Filter>
     </ClCompile>
     <ClCompile Include="tool\tool.cpp">
@@ -245,6 +257,12 @@
     <ClCompile Include="元件伏安特性的测试.cpp">
       <Filter>元件伏安特性的测试</Filter>
     </ClCompile>
+    <ClCompile Include="monitor.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="data_transf.cpp">
+      <Filter>data_transf</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="一阶电路的响应测试实验内容.resx">
@@ -278,6 +296,9 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="元件伏安特性的测试实验报告.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginWnd.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
   </ItemGroup>

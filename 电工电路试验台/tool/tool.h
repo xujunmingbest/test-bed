@@ -1,13 +1,15 @@
 #pragma once
+#ifndef TOOL_h__
+#define TOOL_h__
 #include <windows.h>
 #include <iostream>
 #include "xml/xml.h"
 #include "log.h"
 #include "SysLog.h"
-#include "ThreeSegmentTransmissionProtocol.h"
 #include "message_Queue.h"
 #include "seriesPort.h"
-
+#include "../monitor.h"
+#include "gradeSubmit.h"
 using namespace std;
 #include "底部.h"
 using namespace 电工电路试验台;
@@ -28,7 +30,6 @@ public:
 };
 
 extern CControl g_c;
-extern ThreeSegmentTransmissionProtocol g_TSTP;
 void voice_speek(String^ in);
 
 
@@ -281,13 +282,16 @@ public:
 
 
 
+
 #define LOGINNORMAL 1;
 #define LOGINYOUKE 2;
+
+
+static moniter g_moniter;
 
 public ref class global {
 public:
 	static String ^Pupilage;
-
 	static Thread ^ t;
 
 	static void SystemStart();
@@ -304,7 +308,10 @@ public:
 	*/
 	static void LiKongMonter();
 	static void SetDV(String^t);
+
 };
+void StartMonitor();
+
 
 void CloseAllMidchild(Form ^Parent);
 Form^ GetWindowsChild(String ^FormName, Form ^Parent);
@@ -315,3 +322,9 @@ void MsgQueueRegister();
 #define DATATEMP "datatemp/"
 
 #define LAYSIZE  16
+
+
+String ^GenerateOrderNumber();
+
+
+#endif

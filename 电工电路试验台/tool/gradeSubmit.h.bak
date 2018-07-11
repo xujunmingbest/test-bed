@@ -1,0 +1,407 @@
+#pragma once
+
+
+#include<map>
+using namespace std;
+
+
+#define uint unsigned int 
+#define RECVGRADEPORT 1235
+#define GRADESAVEPATH "data/"
+/*****实验编号****/
+
+ static map<int, string> Grades = {
+	{ 1,"元件伏安特性测试" },
+	{ 2,"基尔霍夫定理" },
+	{ 3,"叠加原理" },
+	{ 4,"戴维南定理" },
+	{ 5,"电压源与电流源的等效变换" },
+	{ 6,"一阶电路的响应测试"},
+	{ 7,"二阶动态电路响应的研究" },
+	{ 8,"VCVS、VCCS、CCVS、CCCS实验" },
+	{ 9,"二端口网络的研究" },
+	{ 10,"最大功率传输条件的测定" },
+	{ 11,"电路状态轨迹的观测" },
+	{ 12,"R、L、C元件阻抗特性的测定" },
+	{ 13,"R、L、C串联谐振电路的研究" },
+	{ 14,"单相铁心变压器特性的测试" },
+	{ 15,"单相电度表实验" },
+	{ 16,"三相交流电路电压、电流的测量" },
+	{ 17,"日光灯功率因数的提高" },
+	{ 18,"回转器" },
+	{ 19,"三相电路功率的测量" },
+	{ 20,"负阻抗变换器" },
+	{ 21,"RC网络的频率特性" },
+	{ 22,"仪表量程的扩展" },
+	{ 23,"互感器" },
+	{ 24,"基本电工仪表的使用与测量误差的计算" },
+	{ 25,"功率因数及相序的测量" },
+};
+
+
+#pragma pack(push,1)
+
+
+struct GradesHead {
+	char RequestType[50]; //请求类型 SAVEFILE|RETMSG|
+	char MsgType[50];  // 报文类型 XML/JSON/PIC
+	int TrialCode; 
+	char TrialName[100];
+	char DateTime[20]; //20180528-165401
+	char className[100]; // 学生身份
+	char FileName[200]; //文件名称
+};
+
+//基尔霍夫定理实验结构体  
+//relative error = r_v
+//measured value = m_v
+//calculated value = c_v
+struct KirchhoffTheorem {
+	int I1_c_v; //计算值 
+	int I1_m_v; //测量值
+	int I1_r_e; //相对误差
+	int I2_c_v; //计算值
+	int I2_m_v; //测量值
+	int I2_r_e; //相对误差
+	int I3_c_v; //计算值
+	int I3_m_v; //测量值
+	int I3_r_e; //相对误差
+	int U11_c_v; //计算值
+	int U11_m_v; //测量值
+	int U11_r_e; //相对误差
+	int U12_c_v; //计算值
+	int U12_m_v; //测量值
+	int U12_r_e; //相对误差
+	int Ufa_c_v; //计算值
+	int Ufa_m_v; //测量值
+	int Ufa_r_e; //相对误差
+	int Uab_c_v; //计算值
+	int Uab_m_v; //测量值
+	int Uab_r_e; //相对误差
+	int Uad_c_v; //计算值
+	int Uad_m_v; //测量值
+	int Uad_r_e; //相对误差
+	int Ucd_c_v; //计算值
+	int Ucd_m_v; //测量值
+	int Ucd_r_e; //相对误差
+	int Ude_c_v; //计算值
+	int Ude_m_v; //测量值
+	int Ude_r_e; //相对误差
+};
+
+struct ST_元件伏安特性测试 {
+	char 线性SU1[10];
+	char 线性SU2;
+	char 线性SU3;
+	char SU4;
+	char SU5;
+	char SU6;
+	char SU7;
+	char SU8;
+	char SU9;
+	char SU10;
+	char U1;
+	char U2;
+	char U3;
+	char U4;
+	char U5;
+	char U6;
+	char U7;
+	char U8;
+	char U9;
+	char U10;
+	char I1;
+	char I2;
+	char I3;
+	char I4;
+	char I5;
+	char I6;
+	char I7;
+	char I8;
+	char I9;
+	char I10;
+	char summing_up;
+
+
+};
+
+namespace N_元件伏安特性的测试 {
+
+	public ref class s_线性电阻器 {
+	public:
+		static String ^SU1;
+		static String ^SU2;
+		static String ^SU3;
+		static String ^SU4;
+		static String ^SU5;
+		static String ^SU6;
+		static String ^SU7;
+		static String ^SU8;
+		static String ^SU9;
+		static String ^SU10;
+		static String ^U1;
+		static String ^U2;
+		static String ^U3;
+		static String ^U4;
+		static String ^U5;
+		static String ^U6;
+		static String ^U7;
+		static String ^U8;
+		static String ^U9;
+		static String ^U10;
+		static String ^I1;
+		static String ^I2;
+		static String ^I3;
+		static String ^I4;
+		static String ^I5;
+		static String ^I6;
+		static String ^I7;
+		static String ^I8;
+		static String ^I9;
+		static String ^I10;
+		static String ^summing_up;
+	};
+
+	public ref class s_白炽灯 {
+	public:
+		static String ^SU1;
+		static String ^SU2;
+		static String ^SU3;
+		static String ^SU4;
+		static String ^SU5;
+		static String ^SU6;
+		static String ^SU7;
+		static String ^SU8;
+		static String ^SU9;
+		static String ^SU10;
+		static String ^U1;
+		static String ^U2;
+		static String ^U3;
+		static String ^U4;
+		static String ^U5;
+		static String ^U6;
+		static String ^U7;
+		static String ^U8;
+		static String ^U9;
+		static String ^U10;
+		static String ^I1;
+		static String ^I2;
+		static String ^I3;
+		static String ^I4;
+		static String ^I5;
+		static String ^I6;
+		static String ^I7;
+		static String ^I8;
+		static String ^I9;
+		static String ^I10;
+		static String ^summing_up;
+	};
+
+	public ref class s_锗管 {
+	public:
+		static String ^ZSU1;
+		static String ^ZSU2;
+		static String ^ZSU3;
+		static String ^ZSU4;
+		static String ^ZSU5;
+		static String ^ZSU6;
+		static String ^ZSU7;
+		static String ^ZSU8;
+		static String ^ZSU9;
+		static String ^ZSU10;
+		static String ^ZU1;
+		static String ^ZU2;
+		static String ^ZU3;
+		static String ^ZU4;
+		static String ^ZU5;
+		static String ^ZU6;
+		static String ^ZU7;
+		static String ^ZU8;
+		static String ^ZU9;
+		static String ^ZU10;
+		static String ^ZI1;
+		static String ^ZI2;
+		static String ^ZI3;
+		static String ^ZI4;
+		static String ^ZI5;
+		static String ^ZI6;
+		static String ^ZI7;
+		static String ^ZI8;
+		static String ^ZI9;
+		static String ^ZI10;
+
+		static String ^FSU1;
+		static String ^FSU2;
+		static String ^FSU3;
+		static String ^FSU4;
+		static String ^FSU5;
+		static String ^FSU6;
+		static String ^FSU7;
+		static String ^FSU8;
+		static String ^FSU9;
+		static String ^FSU10;
+		static String ^FU1;
+		static String ^FU2;
+		static String ^FU3;
+		static String ^FU4;
+		static String ^FU5;
+		static String ^FU6;
+		static String ^FU7;
+		static String ^FU8;
+		static String ^FU9;
+		static String ^FU10;
+		static String ^FI1;
+		static String ^FI2;
+		static String ^FI3;
+		static String ^FI4;
+		static String ^FI5;
+		static String ^FI6;
+		static String ^FI7;
+		static String ^FI8;
+		static String ^FI9;
+		static String ^FI10;
+		static String ^summing_up;
+
+	};
+	public ref class s_硅管 {
+	public:
+		static String ^ZSU1;
+		static String ^ZSU2;
+		static String ^ZSU3;
+		static String ^ZSU4;
+		static String ^ZSU5;
+		static String ^ZSU6;
+		static String ^ZSU7;
+		static String ^ZSU8;
+		static String ^ZSU9;
+		static String ^ZSU10;
+		static String ^ZU1;
+		static String ^ZU2;
+		static String ^ZU3;
+		static String ^ZU4;
+		static String ^ZU5;
+		static String ^ZU6;
+		static String ^ZU7;
+		static String ^ZU8;
+		static String ^ZU9;
+		static String ^ZU10;
+		static String ^ZI1;
+		static String ^ZI2;
+		static String ^ZI3;
+		static String ^ZI4;
+		static String ^ZI5;
+		static String ^ZI6;
+		static String ^ZI7;
+		static String ^ZI8;
+		static String ^ZI9;
+		static String ^ZI10;
+
+		static String ^FSU1;
+		static String ^FSU2;
+		static String ^FSU3;
+		static String ^FSU4;
+		static String ^FSU5;
+		static String ^FSU6;
+		static String ^FSU7;
+		static String ^FSU8;
+		static String ^FSU9;
+		static String ^FSU10;
+		static String ^FU1;
+		static String ^FU2;
+		static String ^FU3;
+		static String ^FU4;
+		static String ^FU5;
+		static String ^FU6;
+		static String ^FU7;
+		static String ^FU8;
+		static String ^FU9;
+		static String ^FU10;
+		static String ^FI1;
+		static String ^FI2;
+		static String ^FI3;
+		static String ^FI4;
+		static String ^FI5;
+		static String ^FI6;
+		static String ^FI7;
+		static String ^FI8;
+		static String ^FI9;
+		static String ^FI10;
+		static String ^summing_up;
+
+	};
+	public ref class s_稳压 {
+	public:
+		static String ^ZSU1;
+		static String ^ZSU2;
+		static String ^ZSU3;
+		static String ^ZSU4;
+		static String ^ZSU5;
+		static String ^ZSU6;
+		static String ^ZSU7;
+		static String ^ZSU8;
+		static String ^ZSU9;
+		static String ^ZSU10;
+		static String ^ZU1;
+		static String ^ZU2;
+		static String ^ZU3;
+		static String ^ZU4;
+		static String ^ZU5;
+		static String ^ZU6;
+		static String ^ZU7;
+		static String ^ZU8;
+		static String ^ZU9;
+		static String ^ZU10;
+		static String ^ZI1;
+		static String ^ZI2;
+		static String ^ZI3;
+		static String ^ZI4;
+		static String ^ZI5;
+		static String ^ZI6;
+		static String ^ZI7;
+		static String ^ZI8;
+		static String ^ZI9;
+		static String ^ZI10;
+
+		static String ^FSU1;
+		static String ^FSU2;
+		static String ^FSU3;
+		static String ^FSU4;
+		static String ^FSU5;
+		static String ^FSU6;
+		static String ^FSU7;
+		static String ^FSU8;
+		static String ^FSU9;
+		static String ^FSU10;
+		static String ^FU1;
+		static String ^FU2;
+		static String ^FU3;
+		static String ^FU4;
+		static String ^FU5;
+		static String ^FU6;
+		static String ^FU7;
+		static String ^FU8;
+		static String ^FU9;
+		static String ^FU10;
+		static String ^FI1;
+		static String ^FI2;
+		static String ^FI3;
+		static String ^FI4;
+		static String ^FI5;
+		static String ^FI6;
+		static String ^FI7;
+		static String ^FI8;
+		static String ^FI9;
+		static String ^FI10;
+		static String ^summing_up;
+
+	};
+
+}
+
+
+
+
+
+
+#pragma pack(pop)
+

@@ -1,3 +1,4 @@
+  电工电路试验台.loginWnd.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -36,9 +37,6 @@ Assembly AxInterop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=固定语�
 	hash=None, flags=None
 Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
-Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.底部: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -111,6 +109,12 @@ Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     SystemShortDown(): PrivateScope, Public, Static, HideBySig
     LiKongMonter(): PrivateScope, Public, Static, HideBySig
     SetDV(String): PrivateScope, Public, Static, HideBySig
+Class 电工电路试验台.loginWnd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.元件伏安特性的测试实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -155,7 +159,7 @@ Class N_元件伏安特性的测试.s_线性电阻器: AutoLayout, AnsiClass, Cl
     System.String I9 : Public, Static
     System.String I10 : Public, Static
     System.String summing_up : Public, Static
-Class N_元件伏安特性的测试.s_白炽灯电阻器: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class N_元件伏安特性的测试.s_白炽灯: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     System.String SU1 : Public, Static

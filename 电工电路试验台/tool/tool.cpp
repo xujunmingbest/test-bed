@@ -197,11 +197,13 @@ void global::SystemStart()
 		LOG_DETAIL("控制电源模块串口初始化失败");
 	}
 	oscillograph::oscillographOpen();
+	Thread ^ t = gcnew Thread(gcnew ThreadStart(StartMonitor));
+	t->Start();
 }
 
-
-
-
+void StartMonitor() {
+	g_moniter.Start();
+}
 
 void global::SystemShortDown()
 {
@@ -284,4 +286,12 @@ bool SetDVNum(String ^text,int min,int max) {
 		//MessageBox::Show("设置成功");
 		return true;
 	}
+}
+
+String ^GenerateOrderNumber() {
+	String^ strDateTimeNumber = DateTime::Now.ToString("yyyyMMddHHmmssms");
+	Random^ rd = gcnew Random();
+	String^ strRandomResult = rd->Next(1000, 9999).ToString();
+	return strDateTimeNumber + strRandomResult;
+
 }

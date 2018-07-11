@@ -1,7 +1,7 @@
 #include "tool.h"
 Mylog Mlog;
-#include "ThreeSegmentTransmissionProtocol.h"
-ThreeSegmentTransmissionProtocol g_TSTP; 
+
+
 
 
 

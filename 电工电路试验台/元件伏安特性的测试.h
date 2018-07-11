@@ -46,7 +46,7 @@ namespace N_元件伏安特性的测试 {
 		static String ^summing_up;
 	};
 
-	public ref class s_白炽灯电阻器 {
+	public ref class s_白炽灯 {
 	public:
 		static String ^SU1;
 		static String ^SU2;

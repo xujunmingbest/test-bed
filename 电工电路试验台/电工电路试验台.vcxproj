@@ -137,6 +137,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\c++\libsocket\libsocket\libsocket.h" />
+    <ClInclude Include="data_transf.h" />
+    <ClInclude Include="loginWnd.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="monitor.h" />
     <ClInclude Include="tool\gradeSubmit.h" />
     <ClInclude Include="tool\json\autolink.h" />
     <ClInclude Include="tool\json\config.h" />
@@ -152,9 +158,7 @@
     <ClInclude Include="tool\Ref_global_var.h" />
     <ClInclude Include="tool\resource.h" />
     <ClInclude Include="tool\seriesPort.h" />
-    <ClInclude Include="tool\SynchroShortConnection.h" />
     <ClInclude Include="tool\SysLog.h" />
-    <ClInclude Include="tool\ThreeSegmentTransmissionProtocol.h" />
     <ClInclude Include="tool\tool.h" />
     <ClInclude Include="tool\uci\CMD_COMVer2.h" />
     <ClInclude Include="tool\uci\comApiDef.h" />
@@ -209,6 +213,9 @@
     <ClInclude Include="底部.h" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="loginWnd.resx">
+      <DependentUpon>loginWnd.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="一阶电路的响应测试实验内容.resx">
       <DependentUpon>一阶电路的响应测试实验内容.h</DependentUpon>
     </EmbeddedResource>
@@ -244,8 +251,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="data_transf.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mdi子窗体注册.cpp" />
+    <ClCompile Include="monitor.cpp" />
     <ClCompile Include="tool\exception.cpp" />
     <ClCompile Include="tool\json\json_reader.cpp" />
     <ClCompile Include="tool\json\json_value.cpp" />
@@ -255,7 +264,6 @@
     <ClCompile Include="tool\oscillograph.cpp" />
     <ClCompile Include="tool\resource.cpp" />
     <ClCompile Include="tool\seriesPort.cpp" />
-    <ClCompile Include="tool\SynchroShortConnection.cpp" />
     <ClCompile Include="tool\tool.cpp" />
     <ClCompile Include="tool\waver.cpp" />
     <ClCompile Include="tool\xml\tinystr.cpp" />
