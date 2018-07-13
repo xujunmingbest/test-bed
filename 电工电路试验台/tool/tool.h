@@ -8,8 +8,8 @@
 #include "SysLog.h"
 #include "message_Queue.h"
 #include "seriesPort.h"
-#include "../monitor.h"
 #include "gradeSubmit.h"
+#include "../Long_connection_control.h"
 using namespace std;
 #include "底部.h"
 using namespace 电工电路试验台;
@@ -287,7 +287,7 @@ public:
 #define LOGINYOUKE 2;
 
 
-static moniter g_moniter;
+
 
 public ref class global {
 public:

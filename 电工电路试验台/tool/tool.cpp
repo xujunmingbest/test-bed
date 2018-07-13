@@ -197,13 +197,11 @@ void global::SystemStart()
 		LOG_DETAIL("控制电源模块串口初始化失败");
 	}
 	oscillograph::oscillographOpen();
-	Thread ^ t = gcnew Thread(gcnew ThreadStart(StartMonitor));
-	t->Start();
+
+	lcc.open();
 }
 
-void StartMonitor() {
-	g_moniter.Start();
-}
+
 
 void global::SystemShortDown()
 {

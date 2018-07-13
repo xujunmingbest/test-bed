@@ -811,7 +811,7 @@ void 元件伏安特性的测试实验内容::chart线性Init() {
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
 	c->AxisY->MajorGrid->LineColor = Color::Transparent;
-
+	s->Points->AddXY(0, 0);
 }
 
 void 元件伏安特性的测试实验内容::Loadchart线性() {
@@ -852,7 +852,7 @@ void 元件伏安特性的测试实验内容::chart白炽Init() {
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
 	c->AxisY->MajorGrid->LineColor = Color::Transparent;
-
+	s->Points->AddXY(0, 0);
 }
 
 void 元件伏安特性的测试实验内容::Loadchart白炽() {
@@ -893,7 +893,7 @@ void 元件伏安特性的测试实验内容::chart锗管Init() {
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
 	c->AxisY->MajorGrid->LineColor = Color::Transparent;
-
+	s->Points->AddXY(0, 0);
 }
 void 元件伏安特性的测试实验内容::Loadchart锗管() {
 	Series ^s = chart锗管->Series[0];
@@ -943,7 +943,7 @@ void 元件伏安特性的测试实验内容::chart硅管Init() {
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
 	c->AxisY->MajorGrid->LineColor = Color::Transparent;
-
+	s->Points->AddXY(0, 0);
 }
 void 元件伏安特性的测试实验内容::Loadchart硅管() {
 	Series ^s = chart硅管->Series[0];
@@ -993,7 +993,7 @@ void 元件伏安特性的测试实验内容::chart稳压Init() {
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
 	c->AxisY->MajorGrid->LineColor = Color::Transparent;
-
+	s->Points->AddXY(0,0);
 }
 
 
@@ -1087,7 +1087,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.线性U8, 10, "%s", label线性U8->Text);
 	snprintf(s.线性U9, 10, "%s", label线性U9->Text);
 	snprintf(s.线性U10, 10, "%s", label线性U10->Text);
-	snprintf(s.线性summing_up, 10, "%s", textBox线性结论->Text);
+	snprintf(s.线性summing_up, 100, "%s", textBox线性结论->Text);
 	/*******白炽灯******/
 	snprintf(s.白炽SU1, 10, "%s", textBox白炽SU1->Text);
 	snprintf(s.白炽SU2, 10, "%s", textBox白炽SU2->Text);
@@ -1098,7 +1098,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.白炽SU7, 10, "%s", textBox白炽SU7->Text);
 	snprintf(s.白炽SU8, 10, "%s", textBox白炽SU8->Text);
 	snprintf(s.白炽SU9, 10, "%s", textBox白炽SU9->Text);
-	snprintf(s.白炽SU10, 100, "%s", textBox白炽SU10->Text);
+	snprintf(s.白炽SU10, 10, "%s", textBox白炽SU10->Text);
 
 	snprintf(s.白炽I1, 10, "%s", label白炽I1->Text);
 	snprintf(s.白炽I2, 10, "%s", label白炽I2->Text);
@@ -1122,7 +1122,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.白炽U9, 10, "%s", label白炽U9->Text);
 	snprintf(s.白炽U10, 10, "%s", label白炽U10->Text);
 
-	snprintf(s.白炽summing_up, 10, "%s", textBox白炽结论->Text);
+	snprintf(s.白炽summing_up, 100, "%s", textBox白炽结论->Text);
 
 	/**************s_锗管*****************/
 
@@ -1135,7 +1135,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.锗管ZSU7, 10, "%s", textBox锗管ZSU7->Text);
 	snprintf(s.锗管ZSU8, 10, "%s", textBox锗管ZSU8->Text);
 	snprintf(s.锗管ZSU9, 10, "%s", textBox锗管ZSU9->Text);
-	snprintf(s.锗管ZSU10, 100, "%s", textBox锗管ZSU10->Text);
+	snprintf(s.锗管ZSU10, 10, "%s", textBox锗管ZSU10->Text);
 	snprintf(s.锗管FSU1, 10, "%s", textBox锗管FSU1->Text);
 	snprintf(s.锗管FSU2, 10, "%s", textBox锗管FSU2->Text);
 	snprintf(s.锗管FSU3, 10, "%s", textBox锗管FSU3->Text);
@@ -1145,7 +1145,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.锗管FSU7, 10, "%s", textBox锗管FSU7->Text);
 	snprintf(s.锗管FSU8, 10, "%s", textBox锗管FSU8->Text);
 	snprintf(s.锗管FSU9, 10, "%s", textBox锗管FSU9->Text);
-	snprintf(s.锗管FSU10, 100, "%s", textBox锗管FSU10->Text);
+	snprintf(s.锗管FSU10, 10, "%s", textBox锗管FSU10->Text);
 
 	snprintf(s.锗管ZU1, 10, "%s", label锗管ZU1->Text);
 	snprintf(s.锗管ZU2, 10, "%s", label锗管ZU2->Text);
@@ -1189,7 +1189,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.锗管FI9, 10, "%s", label锗管FI9->Text);
 	snprintf(s.锗管FI10, 10, "%s", label锗管FI10->Text);
 
-	snprintf(s.锗管summing_up, 10, "%s", textBox锗管结论->Text);
+	snprintf(s.锗管summing_up, 100, "%s", textBox锗管结论->Text);
 
 	/**************s_硅管*****************/
 
@@ -1202,7 +1202,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.硅管ZSU7, 10, "%s", textBox硅管ZSU7->Text);
 	snprintf(s.硅管ZSU8, 10, "%s", textBox硅管ZSU8->Text);
 	snprintf(s.硅管ZSU9, 10, "%s", textBox硅管ZSU9->Text);
-	snprintf(s.硅管ZSU10, 100, "%s", textBox硅管ZSU10->Text);
+	snprintf(s.硅管ZSU10, 10, "%s", textBox硅管ZSU10->Text);
 	snprintf(s.硅管FSU1, 10, "%s", textBox硅管FSU1->Text);
 	snprintf(s.硅管FSU2, 10, "%s", textBox硅管FSU2->Text);
 	snprintf(s.硅管FSU3, 10, "%s", textBox硅管FSU3->Text);
@@ -1212,7 +1212,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.硅管FSU7, 10, "%s", textBox硅管FSU7->Text);
 	snprintf(s.硅管FSU8, 10, "%s", textBox硅管FSU8->Text);
 	snprintf(s.硅管FSU9, 10, "%s", textBox硅管FSU9->Text);
-	snprintf(s.硅管FSU10, 100, "%s", textBox硅管FSU10->Text);
+	snprintf(s.硅管FSU10, 10, "%s", textBox硅管FSU10->Text);
 
 	snprintf(s.硅管ZU1, 10, "%s", label硅管ZU1->Text);
 	snprintf(s.硅管ZU2, 10, "%s", label硅管ZU2->Text);
@@ -1256,7 +1256,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.硅管FI9, 10, "%s", label1硅管FI9->Text);
 	snprintf(s.硅管FI10, 10, "%s", label1硅管FI10->Text);
 
-	snprintf(s.硅管summing_up, 10, "%s", textBox硅管结论->Text);
+	snprintf(s.硅管summing_up, 100, "%s", textBox硅管结论->Text);
 
 
 	/**************s_稳压*****************/
@@ -1269,7 +1269,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.稳压ZSU7, 10, "%s", textBox稳压ZSU7->Text);
 	snprintf(s.稳压ZSU8, 10, "%s", textBox稳压ZSU8->Text);
 	snprintf(s.稳压ZSU9, 10, "%s", textBox稳压ZSU9->Text);
-	snprintf(s.稳压ZSU10, 100, "%s", textBox稳压ZSU10->Text);
+	snprintf(s.稳压ZSU10, 10, "%s", textBox稳压ZSU10->Text);
 	snprintf(s.稳压FSU1, 10, "%s", textBox稳压FSU1->Text);
 	snprintf(s.稳压FSU2, 10, "%s", textBox稳压FSU2->Text);
 	snprintf(s.稳压FSU3, 10, "%s", textBox稳压FSU3->Text);
@@ -1279,7 +1279,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.稳压FSU7, 10, "%s", textBox稳压FSU7->Text);
 	snprintf(s.稳压FSU8, 10, "%s", textBox稳压FSU8->Text);
 	snprintf(s.稳压FSU9, 10, "%s", textBox稳压FSU9->Text);
-	snprintf(s.稳压FSU10, 100, "%s", textBox稳压FSU10->Text);
+	snprintf(s.稳压FSU10, 10, "%s", textBox稳压FSU10->Text);
 
 	snprintf(s.稳压ZU1, 10, "%s", label稳压ZU1->Text);
 	snprintf(s.稳压ZU2, 10, "%s", label稳压ZU2->Text);
@@ -1323,7 +1323,7 @@ ST_元件伏安特性测试 元件伏安特性的测试实验内容::LoadGradeData() {
 	snprintf(s.稳压FI9, 10, "%s", label稳压FI9->Text);
 	snprintf(s.稳压FI10, 10, "%s", label稳压FI10->Text);
 
-	snprintf(s.稳压summing_up, 10, "%s", textBox稳压结论->Text);
+	snprintf(s.稳压summing_up, 100, "%s", textBox稳压结论->Text);
 	return s;
 }
 

@@ -45,6 +45,21 @@ bool readXmlConfigFile(ConfigXml &configXml)
 		else if (zd == "GradePort") {
 			configXml.GradePort = value;
 		}
+		else if (zd == "LongConnectIp") {
+			configXml.LongConnectIp = value;
+		}
+		else if (zd == "LongConnectPort") {
+			configXml.LongConnectPort = value;
+		}
+		else if (zd == "CaptureIp") {
+			configXml.CaptureIp = value;
+		}
+		else if (zd == "CapturePort") {
+			configXml.CapturePort = value;
+		}
+		else if (zd == "ComputerId") {
+			configXml.ComputerId = value;
+		}
 	}
 	return true;
 }

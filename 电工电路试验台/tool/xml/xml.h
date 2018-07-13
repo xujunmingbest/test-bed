@@ -13,6 +13,11 @@ struct ConfigXml {
 	string SerialControlSource;
 	string GradeIp;
 	string GradePort;
+	string LongConnectIp;
+	string LongConnectPort;
+	string CaptureIp;
+	string CapturePort;
+	string ComputerId;
 };
 
 

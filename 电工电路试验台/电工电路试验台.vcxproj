@@ -138,11 +138,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\c++\libsocket\libsocket\libsocket.h" />
+    <ClInclude Include="capture.h" />
     <ClInclude Include="data_transf.h" />
     <ClInclude Include="loginWnd.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="monitor.h" />
+    <ClInclude Include="Long_connection_control.h" />
     <ClInclude Include="tool\gradeSubmit.h" />
     <ClInclude Include="tool\json\autolink.h" />
     <ClInclude Include="tool\json\config.h" />
@@ -175,6 +176,7 @@
     <ClInclude Include="tool\xml\tinyxml.h" />
     <ClInclude Include="tool\xml\xml.h" />
     <ClInclude Include="tool\_Mutex.h" />
+    <ClInclude Include="tool\底部.h" />
     <ClInclude Include="一阶电路的响应测试实验内容.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -210,7 +212,6 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="实验汇总头文件.h" />
-    <ClInclude Include="底部.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="loginWnd.resx">
@@ -251,10 +252,14 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="capture.cpp" />
     <ClCompile Include="data_transf.cpp" />
+    <ClCompile Include="Long_connection_control.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="Long_connect_e.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mdi子窗体注册.cpp" />
-    <ClCompile Include="monitor.cpp" />
     <ClCompile Include="tool\exception.cpp" />
     <ClCompile Include="tool\json\json_reader.cpp" />
     <ClCompile Include="tool\json\json_value.cpp" />

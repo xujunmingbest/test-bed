@@ -303,11 +303,6 @@ namespace 电工电路试验台 {
 	private: System::Void loginWnd_Load(System::Object^  sender, System::EventArgs^  e) {
 	}
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	stuInfo.stu1Name = T_to_string(textBoxStuName1->Text);
-	stuInfo.XueHao1 = T_to_string(textBoxXueHao1->Text);
-	stuInfo.stu2Name = T_to_string(textBoxStuName2->Text);
-	stuInfo.XueHao2 = T_to_string(textBoxXueHao2->Text);
-	stuInfo.Class = T_to_string(textBoxclass->Text);
 
 
 	snprintf(trialInfo.Class, sizeof(trialInfo.Class), "%s", textBoxclass->Text);

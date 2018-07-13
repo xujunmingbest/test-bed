@@ -22,6 +22,9 @@ namespace 电工电路试验台 {
 			InitializeComponent();
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->Font = gcnew System::Drawing::Font("宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+			this->Name = "主窗体";
+			CheckForIllegalCrossThreadCalls = false;
+			//this->Enabled = false;
 
 			//
 			//TODO:  在此处添加构造函数代码
@@ -99,10 +102,11 @@ namespace 电工电路试验台 {
 			this->components = (gcnew System::ComponentModel::Container());
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(主窗体::typeid));
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->toolStrip1 = (gcnew System::Windows::Forms::ToolStrip());
 			this->toolStripButton1 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->toolStripButton2 = (gcnew System::Windows::Forms::ToolStripButton());
-			this->panel2 = (gcnew System::Windows::Forms::Panel());
+			this->toolStripButton3 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -115,35 +119,51 @@ namespace 电工电路试验台 {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel4 = (gcnew System::Windows::Forms::Panel());
-			this->toolStripButton3 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->panel1->SuspendLayout();
-			this->toolStrip1->SuspendLayout();
 			this->panel2->SuspendLayout();
+			this->toolStrip1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// panel1
 			// 
-			this->panel1->Controls->Add(this->toolStrip1);
 			this->panel1->Controls->Add(this->panel2);
 			this->panel1->Controls->Add(this->pictureBox1);
 			this->panel1->Dock = System::Windows::Forms::DockStyle::Left;
 			this->panel1->Location = System::Drawing::Point(0, 0);
 			this->panel1->Name = L"panel1";
-			this->panel1->Size = System::Drawing::Size(319, 1053);
+			this->panel1->Size = System::Drawing::Size(319, 1043);
 			this->panel1->TabIndex = 1;
+			// 
+			// panel2
+			// 
+			this->panel2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"panel2.BackgroundImage")));
+			this->panel2->Controls->Add(this->toolStrip1);
+			this->panel2->Controls->Add(this->label5);
+			this->panel2->Controls->Add(this->label7);
+			this->panel2->Controls->Add(this->label6);
+			this->panel2->Controls->Add(this->label4);
+			this->panel2->Controls->Add(this->label3);
+			this->panel2->Controls->Add(this->label2);
+			this->panel2->Controls->Add(this->listView1);
+			this->panel2->Controls->Add(this->label1);
+			this->panel2->Dock = System::Windows::Forms::DockStyle::Bottom;
+			this->panel2->Location = System::Drawing::Point(0, 228);
+			this->panel2->Name = L"panel2";
+			this->panel2->Size = System::Drawing::Size(319, 815);
+			this->panel2->TabIndex = 1;
 			// 
 			// toolStrip1
 			// 
-			this->toolStrip1->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->toolStrip1->AutoSize = false;
 			this->toolStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
 			this->toolStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
 				this->toolStripButton1,
 					this->toolStripButton2, this->toolStripButton3
 			});
-			this->toolStrip1->Location = System::Drawing::Point(0, 209);
+			this->toolStrip1->Location = System::Drawing::Point(0, 0);
 			this->toolStrip1->Name = L"toolStrip1";
-			this->toolStrip1->Size = System::Drawing::Size(319, 53);
+			this->toolStrip1->Size = System::Drawing::Size(319, 48);
 			this->toolStrip1->TabIndex = 2;
 			this->toolStrip1->Text = L"toolStrip1";
 			// 
@@ -172,22 +192,16 @@ namespace 电工电路试验台 {
 			this->toolStripButton2->Text = L"toolStripButton2";
 			this->toolStripButton2->ToolTipText = L"登出";
 			// 
-			// panel2
+			// toolStripButton3
 			// 
-			this->panel2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"panel2.BackgroundImage")));
-			this->panel2->Controls->Add(this->label5);
-			this->panel2->Controls->Add(this->label7);
-			this->panel2->Controls->Add(this->label6);
-			this->panel2->Controls->Add(this->label4);
-			this->panel2->Controls->Add(this->label3);
-			this->panel2->Controls->Add(this->label2);
-			this->panel2->Controls->Add(this->listView1);
-			this->panel2->Controls->Add(this->label1);
-			this->panel2->Dock = System::Windows::Forms::DockStyle::Bottom;
-			this->panel2->Location = System::Drawing::Point(0, 262);
-			this->panel2->Name = L"panel2";
-			this->panel2->Size = System::Drawing::Size(319, 791);
-			this->panel2->TabIndex = 1;
+			this->toolStripButton3->AutoSize = false;
+			this->toolStripButton3->DisplayStyle = System::Windows::Forms::ToolStripItemDisplayStyle::Image;
+			this->toolStripButton3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStripButton3.Image")));
+			this->toolStripButton3->ImageTransparentColor = System::Drawing::Color::Magenta;
+			this->toolStripButton3->Name = L"toolStripButton3";
+			this->toolStripButton3->Size = System::Drawing::Size(50, 50);
+			this->toolStripButton3->Text = L"toolStripButton3";
+			this->toolStripButton3->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton3_Click);
 			// 
 			// label5
 			// 
@@ -196,7 +210,7 @@ namespace 电工电路试验台 {
 			this->label5->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label5->ForeColor = System::Drawing::Color::Green;
-			this->label5->Location = System::Drawing::Point(75, 626);
+			this->label5->Location = System::Drawing::Point(75, 644);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(149, 24);
 			this->label5->TabIndex = 9;
@@ -224,7 +238,7 @@ namespace 电工电路试验台 {
 			this->label6->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label6->ForeColor = System::Drawing::Color::Green;
-			this->label6->Location = System::Drawing::Point(75, 573);
+			this->label6->Location = System::Drawing::Point(75, 591);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(149, 24);
 			this->label6->TabIndex = 7;
@@ -238,7 +252,7 @@ namespace 电工电路试验台 {
 			this->label4->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label4->ForeColor = System::Drawing::Color::Green;
-			this->label4->Location = System::Drawing::Point(75, 521);
+			this->label4->Location = System::Drawing::Point(75, 539);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(149, 24);
 			this->label4->TabIndex = 5;
@@ -252,7 +266,7 @@ namespace 电工电路试验台 {
 			this->label3->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label3->ForeColor = System::Drawing::Color::Green;
-			this->label3->Location = System::Drawing::Point(75, 471);
+			this->label3->Location = System::Drawing::Point(75, 489);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(149, 24);
 			this->label3->TabIndex = 4;
@@ -266,7 +280,7 @@ namespace 电工电路试验台 {
 			this->label2->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label2->ForeColor = System::Drawing::Color::Green;
-			this->label2->Location = System::Drawing::Point(75, 423);
+			this->label2->Location = System::Drawing::Point(75, 441);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(149, 24);
 			this->label2->TabIndex = 3;
@@ -283,7 +297,7 @@ namespace 电工电路试验台 {
 			this->listView1->FullRowSelect = true;
 			this->listView1->GridLines = true;
 			this->listView1->HeaderStyle = System::Windows::Forms::ColumnHeaderStyle::None;
-			this->listView1->Location = System::Drawing::Point(3, 54);
+			this->listView1->Location = System::Drawing::Point(0, 98);
 			this->listView1->Name = L"listView1";
 			this->listView1->Size = System::Drawing::Size(313, 322);
 			this->listView1->SmallImageList = this->imageList1;
@@ -304,7 +318,7 @@ namespace 电工电路试验台 {
 			this->label1->BackColor = System::Drawing::Color::Transparent;
 			this->label1->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label1->Location = System::Drawing::Point(98, 12);
+			this->label1->Location = System::Drawing::Point(98, 61);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(110, 24);
 			this->label1->TabIndex = 1;
@@ -326,44 +340,29 @@ namespace 电工电路试验台 {
 			this->panel4->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->panel4->Location = System::Drawing::Point(319, 0);
 			this->panel4->Name = L"panel4";
-			this->panel4->Size = System::Drawing::Size(1518, 1053);
+			this->panel4->Size = System::Drawing::Size(1518, 1043);
 			this->panel4->TabIndex = 6;
 			this->panel4->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &主窗体::panel4_Paint);
-			// 
-			// toolStripButton3
-			// 
-			this->toolStripButton3->AutoSize = false;
-			this->toolStripButton3->DisplayStyle = System::Windows::Forms::ToolStripItemDisplayStyle::Image;
-			this->toolStripButton3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStripButton3.Image")));
-			this->toolStripButton3->ImageTransparentColor = System::Drawing::Color::Magenta;
-			this->toolStripButton3->Name = L"toolStripButton3";
-			this->toolStripButton3->Size = System::Drawing::Size(50, 50);
-			this->toolStripButton3->Text = L"toolStripButton3";
-			this->toolStripButton3->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton3_Click);
 			// 
 			// 主窗体
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1837, 1053);
-			this->ControlBox = false;
+			this->ClientSize = System::Drawing::Size(1837, 1043);
 			this->Controls->Add(this->panel4);
 			this->Controls->Add(this->panel1);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::Fixed3D;
 			this->IsMdiContainer = true;
-			this->MaximizeBox = false;
-			this->MinimizeBox = false;
 			this->Name = L"主窗体";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"主窗体";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &主窗体::主窗体_Load);
 			this->panel1->ResumeLayout(false);
-			this->panel1->PerformLayout();
-			this->toolStrip1->ResumeLayout(false);
-			this->toolStrip1->PerformLayout();
 			this->panel2->ResumeLayout(false);
 			this->panel2->PerformLayout();
+			this->toolStrip1->ResumeLayout(false);
+			this->toolStrip1->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 

@@ -37,6 +37,12 @@ Assembly AxInterop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=固定语�
 	hash=None, flags=None
 Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Class Capture: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Open(): PrivateScope, Public, HideBySig
+    SendCapture(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.底部: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
