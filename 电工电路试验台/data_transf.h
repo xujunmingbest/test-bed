@@ -10,5 +10,5 @@ public:
 	bool SendGrade(GradesHead &H, string &Data);
 	void close();
 
-	void RecvHandle();
+	void RecvHandle(bool ShowRetMsg);
 };

@@ -4,7 +4,7 @@
 TrialInfo trialInfo;
 
 	bool data_transf::open() {
-		return ssc.Start(configXml.GradeIp, configXml.GradePort);
+		return ssc.Start(configXml.TeacherIp, configXml.GradePort);
 	}
 	bool data_transf::SendGrade(GradesHead &H,string &Data) {
 		protocolDemo pd;
@@ -21,7 +21,7 @@ TrialInfo trialInfo;
 	using namespace System::Windows::Forms;
 	using namespace System;
 
-	void data_transf::RecvHandle() {
+	void data_transf::RecvHandle(bool ShowRetMsg) {
 		protocolDemo md;
 		SOCKET s = ssc.sc;
 		uint f_l = 0;
@@ -49,7 +49,9 @@ TrialInfo trialInfo;
 		//报文已经全部接受完毕
 		GradesHead H;
 		memcpy(&H, f_s.c_str(), sizeof(GradesHead));
-		MessageBox::Show(gcnew String(s_s.c_str()));
+		if (ShowRetMsg) {
+			MessageBox::Show(gcnew String(s_s.c_str()));
+		}
 	}
 
 

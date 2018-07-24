@@ -39,23 +39,20 @@ bool readXmlConfigFile(ConfigXml &configXml)
 		else if (zd == "SerialControlSource") {
 			configXml.SerialControlSource = value;
 		}
-		else if (zd == "GradeIp") {
-			configXml.GradeIp = value;
+		else if (zd == "TeacherIp") {
+			configXml.TeacherIp = value;
 		}
 		else if (zd == "GradePort") {
 			configXml.GradePort = value;
 		}
-		else if (zd == "LongConnectIp") {
-			configXml.LongConnectIp = value;
-		}
 		else if (zd == "LongConnectPort") {
 			configXml.LongConnectPort = value;
 		}
-		else if (zd == "CaptureIp") {
-			configXml.CaptureIp = value;
-		}
 		else if (zd == "CapturePort") {
 			configXml.CapturePort = value;
+		}
+		else if (zd == "GradeMonitorPort") {
+			configXml.GradeMonitorPort = value;
 		}
 		else if (zd == "ComputerId") {
 			configXml.ComputerId = value;

@@ -8,13 +8,16 @@ using namespace std;
 #define uint unsigned int 
 #define RECVGRADEPORT 1235
 #define GRADESAVEPATH "data/"
+#define STUINFOCSV "学生信息/"
 /*****实验编号****/
 
-static map<int, string> GradesRet = {
+static map<int, string> MsgRet = {
+	{2,"登入成功"},
 	{1,"操作成功"},
 	{-1,"未知错误"},
 	{ -2,"实验代码与实验名称不一致" },
 	{ -3,"文件存储失败" },
+	{ -4,"您不在学生名单中，不能进行实验" },
 };
 
  static map<int, string> Grades = {
@@ -105,6 +108,7 @@ struct TrialInfo {
 	char Lab[100];
 	char teacher[100];
 	char major[100];
+	int totalscore;  //总分
 };
 extern TrialInfo trialInfo;
 
@@ -142,7 +146,7 @@ struct ST_元件伏安特性测试 {
 	char 线性I9[10];
 	char 线性I10[10];
 	char 线性summing_up[100];
-
+	int 线性score;
 
 	char 白炽SU1[10];
 	char 白炽SU2[10];
@@ -175,6 +179,7 @@ struct ST_元件伏安特性测试 {
 	char 白炽I9[10];
 	char 白炽I10[10];
 	char 白炽summing_up[100];
+	int 白炽score;
 
     char 锗管ZSU1[10];
 	char 锗管ZSU2[10];
@@ -238,6 +243,7 @@ struct ST_元件伏安特性测试 {
 	char 锗管FI9[10];
 	char 锗管FI10[10];
 	char 锗管summing_up[100];
+	int 锗管score;
 
     char 硅管ZSU1[10];
 	char 硅管ZSU2[10];
@@ -301,6 +307,7 @@ struct ST_元件伏安特性测试 {
 	char 硅管FI9[10];
 	char 硅管FI10[10];
 	char 硅管summing_up[100];
+	int 硅管score;
 
 	char 稳压ZSU1[10];
 	char 稳压ZSU2[10];
@@ -364,6 +371,140 @@ struct ST_元件伏安特性测试 {
 	char 稳压FI9[10];
 	char 稳压FI10[10];
 	char 稳压summing_up[100];
+	int 稳压score;
+};
+
+struct ST_基尔霍夫定律 {
+	TrialInfo ti;
+
+	char 计算I1[10];
+	char 计算I2[10];
+	char 计算I3[10];
+	char 计算U11[10];
+	char 计算U12[10];
+	char 计算UFA[10];
+	char 计算UAB[10];
+	char 计算UBC[10];
+	char 计算UCD[10];
+	char 计算UDE[10];
+
+	char 测量I1[10];
+	char 测量I2[10];
+	char 测量I3[10];
+	char 测量U11[10];
+	char 测量U12[10];
+	char 测量UFA[10];
+	char 测量UAB[10];
+	char 测量UBC[10];
+	char 测量UCD[10];
+	char 测量UDE[10];
+
+	char 误差I1[10];
+	char 误差I2[10];
+	char 误差I3[10];
+	char 误差U11[10];
+	char 误差U12[10];
+	char 误差UFA[10];
+	char 误差UAB[10];
+	char 误差UBC[10];
+	char 误差UCD[10];
+	char 误差UDE[10];
+
+	char summing_up[100];
+};
+
+struct ST_叠加原理 {
+	TrialInfo ti;
+	char Line1I1[10];
+	char Line1I2[10];
+	char Line1I3[10];
+	char Line1U11[10];
+	char Line1U12[10];
+	char Line1UFA[10];
+	char Line1UAB[10];
+	char Line1UBC[10];
+	char Line1UCD[10];
+	char Line1UDE[10];
+
+	char Line2I1[10];
+	char Line2I2[10];
+	char Line2I3[10];
+	char Line2U11[10];
+	char Line2U12[10];
+	char Line2UFA[10];
+	char Line2UAB[10];
+	char Line2UBC[10];
+	char Line2UCD[10];
+	char Line2UDE[10];
+
+	char Line3I1[10];
+	char Line3I2[10];
+	char Line3I3[10];
+	char Line3U11[10];
+	char Line3U12[10];
+	char Line3UFA[10];
+	char Line3UAB[10];
+	char Line3UBC[10];
+	char Line3UCD[10];
+	char Line3UDE[10];
+
+	char Line4I1[10];
+	char Line4I2[10];
+	char Line4I3[10];
+	char Line4U11[10];
+	char Line4U12[10];
+	char Line4UFA[10];
+	char Line4UAB[10];
+	char Line4UBC[10];
+	char Line4UCD[10];
+	char Line4UDE[10];
+	int Score1;
+
+	char Line5I1[10];
+	char Line5I2[10];
+	char Line5I3[10];
+	char Line5U11[10];
+	char Line5U12[10];
+	char Line5UFA[10];
+	char Line5UAB[10];
+	char Line5UBC[10];
+	char Line5UCD[10];
+	char Line5UDE[10];
+
+	char Line6I1[10];
+	char Line6I2[10];
+	char Line6I3[10];
+	char Line6U11[10];
+	char Line6U12[10];
+	char Line6UFA[10];
+	char Line6UAB[10];
+	char Line6UBC[10];
+	char Line6UCD[10];
+	char Line6UDE[10];
+
+	char Line7I1[10];
+	char Line7I2[10];
+	char Line7I3[10];
+	char Line7U11[10];
+	char Line7U12[10];
+	char Line7UFA[10];
+	char Line7UAB[10];
+	char Line7UBC[10];
+	char Line7UCD[10];
+	char Line7UDE[10];
+
+	char Line8I1[10];
+	char Line8I2[10];
+	char Line8I3[10];
+	char Line8U11[10];
+	char Line8U12[10];
+	char Line8UFA[10];
+	char Line8UAB[10];
+	char Line8UBC[10];
+	char Line8UCD[10];
+	char Line8UDE[10];
+	char summing_up[100];
+	int Score2;
 };
 
 #pragma pack(pop)

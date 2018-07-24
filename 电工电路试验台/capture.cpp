@@ -6,7 +6,7 @@ void Capture::Open() {
 	socketClient = gcnew Socket(AddressFamily::InterNetwork, SocketType::Stream, ProtocolType::Tcp);
 
 	//需要获取文本框中的IP地址
-	IPAddress^ ipaddress = IPAddress::Parse(gcnew String(configXml.CaptureIp.c_str()));
+	IPAddress^ ipaddress = IPAddress::Parse(gcnew String(configXml.TeacherIp.c_str()));
 	//将获取的ip地址和端口号绑定到网络节点endpoint上
 	IPEndPoint^ endpoint = gcnew IPEndPoint(ipaddress,atoi(configXml.CapturePort.c_str()));
 
@@ -19,11 +19,24 @@ void Capture::Open() {
 	}
 	Thread^ t = gcnew Thread(gcnew ThreadStart(this, &Capture::SendCapture));
 	t->Start();
+	Thread^ t1 = gcnew Thread(gcnew ThreadStart(this, &Capture::RecvAndClose));
+	t1->Start();
+}
+
+void Capture::RecvAndClose() {
+	cli::array<unsigned char> ^retClose = gcnew cli::array<unsigned char>(1);
+	try {
+		socketClient->Receive(retClose);
+	}
+	catch (Exception ^e) {
+		
+	}
+	Connect = false;
 }
 
 void Capture::SendCapture() {
 	try {
-		while (1) {
+		while (Connect) {
 			static int i = 0;
 			Thread::Sleep(100);
 			Drawing::Rectangle^ ScreenArea = System::Windows::Forms::Screen::GetBounds(this);

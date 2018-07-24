@@ -11,12 +11,13 @@ struct ConfigXml {
 	string RepeaterIp;
 	string SerialHandle;
 	string SerialControlSource;
-	string GradeIp;
-	string GradePort;
-	string LongConnectIp;
-	string LongConnectPort;
-	string CaptureIp;
-	string CapturePort;
+
+	string TeacherIp;
+	string GradePort;    //成绩提交端口
+	string LongConnectPort; //长连接端口
+	string CapturePort;  //屏幕监控端口
+	string GradeMonitorPort; //截图端口
+
 	string ComputerId;
 };
 

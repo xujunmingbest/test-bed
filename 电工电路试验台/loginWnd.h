@@ -8,7 +8,7 @@ namespace 电工电路试验台 {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
-
+	using namespace System::Threading;
 	/// <summary>
 	/// loginWnd 摘要
 	/// </summary>
@@ -18,11 +18,20 @@ namespace 电工电路试验台 {
 		loginWnd(void)
 		{
 			InitializeComponent();
+			CheckForIllegalCrossThreadCalls = false;
 			//
 			//TODO:  在此处添加构造函数代码
 			//
 		}
-
+		void ShowMsgRet(string &s_s) {
+			MessageBox::Show(gcnew String(s_s.c_str()));
+			if (s_s == MsgRet[2]) {
+				this->Close();
+			}
+			else if ( s_s == MsgRet[-4]) {
+			
+			}
+		}
 	protected:
 		/// <summary>
 		/// 清理所有正在使用的资源。
@@ -129,6 +138,7 @@ namespace 电工电路试验台 {
 			this->textBoxclass->Name = L"textBoxclass";
 			this->textBoxclass->Size = System::Drawing::Size(168, 25);
 			this->textBoxclass->TabIndex = 8;
+			this->textBoxclass->Text = L"通信1106";
 			// 
 			// label1
 			// 
@@ -147,6 +157,7 @@ namespace 电工电路试验台 {
 			this->textBoxStuName1->Name = L"textBoxStuName1";
 			this->textBoxStuName1->Size = System::Drawing::Size(168, 25);
 			this->textBoxStuName1->TabIndex = 13;
+			this->textBoxStuName1->Text = L"徐军明";
 			// 
 			// label3
 			// 
@@ -165,6 +176,7 @@ namespace 电工电路试验台 {
 			this->textBoxXueHao1->Name = L"textBoxXueHao1";
 			this->textBoxXueHao1->Size = System::Drawing::Size(168, 25);
 			this->textBoxXueHao1->TabIndex = 15;
+			this->textBoxXueHao1->Text = L"11";
 			// 
 			// label2
 			// 
@@ -183,6 +195,7 @@ namespace 电工电路试验台 {
 			this->textBoxXueHao2->Name = L"textBoxXueHao2";
 			this->textBoxXueHao2->Size = System::Drawing::Size(168, 25);
 			this->textBoxXueHao2->TabIndex = 19;
+			this->textBoxXueHao2->Text = L"12";
 			// 
 			// label4
 			// 
@@ -201,6 +214,7 @@ namespace 电工电路试验台 {
 			this->textBoxStuName2->Name = L"textBoxStuName2";
 			this->textBoxStuName2->Size = System::Drawing::Size(168, 25);
 			this->textBoxStuName2->TabIndex = 17;
+			this->textBoxStuName2->Text = L"徐军明2";
 			// 
 			// label5
 			// 
@@ -313,7 +327,7 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 	snprintf(trialInfo.teacher, sizeof(trialInfo.teacher), "%s", textBoxteacher->Text);
 	snprintf(trialInfo.XueHao1, sizeof(trialInfo.XueHao1), "%s", textBoxXueHao1->Text);
 	snprintf(trialInfo.XueHao2, sizeof(trialInfo.XueHao2), "%s", textBoxXueHao2->Text);
-	this->Close();
+	lcc.SendComputerInfo("软件已开机");
 }
 };
 }

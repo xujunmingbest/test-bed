@@ -8,8 +8,9 @@ using namespace System::Net::Sockets;
 using namespace System;
 public ref class Capture:public System::Windows::Forms::Form {
 	Socket^ socketClient;
+	bool Connect = true;
 public:
 	void Open();
 	void SendCapture();
-
+	void RecvAndClose();
 };

@@ -25,12 +25,11 @@ namespace 电工电路试验台 {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->Font = gcnew System::Drawing::Font("宋体", 16, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
 			CheckForIllegalCrossThreadCalls = false;
-			
 			//
 			//TODO:  在此处添加构造函数代码
 			//
 		}
-
+		bool Open = false;
 	protected:
 		/// <summary>
 		/// 清理所有正在使用的资源。
@@ -7427,6 +7426,8 @@ private: System::Void button42_Click(System::Object^  sender, System::EventArgs^
 private: System::Void label50_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void 元件伏安特性的测试实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+
+	lcc.SendComputerInfo(Grades[1]+"正在实验中");
 	This_Load();
 }
 		 void This_Load();
@@ -8309,33 +8310,11 @@ private: System::Void button203_Click(System::Object^  sender, System::EventArgs
 private: System::Void textBox硅管结论_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 	s_硅管::summing_up = textBox硅管结论->Text;
 }
-		 ST_元件伏安特性测试 LoadGradeData();
+		public: ST_元件伏安特性测试 LoadGradeData();
 
 private: System::Void panel1_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
 }
-private: System::Void button250_Click(System::Object^  sender, System::EventArgs^  e) {
-	ST_元件伏安特性测试 s = LoadGradeData();
-	snprintf(s.ti.stuName1 ,sizeof(s.ti.stuName1), "xu");
-	snprintf(s.ti.stuName2, sizeof(s.ti.stuName2), "cheng");
-	snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[1].c_str());
-	snprintf(s.ti.SeriaNumber , sizeof(s.ti.SeriaNumber), "%s", "112233");
-	data_transf d;
 
-	GradesHead H;
-	H.TrialCode = 1;
-	snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[1].c_str());
-	snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
-	if (!d.open()) {
-		MessageBox::Show("TCP连接失败");
-		return;
-	}
-	if (!d.SendGrade(H,string((char*)&s,sizeof(ST_元件伏安特性测试)))) {
-		MessageBox::Show("TCP连接失败");
-		return;
-	}
-	d.RecvHandle();
-	d.close();
-}
 
 		 String ^GenerateStuInfo();
 private: System::Void button246_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -8343,10 +8322,12 @@ private: System::Void button246_Click(System::Object^  sender, System::EventArgs
 	if (dr == System::Windows::Forms::DialogResult::OK)
 	{
 		ST_元件伏安特性测试 s = LoadGradeData();
+		memset(&s, 0x00, sizeof(ST_元件伏安特性测试));
 		s.ti = trialInfo;
 		s.ti.TrialCode = 1;
+		s.ti.totalscore = -1;
 		snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[1].c_str());
-		snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+		snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
 		snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
 		data_transf d;
 		GradesHead H;
@@ -8361,8 +8342,9 @@ private: System::Void button246_Click(System::Object^  sender, System::EventArgs
 			MessageBox::Show("TCP连接失败");
 			return;
 		}
-		d.RecvHandle();
+		d.RecvHandle(true);
 		d.close();
+		lcc.SendComputerInfo(Grades[1] + "已交卷");
 	}
 
 }

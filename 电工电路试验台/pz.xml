@@ -8,11 +8,10 @@
     <RepeaterPort>10001</RepeaterPort> <!--装发服务器端口-->
     <SerialHandle>COM19</SerialHandle> <!--测试仪器力控包接收-->
     <SerialControlSource>COM16</SerialControlSource> <!--控制电源-->
-    <GradeIp>127.0.0.1</GradeIp> <!--成绩上传IP 短连接-->
+    <TeacherIp>127.0.0.1</TeacherIp> <!--成绩上传IP 短连接-->
     <GradePort>1235</GradePort> <!--成绩上传端口-->
-    <LongConnectIp>127.0.0.1</LongConnectIp>
     <LongConnectPort>1236</LongConnectPort><!--长连接接口-->
-    <CaptureIp>127.0.0.1</CaptureIp>
     <CapturePort>1237</CapturePort> <!--发送屏幕截图的 -->
+    <GradeMonitorPort>1238</GradeMonitorPort><!--发送数据监控的 -->
     <ComputerId>机台1</ComputerId> <!--机台编号 -->
 </Info>

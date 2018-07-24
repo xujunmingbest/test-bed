@@ -108,6 +108,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <AdditionalDependencies />
@@ -144,6 +145,7 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Long_connection_control.h" />
+    <ClInclude Include="monitorTrial.h" />
     <ClInclude Include="tool\gradeSubmit.h" />
     <ClInclude Include="tool\json\autolink.h" />
     <ClInclude Include="tool\json\config.h" />
@@ -211,6 +213,30 @@
     <ClInclude Include="元件伏安特性的测试实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="叠加原理实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="叠加原理实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="叠加原理实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="叠加原理实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基尔霍夫定律实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基尔霍夫定律实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基尔霍夫定律实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基尔霍夫定律实验设备.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="实验汇总头文件.h" />
   </ItemGroup>
   <ItemGroup>
@@ -250,6 +276,30 @@
     <EmbeddedResource Include="元件伏安特性的测试实验目的.resx">
       <DependentUpon>元件伏安特性的测试实验目的.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验内容.resx">
+      <DependentUpon>叠加原理实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验原理.resx">
+      <DependentUpon>叠加原理实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验器件.resx">
+      <DependentUpon>叠加原理实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验目的.resx">
+      <DependentUpon>叠加原理实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基尔霍夫定律实验内容.resx">
+      <DependentUpon>基尔霍夫定律实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基尔霍夫定律实验原理.resx">
+      <DependentUpon>基尔霍夫定律实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基尔霍夫定律实验目的.resx">
+      <DependentUpon>基尔霍夫定律实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基尔霍夫定律实验设备.resx">
+      <DependentUpon>基尔霍夫定律实验设备.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="capture.cpp" />
@@ -260,6 +310,7 @@
     <ClCompile Include="Long_connect_e.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mdi子窗体注册.cpp" />
+    <ClCompile Include="monitorTrial.cpp" />
     <ClCompile Include="tool\exception.cpp" />
     <ClCompile Include="tool\json\json_reader.cpp" />
     <ClCompile Include="tool\json\json_value.cpp" />
@@ -281,6 +332,8 @@
     </ClCompile>
     <ClCompile Include="主窗体.cpp" />
     <ClCompile Include="元件伏安特性的测试.cpp" />
+    <ClCompile Include="叠加原理.cpp" />
+    <ClCompile Include="基尔霍夫定律.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="tool\ClassDiagram.cd" />
@@ -311,7 +364,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="pz.xml" />
+    <Xml Include="pz.xml">
+      <SubType>Designer</SubType>
+    </Xml>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

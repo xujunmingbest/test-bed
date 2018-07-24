@@ -10,6 +10,14 @@
   电工电路试验台.元件伏安特性的测试实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验报告.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.叠加原理实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.叠加原理实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.叠加原理实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.叠加原理实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基尔霍夫定律实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基尔霍夫定律实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基尔霍夫定律实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基尔霍夫定律实验设备.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly 电工电路试验台, Version=0.0.*, Culture=固定语言(固定国家/地区): 
 	hash=SHA1, flags=PublicKey
@@ -43,6 +51,14 @@ Class Capture: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Methods:
     Open(): PrivateScope, Public, HideBySig
     SendCapture(): PrivateScope, Public, HideBySig
+    RecvAndClose(): PrivateScope, Public, HideBySig
+Class monitorTrialssc: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SendTrial(): PrivateScope, Public, HideBySig
+    _SendTrial(): PrivateScope, Public, HideBySig
+    GetNowTrialForm(Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SendMonitorData(UInt32, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class 电工电路试验台.底部: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -118,9 +134,8 @@ Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
 Class 电工电路试验台.loginWnd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ShowMsgRet(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class 电工电路试验台.元件伏安特性的测试实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -394,6 +409,10 @@ Class N_元件伏安特性的测试.s_稳压: AutoLayout, AnsiClass, Class, Publ
 Class 电工电路试验台.元件伏安特性的测试实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Open : Public
+  Methods:
+    LoadGradeData(ST_元件伏安特性测试*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.元件伏安特性的测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -415,3 +434,38 @@ Class 电工电路试验台.一阶电路的响应测试实验内容: AutoLayout,
 Class 电工电路试验台.一阶电路的响应测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.基尔霍夫定律实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.基尔霍夫定律实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.基尔霍夫定律实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_基尔霍夫定律*): PrivateScope, Public, HideBySig
+    SendGrade(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.基尔霍夫定律实验设备: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.叠加原理实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.叠加原理实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.叠加原理实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SendData(): PrivateScope, Public, HideBySig
+    Load_Grade_data(ST_叠加原理*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.叠加原理实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Panel panel4 : Public

@@ -182,7 +182,7 @@ void global::SystemStart()
 	readXmlConfigFile(configXml);
 	LOG_DETAIL(configXml.DesMac, configXml.RepeaterIp, configXml.RepeaterPort,
 		"力控串口", configXml.SerialHandle, "电源控制", configXml.SerialControlSource,
-		configXml.GradeIp, configXml.GradePort);
+		configXml.TeacherIp, configXml.GradePort);
 
 
 	//力控模块初始化
@@ -263,7 +263,7 @@ void global::SetDV(String^t)
 bool SetDVNum(String ^text,int min,int max) {
 	string a = IsDClegal(text);
 	if (a.length() == 0) {
-		MessageBox::Show("输入不合法");
+		MessageBox::Show("输入不合法,样例 10.00");
 		return false;
 	}
 	int num = GetDcNum(a);
@@ -292,4 +292,18 @@ String ^GenerateOrderNumber() {
 	String^ strRandomResult = rd->Next(1000, 9999).ToString();
 	return strDateTimeNumber + strRandomResult;
 
+}
+
+string GenerateStuCheckInfo() {
+	string info;
+	info += "专业:  " + string(trialInfo.major) + "\n";
+	info += "班级:  " + string(trialInfo.Class) + "\n";
+	info += "指导老师:  " + string(trialInfo.teacher) + "\n";
+	info += "实验编号:  " + string(trialInfo.SeriaNumber) + "\n";
+	info += "学生1:  " + string(trialInfo.stuName1) + "\n";
+	info += "学号1:  " + string(trialInfo.XueHao1) + "\n";
+	info += "学生2:  " + string(trialInfo.stuName2) + "\n";
+	info += "学号2:  " + string(trialInfo.XueHao2) + "\n";
+	info += "实验名称:  " + string(Grades[1].c_str()) + "\n";
+	return info;
 }

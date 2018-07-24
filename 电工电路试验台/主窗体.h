@@ -24,7 +24,9 @@ namespace 电工电路试验台 {
 			this->Font = gcnew System::Drawing::Font("宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
 			this->Name = "主窗体";
 			CheckForIllegalCrossThreadCalls = false;
-			//this->Enabled = false;
+
+			loginWnd^ lw = gcnew loginWnd;
+			lw->ShowDialog();
 
 			//
 			//TODO:  在此处添加构造函数代码
@@ -76,9 +78,9 @@ namespace 电工电路试验台 {
 
 
 
-	private: System::Windows::Forms::Panel^  panel4;
+	public: System::Windows::Forms::Panel^  panel4;
 	private: System::Windows::Forms::ColumnHeader^  columnHeader1;
-	private: System::Windows::Forms::Label^  label5;
+
 	private: System::Windows::Forms::ToolStrip^  toolStrip1;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton1;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton2;
@@ -107,7 +109,6 @@ namespace 电工电路试验台 {
 			this->toolStripButton1 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->toolStripButton2 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->toolStripButton3 = (gcnew System::Windows::Forms::ToolStripButton());
-			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
@@ -139,7 +140,6 @@ namespace 电工电路试验台 {
 			// 
 			this->panel2->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"panel2.BackgroundImage")));
 			this->panel2->Controls->Add(this->toolStrip1);
-			this->panel2->Controls->Add(this->label5);
 			this->panel2->Controls->Add(this->label7);
 			this->panel2->Controls->Add(this->label6);
 			this->panel2->Controls->Add(this->label4);
@@ -203,20 +203,6 @@ namespace 电工电路试验台 {
 			this->toolStripButton3->Text = L"toolStripButton3";
 			this->toolStripButton3->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton3_Click);
 			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->BackColor = System::Drawing::Color::Transparent;
-			this->label5->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label5->ForeColor = System::Drawing::Color::Green;
-			this->label5->Location = System::Drawing::Point(75, 644);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(149, 24);
-			this->label5->TabIndex = 9;
-			this->label5->Text = L"实 验 报 告";
-			this->label5->Click += gcnew System::EventHandler(this, &主窗体::label5_Click);
-			// 
 			// label7
 			// 
 			this->label7->AutoSize = true;
@@ -238,7 +224,7 @@ namespace 电工电路试验台 {
 			this->label6->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label6->ForeColor = System::Drawing::Color::Green;
-			this->label6->Location = System::Drawing::Point(75, 591);
+			this->label6->Location = System::Drawing::Point(75, 635);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(149, 24);
 			this->label6->TabIndex = 7;
@@ -252,7 +238,7 @@ namespace 电工电路试验台 {
 			this->label4->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label4->ForeColor = System::Drawing::Color::Green;
-			this->label4->Location = System::Drawing::Point(75, 539);
+			this->label4->Location = System::Drawing::Point(75, 572);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(149, 24);
 			this->label4->TabIndex = 5;
@@ -266,7 +252,7 @@ namespace 电工电路试验台 {
 			this->label3->Font = (gcnew System::Drawing::Font(L"楷体", 13.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label3->ForeColor = System::Drawing::Color::Green;
-			this->label3->Location = System::Drawing::Point(75, 489);
+			this->label3->Location = System::Drawing::Point(75, 505);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(149, 24);
 			this->label3->TabIndex = 4;
@@ -430,6 +416,15 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void open元件伏安特性的测试实验器件();
 		 void open元件伏安特性的测试实验内容();
 
+		 void open基尔霍夫定律实验目的();
+		 void open基尔霍夫定律实验原理();
+		 void open基尔霍夫定律实验器件();
+		 void open基尔霍夫定律实验内容();
+
+		 void open叠加原理实验目的();
+		 void open叠加原理实验原理();
+		 void open叠加原理实验器件();
+		 void open叠加原理实验内容();
 
 		 void open一阶电路的响应测试实验目的();
 		 void open一阶电路的响应测试实验原理();
@@ -440,9 +435,8 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void 实验目的click(int index);
 		 void 实验原理click(int index);
 		 void 实验器件click(int index);
-		 void 实验步骤click(int index);
 		 void 实验内容click(int index);
-		 void 实验报告click(int index);
+		 //void 实验报告click(int index);
 
 
 	private: System::Void label7_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -457,7 +451,7 @@ private: System::Void label5_Click(System::Object^  sender, System::EventArgs^  
 	if (listView1->SelectedIndices->Count == 0) return;
 	int index = listView1->SelectedIndices[0] + 1;
 	show实验报告F();
-	实验报告click(index);
+	//实验报告click(index);
 }
 private: System::Void toolStripButton1_Click(System::Object^  sender, System::EventArgs^  e) {
 	loginWnd ^lw = gcnew loginWnd;

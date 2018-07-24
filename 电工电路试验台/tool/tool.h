@@ -202,7 +202,7 @@ namespace 电工电路试验台 {
 如果返回 ""则是不合法
 */
 string IsDClegal(String^in); /* string 为空返回不合法  不为空是合法*/
-
+//String^ CompleteDCNum(String In);
 
 /* GetDcNum
 入参数: 两位小数的字符串数字
@@ -288,7 +288,6 @@ public:
 
 
 
-
 public ref class global {
 public:
 	static String ^Pupilage;
@@ -310,7 +309,6 @@ public:
 	static void SetDV(String^t);
 
 };
-void StartMonitor();
 
 
 void CloseAllMidchild(Form ^Parent);
@@ -325,6 +323,6 @@ void MsgQueueRegister();
 
 
 String ^GenerateOrderNumber();
-
+string GenerateStuCheckInfo();
 
 #endif
