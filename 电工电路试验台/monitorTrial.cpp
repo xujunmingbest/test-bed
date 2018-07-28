@@ -61,6 +61,45 @@ void monitorTrialssc::_SendTrial() {
 				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_叠加原理)));
 			}
 		}
+		else if (TrialCode == 4) {
+			戴维南定理实验内容^ f_ = (戴维南定理实验内容^)f;
+			while (S) {
+				Sleep(1000);
+				ST_戴维南定理 s = ((戴维南定理实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_戴维南定理)));
+			}
+		}
+		else if (TrialCode == 5) {
+			电压源与电流源的等效变换实验内容^ f_ = (电压源与电流源的等效变换实验内容^)f;
+			while (S) {
+				Sleep(1000);
+				ST_电压源与电流源的等效变换 s = ((电压源与电流源的等效变换实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_电压源与电流源的等效变换)));
+			}
+		}
+		else if (TrialCode == 6) {
+			一阶电路的响应测试实验内容^ f_ = (一阶电路的响应测试实验内容^)f;
+			while (S) {
+				ST_一阶电路的响应测试 s = ((一阶电路的响应测试实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_一阶电路的响应测试)));
+				Sleep(5000);
+			}
+		}
 	}
 	catch (System::Exception ^e) {
 		Console::Write(e->Message);
@@ -84,6 +123,18 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "叠加原理实验内容") {
 					TrialCode = 3;
+					return f_c;
+				}
+				else if (f_c->Name == "戴维南定理实验内容") {
+					TrialCode = 4;
+					return f_c;
+				}
+				else if (f_c->Name == "电压源与电流源的等效变换实验内容") {
+					TrialCode = 5;
+					return f_c;
+				}
+				else if (f_c->Name == "一阶电路的响应测试实验内容") {
+					TrialCode = 6;
 					return f_c;
 				}
 			}

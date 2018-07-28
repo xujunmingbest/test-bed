@@ -174,6 +174,8 @@ String^ DcNumToString(uint in ,uint DcSymbol)
 void global::SystemStart()
 {
 	Exceptioninit(); //全局异常初始化
+	Directory::CreateDirectory(gcnew String(BMPSAVEPATH));
+
 	PLCRecv = new S_PLCRecv;
 	//消息队列初始化 
 	MsgQueueRegister();
@@ -220,7 +222,7 @@ void global::LiKongMonter()
 		if (!sh->GetliKongData(PLCRecv))
 		{
 			if (!sh->SerialHandleInit()) {
-				SYS_LOG_ERROR("获取力控数据失败,请检串口连接是不是正常");
+				//SYS_LOG_ERROR("获取力控数据失败,请检串口连接是不是正常");
 				Thread::Sleep(60000);
 			}
 			continue;

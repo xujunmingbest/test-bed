@@ -22,10 +22,10 @@ bool SerialControl::serialPortOpen(String ^ PortName) {
 		serialPort1->Open(); //串口打开
 	}
 	catch (System::Exception ^e) {
-		SYS_LOG_ERROR("打开串口失败", T_to_string(PortName));
+		//SYS_LOG_ERROR("打开串口失败", T_to_string(PortName));
 		return false;
 	}
-	SYS_LOG_INF("打开串口成功", T_to_string(PortName));
+	//SYS_LOG_INF("打开串口成功", T_to_string(PortName));
 	return true;
 }
 
@@ -325,7 +325,7 @@ bool SerialControlSource::SetDirectVoltage(int Voltage)
 	buff[5] = _Voltage & 0xff;
 	
 	if (!sc->Send(string(buff, 6))) {
-		SYS_LOG_ERROR("控制电源设置直流电压失败");
+		//SYS_LOG_ERROR("控制电源设置直流电压失败");
 		return false;
 	}
 	return true; 
@@ -343,7 +343,7 @@ bool SerialControlSource::SetDirectCurrent(int Current)
 	buff[5] = _Current & 0xff;
 
 	if( !sc->Send(string(buff, 6)) ) {
-		SYS_LOG_ERROR("控制电源设置直流电流失败");
+		//SYS_LOG_ERROR("控制电源设置直流电流失败");
 		return false;
 	}
 	return true;
@@ -365,7 +365,7 @@ bool SerialControlSource::SetAlternatingVoltage(char Id, int Voltage)
 	buff[7] = 0x0A;
 
 	if( !sc->SendNoCrc(string(buff, 8))) {
-		SYS_LOG_ERROR("控制电源设置交流电压失败");
+		//SYS_LOG_ERROR("控制电源设置交流电压失败");
 		return false;
 	}
 	return true;
@@ -378,7 +378,7 @@ bool SerialControlSource::OpenSource(int Id)
 	buff[1] = 0x0D;
 	buff[2] = 0x0A;
 	if( !sc->SendNoCrc(string(buff, 3)) ){
-		SYS_LOG_ERROR("控制电源打开电源失败");
+		//SYS_LOG_ERROR("控制电源打开电源失败");
 		return false;
 	}
 	Sleep(5000);
@@ -392,7 +392,7 @@ bool SerialControlSource::CloseSource(int Id)
 	buff[1] = 0x0D;
 	buff[2] = 0x0A;
 	if (!sc->SendNoCrc(string(buff, 3))) {
-		SYS_LOG_ERROR("控制电源关闭串口失败");
+		//SYS_LOG_ERROR("控制电源关闭串口失败");
 		return false;
 	}
 	Sleep(5000);

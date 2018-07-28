@@ -112,6 +112,10 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <HeapReserveSize>10000000</HeapReserveSize>
+      <HeapCommitSize>10000000</HeapCommitSize>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>10000000</StackCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -138,6 +142,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\c++\libfilesql\libfilesql\libfilesql.h" />
     <ClInclude Include="..\..\..\c++\libsocket\libsocket\libsocket.h" />
     <ClInclude Include="capture.h" />
     <ClInclude Include="data_transf.h" />
@@ -188,13 +193,22 @@
     <ClInclude Include="一阶电路的响应测试实验器件.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="一阶电路的响应测试实验步骤.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="一阶电路的响应测试实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="主窗体.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="元件伏安特性的测试.h" />
@@ -238,6 +252,30 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="实验汇总头文件.h" />
+    <ClInclude Include="戴维南定理实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="戴维南定理实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="戴维南定理实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="戴维南定理实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="loginWnd.resx">
@@ -252,14 +290,23 @@
     <EmbeddedResource Include="一阶电路的响应测试实验器件.resx">
       <DependentUpon>一阶电路的响应测试实验器件.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="一阶电路的响应测试实验步骤.resx">
-      <DependentUpon>一阶电路的响应测试实验步骤.h</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="一阶电路的响应测试实验目的.resx">
       <DependentUpon>一阶电路的响应测试实验目的.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="主窗体.resx">
       <DependentUpon>主窗体.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验内容.resx">
+      <DependentUpon>二阶动态电路响应的研究实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验原理.resx">
+      <DependentUpon>二阶动态电路响应的研究实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验器件.resx">
+      <DependentUpon>二阶动态电路响应的研究实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验目的.resx">
+      <DependentUpon>二阶动态电路响应的研究实验目的.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="元件伏安特性的测试实验内容.resx">
       <DependentUpon>元件伏安特性的测试实验内容.h</DependentUpon>
@@ -300,6 +347,30 @@
     <EmbeddedResource Include="基尔霍夫定律实验设备.resx">
       <DependentUpon>基尔霍夫定律实验设备.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验内容.resx">
+      <DependentUpon>戴维南定理实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验原理.resx">
+      <DependentUpon>戴维南定理实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验器件.resx">
+      <DependentUpon>戴维南定理实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验目的.resx">
+      <DependentUpon>戴维南定理实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验内容.resx">
+      <DependentUpon>电压源与电流源的等效变换实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验原理.resx">
+      <DependentUpon>电压源与电流源的等效变换实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验器件.resx">
+      <DependentUpon>电压源与电流源的等效变换实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验目的.resx">
+      <DependentUpon>电压源与电流源的等效变换实验目的.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="capture.cpp" />
@@ -330,10 +401,14 @@
     <ClCompile Include="tool\_Mutex.cpp">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
     </ClCompile>
+    <ClCompile Include="一阶电路的响应测试.cpp" />
     <ClCompile Include="主窗体.cpp" />
+    <ClCompile Include="二阶动态电路响应的研究.cpp" />
     <ClCompile Include="元件伏安特性的测试.cpp" />
     <ClCompile Include="叠加原理.cpp" />
     <ClCompile Include="基尔霍夫定律.cpp" />
+    <ClCompile Include="戴维南定理.cpp" />
+    <ClCompile Include="电压源与电流源的等效变换.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="tool\ClassDiagram.cd" />

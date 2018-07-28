@@ -355,8 +355,8 @@ namespace 电工电路试验台 {
 		}
 #pragma endregion
 	private: System::Void 主窗体_Load(System::Object^  sender, System::EventArgs^  e) {
-		show实验目的F();
-		实验目的click(6);
+		//show实验目的F();
+		//实验目的click(6);
 		listView1Load();
 	}
 			void listView1Load(){
@@ -425,6 +425,16 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void open叠加原理实验原理();
 		 void open叠加原理实验器件();
 		 void open叠加原理实验内容();
+
+		 void open戴维南定理实验目的();
+		 void open戴维南定理实验原理();
+		 void open戴维南定理实验器件();
+		 void open戴维南定理实验内容();
+
+		 void open电压源与电流源的等效变换实验目的();
+		 void open电压源与电流源的等效变换实验原理();
+		 void open电压源与电流源的等效变换实验器件();
+		 void open电压源与电流源的等效变换实验内容();
 
 		 void open一阶电路的响应测试实验目的();
 		 void open一阶电路的响应测试实验原理();

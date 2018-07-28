@@ -52,9 +52,9 @@ void 主窗体::SelectWindows(int index) {
 	case 1: open元件伏安特性的测试实验目的(); break;
 	case 2: open基尔霍夫定律实验目的(); break;
 	case 3: open叠加原理实验目的(); break;
-	case 4:break;
-	case 5:break;
-	case 6:  open一阶电路的响应测试实验目的(); break;
+	case 4: open戴维南定理实验目的(); break;
+	case 5: open电压源与电流源的等效变换实验目的(); break;
+	case 6: open一阶电路的响应测试实验目的(); break;
 	}
 }
 
@@ -94,8 +94,8 @@ void  主窗体::实验目的click(int index) {
 	case 1:open元件伏安特性的测试实验目的(); break;
 	case 2:open基尔霍夫定律实验目的(); break;
 	case 3:open叠加原理实验目的(); break;
-	case 4:break;
-	case 5:break;
+	case 4:open戴维南定理实验目的(); break;
+	case 5:open电压源与电流源的等效变换实验目的(); break;
 	case 6:open一阶电路的响应测试实验目的(); break;
 	}
 
@@ -105,8 +105,8 @@ void  主窗体::实验原理click(int index) {
 	case 1:open元件伏安特性的测试实验原理(); break;
 	case 2:open基尔霍夫定律实验原理(); break;
 	case 3:open叠加原理实验原理(); break;
-	case 4:break;
-	case 5:break;
+	case 4:open戴维南定理实验原理(); break;
+	case 5:open电压源与电流源的等效变换实验原理(); break;
 	case 6:open一阶电路的响应测试实验原理(); break;
 	}
 }
@@ -116,8 +116,8 @@ void  主窗体::实验器件click(int index) {
 	case 1:open元件伏安特性的测试实验器件(); break;
 	case 2:open基尔霍夫定律实验器件(); break;
 	case 3:open叠加原理实验器件(); break;
-	case 4:break;
-	case 5:break;
+	case 4:open戴维南定理实验器件(); break;
+	case 5:open电压源与电流源的等效变换实验器件(); break;
 	case 6:open一阶电路的响应测试实验器件(); break;
 	}
 }
@@ -128,8 +128,8 @@ void  主窗体::实验内容click(int index) {
 	case 1:open元件伏安特性的测试实验内容(); break;
 	case 2:open基尔霍夫定律实验内容(); break;
 	case 3:open叠加原理实验内容(); break;
-	case 4:break;
-	case 5:break;
+	case 4:open戴维南定理实验内容(); break;
+	case 5:open电压源与电流源的等效变换实验内容(); break;
 	case 6:open一阶电路的响应测试实验内容(); break;
 	}
 

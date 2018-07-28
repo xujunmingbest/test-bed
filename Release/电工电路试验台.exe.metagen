@@ -2,7 +2,6 @@
   电工电路试验台.一阶电路的响应测试实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验器件.resources - Embedded, ContainedInManifestFile, 
-  电工电路试验台.一阶电路的响应测试实验步骤.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.主窗体.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验内容.resources - Embedded, ContainedInManifestFile, 
@@ -18,6 +17,14 @@
   电工电路试验台.基尔霍夫定律实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.基尔霍夫定律实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.基尔霍夫定律实验设备.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.戴维南定理实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.戴维南定理实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.戴维南定理实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.戴维南定理实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电压源与电流源的等效变换实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电压源与电流源的等效变换实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电压源与电流源的等效变换实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电压源与电流源的等效变换实验目的.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly 电工电路试验台, Version=0.0.*, Culture=固定语言(固定国家/地区): 
 	hash=SHA1, flags=PublicKey
@@ -419,21 +426,6 @@ Class 电工电路试验台.元件伏安特性的测试实验器件: AutoLayout,
 Class 电工电路试验台.元件伏安特性的测试实验报告: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class 电工电路试验台.一阶电路的响应测试实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class 电工电路试验台.一阶电路的响应测试实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class 电工电路试验台.一阶电路的响应测试实验步骤: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class 电工电路试验台.一阶电路的响应测试实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class 电工电路试验台.一阶电路的响应测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.基尔霍夫定律实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -462,6 +454,50 @@ Class 电工电路试验台.叠加原理实验内容: AutoLayout, AnsiClass, Cla
     SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_叠加原理*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.叠加原理实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.戴维南定理实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.戴维南定理实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.戴维南定理实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_戴维南定理*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.戴维南定理实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.电压源与电流源的等效变换实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.电压源与电流源的等效变换实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.电压源与电流源的等效变换实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_电压源与电流源的等效变换*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.电压源与电流源的等效变换实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.一阶电路的响应测试实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_一阶电路的响应测试*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.一阶电路的响应测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

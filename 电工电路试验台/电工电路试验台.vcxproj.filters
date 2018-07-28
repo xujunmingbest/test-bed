@@ -58,6 +58,15 @@
     <Filter Include="叠加原理">
       <UniqueIdentifier>{9ce003e3-34de-472d-89be-f985513a8ff6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="戴维南定理">
+      <UniqueIdentifier>{1c963c67-d100-4bf1-83ae-6959ac28129e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="电压源与电流源的等效变换">
+      <UniqueIdentifier>{a9b96295-ab32-477a-8c17-ca40d3c82712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="二阶动态电路响应的研究">
+      <UniqueIdentifier>{11737979-4607-4a58-88f9-b05c7c8900c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="主窗体.h">
@@ -70,9 +79,6 @@
       <Filter>一阶电路的响应测试</Filter>
     </ClInclude>
     <ClInclude Include="一阶电路的响应测试实验器件.h">
-      <Filter>一阶电路的响应测试</Filter>
-    </ClInclude>
-    <ClInclude Include="一阶电路的响应测试实验步骤.h">
       <Filter>一阶电路的响应测试</Filter>
     </ClInclude>
     <ClInclude Include="一阶电路的响应测试实验内容.h">
@@ -240,6 +246,45 @@
     <ClInclude Include="叠加原理实验内容.h">
       <Filter>叠加原理</Filter>
     </ClInclude>
+    <ClInclude Include="戴维南定理实验目的.h">
+      <Filter>戴维南定理</Filter>
+    </ClInclude>
+    <ClInclude Include="戴维南定理实验原理.h">
+      <Filter>戴维南定理</Filter>
+    </ClInclude>
+    <ClInclude Include="戴维南定理实验内容.h">
+      <Filter>戴维南定理</Filter>
+    </ClInclude>
+    <ClInclude Include="戴维南定理实验器件.h">
+      <Filter>戴维南定理</Filter>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验目的.h">
+      <Filter>电压源与电流源的等效变换</Filter>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验原理.h">
+      <Filter>电压源与电流源的等效变换</Filter>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验器件.h">
+      <Filter>电压源与电流源的等效变换</Filter>
+    </ClInclude>
+    <ClInclude Include="电压源与电流源的等效变换实验内容.h">
+      <Filter>电压源与电流源的等效变换</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\c++\libfilesql\libfilesql\libfilesql.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验目的.h">
+      <Filter>二阶动态电路响应的研究</Filter>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验原理.h">
+      <Filter>二阶动态电路响应的研究</Filter>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验器件.h">
+      <Filter>二阶动态电路响应的研究</Filter>
+    </ClInclude>
+    <ClInclude Include="二阶动态电路响应的研究实验内容.h">
+      <Filter>二阶动态电路响应的研究</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -326,6 +371,18 @@
     <ClCompile Include="叠加原理.cpp">
       <Filter>叠加原理</Filter>
     </ClCompile>
+    <ClCompile Include="戴维南定理.cpp">
+      <Filter>戴维南定理</Filter>
+    </ClCompile>
+    <ClCompile Include="电压源与电流源的等效变换.cpp">
+      <Filter>电压源与电流源的等效变换</Filter>
+    </ClCompile>
+    <ClCompile Include="一阶电路的响应测试.cpp">
+      <Filter>一阶电路的响应测试</Filter>
+    </ClCompile>
+    <ClCompile Include="二阶动态电路响应的研究.cpp">
+      <Filter>二阶动态电路响应的研究</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="一阶电路的响应测试实验内容.resx">
@@ -335,9 +392,6 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="一阶电路的响应测试实验器件.resx">
-      <Filter>资源文件</Filter>
-    </EmbeddedResource>
-    <EmbeddedResource Include="一阶电路的响应测试实验步骤.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="一阶电路的响应测试实验目的.resx">
@@ -374,6 +428,42 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="基尔霍夫定律实验设备.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="叠加原理实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="戴维南定理实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电压源与电流源的等效变换实验器件.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
   </ItemGroup>

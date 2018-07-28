@@ -285,7 +285,7 @@ public:
 
 #define LOGINNORMAL 1;
 #define LOGINYOUKE 2;
-
+#define BMPSAVEPATH "bmp/"
 
 
 public ref class global {

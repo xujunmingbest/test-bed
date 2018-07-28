@@ -59,42 +59,6 @@ struct GradesHead {
 	char TrialName[100];
 };
 
-//基尔霍夫定理实验结构体  
-//relative error = r_v
-//measured value = m_v
-//calculated value = c_v
-struct KirchhoffTheorem {
-	int I1_c_v; //计算值 
-	int I1_m_v; //测量值
-	int I1_r_e; //相对误差
-	int I2_c_v; //计算值
-	int I2_m_v; //测量值
-	int I2_r_e; //相对误差
-	int I3_c_v; //计算值
-	int I3_m_v; //测量值
-	int I3_r_e; //相对误差
-	int U11_c_v; //计算值
-	int U11_m_v; //测量值
-	int U11_r_e; //相对误差
-	int U12_c_v; //计算值
-	int U12_m_v; //测量值
-	int U12_r_e; //相对误差
-	int Ufa_c_v; //计算值
-	int Ufa_m_v; //测量值
-	int Ufa_r_e; //相对误差
-	int Uab_c_v; //计算值
-	int Uab_m_v; //测量值
-	int Uab_r_e; //相对误差
-	int Uad_c_v; //计算值
-	int Uad_m_v; //测量值
-	int Uad_r_e; //相对误差
-	int Ucd_c_v; //计算值
-	int Ucd_m_v; //测量值
-	int Ucd_r_e; //相对误差
-	int Ude_c_v; //计算值
-	int Ude_m_v; //测量值
-	int Ude_r_e; //相对误差
-};
 struct TrialInfo {
 	char stuName1[100];
 	char stuName2[100];
@@ -507,5 +471,188 @@ struct ST_叠加原理 {
 	int Score2;
 };
 
+struct ST_戴维南定理 {
+	TrialInfo ti;
+	char Method1Uoc[10];
+	char Method1Isc[10];
+	char Method1Ro[10];
+	int scoreMethod1;
+
+	char Method2RL1[10];
+	char Method2RL2[10];
+	char Method2RL3[10];
+	char Method2RL4[10];
+	char Method2RL5[10];
+	char Method2RL6[10];
+	char Method2RL7[10];
+	char Method2RL8[10];
+	char Method2RL9[10];
+	char Method2RL10[10];
+	char Method2URL1[10];
+	char Method2URL2[10];
+	char Method2URL3[10];
+	char Method2URL4[10];
+	char Method2URL5[10];
+	char Method2URL6[10];
+	char Method2URL7[10];
+	char Method2URL8[10];
+	char Method2URL9[10];
+	char Method2URL10[10];
+	char Method2I1[10];
+	char Method2I2[10];
+	char Method2I3[10];
+	char Method2I4[10];
+	char Method2I5[10];
+	char Method2I6[10];
+	char Method2I7[10];
+	char Method2I8[10];
+	char Method2I9[10];
+	char Method2I10[10];
+	int scoreMethod2;
+	char Method3Uoc[10];
+	char Method3ro[10];
+	int scoreMethod3;
+
+	char Method6RL1[10];
+	char Method6RL2[10];
+	char Method6RL3[10];
+	char Method6RL4[10];
+	char Method6RL5[10];
+	char Method6RL6[10];
+	char Method6RL7[10];
+	char Method6RL8[10];
+	char Method6RL9[10];
+	char Method6RL10[10];
+	char Method6URL1[10];
+	char Method6URL2[10];
+	char Method6URL3[10];
+	char Method6URL4[10];
+	char Method6URL5[10];
+	char Method6URL6[10];
+	char Method6URL7[10];
+	char Method6URL8[10];
+	char Method6URL9[10];
+	char Method6URL10[10];
+	char Method6I1[10];
+	char Method6I2[10];
+	char Method6I3[10];
+	char Method6I4[10];
+	char Method6I5[10];
+	char Method6I6[10];
+	char Method6I7[10];
+	char Method6I8[10];
+	char Method6I9[10];
+	char Method6I10[10];
+	int scoreMethod6;
+	char summing_up[100];
+};
+
+struct ST_电压源与电流源的等效变换 {
+	TrialInfo ti;
+	char Trial11Load1[10];
+	char Trial11Load2[10];
+	char Trial11Load3[10];
+	char Trial11Load4[10];
+	char Trial11Load5[10];
+	char Trial11Load6[10];
+	char Trial11Load7[10];
+	char Trial11Load8[10];
+	char Trial11Load9[10];
+	char Trial11Load10[10];
+
+	char Trial11U1[10];
+	char Trial11U2[10];
+	char Trial11U3[10];
+	char Trial11U4[10];
+	char Trial11U5[10];
+	char Trial11U6[10];
+	char Trial11U7[10];
+	char Trial11U8[10];
+	char Trial11U9[10];
+	char Trial11U10[10];
+
+	char Trial11I1[10];
+	char Trial11I2[10];
+	char Trial11I3[10];
+	char Trial11I4[10];
+	char Trial11I5[10];
+	char Trial11I6[10];
+	char Trial11I7[10];
+	char Trial11I8[10];
+	char Trial11I9[10];
+	char Trial11I10[10];
+	int Trial11Score;
+
+	char Trial12Load1[10];
+	char Trial12Load2[10];
+	char Trial12Load3[10];
+	char Trial12Load4[10];
+	char Trial12Load5[10];
+	char Trial12Load6[10];
+	char Trial12Load7[10];
+	char Trial12Load8[10];
+	char Trial12Load9[10];
+	char Trial12Load10[10];
+
+	char Trial12U1[10];
+	char Trial12U2[10];
+	char Trial12U3[10];
+	char Trial12U4[10];
+	char Trial12U5[10];
+	char Trial12U6[10];
+	char Trial12U7[10];
+	char Trial12U8[10];
+	char Trial12U9[10];
+	char Trial12U10[10];
+
+	char Trial12I1[10];
+	char Trial12I2[10];
+	char Trial12I3[10];
+	char Trial12I4[10];
+	char Trial12I5[10];
+	char Trial12I6[10];
+	char Trial12I7[10];
+	char Trial12I8[10];
+	char Trial12I9[10];
+	char Trial12I10[10];
+	int Trial12Score;
+
+	char Trial2Load1[10];
+	char Trial2Load2[10];
+	char Trial2Load3[10];
+	char Trial2Load4[10];
+	char Trial2Load5[10];
+	char Trial2Load6[10];
+	char Trial2Load7[10];
+	char Trial2Load8[10];
+	char Trial2Load9[10];
+	char Trial2Load10[10];
+
+	char Trial2I1[10];
+	char Trial2I2[10];
+	char Trial2I3[10];
+	char Trial2I4[10];
+	char Trial2I5[10];
+	char Trial2I6[10];
+	char Trial2I7[10];
+	char Trial2I8[10];
+	char Trial2I9[10];
+	char Trial2I10[10];
+	int Trial2Score;
+
+	char summing_up[100];
+};
+
+struct ST_一阶电路的响应测试 {
+	TrialInfo ti;
+	char τ[10];
+	char Trial1Bmp[387072];
+	int Trial1Score;
+	char Trial2Bmp[387072];
+	int Trial2Score;
+	char Trial3Bmp[387072];
+	int Trial3Score;
+	char summing_up[100];
+};
 #pragma pack(pop)
 

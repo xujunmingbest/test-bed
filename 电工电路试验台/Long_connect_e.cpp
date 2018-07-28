@@ -110,8 +110,9 @@ void ForceCommitGrade() {
 			for each (Form^f in ((主窗体^)fz)->panel4->Controls)
 			{
 				if (f->Name == "元件伏安特性的测试实验内容") {
-					ST_元件伏安特性测试 s = ((元件伏安特性的测试实验内容^)f)->LoadGradeData();
+					ST_元件伏安特性测试 s;
 					memset(&s, 0x00, sizeof(ST_元件伏安特性测试));
+					s = ((元件伏安特性的测试实验内容^)f)->LoadGradeData();
 					s.ti = trialInfo;
 					s.ti.TrialCode = 1;
 					s.ti.totalscore = -1;
@@ -136,8 +137,9 @@ void ForceCommitGrade() {
 					lcc.SendComputerInfo(Grades[1] + "已交卷");
 				}
 				else if (f->Name == "基尔霍夫定律实验内容") {
-					ST_基尔霍夫定律 s = ((基尔霍夫定律实验内容^)f)->Load_Grade_data();
+					ST_基尔霍夫定律 s;
 					memset(&s, 0x00, sizeof(ST_基尔霍夫定律));
+					s = ((基尔霍夫定律实验内容^)f)->Load_Grade_data();
 					int trialCode = 2;
 					s.ti = trialInfo;
 					s.ti.TrialCode = trialCode;
@@ -163,8 +165,9 @@ void ForceCommitGrade() {
 					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
 				}
 				else if (f->Name == "叠加原理实验内容") {
-					ST_叠加原理 s = ((叠加原理实验内容^)f)->Load_Grade_data();
+					ST_叠加原理 s;
 					memset(&s, 0x00, sizeof(ST_叠加原理));
+					s = ((叠加原理实验内容^)f)->Load_Grade_data();
 					int trialCode = 3;
 					s.ti = trialInfo;
 					s.ti.TrialCode = trialCode;
@@ -182,6 +185,90 @@ void ForceCommitGrade() {
 						return;
 					}
 					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_叠加原理)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
+				else if (f->Name == "戴维南定理实验内容") {
+					ST_戴维南定理 s;
+					memset(&s, 0x00, sizeof(ST_戴维南定理));
+					s = ((戴维南定理实验内容^)f)->Load_Grade_data();
+					int trialCode = 4;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_戴维南定理)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
+				else if (f->Name == "电压源与电流源的等效变换实验内容") {
+					ST_电压源与电流源的等效变换 s;
+					memset(&s, 0x00, sizeof(ST_电压源与电流源的等效变换));
+					s = ((电压源与电流源的等效变换实验内容^)f)->Load_Grade_data();
+					int trialCode = 5;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_电压源与电流源的等效变换)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
+				else if (f->Name == "一阶电路的响应测试实验内容") {
+					ST_一阶电路的响应测试 s;
+					memset(&s, 0x00, sizeof(ST_一阶电路的响应测试));
+					s = ((一阶电路的响应测试实验内容^)f)->Load_Grade_data();
+					int trialCode = 6;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_一阶电路的响应测试)))) {
 						MessageBox::Show("TCP连接失败");
 						return;
 					}

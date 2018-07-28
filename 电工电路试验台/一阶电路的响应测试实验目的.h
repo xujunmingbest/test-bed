@@ -34,8 +34,10 @@ namespace 电工电路试验台 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Label^  label1;
-	private: AxShockwaveFlashObjects::AxShockwaveFlash^  axShockwaveFlash1;
+	private: System::Windows::Forms::Label^  label2;
+	protected:
+
+
 	protected:
 
 	private:
@@ -51,52 +53,42 @@ namespace 电工电路试验台 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(一阶电路的响应测试实验目的::typeid));
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->axShockwaveFlash1 = (gcnew AxShockwaveFlashObjects::AxShockwaveFlash());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->axShockwaveFlash1))->BeginInit();
+			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
-			// label1
+			// label2
 			// 
-			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->label2->AutoSize = true;
+			this->label2->BackColor = System::Drawing::Color::Transparent;
+			this->label2->Font = (gcnew System::Drawing::Font(L"宋体", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label1->ForeColor = System::Drawing::Color::Red;
-			this->label1->Location = System::Drawing::Point(117, 162);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(293, 31);
-			this->label1->TabIndex = 0;
-			this->label1->Text = L"一阶电路的响应测试实验目的";
-			// 
-			// axShockwaveFlash1
-			// 
-			this->axShockwaveFlash1->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->axShockwaveFlash1->Enabled = true;
-			this->axShockwaveFlash1->Location = System::Drawing::Point(0, 0);
-			this->axShockwaveFlash1->Name = L"axShockwaveFlash1";
-			this->axShockwaveFlash1->OcxState = (cli::safe_cast<System::Windows::Forms::AxHost::State^>(resources->GetObject(L"axShockwaveFlash1.OcxState")));
-			this->axShockwaveFlash1->Size = System::Drawing::Size(955, 693);
-			this->axShockwaveFlash1->TabIndex = 1;
+			this->label2->Location = System::Drawing::Point(12, 303);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(810, 196);
+			this->label2->TabIndex = 6;
+			this->label2->Text = L"    1．测定RC一阶电路的零输入响应，零状态响应及完全响应。\r\n    \r\n    2．学习电路时间常数的测量方法。\r\n\r\n    3．掌握有关微分电路和积分"
+				L"电路的概念。\r\n\r\n    4．进一步学会用示波器测绘图形。";
 			// 
 			// 一阶电路的响应测试实验目的
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(955, 693);
-			this->Controls->Add(this->axShockwaveFlash1);
-			this->Controls->Add(this->label1);
+			this->AutoScroll = true;
+			this->ClientSize = System::Drawing::Size(1260, 693);
+			this->Controls->Add(this->label2);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"一阶电路的响应测试实验目的";
 			this->Text = L"一阶电路的响应测试实验目的";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &一阶电路的响应测试实验目的::一阶电路的响应测试实验目的_Load);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->axShockwaveFlash1))->EndInit();
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
 	private: System::Void 一阶电路的响应测试实验目的_Load(System::Object^  sender, System::EventArgs^  e) {
-		axShockwaveFlash1->Movie = "E:/串口设备连接需要的器件资料/电工实训仿真/电工实训仿真/swf/直流电桥1.swf";
+	}
+	private: System::Void label1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 	};
 }

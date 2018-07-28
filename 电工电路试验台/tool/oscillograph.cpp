@@ -24,11 +24,11 @@ bool oscillograph::oscillographOpen() {
 	CString msg = "[C:DSO][D:DSO-X][T:USB][PID:0x5537][VID:0x4348][EI:0x82][EO:0x2][CFG:1][I:0]";
 	auto r = uci::uci_Open(msg, &g_curSession, 2000);
 	if (r == 0) {
-		SYS_LOG_INF("示波器打开成功");
+		//SYS_LOG_INF("示波器打开成功");
 		return true;
 	}
 	else {
-		SYS_LOG_ERROR("示波器打开失败");
+		//SYS_LOG_ERROR("示波器打开失败");
 		return false;
 	}
 }
@@ -43,16 +43,16 @@ bool oscillograph::GetOscilloscopePrtScnBmp(string &bmpName) {
 	rrr.Timeout = 4000;
 	int r = uci::uci_Read(g_curSession, &rrr, data, BMPLENGTH);
 	if (r <= 0) {
-		SYS_LOG_ERROR("示波器读取图片失败");
+		//SYS_LOG_ERROR("示波器读取图片失败");
 	    return false;
 	}
 
-	string T = "bmp/";
+	string T = BMPSAVEPATH;
 	T += bmpName;
 	ofstream f;
 	f.open(T);
 	if (!f) {
-		SYS_LOG_ERROR("示波器保存图片失败");
+		//SYS_LOG_ERROR("示波器保存图片失败");
 	    return false;
 	}
 	f.write((const char*)data, BMPLENGTH);
@@ -63,11 +63,11 @@ bool oscillograph::GetOscilloscopePrtScnBmp(string &bmpName) {
 bool oscillograph::oscillographClose() {
 
 	if (uci::uci_Close(g_curSession) == 0) {
-		SYS_LOG_INF("示波器会话关闭成功");
+		//SYS_LOG_INF("示波器会话关闭成功");
 		return true;
 	}
 	else {
-		SYS_LOG_ERROR("示波器会话关闭失败");
+		//SYS_LOG_ERROR("示波器会话关闭失败");
 		return false;
 	}
 }
@@ -87,7 +87,7 @@ oscillographParam oscillograph::GetoscillographParam() {
 	comAPICommon::MeaValue params[50];
 	int r = uci::uci_ReadX(g_curSession, _T("mea:all?;"), 2000, (byte*)params, sizeof(params));
 	if (r <= 0) {
-		SYS_LOG_ERROR("读取示波器参数失败");
+		//SYS_LOG_ERROR("读取示波器参数失败");
 		return op;
 	}
 	op.MP_FREQ = PrintMeaParam(params[cb::MP_FREQ]);

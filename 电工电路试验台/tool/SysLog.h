@@ -2,7 +2,7 @@
 #include "message_Queue.h"
 #include "log.h"
 //启用开关  系统日志
-#define SYS_LOG_ENABLE 
+//#define SYS_LOG_ENABLE 
 
 
 #ifdef SYS_LOG_ENABLE

@@ -183,6 +183,123 @@ void 主窗体::open叠加原理实验内容() {
 		f->Show();
 	}
 }
+void 主窗体::open戴维南定理实验目的() {
+	bool f = GetWindowsChild("戴维南定理实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		戴维南定理实验目的^ f = gcnew 戴维南定理实验目的;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "戴维南定理实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open戴维南定理实验原理() {
+	bool f = GetWindowsChild("戴维南定理实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		戴维南定理实验原理^ f = gcnew 戴维南定理实验原理;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "戴维南定理实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open戴维南定理实验器件() {
+	bool f = GetWindowsChild("戴维南定理实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		戴维南定理实验器件^ f = gcnew 戴维南定理实验器件;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "戴维南定理实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+void 主窗体::open戴维南定理实验内容() {
+	bool f = GetWindowsChild("戴维南定理实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		戴维南定理实验内容^ f = gcnew 戴维南定理实验内容;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "戴维南定理实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open电压源与电流源的等效变换实验目的() {
+	bool f = GetWindowsChild("电压源与电流源的等效变换实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		电压源与电流源的等效变换实验目的^ f = gcnew 电压源与电流源的等效变换实验目的;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "电压源与电流源的等效变换实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open电压源与电流源的等效变换实验原理() {
+	bool f = GetWindowsChild("电压源与电流源的等效变换实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		电压源与电流源的等效变换实验原理^ f = gcnew 电压源与电流源的等效变换实验原理;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "电压源与电流源的等效变换实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+void 主窗体::open电压源与电流源的等效变换实验器件() {
+	bool f = GetWindowsChild("电压源与电流源的等效变换实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		电压源与电流源的等效变换实验器件^ f = gcnew 电压源与电流源的等效变换实验器件;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "电压源与电流源的等效变换实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open电压源与电流源的等效变换实验内容() {
+	bool f = GetWindowsChild("电压源与电流源的等效变换实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		电压源与电流源的等效变换实验内容^ f = gcnew 电压源与电流源的等效变换实验内容;
+		f->MdiParent = this;
+
+		f->Parent = this->panel4;
+		f->Name = "电压源与电流源的等效变换实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
 
 
 /*
