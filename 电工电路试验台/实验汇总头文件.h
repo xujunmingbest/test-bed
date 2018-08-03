@@ -31,3 +31,26 @@
 #include "一阶电路的响应测试实验原理.h"
 #include "一阶电路的响应测试实验内容.h"
 #include "一阶电路的响应测试实验器件.h"
+
+
+#include "二阶动态电路响应的研究实验目的.h"
+#include "二阶动态电路响应的研究实验原理.h"
+#include "二阶动态电路响应的研究实验内容.h"
+#include "二阶动态电路响应的研究实验器件.h"
+
+
+#include "VCVS实验实验目的.h"
+#include "VCVS实验实验原理.h"
+#include "VCVS实验实验内容.h"
+#include "VCVS实验实验器件.h"
+
+
+#include "二端口网络的研究实验目的.h"
+#include "二端口网络的研究实验原理.h"
+#include "二端口网络的研究实验内容.h"
+#include "二端口网络的研究实验器件.h"
+
+#include "最大功率传输条件的测定实验目的.h"
+#include "最大功率传输条件的测定实验原理.h"
+#include "最大功率传输条件的测定实验内容.h"
+#include "最大功率传输条件的测定实验器件.h"

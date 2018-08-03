@@ -75,7 +75,7 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label3->Location = System::Drawing::Point(31, 428);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(940, 168);
+			this->label3->Size = System::Drawing::Size(940, 264);
 			this->label3->TabIndex = 23;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
@@ -83,7 +83,7 @@ namespace 电工电路试验台 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1206, 671);
+			this->ClientSize = System::Drawing::Size(1206, 737);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label7);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;

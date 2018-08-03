@@ -441,6 +441,25 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void open一阶电路的响应测试实验器件();
 		 void open一阶电路的响应测试实验内容();
 		 
+		 void open二阶动态电路响应的研究实验目的();
+		 void open二阶动态电路响应的研究实验原理();
+		 void open二阶动态电路响应的研究实验器件();
+		 void open二阶动态电路响应的研究实验内容();
+
+		 void openVCVS实验实验目的();
+		 void openVCVS实验实验原理();
+		 void openVCVS实验实验器件();
+		 void openVCVS实验实验内容();
+
+		 void open二端口网络的研究实验目的();
+		 void open二端口网络的研究实验原理();
+		 void open二端口网络的研究实验器件();
+		 void open二端口网络的研究实验内容();
+
+		 void open最大功率传输条件的测定实验目的();
+		 void open最大功率传输条件的测定实验原理();
+		 void open最大功率传输条件的测定实验器件();
+		 void open最大功率传输条件的测定实验内容();
 		 /*******实验具体按钮点击******/
 		 void 实验目的click(int index);
 		 void 实验原理click(int index);

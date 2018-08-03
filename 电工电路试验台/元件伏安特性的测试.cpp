@@ -19,7 +19,7 @@ void 元件伏安特性的测试实验报告::this_load() {
 	label线性SU7->Text = s_线性电阻器::SU7;
 	label线性SU8->Text = s_线性电阻器::SU8;
 	label线性SU9->Text = s_线性电阻器::SU9;
-	label线性SU10->Text = s_线性电阻器::SU10;
+	label线性SU10->Text= s_线性电阻器::SU10;
 
 	label线性U1->Text = s_线性电阻器::U1;
 	label线性U2->Text = s_线性电阻器::U2;

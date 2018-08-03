@@ -55,6 +55,10 @@ void 主窗体::SelectWindows(int index) {
 	case 4: open戴维南定理实验目的(); break;
 	case 5: open电压源与电流源的等效变换实验目的(); break;
 	case 6: open一阶电路的响应测试实验目的(); break;
+	case 7: open二阶动态电路响应的研究实验目的(); break;
+	case 8: openVCVS实验实验目的(); break;
+	case 9: open二端口网络的研究实验目的(); break;
+	case 10: open最大功率传输条件的测定实验目的(); break;
 	}
 }
 
@@ -97,6 +101,10 @@ void  主窗体::实验目的click(int index) {
 	case 4:open戴维南定理实验目的(); break;
 	case 5:open电压源与电流源的等效变换实验目的(); break;
 	case 6:open一阶电路的响应测试实验目的(); break;
+	case 7:open二阶动态电路响应的研究实验目的(); break;
+	case 8: openVCVS实验实验目的(); break;
+	case 9: open二端口网络的研究实验目的(); break;
+	case 10: open最大功率传输条件的测定实验目的(); break;
 	}
 
 }
@@ -108,6 +116,10 @@ void  主窗体::实验原理click(int index) {
 	case 4:open戴维南定理实验原理(); break;
 	case 5:open电压源与电流源的等效变换实验原理(); break;
 	case 6:open一阶电路的响应测试实验原理(); break;
+	case 7:open二阶动态电路响应的研究实验原理(); break;
+	case 8: openVCVS实验实验原理(); break;
+	case 9: open二端口网络的研究实验原理(); break;
+	case 10: open最大功率传输条件的测定实验原理(); break;
 	}
 }
 
@@ -119,6 +131,10 @@ void  主窗体::实验器件click(int index) {
 	case 4:open戴维南定理实验器件(); break;
 	case 5:open电压源与电流源的等效变换实验器件(); break;
 	case 6:open一阶电路的响应测试实验器件(); break;
+	case 7:open二阶动态电路响应的研究实验器件(); break;
+	case 8:openVCVS实验实验器件(); break;
+	case 9: open二端口网络的研究实验器件(); break;
+	case 10: open最大功率传输条件的测定实验器件(); break;
 	}
 }
 
@@ -131,6 +147,10 @@ void  主窗体::实验内容click(int index) {
 	case 4:open戴维南定理实验内容(); break;
 	case 5:open电压源与电流源的等效变换实验内容(); break;
 	case 6:open一阶电路的响应测试实验内容(); break;
+	case 7:open二阶动态电路响应的研究实验内容(); break;
+	case 8:openVCVS实验实验内容(); break;
+	case 9: open二端口网络的研究实验内容(); break;
+	case 10: open最大功率传输条件的测定实验内容(); break;
 	}
 
 }

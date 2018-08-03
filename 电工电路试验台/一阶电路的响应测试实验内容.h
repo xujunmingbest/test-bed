@@ -357,9 +357,10 @@ private: System::Windows::Forms::Label^  label105;
 			// 
 			// pictureBoxTrial1
 			// 
-			this->pictureBoxTrial1->Location = System::Drawing::Point(74, 199);
+			this->pictureBoxTrial1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBoxTrial1.Image")));
+			this->pictureBoxTrial1->Location = System::Drawing::Point(72, 202);
 			this->pictureBoxTrial1->Name = L"pictureBoxTrial1";
-			this->pictureBoxTrial1->Size = System::Drawing::Size(1014, 498);
+			this->pictureBoxTrial1->Size = System::Drawing::Size(605, 395);
 			this->pictureBoxTrial1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBoxTrial1->TabIndex = 89;
 			this->pictureBoxTrial1->TabStop = false;
@@ -374,7 +375,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(1100, 34);
 			this->label2->TabIndex = 88;
-			this->label2->Text = L"    少量地改变电容值或电阻值，定性地观察对响应的影响，记录观察到的现象。";
+			this->label2->Text = L"    少量地改变电容值或电阻值，定性地观察对响应的影响，记录观察到的现象  。";
 			// 
 			// label19
 			// 
@@ -385,7 +386,9 @@ private: System::Windows::Forms::Label^  label105;
 			this->label19->Name = L"label19";
 			this->label19->Size = System::Drawing::Size(1100, 111);
 			this->label19->TabIndex = 87;
-			this->label19->Text = resources->GetString(L"label19.Text");
+			this->label19->Text = L"    1．选择动态电路板上的R、C元件，令R＝30KΩ，C＝1000PF（K2、K11闭合，其他断开）组成如图6－1（b）所示的RC充放电电路，E为脉冲信号发生"
+				L"器输出Um＝3V，F＝1KHz的方波电压信号，并通过两根同轴电缆线，将激励源E和响应Uc的信号分别连至示波器的两个输入口YA和YB，这时可在示波器的屏幕上观察到"
+				L"激励与响应的变化规律，求测时间常数τ，并用方格纸按1：1的比例描绘波形 。";
 			// 
 			// groupBox1
 			// 
@@ -415,9 +418,10 @@ private: System::Windows::Forms::Label^  label105;
 			// 
 			// pictureBoxTrial2
 			// 
+			this->pictureBoxTrial2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBoxTrial2.Image")));
 			this->pictureBoxTrial2->Location = System::Drawing::Point(62, 107);
 			this->pictureBoxTrial2->Name = L"pictureBoxTrial2";
-			this->pictureBoxTrial2->Size = System::Drawing::Size(1014, 527);
+			this->pictureBoxTrial2->Size = System::Drawing::Size(605, 395);
 			this->pictureBoxTrial2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBoxTrial2->TabIndex = 89;
 			this->pictureBoxTrial2->TabStop = false;
@@ -461,9 +465,10 @@ private: System::Windows::Forms::Label^  label105;
 			// 
 			// pictureBoxTrial3
 			// 
+			this->pictureBoxTrial3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBoxTrial3.Image")));
 			this->pictureBoxTrial3->Location = System::Drawing::Point(72, 149);
 			this->pictureBoxTrial3->Name = L"pictureBoxTrial3";
-			this->pictureBoxTrial3->Size = System::Drawing::Size(1014, 505);
+			this->pictureBoxTrial3->Size = System::Drawing::Size(605, 395);
 			this->pictureBoxTrial3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBoxTrial3->TabIndex = 89;
 			this->pictureBoxTrial3->TabStop = false;

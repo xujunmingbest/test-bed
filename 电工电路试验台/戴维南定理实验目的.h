@@ -83,7 +83,7 @@ namespace 电工电路试验台 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1048, 556);
+			this->ClientSize = System::Drawing::Size(1048, 554);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;

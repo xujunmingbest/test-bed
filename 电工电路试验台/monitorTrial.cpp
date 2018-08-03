@@ -100,6 +100,58 @@ void monitorTrialssc::_SendTrial() {
 				Sleep(5000);
 			}
 		}
+		else if (TrialCode == 7) {
+			二阶动态电路响应的研究实验内容^ f_ = (二阶动态电路响应的研究实验内容^)f;
+			while (S) {
+				ST_二阶动态电路响应的研究 s = ((二阶动态电路响应的研究实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_二阶动态电路响应的研究)));
+				Sleep(5000);
+			}
+		}
+		else if (TrialCode == 8) {
+			VCVS实验实验内容^ f_ = (VCVS实验实验内容^)f;
+			while (S) {
+				ST_VCVS实验 s = ((VCVS实验实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_VCVS实验)));
+				Sleep(2000);
+			}
+		}
+		else if (TrialCode == 9) {
+			二端口网络的研究实验内容^ f_ = (二端口网络的研究实验内容^)f;
+			while (S) {
+				ST_二端口网络的研究 s = ((二端口网络的研究实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_二端口网络的研究)));
+				Sleep(2000);
+			} 
+		}
+		else if (TrialCode == 10) {
+			最大功率传输条件的测定实验内容^ f_ = (最大功率传输条件的测定实验内容^)f;
+			while (S) {
+				ST_最大功率传输条件的测定 s = ((最大功率传输条件的测定实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_最大功率传输条件的测定)));
+				Sleep(2000);
+			}
+		}
 	}
 	catch (System::Exception ^e) {
 		Console::Write(e->Message);
@@ -135,6 +187,22 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "一阶电路的响应测试实验内容") {
 					TrialCode = 6;
+					return f_c;
+				}
+				else if (f_c->Name == "二阶动态电路响应的研究实验内容") {
+					TrialCode = 7;
+					return f_c;
+				}
+				else if (f_c->Name == "VCVS实验实验内容") {
+					TrialCode = 8;
+					return f_c;
+				}
+				else if (f_c->Name == "二端口网络的研究实验内容") {
+					TrialCode = 9;
+					return f_c;
+				}
+				else if (f_c->Name == "最大功率传输条件的测定实验内容") {
+					TrialCode = 10;
 					return f_c;
 				}
 			}

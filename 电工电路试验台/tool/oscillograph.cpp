@@ -47,8 +47,8 @@ bool oscillograph::GetOscilloscopePrtScnBmp(string &bmpName) {
 	    return false;
 	}
 
-	string T = BMPSAVEPATH;
-	T += bmpName;
+	string T = bmpName;
+	//T += bmpName;
 	ofstream f;
 	f.open(T);
 	if (!f) {

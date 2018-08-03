@@ -325,4 +325,5 @@ void MsgQueueRegister();
 String ^GenerateOrderNumber();
 string GenerateStuCheckInfo();
 
+
 #endif

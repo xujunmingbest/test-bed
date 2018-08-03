@@ -67,6 +67,15 @@
     <Filter Include="二阶动态电路响应的研究">
       <UniqueIdentifier>{11737979-4607-4a58-88f9-b05c7c8900c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="VCVS实验">
+      <UniqueIdentifier>{f06d95da-0479-41ae-86c7-3fcecd1b0fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="二端口网络的研究">
+      <UniqueIdentifier>{b1c7d7ff-4f50-4191-8a36-0a2bca93a1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="最大功率传输条件的测定">
+      <UniqueIdentifier>{6f067b98-ab7f-4dfd-9d23-0906b40abc81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="主窗体.h">
@@ -285,6 +294,42 @@
     <ClInclude Include="二阶动态电路响应的研究实验内容.h">
       <Filter>二阶动态电路响应的研究</Filter>
     </ClInclude>
+    <ClInclude Include="VCVS实验实验目的.h">
+      <Filter>VCVS实验</Filter>
+    </ClInclude>
+    <ClInclude Include="VCVS实验实验原理.h">
+      <Filter>VCVS实验</Filter>
+    </ClInclude>
+    <ClInclude Include="VCVS实验实验器件.h">
+      <Filter>VCVS实验</Filter>
+    </ClInclude>
+    <ClInclude Include="VCVS实验实验内容.h">
+      <Filter>VCVS实验</Filter>
+    </ClInclude>
+    <ClInclude Include="二端口网络的研究实验目的.h">
+      <Filter>二端口网络的研究</Filter>
+    </ClInclude>
+    <ClInclude Include="二端口网络的研究实验原理.h">
+      <Filter>二端口网络的研究</Filter>
+    </ClInclude>
+    <ClInclude Include="二端口网络的研究实验器件.h">
+      <Filter>二端口网络的研究</Filter>
+    </ClInclude>
+    <ClInclude Include="二端口网络的研究实验内容.h">
+      <Filter>二端口网络的研究</Filter>
+    </ClInclude>
+    <ClInclude Include="最大功率传输条件的测定实验目的.h">
+      <Filter>最大功率传输条件的测定</Filter>
+    </ClInclude>
+    <ClInclude Include="最大功率传输条件的测定实验原理.h">
+      <Filter>最大功率传输条件的测定</Filter>
+    </ClInclude>
+    <ClInclude Include="最大功率传输条件的测定实验器件.h">
+      <Filter>最大功率传输条件的测定</Filter>
+    </ClInclude>
+    <ClInclude Include="最大功率传输条件的测定实验内容.h">
+      <Filter>最大功率传输条件的测定</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -383,6 +428,15 @@
     <ClCompile Include="二阶动态电路响应的研究.cpp">
       <Filter>二阶动态电路响应的研究</Filter>
     </ClCompile>
+    <ClCompile Include="VCVS实验.cpp">
+      <Filter>VCVS实验</Filter>
+    </ClCompile>
+    <ClCompile Include="二端口网络的研究.cpp">
+      <Filter>二端口网络的研究</Filter>
+    </ClCompile>
+    <ClCompile Include="最大功率传输条件的测定.cpp">
+      <Filter>最大功率传输条件的测定</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="一阶电路的响应测试实验内容.resx">
@@ -464,6 +518,42 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="电压源与电流源的等效变换实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二阶动态电路响应的研究实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VCVS实验实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VCVS实验实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VCVS实验实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VCVS实验实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二端口网络的研究实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二端口网络的研究实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二端口网络的研究实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="二端口网络的研究实验目的.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
   </ItemGroup>

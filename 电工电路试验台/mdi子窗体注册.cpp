@@ -383,3 +383,239 @@ void 主窗体::open一阶电路的响应测试实验内容() {
 	}
 
 }
+
+
+void 主窗体::open二阶动态电路响应的研究实验目的() {
+	bool f = GetWindowsChild("二阶动态电路响应的研究实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		二阶动态电路响应的研究实验目的^ f = gcnew 二阶动态电路响应的研究实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二阶动态电路响应的研究实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+
+void 主窗体::open二阶动态电路响应的研究实验原理() {
+	bool f = GetWindowsChild("二阶动态电路响应的研究实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		二阶动态电路响应的研究实验原理^ f = gcnew 二阶动态电路响应的研究实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二阶动态电路响应的研究实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open二阶动态电路响应的研究实验器件() {
+	bool f = GetWindowsChild("二阶动态电路响应的研究实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		二阶动态电路响应的研究实验器件^ f = gcnew 二阶动态电路响应的研究实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二阶动态电路响应的研究实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+void 主窗体::open二阶动态电路响应的研究实验内容() {
+	bool f = GetWindowsChild("二阶动态电路响应的研究实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		二阶动态电路响应的研究实验内容^ f = gcnew 二阶动态电路响应的研究实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二阶动态电路响应的研究实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+
+
+void 主窗体::openVCVS实验实验目的() {
+	bool f = GetWindowsChild("VCVS实验实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		VCVS实验实验目的^ f = gcnew VCVS实验实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "VCVS实验实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openVCVS实验实验原理() {
+	bool f = GetWindowsChild("VCVS实验实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		VCVS实验实验原理^ f = gcnew VCVS实验实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "VCVS实验实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openVCVS实验实验器件() {
+	bool f = GetWindowsChild("VCVS实验实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		VCVS实验实验器件^ f = gcnew VCVS实验实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "VCVS实验实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+void 主窗体::openVCVS实验实验内容() {
+	bool f = GetWindowsChild("VCVS实验实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		VCVS实验实验内容^ f = gcnew VCVS实验实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "VCVS实验实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+
+}
+
+
+void 主窗体::open二端口网络的研究实验目的() {
+	bool f = GetWindowsChild("二端口网络的研究实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		二端口网络的研究实验目的^ f = gcnew 二端口网络的研究实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二端口网络的研究实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open二端口网络的研究实验原理() {
+	bool f = GetWindowsChild("二端口网络的研究实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		二端口网络的研究实验原理^ f = gcnew 二端口网络的研究实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二端口网络的研究实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open二端口网络的研究实验器件() {
+	bool f = GetWindowsChild("二端口网络的研究实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		二端口网络的研究实验器件^ f = gcnew 二端口网络的研究实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二端口网络的研究实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+void 主窗体::open二端口网络的研究实验内容() {
+	bool f = GetWindowsChild("二端口网络的研究实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		二端口网络的研究实验内容^ f = gcnew 二端口网络的研究实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "二端口网络的研究实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+
+}
+
+
+
+void 主窗体::open最大功率传输条件的测定实验目的() {
+	bool f = GetWindowsChild("最大功率传输条件的测定实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		最大功率传输条件的测定实验目的^ f = gcnew 最大功率传输条件的测定实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "最大功率传输条件的测定实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open最大功率传输条件的测定实验原理() {
+	bool f = GetWindowsChild("最大功率传输条件的测定实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		最大功率传输条件的测定实验原理^ f = gcnew 最大功率传输条件的测定实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "最大功率传输条件的测定实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open最大功率传输条件的测定实验器件() {
+	bool f = GetWindowsChild("最大功率传输条件的测定实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		最大功率传输条件的测定实验器件^ f = gcnew 最大功率传输条件的测定实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "最大功率传输条件的测定实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+void 主窗体::open最大功率传输条件的测定实验内容() {
+	bool f = GetWindowsChild("最大功率传输条件的测定实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		最大功率传输条件的测定实验内容^ f = gcnew 最大功率传输条件的测定实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "最大功率传输条件的测定实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+
+}
