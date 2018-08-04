@@ -59,6 +59,7 @@ void 主窗体::SelectWindows(int index) {
 	case 8: openVCVS实验实验目的(); break;
 	case 9: open二端口网络的研究实验目的(); break;
 	case 10: open最大功率传输条件的测定实验目的(); break;
+	case 11: open电路状态轨迹的观测实验目的(); break;
 	}
 }
 
@@ -105,9 +106,11 @@ void  主窗体::实验目的click(int index) {
 	case 8: openVCVS实验实验目的(); break;
 	case 9: open二端口网络的研究实验目的(); break;
 	case 10: open最大功率传输条件的测定实验目的(); break;
+
 	}
 
 }
+
 void  主窗体::实验原理click(int index) {
 	switch (index) {
 	case 1:open元件伏安特性的测试实验原理(); break;
@@ -120,6 +123,7 @@ void  主窗体::实验原理click(int index) {
 	case 8: openVCVS实验实验原理(); break;
 	case 9: open二端口网络的研究实验原理(); break;
 	case 10: open最大功率传输条件的测定实验原理(); break;
+	case 11: open电路状态轨迹的观测实验原理(); break;
 	}
 }
 
@@ -135,6 +139,7 @@ void  主窗体::实验器件click(int index) {
 	case 8:openVCVS实验实验器件(); break;
 	case 9: open二端口网络的研究实验器件(); break;
 	case 10: open最大功率传输条件的测定实验器件(); break;
+	case 11: open电路状态轨迹的观测实验器件(); break;
 	}
 }
 
@@ -151,6 +156,7 @@ void  主窗体::实验内容click(int index) {
 	case 8:openVCVS实验实验内容(); break;
 	case 9: open二端口网络的研究实验内容(); break;
 	case 10: open最大功率传输条件的测定实验内容(); break;
+	case 11: open电路状态轨迹的观测实验内容(); break;
 	}
 
 }

@@ -152,6 +152,19 @@ void monitorTrialssc::_SendTrial() {
 				Sleep(2000);
 			}
 		}
+		else if (TrialCode == 11) {
+			电路状态轨迹的观测实验内容^ f_ = (电路状态轨迹的观测实验内容^)f;
+			while (S) {
+				ST_电路状态轨迹的观测 s = ((电路状态轨迹的观测实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_电路状态轨迹的观测)));
+				Sleep(2000);
+			}
+		}
 	}
 	catch (System::Exception ^e) {
 		Console::Write(e->Message);
@@ -203,6 +216,10 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "最大功率传输条件的测定实验内容") {
 					TrialCode = 10;
+					return f_c;
+				}
+				else if (f_c->Name == "电路状态轨迹的观测实验内容") {
+					TrialCode = 11;
 					return f_c;
 				}
 			}

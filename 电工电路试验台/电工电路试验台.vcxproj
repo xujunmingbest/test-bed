@@ -312,6 +312,18 @@
     <ClInclude Include="电压源与电流源的等效变换实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="电路状态轨迹的观测实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="电路状态轨迹的观测实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="电路状态轨迹的观测实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="电路状态轨迹的观测实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="loginWnd.resx">
@@ -443,6 +455,18 @@
     <EmbeddedResource Include="电压源与电流源的等效变换实验目的.resx">
       <DependentUpon>电压源与电流源的等效变换实验目的.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="电路状态轨迹的观测实验内容.resx">
+      <DependentUpon>电路状态轨迹的观测实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电路状态轨迹的观测实验原理.resx">
+      <DependentUpon>电路状态轨迹的观测实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电路状态轨迹的观测实验器件.resx">
+      <DependentUpon>电路状态轨迹的观测实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="电路状态轨迹的观测实验目的.resx">
+      <DependentUpon>电路状态轨迹的观测实验目的.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="capture.cpp" />
@@ -484,6 +508,7 @@
     <ClCompile Include="戴维南定理.cpp" />
     <ClCompile Include="最大功率传输条件的测定.cpp" />
     <ClCompile Include="电压源与电流源的等效变换.cpp" />
+    <ClCompile Include="电路状态轨迹的观测.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="tool\ClassDiagram.cd" />

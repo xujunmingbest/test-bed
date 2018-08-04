@@ -41,6 +41,10 @@
   电工电路试验台.电压源与电流源的等效变换实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.电压源与电流源的等效变换实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.电压源与电流源的等效变换实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电路状态轨迹的观测实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电路状态轨迹的观测实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电路状态轨迹的观测实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.电路状态轨迹的观测实验目的.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly 电工电路试验台, Version=0.0.*, Culture=固定语言(固定国家/地区): 
 	hash=SHA1, flags=PublicKey
@@ -574,6 +578,20 @@ Class 电工电路试验台.最大功率传输条件的测定实验内容: AutoL
     Load_Grade_data(ST_最大功率传输条件的测定*): PrivateScope, Public, HideBySig
     SendData(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.最大功率传输条件的测定实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.电路状态轨迹的观测实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.电路状态轨迹的观测实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.电路状态轨迹的观测实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_电路状态轨迹的观测*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.电路状态轨迹的观测实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

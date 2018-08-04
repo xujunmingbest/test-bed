@@ -460,6 +460,11 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void open最大功率传输条件的测定实验原理();
 		 void open最大功率传输条件的测定实验器件();
 		 void open最大功率传输条件的测定实验内容();
+
+		 void open电路状态轨迹的观测实验目的();
+		 void open电路状态轨迹的观测实验原理();
+		 void open电路状态轨迹的观测实验器件();
+		 void open电路状态轨迹的观测实验内容();
 		 /*******实验具体按钮点击******/
 		 void 实验目的click(int index);
 		 void 实验原理click(int index);

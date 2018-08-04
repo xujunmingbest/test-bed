@@ -997,5 +997,14 @@ struct ST_最大功率传输条件的测定 {
 
 };
 
+
+struct ST_电路状态轨迹的观测 {
+	TrialInfo ti;
+	char Trial1Bmp[387072];
+	char Trial2Bmp[387072];
+	char Trial3Bmp[387072];
+	char summing_up[100];
+};
+
 #pragma pack(pop)
 

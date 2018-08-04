@@ -39,6 +39,8 @@ Long_connect_e.cpp(347): warning C4477: “snprintf”: 格式字符串“%s”�
 Long_connect_e.cpp(348): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 Long_connect_e.cpp(376): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 Long_connect_e.cpp(377): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(405): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(406): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 Release\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
   libsocket.lib(libsocket.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
 Release\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定

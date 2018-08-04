@@ -619,3 +619,64 @@ void 主窗体::open最大功率传输条件的测定实验内容() {
 
 
 }
+
+
+
+
+
+void 主窗体::open电路状态轨迹的观测实验目的() {
+	bool f = GetWindowsChild("电路状态轨迹的观测实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		电路状态轨迹的观测实验目的^ f = gcnew 电路状态轨迹的观测实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "电路状态轨迹的观测实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open电路状态轨迹的观测实验原理() {
+	bool f = GetWindowsChild("电路状态轨迹的观测实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		电路状态轨迹的观测实验原理^ f = gcnew 电路状态轨迹的观测实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "电路状态轨迹的观测实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open电路状态轨迹的观测实验器件() {
+	bool f = GetWindowsChild("电路状态轨迹的观测实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		电路状态轨迹的观测实验器件^ f = gcnew 电路状态轨迹的观测实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "电路状态轨迹的观测实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+void 主窗体::open电路状态轨迹的观测实验内容() {
+	bool f = GetWindowsChild("电路状态轨迹的观测实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		电路状态轨迹的观测实验内容^ f = gcnew 电路状态轨迹的观测实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "电路状态轨迹的观测实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+
+}
