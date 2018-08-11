@@ -1006,5 +1006,198 @@ struct ST_电路状态轨迹的观测 {
 	char summing_up[100];
 };
 
+struct ST_RLC元件阻抗特性的测定 {
+	TrialInfo ti;
+
+	char Trial1_F[10];
+	char Trial1_R_Ur[10];
+	char Trial1_R_IR[10];
+	char Trial1_R_R[10];
+	char Trial1_L_Ur[10];
+	char Trial1_L_IL[10];
+	char Trial1_L_XL[10];
+	char Trial1_C_Ur[10];
+	char Trial1_C_IC[10];
+	char Trial1_C_XC[10];
+	int score1;
+
+
+	char Trial2_1Bmp[387072];
+	char Trial2_2Bmp[387072];
+	int score2;
+
+	char Trial3_F[10];
+	char Trial3_n[10];
+	char Trial3_m[10];
+	char Trial3_φ[10];
+	int score3;
+
+	char summing_up[100];
+};
+
+struct ST_RLC串联谐振电路的研究 {
+	TrialInfo ti;
+	char Trial1Bmp[387072];
+	int score1;
+
+	char Trial2_F[10];
+	char Trial2_Uc[10];
+	char Trial2_UL[10];
+	int score2;
+
+	char Trial3_F1[10];
+	char Trial3_F2[10];
+	char Trial3_F3[10];
+	char Trial3_F4[10];
+	char Trial3_F5[10];
+	char Trial3_F6[10];
+	char Trial3_F7[10];
+	char Trial3_F8[10];
+	char Trial3_F9[10];
+	char Trial3_F10[10];
+	char Trial3_F11[10];
+	char Trial3_F12[10];
+	char Trial3_F13[10];
+	char Trial3_F14[10];
+	char Trial3_F15[10];
+	char Trial3_F16[10];
+
+	char Trial3_U0_1[10];
+	char Trial3_U0_2[10];
+	char Trial3_U0_3[10];
+	char Trial3_U0_4[10];
+	char Trial3_U0_5[10];
+	char Trial3_U0_6[10];
+	char Trial3_U0_7[10];
+	char Trial3_U0_8[10];
+	char Trial3_U0_9[10];
+	char Trial3_U0_10[10];
+	char Trial3_U0_11[10];
+	char Trial3_U0_12[10];
+	char Trial3_U0_13[10];
+	char Trial3_U0_14[10];
+	char Trial3_U0_15[10];
+	char Trial3_U0_16[10];
+
+	char Trial3_UL_1[10];
+	char Trial3_UL_2[10];
+	char Trial3_UL_3[10];
+	char Trial3_UL_4[10];
+	char Trial3_UL_5[10];
+	char Trial3_UL_6[10];
+	char Trial3_UL_7[10];
+	char Trial3_UL_8[10];
+	char Trial3_UL_9[10];
+	char Trial3_UL_10[10];
+	char Trial3_UL_11[10];
+	char Trial3_UL_12[10];
+	char Trial3_UL_13[10];
+	char Trial3_UL_14[10];
+	char Trial3_UL_15[10];
+	char Trial3_UL_16[10];
+
+	
+	char Trial3_Uc_1[10];
+	char Trial3_Uc_2[10];
+	char Trial3_Uc_3[10];
+	char Trial3_Uc_4[10];
+	char Trial3_Uc_5[10];
+	char Trial3_Uc_6[10];
+	char Trial3_Uc_7[10];
+	char Trial3_Uc_8[10];
+	char Trial3_Uc_9[10];
+	char Trial3_Uc_10[10];
+	char Trial3_Uc_11[10];
+	char Trial3_Uc_12[10];
+	char Trial3_Uc_13[10];
+	char Trial3_Uc_14[10];
+	char Trial3_Uc_15[10];
+	char Trial3_Uc_16[10];
+    char Trial3_Fo[10];
+	char Trial3_Q[10];
+	char Trial3F2_F1[10];
+	int score3;
+
+	char Trial4_F[10];
+	char Trial4_Uc[10];
+	char Trial4_UL[10];
+	int score4;
+
+	char Trial5_F1[10];
+	char Trial5_F2[10];
+	char Trial5_F3[10];
+	char Trial5_F4[10];
+	char Trial5_F5[10];
+	char Trial5_F6[10];
+	char Trial5_F7[10];
+	char Trial5_F8[10];
+	char Trial5_F9[10];
+	char Trial5_F10[10];
+	char Trial5_F11[10];
+	char Trial5_F12[10];
+	char Trial5_F13[10];
+	char Trial5_F14[10];
+	char Trial5_F15[10];
+	char Trial5_F16[10];
+
+	char Trial5_U0_1[10];
+	char Trial5_U0_2[10];
+	char Trial5_U0_3[10];
+	char Trial5_U0_4[10];
+	char Trial5_U0_5[10];
+	char Trial5_U0_6[10];
+	char Trial5_U0_7[10];
+	char Trial5_U0_8[10];
+	char Trial5_U0_9[10];
+	char Trial5_U0_10[10];
+	char Trial5_U0_11[10];
+	char Trial5_U0_12[10];
+	char Trial5_U0_13[10];
+	char Trial5_U0_14[10];
+	char Trial5_U0_15[10];
+	char Trial5_U0_16[10];
+
+	char Trial5_UL_1[10];
+	char Trial5_UL_2[10];
+	char Trial5_UL_3[10];
+	char Trial5_UL_4[10];
+	char Trial5_UL_5[10];
+	char Trial5_UL_6[10];
+	char Trial5_UL_7[10];
+	char Trial5_UL_8[10];
+	char Trial5_UL_9[10];
+	char Trial5_UL_10[10];
+	char Trial5_UL_11[10];
+	char Trial5_UL_12[10];
+	char Trial5_UL_13[10];
+	char Trial5_UL_14[10];
+	char Trial5_UL_15[10];
+	char Trial5_UL_16[10];
+
+
+	char Trial5_Uc_1[10];
+	char Trial5_Uc_2[10];
+	char Trial5_Uc_3[10];
+	char Trial5_Uc_4[10];
+	char Trial5_Uc_5[10];
+	char Trial5_Uc_6[10];
+	char Trial5_Uc_7[10];
+	char Trial5_Uc_8[10];
+	char Trial5_Uc_9[10];
+	char Trial5_Uc_10[10];
+	char Trial5_Uc_11[10];
+	char Trial5_Uc_12[10];
+	char Trial5_Uc_13[10];
+	char Trial5_Uc_14[10];
+	char Trial5_Uc_15[10];
+	char Trial5_Uc_16[10];
+	char Trial5_Fo[10];
+	char Trial5_Q[10];
+	char Trial5F2_F1[10];
+
+	int score5;
+
+	char summing_up[100];
+};
 #pragma pack(pop)
 

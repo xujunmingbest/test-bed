@@ -1,4 +1,12 @@
   电工电路试验台.loginWnd.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC串联谐振电路的研究实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC串联谐振电路的研究实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC串联谐振电路的研究实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC串联谐振电路的研究实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC元件阻抗特性的测定实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC元件阻抗特性的测定实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC元件阻抗特性的测定实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RLC元件阻抗特性的测定实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.VCVS实验实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.VCVS实验实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.VCVS实验实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -592,6 +600,35 @@ Class 电工电路试验台.电路状态轨迹的观测实验内容: AutoLayout,
   Methods:
     Load_Grade_data(ST_电路状态轨迹的观测*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.电路状态轨迹的观测实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RLC元件阻抗特性的测定实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RLC元件阻抗特性的测定实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RLC元件阻抗特性的测定实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_RLC元件阻抗特性的测定*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.RLC元件阻抗特性的测定实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RLC串联谐振电路的研究实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RLC串联谐振电路的研究实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RLC串联谐振电路的研究实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_RLC串联谐振电路的研究*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.RLC串联谐振电路的研究实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

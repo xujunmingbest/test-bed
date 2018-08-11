@@ -165,6 +165,32 @@ void monitorTrialssc::_SendTrial() {
 				Sleep(2000);
 			}
 		}
+		else if (TrialCode == 12) {
+			RLC元件阻抗特性的测定实验内容^ f_ = (RLC元件阻抗特性的测定实验内容^)f;
+			while (S) {
+				ST_RLC元件阻抗特性的测定 s = ((RLC元件阻抗特性的测定实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_RLC元件阻抗特性的测定)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 13) {
+			RLC串联谐振电路的研究实验内容^ f_ = (RLC串联谐振电路的研究实验内容^)f;
+			while (S) {
+				ST_RLC串联谐振电路的研究 s = ((RLC串联谐振电路的研究实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_RLC串联谐振电路的研究)));
+				Sleep(3000);
+			}
+		}
 	}
 	catch (System::Exception ^e) {
 		Console::Write(e->Message);
@@ -220,6 +246,14 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "电路状态轨迹的观测实验内容") {
 					TrialCode = 11;
+					return f_c;
+				}
+				else if (f_c->Name == "RLC元件阻抗特性的测定实验内容") {
+					TrialCode = 12;
+					return f_c;
+				}
+				else if (f_c->Name == "RLC串联谐振电路的研究实验内容") {
+					TrialCode = 13;
 					return f_c;
 				}
 			}

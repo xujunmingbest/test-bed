@@ -151,6 +151,30 @@
     </ClInclude>
     <ClInclude Include="Long_connection_control.h" />
     <ClInclude Include="monitorTrial.h" />
+    <ClInclude Include="RLC串联谐振电路的研究实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RLC串联谐振电路的研究实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RLC串联谐振电路的研究实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RLC串联谐振电路的研究实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RLC元件阻抗特性的测定实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RLC元件阻抗特性的测定实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RLC元件阻抗特性的测定实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RLC元件阻抗特性的测定实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="tool\gradeSubmit.h" />
     <ClInclude Include="tool\json\autolink.h" />
     <ClInclude Include="tool\json\config.h" />
@@ -329,6 +353,30 @@
     <EmbeddedResource Include="loginWnd.resx">
       <DependentUpon>loginWnd.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验内容.resx">
+      <DependentUpon>RLC串联谐振电路的研究实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验原理.resx">
+      <DependentUpon>RLC串联谐振电路的研究实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验器件.resx">
+      <DependentUpon>RLC串联谐振电路的研究实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验目的.resx">
+      <DependentUpon>RLC串联谐振电路的研究实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC元件阻抗特性的测定实验内容.resx">
+      <DependentUpon>RLC元件阻抗特性的测定实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC元件阻抗特性的测定实验原理.resx">
+      <DependentUpon>RLC元件阻抗特性的测定实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC元件阻抗特性的测定实验器件.resx">
+      <DependentUpon>RLC元件阻抗特性的测定实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC元件阻抗特性的测定实验目的.resx">
+      <DependentUpon>RLC元件阻抗特性的测定实验目的.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VCVS实验实验内容.resx">
       <DependentUpon>VCVS实验实验内容.h</DependentUpon>
     </EmbeddedResource>
@@ -478,6 +526,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mdi子窗体注册.cpp" />
     <ClCompile Include="monitorTrial.cpp" />
+    <ClCompile Include="RLC串联谐振电路的研究.cpp" />
+    <ClCompile Include="RLC元件阻抗特性的测定.cpp" />
     <ClCompile Include="tool\exception.cpp" />
     <ClCompile Include="tool\json\json_reader.cpp" />
     <ClCompile Include="tool\json\json_value.cpp" />

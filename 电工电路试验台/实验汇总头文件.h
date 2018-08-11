@@ -59,3 +59,13 @@
 #include "电路状态轨迹的观测实验原理.h"
 #include "电路状态轨迹的观测实验内容.h"
 #include "电路状态轨迹的观测实验器件.h"
+
+#include "RLC元件阻抗特性的测定实验目的.h"
+#include "RLC元件阻抗特性的测定实验原理.h"
+#include "RLC元件阻抗特性的测定实验内容.h"
+#include "RLC元件阻抗特性的测定实验器件.h"
+
+#include "RLC串联谐振电路的研究实验目的.h"
+#include "RLC串联谐振电路的研究实验原理.h"
+#include "RLC串联谐振电路的研究实验内容.h"
+#include "RLC串联谐振电路的研究实验器件.h"

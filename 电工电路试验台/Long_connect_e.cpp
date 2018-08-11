@@ -421,6 +421,64 @@ void ForceCommitGrade() {
 					d.close();
 					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
 				}
+				else if (f->Name == "RLC元件阻抗特性的测定实验内容") {
+
+					ST_RLC元件阻抗特性的测定 s;
+					memset(&s, 0x00, sizeof(ST_RLC元件阻抗特性的测定));
+					s = ((RLC元件阻抗特性的测定实验内容^)f)->Load_Grade_data();
+					int trialCode = 12;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_RLC元件阻抗特性的测定)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
+				else if (f->Name == "RLC串联谐振电路的研究实验内容") {
+
+					ST_RLC串联谐振电路的研究 s;
+					memset(&s, 0x00, sizeof(ST_RLC串联谐振电路的研究));
+					s = ((RLC串联谐振电路的研究实验内容^)f)->Load_Grade_data();
+					int trialCode = 13;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_RLC串联谐振电路的研究)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
 			}
 		}
 	}

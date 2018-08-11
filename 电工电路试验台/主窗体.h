@@ -465,6 +465,16 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void open电路状态轨迹的观测实验原理();
 		 void open电路状态轨迹的观测实验器件();
 		 void open电路状态轨迹的观测实验内容();
+
+		 void openRLC元件阻抗特性的测定实验目的();
+		 void openRLC元件阻抗特性的测定实验原理();
+		 void openRLC元件阻抗特性的测定实验器件();
+		 void openRLC元件阻抗特性的测定实验内容();
+
+		 void openRLC串联谐振电路的研究实验目的();
+		 void openRLC串联谐振电路的研究实验原理();
+		 void openRLC串联谐振电路的研究实验器件();
+		 void openRLC串联谐振电路的研究实验内容();
 		 /*******实验具体按钮点击******/
 		 void 实验目的click(int index);
 		 void 实验原理click(int index);

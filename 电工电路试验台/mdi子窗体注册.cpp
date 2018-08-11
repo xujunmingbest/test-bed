@@ -680,3 +680,120 @@ void 主窗体::open电路状态轨迹的观测实验内容() {
 
 
 }
+
+
+
+
+
+void 主窗体::openRLC元件阻抗特性的测定实验目的() {
+	bool f = GetWindowsChild("RLC元件阻抗特性的测定实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC元件阻抗特性的测定实验目的^ f = gcnew RLC元件阻抗特性的测定实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC元件阻抗特性的测定实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openRLC元件阻抗特性的测定实验原理() {
+	bool f = GetWindowsChild("RLC元件阻抗特性的测定实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC元件阻抗特性的测定实验原理^ f = gcnew RLC元件阻抗特性的测定实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC元件阻抗特性的测定实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openRLC元件阻抗特性的测定实验器件() {
+	bool f = GetWindowsChild("RLC元件阻抗特性的测定实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC元件阻抗特性的测定实验器件^ f = gcnew RLC元件阻抗特性的测定实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC元件阻抗特性的测定实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+void 主窗体::openRLC元件阻抗特性的测定实验内容() {
+	bool f = GetWindowsChild("RLC元件阻抗特性的测定实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC元件阻抗特性的测定实验内容^ f = gcnew RLC元件阻抗特性的测定实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC元件阻抗特性的测定实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+
+}
+
+void 主窗体::openRLC串联谐振电路的研究实验目的() {
+	bool f = GetWindowsChild("RLC串联谐振电路的研究实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC串联谐振电路的研究实验目的^ f = gcnew RLC串联谐振电路的研究实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC串联谐振电路的研究实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openRLC串联谐振电路的研究实验原理() {
+	bool f = GetWindowsChild("RLC串联谐振电路的研究实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC串联谐振电路的研究实验原理^ f = gcnew RLC串联谐振电路的研究实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC串联谐振电路的研究实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openRLC串联谐振电路的研究实验器件() {
+	bool f = GetWindowsChild("RLC串联谐振电路的研究实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC串联谐振电路的研究实验器件^ f = gcnew RLC串联谐振电路的研究实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC串联谐振电路的研究实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::openRLC串联谐振电路的研究实验内容() {
+	bool f = GetWindowsChild("RLC串联谐振电路的研究实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		RLC串联谐振电路的研究实验内容^ f = gcnew RLC串联谐振电路的研究实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RLC串联谐振电路的研究实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}

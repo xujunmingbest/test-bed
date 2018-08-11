@@ -311,6 +311,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->groupBox8->TabIndex = 82;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"戴维南定律实验内容";
+			this->groupBox8->Enter += gcnew System::EventHandler(this, &二阶动态电路响应的研究实验内容::groupBox8_Enter);
 			// 
 			// pictureBox1
 			// 
@@ -365,6 +366,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->groupBox2->TabIndex = 91;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验内容一";
+			this->groupBox2->Enter += gcnew System::EventHandler(this, &二阶动态电路响应的研究实验内容::groupBox2_Enter);
 			// 
 			// label6
 			// 
@@ -1466,6 +1468,10 @@ private: System::Void button8_Click(System::Object^  sender, System::EventArgs^ 
 	pictureBoxTrial3_4->ImageLocation = Trial3_4PT_name;
 }
 private: System::Void label7_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void groupBox2_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }
