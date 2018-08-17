@@ -15,6 +15,10 @@
   电工电路试验台.一阶电路的响应测试实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.一阶电路的响应测试实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相交流电路电压电流的测量实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相交流电路电压电流的测量实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相交流电路电压电流的测量实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相交流电路电压电流的测量实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.主窗体.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二端口网络的研究实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二端口网络的研究实验原理.resources - Embedded, ContainedInManifestFile, 
@@ -29,10 +33,22 @@
   电工电路试验台.元件伏安特性的测试实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验报告.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相电度表实验实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相电度表实验实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相电度表实验实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相电度表实验实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相铁心变压器特性的测试实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相铁心变压器特性的测试实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相铁心变压器特性的测试实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.单相铁心变压器特性的测试实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.叠加原理实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.叠加原理实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.叠加原理实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.叠加原理实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.回转器实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.回转器实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.回转器实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.回转器实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.基尔霍夫定律实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.基尔霍夫定律实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.基尔霍夫定律实验目的.resources - Embedded, ContainedInManifestFile, 
@@ -41,6 +57,10 @@
   电工电路试验台.戴维南定理实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.戴维南定理实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.戴维南定理实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.日光灯功率因数的提高实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.日光灯功率因数的提高实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.日光灯功率因数的提高实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.日光灯功率因数的提高实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.最大功率传输条件的测定实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.最大功率传输条件的测定实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.最大功率传输条件的测定实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -629,6 +649,78 @@ Class 电工电路试验台.RLC串联谐振电路的研究实验内容: AutoLayo
   Methods:
     Load_Grade_data(ST_RLC串联谐振电路的研究*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.RLC串联谐振电路的研究实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.单相铁心变压器特性的测试实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.单相铁心变压器特性的测试实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.单相铁心变压器特性的测试实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_单相铁心变压器特性的测试*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.单相铁心变压器特性的测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.单相电度表实验实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.单相电度表实验实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.单相电度表实验实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_单相电度表实验*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.单相电度表实验实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.三相交流电路电压电流的测量实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.三相交流电路电压电流的测量实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.三相交流电路电压电流的测量实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_三相交流电路电压电流的测量*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.三相交流电路电压电流的测量实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.日光灯功率因数的提高实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.日光灯功率因数的提高实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.日光灯功率因数的提高实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_日光灯功率因数的提高*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.日光灯功率因数的提高实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.回转器实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.回转器实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.回转器实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_回转器*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.回转器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

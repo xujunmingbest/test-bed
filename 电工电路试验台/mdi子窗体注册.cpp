@@ -797,3 +797,293 @@ void 主窗体::openRLC串联谐振电路的研究实验内容() {
 		f->Show();
 	}
 }
+
+
+
+void 主窗体::open单相铁心变压器特性的测试实验目的() {
+	bool f = GetWindowsChild("单相铁心变压器特性的测试实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		单相铁心变压器特性的测试实验目的^ f = gcnew 单相铁心变压器特性的测试实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相铁心变压器特性的测试实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open单相铁心变压器特性的测试实验原理() {
+	bool f = GetWindowsChild("单相铁心变压器特性的测试实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		单相铁心变压器特性的测试实验原理^ f = gcnew 单相铁心变压器特性的测试实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相铁心变压器特性的测试实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open单相铁心变压器特性的测试实验器件() {
+	bool f = GetWindowsChild("单相铁心变压器特性的测试实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		单相铁心变压器特性的测试实验器件^ f = gcnew 单相铁心变压器特性的测试实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相铁心变压器特性的测试实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open单相铁心变压器特性的测试实验内容() {
+	bool f = GetWindowsChild("单相铁心变压器特性的测试实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		单相铁心变压器特性的测试实验内容^ f = gcnew 单相铁心变压器特性的测试实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相铁心变压器特性的测试实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+
+void 主窗体::open单相电度表实验实验目的() {
+	bool f = GetWindowsChild("单相电度表实验实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		单相电度表实验实验目的^ f = gcnew 单相电度表实验实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相电度表实验实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open单相电度表实验实验原理() {
+	bool f = GetWindowsChild("单相电度表实验实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		单相电度表实验实验原理^ f = gcnew 单相电度表实验实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相电度表实验实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open单相电度表实验实验器件() {
+	bool f = GetWindowsChild("单相电度表实验实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		单相电度表实验实验器件^ f = gcnew 单相电度表实验实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相电度表实验实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open单相电度表实验实验内容() {
+	bool f = GetWindowsChild("单相电度表实验实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		单相电度表实验实验内容^ f = gcnew 单相电度表实验实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "单相电度表实验实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+
+void 主窗体::open三相交流电路电压电流的测量实验目的() {
+	bool f = GetWindowsChild("三相交流电路电压电流的测量实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		三相交流电路电压电流的测量实验目的^ f = gcnew 三相交流电路电压电流的测量实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相交流电路电压电流的测量实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open三相交流电路电压电流的测量实验原理() {
+	bool f = GetWindowsChild("三相交流电路电压电流的测量实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		三相交流电路电压电流的测量实验原理^ f = gcnew 三相交流电路电压电流的测量实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相交流电路电压电流的测量实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open三相交流电路电压电流的测量实验器件() {
+	bool f = GetWindowsChild("三相交流电路电压电流的测量实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		三相交流电路电压电流的测量实验器件^ f = gcnew 三相交流电路电压电流的测量实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相交流电路电压电流的测量实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open三相交流电路电压电流的测量实验内容() {
+	bool f = GetWindowsChild("三相交流电路电压电流的测量实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		三相交流电路电压电流的测量实验内容^ f = gcnew 三相交流电路电压电流的测量实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相交流电路电压电流的测量实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+void 主窗体::open日光灯功率因数的提高实验目的() {
+	bool f = GetWindowsChild("日光灯功率因数的提高实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		日光灯功率因数的提高实验目的^ f = gcnew 日光灯功率因数的提高实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "日光灯功率因数的提高实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open日光灯功率因数的提高实验原理() {
+	bool f = GetWindowsChild("日光灯功率因数的提高实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		日光灯功率因数的提高实验原理^ f = gcnew 日光灯功率因数的提高实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "日光灯功率因数的提高实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open日光灯功率因数的提高实验器件() {
+	bool f = GetWindowsChild("日光灯功率因数的提高实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		日光灯功率因数的提高实验器件^ f = gcnew 日光灯功率因数的提高实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "日光灯功率因数的提高实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open日光灯功率因数的提高实验内容() {
+	bool f = GetWindowsChild("日光灯功率因数的提高实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		日光灯功率因数的提高实验内容^ f = gcnew 日光灯功率因数的提高实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "日光灯功率因数的提高实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+void 主窗体::open回转器实验目的() {
+	bool f = GetWindowsChild("回转器实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		回转器实验目的^ f = gcnew 回转器实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "回转器实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open回转器实验原理() {
+	bool f = GetWindowsChild("回转器实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		回转器实验原理^ f = gcnew 回转器实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "回转器实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open回转器实验器件() {
+	bool f = GetWindowsChild("回转器实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		回转器实验器件^ f = gcnew 回转器实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "回转器实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open回转器实验内容() {
+	bool f = GetWindowsChild("回转器实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		回转器实验内容^ f = gcnew 回转器实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "回转器实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}

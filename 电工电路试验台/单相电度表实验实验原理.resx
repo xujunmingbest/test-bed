@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAA0CAYAAACdB4jyAAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7O
+        HOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAABJzAAAScwGMIrkHAAAAjElEQVRYR+3U2wrEMAhF0fz/
+        T7cIFUTMoU00vZ0FZSaxuJ9mGhHRp23HI/S7nsvYkI35c4kownAJhkV5WAM2FN0R0Y/5P4Wsh4jWQ7/F
+        K7MhaAFajGanjQSmo+K2sIgCete7T9EL6Ked+femoOVolsIGfMifU9mAD0X3aTQQLUezFI8Nl0HLS8P0
+        Rq3tlVCPceo/Q28AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>    1．电度表是一种感应式仪表，是根据交变磁场在金属中产生感应电流，从而产生转矩的基本原理而工作的仪表，主要用于测量交流电路中的电能。它的指示器不能象其他指示仪表的指针一样停留在某一位置，而应能随着电能的不断增大（也就是随着时间的延续）而连续地转动，这样才能随时反应出电能积累的总数值。因此，它的指示器是一个“积算机构”，它是将转动部分通过齿轮传动机构折换为被测电能的数值，由一系列齿轮上的数字直接指示出来。   </value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>    它的驱动元件是由电压铁芯线圈和电流铁芯线圈在空间上、下排列，中间隔以铝制的圆盘。驱动两个铁芯线圈的交流电，建立起合成的特殊分布的交变磁场，并穿过铝盘，在铝盘上产生出感应电流，该电流与磁场的相互作用结果产生旋动力矩使铝盘转动。
+    
+    铝盘上方装有一个永久磁铁，其作用是对转动的铝盘产生制动力矩，使铝盘转速与负载功率成正比。因此，在某一测量时同内，负载所消耗的电能W就与铝盘的转数n成正比。</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA5CAYAAADA8o59AAAABHNCSVQICAgIfAhkiAAAAAFzUkdCAK7O
+        HOkAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAABJzAAAScwGMIrkHAAABs0lEQVR4Xu2U24rDMAxE+/8/
+        vYsfBGbQLU3SqOUcMNiasR15aF8AAAAA8EH+ggEPQxDDIJBhEMgwCGQYBDIMAhkGgQyDQIZxNhDCvBh+
+        IcMgkCFYEDqMfa11Qz37HG6g8+A69zx3sd8XYZ7KW/kqfafS32Y/+Mz8atbZ+4hQPfJXvmq9E9UvQT/C
+        ODq/i3VHdo+nvVNb82xteLVL0Y8wjs4zKl+mLy3SI03rHZ96dG14tcuwS+0Sbx6NxT6viHzV/uyOSNN6
+        x6ceXS90/fW806D3MEakab3jU4+3/kmssW6D+jA7kab1oz6vvhP5vpYjTWRNR5rWu76I7KzWGWZ6amSY
+        XvmM7MxI03rX56G67umcMRavuYqs4UjTetendPZUZ4wl+uiqmaphTztTMyJt1XdN119B9cGZXjWseuTv
+        +hZRfXHknJ/CGtXh0fEsjvgyuucAAPwS+t9nAx6GIIZBIMMgkGEQyDAIZBgEMgwCGQaBDCMLxNOsFu2B
+        k1SP62mEcSOdQFQnkBuwh9ahWG3XPB98CC8IAnkQAhmGPv5aE8iDeI9PIA9hvwYNgEAAAABu5/X6B84q
+        iIaiHxQJAAAAAElFTkSuQmCC
+</value>
+  </data>
+</root>

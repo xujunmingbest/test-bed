@@ -69,3 +69,28 @@
 #include "RLC串联谐振电路的研究实验原理.h"
 #include "RLC串联谐振电路的研究实验内容.h"
 #include "RLC串联谐振电路的研究实验器件.h"
+
+#include "单相铁心变压器特性的测试实验目的.h"
+#include "单相铁心变压器特性的测试实验原理.h"
+#include "单相铁心变压器特性的测试实验内容.h"
+#include "单相铁心变压器特性的测试实验器件.h"
+
+#include "单相电度表实验实验目的.h"
+#include "单相电度表实验实验原理.h"
+#include "单相电度表实验实验内容.h"
+#include "单相电度表实验实验器件.h"
+
+#include "三相交流电路电压电流的测量实验目的.h"
+#include "三相交流电路电压电流的测量实验原理.h"
+#include "三相交流电路电压电流的测量实验内容.h"
+#include "三相交流电路电压电流的测量实验器件.h"
+
+#include "日光灯功率因数的提高实验目的.h"
+#include "日光灯功率因数的提高实验原理.h"
+#include "日光灯功率因数的提高实验内容.h"
+#include "日光灯功率因数的提高实验器件.h"
+
+#include "回转器实验目的.h"
+#include "回转器实验原理.h"
+#include "回转器实验内容.h"
+#include "回转器实验器件.h"

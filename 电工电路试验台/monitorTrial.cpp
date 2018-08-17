@@ -191,6 +191,71 @@ void monitorTrialssc::_SendTrial() {
 				Sleep(3000);
 			}
 		}
+		else if (TrialCode == 14) {
+			单相铁心变压器特性的测试实验内容^ f_ = (单相铁心变压器特性的测试实验内容^)f;
+			while (S) {
+				ST_单相铁心变压器特性的测试 s = ((单相铁心变压器特性的测试实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_单相铁心变压器特性的测试)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 15) {
+			单相电度表实验实验内容^ f_ = (单相电度表实验实验内容^)f;
+			while (S) {
+				ST_单相电度表实验 s = ((单相电度表实验实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_单相电度表实验)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 16) {
+			三相交流电路电压电流的测量实验内容^ f_ = (三相交流电路电压电流的测量实验内容^)f;
+			while (S) {
+				ST_三相交流电路电压电流的测量 s = ((三相交流电路电压电流的测量实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_三相交流电路电压电流的测量)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 17) {
+			日光灯功率因数的提高实验内容^ f_ = (日光灯功率因数的提高实验内容^)f;
+			while (S) {
+				ST_日光灯功率因数的提高 s = ((日光灯功率因数的提高实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_日光灯功率因数的提高)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 18) {
+			回转器实验内容^ f_ = (回转器实验内容^)f;
+			while (S) {
+				ST_回转器 s = ((回转器实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_回转器)));
+				Sleep(3000);
+			}
+		}
 	}
 	catch (System::Exception ^e) {
 		Console::Write(e->Message);
@@ -254,6 +319,26 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "RLC串联谐振电路的研究实验内容") {
 					TrialCode = 13;
+					return f_c;
+				}
+				else if (f_c->Name == "单相铁心变压器特性的测试实验内容") {
+					TrialCode = 14;
+					return f_c;
+				}
+				else if (f_c->Name == "单相电度表实验实验内容") {
+					TrialCode = 15;
+					return f_c;
+				}
+				else if (f_c->Name == "三相交流电路电压电流的测量实验内容") {
+					TrialCode = 16;
+					return f_c;
+				}
+				else if (f_c->Name == "日光灯功率因数的提高实验内容") {
+					TrialCode = 17;
+					return f_c;
+				}
+				else if (f_c->Name == "回转器实验内容") {
+					TrialCode = 18;
 					return f_c;
 				}
 			}

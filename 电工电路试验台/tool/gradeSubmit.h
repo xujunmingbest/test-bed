@@ -1199,5 +1199,383 @@ struct ST_RLC串联谐振电路的研究 {
 
 	char summing_up[100];
 };
+
+
+struct ST_单相铁心变压器特性的测试 {
+	TrialInfo ti;
+	char Trial2_Line1_I1[10];
+	char Trial2_Line1_U1[10];
+	char Trial2_Line1_W[10];
+	char Trial2_Line1_I2[10];
+	char Trial2_Line1_U2[10];
+
+	char Trial2_Line2_I1[10];
+	char Trial2_Line2_U1[10];
+	char Trial2_Line2_W[10];
+	char Trial2_Line2_I2[10];
+	char Trial2_Line2_U2[10];
+
+	char Trial2_Line3_I1[10];
+	char Trial2_Line3_U1[10];
+	char Trial2_Line3_W[10];
+	char Trial2_Line3_I2[10];
+	char Trial2_Line3_U2[10];
+	int Score2;
+
+	char Trial3_U1_1[10];
+	char Trial3_U1_2[10];
+	char Trial3_U1_3[10];
+	char Trial3_U1_4[10];
+	char Trial3_U1_5[10];
+	char Trial3_U1_6[10];
+	char Trial3_U1_7[10];
+	char Trial3_U1_8[10];
+	char Trial3_U1_9[10];
+	char Trial3_U1_10[10];
+
+	char Trial3_U20_1[10];
+	char Trial3_U20_2[10];
+	char Trial3_U20_3[10];
+	char Trial3_U20_4[10];
+	char Trial3_U20_5[10];
+	char Trial3_U20_6[10];
+	char Trial3_U20_7[10];
+	char Trial3_U20_8[10];
+	char Trial3_U20_9[10];
+	char Trial3_U20_10[10];
+
+	char Trial3_I10_1[10];
+	char Trial3_I10_2[10];
+	char Trial3_I10_3[10];
+	char Trial3_I10_4[10];
+	char Trial3_I10_5[10];
+	char Trial3_I10_6[10];
+	char Trial3_I10_7[10];
+	char Trial3_I10_8[10];
+	char Trial3_I10_9[10];
+	char Trial3_I10_10[10];
+	int Score3;
+	char summing_up[100];
+};
+
+struct ST_单相电度表实验 {
+	TrialInfo ti;
+	char Trial1_IN[10];
+	char Trial1_N[10];
+	char Trial1_UN[10];
+	char Trial1_accuracy[10];
+	char Trial1_mea_V[10];
+	char Trial1_mea_I[10];
+	char Trial1_mea_P[10];
+	char Trial1_mea_time[10];
+	char Trial1_mea_n[10];
+	char Trial1_cal_meaW[10];
+	char Trial1_cal_calW[10];
+	char Trial1_cal_WW[10];
+	char Trial1_cal_N[10];
+};
+
+struct ST_三相交流电路电压电流的测量 {
+	TrialInfo ti;
+	char Trial1_Line1_IA[10];
+	char Trial1_Line2_IA[10];
+	char Trial1_Line3_IA[10];
+	char Trial1_Line4_IA[10];
+	char Trial1_Line5_IA[10];
+	char Trial1_Line1_IB[10];
+	char Trial1_Line2_IB[10];
+	char Trial1_Line3_IB[10];
+	char Trial1_Line4_IB[10];
+	char Trial1_Line5_IB[10];
+	char Trial1_Line1_IC[10];
+	char Trial1_Line2_IC[10];
+	char Trial1_Line3_IC[10];
+	char Trial1_Line4_IC[10];
+	char Trial1_Line5_IC[10];
+	char Trial1_Line1_UAB[10];
+	char Trial1_Line2_UAB[10];
+	char Trial1_Line3_UAB[10];
+	char Trial1_Line4_UAB[10];
+	char Trial1_Line5_UAB[10];
+	char Trial1_Line1_UBC[10];
+	char Trial1_Line2_UBC[10];
+	char Trial1_Line3_UBC[10];
+	char Trial1_Line4_UBC[10];
+	char Trial1_Line5_UBC[10];
+	char Trial1_Line1_UCA[10];
+	char Trial1_Line2_UCA[10];
+	char Trial1_Line3_UCA[10];
+	char Trial1_Line4_UCA[10];
+	char Trial1_Line5_UCA[10];
+	char Trial1_Line1_UAO[10];
+	char Trial1_Line2_UAO[10];
+	char Trial1_Line3_UAO[10];
+	char Trial1_Line4_UAO[10];
+	char Trial1_Line5_UAO[10];
+	char Trial1_Line1_UBO[10];
+	char Trial1_Line2_UBO[10];
+	char Trial1_Line3_UBO[10];
+	char Trial1_Line4_UBO[10];
+	char Trial1_Line5_UBO[10];
+	char Trial1_Line1_UCO[10];
+	char Trial1_Line2_UCO[10];
+	char Trial1_Line3_UCO[10];
+	char Trial1_Line4_UCO[10];
+	char Trial1_Line5_UCO[10];
+	char Trial1_Line1_IO[10];
+	char Trial1_Line2_IO[10];
+	char Trial1_Line3_IO[10];
+	char Trial1_Line4_IO[10];
+	char Trial1_Line5_IO[10];
+	char lTrial1_Line1_UNO[10];
+	char lTrial1_Line2_UNO[10];
+	char lTrial1_Line3_UNO[10];
+	char lTrial1_Line4_UNO[10];
+	char lTrial1_Line5_UNO[10];
+
+	char Trial2_Line1_UAB[10];
+	char Trial2_Line2_UAB[10];
+	char Trial2_Line1_UBC[10];
+	char Trial2_Line2_UBC[10];
+	char Trial2_Line1_UCA[10];
+	char Trial2_Line2_UCA[10];
+	char Trial2_Line1_IA[10];
+	char Trial2_Line2_IA[10];
+	char Trial2_Line1_IB[10];
+	char Trial2_Line2_IB[10];
+	char Trial2_Line1_IC[10];
+	char Trial2_Line2_IC[10];
+	char Trial2_Line1_IAB[10];
+	char Trial2_Line2_IAB[10];
+	char Trial2_Line1_IBC[10];
+	char Trial2_Line2_IBC[10];
+	char Trial2_Line1_ICA[10];
+	char Trial2_Line2_ICA[10];
+	int score1;
+	int score2;
+};
+
+struct ST_日光灯功率因数的提高 {
+	TrialInfo ti;
+	char Trial1_Mea_U[10];
+	char Trial1_Mea_UR[10];
+	char Trial1_Mea_UC[10];
+	char Trial1_Cal_U[10];
+	char Trial1_Mea_DU[10];
+	char Trial1_Cal_UU[10];
+	int score1;
+
+	char Trial2_P_line1[10];
+	char Trial2_P_line2[10];
+	char Trial2_cos_line1[10];
+	char Trial2_cos_line2[10];
+	char Trial2_I_line1[10];
+	char Trial2_I_line2[10];
+	char Trial2_U_line1[10];
+	char Trial2_U_line2[10];
+	char Trial2_UL_line1[10];
+	char Trial2_UL_line2[10];
+	char Trial2_UA_line1[10];
+	char Trial2_UA_line2[10];
+	char Trial2_R_line1[10];
+	char Trial2_R_line2[10];
+	char Trial2_cos_cal_line1[10];
+	char Trial2_cos_cal_line2[10];
+	int score2;
+
+	char Trial3_mea_P_line1[10];
+	char Trial3_mea_P_line2[10];
+	char Trial3_mea_P_line3[10];
+	char Trial3_mea_P_line4[10];
+	char Trial3_mea_U_line1[10];
+	char Trial3_mea_U_line2[10];
+	char Trial3_mea_U_line3[10];
+	char Trial3_mea_U_line4[10];
+	char Trial3_mea_I_line1[10];
+	char Trial3_mea_I_line2[10];
+	char Trial3_mea_I_line3[10];
+	char Trial3_mea_I_line4[10];
+	char Trial3_mea_IL_line1[10];
+	char Trial3_mea_IL_line2[10];
+	char Trial3_mea_IL_line3[10];
+	char Trial3_mea_IL_line4[10];
+	char Trial3_mea_IC_line1[10];
+	char Trial3_mea_IC_line2[10];
+	char Trial3_mea_IC_line3[10];
+	char Trial3_mea_IC_line4[10];
+	char Trial3_cal_I_line1[10];
+	char Trial3_cal_I_line2[10];
+	char Trial3_cal_I_line3[10];
+	char Trial3_cal_I_line4[10];
+	char Trial3_cal_cos_line1[10];
+	char Trial3_cal_cos_line2[10];
+	char Trial3_cal_cos_line3[10];
+	char Trial3_cal_cos_line4[10];
+	int score3;
+};
+
+
+struct ST_回转器 {
+	TrialInfo ti;
+	char Trial1_U1_line1[10];
+	char Trial1_U1_line2[10];
+	char Trial1_U1_line3[10];
+	char Trial1_U1_line4[10];
+	char Trial1_U1_line5[10];
+	char Trial1_U1_line6[10];
+	char Trial1_U1_line7[10];
+
+	char Trial1_U2_line1[10];
+	char Trial1_U2_line2[10];
+	char Trial1_U2_line3[10];
+	char Trial1_U2_line4[10];
+	char Trial1_U2_line5[10];
+	char Trial1_U2_line6[10];
+	char Trial1_U2_line7[10];
+
+	char Trial1_I1_line1[10];
+	char Trial1_I1_line2[10];
+	char Trial1_I1_line3[10];
+	char Trial1_I1_line4[10];
+	char Trial1_I1_line5[10];
+	char Trial1_I1_line6[10];
+	char Trial1_I1_line7[10];
+
+	char Trial1_I2_line1[10];
+	char Trial1_I2_line2[10];
+	char Trial1_I2_line3[10];
+	char Trial1_I2_line4[10];
+	char Trial1_I2_line5[10];
+	char Trial1_I2_line6[10];
+	char Trial1_I2_line7[10];
+
+	char Trial1_G1_line1[10];
+	char Trial1_G1_line2[10];
+	char Trial1_G1_line3[10];
+	char Trial1_G1_line4[10];
+	char Trial1_G1_line5[10];
+	char Trial1_G1_line6[10];
+	char Trial1_G1_line7[10];
+
+	char Trial1_G2_line1[10];
+	char Trial1_G2_line2[10];
+	char Trial1_G2_line3[10];
+	char Trial1_G2_line4[10];
+	char Trial1_G2_line5[10];
+	char Trial1_G2_line6[10];
+	char Trial1_G2_line7[10];
+
+	char Trial1_GAver_line1[10]; 
+	char Trial1_GAver_line2[10];
+	char Trial1_GAver_line3[10];
+	char Trial1_GAver_line4[10];
+	char Trial1_GAver_line5[10];
+	char Trial1_GAver_line6[10];
+	char Trial1_GAver_line7[10];
+	int score1;
+
+	char Trial2_F200_line1[10]; 
+	char Trial2_F200_line2[10];
+	char Trial2_F200_line3[10];
+	char Trial2_F200_line4[10];
+	char Trial2_F200_line5[10];
+	char Trial2_F200_line6[10];
+	char Trial2_F200_line7[10];
+
+	char Trial2_F400_line1[10];
+	char Trial2_F400_line2[10];
+	char Trial2_F400_line3[10];
+	char Trial2_F400_line4[10];
+	char Trial2_F400_line5[10];
+	char Trial2_F400_line6[10];
+	char Trial2_F400_line7[10];
+
+	char Trial2_F500_line1[10];
+	char Trial2_F500_line2[10];
+	char Trial2_F500_line3[10];
+	char Trial2_F500_line4[10];
+	char Trial2_F500_line5[10];
+	char Trial2_F500_line6[10];
+	char Trial2_F500_line7[10];
+	
+	char Trial2_F700_line1[10];
+	char Trial2_F700_line2[10];
+	char Trial2_F700_line3[10];
+	char Trial2_F700_line4[10];
+	char Trial2_F700_line5[10];
+	char Trial2_F700_line6[10];
+	char Trial2_F700_line7[10];
+
+	char Trial2_F800_line1[10];
+	char Trial2_F800_line2[10];
+	char Trial2_F800_line3[10];
+	char Trial2_F800_line4[10];
+	char Trial2_F800_line5[10];
+	char Trial2_F800_line6[10];
+	char Trial2_F800_line7[10];
+
+
+	char Trial2_F900_line1[10];
+	char Trial2_F900_line2[10];
+	char Trial2_F900_line3[10];
+	char Trial2_F900_line4[10];
+	char Trial2_F900_line5[10];
+	char Trial2_F900_line6[10];
+	char Trial2_F900_line7[10];
+
+	char Trial2_F1000_line1[10];
+	char Trial2_F1000_line2[10];
+	char Trial2_F1000_line3[10];
+	char Trial2_F1000_line4[10];
+	char Trial2_F1000_line5[10];
+	char Trial2_F1000_line6[10];
+	char Trial2_F1000_line7[10];
+
+	char Trial2_F1200_line1[10];
+	char Trial2_F1200_line2[10];
+	char Trial2_F1200_line3[10];
+	char Trial2_F1200_line4[10];
+	char Trial2_F1200_line5[10];
+	char Trial2_F1200_line6[10];
+	char Trial2_F1200_line7[10];
+
+	char Trial2_F1300_line1[10];
+	char Trial2_F1300_line2[10];
+	char Trial2_F1300_line3[10];
+	char Trial2_F1300_line4[10];
+	char Trial2_F1300_line5[10];
+	char Trial2_F1300_line6[10];
+	char Trial2_F1300_line7[10];
+
+	char Trial2_F1500_line1[10];
+	char Trial2_F1500_line2[10];
+	char Trial2_F1500_line3[10];
+	char Trial2_F1500_line4[10];
+	char Trial2_F1500_line5[10];
+	char Trial2_F1500_line6[10];
+	char Trial2_F1500_line7[10];
+
+	char Trial2_F2000_line1[10];
+	char Trial2_F2000_line2[10];
+	char Trial2_F2000_line3[10];
+	char Trial2_F2000_line4[10];
+	char Trial2_F2000_line5[10];
+	char Trial2_F2000_line6[10];
+	char Trial2_F2000_line7[10];
+	int score2;
+	char Trial3_200[10];
+	char Trial3_400[10];
+	char Trial3_500[10];
+	char Trial3_700[10];
+	char Trial3_800[10];
+	char Trial3_900[10];
+	char Trial3_1000[10];
+	char Trial3_1200[10];
+	char Trial3_1300[10];
+	char Trial3_1500[10];
+	char Trial3_2000[10];
+	int score3;
+};
+
 #pragma pack(pop)
 

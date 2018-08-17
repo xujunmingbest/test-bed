@@ -85,6 +85,21 @@
     <Filter Include="RLC串联谐振电路的研究">
       <UniqueIdentifier>{140b39fc-53d9-4807-895c-3e388053ef23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="单相铁心变压器特性的测试">
+      <UniqueIdentifier>{60dfc181-ca31-427c-9ba9-e2c5a2239485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="单相电度表实验">
+      <UniqueIdentifier>{4a119cc6-9e22-4a48-adfc-b60f7fb83833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="三相交流电路电压电流的测量">
+      <UniqueIdentifier>{f0e5cd39-983c-4d5c-8dca-d8bbb34d8f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="日光灯功率因数的提高">
+      <UniqueIdentifier>{d58baa78-b270-4274-9305-f6b37579919f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="回转器">
+      <UniqueIdentifier>{1c28e79f-49bc-4931-8b62-ce43a46b8ffe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="主窗体.h">
@@ -375,6 +390,66 @@
     <ClInclude Include="RLC串联谐振电路的研究实验内容.h">
       <Filter>RLC串联谐振电路的研究</Filter>
     </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验目的.h">
+      <Filter>单相铁心变压器特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验原理.h">
+      <Filter>单相铁心变压器特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验器件.h">
+      <Filter>单相铁心变压器特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验内容.h">
+      <Filter>单相铁心变压器特性的测试</Filter>
+    </ClInclude>
+    <ClInclude Include="单相电度表实验实验目的.h">
+      <Filter>单相电度表实验</Filter>
+    </ClInclude>
+    <ClInclude Include="单相电度表实验实验原理.h">
+      <Filter>单相电度表实验</Filter>
+    </ClInclude>
+    <ClInclude Include="单相电度表实验实验器件.h">
+      <Filter>单相电度表实验</Filter>
+    </ClInclude>
+    <ClInclude Include="单相电度表实验实验内容.h">
+      <Filter>单相电度表实验</Filter>
+    </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验目的.h">
+      <Filter>三相交流电路电压电流的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验器件.h">
+      <Filter>三相交流电路电压电流的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验原理.h">
+      <Filter>三相交流电路电压电流的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验内容.h">
+      <Filter>三相交流电路电压电流的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验目的.h">
+      <Filter>日光灯功率因数的提高</Filter>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验内容.h">
+      <Filter>日光灯功率因数的提高</Filter>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验器件.h">
+      <Filter>日光灯功率因数的提高</Filter>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验原理.h">
+      <Filter>日光灯功率因数的提高</Filter>
+    </ClInclude>
+    <ClInclude Include="回转器实验目的.h">
+      <Filter>回转器</Filter>
+    </ClInclude>
+    <ClInclude Include="回转器实验器件.h">
+      <Filter>回转器</Filter>
+    </ClInclude>
+    <ClInclude Include="回转器实验原理.h">
+      <Filter>回转器</Filter>
+    </ClInclude>
+    <ClInclude Include="回转器实验内容.h">
+      <Filter>回转器</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -490,6 +565,21 @@
     </ClCompile>
     <ClCompile Include="RLC串联谐振电路的研究.cpp">
       <Filter>RLC串联谐振电路的研究</Filter>
+    </ClCompile>
+    <ClCompile Include="单相铁心变压器特性的测试.cpp">
+      <Filter>单相铁心变压器特性的测试</Filter>
+    </ClCompile>
+    <ClCompile Include="单相电度表实验.cpp">
+      <Filter>单相电度表实验</Filter>
+    </ClCompile>
+    <ClCompile Include="三相交流电路电压电流的测量.cpp">
+      <Filter>三相交流电路电压电流的测量</Filter>
+    </ClCompile>
+    <ClCompile Include="日光灯功率因数的提高.cpp">
+      <Filter>日光灯功率因数的提高</Filter>
+    </ClCompile>
+    <ClCompile Include="回转器.cpp">
+      <Filter>回转器</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -644,6 +734,66 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="RLC元件阻抗特性的测定实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RLC串联谐振电路的研究实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验目的.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
   </ItemGroup>

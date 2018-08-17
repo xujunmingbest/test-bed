@@ -475,6 +475,31 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void openRLC串联谐振电路的研究实验原理();
 		 void openRLC串联谐振电路的研究实验器件();
 		 void openRLC串联谐振电路的研究实验内容();
+
+		 void open单相铁心变压器特性的测试实验目的();
+		 void open单相铁心变压器特性的测试实验原理();
+		 void open单相铁心变压器特性的测试实验器件();
+		 void open单相铁心变压器特性的测试实验内容();
+
+		 void open单相电度表实验实验目的();
+		 void open单相电度表实验实验原理();
+		 void open单相电度表实验实验器件();
+		 void open单相电度表实验实验内容();
+
+		 void open三相交流电路电压电流的测量实验目的();
+		 void open三相交流电路电压电流的测量实验原理();
+		 void open三相交流电路电压电流的测量实验器件();
+		 void open三相交流电路电压电流的测量实验内容();
+
+		 void open日光灯功率因数的提高实验目的();
+		 void open日光灯功率因数的提高实验原理();
+		 void open日光灯功率因数的提高实验器件();
+		 void open日光灯功率因数的提高实验内容();
+
+		 void open回转器实验目的();
+		 void open回转器实验原理();
+		 void open回转器实验器件();
+		 void open回转器实验内容();
 		 /*******实验具体按钮点击******/
 		 void 实验目的click(int index);
 		 void 实验原理click(int index);

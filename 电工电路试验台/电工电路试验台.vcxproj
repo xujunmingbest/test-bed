@@ -232,6 +232,18 @@
     <ClInclude Include="一阶电路的响应测试实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="三相交流电路电压电流的测量实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="主窗体.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -275,6 +287,30 @@
     <ClInclude Include="元件伏安特性的测试实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="单相电度表实验实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="单相电度表实验实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="单相电度表实验实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="单相电度表实验实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="单相铁心变压器特性的测试实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="叠加原理实验内容.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -285,6 +321,18 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="叠加原理实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="回转器实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="回转器实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="回转器实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="回转器实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="基尔霍夫定律实验内容.h">
@@ -310,6 +358,18 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="戴维南定理实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="日光灯功率因数的提高实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="最大功率传输条件的测定实验内容.h">
@@ -401,6 +461,18 @@
     <EmbeddedResource Include="一阶电路的响应测试实验目的.resx">
       <DependentUpon>一阶电路的响应测试实验目的.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验内容.resx">
+      <DependentUpon>三相交流电路电压电流的测量实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验原理.resx">
+      <DependentUpon>三相交流电路电压电流的测量实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验器件.resx">
+      <DependentUpon>三相交流电路电压电流的测量实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相交流电路电压电流的测量实验目的.resx">
+      <DependentUpon>三相交流电路电压电流的测量实验目的.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="主窗体.resx">
       <DependentUpon>主窗体.h</DependentUpon>
     </EmbeddedResource>
@@ -443,6 +515,30 @@
     <EmbeddedResource Include="元件伏安特性的测试实验目的.resx">
       <DependentUpon>元件伏安特性的测试实验目的.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验内容.resx">
+      <DependentUpon>单相电度表实验实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验原理.resx">
+      <DependentUpon>单相电度表实验实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验器件.resx">
+      <DependentUpon>单相电度表实验实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相电度表实验实验目的.resx">
+      <DependentUpon>单相电度表实验实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验内容.resx">
+      <DependentUpon>单相铁心变压器特性的测试实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验原理.resx">
+      <DependentUpon>单相铁心变压器特性的测试实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验器件.resx">
+      <DependentUpon>单相铁心变压器特性的测试实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单相铁心变压器特性的测试实验目的.resx">
+      <DependentUpon>单相铁心变压器特性的测试实验目的.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="叠加原理实验内容.resx">
       <DependentUpon>叠加原理实验内容.h</DependentUpon>
     </EmbeddedResource>
@@ -454,6 +550,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="叠加原理实验目的.resx">
       <DependentUpon>叠加原理实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验内容.resx">
+      <DependentUpon>回转器实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验原理.resx">
+      <DependentUpon>回转器实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验器件.resx">
+      <DependentUpon>回转器实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验目的.resx">
+      <DependentUpon>回转器实验目的.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="基尔霍夫定律实验内容.resx">
       <DependentUpon>基尔霍夫定律实验内容.h</DependentUpon>
@@ -478,6 +586,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="戴维南定理实验目的.resx">
       <DependentUpon>戴维南定理实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验内容.resx">
+      <DependentUpon>日光灯功率因数的提高实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验原理.resx">
+      <DependentUpon>日光灯功率因数的提高实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验器件.resx">
+      <DependentUpon>日光灯功率因数的提高实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="日光灯功率因数的提高实验目的.resx">
+      <DependentUpon>日光灯功率因数的提高实验目的.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="最大功率传输条件的测定实验内容.resx">
       <DependentUpon>最大功率传输条件的测定实验内容.h</DependentUpon>
@@ -549,13 +669,18 @@
     </ClCompile>
     <ClCompile Include="VCVS实验.cpp" />
     <ClCompile Include="一阶电路的响应测试.cpp" />
+    <ClCompile Include="三相交流电路电压电流的测量.cpp" />
     <ClCompile Include="主窗体.cpp" />
     <ClCompile Include="二端口网络的研究.cpp" />
     <ClCompile Include="二阶动态电路响应的研究.cpp" />
     <ClCompile Include="元件伏安特性的测试.cpp" />
+    <ClCompile Include="单相电度表实验.cpp" />
+    <ClCompile Include="单相铁心变压器特性的测试.cpp" />
     <ClCompile Include="叠加原理.cpp" />
+    <ClCompile Include="回转器.cpp" />
     <ClCompile Include="基尔霍夫定律.cpp" />
     <ClCompile Include="戴维南定理.cpp" />
+    <ClCompile Include="日光灯功率因数的提高.cpp" />
     <ClCompile Include="最大功率传输条件的测定.cpp" />
     <ClCompile Include="电压源与电流源的等效变换.cpp" />
     <ClCompile Include="电路状态轨迹的观测.cpp" />

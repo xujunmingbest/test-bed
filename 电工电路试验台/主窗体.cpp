@@ -62,6 +62,11 @@ void 主窗体::SelectWindows(int index) {
 	case 11: open电路状态轨迹的观测实验目的(); break;
 	case 12: openRLC元件阻抗特性的测定实验目的(); break;
 	case 13: openRLC串联谐振电路的研究实验目的(); break;
+	case 14: open单相铁心变压器特性的测试实验目的(); break;
+	case 15: open单相电度表实验实验目的(); break;
+	case 16: open三相交流电路电压电流的测量实验目的(); break;
+	case 17: open日光灯功率因数的提高实验目的(); break;
+	case 18: open回转器实验目的(); break;
 	}
 }
 
@@ -111,6 +116,11 @@ void  主窗体::实验目的click(int index) {
 	case 11: open电路状态轨迹的观测实验目的(); break;
 	case 12: openRLC元件阻抗特性的测定实验目的(); break;
 	case 13: openRLC串联谐振电路的研究实验目的(); break;
+	case 14: open单相铁心变压器特性的测试实验目的(); break;
+	case 15: open单相电度表实验实验目的(); break;
+	case 16: open三相交流电路电压电流的测量实验目的(); break;
+	case 17: open日光灯功率因数的提高实验目的(); break;
+	case 18: open回转器实验目的(); break;
 	}
 
 }
@@ -130,6 +140,11 @@ void  主窗体::实验原理click(int index) {
 	case 11: open电路状态轨迹的观测实验原理(); break;
 	case 12: openRLC元件阻抗特性的测定实验原理(); break;
 	case 13: openRLC串联谐振电路的研究实验原理(); break;
+	case 14: open单相铁心变压器特性的测试实验原理(); break;
+	case 15: open单相电度表实验实验原理(); break;
+	case 16: open三相交流电路电压电流的测量实验原理(); break;
+	case 17: open日光灯功率因数的提高实验原理(); break;
+	case 18: open回转器实验原理(); break;
 	}
 }
 
@@ -148,6 +163,11 @@ void  主窗体::实验器件click(int index) {
 	case 11: open电路状态轨迹的观测实验器件(); break;
 	case 12: openRLC元件阻抗特性的测定实验器件(); break;
 	case 13: openRLC串联谐振电路的研究实验器件(); break;
+	case 14: open单相铁心变压器特性的测试实验器件(); break;
+	case 15: open单相电度表实验实验器件(); break;
+	case 16: open三相交流电路电压电流的测量实验器件(); break;
+	case 17: open日光灯功率因数的提高实验器件(); break;
+	case 18: open回转器实验器件(); break;
 	}
 }
 
@@ -167,6 +187,11 @@ void  主窗体::实验内容click(int index) {
 	case 11: open电路状态轨迹的观测实验内容(); break;
 	case 12: openRLC元件阻抗特性的测定实验内容(); break;
 	case 13: openRLC串联谐振电路的研究实验内容(); break;
+	case 14: open单相铁心变压器特性的测试实验内容(); break;
+	case 15: open单相电度表实验实验内容(); break;
+	case 16: open三相交流电路电压电流的测量实验内容(); break;
+	case 17: open日光灯功率因数的提高实验内容(); break;
+	case 18: open回转器实验内容(); break;
 	}
 
 }
