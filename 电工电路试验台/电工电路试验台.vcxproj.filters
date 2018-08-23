@@ -100,6 +100,18 @@
     <Filter Include="回转器">
       <UniqueIdentifier>{1c28e79f-49bc-4931-8b62-ce43a46b8ffe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="三相电路功率的测量">
+      <UniqueIdentifier>{fb7f30d9-3b19-4b4c-ac2f-b212394b2000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="负阻抗变换器">
+      <UniqueIdentifier>{e0cae133-8435-4820-9e16-5106bf9b4b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RC网络的频率特性">
+      <UniqueIdentifier>{526abd60-4932-4173-8c6c-016a23a3ce9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="仪表量程的扩展">
+      <UniqueIdentifier>{6b3be649-03b0-4156-924c-6544f6bdc903}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="主窗体.h">
@@ -450,6 +462,54 @@
     <ClInclude Include="回转器实验内容.h">
       <Filter>回转器</Filter>
     </ClInclude>
+    <ClInclude Include="三相电路功率的测量实验目的.h">
+      <Filter>三相电路功率的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="三相电路功率的测量实验原理.h">
+      <Filter>三相电路功率的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="三相电路功率的测量实验器件.h">
+      <Filter>三相电路功率的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="三相电路功率的测量实验内容.h">
+      <Filter>三相电路功率的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="负阻抗变换器实验目的.h">
+      <Filter>负阻抗变换器</Filter>
+    </ClInclude>
+    <ClInclude Include="负阻抗变换器实验原理.h">
+      <Filter>负阻抗变换器</Filter>
+    </ClInclude>
+    <ClInclude Include="负阻抗变换器实验器件.h">
+      <Filter>负阻抗变换器</Filter>
+    </ClInclude>
+    <ClInclude Include="负阻抗变换器实验内容.h">
+      <Filter>负阻抗变换器</Filter>
+    </ClInclude>
+    <ClInclude Include="RC网络的频率特性实验目的.h">
+      <Filter>RC网络的频率特性</Filter>
+    </ClInclude>
+    <ClInclude Include="RC网络的频率特性实验器件.h">
+      <Filter>RC网络的频率特性</Filter>
+    </ClInclude>
+    <ClInclude Include="RC网络的频率特性实验原理.h">
+      <Filter>RC网络的频率特性</Filter>
+    </ClInclude>
+    <ClInclude Include="RC网络的频率特性实验内容.h">
+      <Filter>RC网络的频率特性</Filter>
+    </ClInclude>
+    <ClInclude Include="仪表量程的扩展实验目的.h">
+      <Filter>仪表量程的扩展</Filter>
+    </ClInclude>
+    <ClInclude Include="仪表量程的扩展实验原理.h">
+      <Filter>仪表量程的扩展</Filter>
+    </ClInclude>
+    <ClInclude Include="仪表量程的扩展实验器件.h">
+      <Filter>仪表量程的扩展</Filter>
+    </ClInclude>
+    <ClInclude Include="仪表量程的扩展实验内容.h">
+      <Filter>仪表量程的扩展</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -580,6 +640,18 @@
     </ClCompile>
     <ClCompile Include="回转器.cpp">
       <Filter>回转器</Filter>
+    </ClCompile>
+    <ClCompile Include="负阻抗变换器.cpp">
+      <Filter>负阻抗变换器</Filter>
+    </ClCompile>
+    <ClCompile Include="三相电路功率的测量.cpp">
+      <Filter>三相电路功率的测量</Filter>
+    </ClCompile>
+    <ClCompile Include="RC网络的频率特性.cpp">
+      <Filter>RC网络的频率特性</Filter>
+    </ClCompile>
+    <ClCompile Include="仪表量程的扩展.cpp">
+      <Filter>仪表量程的扩展</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -794,6 +866,54 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="日光灯功率因数的提高实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="回转器实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相电路功率的测量实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相电路功率的测量实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相电路功率的测量实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="三相电路功率的测量实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="负阻抗变换器实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="负阻抗变换器实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="负阻抗变换器实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="负阻抗变换器实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RC网络的频率特性实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RC网络的频率特性实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RC网络的频率特性实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RC网络的频率特性实验目的.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
   </ItemGroup>

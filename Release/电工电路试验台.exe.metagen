@@ -1,4 +1,8 @@
   电工电路试验台.loginWnd.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RC网络的频率特性实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RC网络的频率特性实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RC网络的频率特性实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.RC网络的频率特性实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.RLC串联谐振电路的研究实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.RLC串联谐振电路的研究实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.RLC串联谐振电路的研究实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -19,6 +23,10 @@
   电工电路试验台.三相交流电路电压电流的测量实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.三相交流电路电压电流的测量实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.三相交流电路电压电流的测量实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相电路功率的测量实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相电路功率的测量实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相电路功率的测量实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.三相电路功率的测量实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.主窗体.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二端口网络的研究实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二端口网络的研究实验原理.resources - Embedded, ContainedInManifestFile, 
@@ -28,6 +36,10 @@
   电工电路试验台.二阶动态电路响应的研究实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二阶动态电路响应的研究实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二阶动态电路响应的研究实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.仪表量程的扩展实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.仪表量程的扩展实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.仪表量程的扩展实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.仪表量程的扩展实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -73,6 +85,10 @@
   电工电路试验台.电路状态轨迹的观测实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.电路状态轨迹的观测实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.电路状态轨迹的观测实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.负阻抗变换器实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.负阻抗变换器实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.负阻抗变换器实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.负阻抗变换器实验目的.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly 电工电路试验台, Version=0.0.*, Culture=固定语言(固定国家/地区): 
 	hash=SHA1, flags=PublicKey
@@ -721,6 +737,69 @@ Class 电工电路试验台.回转器实验内容: AutoLayout, AnsiClass, Class,
   Methods:
     Load_Grade_data(ST_回转器*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.回转器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.三相电路功率的测量实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.三相电路功率的测量实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.三相电路功率的测量实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_三相电路功率的测量*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.三相电路功率的测量实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.负阻抗变换器实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.负阻抗变换器实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.负阻抗变换器实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String picdir : Public
+    System.String PT_name1 : Public
+    System.String PT_name2 : Public
+  Methods:
+    Load_Grade_data(ST_负阻抗变换器*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.负阻抗变换器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RC网络的频率特性实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RC网络的频率特性实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.RC网络的频率特性实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SendData(): PrivateScope, Public, HideBySig
+    Load_Grade_data(ST_RC网络的频率特性*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.RC网络的频率特性实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.仪表量程的扩展实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.仪表量程的扩展实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.仪表量程的扩展实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_仪表量程的扩展*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.仪表量程的扩展实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

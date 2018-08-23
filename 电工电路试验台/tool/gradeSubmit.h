@@ -1577,5 +1577,176 @@ struct ST_回转器 {
 	int score3;
 };
 
+struct ST_三相电路功率的测量 {
+	TrialInfo ti;
+	char Trial1_PA_1[10];
+	char Trial1_PA_2[10];
+	char Trial1_PB_1[10];
+	char Trial1_PB_2[10];
+	char Trial1_PC_1[10];
+	char Trial1_PC_2[10];
+	char Trial1_P_1[10];
+	char Trial1_P_2[10];
+	int score1;
+
+	char Trial2_P1_1[10];
+	char Trial2_P1_2[10];
+	char Trial2_P1_3[10];
+	char Trial2_P1_4[10];
+	char Trial2_P2_1[10];
+	char Trial2_P2_2[10];
+	char Trial2_P2_3[10];
+	char Trial2_P2_4[10];
+	char Trial2_P_1[10];
+	char Trial2_P_2[10];
+	char Trial2_P_3[10];
+	char Trial2_P_4[10];
+	int score2;
+
+
+	char Trial3_U_1[10];
+	char Trial3_U_2[10];
+	char Trial3_U_3[10];
+	char Trial3_I_1[10];
+	char Trial3_I_2[10];
+	char Trial3_I_3[10];
+	char Trial3_Q_1[10];
+	char Trial3_Q_2[10];
+	char Trial3_Q_3[10];
+	char Trial3_QQ_1[10];
+	char Trial3_QQ_2[10];
+	char Trial3_QQ_3[10];
+	int score3;
+
+};
+
+struct ST_负阻抗变换器 {
+	TrialInfo ti;
+	char Trial1_300_U1[10];
+	char Trial1_300_I1[10];
+	char Trial1_300_R_[10];
+	char Trial1_600_U1[10];
+	char Trial1_600_I1[10];
+	char Trial1_600_R_[10];
+	int score1;
+
+	char Trial2_Bmp_1[387072];
+	char Trial2_Bmp_2[387072];
+	int score2;
+};
+
+struct ST_RC网络的频率特性 {
+	TrialInfo ti;
+	char Trial1_F1[10];
+	char Trial1_F2[10];
+	char Trial1_F3[10];
+	char Trial1_F4[10];
+	char Trial1_F5[10];
+	char Trial1_F6[10];
+	char Trial1_F7[10];
+	char Trial1_F8[10];
+
+	char Trial1_Uo1_1[10];
+	char Trial1_Uo1_2[10];
+	char Trial1_Uo1_3[10];
+	char Trial1_Uo1_4[10];
+	char Trial1_Uo1_5[10];
+	char Trial1_Uo1_6[10];
+	char Trial1_Uo1_7[10];
+	char Trial1_Uo1_8[10];
+
+	char Trial1_Uo2_1[10];
+	char Trial1_Uo2_2[10];
+	char Trial1_Uo2_3[10];
+	char Trial1_Uo2_4[10];
+	char Trial1_Uo2_5[10];
+	char Trial1_Uo2_6[10];
+	char Trial1_Uo2_7[10];
+	char Trial1_Uo2_8[10];
+	int score1;
+
+
+	char Trial2_F1[10];
+	char Trial2_F2[10];
+	char Trial2_F3[10];
+	char Trial2_F4[10];
+	char Trial2_F5[10];
+	char Trial2_F6[10];
+	char Trial2_F7[10];
+	char Trial2_F8[10];
+
+	char Trial2_T1[10];
+	char Trial2_T2[10];
+	char Trial2_T3[10];
+	char Trial2_T4[10];
+	char Trial2_T5[10];
+	char Trial2_T6[10];
+	char Trial2_T7[10];
+	char Trial2_T8[10];
+
+	char Trial2_τ1[10];
+	char Trial2_τ2[10];
+	char Trial2_τ3[10];
+	char Trial2_τ4[10];
+	char Trial2_τ5[10];
+	char Trial2_τ6[10];
+	char Trial2_τ7[10];
+	char Trial2_τ8[10];
+
+	char Trial2_φ1[10];
+	char Trial2_φ2[10];
+	char Trial2_φ3[10];
+	char Trial2_φ4[10];
+	char Trial2_φ5[10];
+	char Trial2_φ6[10];
+	char Trial2_φ7[10];
+	char Trial2_φ8[10];
+
+	char Trial2_τ2_1[10];
+	char Trial2_τ2_2[10];
+	char Trial2_τ2_3[10];
+	char Trial2_τ2_4[10];
+	char Trial2_τ2_5[10];
+	char Trial2_τ2_6[10];
+	char Trial2_τ2_7[10];
+	char Trial2_τ2_8[10];
+
+	char Trial2_φ2_1[10];
+	char Trial2_φ2_2[10];
+	char Trial2_φ2_3[10];
+	char Trial2_φ2_4[10];
+	char Trial2_φ2_5[10];
+	char Trial2_φ2_6[10];
+	char Trial2_φ2_7[10];
+	char Trial2_φ2_8[10];
+	char summing_up[10];
+	int score2;
+};
+
+struct ST_仪表量程的扩展 {
+	TrialInfo ti;
+	char Trial1_1[10];
+	char Trial1_2[10];
+	char Trial1_3[10];
+	char Trial1_4[10];
+	char Trial1_5[10];
+	char Trial1_6[10];
+	int score1;
+	char Trial2_1[10];
+	char Trial2_2[10];
+	char Trial2_3[10];
+	char Trial2_4[10];
+	char Trial2_5[10];
+	char Trial2_6[10];
+	int score2;
+	char Trial3_1[10];
+	char Trial3_2[10];
+	char Trial3_3[10];
+	char Trial3_4[10];
+	char Trial3_5[10];
+	char Trial3_6[10];
+	int score3;
+};
+
 #pragma pack(pop)
 

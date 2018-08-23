@@ -18,6 +18,9 @@ namespace 电工电路试验台 {
 		叠加原理实验目的(void)
 		{
 			InitializeComponent();
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Font = gcnew System::Drawing::Font("宋体", LAYSIZE, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+
 			//
 			//TODO:  在此处添加构造函数代码
 			//
@@ -74,10 +77,13 @@ namespace 电工电路试验台 {
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"叠加原理实验目的";
 			this->Text = L"叠加原理实验目的";
+			this->Load += gcnew System::EventHandler(this, &叠加原理实验目的::叠加原理实验目的_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
+	private: System::Void 叠加原理实验目的_Load(System::Object^  sender, System::EventArgs^  e) {
+	}
 	};
 }

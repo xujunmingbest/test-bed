@@ -12,6 +12,6 @@
     <GradePort>1235</GradePort> <!--成绩上传端口-->
     <LongConnectPort>1236</LongConnectPort><!--长连接接口-->
     <CapturePort>1237</CapturePort> <!--发送屏幕截图的 -->
-    <GradeMonitorPort>1238</GradeMonitorPort><!--发送数据监控的 -->
+    <GradeMonitorPort>1239</GradeMonitorPort><!--发送数据监控的 -->
     <ComputerId>机台1</ComputerId> <!--机台编号 -->
 </Info>

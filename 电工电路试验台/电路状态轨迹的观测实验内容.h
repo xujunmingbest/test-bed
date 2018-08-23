@@ -18,6 +18,9 @@ namespace 电工电路试验台 {
 		电路状态轨迹的观测实验内容(void)
 		{
 			InitializeComponent();
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Font = gcnew System::Drawing::Font("宋体", LAYSIZE, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+
 			File::Delete(Trial1_name);
 			File::Delete(Trial2_name);
 			File::Delete(Trial3_name);

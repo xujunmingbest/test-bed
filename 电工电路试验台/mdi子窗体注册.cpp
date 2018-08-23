@@ -1087,3 +1087,236 @@ void 主窗体::open回转器实验内容() {
 		f->Show();
 	}
 }
+
+
+void 主窗体::open三相电路功率的测量实验目的() {
+	bool f = GetWindowsChild("三相电路功率的测量实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		三相电路功率的测量实验目的^ f = gcnew 三相电路功率的测量实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相电路功率的测量实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open三相电路功率的测量实验原理() {
+	bool f = GetWindowsChild("三相电路功率的测量实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		三相电路功率的测量实验原理^ f = gcnew 三相电路功率的测量实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相电路功率的测量实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open三相电路功率的测量实验器件() {
+	bool f = GetWindowsChild("三相电路功率的测量实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		三相电路功率的测量实验器件^ f = gcnew 三相电路功率的测量实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相电路功率的测量实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open三相电路功率的测量实验内容() {
+	bool f = GetWindowsChild("三相电路功率的测量实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		三相电路功率的测量实验内容^ f = gcnew 三相电路功率的测量实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "三相电路功率的测量实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+void 主窗体::open负阻抗变换器实验目的() {
+	bool f = GetWindowsChild("负阻抗变换器实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		负阻抗变换器实验目的^ f = gcnew 负阻抗变换器实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "负阻抗变换器实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open负阻抗变换器实验原理() {
+	bool f = GetWindowsChild("负阻抗变换器实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		负阻抗变换器实验原理^ f = gcnew 负阻抗变换器实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "负阻抗变换器实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open负阻抗变换器实验器件() {
+	bool f = GetWindowsChild("负阻抗变换器实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		负阻抗变换器实验器件^ f = gcnew 负阻抗变换器实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "负阻抗变换器实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open负阻抗变换器实验内容() {
+	bool f = GetWindowsChild("负阻抗变换器实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		负阻抗变换器实验内容^ f = gcnew 负阻抗变换器实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "负阻抗变换器实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+void 主窗体::openRC网络的频率特性实验目的() {
+	bool f = GetWindowsChild("RC网络的频率特性实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		RC网络的频率特性实验目的^ f = gcnew RC网络的频率特性实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RC网络的频率特性实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openRC网络的频率特性实验原理() {
+	bool f = GetWindowsChild("RC网络的频率特性实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		RC网络的频率特性实验原理^ f = gcnew RC网络的频率特性实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RC网络的频率特性实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::openRC网络的频率特性实验器件() {
+	bool f = GetWindowsChild("RC网络的频率特性实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		RC网络的频率特性实验器件^ f = gcnew RC网络的频率特性实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RC网络的频率特性实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::openRC网络的频率特性实验内容() {
+	bool f = GetWindowsChild("RC网络的频率特性实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		RC网络的频率特性实验内容^ f = gcnew RC网络的频率特性实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "RC网络的频率特性实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+
+void 主窗体::open仪表量程的扩展实验目的() {
+	bool f = GetWindowsChild("仪表量程的扩展实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		仪表量程的扩展实验目的^ f = gcnew 仪表量程的扩展实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "仪表量程的扩展实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open仪表量程的扩展实验原理() {
+	bool f = GetWindowsChild("仪表量程的扩展实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		仪表量程的扩展实验原理^ f = gcnew 仪表量程的扩展实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "仪表量程的扩展实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open仪表量程的扩展实验器件() {
+	bool f = GetWindowsChild("仪表量程的扩展实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		仪表量程的扩展实验器件^ f = gcnew 仪表量程的扩展实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "仪表量程的扩展实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open仪表量程的扩展实验内容() {
+	bool f = GetWindowsChild("仪表量程的扩展实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		仪表量程的扩展实验内容^ f = gcnew 仪表量程的扩展实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "仪表量程的扩展实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+

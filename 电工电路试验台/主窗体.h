@@ -500,6 +500,27 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void open回转器实验原理();
 		 void open回转器实验器件();
 		 void open回转器实验内容();
+
+		 void open三相电路功率的测量实验目的();
+		 void open三相电路功率的测量实验原理();
+		 void open三相电路功率的测量实验器件();
+		 void open三相电路功率的测量实验内容();
+
+
+		 void open负阻抗变换器实验目的();
+		 void open负阻抗变换器实验原理();
+		 void open负阻抗变换器实验器件();
+		 void open负阻抗变换器实验内容();
+
+		 void openRC网络的频率特性实验目的();
+		 void openRC网络的频率特性实验原理();
+		 void openRC网络的频率特性实验器件();
+		 void openRC网络的频率特性实验内容();
+
+		 void open仪表量程的扩展实验目的();
+		 void open仪表量程的扩展实验原理();
+		 void open仪表量程的扩展实验器件();
+		 void open仪表量程的扩展实验内容();
 		 /*******实验具体按钮点击******/
 		 void 实验目的click(int index);
 		 void 实验原理click(int index);

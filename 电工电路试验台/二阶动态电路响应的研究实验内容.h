@@ -19,6 +19,9 @@ namespace 电工电路试验台 {
 		二阶动态电路响应的研究实验内容(void)
 		{
 			InitializeComponent();
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Font = gcnew System::Drawing::Font("宋体", LAYSIZE, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+
 			File::Delete(Trial1_1PT_name);
 			File::Delete(Trial1_2PT_name);
 			File::Delete(Trial1_3PT_name);
@@ -1358,6 +1361,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"二阶动态电路响应的研究实验内容";
 			this->Text = L"二阶动态电路响应的研究实验内容";
+			this->Load += gcnew System::EventHandler(this, &二阶动态电路响应的研究实验内容::二阶动态电路响应的研究实验内容_Load);
 			this->groupBox8->ResumeLayout(false);
 			this->groupBox8->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -1472,6 +1476,8 @@ private: System::Void label7_Click(System::Object^  sender, System::EventArgs^  
 private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void groupBox2_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void 二阶动态电路响应的研究实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

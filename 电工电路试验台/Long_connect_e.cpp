@@ -624,6 +624,122 @@ void ForceCommitGrade() {
 					d.close();
 					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
 				}
+				else if (f->Name == "三相电路功率的测量实验内容") {
+
+					ST_三相电路功率的测量 s;
+					memset(&s, 0x00, sizeof(ST_三相电路功率的测量));
+					s = ((三相电路功率的测量实验内容^)f)->Load_Grade_data();
+					int trialCode = 19;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_三相电路功率的测量)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
+				else if (f->Name == "负阻抗变换器实验内容") {
+
+					ST_负阻抗变换器 s;
+					memset(&s, 0x00, sizeof(ST_负阻抗变换器));
+					s = ((负阻抗变换器实验内容^)f)->Load_Grade_data();
+					int trialCode = 20;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_负阻抗变换器)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
+				else if (f->Name == "RC网络的频率特性实验内容") {
+
+					ST_RC网络的频率特性 s;
+					memset(&s, 0x00, sizeof(ST_RC网络的频率特性));
+					s = ((RC网络的频率特性实验内容^)f)->Load_Grade_data();
+					int trialCode = 21;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_RC网络的频率特性)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
+				else if (f->Name == "仪表量程的扩展实验内容") {
+
+					ST_仪表量程的扩展 s;
+					memset(&s, 0x00, sizeof(ST_仪表量程的扩展));
+					s = ((仪表量程的扩展实验内容^)f)->Load_Grade_data();
+					int trialCode = 22;
+					s.ti = trialInfo;
+					s.ti.TrialCode = trialCode;
+					s.ti.totalscore = -1;
+					snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+					snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+					data_transf d;
+					GradesHead H;
+					H.TrialCode = trialCode;
+					snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[trialCode].c_str());
+					snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+					if (!d.open()) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					if (!d.SendGrade(H, string((char*)&s, sizeof(ST_仪表量程的扩展)))) {
+						MessageBox::Show("TCP连接失败");
+						return;
+					}
+					d.RecvHandle(false);
+					d.close();
+					lcc.SendComputerInfo(Grades[trialCode] + "已交卷");
+				}
 			}
 		}
 	}

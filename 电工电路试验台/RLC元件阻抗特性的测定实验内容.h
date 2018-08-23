@@ -18,6 +18,9 @@ namespace 电工电路试验台 {
 		RLC元件阻抗特性的测定实验内容(void)
 		{
 			InitializeComponent();
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Font = gcnew System::Drawing::Font("宋体", LAYSIZE, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+
 			File::Delete(Trial2_1PT_name);
 			File::Delete(Trial2_2PT_name);
 			//

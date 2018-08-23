@@ -18,6 +18,9 @@ namespace 电工电路试验台 {
 		回转器实验目的(void)
 		{
 			InitializeComponent();
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Font = gcnew System::Drawing::Font("宋体", LAYSIZE, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+
 			//
 			//TODO:  在此处添加构造函数代码
 			//
@@ -107,7 +110,7 @@ namespace 电工电路试验台 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1052, 467);
+			this->ClientSize = System::Drawing::Size(1052, 675);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label1);

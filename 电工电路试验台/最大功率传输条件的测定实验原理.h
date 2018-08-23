@@ -18,6 +18,7 @@ namespace 电工电路试验台 {
 		最大功率传输条件的测定实验原理(void)
 		{
 			InitializeComponent();
+
 			//
 			//TODO:  在此处添加构造函数代码
 			//

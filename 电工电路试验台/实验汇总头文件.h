@@ -94,3 +94,23 @@
 #include "回转器实验原理.h"
 #include "回转器实验内容.h"
 #include "回转器实验器件.h"
+
+#include "三相电路功率的测量实验目的.h"
+#include "三相电路功率的测量实验原理.h"
+#include "三相电路功率的测量实验内容.h"
+#include "三相电路功率的测量实验器件.h"
+
+#include "负阻抗变换器实验目的.h"
+#include "负阻抗变换器实验原理.h"
+#include "负阻抗变换器实验内容.h"
+#include "负阻抗变换器实验器件.h"
+
+#include "RC网络的频率特性实验目的.h"
+#include "RC网络的频率特性实验原理.h"
+#include "RC网络的频率特性实验内容.h"
+#include "RC网络的频率特性实验器件.h"
+
+#include "仪表量程的扩展实验目的.h"
+#include "仪表量程的扩展实验原理.h"
+#include "仪表量程的扩展实验内容.h"
+#include "仪表量程的扩展实验器件.h"

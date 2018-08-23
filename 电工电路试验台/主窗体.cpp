@@ -67,6 +67,10 @@ void 主窗体::SelectWindows(int index) {
 	case 16: open三相交流电路电压电流的测量实验目的(); break;
 	case 17: open日光灯功率因数的提高实验目的(); break;
 	case 18: open回转器实验目的(); break;
+	case 19: open三相电路功率的测量实验目的(); break;
+	case 20: open负阻抗变换器实验目的(); break;
+	case 21: openRC网络的频率特性实验目的(); break;
+	case 22: open仪表量程的扩展实验目的(); break;
 	}
 }
 
@@ -121,6 +125,10 @@ void  主窗体::实验目的click(int index) {
 	case 16: open三相交流电路电压电流的测量实验目的(); break;
 	case 17: open日光灯功率因数的提高实验目的(); break;
 	case 18: open回转器实验目的(); break;
+	case 19: open三相电路功率的测量实验目的(); break;
+	case 20: open负阻抗变换器实验目的(); break;
+	case 21: openRC网络的频率特性实验目的(); break;
+	case 22: open仪表量程的扩展实验目的(); break;
 	}
 
 }
@@ -145,6 +153,10 @@ void  主窗体::实验原理click(int index) {
 	case 16: open三相交流电路电压电流的测量实验原理(); break;
 	case 17: open日光灯功率因数的提高实验原理(); break;
 	case 18: open回转器实验原理(); break;
+	case 19: open三相电路功率的测量实验原理(); break;
+	case 20: open负阻抗变换器实验原理(); break;
+	case 21: openRC网络的频率特性实验原理(); break;
+	case 22: open仪表量程的扩展实验原理(); break;
 	}
 }
 
@@ -168,6 +180,10 @@ void  主窗体::实验器件click(int index) {
 	case 16: open三相交流电路电压电流的测量实验器件(); break;
 	case 17: open日光灯功率因数的提高实验器件(); break;
 	case 18: open回转器实验器件(); break;
+	case 19: open三相电路功率的测量实验器件(); break;
+	case 20: open负阻抗变换器实验器件(); break;
+	case 21: openRC网络的频率特性实验器件(); break;
+	case 22: open仪表量程的扩展实验器件(); break;
 	}
 }
 
@@ -192,6 +208,10 @@ void  主窗体::实验内容click(int index) {
 	case 16: open三相交流电路电压电流的测量实验内容(); break;
 	case 17: open日光灯功率因数的提高实验内容(); break;
 	case 18: open回转器实验内容(); break;
+	case 19: open三相电路功率的测量实验内容(); break;
+	case 20: open负阻抗变换器实验内容(); break;
+	case 21: openRC网络的频率特性实验内容(); break;
+	case 22: open仪表量程的扩展实验内容(); break;
 	}
 
 }

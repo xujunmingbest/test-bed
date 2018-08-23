@@ -1,4 +1,258 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are main.cpp, tool\json\main.cpp.
+  Long_connect_e.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(322): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(323): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(324): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(325): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(326): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(327): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(328): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(329): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验内容.h(8330): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验内容.h(8331): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4560): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4578): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4589): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\基尔霍夫定律实验内容.h(1093): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(365): warning C4018: “<”: 有符号/无符号不匹配
+Long_connect_e.cpp(120): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(121): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(148): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(149): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(176): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(177): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(204): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(205): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(232): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(233): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(260): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(261): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(289): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(290): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(318): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(319): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(347): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(348): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(376): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(377): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(405): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(406): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(434): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(435): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(463): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(464): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(492): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(493): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(521): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(522): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(550): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(551): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(579): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(580): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(608): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(609): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(637): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(638): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(666): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(667): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(695): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(696): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(724): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+Long_connect_e.cpp(725): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+  RLC串联谐振电路的研究.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+RLC串联谐振电路的研究.cpp(18): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(19): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(48): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(50): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(51): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(52): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(54): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(55): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(56): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(57): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(58): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(59): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(60): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(61): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(62): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(63): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(64): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(65): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(66): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(67): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(68): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(69): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(71): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(72): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(73): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(74): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(75): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(76): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(77): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(78): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(79): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(80): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(81): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(82): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(83): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(84): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(85): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(86): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(88): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(89): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(90): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(91): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(92): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(93): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(94): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(95): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(96): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(97): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(98): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(99): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(100): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(101): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(102): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(103): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(106): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(107): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(108): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(109): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(110): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(111): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(112): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(113): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(114): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(115): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(116): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(117): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(118): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(119): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(120): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(121): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(122): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(123): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(124): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(126): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(127): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(128): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(131): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(132): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(133): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(134): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(135): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(136): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(137): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(138): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(139): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(140): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(141): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(142): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(143): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(144): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(145): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(146): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(148): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(149): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(150): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(151): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(152): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(153): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(154): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(155): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(156): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(157): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(158): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(159): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(160): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(161): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(162): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(163): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(165): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(166): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(167): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(168): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(169): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(170): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(171): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(172): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(173): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(174): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(175): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(176): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(177): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(178): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(179): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(180): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(183): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(184): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(185): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(186): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(187): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(188): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(189): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(190): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(191): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(192): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(193): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(194): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(195): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(196): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(197): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(198): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(199): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(200): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC串联谐振电路的研究.cpp(201): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+  RLC元件阻抗特性的测定.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+RLC元件阻抗特性的测定.cpp(15): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(16): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(39): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(40): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(41): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(42): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(43): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(44): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(45): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(46): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(47): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(48): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(49): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(60): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(61): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(62): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+RLC元件阻抗特性的测定.cpp(63): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+  mdi子窗体注册.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(322): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(323): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(324): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(325): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(326): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(327): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(328): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(329): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(365): warning C4018: “<”: 有符号/无符号不匹配
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验内容.h(8330): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验内容.h(8331): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4560): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4578): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\元件伏安特性的测试实验报告.h(4589): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\基尔霍夫定律实验内容.h(1093): warning C4101: “e”: 未引用的局部变量
   monitorTrial.cpp
 e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
@@ -55,6 +309,40 @@ monitorTrial.cpp(240): warning C4477: “snprintf”: 格式字符串“%s”需
 monitorTrial.cpp(241): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 monitorTrial.cpp(253): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 monitorTrial.cpp(254): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(266): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(267): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(279): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(280): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(292): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(293): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(305): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+monitorTrial.cpp(306): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+  仪表量程的扩展.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+仪表量程的扩展.cpp(14): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(15): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(41): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(42): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(43): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(44): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(45): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(46): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(48): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(49): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(50): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(51): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(52): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(53): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(55): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(56): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(57): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(58): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(59): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+仪表量程的扩展.cpp(60): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+  正在生成代码...
 Release\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
   libsocket.lib(libsocket.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
 Release\main.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定

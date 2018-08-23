@@ -256,6 +256,58 @@ void monitorTrialssc::_SendTrial() {
 				Sleep(3000);
 			}
 		}
+		else if (TrialCode == 19) {
+			三相电路功率的测量实验内容^ f_ = (三相电路功率的测量实验内容^)f;
+			while (S) {
+				ST_三相电路功率的测量 s = ((三相电路功率的测量实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_三相电路功率的测量)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 20) {
+			负阻抗变换器实验内容^ f_ = (负阻抗变换器实验内容^)f;
+			while (S) {
+				ST_负阻抗变换器 s = ((负阻抗变换器实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_负阻抗变换器)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 21) {
+			RC网络的频率特性实验内容^ f_ = (RC网络的频率特性实验内容^)f;
+			while (S) {
+				ST_RC网络的频率特性 s = ((RC网络的频率特性实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_RC网络的频率特性)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 22) {
+			仪表量程的扩展实验内容^ f_ = (仪表量程的扩展实验内容^)f;
+			while (S) {
+				ST_仪表量程的扩展 s = ((仪表量程的扩展实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_仪表量程的扩展)));
+				Sleep(3000);
+			}
+		}
 	}
 	catch (System::Exception ^e) {
 		Console::Write(e->Message);
@@ -339,6 +391,22 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "回转器实验内容") {
 					TrialCode = 18;
+					return f_c;
+				}
+				else if (f_c->Name == "三相电路功率的测量实验内容") {
+					TrialCode = 19;
+					return f_c;
+				}
+				else if (f_c->Name == "负阻抗变换器实验内容") {
+					TrialCode = 20;
+					return f_c;
+				}
+				else if (f_c->Name == "RC网络的频率特性实验内容") {
+					TrialCode = 21;
+					return f_c;
+				}
+				else if (f_c->Name == "仪表量程的扩展实验内容") {
+					TrialCode = 22;
 					return f_c;
 				}
 			}

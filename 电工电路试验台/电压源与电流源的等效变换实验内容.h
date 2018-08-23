@@ -18,6 +18,9 @@ namespace 电工电路试验台 {
 		电压源与电流源的等效变换实验内容(void)
 		{
 			InitializeComponent();
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->Font = gcnew System::Drawing::Font("宋体", LAYSIZE, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((byte)(134)));
+
 			//
 			//TODO:  在此处添加构造函数代码
 			//
