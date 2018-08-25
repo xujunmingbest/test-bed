@@ -67,7 +67,7 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label3->Location = System::Drawing::Point(12, 227);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(479, 37);
+			this->label3->Size = System::Drawing::Size(533, 37);
 			this->label3->TabIndex = 11;
 			this->label3->Text = L"三相交流电路电压电流的测量 实验目的";
 			// 
@@ -76,7 +76,7 @@ namespace 电工电路试验台 {
 			this->label1->BackColor = System::Drawing::Color::Transparent;
 			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label1->Location = System::Drawing::Point(12, 382);
+			this->label1->Location = System::Drawing::Point(12, 418);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(1001, 37);
 			this->label1->TabIndex = 10;
@@ -89,7 +89,7 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label2->Location = System::Drawing::Point(12, 333);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(1001, 37);
+			this->label2->Size = System::Drawing::Size(1001, 62);
 			this->label2->TabIndex = 9;
 			this->label2->Text = L"    1．掌握三相负载作星形联接、三角形联接的方法，验证这两种接法下线、相电压，线、相电流之间的关系。";
 			// 

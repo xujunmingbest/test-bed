@@ -521,6 +521,21 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void open仪表量程的扩展实验原理();
 		 void open仪表量程的扩展实验器件();
 		 void open仪表量程的扩展实验内容();
+
+		 void open基本电工仪表的使用与测量误差的计算实验目的();
+		 void open基本电工仪表的使用与测量误差的计算实验原理();
+		 void open基本电工仪表的使用与测量误差的计算实验器件();
+		 void open基本电工仪表的使用与测量误差的计算实验内容();
+
+		 void open功率因数及相序的测量实验目的();
+		 void open功率因数及相序的测量实验原理();
+		 void open功率因数及相序的测量实验器件();
+		 void open功率因数及相序的测量实验内容();
+
+		 void open互感器实验目的();
+		 void open互感器实验原理();
+		 void open互感器实验器件();
+		 void open互感器实验内容();
 		 /*******实验具体按钮点击******/
 		 void 实验目的click(int index);
 		 void 实验原理click(int index);

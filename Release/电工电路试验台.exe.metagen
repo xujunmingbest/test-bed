@@ -36,6 +36,10 @@
   电工电路试验台.二阶动态电路响应的研究实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二阶动态电路响应的研究实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.二阶动态电路响应的研究实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.互感器实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.互感器实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.互感器实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.互感器实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.仪表量程的扩展实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.仪表量程的扩展实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.仪表量程的扩展实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -45,6 +49,10 @@
   电工电路试验台.元件伏安特性的测试实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验报告.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.功率因数及相序的测量实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.功率因数及相序的测量实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.功率因数及相序的测量实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.功率因数及相序的测量实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.单相电度表实验实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.单相电度表实验实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.单相电度表实验实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -65,6 +73,10 @@
   电工电路试验台.基尔霍夫定律实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.基尔霍夫定律实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.基尔霍夫定律实验设备.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基本电工仪表的使用与测量误差的计算实验内容.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基本电工仪表的使用与测量误差的计算实验原理.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基本电工仪表的使用与测量误差的计算实验器件.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.基本电工仪表的使用与测量误差的计算实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.戴维南定理实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.戴维南定理实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.戴维南定理实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -800,6 +812,48 @@ Class 电工电路试验台.仪表量程的扩展实验内容: AutoLayout, AnsiC
     Load_Grade_data(ST_仪表量程的扩展*): PrivateScope, Public, HideBySig
     SendData(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.仪表量程的扩展实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.互感器实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.互感器实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.互感器实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.互感器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.基本电工仪表的使用与测量误差的计算实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.基本电工仪表的使用与测量误差的计算实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.基本电工仪表的使用与测量误差的计算实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_基本电工仪表的使用与测量误差的计算*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
+Class 电工电路试验台.基本电工仪表的使用与测量误差的计算实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.功率因数及相序的测量实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.功率因数及相序的测量实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.功率因数及相序的测量实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SendData(): PrivateScope, Public, HideBySig
+    Load_Grade_data(ST_功率因数及相序的测量*): PrivateScope, Public, HideBySig
+Class 电工电路试验台.功率因数及相序的测量实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

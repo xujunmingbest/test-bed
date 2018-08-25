@@ -295,6 +295,18 @@
     <ClInclude Include="二阶动态电路响应的研究实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="互感器实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="互感器实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="互感器实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="互感器实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="仪表量程的扩展实验内容.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -321,6 +333,18 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="元件伏安特性的测试实验目的.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="单相电度表实验实验内容.h">
@@ -381,6 +405,18 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="基尔霍夫定律实验设备.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验内容.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验原理.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验器件.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="实验汇总头文件.h" />
@@ -572,6 +608,18 @@
     <EmbeddedResource Include="二阶动态电路响应的研究实验目的.resx">
       <DependentUpon>二阶动态电路响应的研究实验目的.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验内容.resx">
+      <DependentUpon>互感器实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验原理.resx">
+      <DependentUpon>互感器实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验器件.resx">
+      <DependentUpon>互感器实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验目的.resx">
+      <DependentUpon>互感器实验目的.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="仪表量程的扩展实验内容.resx">
       <DependentUpon>仪表量程的扩展实验内容.h</DependentUpon>
     </EmbeddedResource>
@@ -598,6 +646,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="元件伏安特性的测试实验目的.resx">
       <DependentUpon>元件伏安特性的测试实验目的.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功率因数及相序的测量实验内容.resx">
+      <DependentUpon>功率因数及相序的测量实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功率因数及相序的测量实验原理.resx">
+      <DependentUpon>功率因数及相序的测量实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功率因数及相序的测量实验器件.resx">
+      <DependentUpon>功率因数及相序的测量实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="功率因数及相序的测量实验目的.resx">
+      <DependentUpon>功率因数及相序的测量实验目的.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="单相电度表实验实验内容.resx">
       <DependentUpon>单相电度表实验实验内容.h</DependentUpon>
@@ -658,6 +718,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="基尔霍夫定律实验设备.resx">
       <DependentUpon>基尔霍夫定律实验设备.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验内容.resx">
+      <DependentUpon>基本电工仪表的使用与测量误差的计算实验内容.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验原理.resx">
+      <DependentUpon>基本电工仪表的使用与测量误差的计算实验原理.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验器件.resx">
+      <DependentUpon>基本电工仪表的使用与测量误差的计算实验器件.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验目的.resx">
+      <DependentUpon>基本电工仪表的使用与测量误差的计算实验目的.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="戴维南定理实验内容.resx">
       <DependentUpon>戴维南定理实验内容.h</DependentUpon>
@@ -771,13 +843,16 @@
     <ClCompile Include="主窗体.cpp" />
     <ClCompile Include="二端口网络的研究.cpp" />
     <ClCompile Include="二阶动态电路响应的研究.cpp" />
+    <ClCompile Include="互感器.cpp" />
     <ClCompile Include="仪表量程的扩展.cpp" />
     <ClCompile Include="元件伏安特性的测试.cpp" />
+    <ClCompile Include="功率因数及相序的测量.cpp" />
     <ClCompile Include="单相电度表实验.cpp" />
     <ClCompile Include="单相铁心变压器特性的测试.cpp" />
     <ClCompile Include="叠加原理.cpp" />
     <ClCompile Include="回转器.cpp" />
     <ClCompile Include="基尔霍夫定律.cpp" />
+    <ClCompile Include="基本电工仪表的使用与测量误差的计算.cpp" />
     <ClCompile Include="戴维南定理.cpp" />
     <ClCompile Include="日光灯功率因数的提高.cpp" />
     <ClCompile Include="最大功率传输条件的测定.cpp" />

@@ -112,6 +112,15 @@
     <Filter Include="仪表量程的扩展">
       <UniqueIdentifier>{6b3be649-03b0-4156-924c-6544f6bdc903}</UniqueIdentifier>
     </Filter>
+    <Filter Include="互感器">
+      <UniqueIdentifier>{02a1adbb-9e8b-4d01-8e8f-c0d9f62a395f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基本电工仪表的使用与测量误差的计算">
+      <UniqueIdentifier>{ddd11365-f0c4-47f3-b093-32cdc428fdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功率因数及相序的测量">
+      <UniqueIdentifier>{f30da7aa-f748-4e70-8bd9-1df04d1e2b5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="主窗体.h">
@@ -510,6 +519,42 @@
     <ClInclude Include="仪表量程的扩展实验内容.h">
       <Filter>仪表量程的扩展</Filter>
     </ClInclude>
+    <ClInclude Include="互感器实验原理.h">
+      <Filter>互感器</Filter>
+    </ClInclude>
+    <ClInclude Include="互感器实验目的.h">
+      <Filter>互感器</Filter>
+    </ClInclude>
+    <ClInclude Include="互感器实验器件.h">
+      <Filter>互感器</Filter>
+    </ClInclude>
+    <ClInclude Include="互感器实验内容.h">
+      <Filter>互感器</Filter>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验目的.h">
+      <Filter>基本电工仪表的使用与测量误差的计算</Filter>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验原理.h">
+      <Filter>基本电工仪表的使用与测量误差的计算</Filter>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验器件.h">
+      <Filter>基本电工仪表的使用与测量误差的计算</Filter>
+    </ClInclude>
+    <ClInclude Include="基本电工仪表的使用与测量误差的计算实验内容.h">
+      <Filter>基本电工仪表的使用与测量误差的计算</Filter>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验目的.h">
+      <Filter>功率因数及相序的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验原理.h">
+      <Filter>功率因数及相序的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验器件.h">
+      <Filter>功率因数及相序的测量</Filter>
+    </ClInclude>
+    <ClInclude Include="功率因数及相序的测量实验内容.h">
+      <Filter>功率因数及相序的测量</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -652,6 +697,15 @@
     </ClCompile>
     <ClCompile Include="仪表量程的扩展.cpp">
       <Filter>仪表量程的扩展</Filter>
+    </ClCompile>
+    <ClCompile Include="互感器.cpp">
+      <Filter>互感器</Filter>
+    </ClCompile>
+    <ClCompile Include="基本电工仪表的使用与测量误差的计算.cpp">
+      <Filter>基本电工仪表的使用与测量误差的计算</Filter>
+    </ClCompile>
+    <ClCompile Include="功率因数及相序的测量.cpp">
+      <Filter>功率因数及相序的测量</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -914,6 +968,42 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="RC网络的频率特性实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="仪表量程的扩展实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="仪表量程的扩展实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="仪表量程的扩展实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="仪表量程的扩展实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="互感器实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验内容.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验原理.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验器件.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="基本电工仪表的使用与测量误差的计算实验目的.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
   </ItemGroup>

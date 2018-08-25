@@ -1748,5 +1748,62 @@ struct ST_仪表量程的扩展 {
 	int score3;
 };
 
+struct ST_基本电工仪表的使用与测量误差的计算{
+	TrialInfo ti;
+	char Trial1_IA_5mA[10];
+	char Trial1_IA_5V[10];
+	char Trial1_IA1_5mA[10];
+	char Trial1_IA1_5V[10];
+	char Trial1_RB_5mA[10];
+	char Trial1_RB_5V[10];
+	char Trial1_R1_5mA[10];
+	char Trial1_R1_5V[10];
+	char Trial1_RA_5mA[10];
+	char Trial1_RA_5V[10];
+};
+
+struct ST_功率因数及相序的测量 {
+	TrialInfo ti;
+	char Trial2_U_1[10];
+	char Trial2_U_2[10];
+	char Trial2_U_3[10];
+	char Trial2_U_4[10];
+
+	char Trial2_UR_1[10];
+	char Trial2_UR_2[10];
+	char Trial2_UR_3[10];
+	char Trial2_UR_4[10];
+
+	char Trial2_UL_1[10];
+	char Trial2_UL_2[10];
+	char Trial2_UL_3[10];
+	char Trial2_UL_4[10];
+
+	char Trial2_UC_1[10];
+	char Trial2_UC_2[10];
+	char Trial2_UC_3[10];
+	char Trial2_UC_4[10];
+
+	char Trial2_I_1[10];
+	char Trial2_I_2[10];
+	char Trial2_I_3[10];
+	char Trial2_I_4[10];
+
+
+	char Trial2_P_1[10];
+	char Trial2_P_2[10];
+	char Trial2_P_3[10];
+	char Trial2_P_4[10];
+
+	char Trial2_φ_1[10];
+	char Trial2_φ_2[10];
+	char Trial2_φ_3[10];
+	char Trial2_φ_4[10];
+
+	char Trial2_Load_1[10];
+	char Trial2_Load_2[10];
+	char Trial2_Load_3[10];
+	char Trial2_Load_4[10];
+};
 #pragma pack(pop)
 

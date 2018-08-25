@@ -308,6 +308,32 @@ void monitorTrialssc::_SendTrial() {
 				Sleep(3000);
 			}
 		}
+		else if (TrialCode == 24) {
+			基本电工仪表的使用与测量误差的计算实验内容^ f_ = (基本电工仪表的使用与测量误差的计算实验内容^)f;
+			while (S) {
+				ST_基本电工仪表的使用与测量误差的计算 s = ((基本电工仪表的使用与测量误差的计算实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_基本电工仪表的使用与测量误差的计算)));
+				Sleep(3000);
+			}
+		}
+		else if (TrialCode == 25) {
+			功率因数及相序的测量实验内容^ f_ = (功率因数及相序的测量实验内容^)f;
+			while (S) {
+				ST_功率因数及相序的测量 s = ((功率因数及相序的测量实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_功率因数及相序的测量)));
+				Sleep(3000);
+			}
+		}
 	}
 	catch (System::Exception ^e) {
 		Console::Write(e->Message);
@@ -407,6 +433,14 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "仪表量程的扩展实验内容") {
 					TrialCode = 22;
+					return f_c;
+				}
+				else if (f_c->Name == "基本电工仪表的使用与测量误差的计算实验内容") {
+					TrialCode = 24;
+					return f_c;
+				}
+				else if (f_c->Name == "功率因数及相序的测量实验内容") {
+					TrialCode = 25;
 					return f_c;
 				}
 			}

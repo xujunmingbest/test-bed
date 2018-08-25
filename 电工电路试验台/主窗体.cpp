@@ -71,6 +71,9 @@ void 主窗体::SelectWindows(int index) {
 	case 20: open负阻抗变换器实验目的(); break;
 	case 21: openRC网络的频率特性实验目的(); break;
 	case 22: open仪表量程的扩展实验目的(); break;
+	case 23: open互感器实验目的(); break;
+	case 24: open基本电工仪表的使用与测量误差的计算实验目的(); break;
+	case 25: open功率因数及相序的测量实验目的(); break;
 	}
 }
 
@@ -129,6 +132,9 @@ void  主窗体::实验目的click(int index) {
 	case 20: open负阻抗变换器实验目的(); break;
 	case 21: openRC网络的频率特性实验目的(); break;
 	case 22: open仪表量程的扩展实验目的(); break;
+	case 23: open互感器实验目的(); break;
+	case 24: open基本电工仪表的使用与测量误差的计算实验目的(); break;
+	case 25: open功率因数及相序的测量实验目的(); break;
 	}
 
 }
@@ -157,6 +163,9 @@ void  主窗体::实验原理click(int index) {
 	case 20: open负阻抗变换器实验原理(); break;
 	case 21: openRC网络的频率特性实验原理(); break;
 	case 22: open仪表量程的扩展实验原理(); break;
+	case 23: open互感器实验原理(); break;
+	case 24: open基本电工仪表的使用与测量误差的计算实验原理(); break;
+	case 25: open功率因数及相序的测量实验原理(); break;
 	}
 }
 
@@ -184,6 +193,9 @@ void  主窗体::实验器件click(int index) {
 	case 20: open负阻抗变换器实验器件(); break;
 	case 21: openRC网络的频率特性实验器件(); break;
 	case 22: open仪表量程的扩展实验器件(); break;
+	case 23: open互感器实验器件(); break;
+	case 24: open基本电工仪表的使用与测量误差的计算实验器件(); break;
+	case 25: open功率因数及相序的测量实验器件(); break;
 	}
 }
 
@@ -212,6 +224,9 @@ void  主窗体::实验内容click(int index) {
 	case 20: open负阻抗变换器实验内容(); break;
 	case 21: openRC网络的频率特性实验内容(); break;
 	case 22: open仪表量程的扩展实验内容(); break;
+	case 23: open互感器实验内容(); break;
+	case 24: open基本电工仪表的使用与测量误差的计算实验内容(); break;
+	case 25: open功率因数及相序的测量实验内容(); break;
 	}
 
 }

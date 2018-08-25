@@ -1320,3 +1320,176 @@ void 主窗体::open仪表量程的扩展实验内容() {
 	}
 }
 
+
+void 主窗体::open基本电工仪表的使用与测量误差的计算实验目的() {
+	bool f = GetWindowsChild("基本电工仪表的使用与测量误差的计算实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		基本电工仪表的使用与测量误差的计算实验目的^ f = gcnew 基本电工仪表的使用与测量误差的计算实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "基本电工仪表的使用与测量误差的计算实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open基本电工仪表的使用与测量误差的计算实验原理() {
+	bool f = GetWindowsChild("基本电工仪表的使用与测量误差的计算实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		基本电工仪表的使用与测量误差的计算实验原理^ f = gcnew 基本电工仪表的使用与测量误差的计算实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "基本电工仪表的使用与测量误差的计算实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open基本电工仪表的使用与测量误差的计算实验器件() {
+	bool f = GetWindowsChild("基本电工仪表的使用与测量误差的计算实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		基本电工仪表的使用与测量误差的计算实验器件^ f = gcnew 基本电工仪表的使用与测量误差的计算实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "基本电工仪表的使用与测量误差的计算实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open基本电工仪表的使用与测量误差的计算实验内容() {
+	bool f = GetWindowsChild("基本电工仪表的使用与测量误差的计算实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		基本电工仪表的使用与测量误差的计算实验内容^ f = gcnew 基本电工仪表的使用与测量误差的计算实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "基本电工仪表的使用与测量误差的计算实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+void 主窗体::open功率因数及相序的测量实验目的() {
+	bool f = GetWindowsChild("功率因数及相序的测量实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		功率因数及相序的测量实验目的^ f = gcnew 功率因数及相序的测量实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "功率因数及相序的测量实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open功率因数及相序的测量实验原理() {
+	bool f = GetWindowsChild("功率因数及相序的测量实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		功率因数及相序的测量实验原理^ f = gcnew 功率因数及相序的测量实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "功率因数及相序的测量实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open功率因数及相序的测量实验器件() {
+	bool f = GetWindowsChild("功率因数及相序的测量实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		功率因数及相序的测量实验器件^ f = gcnew 功率因数及相序的测量实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "功率因数及相序的测量实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open功率因数及相序的测量实验内容() {
+	bool f = GetWindowsChild("功率因数及相序的测量实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		功率因数及相序的测量实验内容^ f = gcnew 功率因数及相序的测量实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "功率因数及相序的测量实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+
+
+
+void 主窗体::open互感器实验目的() {
+	bool f = GetWindowsChild("互感器实验目的");
+	show实验目的F();
+	if (!f) {
+		CloseAllMidchild();
+		互感器实验目的^ f = gcnew 互感器实验目的;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "互感器实验目的";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open互感器实验原理() {
+	bool f = GetWindowsChild("互感器实验原理");
+	show实验原理F();
+	if (!f) {
+		CloseAllMidchild();
+		互感器实验原理^ f = gcnew 互感器实验原理;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "互感器实验原理";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+
+}
+void 主窗体::open互感器实验器件() {
+	bool f = GetWindowsChild("互感器实验器件");
+	show实验器件F();
+	if (!f) {
+		CloseAllMidchild();
+		互感器实验器件^ f = gcnew 互感器实验器件;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "互感器实验器件";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
+
+void 主窗体::open互感器实验内容() {
+	bool f = GetWindowsChild("互感器实验内容");
+	show实验内容F();
+	if (!f) {
+		CloseAllMidchild();
+		互感器实验内容^ f = gcnew 互感器实验内容;
+		f->MdiParent = this;
+		f->Parent = this->panel4;
+		f->Name = "互感器实验内容";
+		f->WindowState = FormWindowState::Maximized;
+		f->Show();
+	}
+}
