@@ -415,6 +415,36 @@ private: System::Windows::Forms::Button^  button80;
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->button21 = (gcnew System::Windows::Forms::Button());
+			this->button22 = (gcnew System::Windows::Forms::Button());
+			this->button23 = (gcnew System::Windows::Forms::Button());
+			this->button24 = (gcnew System::Windows::Forms::Button());
+			this->button25 = (gcnew System::Windows::Forms::Button());
+			this->button26 = (gcnew System::Windows::Forms::Button());
+			this->button27 = (gcnew System::Windows::Forms::Button());
+			this->button28 = (gcnew System::Windows::Forms::Button());
+			this->button29 = (gcnew System::Windows::Forms::Button());
+			this->button30 = (gcnew System::Windows::Forms::Button());
+			this->button11 = (gcnew System::Windows::Forms::Button());
+			this->button12 = (gcnew System::Windows::Forms::Button());
+			this->button13 = (gcnew System::Windows::Forms::Button());
+			this->button14 = (gcnew System::Windows::Forms::Button());
+			this->button15 = (gcnew System::Windows::Forms::Button());
+			this->button16 = (gcnew System::Windows::Forms::Button());
+			this->button17 = (gcnew System::Windows::Forms::Button());
+			this->button18 = (gcnew System::Windows::Forms::Button());
+			this->button19 = (gcnew System::Windows::Forms::Button());
+			this->button20 = (gcnew System::Windows::Forms::Button());
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->button2 = (gcnew System::Windows::Forms::Button());
+			this->button3 = (gcnew System::Windows::Forms::Button());
+			this->button4 = (gcnew System::Windows::Forms::Button());
+			this->button5 = (gcnew System::Windows::Forms::Button());
+			this->button6 = (gcnew System::Windows::Forms::Button());
+			this->button7 = (gcnew System::Windows::Forms::Button());
+			this->button8 = (gcnew System::Windows::Forms::Button());
+			this->button9 = (gcnew System::Windows::Forms::Button());
+			this->button10 = (gcnew System::Windows::Forms::Button());
 			this->labelLine4UBC = (gcnew System::Windows::Forms::Label());
 			this->labelLine4UAB = (gcnew System::Windows::Forms::Label());
 			this->labelLine4UFA = (gcnew System::Windows::Forms::Label());
@@ -481,6 +511,46 @@ private: System::Windows::Forms::Button^  button80;
 			this->labelLine1UCD = (gcnew System::Windows::Forms::Label());
 			this->label42 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->button31 = (gcnew System::Windows::Forms::Button());
+			this->button42 = (gcnew System::Windows::Forms::Button());
+			this->button43 = (gcnew System::Windows::Forms::Button());
+			this->button44 = (gcnew System::Windows::Forms::Button());
+			this->button45 = (gcnew System::Windows::Forms::Button());
+			this->button46 = (gcnew System::Windows::Forms::Button());
+			this->button47 = (gcnew System::Windows::Forms::Button());
+			this->button48 = (gcnew System::Windows::Forms::Button());
+			this->button49 = (gcnew System::Windows::Forms::Button());
+			this->button50 = (gcnew System::Windows::Forms::Button());
+			this->button51 = (gcnew System::Windows::Forms::Button());
+			this->button52 = (gcnew System::Windows::Forms::Button());
+			this->button53 = (gcnew System::Windows::Forms::Button());
+			this->button54 = (gcnew System::Windows::Forms::Button());
+			this->button55 = (gcnew System::Windows::Forms::Button());
+			this->button56 = (gcnew System::Windows::Forms::Button());
+			this->button57 = (gcnew System::Windows::Forms::Button());
+			this->button58 = (gcnew System::Windows::Forms::Button());
+			this->button59 = (gcnew System::Windows::Forms::Button());
+			this->button60 = (gcnew System::Windows::Forms::Button());
+			this->button61 = (gcnew System::Windows::Forms::Button());
+			this->button62 = (gcnew System::Windows::Forms::Button());
+			this->button63 = (gcnew System::Windows::Forms::Button());
+			this->button64 = (gcnew System::Windows::Forms::Button());
+			this->button65 = (gcnew System::Windows::Forms::Button());
+			this->button66 = (gcnew System::Windows::Forms::Button());
+			this->button67 = (gcnew System::Windows::Forms::Button());
+			this->button68 = (gcnew System::Windows::Forms::Button());
+			this->button69 = (gcnew System::Windows::Forms::Button());
+			this->button70 = (gcnew System::Windows::Forms::Button());
+			this->button71 = (gcnew System::Windows::Forms::Button());
+			this->button72 = (gcnew System::Windows::Forms::Button());
+			this->button73 = (gcnew System::Windows::Forms::Button());
+			this->button74 = (gcnew System::Windows::Forms::Button());
+			this->button75 = (gcnew System::Windows::Forms::Button());
+			this->button76 = (gcnew System::Windows::Forms::Button());
+			this->button77 = (gcnew System::Windows::Forms::Button());
+			this->button78 = (gcnew System::Windows::Forms::Button());
+			this->button79 = (gcnew System::Windows::Forms::Button());
+			this->button80 = (gcnew System::Windows::Forms::Button());
 			this->labelLine8UBC = (gcnew System::Windows::Forms::Label());
 			this->labelLine8UAB = (gcnew System::Windows::Forms::Label());
 			this->labelLine8UFA = (gcnew System::Windows::Forms::Label());
@@ -542,76 +612,6 @@ private: System::Windows::Forms::Button^  button80;
 			this->label105 = (gcnew System::Windows::Forms::Label());
 			this->label106 = (gcnew System::Windows::Forms::Label());
 			this->button81 = (gcnew System::Windows::Forms::Button());
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->button4 = (gcnew System::Windows::Forms::Button());
-			this->button5 = (gcnew System::Windows::Forms::Button());
-			this->button6 = (gcnew System::Windows::Forms::Button());
-			this->button7 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
-			this->button9 = (gcnew System::Windows::Forms::Button());
-			this->button10 = (gcnew System::Windows::Forms::Button());
-			this->button11 = (gcnew System::Windows::Forms::Button());
-			this->button12 = (gcnew System::Windows::Forms::Button());
-			this->button13 = (gcnew System::Windows::Forms::Button());
-			this->button14 = (gcnew System::Windows::Forms::Button());
-			this->button15 = (gcnew System::Windows::Forms::Button());
-			this->button16 = (gcnew System::Windows::Forms::Button());
-			this->button17 = (gcnew System::Windows::Forms::Button());
-			this->button18 = (gcnew System::Windows::Forms::Button());
-			this->button19 = (gcnew System::Windows::Forms::Button());
-			this->button20 = (gcnew System::Windows::Forms::Button());
-			this->button21 = (gcnew System::Windows::Forms::Button());
-			this->button22 = (gcnew System::Windows::Forms::Button());
-			this->button23 = (gcnew System::Windows::Forms::Button());
-			this->button24 = (gcnew System::Windows::Forms::Button());
-			this->button25 = (gcnew System::Windows::Forms::Button());
-			this->button26 = (gcnew System::Windows::Forms::Button());
-			this->button27 = (gcnew System::Windows::Forms::Button());
-			this->button28 = (gcnew System::Windows::Forms::Button());
-			this->button29 = (gcnew System::Windows::Forms::Button());
-			this->button30 = (gcnew System::Windows::Forms::Button());
-			this->button71 = (gcnew System::Windows::Forms::Button());
-			this->button72 = (gcnew System::Windows::Forms::Button());
-			this->button73 = (gcnew System::Windows::Forms::Button());
-			this->button74 = (gcnew System::Windows::Forms::Button());
-			this->button75 = (gcnew System::Windows::Forms::Button());
-			this->button76 = (gcnew System::Windows::Forms::Button());
-			this->button77 = (gcnew System::Windows::Forms::Button());
-			this->button78 = (gcnew System::Windows::Forms::Button());
-			this->button79 = (gcnew System::Windows::Forms::Button());
-			this->button80 = (gcnew System::Windows::Forms::Button());
-			this->button61 = (gcnew System::Windows::Forms::Button());
-			this->button62 = (gcnew System::Windows::Forms::Button());
-			this->button63 = (gcnew System::Windows::Forms::Button());
-			this->button64 = (gcnew System::Windows::Forms::Button());
-			this->button65 = (gcnew System::Windows::Forms::Button());
-			this->button66 = (gcnew System::Windows::Forms::Button());
-			this->button67 = (gcnew System::Windows::Forms::Button());
-			this->button68 = (gcnew System::Windows::Forms::Button());
-			this->button69 = (gcnew System::Windows::Forms::Button());
-			this->button70 = (gcnew System::Windows::Forms::Button());
-			this->button51 = (gcnew System::Windows::Forms::Button());
-			this->button52 = (gcnew System::Windows::Forms::Button());
-			this->button53 = (gcnew System::Windows::Forms::Button());
-			this->button54 = (gcnew System::Windows::Forms::Button());
-			this->button55 = (gcnew System::Windows::Forms::Button());
-			this->button56 = (gcnew System::Windows::Forms::Button());
-			this->button57 = (gcnew System::Windows::Forms::Button());
-			this->button58 = (gcnew System::Windows::Forms::Button());
-			this->button59 = (gcnew System::Windows::Forms::Button());
-			this->button60 = (gcnew System::Windows::Forms::Button());
-			this->button31 = (gcnew System::Windows::Forms::Button());
-			this->button42 = (gcnew System::Windows::Forms::Button());
-			this->button43 = (gcnew System::Windows::Forms::Button());
-			this->button44 = (gcnew System::Windows::Forms::Button());
-			this->button45 = (gcnew System::Windows::Forms::Button());
-			this->button46 = (gcnew System::Windows::Forms::Button());
-			this->button47 = (gcnew System::Windows::Forms::Button());
-			this->button48 = (gcnew System::Windows::Forms::Button());
-			this->button49 = (gcnew System::Windows::Forms::Button());
-			this->button50 = (gcnew System::Windows::Forms::Button());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox2->SuspendLayout();
@@ -783,6 +783,306 @@ private: System::Windows::Forms::Button^  button80;
 			this->groupBox2->TabIndex = 87;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验内容一";
+			// 
+			// button21
+			// 
+			this->button21->Location = System::Drawing::Point(1107, 462);
+			this->button21->Name = L"button21";
+			this->button21->Size = System::Drawing::Size(93, 43);
+			this->button21->TabIndex = 202;
+			this->button21->Text = L"获取";
+			this->button21->UseVisualStyleBackColor = true;
+			this->button21->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button21_Click);
+			// 
+			// button22
+			// 
+			this->button22->Location = System::Drawing::Point(1005, 462);
+			this->button22->Name = L"button22";
+			this->button22->Size = System::Drawing::Size(93, 43);
+			this->button22->TabIndex = 201;
+			this->button22->Text = L"获取";
+			this->button22->UseVisualStyleBackColor = true;
+			this->button22->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button22_Click);
+			// 
+			// button23
+			// 
+			this->button23->Location = System::Drawing::Point(901, 462);
+			this->button23->Name = L"button23";
+			this->button23->Size = System::Drawing::Size(93, 43);
+			this->button23->TabIndex = 200;
+			this->button23->Text = L"获取";
+			this->button23->UseVisualStyleBackColor = true;
+			this->button23->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button23_Click);
+			// 
+			// button24
+			// 
+			this->button24->Location = System::Drawing::Point(799, 462);
+			this->button24->Name = L"button24";
+			this->button24->Size = System::Drawing::Size(93, 43);
+			this->button24->TabIndex = 199;
+			this->button24->Text = L"获取";
+			this->button24->UseVisualStyleBackColor = true;
+			this->button24->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button24_Click);
+			// 
+			// button25
+			// 
+			this->button25->Location = System::Drawing::Point(697, 462);
+			this->button25->Name = L"button25";
+			this->button25->Size = System::Drawing::Size(93, 43);
+			this->button25->TabIndex = 198;
+			this->button25->Text = L"获取";
+			this->button25->UseVisualStyleBackColor = true;
+			this->button25->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button25_Click);
+			// 
+			// button26
+			// 
+			this->button26->Location = System::Drawing::Point(598, 462);
+			this->button26->Name = L"button26";
+			this->button26->Size = System::Drawing::Size(93, 43);
+			this->button26->TabIndex = 197;
+			this->button26->Text = L"获取";
+			this->button26->UseVisualStyleBackColor = true;
+			this->button26->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button26_Click);
+			// 
+			// button27
+			// 
+			this->button27->Location = System::Drawing::Point(503, 462);
+			this->button27->Name = L"button27";
+			this->button27->Size = System::Drawing::Size(93, 43);
+			this->button27->TabIndex = 196;
+			this->button27->Text = L"获取";
+			this->button27->UseVisualStyleBackColor = true;
+			this->button27->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button27_Click);
+			// 
+			// button28
+			// 
+			this->button28->Location = System::Drawing::Point(401, 462);
+			this->button28->Name = L"button28";
+			this->button28->Size = System::Drawing::Size(93, 43);
+			this->button28->TabIndex = 195;
+			this->button28->Text = L"获取";
+			this->button28->UseVisualStyleBackColor = true;
+			this->button28->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button28_Click);
+			// 
+			// button29
+			// 
+			this->button29->Location = System::Drawing::Point(302, 462);
+			this->button29->Name = L"button29";
+			this->button29->Size = System::Drawing::Size(93, 43);
+			this->button29->TabIndex = 194;
+			this->button29->Text = L"获取";
+			this->button29->UseVisualStyleBackColor = true;
+			this->button29->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button29_Click);
+			// 
+			// button30
+			// 
+			this->button30->Location = System::Drawing::Point(198, 462);
+			this->button30->Name = L"button30";
+			this->button30->Size = System::Drawing::Size(93, 43);
+			this->button30->TabIndex = 193;
+			this->button30->Text = L"获取";
+			this->button30->UseVisualStyleBackColor = true;
+			this->button30->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button30_Click);
+			// 
+			// button11
+			// 
+			this->button11->Location = System::Drawing::Point(1107, 344);
+			this->button11->Name = L"button11";
+			this->button11->Size = System::Drawing::Size(93, 43);
+			this->button11->TabIndex = 192;
+			this->button11->Text = L"获取";
+			this->button11->UseVisualStyleBackColor = true;
+			this->button11->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button11_Click);
+			// 
+			// button12
+			// 
+			this->button12->Location = System::Drawing::Point(1005, 344);
+			this->button12->Name = L"button12";
+			this->button12->Size = System::Drawing::Size(93, 43);
+			this->button12->TabIndex = 191;
+			this->button12->Text = L"获取";
+			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button12_Click);
+			// 
+			// button13
+			// 
+			this->button13->Location = System::Drawing::Point(901, 344);
+			this->button13->Name = L"button13";
+			this->button13->Size = System::Drawing::Size(93, 43);
+			this->button13->TabIndex = 190;
+			this->button13->Text = L"获取";
+			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button13_Click);
+			// 
+			// button14
+			// 
+			this->button14->Location = System::Drawing::Point(799, 344);
+			this->button14->Name = L"button14";
+			this->button14->Size = System::Drawing::Size(93, 43);
+			this->button14->TabIndex = 189;
+			this->button14->Text = L"获取";
+			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button14_Click);
+			// 
+			// button15
+			// 
+			this->button15->Location = System::Drawing::Point(697, 344);
+			this->button15->Name = L"button15";
+			this->button15->Size = System::Drawing::Size(93, 43);
+			this->button15->TabIndex = 188;
+			this->button15->Text = L"获取";
+			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button15_Click);
+			// 
+			// button16
+			// 
+			this->button16->Location = System::Drawing::Point(598, 344);
+			this->button16->Name = L"button16";
+			this->button16->Size = System::Drawing::Size(93, 43);
+			this->button16->TabIndex = 187;
+			this->button16->Text = L"获取";
+			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button16_Click);
+			// 
+			// button17
+			// 
+			this->button17->Location = System::Drawing::Point(503, 344);
+			this->button17->Name = L"button17";
+			this->button17->Size = System::Drawing::Size(93, 43);
+			this->button17->TabIndex = 186;
+			this->button17->Text = L"获取";
+			this->button17->UseVisualStyleBackColor = true;
+			this->button17->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button17_Click);
+			// 
+			// button18
+			// 
+			this->button18->Location = System::Drawing::Point(401, 344);
+			this->button18->Name = L"button18";
+			this->button18->Size = System::Drawing::Size(93, 43);
+			this->button18->TabIndex = 185;
+			this->button18->Text = L"获取";
+			this->button18->UseVisualStyleBackColor = true;
+			this->button18->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button18_Click);
+			// 
+			// button19
+			// 
+			this->button19->Location = System::Drawing::Point(302, 344);
+			this->button19->Name = L"button19";
+			this->button19->Size = System::Drawing::Size(93, 43);
+			this->button19->TabIndex = 184;
+			this->button19->Text = L"获取";
+			this->button19->UseVisualStyleBackColor = true;
+			this->button19->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button19_Click);
+			// 
+			// button20
+			// 
+			this->button20->Location = System::Drawing::Point(198, 344);
+			this->button20->Name = L"button20";
+			this->button20->Size = System::Drawing::Size(93, 43);
+			this->button20->TabIndex = 183;
+			this->button20->Text = L"获取";
+			this->button20->UseVisualStyleBackColor = true;
+			this->button20->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button20_Click);
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(1107, 246);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(93, 43);
+			this->button1->TabIndex = 182;
+			this->button1->Text = L"获取";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button1_Click);
+			// 
+			// button2
+			// 
+			this->button2->Location = System::Drawing::Point(1005, 246);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(93, 43);
+			this->button2->TabIndex = 181;
+			this->button2->Text = L"获取";
+			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button2_Click);
+			// 
+			// button3
+			// 
+			this->button3->Location = System::Drawing::Point(901, 246);
+			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(93, 43);
+			this->button3->TabIndex = 180;
+			this->button3->Text = L"获取";
+			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button3_Click);
+			// 
+			// button4
+			// 
+			this->button4->Location = System::Drawing::Point(799, 246);
+			this->button4->Name = L"button4";
+			this->button4->Size = System::Drawing::Size(93, 43);
+			this->button4->TabIndex = 179;
+			this->button4->Text = L"获取";
+			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button4_Click);
+			// 
+			// button5
+			// 
+			this->button5->Location = System::Drawing::Point(697, 246);
+			this->button5->Name = L"button5";
+			this->button5->Size = System::Drawing::Size(93, 43);
+			this->button5->TabIndex = 178;
+			this->button5->Text = L"获取";
+			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button5_Click);
+			// 
+			// button6
+			// 
+			this->button6->Location = System::Drawing::Point(598, 246);
+			this->button6->Name = L"button6";
+			this->button6->Size = System::Drawing::Size(93, 43);
+			this->button6->TabIndex = 177;
+			this->button6->Text = L"获取";
+			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button6_Click);
+			// 
+			// button7
+			// 
+			this->button7->Location = System::Drawing::Point(503, 246);
+			this->button7->Name = L"button7";
+			this->button7->Size = System::Drawing::Size(93, 43);
+			this->button7->TabIndex = 176;
+			this->button7->Text = L"获取";
+			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button7_Click);
+			// 
+			// button8
+			// 
+			this->button8->Location = System::Drawing::Point(401, 246);
+			this->button8->Name = L"button8";
+			this->button8->Size = System::Drawing::Size(93, 43);
+			this->button8->TabIndex = 175;
+			this->button8->Text = L"获取";
+			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button8_Click);
+			// 
+			// button9
+			// 
+			this->button9->Location = System::Drawing::Point(302, 246);
+			this->button9->Name = L"button9";
+			this->button9->Size = System::Drawing::Size(93, 43);
+			this->button9->TabIndex = 174;
+			this->button9->Text = L"获取";
+			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button9_Click);
+			// 
+			// button10
+			// 
+			this->button10->Location = System::Drawing::Point(198, 246);
+			this->button10->Name = L"button10";
+			this->button10->Size = System::Drawing::Size(93, 43);
+			this->button10->TabIndex = 173;
+			this->button10->Text = L"获取";
+			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button10_Click);
 			// 
 			// labelLine4UBC
 			// 
@@ -1262,6 +1562,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->labelLine1I1->Size = System::Drawing::Size(93, 43);
 			this->labelLine1I1->TabIndex = 69;
 			this->labelLine1I1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine1I1->Click += gcnew System::EventHandler(this, &叠加原理实验内容::labelLine1I1_Click);
 			// 
 			// button41
 			// 
@@ -1271,6 +1572,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button41->TabIndex = 58;
 			this->button41->Text = L"获取";
 			this->button41->UseVisualStyleBackColor = true;
+			this->button41->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button41_Click);
 			// 
 			// button40
 			// 
@@ -1280,6 +1582,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button40->TabIndex = 57;
 			this->button40->Text = L"获取";
 			this->button40->UseVisualStyleBackColor = true;
+			this->button40->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button40_Click);
 			// 
 			// button39
 			// 
@@ -1289,6 +1592,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button39->TabIndex = 56;
 			this->button39->Text = L"获取";
 			this->button39->UseVisualStyleBackColor = true;
+			this->button39->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button39_Click);
 			// 
 			// button38
 			// 
@@ -1298,6 +1602,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button38->TabIndex = 55;
 			this->button38->Text = L"获取";
 			this->button38->UseVisualStyleBackColor = true;
+			this->button38->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button38_Click);
 			// 
 			// button37
 			// 
@@ -1307,6 +1612,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button37->TabIndex = 54;
 			this->button37->Text = L"获取";
 			this->button37->UseVisualStyleBackColor = true;
+			this->button37->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button37_Click);
 			// 
 			// button36
 			// 
@@ -1316,6 +1622,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button36->TabIndex = 53;
 			this->button36->Text = L"获取";
 			this->button36->UseVisualStyleBackColor = true;
+			this->button36->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button36_Click);
 			// 
 			// button35
 			// 
@@ -1325,6 +1632,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button35->TabIndex = 52;
 			this->button35->Text = L"获取";
 			this->button35->UseVisualStyleBackColor = true;
+			this->button35->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button35_Click);
 			// 
 			// button34
 			// 
@@ -1334,6 +1642,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button34->TabIndex = 51;
 			this->button34->Text = L"获取";
 			this->button34->UseVisualStyleBackColor = true;
+			this->button34->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button34_Click);
 			// 
 			// button33
 			// 
@@ -1343,6 +1652,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button33->TabIndex = 50;
 			this->button33->Text = L"获取";
 			this->button33->UseVisualStyleBackColor = true;
+			this->button33->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button33_Click);
 			// 
 			// button32
 			// 
@@ -1352,6 +1662,7 @@ private: System::Windows::Forms::Button^  button80;
 			this->button32->TabIndex = 49;
 			this->button32->Text = L"获取";
 			this->button32->UseVisualStyleBackColor = true;
+			this->button32->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button32_Click);
 			// 
 			// labelLine1UDE
 			// 
@@ -1485,6 +1796,406 @@ private: System::Windows::Forms::Button^  button80;
 			this->groupBox1->TabIndex = 173;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"实验内容二";
+			// 
+			// button31
+			// 
+			this->button31->Location = System::Drawing::Point(1107, 453);
+			this->button31->Name = L"button31";
+			this->button31->Size = System::Drawing::Size(93, 43);
+			this->button31->TabIndex = 212;
+			this->button31->Text = L"获取";
+			this->button31->UseVisualStyleBackColor = true;
+			this->button31->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button31_Click);
+			// 
+			// button42
+			// 
+			this->button42->Location = System::Drawing::Point(1005, 453);
+			this->button42->Name = L"button42";
+			this->button42->Size = System::Drawing::Size(93, 43);
+			this->button42->TabIndex = 211;
+			this->button42->Text = L"获取";
+			this->button42->UseVisualStyleBackColor = true;
+			this->button42->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button42_Click);
+			// 
+			// button43
+			// 
+			this->button43->Location = System::Drawing::Point(901, 453);
+			this->button43->Name = L"button43";
+			this->button43->Size = System::Drawing::Size(93, 43);
+			this->button43->TabIndex = 210;
+			this->button43->Text = L"获取";
+			this->button43->UseVisualStyleBackColor = true;
+			this->button43->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button43_Click);
+			// 
+			// button44
+			// 
+			this->button44->Location = System::Drawing::Point(799, 453);
+			this->button44->Name = L"button44";
+			this->button44->Size = System::Drawing::Size(93, 43);
+			this->button44->TabIndex = 209;
+			this->button44->Text = L"获取";
+			this->button44->UseVisualStyleBackColor = true;
+			this->button44->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button44_Click);
+			// 
+			// button45
+			// 
+			this->button45->Location = System::Drawing::Point(697, 453);
+			this->button45->Name = L"button45";
+			this->button45->Size = System::Drawing::Size(93, 43);
+			this->button45->TabIndex = 208;
+			this->button45->Text = L"获取";
+			this->button45->UseVisualStyleBackColor = true;
+			this->button45->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button45_Click);
+			// 
+			// button46
+			// 
+			this->button46->Location = System::Drawing::Point(598, 453);
+			this->button46->Name = L"button46";
+			this->button46->Size = System::Drawing::Size(93, 43);
+			this->button46->TabIndex = 207;
+			this->button46->Text = L"获取";
+			this->button46->UseVisualStyleBackColor = true;
+			this->button46->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button46_Click);
+			// 
+			// button47
+			// 
+			this->button47->Location = System::Drawing::Point(503, 453);
+			this->button47->Name = L"button47";
+			this->button47->Size = System::Drawing::Size(93, 43);
+			this->button47->TabIndex = 206;
+			this->button47->Text = L"获取";
+			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button47_Click);
+			// 
+			// button48
+			// 
+			this->button48->Location = System::Drawing::Point(401, 453);
+			this->button48->Name = L"button48";
+			this->button48->Size = System::Drawing::Size(93, 43);
+			this->button48->TabIndex = 205;
+			this->button48->Text = L"获取";
+			this->button48->UseVisualStyleBackColor = true;
+			this->button48->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button48_Click);
+			// 
+			// button49
+			// 
+			this->button49->Location = System::Drawing::Point(302, 453);
+			this->button49->Name = L"button49";
+			this->button49->Size = System::Drawing::Size(93, 43);
+			this->button49->TabIndex = 204;
+			this->button49->Text = L"获取";
+			this->button49->UseVisualStyleBackColor = true;
+			this->button49->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button49_Click);
+			// 
+			// button50
+			// 
+			this->button50->Location = System::Drawing::Point(198, 453);
+			this->button50->Name = L"button50";
+			this->button50->Size = System::Drawing::Size(93, 43);
+			this->button50->TabIndex = 203;
+			this->button50->Text = L"获取";
+			this->button50->UseVisualStyleBackColor = true;
+			this->button50->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button50_Click);
+			// 
+			// button51
+			// 
+			this->button51->Location = System::Drawing::Point(1107, 344);
+			this->button51->Name = L"button51";
+			this->button51->Size = System::Drawing::Size(93, 43);
+			this->button51->TabIndex = 202;
+			this->button51->Text = L"获取";
+			this->button51->UseVisualStyleBackColor = true;
+			this->button51->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button51_Click);
+			// 
+			// button52
+			// 
+			this->button52->Location = System::Drawing::Point(1005, 344);
+			this->button52->Name = L"button52";
+			this->button52->Size = System::Drawing::Size(93, 43);
+			this->button52->TabIndex = 201;
+			this->button52->Text = L"获取";
+			this->button52->UseVisualStyleBackColor = true;
+			this->button52->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button52_Click);
+			// 
+			// button53
+			// 
+			this->button53->Location = System::Drawing::Point(901, 344);
+			this->button53->Name = L"button53";
+			this->button53->Size = System::Drawing::Size(93, 43);
+			this->button53->TabIndex = 200;
+			this->button53->Text = L"获取";
+			this->button53->UseVisualStyleBackColor = true;
+			this->button53->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button53_Click);
+			// 
+			// button54
+			// 
+			this->button54->Location = System::Drawing::Point(799, 344);
+			this->button54->Name = L"button54";
+			this->button54->Size = System::Drawing::Size(93, 43);
+			this->button54->TabIndex = 199;
+			this->button54->Text = L"获取";
+			this->button54->UseVisualStyleBackColor = true;
+			this->button54->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button54_Click);
+			// 
+			// button55
+			// 
+			this->button55->Location = System::Drawing::Point(697, 344);
+			this->button55->Name = L"button55";
+			this->button55->Size = System::Drawing::Size(93, 43);
+			this->button55->TabIndex = 198;
+			this->button55->Text = L"获取";
+			this->button55->UseVisualStyleBackColor = true;
+			this->button55->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button55_Click);
+			// 
+			// button56
+			// 
+			this->button56->Location = System::Drawing::Point(598, 344);
+			this->button56->Name = L"button56";
+			this->button56->Size = System::Drawing::Size(93, 43);
+			this->button56->TabIndex = 197;
+			this->button56->Text = L"获取";
+			this->button56->UseVisualStyleBackColor = true;
+			this->button56->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button56_Click);
+			// 
+			// button57
+			// 
+			this->button57->Location = System::Drawing::Point(503, 344);
+			this->button57->Name = L"button57";
+			this->button57->Size = System::Drawing::Size(93, 43);
+			this->button57->TabIndex = 196;
+			this->button57->Text = L"获取";
+			this->button57->UseVisualStyleBackColor = true;
+			this->button57->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button57_Click);
+			// 
+			// button58
+			// 
+			this->button58->Location = System::Drawing::Point(401, 344);
+			this->button58->Name = L"button58";
+			this->button58->Size = System::Drawing::Size(93, 43);
+			this->button58->TabIndex = 195;
+			this->button58->Text = L"获取";
+			this->button58->UseVisualStyleBackColor = true;
+			this->button58->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button58_Click);
+			// 
+			// button59
+			// 
+			this->button59->Location = System::Drawing::Point(302, 344);
+			this->button59->Name = L"button59";
+			this->button59->Size = System::Drawing::Size(93, 43);
+			this->button59->TabIndex = 194;
+			this->button59->Text = L"获取";
+			this->button59->UseVisualStyleBackColor = true;
+			this->button59->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button59_Click);
+			// 
+			// button60
+			// 
+			this->button60->Location = System::Drawing::Point(198, 344);
+			this->button60->Name = L"button60";
+			this->button60->Size = System::Drawing::Size(93, 43);
+			this->button60->TabIndex = 193;
+			this->button60->Text = L"获取";
+			this->button60->UseVisualStyleBackColor = true;
+			this->button60->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button60_Click);
+			// 
+			// button61
+			// 
+			this->button61->Location = System::Drawing::Point(1107, 248);
+			this->button61->Name = L"button61";
+			this->button61->Size = System::Drawing::Size(93, 43);
+			this->button61->TabIndex = 192;
+			this->button61->Text = L"获取";
+			this->button61->UseVisualStyleBackColor = true;
+			this->button61->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button61_Click);
+			// 
+			// button62
+			// 
+			this->button62->Location = System::Drawing::Point(1005, 248);
+			this->button62->Name = L"button62";
+			this->button62->Size = System::Drawing::Size(93, 43);
+			this->button62->TabIndex = 191;
+			this->button62->Text = L"获取";
+			this->button62->UseVisualStyleBackColor = true;
+			this->button62->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button62_Click);
+			// 
+			// button63
+			// 
+			this->button63->Location = System::Drawing::Point(901, 248);
+			this->button63->Name = L"button63";
+			this->button63->Size = System::Drawing::Size(93, 43);
+			this->button63->TabIndex = 190;
+			this->button63->Text = L"获取";
+			this->button63->UseVisualStyleBackColor = true;
+			this->button63->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button63_Click);
+			// 
+			// button64
+			// 
+			this->button64->Location = System::Drawing::Point(799, 248);
+			this->button64->Name = L"button64";
+			this->button64->Size = System::Drawing::Size(93, 43);
+			this->button64->TabIndex = 189;
+			this->button64->Text = L"获取";
+			this->button64->UseVisualStyleBackColor = true;
+			this->button64->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button64_Click);
+			// 
+			// button65
+			// 
+			this->button65->Location = System::Drawing::Point(697, 248);
+			this->button65->Name = L"button65";
+			this->button65->Size = System::Drawing::Size(93, 43);
+			this->button65->TabIndex = 188;
+			this->button65->Text = L"获取";
+			this->button65->UseVisualStyleBackColor = true;
+			this->button65->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button65_Click);
+			// 
+			// button66
+			// 
+			this->button66->Location = System::Drawing::Point(598, 248);
+			this->button66->Name = L"button66";
+			this->button66->Size = System::Drawing::Size(93, 43);
+			this->button66->TabIndex = 187;
+			this->button66->Text = L"获取";
+			this->button66->UseVisualStyleBackColor = true;
+			this->button66->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button66_Click);
+			// 
+			// button67
+			// 
+			this->button67->Location = System::Drawing::Point(503, 248);
+			this->button67->Name = L"button67";
+			this->button67->Size = System::Drawing::Size(93, 43);
+			this->button67->TabIndex = 186;
+			this->button67->Text = L"获取";
+			this->button67->UseVisualStyleBackColor = true;
+			this->button67->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button67_Click);
+			// 
+			// button68
+			// 
+			this->button68->Location = System::Drawing::Point(401, 248);
+			this->button68->Name = L"button68";
+			this->button68->Size = System::Drawing::Size(93, 43);
+			this->button68->TabIndex = 185;
+			this->button68->Text = L"获取";
+			this->button68->UseVisualStyleBackColor = true;
+			this->button68->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button68_Click);
+			// 
+			// button69
+			// 
+			this->button69->Location = System::Drawing::Point(302, 248);
+			this->button69->Name = L"button69";
+			this->button69->Size = System::Drawing::Size(93, 43);
+			this->button69->TabIndex = 184;
+			this->button69->Text = L"获取";
+			this->button69->UseVisualStyleBackColor = true;
+			this->button69->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button69_Click);
+			// 
+			// button70
+			// 
+			this->button70->Location = System::Drawing::Point(198, 248);
+			this->button70->Name = L"button70";
+			this->button70->Size = System::Drawing::Size(93, 43);
+			this->button70->TabIndex = 183;
+			this->button70->Text = L"获取";
+			this->button70->UseVisualStyleBackColor = true;
+			this->button70->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button70_Click);
+			// 
+			// button71
+			// 
+			this->button71->Location = System::Drawing::Point(1110, 136);
+			this->button71->Name = L"button71";
+			this->button71->Size = System::Drawing::Size(93, 43);
+			this->button71->TabIndex = 182;
+			this->button71->Text = L"获取";
+			this->button71->UseVisualStyleBackColor = true;
+			this->button71->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button71_Click);
+			// 
+			// button72
+			// 
+			this->button72->Location = System::Drawing::Point(1008, 136);
+			this->button72->Name = L"button72";
+			this->button72->Size = System::Drawing::Size(93, 43);
+			this->button72->TabIndex = 181;
+			this->button72->Text = L"获取";
+			this->button72->UseVisualStyleBackColor = true;
+			this->button72->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button72_Click);
+			// 
+			// button73
+			// 
+			this->button73->Location = System::Drawing::Point(904, 136);
+			this->button73->Name = L"button73";
+			this->button73->Size = System::Drawing::Size(93, 43);
+			this->button73->TabIndex = 180;
+			this->button73->Text = L"获取";
+			this->button73->UseVisualStyleBackColor = true;
+			this->button73->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button73_Click);
+			// 
+			// button74
+			// 
+			this->button74->Location = System::Drawing::Point(802, 136);
+			this->button74->Name = L"button74";
+			this->button74->Size = System::Drawing::Size(93, 43);
+			this->button74->TabIndex = 179;
+			this->button74->Text = L"获取";
+			this->button74->UseVisualStyleBackColor = true;
+			this->button74->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button74_Click);
+			// 
+			// button75
+			// 
+			this->button75->Location = System::Drawing::Point(700, 136);
+			this->button75->Name = L"button75";
+			this->button75->Size = System::Drawing::Size(93, 43);
+			this->button75->TabIndex = 178;
+			this->button75->Text = L"获取";
+			this->button75->UseVisualStyleBackColor = true;
+			this->button75->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button75_Click);
+			// 
+			// button76
+			// 
+			this->button76->Location = System::Drawing::Point(601, 136);
+			this->button76->Name = L"button76";
+			this->button76->Size = System::Drawing::Size(93, 43);
+			this->button76->TabIndex = 177;
+			this->button76->Text = L"获取";
+			this->button76->UseVisualStyleBackColor = true;
+			this->button76->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button76_Click);
+			// 
+			// button77
+			// 
+			this->button77->Location = System::Drawing::Point(503, 136);
+			this->button77->Name = L"button77";
+			this->button77->Size = System::Drawing::Size(93, 43);
+			this->button77->TabIndex = 176;
+			this->button77->Text = L"获取";
+			this->button77->UseVisualStyleBackColor = true;
+			this->button77->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button77_Click);
+			// 
+			// button78
+			// 
+			this->button78->Location = System::Drawing::Point(404, 136);
+			this->button78->Name = L"button78";
+			this->button78->Size = System::Drawing::Size(93, 43);
+			this->button78->TabIndex = 175;
+			this->button78->Text = L"获取";
+			this->button78->UseVisualStyleBackColor = true;
+			this->button78->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button78_Click);
+			// 
+			// button79
+			// 
+			this->button79->Location = System::Drawing::Point(305, 136);
+			this->button79->Name = L"button79";
+			this->button79->Size = System::Drawing::Size(93, 43);
+			this->button79->TabIndex = 174;
+			this->button79->Text = L"获取";
+			this->button79->UseVisualStyleBackColor = true;
+			this->button79->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button79_Click);
+			// 
+			// button80
+			// 
+			this->button80->Location = System::Drawing::Point(201, 136);
+			this->button80->Name = L"button80";
+			this->button80->Size = System::Drawing::Size(93, 43);
+			this->button80->TabIndex = 173;
+			this->button80->Text = L"获取";
+			this->button80->UseVisualStyleBackColor = true;
+			this->button80->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button80_Click);
 			// 
 			// labelLine8UBC
 			// 
@@ -2057,642 +2768,12 @@ private: System::Windows::Forms::Button^  button80;
 			this->button81->UseVisualStyleBackColor = true;
 			this->button81->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button81_Click);
 			// 
-			// button1
-			// 
-			this->button1->Location = System::Drawing::Point(1107, 246);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(93, 43);
-			this->button1->TabIndex = 182;
-			this->button1->Text = L"获取";
-			this->button1->UseVisualStyleBackColor = true;
-			// 
-			// button2
-			// 
-			this->button2->Location = System::Drawing::Point(1005, 246);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(93, 43);
-			this->button2->TabIndex = 181;
-			this->button2->Text = L"获取";
-			this->button2->UseVisualStyleBackColor = true;
-			// 
-			// button3
-			// 
-			this->button3->Location = System::Drawing::Point(901, 246);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(93, 43);
-			this->button3->TabIndex = 180;
-			this->button3->Text = L"获取";
-			this->button3->UseVisualStyleBackColor = true;
-			// 
-			// button4
-			// 
-			this->button4->Location = System::Drawing::Point(799, 246);
-			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(93, 43);
-			this->button4->TabIndex = 179;
-			this->button4->Text = L"获取";
-			this->button4->UseVisualStyleBackColor = true;
-			// 
-			// button5
-			// 
-			this->button5->Location = System::Drawing::Point(697, 246);
-			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(93, 43);
-			this->button5->TabIndex = 178;
-			this->button5->Text = L"获取";
-			this->button5->UseVisualStyleBackColor = true;
-			// 
-			// button6
-			// 
-			this->button6->Location = System::Drawing::Point(598, 246);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(93, 43);
-			this->button6->TabIndex = 177;
-			this->button6->Text = L"获取";
-			this->button6->UseVisualStyleBackColor = true;
-			// 
-			// button7
-			// 
-			this->button7->Location = System::Drawing::Point(503, 246);
-			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(93, 43);
-			this->button7->TabIndex = 176;
-			this->button7->Text = L"获取";
-			this->button7->UseVisualStyleBackColor = true;
-			// 
-			// button8
-			// 
-			this->button8->Location = System::Drawing::Point(401, 246);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(93, 43);
-			this->button8->TabIndex = 175;
-			this->button8->Text = L"获取";
-			this->button8->UseVisualStyleBackColor = true;
-			// 
-			// button9
-			// 
-			this->button9->Location = System::Drawing::Point(302, 246);
-			this->button9->Name = L"button9";
-			this->button9->Size = System::Drawing::Size(93, 43);
-			this->button9->TabIndex = 174;
-			this->button9->Text = L"获取";
-			this->button9->UseVisualStyleBackColor = true;
-			// 
-			// button10
-			// 
-			this->button10->Location = System::Drawing::Point(198, 246);
-			this->button10->Name = L"button10";
-			this->button10->Size = System::Drawing::Size(93, 43);
-			this->button10->TabIndex = 173;
-			this->button10->Text = L"获取";
-			this->button10->UseVisualStyleBackColor = true;
-			// 
-			// button11
-			// 
-			this->button11->Location = System::Drawing::Point(1107, 344);
-			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(93, 43);
-			this->button11->TabIndex = 192;
-			this->button11->Text = L"获取";
-			this->button11->UseVisualStyleBackColor = true;
-			// 
-			// button12
-			// 
-			this->button12->Location = System::Drawing::Point(1005, 344);
-			this->button12->Name = L"button12";
-			this->button12->Size = System::Drawing::Size(93, 43);
-			this->button12->TabIndex = 191;
-			this->button12->Text = L"获取";
-			this->button12->UseVisualStyleBackColor = true;
-			// 
-			// button13
-			// 
-			this->button13->Location = System::Drawing::Point(901, 344);
-			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(93, 43);
-			this->button13->TabIndex = 190;
-			this->button13->Text = L"获取";
-			this->button13->UseVisualStyleBackColor = true;
-			// 
-			// button14
-			// 
-			this->button14->Location = System::Drawing::Point(799, 344);
-			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(93, 43);
-			this->button14->TabIndex = 189;
-			this->button14->Text = L"获取";
-			this->button14->UseVisualStyleBackColor = true;
-			// 
-			// button15
-			// 
-			this->button15->Location = System::Drawing::Point(697, 344);
-			this->button15->Name = L"button15";
-			this->button15->Size = System::Drawing::Size(93, 43);
-			this->button15->TabIndex = 188;
-			this->button15->Text = L"获取";
-			this->button15->UseVisualStyleBackColor = true;
-			// 
-			// button16
-			// 
-			this->button16->Location = System::Drawing::Point(598, 344);
-			this->button16->Name = L"button16";
-			this->button16->Size = System::Drawing::Size(93, 43);
-			this->button16->TabIndex = 187;
-			this->button16->Text = L"获取";
-			this->button16->UseVisualStyleBackColor = true;
-			// 
-			// button17
-			// 
-			this->button17->Location = System::Drawing::Point(503, 344);
-			this->button17->Name = L"button17";
-			this->button17->Size = System::Drawing::Size(93, 43);
-			this->button17->TabIndex = 186;
-			this->button17->Text = L"获取";
-			this->button17->UseVisualStyleBackColor = true;
-			// 
-			// button18
-			// 
-			this->button18->Location = System::Drawing::Point(401, 344);
-			this->button18->Name = L"button18";
-			this->button18->Size = System::Drawing::Size(93, 43);
-			this->button18->TabIndex = 185;
-			this->button18->Text = L"获取";
-			this->button18->UseVisualStyleBackColor = true;
-			// 
-			// button19
-			// 
-			this->button19->Location = System::Drawing::Point(302, 344);
-			this->button19->Name = L"button19";
-			this->button19->Size = System::Drawing::Size(93, 43);
-			this->button19->TabIndex = 184;
-			this->button19->Text = L"获取";
-			this->button19->UseVisualStyleBackColor = true;
-			// 
-			// button20
-			// 
-			this->button20->Location = System::Drawing::Point(198, 344);
-			this->button20->Name = L"button20";
-			this->button20->Size = System::Drawing::Size(93, 43);
-			this->button20->TabIndex = 183;
-			this->button20->Text = L"获取";
-			this->button20->UseVisualStyleBackColor = true;
-			// 
-			// button21
-			// 
-			this->button21->Location = System::Drawing::Point(1107, 462);
-			this->button21->Name = L"button21";
-			this->button21->Size = System::Drawing::Size(93, 43);
-			this->button21->TabIndex = 202;
-			this->button21->Text = L"获取";
-			this->button21->UseVisualStyleBackColor = true;
-			// 
-			// button22
-			// 
-			this->button22->Location = System::Drawing::Point(1005, 462);
-			this->button22->Name = L"button22";
-			this->button22->Size = System::Drawing::Size(93, 43);
-			this->button22->TabIndex = 201;
-			this->button22->Text = L"获取";
-			this->button22->UseVisualStyleBackColor = true;
-			// 
-			// button23
-			// 
-			this->button23->Location = System::Drawing::Point(901, 462);
-			this->button23->Name = L"button23";
-			this->button23->Size = System::Drawing::Size(93, 43);
-			this->button23->TabIndex = 200;
-			this->button23->Text = L"获取";
-			this->button23->UseVisualStyleBackColor = true;
-			// 
-			// button24
-			// 
-			this->button24->Location = System::Drawing::Point(799, 462);
-			this->button24->Name = L"button24";
-			this->button24->Size = System::Drawing::Size(93, 43);
-			this->button24->TabIndex = 199;
-			this->button24->Text = L"获取";
-			this->button24->UseVisualStyleBackColor = true;
-			// 
-			// button25
-			// 
-			this->button25->Location = System::Drawing::Point(697, 462);
-			this->button25->Name = L"button25";
-			this->button25->Size = System::Drawing::Size(93, 43);
-			this->button25->TabIndex = 198;
-			this->button25->Text = L"获取";
-			this->button25->UseVisualStyleBackColor = true;
-			// 
-			// button26
-			// 
-			this->button26->Location = System::Drawing::Point(598, 462);
-			this->button26->Name = L"button26";
-			this->button26->Size = System::Drawing::Size(93, 43);
-			this->button26->TabIndex = 197;
-			this->button26->Text = L"获取";
-			this->button26->UseVisualStyleBackColor = true;
-			// 
-			// button27
-			// 
-			this->button27->Location = System::Drawing::Point(503, 462);
-			this->button27->Name = L"button27";
-			this->button27->Size = System::Drawing::Size(93, 43);
-			this->button27->TabIndex = 196;
-			this->button27->Text = L"获取";
-			this->button27->UseVisualStyleBackColor = true;
-			// 
-			// button28
-			// 
-			this->button28->Location = System::Drawing::Point(401, 462);
-			this->button28->Name = L"button28";
-			this->button28->Size = System::Drawing::Size(93, 43);
-			this->button28->TabIndex = 195;
-			this->button28->Text = L"获取";
-			this->button28->UseVisualStyleBackColor = true;
-			// 
-			// button29
-			// 
-			this->button29->Location = System::Drawing::Point(302, 462);
-			this->button29->Name = L"button29";
-			this->button29->Size = System::Drawing::Size(93, 43);
-			this->button29->TabIndex = 194;
-			this->button29->Text = L"获取";
-			this->button29->UseVisualStyleBackColor = true;
-			// 
-			// button30
-			// 
-			this->button30->Location = System::Drawing::Point(198, 462);
-			this->button30->Name = L"button30";
-			this->button30->Size = System::Drawing::Size(93, 43);
-			this->button30->TabIndex = 193;
-			this->button30->Text = L"获取";
-			this->button30->UseVisualStyleBackColor = true;
-			// 
-			// button71
-			// 
-			this->button71->Location = System::Drawing::Point(1110, 136);
-			this->button71->Name = L"button71";
-			this->button71->Size = System::Drawing::Size(93, 43);
-			this->button71->TabIndex = 182;
-			this->button71->Text = L"获取";
-			this->button71->UseVisualStyleBackColor = true;
-			// 
-			// button72
-			// 
-			this->button72->Location = System::Drawing::Point(1008, 136);
-			this->button72->Name = L"button72";
-			this->button72->Size = System::Drawing::Size(93, 43);
-			this->button72->TabIndex = 181;
-			this->button72->Text = L"获取";
-			this->button72->UseVisualStyleBackColor = true;
-			// 
-			// button73
-			// 
-			this->button73->Location = System::Drawing::Point(904, 136);
-			this->button73->Name = L"button73";
-			this->button73->Size = System::Drawing::Size(93, 43);
-			this->button73->TabIndex = 180;
-			this->button73->Text = L"获取";
-			this->button73->UseVisualStyleBackColor = true;
-			// 
-			// button74
-			// 
-			this->button74->Location = System::Drawing::Point(802, 136);
-			this->button74->Name = L"button74";
-			this->button74->Size = System::Drawing::Size(93, 43);
-			this->button74->TabIndex = 179;
-			this->button74->Text = L"获取";
-			this->button74->UseVisualStyleBackColor = true;
-			// 
-			// button75
-			// 
-			this->button75->Location = System::Drawing::Point(700, 136);
-			this->button75->Name = L"button75";
-			this->button75->Size = System::Drawing::Size(93, 43);
-			this->button75->TabIndex = 178;
-			this->button75->Text = L"获取";
-			this->button75->UseVisualStyleBackColor = true;
-			// 
-			// button76
-			// 
-			this->button76->Location = System::Drawing::Point(601, 136);
-			this->button76->Name = L"button76";
-			this->button76->Size = System::Drawing::Size(93, 43);
-			this->button76->TabIndex = 177;
-			this->button76->Text = L"获取";
-			this->button76->UseVisualStyleBackColor = true;
-			// 
-			// button77
-			// 
-			this->button77->Location = System::Drawing::Point(506, 136);
-			this->button77->Name = L"button77";
-			this->button77->Size = System::Drawing::Size(93, 43);
-			this->button77->TabIndex = 176;
-			this->button77->Text = L"获取";
-			this->button77->UseVisualStyleBackColor = true;
-			// 
-			// button78
-			// 
-			this->button78->Location = System::Drawing::Point(404, 136);
-			this->button78->Name = L"button78";
-			this->button78->Size = System::Drawing::Size(93, 43);
-			this->button78->TabIndex = 175;
-			this->button78->Text = L"获取";
-			this->button78->UseVisualStyleBackColor = true;
-			// 
-			// button79
-			// 
-			this->button79->Location = System::Drawing::Point(305, 136);
-			this->button79->Name = L"button79";
-			this->button79->Size = System::Drawing::Size(93, 43);
-			this->button79->TabIndex = 174;
-			this->button79->Text = L"获取";
-			this->button79->UseVisualStyleBackColor = true;
-			// 
-			// button80
-			// 
-			this->button80->Location = System::Drawing::Point(201, 136);
-			this->button80->Name = L"button80";
-			this->button80->Size = System::Drawing::Size(93, 43);
-			this->button80->TabIndex = 173;
-			this->button80->Text = L"获取";
-			this->button80->UseVisualStyleBackColor = true;
-			// 
-			// button61
-			// 
-			this->button61->Location = System::Drawing::Point(1107, 248);
-			this->button61->Name = L"button61";
-			this->button61->Size = System::Drawing::Size(93, 43);
-			this->button61->TabIndex = 192;
-			this->button61->Text = L"获取";
-			this->button61->UseVisualStyleBackColor = true;
-			// 
-			// button62
-			// 
-			this->button62->Location = System::Drawing::Point(1005, 248);
-			this->button62->Name = L"button62";
-			this->button62->Size = System::Drawing::Size(93, 43);
-			this->button62->TabIndex = 191;
-			this->button62->Text = L"获取";
-			this->button62->UseVisualStyleBackColor = true;
-			// 
-			// button63
-			// 
-			this->button63->Location = System::Drawing::Point(901, 248);
-			this->button63->Name = L"button63";
-			this->button63->Size = System::Drawing::Size(93, 43);
-			this->button63->TabIndex = 190;
-			this->button63->Text = L"获取";
-			this->button63->UseVisualStyleBackColor = true;
-			// 
-			// button64
-			// 
-			this->button64->Location = System::Drawing::Point(799, 248);
-			this->button64->Name = L"button64";
-			this->button64->Size = System::Drawing::Size(93, 43);
-			this->button64->TabIndex = 189;
-			this->button64->Text = L"获取";
-			this->button64->UseVisualStyleBackColor = true;
-			// 
-			// button65
-			// 
-			this->button65->Location = System::Drawing::Point(697, 248);
-			this->button65->Name = L"button65";
-			this->button65->Size = System::Drawing::Size(93, 43);
-			this->button65->TabIndex = 188;
-			this->button65->Text = L"获取";
-			this->button65->UseVisualStyleBackColor = true;
-			// 
-			// button66
-			// 
-			this->button66->Location = System::Drawing::Point(598, 248);
-			this->button66->Name = L"button66";
-			this->button66->Size = System::Drawing::Size(93, 43);
-			this->button66->TabIndex = 187;
-			this->button66->Text = L"获取";
-			this->button66->UseVisualStyleBackColor = true;
-			// 
-			// button67
-			// 
-			this->button67->Location = System::Drawing::Point(503, 248);
-			this->button67->Name = L"button67";
-			this->button67->Size = System::Drawing::Size(93, 43);
-			this->button67->TabIndex = 186;
-			this->button67->Text = L"获取";
-			this->button67->UseVisualStyleBackColor = true;
-			// 
-			// button68
-			// 
-			this->button68->Location = System::Drawing::Point(401, 248);
-			this->button68->Name = L"button68";
-			this->button68->Size = System::Drawing::Size(93, 43);
-			this->button68->TabIndex = 185;
-			this->button68->Text = L"获取";
-			this->button68->UseVisualStyleBackColor = true;
-			// 
-			// button69
-			// 
-			this->button69->Location = System::Drawing::Point(302, 248);
-			this->button69->Name = L"button69";
-			this->button69->Size = System::Drawing::Size(93, 43);
-			this->button69->TabIndex = 184;
-			this->button69->Text = L"获取";
-			this->button69->UseVisualStyleBackColor = true;
-			// 
-			// button70
-			// 
-			this->button70->Location = System::Drawing::Point(198, 248);
-			this->button70->Name = L"button70";
-			this->button70->Size = System::Drawing::Size(93, 43);
-			this->button70->TabIndex = 183;
-			this->button70->Text = L"获取";
-			this->button70->UseVisualStyleBackColor = true;
-			// 
-			// button51
-			// 
-			this->button51->Location = System::Drawing::Point(1107, 344);
-			this->button51->Name = L"button51";
-			this->button51->Size = System::Drawing::Size(93, 43);
-			this->button51->TabIndex = 202;
-			this->button51->Text = L"获取";
-			this->button51->UseVisualStyleBackColor = true;
-			// 
-			// button52
-			// 
-			this->button52->Location = System::Drawing::Point(1005, 344);
-			this->button52->Name = L"button52";
-			this->button52->Size = System::Drawing::Size(93, 43);
-			this->button52->TabIndex = 201;
-			this->button52->Text = L"获取";
-			this->button52->UseVisualStyleBackColor = true;
-			// 
-			// button53
-			// 
-			this->button53->Location = System::Drawing::Point(901, 344);
-			this->button53->Name = L"button53";
-			this->button53->Size = System::Drawing::Size(93, 43);
-			this->button53->TabIndex = 200;
-			this->button53->Text = L"获取";
-			this->button53->UseVisualStyleBackColor = true;
-			// 
-			// button54
-			// 
-			this->button54->Location = System::Drawing::Point(799, 344);
-			this->button54->Name = L"button54";
-			this->button54->Size = System::Drawing::Size(93, 43);
-			this->button54->TabIndex = 199;
-			this->button54->Text = L"获取";
-			this->button54->UseVisualStyleBackColor = true;
-			// 
-			// button55
-			// 
-			this->button55->Location = System::Drawing::Point(697, 344);
-			this->button55->Name = L"button55";
-			this->button55->Size = System::Drawing::Size(93, 43);
-			this->button55->TabIndex = 198;
-			this->button55->Text = L"获取";
-			this->button55->UseVisualStyleBackColor = true;
-			// 
-			// button56
-			// 
-			this->button56->Location = System::Drawing::Point(598, 344);
-			this->button56->Name = L"button56";
-			this->button56->Size = System::Drawing::Size(93, 43);
-			this->button56->TabIndex = 197;
-			this->button56->Text = L"获取";
-			this->button56->UseVisualStyleBackColor = true;
-			// 
-			// button57
-			// 
-			this->button57->Location = System::Drawing::Point(503, 344);
-			this->button57->Name = L"button57";
-			this->button57->Size = System::Drawing::Size(93, 43);
-			this->button57->TabIndex = 196;
-			this->button57->Text = L"获取";
-			this->button57->UseVisualStyleBackColor = true;
-			// 
-			// button58
-			// 
-			this->button58->Location = System::Drawing::Point(401, 344);
-			this->button58->Name = L"button58";
-			this->button58->Size = System::Drawing::Size(93, 43);
-			this->button58->TabIndex = 195;
-			this->button58->Text = L"获取";
-			this->button58->UseVisualStyleBackColor = true;
-			// 
-			// button59
-			// 
-			this->button59->Location = System::Drawing::Point(302, 344);
-			this->button59->Name = L"button59";
-			this->button59->Size = System::Drawing::Size(93, 43);
-			this->button59->TabIndex = 194;
-			this->button59->Text = L"获取";
-			this->button59->UseVisualStyleBackColor = true;
-			// 
-			// button60
-			// 
-			this->button60->Location = System::Drawing::Point(198, 344);
-			this->button60->Name = L"button60";
-			this->button60->Size = System::Drawing::Size(93, 43);
-			this->button60->TabIndex = 193;
-			this->button60->Text = L"获取";
-			this->button60->UseVisualStyleBackColor = true;
-			// 
-			// button31
-			// 
-			this->button31->Location = System::Drawing::Point(1107, 453);
-			this->button31->Name = L"button31";
-			this->button31->Size = System::Drawing::Size(93, 43);
-			this->button31->TabIndex = 212;
-			this->button31->Text = L"获取";
-			this->button31->UseVisualStyleBackColor = true;
-			// 
-			// button42
-			// 
-			this->button42->Location = System::Drawing::Point(1005, 453);
-			this->button42->Name = L"button42";
-			this->button42->Size = System::Drawing::Size(93, 43);
-			this->button42->TabIndex = 211;
-			this->button42->Text = L"获取";
-			this->button42->UseVisualStyleBackColor = true;
-			// 
-			// button43
-			// 
-			this->button43->Location = System::Drawing::Point(901, 453);
-			this->button43->Name = L"button43";
-			this->button43->Size = System::Drawing::Size(93, 43);
-			this->button43->TabIndex = 210;
-			this->button43->Text = L"获取";
-			this->button43->UseVisualStyleBackColor = true;
-			// 
-			// button44
-			// 
-			this->button44->Location = System::Drawing::Point(799, 453);
-			this->button44->Name = L"button44";
-			this->button44->Size = System::Drawing::Size(93, 43);
-			this->button44->TabIndex = 209;
-			this->button44->Text = L"获取";
-			this->button44->UseVisualStyleBackColor = true;
-			// 
-			// button45
-			// 
-			this->button45->Location = System::Drawing::Point(697, 453);
-			this->button45->Name = L"button45";
-			this->button45->Size = System::Drawing::Size(93, 43);
-			this->button45->TabIndex = 208;
-			this->button45->Text = L"获取";
-			this->button45->UseVisualStyleBackColor = true;
-			// 
-			// button46
-			// 
-			this->button46->Location = System::Drawing::Point(598, 453);
-			this->button46->Name = L"button46";
-			this->button46->Size = System::Drawing::Size(93, 43);
-			this->button46->TabIndex = 207;
-			this->button46->Text = L"获取";
-			this->button46->UseVisualStyleBackColor = true;
-			// 
-			// button47
-			// 
-			this->button47->Location = System::Drawing::Point(503, 453);
-			this->button47->Name = L"button47";
-			this->button47->Size = System::Drawing::Size(93, 43);
-			this->button47->TabIndex = 206;
-			this->button47->Text = L"获取";
-			this->button47->UseVisualStyleBackColor = true;
-			// 
-			// button48
-			// 
-			this->button48->Location = System::Drawing::Point(401, 453);
-			this->button48->Name = L"button48";
-			this->button48->Size = System::Drawing::Size(93, 43);
-			this->button48->TabIndex = 205;
-			this->button48->Text = L"获取";
-			this->button48->UseVisualStyleBackColor = true;
-			// 
-			// button49
-			// 
-			this->button49->Location = System::Drawing::Point(302, 453);
-			this->button49->Name = L"button49";
-			this->button49->Size = System::Drawing::Size(93, 43);
-			this->button49->TabIndex = 204;
-			this->button49->Text = L"获取";
-			this->button49->UseVisualStyleBackColor = true;
-			// 
-			// button50
-			// 
-			this->button50->Location = System::Drawing::Point(198, 453);
-			this->button50->Name = L"button50";
-			this->button50->Size = System::Drawing::Size(93, 43);
-			this->button50->TabIndex = 203;
-			this->button50->Text = L"获取";
-			this->button50->UseVisualStyleBackColor = true;
-			// 
 			// 叠加原理实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1481, 892);
+			this->ClientSize = System::Drawing::Size(1823, 892);
 			this->Controls->Add(this->label106);
 			this->Controls->Add(this->textBox结论);
 			this->Controls->Add(this->groupBox3);
@@ -2729,5 +2810,248 @@ private: System::Void button81_Click(System::Object^  sender, System::EventArgs^
 }
 private: System::Void label38_Click(System::Object^  sender, System::EventArgs^  e) {
 }
-};
+private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1I1->Text = global::GetI500Data();
 }
+private: System::Void labelLine1I1_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2I1->Text = global::GetI500Data();
+}
+private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3I1->Text = global::GetI500Data();
+}
+private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4I1->Text = global::GetI500Data();
+}
+private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1I2->Text = global::GetI500Data();
+}
+private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2I2->Text = global::GetI500Data();
+}
+private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3I2->Text = global::GetI500Data();
+}
+private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4I2->Text = global::GetI500Data();
+}
+private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1I3->Text = global::GetI500Data();
+}
+private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2I3->Text = global::GetI500Data();
+}
+private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3I3->Text = global::GetI500Data();
+}
+private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4I3->Text = global::GetI500Data();
+}
+private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1U11->Text = global::GetU30Data();
+}
+private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2U11->Text = global::GetU30Data();
+}
+private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3U11->Text = global::GetU30Data();
+}
+private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4U11->Text = global::GetU30Data();
+}
+private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1U12->Text = global::GetU30Data();
+}
+private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2U12->Text = global::GetU30Data();
+}
+private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3U12->Text = global::GetU30Data();
+}
+private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4U12->Text = global::GetU30Data();
+}
+private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1UFA->Text = global::GetU30Data();
+}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2UFA->Text = global::GetU30Data();
+}
+private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3UFA->Text = global::GetU30Data();
+}
+private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4UFA->Text = global::GetU30Data();
+}
+private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1UAB->Text = global::GetU30Data();
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2UAB->Text = global::GetU30Data();
+}
+private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3UAB->Text = global::GetU30Data();
+}
+private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4UAB->Text = global::GetU30Data();
+}
+private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1UBC->Text = global::GetU30Data();
+}
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2UBC->Text = global::GetU30Data();
+}
+private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3UBC->Text = global::GetU30Data();
+}
+private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4UBC->Text = global::GetU30Data();
+}
+private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1UCD->Text = global::GetU30Data();
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2UCD->Text = global::GetU30Data();
+}
+private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3UCD->Text = global::GetU30Data();
+}
+private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4UCD->Text = global::GetU30Data();
+}
+private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine1UDE->Text = global::GetU30Data();
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine2UDE->Text = global::GetU30Data();
+}
+private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine3UDE->Text = global::GetU30Data();
+}
+private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine4UDE->Text = global::GetU30Data();
+}
+private: System::Void button80_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5I1->Text = global::GetI500Data();
+}
+private: System::Void button70_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6I1->Text = global::GetI500Data();
+}
+private: System::Void button60_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7I1->Text = global::GetI500Data();
+}
+private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8I1->Text = global::GetI500Data();
+}
+private: System::Void button79_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5I2->Text = global::GetI500Data();
+}
+private: System::Void button69_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6I2->Text = global::GetI500Data();
+}
+private: System::Void button59_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7I2->Text = global::GetI500Data();
+}
+private: System::Void button49_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8I2->Text = global::GetI500Data();
+}
+private: System::Void button78_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5I3->Text = global::GetI500Data();
+}
+private: System::Void button68_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6I3->Text = global::GetI500Data();
+}
+private: System::Void button58_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7I3->Text = global::GetI500Data();
+}
+private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8I3->Text = global::GetI500Data();
+}
+private: System::Void button67_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6U11->Text = global::GetU30Data();
+}
+private: System::Void button77_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5U11->Text = global::GetU30Data();
+}
+private: System::Void button57_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7U11->Text = global::GetU30Data();
+}
+private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8U11->Text = global::GetU30Data();
+}
+private: System::Void button76_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5U12->Text = global::GetU30Data();
+}
+
+private: System::Void button66_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6U12->Text = global::GetU30Data();
+}
+private: System::Void button56_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7U12->Text = global::GetU30Data();
+}
+private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8U12->Text = global::GetU30Data();
+}
+private: System::Void button75_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5UFA->Text = global::GetU30Data();
+}
+private: System::Void button65_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6UFA->Text = global::GetU30Data();
+}
+private: System::Void button55_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7UFA->Text = global::GetU30Data();
+}
+private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8UFA->Text = global::GetU30Data();
+}
+private: System::Void button74_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5UAB->Text = global::GetU30Data();
+}
+private: System::Void button64_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6UAB->Text = global::GetU30Data();
+}
+private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7UAB->Text = global::GetU30Data();
+}
+private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8UAB->Text = global::GetU30Data();
+}
+private: System::Void button73_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5UBC->Text = global::GetU30Data();
+}
+private: System::Void button63_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6UBC->Text = global::GetU30Data();
+}
+private: System::Void button53_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7UBC->Text = global::GetU30Data();
+}
+private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8UBC->Text = global::GetU30Data();
+}
+private: System::Void button72_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5UCD->Text = global::GetU30Data();
+}
+private: System::Void button62_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6UCD->Text = global::GetU30Data();
+}
+private: System::Void button52_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7UCD->Text = global::GetU30Data();
+}
+private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8UCD->Text = global::GetU30Data();
+}
+private: System::Void button71_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine5UDE->Text = global::GetU30Data();
+}
+private: System::Void button61_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine6UDE->Text = global::GetU30Data();
+}
+private: System::Void button51_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine7UDE->Text = global::GetU30Data();
+}
+private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelLine8UDE->Text = global::GetU30Data();
+}
+};
+};

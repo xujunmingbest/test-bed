@@ -6,8 +6,8 @@
     <SrcMac>mac1</SrcMac> 
     <RepeaterIp>47.94.219.135</RepeaterIp> <!--装发服务器ip-->
     <RepeaterPort>10001</RepeaterPort> <!--装发服务器端口-->
-    <SerialHandle>COM19</SerialHandle> <!--测试仪器力控包接收-->
-    <SerialControlSource>COM16</SerialControlSource> <!--控制电源-->
+    <SerialHandle>COM18</SerialHandle> <!--测试仪器力控包接收-->
+    <SerialControlSource>COM17</SerialControlSource> <!--控制电源-->
     <TeacherIp>127.0.0.1</TeacherIp> <!--成绩上传IP 短连接-->
     <GradePort>1235</GradePort> <!--成绩上传端口-->
     <LongConnectPort>1236</LongConnectPort><!--长连接接口-->

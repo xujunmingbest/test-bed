@@ -770,6 +770,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button1->TabIndex = 259;
 			this->button1->Text = L"获取";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button1_Click);
 			// 
 			// button2
 			// 
@@ -782,6 +783,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button2->TabIndex = 258;
 			this->button2->Text = L"获取";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button2_Click);
 			// 
 			// button3
 			// 
@@ -794,6 +796,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button3->TabIndex = 257;
 			this->button3->Text = L"获取";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button3_Click);
 			// 
 			// button4
 			// 
@@ -806,6 +809,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button4->TabIndex = 256;
 			this->button4->Text = L"获取";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button4_Click);
 			// 
 			// button5
 			// 
@@ -818,6 +822,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button5->TabIndex = 255;
 			this->button5->Text = L"获取";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button5_Click);
 			// 
 			// button6
 			// 
@@ -830,6 +835,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button6->TabIndex = 254;
 			this->button6->Text = L"获取";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button6_Click);
 			// 
 			// button7
 			// 
@@ -842,6 +848,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button7->TabIndex = 253;
 			this->button7->Text = L"获取";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button7_Click);
 			// 
 			// button8
 			// 
@@ -854,6 +861,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button8->TabIndex = 252;
 			this->button8->Text = L"获取";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button8_Click);
 			// 
 			// button9
 			// 
@@ -866,6 +874,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button9->TabIndex = 251;
 			this->button9->Text = L"获取";
 			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button9_Click);
 			// 
 			// button10
 			// 
@@ -878,6 +887,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button10->TabIndex = 250;
 			this->button10->Text = L"获取";
 			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button10_Click);
 			// 
 			// button31
 			// 
@@ -890,6 +900,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button31->TabIndex = 249;
 			this->button31->Text = L"获取";
 			this->button31->UseVisualStyleBackColor = true;
+			this->button31->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button31_Click);
 			// 
 			// button32
 			// 
@@ -902,6 +913,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button32->TabIndex = 248;
 			this->button32->Text = L"获取";
 			this->button32->UseVisualStyleBackColor = true;
+			this->button32->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button32_Click);
 			// 
 			// button33
 			// 
@@ -914,6 +926,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button33->TabIndex = 247;
 			this->button33->Text = L"获取";
 			this->button33->UseVisualStyleBackColor = true;
+			this->button33->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button33_Click);
 			// 
 			// button34
 			// 
@@ -926,6 +939,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button34->TabIndex = 246;
 			this->button34->Text = L"获取";
 			this->button34->UseVisualStyleBackColor = true;
+			this->button34->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button34_Click);
 			// 
 			// button35
 			// 
@@ -938,6 +952,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button35->TabIndex = 245;
 			this->button35->Text = L"获取";
 			this->button35->UseVisualStyleBackColor = true;
+			this->button35->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button35_Click);
 			// 
 			// button36
 			// 
@@ -950,6 +965,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button36->TabIndex = 244;
 			this->button36->Text = L"获取";
 			this->button36->UseVisualStyleBackColor = true;
+			this->button36->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button36_Click);
 			// 
 			// button37
 			// 
@@ -962,6 +978,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button37->TabIndex = 243;
 			this->button37->Text = L"获取";
 			this->button37->UseVisualStyleBackColor = true;
+			this->button37->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button37_Click);
 			// 
 			// button38
 			// 
@@ -974,6 +991,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button38->TabIndex = 242;
 			this->button38->Text = L"获取";
 			this->button38->UseVisualStyleBackColor = true;
+			this->button38->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button38_Click);
 			// 
 			// button39
 			// 
@@ -986,6 +1004,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button39->TabIndex = 241;
 			this->button39->Text = L"获取";
 			this->button39->UseVisualStyleBackColor = true;
+			this->button39->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button39_Click);
 			// 
 			// button40
 			// 
@@ -998,6 +1017,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button40->TabIndex = 240;
 			this->button40->Text = L"获取";
 			this->button40->UseVisualStyleBackColor = true;
+			this->button40->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button40_Click);
 			// 
 			// labelTrial12I8
 			// 
@@ -1417,6 +1437,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button21->TabIndex = 202;
 			this->button21->Text = L"获取";
 			this->button21->UseVisualStyleBackColor = true;
+			this->button21->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button21_Click);
 			// 
 			// button22
 			// 
@@ -1429,6 +1450,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button22->TabIndex = 201;
 			this->button22->Text = L"获取";
 			this->button22->UseVisualStyleBackColor = true;
+			this->button22->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button22_Click);
 			// 
 			// button23
 			// 
@@ -1441,6 +1463,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button23->TabIndex = 200;
 			this->button23->Text = L"获取";
 			this->button23->UseVisualStyleBackColor = true;
+			this->button23->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button23_Click);
 			// 
 			// button24
 			// 
@@ -1453,6 +1476,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button24->TabIndex = 199;
 			this->button24->Text = L"获取";
 			this->button24->UseVisualStyleBackColor = true;
+			this->button24->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button24_Click);
 			// 
 			// button25
 			// 
@@ -1465,6 +1489,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button25->TabIndex = 198;
 			this->button25->Text = L"获取";
 			this->button25->UseVisualStyleBackColor = true;
+			this->button25->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button25_Click);
 			// 
 			// button26
 			// 
@@ -1477,6 +1502,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button26->TabIndex = 197;
 			this->button26->Text = L"获取";
 			this->button26->UseVisualStyleBackColor = true;
+			this->button26->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button26_Click);
 			// 
 			// button27
 			// 
@@ -1489,6 +1515,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button27->TabIndex = 196;
 			this->button27->Text = L"获取";
 			this->button27->UseVisualStyleBackColor = true;
+			this->button27->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button27_Click);
 			// 
 			// button28
 			// 
@@ -1501,6 +1528,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button28->TabIndex = 195;
 			this->button28->Text = L"获取";
 			this->button28->UseVisualStyleBackColor = true;
+			this->button28->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button28_Click);
 			// 
 			// button29
 			// 
@@ -1513,6 +1541,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button29->TabIndex = 194;
 			this->button29->Text = L"获取";
 			this->button29->UseVisualStyleBackColor = true;
+			this->button29->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button29_Click);
 			// 
 			// button30
 			// 
@@ -1525,6 +1554,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button30->TabIndex = 193;
 			this->button30->Text = L"获取";
 			this->button30->UseVisualStyleBackColor = true;
+			this->button30->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button30_Click);
 			// 
 			// button11
 			// 
@@ -1537,6 +1567,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button11->TabIndex = 192;
 			this->button11->Text = L"获取";
 			this->button11->UseVisualStyleBackColor = true;
+			this->button11->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button11_Click);
 			// 
 			// button12
 			// 
@@ -1549,6 +1580,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button12->TabIndex = 191;
 			this->button12->Text = L"获取";
 			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button12_Click);
 			// 
 			// button13
 			// 
@@ -1561,6 +1593,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button13->TabIndex = 190;
 			this->button13->Text = L"获取";
 			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button13_Click);
 			// 
 			// button14
 			// 
@@ -1573,6 +1606,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button14->TabIndex = 189;
 			this->button14->Text = L"获取";
 			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button14_Click);
 			// 
 			// button15
 			// 
@@ -1585,6 +1619,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button15->TabIndex = 188;
 			this->button15->Text = L"获取";
 			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button15_Click);
 			// 
 			// button16
 			// 
@@ -1597,6 +1632,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button16->TabIndex = 187;
 			this->button16->Text = L"获取";
 			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button16_Click);
 			// 
 			// button17
 			// 
@@ -1609,6 +1645,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button17->TabIndex = 186;
 			this->button17->Text = L"获取";
 			this->button17->UseVisualStyleBackColor = true;
+			this->button17->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button17_Click);
 			// 
 			// button18
 			// 
@@ -1621,6 +1658,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button18->TabIndex = 185;
 			this->button18->Text = L"获取";
 			this->button18->UseVisualStyleBackColor = true;
+			this->button18->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button18_Click);
 			// 
 			// button19
 			// 
@@ -1633,6 +1671,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button19->TabIndex = 184;
 			this->button19->Text = L"获取";
 			this->button19->UseVisualStyleBackColor = true;
+			this->button19->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button19_Click);
 			// 
 			// button20
 			// 
@@ -1645,6 +1684,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button20->TabIndex = 183;
 			this->button20->Text = L"获取";
 			this->button20->UseVisualStyleBackColor = true;
+			this->button20->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button20_Click);
 			// 
 			// labelTrial11I8
 			// 
@@ -2088,6 +2128,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button41->TabIndex = 292;
 			this->button41->Text = L"获取";
 			this->button41->UseVisualStyleBackColor = true;
+			this->button41->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button41_Click);
 			// 
 			// button42
 			// 
@@ -2100,6 +2141,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button42->TabIndex = 291;
 			this->button42->Text = L"获取";
 			this->button42->UseVisualStyleBackColor = true;
+			this->button42->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button42_Click);
 			// 
 			// button43
 			// 
@@ -2112,6 +2154,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button43->TabIndex = 290;
 			this->button43->Text = L"获取";
 			this->button43->UseVisualStyleBackColor = true;
+			this->button43->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button43_Click);
 			// 
 			// button44
 			// 
@@ -2124,6 +2167,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button44->TabIndex = 289;
 			this->button44->Text = L"获取";
 			this->button44->UseVisualStyleBackColor = true;
+			this->button44->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button44_Click);
 			// 
 			// button45
 			// 
@@ -2136,6 +2180,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button45->TabIndex = 288;
 			this->button45->Text = L"获取";
 			this->button45->UseVisualStyleBackColor = true;
+			this->button45->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button45_Click);
 			// 
 			// button46
 			// 
@@ -2148,6 +2193,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button46->TabIndex = 287;
 			this->button46->Text = L"获取";
 			this->button46->UseVisualStyleBackColor = true;
+			this->button46->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button46_Click);
 			// 
 			// button47
 			// 
@@ -2160,6 +2206,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button47->TabIndex = 286;
 			this->button47->Text = L"获取";
 			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button47_Click);
 			// 
 			// button48
 			// 
@@ -2172,6 +2219,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button48->TabIndex = 285;
 			this->button48->Text = L"获取";
 			this->button48->UseVisualStyleBackColor = true;
+			this->button48->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button48_Click);
 			// 
 			// button49
 			// 
@@ -2184,6 +2232,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button49->TabIndex = 284;
 			this->button49->Text = L"获取";
 			this->button49->UseVisualStyleBackColor = true;
+			this->button49->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button49_Click);
 			// 
 			// button50
 			// 
@@ -2196,6 +2245,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->button50->TabIndex = 283;
 			this->button50->Text = L"获取";
 			this->button50->UseVisualStyleBackColor = true;
+			this->button50->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button50_Click);
 			// 
 			// labelTrial2I8
 			// 
@@ -2375,7 +2425,7 @@ private: System::Windows::Forms::Button^  button81;
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1595, 1102);
+			this->ClientSize = System::Drawing::Size(1324, 1102);
 			this->Controls->Add(this->label106);
 			this->Controls->Add(this->button81);
 			this->Controls->Add(this->textBox结论);
@@ -2406,6 +2456,156 @@ private: System::Void 电压源与电流源的等效变换实验内容_Load(System::Object^  sen
 private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
 
 	SendData();
+}
+private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U1->Text = global::GetU30Data();
+}
+private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U2->Text = global::GetU30Data();
+}
+private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U3->Text = global::GetU30Data();
+}
+private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U4->Text = global::GetU30Data();
+}
+private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U5->Text = global::GetU30Data();
+}
+private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U6->Text = global::GetU30Data();
+}
+private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U7->Text = global::GetU30Data();
+}
+private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U8->Text = global::GetU30Data();
+}
+private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U9->Text = global::GetU30Data();
+}
+private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11U10->Text = global::GetU30Data();
+}
+private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I1->Text = global::GetU30Data();
+}
+private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I2->Text = global::GetU30Data();
+}
+private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I3->Text = global::GetU30Data();
+}
+private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I4->Text = global::GetU30Data();
+}
+private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I5->Text = global::GetU30Data();
+}
+private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I6->Text = global::GetU30Data();
+}
+private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I7->Text = global::GetU30Data();
+}
+private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I8->Text = global::GetU30Data();
+}
+private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I9->Text = global::GetU30Data();
+}
+private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial11I10->Text = global::GetU30Data();
+}
+private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U1->Text = global::GetU30Data();
+}
+private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U2->Text = global::GetU30Data();
+}
+private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U4->Text = global::GetU30Data();
+}
+private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U5->Text = global::GetU30Data();
+}
+private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U6->Text = global::GetU30Data();
+}
+private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U3->Text = global::GetU30Data();
+}
+private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U7->Text = global::GetU30Data();
+}
+private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U8->Text = global::GetU30Data();
+}
+private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U9->Text = global::GetU30Data();
+}
+private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12U10->Text = global::GetU30Data();
+}
+private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I1->Text = global::GetI500Data();
+}
+private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I2->Text = global::GetI500Data();
+}
+private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I3->Text = global::GetI500Data();
+}
+private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I4->Text = global::GetI500Data();
+}
+private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I5->Text = global::GetI500Data();
+}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I6->Text = global::GetI500Data();
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I7->Text = global::GetI500Data();
+}
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I8->Text = global::GetI500Data();
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I9->Text = global::GetI500Data();
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial12I10->Text = global::GetI500Data();
+}
+private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I1->Text = global::GetI500Data();
+}
+private: System::Void button49_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I2->Text = global::GetI500Data();
+}
+private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I3->Text = global::GetI500Data();
+}
+private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I4->Text = global::GetI500Data();
+}
+private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I5->Text = global::GetI500Data();
+}
+private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I6->Text = global::GetI500Data();
+}
+private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I7->Text = global::GetI500Data();
+}
+private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I8->Text = global::GetI500Data();
+}
+private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I9->Text = global::GetI500Data();
+}
+private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2I10->Text = global::GetI500Data();
 }
 };
 }

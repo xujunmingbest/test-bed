@@ -34,11 +34,11 @@ namespace 电工电路试验台 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Label^  label1;
+
 	protected:
-	private: System::Windows::Forms::PictureBox^  pictureBox1;
+
 	private: System::Windows::Forms::Label^  label7;
-	private: System::Windows::Forms::Label^  label3;
+
 
 	protected:
 
@@ -110,34 +110,8 @@ namespace 电工电路试验台 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(互感器实验原理::typeid));
-			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->label3 = (gcnew System::Windows::Forms::Label());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
-			// 
-			// label1
-			// 
-			this->label1->BackColor = System::Drawing::Color::Transparent;
-			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label1->Location = System::Drawing::Point(514, 359);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(79, 27);
-			this->label1->TabIndex = 33;
-			this->label1->Text = L"图21-1";
-			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(328, 140);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(455, 216);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
-			this->pictureBox1->TabIndex = 32;
-			this->pictureBox1->TabStop = false;
 			// 
 			// label7
 			// 
@@ -145,22 +119,11 @@ namespace 电工电路试验台 {
 			this->label7->BackColor = System::Drawing::Color::Transparent;
 			this->label7->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label7->Location = System::Drawing::Point(12, 9);
+			this->label7->Location = System::Drawing::Point(12, 21);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(326, 25);
+			this->label7->Size = System::Drawing::Size(222, 25);
 			this->label7->TabIndex = 31;
-			this->label7->Text = L"RC网络的频率特性实验原理";
-			// 
-			// label3
-			// 
-			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label3->Location = System::Drawing::Point(11, 84);
-			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(993, 53);
-			this->label3->TabIndex = 30;
-			this->label3->Text = L"    文氏电桥电路是一个RC的串、并联电路，如图21-1所示，该电路结构简单，被广泛地用于低频振荡电路中作为选频环节，可以获得很高纯度的正弦波电压。";
+			this->label7->Text = L"互感器  实验原理";
 			// 
 			// 互感器实验原理
 			// 
@@ -168,14 +131,10 @@ namespace 电工电路试验台 {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
 			this->ClientSize = System::Drawing::Size(1474, 851);
-			this->Controls->Add(this->label1);
-			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->label7);
-			this->Controls->Add(this->label3);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"互感器实验原理";
 			this->Text = L"互感器实验原理";
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 

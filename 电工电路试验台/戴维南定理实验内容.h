@@ -525,6 +525,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button1->TabIndex = 197;
 			this->button1->Text = L"获取";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button1_Click);
 			// 
 			// labelMethod1Isc
 			// 
@@ -543,6 +544,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button30->TabIndex = 195;
 			this->button30->Text = L"获取";
 			this->button30->UseVisualStyleBackColor = true;
+			this->button30->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button30_Click);
 			// 
 			// labelMethod1Uoc
 			// 
@@ -714,6 +716,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button13->TabIndex = 247;
 			this->button13->Text = L"获取";
 			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button13_Click);
 			// 
 			// button14
 			// 
@@ -723,6 +726,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button14->TabIndex = 246;
 			this->button14->Text = L"获取";
 			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button14_Click);
 			// 
 			// button15
 			// 
@@ -732,6 +736,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button15->TabIndex = 245;
 			this->button15->Text = L"获取";
 			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button15_Click);
 			// 
 			// button16
 			// 
@@ -741,6 +746,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button16->TabIndex = 244;
 			this->button16->Text = L"获取";
 			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button16_Click);
 			// 
 			// button17
 			// 
@@ -750,6 +756,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button17->TabIndex = 243;
 			this->button17->Text = L"获取";
 			this->button17->UseVisualStyleBackColor = true;
+			this->button17->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button17_Click);
 			// 
 			// button18
 			// 
@@ -759,6 +766,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button18->TabIndex = 242;
 			this->button18->Text = L"获取";
 			this->button18->UseVisualStyleBackColor = true;
+			this->button18->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button18_Click);
 			// 
 			// button19
 			// 
@@ -777,6 +785,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button20->TabIndex = 240;
 			this->button20->Text = L"获取";
 			this->button20->UseVisualStyleBackColor = true;
+			this->button20->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button20_Click);
 			// 
 			// button21
 			// 
@@ -786,6 +795,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button21->TabIndex = 239;
 			this->button21->Text = L"获取";
 			this->button21->UseVisualStyleBackColor = true;
+			this->button21->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button21_Click);
 			// 
 			// button22
 			// 
@@ -795,6 +805,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button22->TabIndex = 238;
 			this->button22->Text = L"获取";
 			this->button22->UseVisualStyleBackColor = true;
+			this->button22->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button22_Click);
 			// 
 			// button11
 			// 
@@ -804,6 +815,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button11->TabIndex = 237;
 			this->button11->Text = L"获取";
 			this->button11->UseVisualStyleBackColor = true;
+			this->button11->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button11_Click);
 			// 
 			// button12
 			// 
@@ -813,6 +825,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button12->TabIndex = 236;
 			this->button12->Text = L"获取";
 			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button12_Click);
 			// 
 			// button9
 			// 
@@ -822,6 +835,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button9->TabIndex = 235;
 			this->button9->Text = L"获取";
 			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button9_Click);
 			// 
 			// button10
 			// 
@@ -831,6 +845,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button10->TabIndex = 234;
 			this->button10->Text = L"获取";
 			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button10_Click);
 			// 
 			// button7
 			// 
@@ -840,6 +855,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button7->TabIndex = 233;
 			this->button7->Text = L"获取";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button7_Click);
 			// 
 			// button8
 			// 
@@ -849,6 +865,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button8->TabIndex = 232;
 			this->button8->Text = L"获取";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button8_Click);
 			// 
 			// button4
 			// 
@@ -858,6 +875,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button4->TabIndex = 231;
 			this->button4->Text = L"获取";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button4_Click);
 			// 
 			// button6
 			// 
@@ -867,6 +885,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button6->TabIndex = 230;
 			this->button6->Text = L"获取";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button6_Click);
 			// 
 			// labelMethod2I10
 			// 
@@ -930,6 +949,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelMethod2I4->Size = System::Drawing::Size(98, 35);
 			this->labelMethod2I4->TabIndex = 223;
 			this->labelMethod2I4->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelMethod2I4->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::labelMethod2I4_Click);
 			// 
 			// labelMethod2I3
 			// 
@@ -1118,6 +1138,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button3->TabIndex = 200;
 			this->button3->Text = L"获取";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button3_Click);
 			// 
 			// labelMethod2URL2
 			// 
@@ -1127,6 +1148,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelMethod2URL2->Size = System::Drawing::Size(98, 36);
 			this->labelMethod2URL2->TabIndex = 199;
 			this->labelMethod2URL2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelMethod2URL2->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::labelMethod2URL2_Click);
 			// 
 			// label4
 			// 
@@ -1146,6 +1168,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button5->TabIndex = 195;
 			this->button5->Text = L"获取";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button5_Click);
 			// 
 			// labelMethod2URL1
 			// 
@@ -1420,6 +1443,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button25->TabIndex = 300;
 			this->button25->Text = L"获取";
 			this->button25->UseVisualStyleBackColor = true;
+			this->button25->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button25_Click);
 			// 
 			// button26
 			// 
@@ -1429,6 +1453,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button26->TabIndex = 299;
 			this->button26->Text = L"获取";
 			this->button26->UseVisualStyleBackColor = true;
+			this->button26->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button26_Click);
 			// 
 			// button27
 			// 
@@ -1438,6 +1463,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button27->TabIndex = 298;
 			this->button27->Text = L"获取";
 			this->button27->UseVisualStyleBackColor = true;
+			this->button27->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button27_Click);
 			// 
 			// button28
 			// 
@@ -1447,6 +1473,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button28->TabIndex = 297;
 			this->button28->Text = L"获取";
 			this->button28->UseVisualStyleBackColor = true;
+			this->button28->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button28_Click);
 			// 
 			// button29
 			// 
@@ -1456,6 +1483,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button29->TabIndex = 296;
 			this->button29->Text = L"获取";
 			this->button29->UseVisualStyleBackColor = true;
+			this->button29->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button29_Click);
 			// 
 			// button31
 			// 
@@ -1465,6 +1493,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button31->TabIndex = 295;
 			this->button31->Text = L"获取";
 			this->button31->UseVisualStyleBackColor = true;
+			this->button31->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button31_Click);
 			// 
 			// button32
 			// 
@@ -1474,6 +1503,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button32->TabIndex = 294;
 			this->button32->Text = L"获取";
 			this->button32->UseVisualStyleBackColor = true;
+			this->button32->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button32_Click);
 			// 
 			// button33
 			// 
@@ -1483,6 +1513,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button33->TabIndex = 293;
 			this->button33->Text = L"获取";
 			this->button33->UseVisualStyleBackColor = true;
+			this->button33->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button33_Click);
 			// 
 			// button34
 			// 
@@ -1492,6 +1523,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button34->TabIndex = 292;
 			this->button34->Text = L"获取";
 			this->button34->UseVisualStyleBackColor = true;
+			this->button34->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button34_Click);
 			// 
 			// button35
 			// 
@@ -1511,6 +1543,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button36->TabIndex = 290;
 			this->button36->Text = L"获取";
 			this->button36->UseVisualStyleBackColor = true;
+			this->button36->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button36_Click);
 			// 
 			// button37
 			// 
@@ -1520,6 +1553,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button37->TabIndex = 289;
 			this->button37->Text = L"获取";
 			this->button37->UseVisualStyleBackColor = true;
+			this->button37->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button37_Click);
 			// 
 			// button38
 			// 
@@ -1529,6 +1563,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button38->TabIndex = 288;
 			this->button38->Text = L"获取";
 			this->button38->UseVisualStyleBackColor = true;
+			this->button38->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button38_Click);
 			// 
 			// button39
 			// 
@@ -1538,6 +1573,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button39->TabIndex = 287;
 			this->button39->Text = L"获取";
 			this->button39->UseVisualStyleBackColor = true;
+			this->button39->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button39_Click);
 			// 
 			// button40
 			// 
@@ -1547,6 +1583,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button40->TabIndex = 286;
 			this->button40->Text = L"获取";
 			this->button40->UseVisualStyleBackColor = true;
+			this->button40->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button40_Click);
 			// 
 			// button41
 			// 
@@ -1556,6 +1593,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button41->TabIndex = 285;
 			this->button41->Text = L"获取";
 			this->button41->UseVisualStyleBackColor = true;
+			this->button41->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button41_Click);
 			// 
 			// button42
 			// 
@@ -1565,6 +1603,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button42->TabIndex = 284;
 			this->button42->Text = L"获取";
 			this->button42->UseVisualStyleBackColor = true;
+			this->button42->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button42_Click);
 			// 
 			// button43
 			// 
@@ -1574,6 +1613,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button43->TabIndex = 283;
 			this->button43->Text = L"获取";
 			this->button43->UseVisualStyleBackColor = true;
+			this->button43->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button43_Click);
 			// 
 			// labelMethod6I10
 			// 
@@ -1646,6 +1686,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelMethod6I3->Size = System::Drawing::Size(100, 35);
 			this->labelMethod6I3->TabIndex = 275;
 			this->labelMethod6I3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelMethod6I3->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::labelMethod6I3_Click);
 			// 
 			// labelMethod6I2
 			// 
@@ -1825,6 +1866,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button44->TabIndex = 253;
 			this->button44->Text = L"获取";
 			this->button44->UseVisualStyleBackColor = true;
+			this->button44->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button44_Click);
 			// 
 			// labelMethod6URL2
 			// 
@@ -1853,6 +1895,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->button45->TabIndex = 250;
 			this->button45->Text = L"获取";
 			this->button45->UseVisualStyleBackColor = true;
+			this->button45->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button45_Click);
 			// 
 			// labelMethod6URL1
 			// 
@@ -1941,7 +1984,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1557, 737);
+			this->ClientSize = System::Drawing::Size(1558, 737);
 			this->Controls->Add(this->label106);
 			this->Controls->Add(this->button81);
 			this->Controls->Add(this->textBox结论);
@@ -1985,6 +2028,7 @@ private: System::Windows::Forms::Label^  label5;
 private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I1->Text = global::GetI500Data();
 }
 private: System::Void groupBox6_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
@@ -1994,6 +2038,135 @@ private: System::Void 戴维南定理实验内容_Load(System::Object^  sender, System::E
 }
 private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();
+}
+private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod1Uoc->Text = global::GetU30Data();
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod1Isc->Text = global::GetI500Data();
+}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL1->Text = global::GetU30Data();
+}
+private: System::Void labelMethod2URL2_Click(System::Object^  sender, System::EventArgs^  e) {
+
+}
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL2->Text = global::GetU30Data();
+}
+private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL3->Text = global::GetU30Data();
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL4->Text = global::GetU30Data();
+}
+private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL5->Text = global::GetU30Data();
+}
+private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL6->Text = global::GetU30Data();
+}
+private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL7->Text = global::GetU30Data();
+}
+private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL8->Text = global::GetU30Data();
+}
+private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL9->Text = global::GetU30Data();
+}
+private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2URL10->Text = global::GetU30Data();
+}
+private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I1->Text = global::GetI500Data();
+}
+private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I2->Text = global::GetI500Data();
+}
+private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I3->Text = global::GetI500Data();
+}
+private: System::Void labelMethod2I4_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I4->Text = global::GetI500Data();
+}
+private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I5->Text = global::GetI500Data();
+}
+private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I6->Text = global::GetI500Data();
+}
+private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I7->Text = global::GetI500Data();
+}
+private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I8->Text = global::GetI500Data();
+}
+private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I9->Text = global::GetI500Data();
+}
+private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I10->Text = global::GetI500Data();
+}
+private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL1->Text = global::GetU30Data();
+}
+private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL2->Text = global::GetU30Data();
+}
+private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL3->Text = global::GetU30Data();
+}
+private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL4->Text = global::GetU30Data();
+}
+private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL6->Text = global::GetU30Data();
+}
+private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL5->Text = global::GetU30Data();
+}
+private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL7->Text = global::GetU30Data();
+}
+private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL8->Text = global::GetU30Data();
+}
+private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL9->Text = global::GetU30Data();
+}
+private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6URL10->Text = global::GetU30Data();
+}
+private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I2->Text = global::GetI500Data();
+}
+private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I3->Text = global::GetI500Data();
+}
+private: System::Void labelMethod6I3_Click(System::Object^  sender, System::EventArgs^  e) {
+
+}
+private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I4->Text = global::GetI500Data();
+}
+private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I5->Text = global::GetI500Data();
+}
+private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I6->Text = global::GetI500Data();
+}
+private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I7->Text = global::GetI500Data();
+}
+private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I8->Text = global::GetI500Data();
+}
+private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I9->Text = global::GetI500Data();
+}
+private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod6I10->Text = global::GetI500Data();
 }
 };
 }

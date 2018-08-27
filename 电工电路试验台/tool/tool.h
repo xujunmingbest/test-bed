@@ -308,6 +308,35 @@ public:
 	static void LiKongMonter();
 	static void SetDV(String^t);
 
+
+	static S_PLCRecv GetMData() {
+		S_PLCRecv pr;
+		if (!global::sh->GetliKongData(&pr))
+		{
+			MessageBox::Show("获取力控数据失败,请检串口连接是不是正常");
+		}
+		return pr;
+	}
+	static String^ GetU30Data() {
+		S_PLCRecv p = GetMData();
+
+		if (p.HeaderId == 6) {
+			return  DcNumToString(p.U, p.DCsymbol);
+		}
+		else {
+			return "0.00";
+		}
+	}
+	static String^ GetI500Data() {
+		S_PLCRecv p = GetMData();
+
+		if (p.HeaderId == 5) {
+			return  DcNumToString(p.I, p.DCsymbol);
+		}
+		else {
+			return "0.00";
+		}
+	}
 };
 
 

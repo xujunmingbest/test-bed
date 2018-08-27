@@ -214,6 +214,9 @@ Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     SystemShortDown(): PrivateScope, Public, Static, HideBySig
     LiKongMonter(): PrivateScope, Public, Static, HideBySig
     SetDV(String): PrivateScope, Public, Static, HideBySig
+    GetMData(): PrivateScope, Public, Static, HideBySig
+    GetU30Data(): PrivateScope, Public, Static, HideBySig
+    GetI500Data(): PrivateScope, Public, Static, HideBySig
 Class 电工电路试验台.loginWnd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -823,6 +826,9 @@ Class 电工电路试验台.互感器实验原理: AutoLayout, AnsiClass, Class,
 Class 电工电路试验台.互感器实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Load_Grade_data(ST_互感器*): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.互感器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

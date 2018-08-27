@@ -1805,5 +1805,37 @@ struct ST_功率因数及相序的测量 {
 	char Trial2_Load_3[10];
 	char Trial2_Load_4[10];
 };
+
+struct ST_互感器 {
+	TrialInfo ti;
+	char Trial3_Line1_1[10];
+	char Trial3_Line1_2[10];
+	char Trial3_Line1_3[10];
+	char Trial3_Line1_4[10];
+	char Trial3_Line1_5[10];
+	char Trial3_Line1_6[10];
+
+	char Trial3_Line2_1[10];
+	char Trial3_Line2_2[10];
+	char Trial3_Line2_3[10];
+	char Trial3_Line2_4[10];
+	char Trial3_Line2_5[10];
+	char Trial3_Line2_6[10];
+	int score3;
+	char Trial4_Line1_1[10];
+	char Trial4_Line1_2[10];
+	char Trial4_Line1_3[10];
+	char Trial4_Line1_4[10];
+	char Trial4_Line1_5[10];
+	char Trial4_Line1_6[10];
+
+	char Trial4_Line2_1[10];
+	char Trial4_Line2_2[10];
+	char Trial4_Line2_3[10];
+	char Trial4_Line2_4[10];
+	char Trial4_Line2_5[10];
+	char Trial4_Line2_6[10];
+	int score4;
+};
 #pragma pack(pop)
 

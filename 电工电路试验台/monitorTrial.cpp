@@ -308,6 +308,19 @@ void monitorTrialssc::_SendTrial() {
 				Sleep(3000);
 			}
 		}
+		else if (TrialCode == 23) {
+			互感器实验内容^ f_ = (互感器实验内容^)f;
+			while (S) {
+				ST_互感器 s = ((互感器实验内容^)f)->Load_Grade_data();
+				s.ti = trialInfo;
+				s.ti.TrialCode = TrialCode;
+				snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[TrialCode].c_str());
+				snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy/MM/dd HH:mm:ss"));
+				snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+				S = SendMonitorData(ssc.sc, string((char*)(&s), sizeof(ST_互感器)));
+				Sleep(3000);
+			}
+		}
 		else if (TrialCode == 24) {
 			基本电工仪表的使用与测量误差的计算实验内容^ f_ = (基本电工仪表的使用与测量误差的计算实验内容^)f;
 			while (S) {
@@ -433,6 +446,10 @@ Form^ monitorTrialssc::GetNowTrialForm(int &TrialCode) {
 				}
 				else if (f_c->Name == "仪表量程的扩展实验内容") {
 					TrialCode = 22;
+					return f_c;
+				}
+				else if (f_c->Name == "互感器实验内容") {
+					TrialCode = 23;
 					return f_c;
 				}
 				else if (f_c->Name == "基本电工仪表的使用与测量误差的计算实验内容") {
