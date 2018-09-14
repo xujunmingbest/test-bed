@@ -12,3 +12,6 @@ public:
 
 	void RecvHandle(bool ShowRetMsg);
 };
+
+
+

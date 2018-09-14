@@ -149,15 +149,15 @@ ST_最大功率传输条件的测定 最大功率传输条件的测定实验内容::Load_Grade_data() {
 	snprintf(d.Trial2_Uo9, 10, "%s", labelTrial2_Uo9->Text);
 
 
-	snprintf(d.trial2_Po1, 10, "%s", textBoxTrial2_Po1->Text);
-	snprintf(d.trial2_Po2, 10, "%s", textBoxTrial2_Po2->Text);
-	snprintf(d.trial2_Po3, 10, "%s", textBoxTrial2_Po3->Text);
-	snprintf(d.trial2_Po4, 10, "%s", textBoxTrial2_Po4->Text);
-	snprintf(d.trial2_Po5, 10, "%s", textBoxTrial2_Po5->Text);
-	snprintf(d.trial2_Po6, 10, "%s", textBoxTrial2_Po6->Text);
-	snprintf(d.trial2_Po7, 10, "%s", textBoxTrial2_Po7->Text);
-	snprintf(d.trial2_Po8, 10, "%s", textBoxTrial2_Po8->Text);
-	snprintf(d.trial2_Po9, 10, "%s", textBoxTrial2_Po9->Text);
+	snprintf(d.trial2_Po1, 10, "%s", textBoxtrial2_Po1->Text);
+	snprintf(d.trial2_Po2, 10, "%s", textBoxtrial2_Po2->Text);
+	snprintf(d.trial2_Po3, 10, "%s", textBoxtrial2_Po3->Text);
+	snprintf(d.trial2_Po4, 10, "%s", textBoxtrial2_Po4->Text);
+	snprintf(d.trial2_Po5, 10, "%s", textBoxtrial2_Po5->Text);
+	snprintf(d.trial2_Po6, 10, "%s", textBoxtrial2_Po6->Text);
+	snprintf(d.trial2_Po7, 10, "%s", textBoxtrial2_Po7->Text);
+	snprintf(d.trial2_Po8, 10, "%s", textBoxtrial2_Po8->Text);
+	snprintf(d.trial2_Po9, 10, "%s", textBoxtrial2_Po9->Text);
 
 	snprintf(d.summing_up, 10, "%s", textBox结论->Text);
 

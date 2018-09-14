@@ -262,6 +262,7 @@ namespace 电工电路试验台 {
 			this->button9->TabIndex = 172;
 			this->button9->Text = L"获取";
 			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &基本电工仪表的使用与测量误差的计算实验内容::button9_Click);
 			// 
 			// labelTrial1_IA1_5mA
 			// 
@@ -284,6 +285,7 @@ namespace 电工电路试验台 {
 			this->button10->TabIndex = 170;
 			this->button10->Text = L"获取";
 			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &基本电工仪表的使用与测量误差的计算实验内容::button10_Click);
 			// 
 			// labelTrial1_IA_5V
 			// 
@@ -306,6 +308,7 @@ namespace 电工电路试验台 {
 			this->button16->TabIndex = 168;
 			this->button16->Text = L"获取";
 			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &基本电工仪表的使用与测量误差的计算实验内容::button16_Click);
 			// 
 			// label5
 			// 
@@ -410,6 +413,7 @@ namespace 电工电路试验台 {
 			this->button15->TabIndex = 71;
 			this->button15->Text = L"获取";
 			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &基本电工仪表的使用与测量误差的计算实验内容::button15_Click);
 			// 
 			// textBoxTrial1_RB_5mA
 			// 
@@ -492,7 +496,7 @@ namespace 电工电路试验台 {
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1550, 788);
+			this->ClientSize = System::Drawing::Size(1613, 788);
 			this->Controls->Add(this->label129);
 			this->Controls->Add(this->groupBox8);
 			this->Controls->Add(this->label1);
@@ -513,6 +517,18 @@ namespace 电工电路试验台 {
 	}
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();
+}
+private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_IA_5mA->Text = global::GetI500Data();
+}
+private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_IA_5V->Text = global::GetI500Data();
+}
+private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_IA1_5mA->Text = global::GetI500Data();
+}
+private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_IA1_5V->Text = global::GetI500Data();
 }
 };
 }

@@ -282,7 +282,7 @@ void 元件伏安特性的测试实验报告::this_load() {
 void 元件伏安特性的测试实验报告::chart线性_load() {
 	Series ^s = chart线性->Series[0];
 	chart线性->Titles->Add("  线性电阻器伏安特性");
-	ChartArea ^ c = chart白炽->ChartAreas[0];
+	ChartArea ^ c = chart线性->ChartAreas[0];
 	c->AxisX->Interval = 2;
 	c->AxisY->Interval = 2;
 	c->AxisX->ScrollBar->IsPositionedInside = true;
@@ -1033,7 +1033,7 @@ String^ 元件伏安特性的测试实验内容::GetUData() {
 	S_PLCRecv p = GetMData();
 
 	if (p.HeaderId == 6) {
-		return  DcNumToString(p.U, p.DCsymbol);
+		return  DcNumToString(p.U, p.Usymbol);
 	}
 	else {
 		return "0.00";
@@ -1044,7 +1044,7 @@ String^ 元件伏安特性的测试实验内容::GetIData() {
 	S_PLCRecv p = GetMData();
 
 	if (p.HeaderId == 5) {
-		return  DcNumToString(p.I, p.DCsymbol);
+		return  DcNumToString(p.I, p.Isymbol);
 	}
 	else {
 		return "0.00";

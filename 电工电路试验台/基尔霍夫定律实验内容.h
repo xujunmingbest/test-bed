@@ -276,7 +276,9 @@ private: System::Windows::Forms::Label^  label5;
 				static_cast<System::Byte>(134)));
 			this->groupBox8->ForeColor = System::Drawing::Color::Red;
 			this->groupBox8->Location = System::Drawing::Point(12, 25);
+			this->groupBox8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox8->Name = L"groupBox8";
+			this->groupBox8->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox8->Size = System::Drawing::Size(1296, 406);
 			this->groupBox8->TabIndex = 79;
 			this->groupBox8->TabStop = false;
@@ -291,8 +293,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label37->Name = L"label37";
 			this->label37->Size = System::Drawing::Size(913, 64);
 			this->label37->TabIndex = 0;
-			this->label37->Text = L"    实验前，认真接线，确认仪表工作在正确的量程，极性接入正确，无误后再通电； \r\n\r\n    电源两端不可碰线短路，当电源过载指示灯亮，说明超载，请断电检查电"
-				L"路。";
+			this->label37->Text = L"    实验前，认真接线，确认仪表工作在正确的量程，极性正接入，无误后再通电； \r\n\r\n    电源两端不可碰线短路。";
 			// 
 			// label38
 			// 
@@ -301,7 +302,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label38->ForeColor = System::Drawing::Color::Black;
 			this->label38->Location = System::Drawing::Point(24, 178);
 			this->label38->Name = L"label38";
-			this->label38->Size = System::Drawing::Size(992, 207);
+			this->label38->Size = System::Drawing::Size(992, 208);
 			this->label38->TabIndex = 7;
 			this->label38->Text = resources->GetString(L"label38.Text");
 			// 
@@ -366,8 +367,10 @@ private: System::Windows::Forms::Label^  label5;
 			this->groupBox2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox2->Location = System::Drawing::Point(12, 1019);
+			this->groupBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Size = System::Drawing::Size(1293, 343);
+			this->groupBox2->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->groupBox2->Size = System::Drawing::Size(1293, 342);
 			this->groupBox2->TabIndex = 81;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"测量数据";
@@ -376,9 +379,10 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			this->textBox结论->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBox结论->Location = System::Drawing::Point(198, 288);
+			this->textBox结论->Location = System::Drawing::Point(197, 288);
+			this->textBox结论->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBox结论->Name = L"textBox结论";
-			this->textBox结论->Size = System::Drawing::Size(1002, 28);
+			this->textBox结论->Size = System::Drawing::Size(1001, 28);
 			this->textBox结论->TabIndex = 109;
 			// 
 			// label64
@@ -397,7 +401,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label20->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label20->Location = System::Drawing::Point(901, 39);
 			this->label20->Name = L"label20";
-			this->label20->Size = System::Drawing::Size(93, 23);
+			this->label20->Size = System::Drawing::Size(93, 22);
 			this->label20->TabIndex = 97;
 			this->label20->Text = L"UBC";
 			this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -407,7 +411,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label21->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label21->Location = System::Drawing::Point(799, 39);
 			this->label21->Name = L"label21";
-			this->label21->Size = System::Drawing::Size(93, 23);
+			this->label21->Size = System::Drawing::Size(93, 22);
 			this->label21->TabIndex = 96;
 			this->label21->Text = L"UAB";
 			this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -417,7 +421,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label22->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label22->Location = System::Drawing::Point(697, 39);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(93, 23);
+			this->label22->Size = System::Drawing::Size(93, 22);
 			this->label22->TabIndex = 95;
 			this->label22->Text = L"UFA";
 			this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -425,9 +429,9 @@ private: System::Windows::Forms::Label^  label5;
 			// label23
 			// 
 			this->label23->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label23->Location = System::Drawing::Point(598, 39);
+			this->label23->Location = System::Drawing::Point(597, 39);
 			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(93, 23);
+			this->label23->Size = System::Drawing::Size(93, 22);
 			this->label23->TabIndex = 94;
 			this->label23->Text = L"U12";
 			this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -437,7 +441,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label24->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label24->Location = System::Drawing::Point(503, 39);
 			this->label24->Name = L"label24";
-			this->label24->Size = System::Drawing::Size(89, 23);
+			this->label24->Size = System::Drawing::Size(89, 22);
 			this->label24->TabIndex = 93;
 			this->label24->Text = L"U11";
 			this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -447,7 +451,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label25->Location = System::Drawing::Point(401, 39);
 			this->label25->Name = L"label25";
-			this->label25->Size = System::Drawing::Size(92, 23);
+			this->label25->Size = System::Drawing::Size(92, 22);
 			this->label25->TabIndex = 92;
 			this->label25->Text = L"I3(mA)";
 			this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -455,9 +459,9 @@ private: System::Windows::Forms::Label^  label5;
 			// label26
 			// 
 			this->label26->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label26->Location = System::Drawing::Point(302, 39);
+			this->label26->Location = System::Drawing::Point(301, 39);
 			this->label26->Name = L"label26";
-			this->label26->Size = System::Drawing::Size(93, 23);
+			this->label26->Size = System::Drawing::Size(93, 22);
 			this->label26->TabIndex = 91;
 			this->label26->Text = L"I2(mA)";
 			this->label26->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -467,7 +471,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label27->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label27->Location = System::Drawing::Point(200, 39);
 			this->label27->Name = L"label27";
-			this->label27->Size = System::Drawing::Size(93, 23);
+			this->label27->Size = System::Drawing::Size(93, 22);
 			this->label27->TabIndex = 90;
 			this->label27->Text = L"I1(mA)";
 			this->label27->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -477,7 +481,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label28->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label28->Location = System::Drawing::Point(1107, 39);
 			this->label28->Name = L"label28";
-			this->label28->Size = System::Drawing::Size(93, 23);
+			this->label28->Size = System::Drawing::Size(93, 22);
 			this->label28->TabIndex = 89;
 			this->label28->Text = L"UDE";
 			this->label28->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -487,7 +491,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label29->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label29->Location = System::Drawing::Point(1005, 39);
 			this->label29->Name = L"label29";
-			this->label29->Size = System::Drawing::Size(93, 23);
+			this->label29->Size = System::Drawing::Size(93, 22);
 			this->label29->TabIndex = 88;
 			this->label29->Text = L"UCD";
 			this->label29->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -497,7 +501,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label19->ForeColor = System::Drawing::Color::Black;
 			this->label19->Location = System::Drawing::Point(33, 39);
 			this->label19->Name = L"label19";
-			this->label19->Size = System::Drawing::Size(104, 23);
+			this->label19->Size = System::Drawing::Size(104, 22);
 			this->label19->TabIndex = 87;
 			this->label19->Text = L"被测量";
 			// 
@@ -506,7 +510,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaUBC->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaUBC->Location = System::Drawing::Point(901, 235);
 			this->labelrelaUBC->Name = L"labelrelaUBC";
-			this->labelrelaUBC->Size = System::Drawing::Size(93, 23);
+			this->labelrelaUBC->Size = System::Drawing::Size(93, 22);
 			this->labelrelaUBC->TabIndex = 86;
 			this->labelrelaUBC->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -515,7 +519,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaUAB->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaUAB->Location = System::Drawing::Point(799, 235);
 			this->labelrelaUAB->Name = L"labelrelaUAB";
-			this->labelrelaUAB->Size = System::Drawing::Size(93, 23);
+			this->labelrelaUAB->Size = System::Drawing::Size(93, 22);
 			this->labelrelaUAB->TabIndex = 85;
 			this->labelrelaUAB->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -524,16 +528,16 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaUFA->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaUFA->Location = System::Drawing::Point(697, 235);
 			this->labelrelaUFA->Name = L"labelrelaUFA";
-			this->labelrelaUFA->Size = System::Drawing::Size(93, 23);
+			this->labelrelaUFA->Size = System::Drawing::Size(93, 22);
 			this->labelrelaUFA->TabIndex = 84;
 			this->labelrelaUFA->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelrelaU12
 			// 
 			this->labelrelaU12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelrelaU12->Location = System::Drawing::Point(598, 235);
+			this->labelrelaU12->Location = System::Drawing::Point(597, 235);
 			this->labelrelaU12->Name = L"labelrelaU12";
-			this->labelrelaU12->Size = System::Drawing::Size(93, 23);
+			this->labelrelaU12->Size = System::Drawing::Size(93, 22);
 			this->labelrelaU12->TabIndex = 83;
 			this->labelrelaU12->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -542,7 +546,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaU11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaU11->Location = System::Drawing::Point(503, 235);
 			this->labelrelaU11->Name = L"labelrelaU11";
-			this->labelrelaU11->Size = System::Drawing::Size(89, 23);
+			this->labelrelaU11->Size = System::Drawing::Size(89, 22);
 			this->labelrelaU11->TabIndex = 82;
 			this->labelrelaU11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -551,16 +555,16 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaI3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaI3->Location = System::Drawing::Point(401, 235);
 			this->labelrelaI3->Name = L"labelrelaI3";
-			this->labelrelaI3->Size = System::Drawing::Size(92, 23);
+			this->labelrelaI3->Size = System::Drawing::Size(92, 22);
 			this->labelrelaI3->TabIndex = 81;
 			this->labelrelaI3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelrelaI2
 			// 
 			this->labelrelaI2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelrelaI2->Location = System::Drawing::Point(302, 235);
+			this->labelrelaI2->Location = System::Drawing::Point(301, 235);
 			this->labelrelaI2->Name = L"labelrelaI2";
-			this->labelrelaI2->Size = System::Drawing::Size(93, 23);
+			this->labelrelaI2->Size = System::Drawing::Size(93, 22);
 			this->labelrelaI2->TabIndex = 80;
 			this->labelrelaI2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -569,7 +573,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaI1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaI1->Location = System::Drawing::Point(200, 235);
 			this->labelrelaI1->Name = L"labelrelaI1";
-			this->labelrelaI1->Size = System::Drawing::Size(93, 23);
+			this->labelrelaI1->Size = System::Drawing::Size(93, 22);
 			this->labelrelaI1->TabIndex = 79;
 			this->labelrelaI1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -578,7 +582,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaUDE->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaUDE->Location = System::Drawing::Point(1107, 235);
 			this->labelrelaUDE->Name = L"labelrelaUDE";
-			this->labelrelaUDE->Size = System::Drawing::Size(93, 23);
+			this->labelrelaUDE->Size = System::Drawing::Size(93, 22);
 			this->labelrelaUDE->TabIndex = 78;
 			this->labelrelaUDE->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -587,7 +591,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelrelaUCD->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelrelaUCD->Location = System::Drawing::Point(1005, 235);
 			this->labelrelaUCD->Name = L"labelrelaUCD";
-			this->labelrelaUCD->Size = System::Drawing::Size(93, 23);
+			this->labelrelaUCD->Size = System::Drawing::Size(93, 22);
 			this->labelrelaUCD->TabIndex = 77;
 			this->labelrelaUCD->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -596,7 +600,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaUBC->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaUBC->Location = System::Drawing::Point(901, 146);
 			this->labelmeaUBC->Name = L"labelmeaUBC";
-			this->labelmeaUBC->Size = System::Drawing::Size(93, 23);
+			this->labelmeaUBC->Size = System::Drawing::Size(93, 22);
 			this->labelmeaUBC->TabIndex = 76;
 			this->labelmeaUBC->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -605,7 +609,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaUAB->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaUAB->Location = System::Drawing::Point(799, 146);
 			this->labelmeaUAB->Name = L"labelmeaUAB";
-			this->labelmeaUAB->Size = System::Drawing::Size(93, 23);
+			this->labelmeaUAB->Size = System::Drawing::Size(93, 22);
 			this->labelmeaUAB->TabIndex = 75;
 			this->labelmeaUAB->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -614,16 +618,16 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaUFA->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaUFA->Location = System::Drawing::Point(697, 146);
 			this->labelmeaUFA->Name = L"labelmeaUFA";
-			this->labelmeaUFA->Size = System::Drawing::Size(93, 23);
+			this->labelmeaUFA->Size = System::Drawing::Size(93, 22);
 			this->labelmeaUFA->TabIndex = 74;
 			this->labelmeaUFA->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelmeaU12
 			// 
 			this->labelmeaU12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelmeaU12->Location = System::Drawing::Point(598, 146);
+			this->labelmeaU12->Location = System::Drawing::Point(597, 146);
 			this->labelmeaU12->Name = L"labelmeaU12";
-			this->labelmeaU12->Size = System::Drawing::Size(93, 23);
+			this->labelmeaU12->Size = System::Drawing::Size(93, 22);
 			this->labelmeaU12->TabIndex = 73;
 			this->labelmeaU12->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -632,7 +636,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaU11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaU11->Location = System::Drawing::Point(503, 146);
 			this->labelmeaU11->Name = L"labelmeaU11";
-			this->labelmeaU11->Size = System::Drawing::Size(89, 23);
+			this->labelmeaU11->Size = System::Drawing::Size(89, 22);
 			this->labelmeaU11->TabIndex = 72;
 			this->labelmeaU11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -641,16 +645,16 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaI3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaI3->Location = System::Drawing::Point(401, 146);
 			this->labelmeaI3->Name = L"labelmeaI3";
-			this->labelmeaI3->Size = System::Drawing::Size(92, 23);
+			this->labelmeaI3->Size = System::Drawing::Size(92, 22);
 			this->labelmeaI3->TabIndex = 71;
 			this->labelmeaI3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelmeaI2
 			// 
 			this->labelmeaI2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelmeaI2->Location = System::Drawing::Point(302, 146);
+			this->labelmeaI2->Location = System::Drawing::Point(301, 146);
 			this->labelmeaI2->Name = L"labelmeaI2";
-			this->labelmeaI2->Size = System::Drawing::Size(93, 23);
+			this->labelmeaI2->Size = System::Drawing::Size(93, 22);
 			this->labelmeaI2->TabIndex = 70;
 			this->labelmeaI2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -659,13 +663,14 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaI1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaI1->Location = System::Drawing::Point(200, 146);
 			this->labelmeaI1->Name = L"labelmeaI1";
-			this->labelmeaI1->Size = System::Drawing::Size(93, 23);
+			this->labelmeaI1->Size = System::Drawing::Size(93, 22);
 			this->labelmeaI1->TabIndex = 69;
 			this->labelmeaI1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// button41
 			// 
 			this->button41->Location = System::Drawing::Point(1107, 175);
+			this->button41->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button41->Name = L"button41";
 			this->button41->Size = System::Drawing::Size(93, 29);
 			this->button41->TabIndex = 58;
@@ -676,6 +681,7 @@ private: System::Windows::Forms::Label^  label5;
 			// button40
 			// 
 			this->button40->Location = System::Drawing::Point(1005, 175);
+			this->button40->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button40->Name = L"button40";
 			this->button40->Size = System::Drawing::Size(93, 29);
 			this->button40->TabIndex = 57;
@@ -686,6 +692,7 @@ private: System::Windows::Forms::Label^  label5;
 			// button39
 			// 
 			this->button39->Location = System::Drawing::Point(901, 175);
+			this->button39->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button39->Name = L"button39";
 			this->button39->Size = System::Drawing::Size(93, 29);
 			this->button39->TabIndex = 56;
@@ -696,6 +703,7 @@ private: System::Windows::Forms::Label^  label5;
 			// button38
 			// 
 			this->button38->Location = System::Drawing::Point(799, 175);
+			this->button38->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button38->Name = L"button38";
 			this->button38->Size = System::Drawing::Size(93, 29);
 			this->button38->TabIndex = 55;
@@ -706,6 +714,7 @@ private: System::Windows::Forms::Label^  label5;
 			// button37
 			// 
 			this->button37->Location = System::Drawing::Point(697, 175);
+			this->button37->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button37->Name = L"button37";
 			this->button37->Size = System::Drawing::Size(93, 29);
 			this->button37->TabIndex = 54;
@@ -715,27 +724,30 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// button36
 			// 
-			this->button36->Location = System::Drawing::Point(598, 175);
+			this->button36->Location = System::Drawing::Point(597, 175);
+			this->button36->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button36->Name = L"button36";
 			this->button36->Size = System::Drawing::Size(93, 29);
 			this->button36->TabIndex = 53;
-			this->button36->Text = L"获取";
+			this->button36->Text = L"设置";
 			this->button36->UseVisualStyleBackColor = true;
 			this->button36->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button36_Click);
 			// 
 			// button35
 			// 
 			this->button35->Location = System::Drawing::Point(503, 175);
+			this->button35->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button35->Name = L"button35";
 			this->button35->Size = System::Drawing::Size(93, 29);
 			this->button35->TabIndex = 52;
-			this->button35->Text = L"获取";
+			this->button35->Text = L"设置";
 			this->button35->UseVisualStyleBackColor = true;
 			this->button35->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button35_Click);
 			// 
 			// button34
 			// 
 			this->button34->Location = System::Drawing::Point(401, 175);
+			this->button34->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button34->Name = L"button34";
 			this->button34->Size = System::Drawing::Size(93, 29);
 			this->button34->TabIndex = 51;
@@ -745,7 +757,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// button33
 			// 
-			this->button33->Location = System::Drawing::Point(302, 175);
+			this->button33->Location = System::Drawing::Point(301, 175);
+			this->button33->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button33->Name = L"button33";
 			this->button33->Size = System::Drawing::Size(93, 29);
 			this->button33->TabIndex = 50;
@@ -755,7 +768,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// button32
 			// 
-			this->button32->Location = System::Drawing::Point(198, 175);
+			this->button32->Location = System::Drawing::Point(197, 175);
+			this->button32->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button32->Name = L"button32";
 			this->button32->Size = System::Drawing::Size(93, 29);
 			this->button32->TabIndex = 49;
@@ -768,7 +782,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaUDE->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaUDE->Location = System::Drawing::Point(1107, 146);
 			this->labelmeaUDE->Name = L"labelmeaUDE";
-			this->labelmeaUDE->Size = System::Drawing::Size(93, 23);
+			this->labelmeaUDE->Size = System::Drawing::Size(93, 22);
 			this->labelmeaUDE->TabIndex = 47;
 			this->labelmeaUDE->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
@@ -777,13 +791,14 @@ private: System::Windows::Forms::Label^  label5;
 			this->labelmeaUCD->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelmeaUCD->Location = System::Drawing::Point(1005, 146);
 			this->labelmeaUCD->Name = L"labelmeaUCD";
-			this->labelmeaUCD->Size = System::Drawing::Size(93, 23);
+			this->labelmeaUCD->Size = System::Drawing::Size(93, 22);
 			this->labelmeaUCD->TabIndex = 46;
 			this->labelmeaUCD->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// textBoxcalUDE
 			// 
-			this->textBoxcalUDE->Location = System::Drawing::Point(1107, 87);
+			this->textBoxcalUDE->Location = System::Drawing::Point(1107, 88);
+			this->textBoxcalUDE->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalUDE->Name = L"textBoxcalUDE";
 			this->textBoxcalUDE->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalUDE->TabIndex = 26;
@@ -791,7 +806,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalUCD
 			// 
-			this->textBoxcalUCD->Location = System::Drawing::Point(1005, 87);
+			this->textBoxcalUCD->Location = System::Drawing::Point(1005, 88);
+			this->textBoxcalUCD->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalUCD->Name = L"textBoxcalUCD";
 			this->textBoxcalUCD->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalUCD->TabIndex = 24;
@@ -799,15 +815,17 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalUBC
 			// 
-			this->textBoxcalUBC->Location = System::Drawing::Point(901, 87);
+			this->textBoxcalUBC->Location = System::Drawing::Point(901, 88);
+			this->textBoxcalUBC->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalUBC->Name = L"textBoxcalUBC";
-			this->textBoxcalUBC->Size = System::Drawing::Size(98, 30);
+			this->textBoxcalUBC->Size = System::Drawing::Size(97, 30);
 			this->textBoxcalUBC->TabIndex = 22;
 			this->textBoxcalUBC->TextChanged += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::textBoxcalUBC_TextChanged);
 			// 
 			// textBoxcalUAB
 			// 
-			this->textBoxcalUAB->Location = System::Drawing::Point(799, 87);
+			this->textBoxcalUAB->Location = System::Drawing::Point(799, 88);
+			this->textBoxcalUAB->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalUAB->Name = L"textBoxcalUAB";
 			this->textBoxcalUAB->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalUAB->TabIndex = 20;
@@ -815,7 +833,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalUFA
 			// 
-			this->textBoxcalUFA->Location = System::Drawing::Point(697, 87);
+			this->textBoxcalUFA->Location = System::Drawing::Point(697, 88);
+			this->textBoxcalUFA->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalUFA->Name = L"textBoxcalUFA";
 			this->textBoxcalUFA->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalUFA->TabIndex = 18;
@@ -823,7 +842,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalU12
 			// 
-			this->textBoxcalU12->Location = System::Drawing::Point(598, 87);
+			this->textBoxcalU12->Location = System::Drawing::Point(597, 88);
+			this->textBoxcalU12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalU12->Name = L"textBoxcalU12";
 			this->textBoxcalU12->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalU12->TabIndex = 16;
@@ -831,7 +851,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalU11
 			// 
-			this->textBoxcalU11->Location = System::Drawing::Point(503, 87);
+			this->textBoxcalU11->Location = System::Drawing::Point(503, 88);
+			this->textBoxcalU11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalU11->Name = L"textBoxcalU11";
 			this->textBoxcalU11->Size = System::Drawing::Size(89, 30);
 			this->textBoxcalU11->TabIndex = 14;
@@ -839,7 +860,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalI3
 			// 
-			this->textBoxcalI3->Location = System::Drawing::Point(400, 87);
+			this->textBoxcalI3->Location = System::Drawing::Point(400, 88);
+			this->textBoxcalI3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalI3->Name = L"textBoxcalI3";
 			this->textBoxcalI3->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalI3->TabIndex = 12;
@@ -847,7 +869,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalI2
 			// 
-			this->textBoxcalI2->Location = System::Drawing::Point(301, 87);
+			this->textBoxcalI2->Location = System::Drawing::Point(301, 88);
+			this->textBoxcalI2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalI2->Name = L"textBoxcalI2";
 			this->textBoxcalI2->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalI2->TabIndex = 10;
@@ -855,7 +878,8 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxcalI1
 			// 
-			this->textBoxcalI1->Location = System::Drawing::Point(198, 87);
+			this->textBoxcalI1->Location = System::Drawing::Point(197, 88);
+			this->textBoxcalI1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxcalI1->Name = L"textBoxcalI1";
 			this->textBoxcalI1->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalI1->TabIndex = 8;
@@ -866,16 +890,16 @@ private: System::Windows::Forms::Label^  label5;
 			this->label40->ForeColor = System::Drawing::Color::Black;
 			this->label40->Location = System::Drawing::Point(33, 236);
 			this->label40->Name = L"label40";
-			this->label40->Size = System::Drawing::Size(115, 23);
+			this->label40->Size = System::Drawing::Size(115, 22);
 			this->label40->TabIndex = 7;
 			this->label40->Text = L"相对误差";
 			// 
 			// label41
 			// 
 			this->label41->ForeColor = System::Drawing::Color::Black;
-			this->label41->Location = System::Drawing::Point(33, 147);
+			this->label41->Location = System::Drawing::Point(33, 148);
 			this->label41->Name = L"label41";
-			this->label41->Size = System::Drawing::Size(91, 23);
+			this->label41->Size = System::Drawing::Size(91, 22);
 			this->label41->TabIndex = 6;
 			this->label41->Text = L"测量值";
 			// 
@@ -884,13 +908,14 @@ private: System::Windows::Forms::Label^  label5;
 			this->label42->ForeColor = System::Drawing::Color::Black;
 			this->label42->Location = System::Drawing::Point(33, 90);
 			this->label42->Name = L"label42";
-			this->label42->Size = System::Drawing::Size(104, 23);
+			this->label42->Size = System::Drawing::Size(104, 22);
 			this->label42->TabIndex = 5;
-			this->label42->Text = L"计算值";
+			this->label42->Text = L"输入值";
 			// 
 			// button1
 			// 
 			this->button1->Location = System::Drawing::Point(664, 1368);
+			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(195, 39);
 			this->button1->TabIndex = 98;
@@ -902,6 +927,7 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
 			this->pictureBox1->Location = System::Drawing::Point(49, 472);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(500, 469);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -912,6 +938,7 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
 			this->pictureBox2->Location = System::Drawing::Point(737, 685);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(200, 200);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -922,6 +949,7 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
 			this->pictureBox3->Location = System::Drawing::Point(1096, 685);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(200, 200);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -955,7 +983,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label3->Location = System::Drawing::Point(810, 888);
+			this->label3->Location = System::Drawing::Point(811, 888);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(49, 20);
 			this->label3->TabIndex = 87;
@@ -979,7 +1007,7 @@ private: System::Windows::Forms::Label^  label5;
 				static_cast<System::Byte>(134)));
 			this->label5->Location = System::Drawing::Point(7, 1416);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(1526, 52);
+			this->label5->Size = System::Drawing::Size(1525, 52);
 			this->label5->TabIndex = 112;
 			this->label5->Text = L"答题结束";
 			this->label5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -989,7 +1017,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1806, 803);
+			this->ClientSize = System::Drawing::Size(1805, 802);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->button1);
@@ -1002,6 +1030,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox8);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->Name = L"基尔霍夫定律实验内容";
 			this->Text = L"基尔霍夫定律实验内容";
 			this->Load += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::基尔霍夫定律实验内容_Load);
@@ -1064,10 +1093,12 @@ private: System::Void button34_Click(System::Object^  sender, System::EventArgs^
 	labelmeaI3->Text = GetIData();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaU11->Text = GetUData();
+	labelmeaU11->Text = textBoxcalU11->Text;
+	SetDVNum(textBoxcalU11->Text, 0, 30);
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelmeaU12->Text = GetUData();
+	SetDVNum(textBoxcalU12->Text, 0, 30);
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelmeaUFA->Text = GetUData();

@@ -683,6 +683,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button17->TabIndex = 101;
 			this->button17->Text = L"获取";
 			this->button17->UseVisualStyleBackColor = true;
+			this->button17->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button17_Click);
 			// 
 			// button18
 			// 
@@ -696,6 +697,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button18->TabIndex = 99;
 			this->button18->Text = L"获取";
 			this->button18->UseVisualStyleBackColor = true;
+			this->button18->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button18_Click);
 			// 
 			// button19
 			// 
@@ -709,6 +711,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button19->TabIndex = 97;
 			this->button19->Text = L"获取";
 			this->button19->UseVisualStyleBackColor = true;
+			this->button19->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button19_Click);
 			// 
 			// button20
 			// 
@@ -722,6 +725,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button20->TabIndex = 95;
 			this->button20->Text = L"获取";
 			this->button20->UseVisualStyleBackColor = true;
+			this->button20->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button20_Click);
 			// 
 			// button21
 			// 
@@ -735,6 +739,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button21->TabIndex = 93;
 			this->button21->Text = L"获取";
 			this->button21->UseVisualStyleBackColor = true;
+			this->button21->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button21_Click);
 			// 
 			// button22
 			// 
@@ -748,6 +753,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button22->TabIndex = 91;
 			this->button22->Text = L"获取";
 			this->button22->UseVisualStyleBackColor = true;
+			this->button22->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button22_Click);
 			// 
 			// button23
 			// 
@@ -761,6 +767,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button23->TabIndex = 89;
 			this->button23->Text = L"获取";
 			this->button23->UseVisualStyleBackColor = true;
+			this->button23->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button23_Click);
 			// 
 			// button24
 			// 
@@ -774,6 +781,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button24->TabIndex = 87;
 			this->button24->Text = L"获取";
 			this->button24->UseVisualStyleBackColor = true;
+			this->button24->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button24_Click);
 			// 
 			// label5
 			// 
@@ -812,6 +820,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button9->TabIndex = 83;
 			this->button9->Text = L"获取";
 			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button9_Click);
 			// 
 			// button10
 			// 
@@ -825,6 +834,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button10->TabIndex = 81;
 			this->button10->Text = L"获取";
 			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button10_Click);
 			// 
 			// button11
 			// 
@@ -838,6 +848,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button11->TabIndex = 79;
 			this->button11->Text = L"获取";
 			this->button11->UseVisualStyleBackColor = true;
+			this->button11->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button11_Click);
 			// 
 			// button12
 			// 
@@ -851,6 +862,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button12->TabIndex = 77;
 			this->button12->Text = L"获取";
 			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button12_Click);
 			// 
 			// button13
 			// 
@@ -864,6 +876,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button13->TabIndex = 75;
 			this->button13->Text = L"获取";
 			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button13_Click);
 			// 
 			// button14
 			// 
@@ -877,6 +890,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button14->TabIndex = 73;
 			this->button14->Text = L"获取";
 			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button14_Click);
 			// 
 			// button15
 			// 
@@ -890,6 +904,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button15->TabIndex = 71;
 			this->button15->Text = L"获取";
 			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button15_Click);
 			// 
 			// button16
 			// 
@@ -903,6 +918,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button16->TabIndex = 69;
 			this->button16->Text = L"获取";
 			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button16_Click);
 			// 
 			// label4
 			// 
@@ -929,6 +945,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button3->TabIndex = 66;
 			this->button3->Text = L"设置";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button3_Click);
 			// 
 			// textBoxTrial1_F8
 			// 
@@ -949,6 +966,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button6->TabIndex = 64;
 			this->button6->Text = L"设置";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button6_Click);
 			// 
 			// textBoxTrial1_F7
 			// 
@@ -969,6 +987,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button7->TabIndex = 62;
 			this->button7->Text = L"设置";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button7_Click);
 			// 
 			// textBoxTrial1_F6
 			// 
@@ -989,6 +1008,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button8->TabIndex = 60;
 			this->button8->Text = L"设置";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button8_Click);
 			// 
 			// textBoxTrial1_F5
 			// 
@@ -1009,6 +1029,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button1->TabIndex = 58;
 			this->button1->Text = L"设置";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button1_Click);
 			// 
 			// textBoxTrial1_F4
 			// 
@@ -1029,6 +1050,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button2->TabIndex = 56;
 			this->button2->Text = L"设置";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button2_Click);
 			// 
 			// textBoxTrial1_F3
 			// 
@@ -1049,6 +1071,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button5->TabIndex = 54;
 			this->button5->Text = L"设置";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button5_Click);
 			// 
 			// textBoxTrial1_F2
 			// 
@@ -1069,6 +1092,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button4->TabIndex = 52;
 			this->button4->Text = L"设置";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button4_Click);
 			// 
 			// textBoxTrial1_F1
 			// 
@@ -1567,6 +1591,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button41->TabIndex = 66;
 			this->button41->Text = L"设置";
 			this->button41->UseVisualStyleBackColor = true;
+			this->button41->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button41_Click);
 			// 
 			// textBoxTrial2_F8
 			// 
@@ -1587,6 +1612,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button42->TabIndex = 64;
 			this->button42->Text = L"设置";
 			this->button42->UseVisualStyleBackColor = true;
+			this->button42->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button42_Click);
 			// 
 			// textBoxTrial2_F7
 			// 
@@ -1607,6 +1633,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button43->TabIndex = 62;
 			this->button43->Text = L"设置";
 			this->button43->UseVisualStyleBackColor = true;
+			this->button43->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button43_Click);
 			// 
 			// textBoxTrial2_F6
 			// 
@@ -1627,6 +1654,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button44->TabIndex = 60;
 			this->button44->Text = L"设置";
 			this->button44->UseVisualStyleBackColor = true;
+			this->button44->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button44_Click);
 			// 
 			// textBoxTrial2_F5
 			// 
@@ -1647,6 +1675,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button45->TabIndex = 58;
 			this->button45->Text = L"设置";
 			this->button45->UseVisualStyleBackColor = true;
+			this->button45->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button45_Click);
 			// 
 			// textBoxTrial2_F4
 			// 
@@ -1667,6 +1696,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button46->TabIndex = 56;
 			this->button46->Text = L"设置";
 			this->button46->UseVisualStyleBackColor = true;
+			this->button46->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button46_Click);
 			// 
 			// textBoxTrial2_F3
 			// 
@@ -1687,6 +1717,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button47->TabIndex = 54;
 			this->button47->Text = L"设置";
 			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button47_Click);
 			// 
 			// textBoxTrial2_F2
 			// 
@@ -1707,6 +1738,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button48->TabIndex = 52;
 			this->button48->Text = L"设置";
 			this->button48->UseVisualStyleBackColor = true;
+			this->button48->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button48_Click);
 			// 
 			// textBoxTrial2_F1
 			// 
@@ -1797,7 +1829,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1538, 682);
+			this->ClientSize = System::Drawing::Size(1395, 682);
 			this->Controls->Add(this->textBox结论);
 			this->Controls->Add(this->label105);
 			this->Controls->Add(this->label129);
@@ -1824,6 +1856,216 @@ private: System::Void RC网络的频率特性实验内容_Load(System::Object^  sender, Sys
 }
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F1->Text);
+		int value = valuef * 100 ;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F2->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F3->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F4->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F5->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F6->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F7->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial1_F8->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_1->Text = global::GetU30Data();
+}
+private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_2->Text = global::GetU30Data();
+}
+private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_3->Text = global::GetU30Data();
+}
+private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_4->Text = global::GetU30Data();
+}
+private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_5->Text = global::GetU30Data();
+}
+private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_6->Text = global::GetU30Data();
+}
+private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_7->Text = global::GetU30Data();
+}
+private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo1_8->Text = global::GetU30Data();
+}
+private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_1->Text = global::GetU30Data();
+}
+private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_2->Text = global::GetU30Data();
+}
+private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_3->Text = global::GetU30Data();
+}
+private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_4->Text = global::GetU30Data();
+}
+private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_5->Text = global::GetU30Data();
+}
+private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_6->Text = global::GetU30Data();
+}
+private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_7->Text = global::GetU30Data();
+}
+private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Uo2_8->Text = global::GetU30Data();
+}
+private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F1->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F2->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F3->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F4->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+
+private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F5->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F6->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F7->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
+}
+private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float valuef = Convert::ToSingle(textBoxTrial2_F8->Text);
+		int value = valuef * 100;
+		global::scs->SetFrequency(value);
+	}
+	catch (System::Exception^e) {
+
+	}
 }
 };
 }

@@ -71,6 +71,7 @@ ST_叠加原理 叠加原理实验内容::Load_Grade_data() {
 	snprintf(d.Line3UBC, 10, "%s", labelLine3UBC->Text);
 	snprintf(d.Line3UCD, 10, "%s", labelLine3UCD->Text);
 
+	/*
 	snprintf(d.Line4I1, 10, "%s", labelLine4I1->Text);
 	snprintf(d.Line4I2, 10, "%s", labelLine4I2->Text);
 	snprintf(d.Line4I3, 10, "%s", labelLine4I3->Text);
@@ -80,7 +81,7 @@ ST_叠加原理 叠加原理实验内容::Load_Grade_data() {
 	snprintf(d.Line4UFA, 10, "%s", labelLine4UFA->Text);
 	snprintf(d.Line4UAB, 10, "%s", labelLine4UAB->Text);
 	snprintf(d.Line4UBC, 10, "%s", labelLine4UBC->Text);
-	snprintf(d.Line4UCD, 10, "%s", labelLine4UCD->Text);
+	snprintf(d.Line4UCD, 10, "%s", labelLine4UCD->Text);*/
 
 	snprintf(d.Line5I1, 10, "%s", labelLine5I1->Text);
 	snprintf(d.Line5I2, 10, "%s", labelLine5I2->Text);

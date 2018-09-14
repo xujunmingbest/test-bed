@@ -23,7 +23,9 @@ struct S_PLCRecv {
 	uint P;
 	uint COS;
 	uint Fhz;
-	uint DCsymbol;
+	BYTE DCsymbol;
+	BYTE Usymbol;
+	BYTE Isymbol;
 };
 
 

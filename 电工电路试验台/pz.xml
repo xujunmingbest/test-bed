@@ -9,9 +9,9 @@
     <SerialHandle>COM18</SerialHandle> <!--测试仪器力控包接收-->
     <SerialControlSource>COM17</SerialControlSource> <!--控制电源-->
     <TeacherIp>127.0.0.1</TeacherIp> <!--成绩上传IP 短连接-->
-    <GradePort>1235</GradePort> <!--成绩上传端口-->
-    <LongConnectPort>1236</LongConnectPort><!--长连接接口-->
+    <GradePort>10000</GradePort> <!--成绩上传端口-->
+    <LongConnectPort>10001</LongConnectPort><!--长连接接口-->
     <CapturePort>1237</CapturePort> <!--发送屏幕截图的 -->
-    <GradeMonitorPort>1239</GradeMonitorPort><!--发送数据监控的 -->
+    <GradeMonitorPort>10002</GradeMonitorPort><!--发送数据监控的 -->
     <ComputerId>机台1</ComputerId> <!--机台编号 -->
 </Info>

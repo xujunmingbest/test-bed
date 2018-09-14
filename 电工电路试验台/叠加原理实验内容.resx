@@ -117,18 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label38.Text" xml:space="preserve">
-    <value>    1．将开关向上拔，即电阻R=330Ω接入电路中。
-
-    2．令U11＝12V、U12＝0V（U12用导线短接）单电源工作时，测量各支路电流及各电阻元件两端的电压，数据记入表格中。
-
-    3．令U11＝0V、U12＝6V（U11用导线短接）单电源工作时，测量各支路电流及各电阻元件两端的电压，数据记入表格中。
-
-    4．令U11＝12V、U12＝6V双电源工作时，测量各支路电流及各电阻元件两端的电压，数据记入表格中。
-
-    5．令U11＝0V、U12＝12V（U11用导线短接）单电源工作时，测量各支路电流及各电阻元件两端的电压，数据记入表格中。
-    </value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

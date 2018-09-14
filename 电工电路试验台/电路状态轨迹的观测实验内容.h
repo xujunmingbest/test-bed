@@ -54,7 +54,7 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  label3;
 	private: System::Windows::Forms::PictureBox^  pictureBox2;
 	private: System::Windows::Forms::Label^  label106;
-	private: System::Windows::Forms::Label^  label6;
+
 	private: System::Windows::Forms::Label^  label7;
 	private: System::Windows::Forms::Button^  button81;
 	private: System::Windows::Forms::TextBox^  textBox结论;
@@ -77,7 +77,6 @@ namespace 电工电路试验台 {
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(电路状态轨迹的观测实验内容::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
@@ -114,7 +113,6 @@ namespace 电工电路试验台 {
 			// 
 			// groupBox1
 			// 
-			this->groupBox1->Controls->Add(this->label6);
 			this->groupBox1->Controls->Add(this->button3);
 			this->groupBox1->Controls->Add(this->label5);
 			this->groupBox1->Controls->Add(this->pictureBox3);
@@ -130,28 +128,18 @@ namespace 电工电路试验台 {
 			this->groupBox1->Font = (gcnew System::Drawing::Font(L"宋体", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
-			this->groupBox1->Location = System::Drawing::Point(27, 63);
+			this->groupBox1->Location = System::Drawing::Point(27, 83);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(1350, 2130);
+			this->groupBox1->Size = System::Drawing::Size(1350, 2110);
 			this->groupBox1->TabIndex = 2;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"实验内容";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &电路状态轨迹的观测实验内容::groupBox1_Enter);
 			// 
-			// label6
-			// 
-			this->label6->ForeColor = System::Drawing::Color::Black;
-			this->label6->Location = System::Drawing::Point(44, 64);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(973, 145);
-			this->label6->TabIndex = 190;
-			this->label6->Text = L"1. 简述用示波器显示李萨如图的原理和示波器的联接方法。\r\n\r\n2. 哪些是图11-1电路的状态变量，在不同电阻值时它的状态轨迹大致形状如何？\r\n\r\n3. 观察状"
-				L"态轨迹时示波器与电路应如何接法？    ";
-			// 
 			// button3
 			// 
 			this->button3->ForeColor = System::Drawing::Color::Black;
-			this->button3->Location = System::Drawing::Point(715, 2076);
+			this->button3->Location = System::Drawing::Point(717, 2065);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(134, 39);
 			this->button3->TabIndex = 189;
@@ -162,7 +150,7 @@ namespace 电工电路试验台 {
 			// label5
 			// 
 			this->label5->ForeColor = System::Drawing::Color::Black;
-			this->label5->Location = System::Drawing::Point(149, 2089);
+			this->label5->Location = System::Drawing::Point(151, 2080);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(341, 27);
 			this->label5->TabIndex = 188;
@@ -257,8 +245,7 @@ namespace 电工电路试验台 {
 			this->label102->Name = L"label102";
 			this->label102->Size = System::Drawing::Size(973, 82);
 			this->label102->TabIndex = 89;
-			this->label102->Text = L"    按上诉三条拟定的方案，利用 “电路状态轨迹的观测”线路联接电路和仪器。然后打开信号源和示波器的电源，观察图11-1电路的状态轨迹。应调节电路中哪些元件参数"
-				L"，使之能观察到预计的状态轨迹\?";
+			this->label102->Text = L"    然后打开信号源和示波器的电源，观察图11-1电路的状态轨迹。应调节电路中哪些元件参数，使之能观察到预计的状态轨迹\?";
 			// 
 			// pictureBox1
 			// 
@@ -269,6 +256,7 @@ namespace 电工电路试验台 {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox1->TabIndex = 3;
 			this->pictureBox1->TabStop = false;
+			this->pictureBox1->Click += gcnew System::EventHandler(this, &电路状态轨迹的观测实验内容::pictureBox1_Click);
 			// 
 			// label7
 			// 
@@ -377,6 +365,8 @@ private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs
 private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();
 
+}
+private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

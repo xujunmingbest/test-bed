@@ -128,6 +128,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Reference Include="AForge.Controls">
+      <HintPath>D:\software\AForge.NET Framework-2.2.4\Release\AForge.Controls.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Speech">
       <HintPath>C:\Program Files\Microsoft Speech Platform SDK\Assembly\Microsoft.Speech.dll</HintPath>
     </Reference>

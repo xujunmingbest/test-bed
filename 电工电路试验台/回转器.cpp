@@ -33,10 +33,20 @@ void 回转器实验内容::SendData() {
 
 
 }
+#include "E:/c++/libfilesql/libfilesql/libfilesql.h"
 
 ST_回转器 回转器实验内容::Load_Grade_data() {
 	ST_回转器 d;
 	memset(&d, 0x00, sizeof(ST_回转器));
+
+	fileSql f;
+	string trial1bmp_U = f.Readfile(T_to_string(trial1Path_U));
+	if (trial1bmp_U.length() == sizeof(d.Trial1_Bmp_U))
+		memcpy(d.Trial1_Bmp_U, trial1bmp_U.c_str(), sizeof(d.Trial1_Bmp_U));
+	string trial1bmp_I = f.Readfile(T_to_string(trial1Path_I));
+	if (trial1bmp_I.length() == sizeof(d.Trial1_Bmp_U))
+		memcpy(d.Trial1_Bmp_U, trial1bmp_I.c_str(), sizeof(d.Trial1_Bmp_U));
+
 
 	snprintf(d.Trial1_U1_line1, 10, "%s", labelTrial1_U1_line1->Text);
 	snprintf(d.Trial1_U1_line2, 10, "%s", labelTrial1_U1_line2->Text);

@@ -215,7 +215,7 @@ int GetDcNum(string &in);
 入参数: 实际数字乘以100后的 无符号int，无符号 电流电压标符号
 返回值: 实际数字 含有两位小数的  String 类型数字字符串
 */
-String^ DcNumToString(uint in, uint DcSymbol); /*返回数值 有 整数和小数*/
+String^ DcNumToString(uint in, BYTE DcSymbol); /*返回数值 有 整数和小数*/
 
 
 bool SetDVNum(String ^text,int min,int max);
@@ -321,7 +321,7 @@ public:
 		S_PLCRecv p = GetMData();
 
 		if (p.HeaderId == 6) {
-			return  DcNumToString(p.U, p.DCsymbol);
+			return  DcNumToString(p.U, p.Usymbol);
 		}
 		else {
 			return "0.00";
@@ -331,7 +331,17 @@ public:
 		S_PLCRecv p = GetMData();
 
 		if (p.HeaderId == 5) {
-			return  DcNumToString(p.I, p.DCsymbol);
+			return  DcNumToString(p.I, p.Isymbol);
+		}
+		else {
+			return "0.00";
+		}
+	}
+	static String^ GetPData() {
+		S_PLCRecv p = GetMData();
+
+		if (p.HeaderId == 4) {
+			return  DcNumToString(p.U, 0);
 		}
 		else {
 			return "0.00";

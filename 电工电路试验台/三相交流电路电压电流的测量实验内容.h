@@ -677,6 +677,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button45->TabIndex = 167;
 			this->button45->Text = L"获取";
 			this->button45->UseVisualStyleBackColor = true;
+			this->button45->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button45_Click);
 			// 
 			// labelTrial1_Line5_IO
 			// 
@@ -700,6 +701,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button46->TabIndex = 165;
 			this->button46->Text = L"获取";
 			this->button46->UseVisualStyleBackColor = true;
+			this->button46->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button46_Click);
 			// 
 			// labelTrial1_Line5_UCO
 			// 
@@ -723,6 +725,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button47->TabIndex = 163;
 			this->button47->Text = L"获取";
 			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button47_Click);
 			// 
 			// labelTrial1_Line5_UBO
 			// 
@@ -746,6 +749,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button48->TabIndex = 161;
 			this->button48->Text = L"获取";
 			this->button48->UseVisualStyleBackColor = true;
+			this->button48->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button48_Click);
 			// 
 			// labelTrial1_Line5_UAO
 			// 
@@ -769,6 +773,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button49->TabIndex = 159;
 			this->button49->Text = L"获取";
 			this->button49->UseVisualStyleBackColor = true;
+			this->button49->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button49_Click);
 			// 
 			// labelTrial1_Line5_UCA
 			// 
@@ -792,6 +797,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button50->TabIndex = 157;
 			this->button50->Text = L"获取";
 			this->button50->UseVisualStyleBackColor = true;
+			this->button50->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button50_Click);
 			// 
 			// labelTrial1_Line5_UBC
 			// 
@@ -815,6 +821,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button51->TabIndex = 155;
 			this->button51->Text = L"获取";
 			this->button51->UseVisualStyleBackColor = true;
+			this->button51->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button51_Click);
 			// 
 			// labelTrial1_Line5_UAB
 			// 
@@ -838,6 +845,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button52->TabIndex = 153;
 			this->button52->Text = L"获取";
 			this->button52->UseVisualStyleBackColor = true;
+			this->button52->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button52_Click);
 			// 
 			// labelTrial1_Line5_IC
 			// 
@@ -861,6 +869,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button53->TabIndex = 151;
 			this->button53->Text = L"获取";
 			this->button53->UseVisualStyleBackColor = true;
+			this->button53->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button53_Click);
 			// 
 			// labelTrial1_Line5_IB
 			// 
@@ -884,6 +893,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button54->TabIndex = 149;
 			this->button54->Text = L"获取";
 			this->button54->UseVisualStyleBackColor = true;
+			this->button54->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button54_Click);
 			// 
 			// labelTrial1_Line5_IA
 			// 
@@ -907,6 +917,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button55->TabIndex = 147;
 			this->button55->Text = L"获取";
 			this->button55->UseVisualStyleBackColor = true;
+			this->button55->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button55_Click);
 			// 
 			// labelTrial1_Line4_UNO
 			// 
@@ -930,6 +941,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button34->TabIndex = 145;
 			this->button34->Text = L"获取";
 			this->button34->UseVisualStyleBackColor = true;
+			this->button34->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button34_Click);
 			// 
 			// labelTrial1_Line4_IO
 			// 
@@ -953,6 +965,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button35->TabIndex = 143;
 			this->button35->Text = L"获取";
 			this->button35->UseVisualStyleBackColor = true;
+			this->button35->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button35_Click);
 			// 
 			// labelTrial1_Line4_UCO
 			// 
@@ -976,6 +989,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button36->TabIndex = 141;
 			this->button36->Text = L"获取";
 			this->button36->UseVisualStyleBackColor = true;
+			this->button36->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button36_Click);
 			// 
 			// labelTrial1_Line4_UBO
 			// 
@@ -999,6 +1013,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button37->TabIndex = 139;
 			this->button37->Text = L"获取";
 			this->button37->UseVisualStyleBackColor = true;
+			this->button37->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button37_Click);
 			// 
 			// labelTrial1_Line4_UAO
 			// 
@@ -1022,6 +1037,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button38->TabIndex = 137;
 			this->button38->Text = L"获取";
 			this->button38->UseVisualStyleBackColor = true;
+			this->button38->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button38_Click);
 			// 
 			// labelTrial1_Line4_UCA
 			// 
@@ -1045,6 +1061,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button39->TabIndex = 135;
 			this->button39->Text = L"获取";
 			this->button39->UseVisualStyleBackColor = true;
+			this->button39->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button39_Click);
 			// 
 			// labelTrial1_Line4_UBC
 			// 
@@ -1068,6 +1085,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button40->TabIndex = 133;
 			this->button40->Text = L"获取";
 			this->button40->UseVisualStyleBackColor = true;
+			this->button40->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button40_Click);
 			// 
 			// labelTrial1_Line4_UAB
 			// 
@@ -1091,6 +1109,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button41->TabIndex = 131;
 			this->button41->Text = L"获取";
 			this->button41->UseVisualStyleBackColor = true;
+			this->button41->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button41_Click);
 			// 
 			// labelTrial1_Line4_IC
 			// 
@@ -1114,6 +1133,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button42->TabIndex = 129;
 			this->button42->Text = L"获取";
 			this->button42->UseVisualStyleBackColor = true;
+			this->button42->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button42_Click);
 			// 
 			// labelTrial1_Line4_IB
 			// 
@@ -1137,6 +1157,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button43->TabIndex = 127;
 			this->button43->Text = L"获取";
 			this->button43->UseVisualStyleBackColor = true;
+			this->button43->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button43_Click);
 			// 
 			// labelTrial1_Line4_IA
 			// 
@@ -1160,6 +1181,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button44->TabIndex = 125;
 			this->button44->Text = L"获取";
 			this->button44->UseVisualStyleBackColor = true;
+			this->button44->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button44_Click);
 			// 
 			// labelTrial1_Line3_UNO
 			// 
@@ -1183,6 +1205,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button23->TabIndex = 123;
 			this->button23->Text = L"获取";
 			this->button23->UseVisualStyleBackColor = true;
+			this->button23->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button23_Click);
 			// 
 			// labelTrial1_Line3_IO
 			// 
@@ -1206,6 +1229,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button24->TabIndex = 121;
 			this->button24->Text = L"获取";
 			this->button24->UseVisualStyleBackColor = true;
+			this->button24->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button24_Click);
 			// 
 			// labelTrial1_Line3_UCO
 			// 
@@ -1229,6 +1253,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button25->TabIndex = 119;
 			this->button25->Text = L"获取";
 			this->button25->UseVisualStyleBackColor = true;
+			this->button25->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button25_Click);
 			// 
 			// labelTrial1_Line3_UBO
 			// 
@@ -1252,6 +1277,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button26->TabIndex = 117;
 			this->button26->Text = L"获取";
 			this->button26->UseVisualStyleBackColor = true;
+			this->button26->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button26_Click);
 			// 
 			// labelTrial1_Line3_UAO
 			// 
@@ -1275,6 +1301,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button27->TabIndex = 115;
 			this->button27->Text = L"获取";
 			this->button27->UseVisualStyleBackColor = true;
+			this->button27->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button27_Click);
 			// 
 			// labelTrial1_Line3_UCA
 			// 
@@ -1298,6 +1325,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button28->TabIndex = 113;
 			this->button28->Text = L"获取";
 			this->button28->UseVisualStyleBackColor = true;
+			this->button28->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button28_Click);
 			// 
 			// labelTrial1_Line3_UBC
 			// 
@@ -1321,6 +1349,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button29->TabIndex = 111;
 			this->button29->Text = L"获取";
 			this->button29->UseVisualStyleBackColor = true;
+			this->button29->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button29_Click);
 			// 
 			// labelTrial1_Line3_UAB
 			// 
@@ -1344,6 +1373,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button30->TabIndex = 109;
 			this->button30->Text = L"获取";
 			this->button30->UseVisualStyleBackColor = true;
+			this->button30->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button30_Click);
 			// 
 			// labelTrial1_Line3_IC
 			// 
@@ -1367,6 +1397,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button31->TabIndex = 107;
 			this->button31->Text = L"获取";
 			this->button31->UseVisualStyleBackColor = true;
+			this->button31->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button31_Click);
 			// 
 			// labelTrial1_Line3_IB
 			// 
@@ -1390,6 +1421,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button32->TabIndex = 105;
 			this->button32->Text = L"获取";
 			this->button32->UseVisualStyleBackColor = true;
+			this->button32->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button32_Click);
 			// 
 			// labelTrial1_Line3_IA
 			// 
@@ -1413,6 +1445,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button33->TabIndex = 103;
 			this->button33->Text = L"获取";
 			this->button33->UseVisualStyleBackColor = true;
+			this->button33->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button33_Click);
 			// 
 			// labelTrial1_Line2_UNO
 			// 
@@ -1436,6 +1469,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button12->TabIndex = 101;
 			this->button12->Text = L"获取";
 			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button12_Click);
 			// 
 			// labelTrial1_Line2_IO
 			// 
@@ -1459,6 +1493,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button13->TabIndex = 99;
 			this->button13->Text = L"获取";
 			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button13_Click);
 			// 
 			// labelTrial1_Line2_UCO
 			// 
@@ -1482,6 +1517,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button14->TabIndex = 97;
 			this->button14->Text = L"获取";
 			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button14_Click);
 			// 
 			// labelTrial1_Line2_UBO
 			// 
@@ -1505,6 +1541,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button15->TabIndex = 95;
 			this->button15->Text = L"获取";
 			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button15_Click);
 			// 
 			// labelTrial1_Line2_UAO
 			// 
@@ -1528,6 +1565,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button16->TabIndex = 93;
 			this->button16->Text = L"获取";
 			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button16_Click);
 			// 
 			// labelTrial1_Line2_UCA
 			// 
@@ -1551,6 +1589,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button17->TabIndex = 91;
 			this->button17->Text = L"获取";
 			this->button17->UseVisualStyleBackColor = true;
+			this->button17->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button17_Click);
 			// 
 			// labelTrial1_Line2_UBC
 			// 
@@ -1574,6 +1613,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button18->TabIndex = 89;
 			this->button18->Text = L"获取";
 			this->button18->UseVisualStyleBackColor = true;
+			this->button18->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button18_Click);
 			// 
 			// labelTrial1_Line2_UAB
 			// 
@@ -1597,6 +1637,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button19->TabIndex = 87;
 			this->button19->Text = L"获取";
 			this->button19->UseVisualStyleBackColor = true;
+			this->button19->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button19_Click);
 			// 
 			// labelTrial1_Line2_IC
 			// 
@@ -1620,6 +1661,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button20->TabIndex = 85;
 			this->button20->Text = L"获取";
 			this->button20->UseVisualStyleBackColor = true;
+			this->button20->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button20_Click);
 			// 
 			// labelTrial1_Line2_IB
 			// 
@@ -1643,6 +1685,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button21->TabIndex = 83;
 			this->button21->Text = L"获取";
 			this->button21->UseVisualStyleBackColor = true;
+			this->button21->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button21_Click);
 			// 
 			// labelTrial1_Line2_IA
 			// 
@@ -1666,6 +1709,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button22->TabIndex = 81;
 			this->button22->Text = L"获取";
 			this->button22->UseVisualStyleBackColor = true;
+			this->button22->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button22_Click);
 			// 
 			// labelTrial1_Line1_UNO
 			// 
@@ -1689,6 +1733,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button11->TabIndex = 79;
 			this->button11->Text = L"获取";
 			this->button11->UseVisualStyleBackColor = true;
+			this->button11->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button11_Click);
 			// 
 			// labelTrial1_Line1_IO
 			// 
@@ -1712,6 +1757,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button10->TabIndex = 77;
 			this->button10->Text = L"获取";
 			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button10_Click);
 			// 
 			// labelTrial1_Line1_UCO
 			// 
@@ -1735,6 +1781,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button9->TabIndex = 75;
 			this->button9->Text = L"获取";
 			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button9_Click);
 			// 
 			// labelTrial1_Line1_UBO
 			// 
@@ -1758,6 +1805,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button8->TabIndex = 73;
 			this->button8->Text = L"获取";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button8_Click);
 			// 
 			// labelTrial1_Line1_UAO
 			// 
@@ -1781,6 +1829,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button7->TabIndex = 71;
 			this->button7->Text = L"获取";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button7_Click);
 			// 
 			// labelTrial1_Line1_UCA
 			// 
@@ -1804,6 +1853,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button5->TabIndex = 69;
 			this->button5->Text = L"获取";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button5_Click);
 			// 
 			// labelTrial1_Line1_UBC
 			// 
@@ -1827,6 +1877,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button4->TabIndex = 67;
 			this->button4->Text = L"获取";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button4_Click);
 			// 
 			// labelTrial1_Line1_UAB
 			// 
@@ -1850,6 +1901,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button3->TabIndex = 65;
 			this->button3->Text = L"获取";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button3_Click);
 			// 
 			// labelTrial1_Line1_IC
 			// 
@@ -1873,6 +1925,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button2->TabIndex = 63;
 			this->button2->Text = L"获取";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button2_Click);
 			// 
 			// labelTrial1_Line1_IB
 			// 
@@ -1896,6 +1949,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button1->TabIndex = 61;
 			this->button1->Text = L"获取";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button1_Click);
 			// 
 			// labelTrial1_Line1_IA
 			// 
@@ -1919,6 +1973,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button6->TabIndex = 59;
 			this->button6->Text = L"获取";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button6_Click);
 			// 
 			// label35
 			// 
@@ -2504,6 +2559,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button91->TabIndex = 97;
 			this->button91->Text = L"获取";
 			this->button91->UseVisualStyleBackColor = true;
+			this->button91->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button91_Click);
 			// 
 			// labelTrial2_Line2_IBC
 			// 
@@ -2527,6 +2583,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button92->TabIndex = 95;
 			this->button92->Text = L"获取";
 			this->button92->UseVisualStyleBackColor = true;
+			this->button92->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button92_Click);
 			// 
 			// labelTrial2_Line2_IAB
 			// 
@@ -2550,6 +2607,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button93->TabIndex = 93;
 			this->button93->Text = L"获取";
 			this->button93->UseVisualStyleBackColor = true;
+			this->button93->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button93_Click);
 			// 
 			// labelTrial2_Line2_IC
 			// 
@@ -2573,6 +2631,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button94->TabIndex = 91;
 			this->button94->Text = L"获取";
 			this->button94->UseVisualStyleBackColor = true;
+			this->button94->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button94_Click);
 			// 
 			// labelTrial2_Line2_IB
 			// 
@@ -2596,6 +2655,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button95->TabIndex = 89;
 			this->button95->Text = L"获取";
 			this->button95->UseVisualStyleBackColor = true;
+			this->button95->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button95_Click);
 			// 
 			// labelTrial2_Line2_IA
 			// 
@@ -2619,6 +2679,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button96->TabIndex = 87;
 			this->button96->Text = L"获取";
 			this->button96->UseVisualStyleBackColor = true;
+			this->button96->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button96_Click);
 			// 
 			// labelTrial2_Line2_UCA
 			// 
@@ -2642,6 +2703,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button97->TabIndex = 85;
 			this->button97->Text = L"获取";
 			this->button97->UseVisualStyleBackColor = true;
+			this->button97->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button97_Click);
 			// 
 			// labelTrial2_Line2_UBC
 			// 
@@ -2665,6 +2727,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button98->TabIndex = 83;
 			this->button98->Text = L"获取";
 			this->button98->UseVisualStyleBackColor = true;
+			this->button98->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button98_Click);
 			// 
 			// labelTrial2_Line2_UAB
 			// 
@@ -2688,6 +2751,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button99->TabIndex = 81;
 			this->button99->Text = L"获取";
 			this->button99->UseVisualStyleBackColor = true;
+			this->button99->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button99_Click);
 			// 
 			// labelTrial2_Line1_ICA
 			// 
@@ -2711,6 +2775,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button102->TabIndex = 75;
 			this->button102->Text = L"获取";
 			this->button102->UseVisualStyleBackColor = true;
+			this->button102->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button102_Click);
 			// 
 			// labelTrial2_Line1_IBC
 			// 
@@ -2734,6 +2799,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button103->TabIndex = 73;
 			this->button103->Text = L"获取";
 			this->button103->UseVisualStyleBackColor = true;
+			this->button103->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button103_Click);
 			// 
 			// labelTrial2_Line1_IAB
 			// 
@@ -2757,6 +2823,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button104->TabIndex = 71;
 			this->button104->Text = L"获取";
 			this->button104->UseVisualStyleBackColor = true;
+			this->button104->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button104_Click);
 			// 
 			// labelTrial2_Line1_IC
 			// 
@@ -2780,6 +2847,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button105->TabIndex = 69;
 			this->button105->Text = L"获取";
 			this->button105->UseVisualStyleBackColor = true;
+			this->button105->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button105_Click);
 			// 
 			// labelTrial2_Line1_IB
 			// 
@@ -2803,6 +2871,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button106->TabIndex = 67;
 			this->button106->Text = L"获取";
 			this->button106->UseVisualStyleBackColor = true;
+			this->button106->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button106_Click);
 			// 
 			// labelTrial2_Line1_IA
 			// 
@@ -2826,6 +2895,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button107->TabIndex = 65;
 			this->button107->Text = L"获取";
 			this->button107->UseVisualStyleBackColor = true;
+			this->button107->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button107_Click);
 			// 
 			// labelTrial2_Line1_UCA
 			// 
@@ -2849,6 +2919,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button108->TabIndex = 63;
 			this->button108->Text = L"获取";
 			this->button108->UseVisualStyleBackColor = true;
+			this->button108->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button108_Click);
 			// 
 			// labelTrial2_Line1_UBC
 			// 
@@ -2872,6 +2943,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button109->TabIndex = 61;
 			this->button109->Text = L"获取";
 			this->button109->UseVisualStyleBackColor = true;
+			this->button109->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button109_Click);
 			// 
 			// labelTrial2_Line1_UAB
 			// 
@@ -2895,6 +2967,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->button110->TabIndex = 59;
 			this->button110->Text = L"获取";
 			this->button110->UseVisualStyleBackColor = true;
+			this->button110->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button110_Click);
 			// 
 			// label149
 			// 
@@ -3234,7 +3307,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1492, 739);
+			this->ClientSize = System::Drawing::Size(1624, 739);
 			this->Controls->Add(this->label39);
 			this->Controls->Add(this->button56);
 			this->Controls->Add(this->groupBox1);
@@ -3263,5 +3336,224 @@ private: System::Windows::Forms::Button^  button56;
 	private: System::Void button56_Click(System::Object^  sender, System::EventArgs^  e) {
 		SendData();
 	}
+private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_IA->Text = global::GetI500Data();
+}
+private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_IA->Text = global::GetI500Data();
+}
+private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_IA->Text = global::GetI500Data();
+}
+private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_IA->Text = global::GetI500Data();
+}
+private: System::Void button55_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_IA->Text = global::GetI500Data();
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_IB->Text = global::GetI500Data();
+}
+private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_IB->Text = global::GetI500Data();
+}
+private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_IB->Text = global::GetI500Data();
+}
+private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_IB->Text = global::GetI500Data();
+}
+private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_IB->Text = global::GetI500Data();
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_IC->Text = global::GetI500Data();
+}
+private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_IC->Text = global::GetI500Data();
+}
+private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_IC->Text = global::GetI500Data();
+}
+private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_IC->Text = global::GetI500Data();
+}
+private: System::Void button53_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_IC->Text = global::GetI500Data();
+}
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_UAB->Text = global::GetU30Data();
+}
+private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_UAB->Text = global::GetU30Data();
+}
+private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_UAB->Text = global::GetU30Data();
+}
+private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_UAB->Text = global::GetU30Data();
+}
+private: System::Void button52_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_UAB->Text = global::GetU30Data();
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_UBC->Text = global::GetU30Data();
+}
+private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_UBC->Text = global::GetU30Data();
+}
+private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_UBC->Text = global::GetU30Data();
+}
+private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_UBC->Text = global::GetU30Data();
+}
+private: System::Void button51_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_UBC->Text = global::GetU30Data();
+}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_UCA->Text = global::GetU30Data();
+}
+private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_UCA->Text = global::GetU30Data();
+}
+private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_UCA->Text = global::GetU30Data();
+}
+private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_UCA->Text = global::GetU30Data();
+}
+private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_UCA->Text = global::GetU30Data();
+}
+private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_UAO->Text = global::GetU30Data();
+}
+private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_UAO->Text = global::GetU30Data();
+}
+private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_UAO->Text = global::GetU30Data();
+}
+private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_UAO->Text = global::GetU30Data();
+}
+private: System::Void button49_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_UAO->Text = global::GetU30Data();
+}
+private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_UBO->Text = global::GetU30Data();
+}
+private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_UBO->Text = global::GetU30Data();
+}
+private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_UBO->Text = global::GetU30Data();
+}
+private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_UBO->Text = global::GetU30Data();
+}
+private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_UBO->Text = global::GetU30Data();
+}
+private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_UCO->Text = global::GetU30Data();
+}
+private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_IO->Text = global::GetI500Data();
+}
+private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_UCO->Text = global::GetU30Data();
+}
+private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_UCO->Text = global::GetU30Data();
+}
+private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_UCO->Text = global::GetU30Data();
+}
+private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_UCO->Text = global::GetU30Data();
+}
+private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_IO->Text = global::GetI500Data();
+}
+private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_IO->Text = global::GetI500Data();
+}
+private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_IO->Text = global::GetI500Data();
+}
+private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_IO->Text = global::GetI500Data();
+}
+private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line1_UNO->Text = global::GetI500Data();
+}
+private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line5_UNO->Text = global::GetI500Data();
+}
+private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line2_UNO->Text = global::GetI500Data();
+}
+private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line3_UNO->Text = global::GetI500Data();
+}
+private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_Line4_UNO->Text = global::GetI500Data();
+}
+private: System::Void button110_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_UAB->Text = global::GetU30Data();
+}
+private: System::Void button99_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_UAB->Text = global::GetU30Data();
+}
+private: System::Void button109_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_UBC->Text = global::GetU30Data();
+}
+private: System::Void button98_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_UBC->Text = global::GetU30Data();
+}
+private: System::Void button108_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_UCA->Text = global::GetU30Data();
+}
+private: System::Void button97_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_UCA->Text = global::GetU30Data();
+}
+private: System::Void button107_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_IA->Text = global::GetI500Data();
+}
+private: System::Void button96_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_IA->Text = global::GetI500Data();
+}
+private: System::Void button106_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_IB->Text = global::GetI500Data();
+}
+private: System::Void button95_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_IB->Text = global::GetI500Data();
+}
+private: System::Void button105_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_IC->Text = global::GetI500Data();
+}
+private: System::Void button94_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_IC->Text = global::GetI500Data();
+}
+private: System::Void button104_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_IAB->Text = global::GetI500Data();
+}
+private: System::Void button93_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_IAB->Text = global::GetI500Data();
+}
+private: System::Void button103_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_IBC->Text = global::GetI500Data();
+}
+private: System::Void button92_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_IBC->Text = global::GetI500Data();
+}
+private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line1_ICA->Text = global::GetI500Data();
+}
+private: System::Void button91_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial2_Line2_ICA->Text = global::GetI500Data();
+}
 };
 }

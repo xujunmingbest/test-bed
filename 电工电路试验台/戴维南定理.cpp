@@ -33,6 +33,81 @@ void 戴维南定理实验内容::SendData() {
 
 
 }
+using namespace System::Windows::Forms::DataVisualization::Charting;
+
+void 戴维南定理实验内容::chartTrial2_load() {
+	Series ^s = chartTrial2->Series[0];
+	ChartArea ^ c = chartTrial2->ChartAreas[0];
+	c->AxisX->Interval = 2;
+	c->AxisY->Interval = 2;
+	c->AxisX->ScrollBar->IsPositionedInside = true;
+	c->AxisX->ScrollBar->Enabled = true;
+	c->AxisX->Title = "电流mA";
+	c->AxisY->Title = "电压V";
+	c->AxisY->TextOrientation = TextOrientation::Horizontal;
+	s->ChartType = SeriesChartType::Line;
+	s->IsVisibleInLegend = false;
+	c->AxisX->LabelStyle->Format = "N1";
+	c->AxisX->MajorGrid->LineColor = Color::Transparent;
+	c->AxisY->MajorGrid->LineColor = Color::Transparent;
+
+	s->Points->Clear();
+	try {
+		s->Name = "";
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I1->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I2->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I3->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I4->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I5->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I6->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I7->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I8->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I9->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I10->Text), Convert::ToSingle(labelMethod2URL1->Text));
+	}
+	catch (System::Exception^ E) {
+
+	}
+
+}
+
+
+void 戴维南定理实验内容::chartTrial6_load() {
+	Series ^s = chartTrial6->Series[0];
+	ChartArea ^ c = chartTrial6->ChartAreas[0];
+	c->AxisX->Interval = 2;
+	c->AxisY->Interval = 2;
+	c->AxisX->ScrollBar->IsPositionedInside = true;
+	c->AxisX->ScrollBar->Enabled = true;
+	c->AxisX->Title = "电流mA";
+	c->AxisY->Title = "电压V";
+	c->AxisY->TextOrientation = TextOrientation::Horizontal;
+	s->ChartType = SeriesChartType::Line;
+	s->IsVisibleInLegend = false;
+	c->AxisX->LabelStyle->Format = "N1";
+	c->AxisX->MajorGrid->LineColor = Color::Transparent;
+	c->AxisY->MajorGrid->LineColor = Color::Transparent;
+
+	s->Points->Clear();
+	try {
+		s->Name = "";
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I1->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I2->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I3->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I4->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I5->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I6->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I7->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I8->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I9->Text), Convert::ToSingle(labelMethod6URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod6I10->Text), Convert::ToSingle(labelMethod6URL1->Text));
+	}
+	catch (System::Exception^ E) {
+
+	}
+
+}
+
 
 ST_戴维南定理 戴维南定理实验内容::Load_Grade_data() {
 	ST_戴维南定理 d;
@@ -41,6 +116,16 @@ ST_戴维南定理 戴维南定理实验内容::Load_Grade_data() {
 	snprintf(d.Method1Isc, 10, "%s", labelMethod1Isc->Text);
 	snprintf(d.Method1Ro, 10, "%s", textBoxMethod1Ro->Text);
 	snprintf(d.Method1Uoc, 10, "%s", labelMethod1Uoc->Text);
+
+	snprintf(d.Method1Us, 10, "%s", labelMethod1Uoc->Text);
+	snprintf(d.Method1I, 10, "%s", textBoxMethod1I->Text);
+	snprintf(d.Method2Ro, 10, "%s", textBoxMethod2Ro->Text);
+	snprintf(d.Method3Uoc, 10, "%s", textBoxMethod2Ro->Text);
+	snprintf(d.Method3Ro, 10, "%s", textBoxMethod2Ro->Text);
+	snprintf(d.Method4Uoc, 10, "%s", textBoxMethod4Uoc->Text);
+	snprintf(d.Method5R0, 10, "%s", textBoxMethod5R0->Text);
+
+	
 	snprintf(d.Method2I1, 10, "%s", labelMethod2I1->Text);
 	snprintf(d.Method2I2, 10, "%s", labelMethod2I2->Text);
 	snprintf(d.Method2I3, 10, "%s", labelMethod2I3->Text);
@@ -62,7 +147,7 @@ ST_戴维南定理 戴维南定理实验内容::Load_Grade_data() {
 	snprintf(d.Method2RL9, 10, "%s", textBoxMethod2RL9->Text);
 	snprintf(d.Method2RL10, 10, "%s", textBoxMethod2RL10->Text);
 
-	snprintf(d.Method3ro, 10, "%s", textBoxMethod3Ro->Text);
+	snprintf(d.Method3Ro, 10, "%s", textBoxMethod3Ro->Text);
 	snprintf(d.Method3Uoc, 10, "%s", textBoxMethod3Uoc->Text);
 
 	snprintf(d.Method6I1, 10, "%s", labelMethod6I1->Text);

@@ -43,12 +43,14 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::ColumnHeader^  columnHeader2;
 	private: System::Windows::Forms::ColumnHeader^  columnHeader3;
 	private: System::Windows::Forms::ColumnHeader^  columnHeader4;
+	private: System::Windows::Forms::ImageList^  imageList1;
+	private: System::ComponentModel::IContainer^  components;
 
 	private:
 		/// <summary>
 		/// 必需的设计器变量。
 		/// </summary>
-		System::ComponentModel::Container ^components;
+
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -57,11 +59,13 @@ namespace 电工电路试验台 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			this->components = (gcnew System::ComponentModel::Container());
 			this->listView1 = (gcnew System::Windows::Forms::ListView());
 			this->columnHeader1 = (gcnew System::Windows::Forms::ColumnHeader());
 			this->columnHeader2 = (gcnew System::Windows::Forms::ColumnHeader());
 			this->columnHeader3 = (gcnew System::Windows::Forms::ColumnHeader());
 			this->columnHeader4 = (gcnew System::Windows::Forms::ColumnHeader());
+			this->imageList1 = (gcnew System::Windows::Forms::ImageList(this->components));
 			this->SuspendLayout();
 			// 
 			// listView1
@@ -76,7 +80,8 @@ namespace 电工电路试验台 {
 			this->listView1->GridLines = true;
 			this->listView1->Location = System::Drawing::Point(59, 244);
 			this->listView1->Name = L"listView1";
-			this->listView1->Size = System::Drawing::Size(888, 354);
+			this->listView1->Size = System::Drawing::Size(888, 408);
+			this->listView1->SmallImageList = this->imageList1;
 			this->listView1->TabIndex = 3;
 			this->listView1->UseCompatibleStateImageBehavior = false;
 			this->listView1->View = System::Windows::Forms::View::Details;
@@ -100,6 +105,12 @@ namespace 电工电路试验台 {
 			// 
 			this->columnHeader4->Text = L"备 注";
 			this->columnHeader4->Width = 119;
+			// 
+			// imageList1
+			// 
+			this->imageList1->ColorDepth = System::Windows::Forms::ColorDepth::Depth8Bit;
+			this->imageList1->ImageSize = System::Drawing::Size(16, 60);
+			this->imageList1->TransparentColor = System::Drawing::Color::Transparent;
 			// 
 			// 单相电度表实验实验器件
 			// 

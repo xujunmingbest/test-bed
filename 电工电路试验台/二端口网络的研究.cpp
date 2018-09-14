@@ -38,6 +38,10 @@ ST_二端口网络的研究 二端口网络的研究实验内容::Load_Grade_data() {
 	ST_二端口网络的研究 d;
 	memset(&d, 0x00, sizeof(ST_二端口网络的研究));
 
+	snprintf(d.Trial1_1_U11, 10, "%s", textBoxTrial1_1_U11->Text);
+	snprintf(d.Trial1_1_U21, 10, "%s", textBoxTrial1_1_U21->Text);
+	snprintf(d.Trial2_1_U, 10, "%s", textBoxTrial2_1_U->Text);
+
 	snprintf(d.Trial1_1_A1, 10, "%s",textBoxTrial1_1_A1->Text );
 	snprintf(d.Trial1_1_B1, 10, "%s", textBoxTrial1_1_B1->Text);
 	snprintf(d.Trial1_1_C1, 10, "%s", textBoxTrial1_1_C1->Text);
@@ -62,7 +66,7 @@ ST_二端口网络的研究 二端口网络的研究实验内容::Load_Grade_data() {
 
 	snprintf(d.Trial2_1_U10, 10, "%s", labelTrial2_1_U10->Text);
 	snprintf(d.Trial2_1_I10, 10, "%s", labelTrial2_1_I10->Text);
-	snprintf(d.Trial2_1_I110, 10, "%s", labelTrial2_1_I110->Text);
+	snprintf(d.Trial2_1_I110, 10, "%s", labelTrial2_1_R10->Text);
 	snprintf(d.Trial2_1_U1S, 10, "%s", labelTrial2_1_U1S->Text);
 	snprintf(d.Trial2_1_I1S, 10, "%s", labelTrial2_1_I1S->Text);
 	snprintf(d.Trial2_1_R1S, 10, "%s", labelTrial2_1_R1S->Text);

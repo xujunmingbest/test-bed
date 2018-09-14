@@ -6,7 +6,7 @@ using namespace std;
 
 
 #define uint unsigned int 
-#define RECVGRADEPORT 1235
+#define RECVGRADEPORT 10000
 #define GRADESAVEPATH "data/"
 #define STUINFOCSV "学生信息/"
 /*****实验编号****/
@@ -476,6 +476,8 @@ struct ST_戴维南定理 {
 	char Method1Uoc[10];
 	char Method1Isc[10];
 	char Method1Ro[10];
+	char Method1Us[10];
+	char Method1I[10];
 	int scoreMethod1;
 
 	char Method2RL1[10];
@@ -508,10 +510,15 @@ struct ST_戴维南定理 {
 	char Method2I8[10];
 	char Method2I9[10];
 	char Method2I10[10];
+	char Method2Ro[10];
 	int scoreMethod2;
 	char Method3Uoc[10];
-	char Method3ro[10];
+	char Method3Ro[10];
 	int scoreMethod3;
+	char Method4Uoc[10];
+	int scoreMethod4;
+	char Method5R0[10];
+	int scoreMethod5; 
 
 	char Method6RL1[10];
 	char Method6RL2[10];
@@ -549,6 +556,8 @@ struct ST_戴维南定理 {
 
 struct ST_电压源与电流源的等效变换 {
 	TrialInfo ti;
+	char Trial11UP1[10];
+	char Trial11UP2[10];
 	char Trial11Load1[10];
 	char Trial11Load2[10];
 	char Trial11Load3[10];
@@ -570,7 +579,7 @@ struct ST_电压源与电流源的等效变换 {
 	char Trial11U8[10];
 	char Trial11U9[10];
 	char Trial11U10[10];
-
+	
 	char Trial11I1[10];
 	char Trial11I2[10];
 	char Trial11I3[10];
@@ -638,6 +647,7 @@ struct ST_电压源与电流源的等效变换 {
 	char Trial2I8[10];
 	char Trial2I9[10];
 	char Trial2I10[10];
+	char Trial2Is[10];
 	int Trial2Score;
 
 	char summing_up[100];
@@ -646,11 +656,14 @@ struct ST_电压源与电流源的等效变换 {
 struct ST_一阶电路的响应测试 {
 	TrialInfo ti;
 	char τ[10];
-	char Trial1Bmp[387072];
+	char Trial1Bmp_in[387072];
+	char Trial1Bmp_out[387072];
 	int Trial1Score;
-	char Trial2Bmp[387072];
+	char Trial2Bmp_in[387072];
+	char Trial2Bmp_out[387072];
 	int Trial2Score;
-	char Trial3Bmp[387072];
+	char Trial3Bmp_in[387072];
+	char Trial3Bmp_out[387072];
 	int Trial3Score;
 	char summing_up[100];
 };
@@ -682,6 +695,16 @@ struct ST_二阶动态电路响应的研究 {
 };
 struct ST_VCVS实验 {
 	TrialInfo ti;
+	char trial1_1U1_1[10];
+	char trial1_1U1_2[10];
+	char trial1_1U1_3[10];
+	char trial1_1U1_4[10];
+	char trial1_1U1_5[10];
+	char trial1_1U1_6[10];
+	char trial1_1U1_7[10];
+	char trial1_1U1_8[10];
+	char trial1_1U1_9[10];
+
 	char trial1_1U2_1[10];
 	char trial1_1U2_2[10];
 	char trial1_1U2_3[10];
@@ -702,6 +725,8 @@ struct ST_VCVS实验 {
 	char trial1_2V2_6[10];
 	char trial1_2V2_7[10];
 	char trial1_2V2_8[10];
+
+
 	char trial1_2IL_1[10];
 	char trial1_2IL_2[10];
 	char trial1_2IL_3[10];
@@ -711,6 +736,15 @@ struct ST_VCVS实验 {
 	char trial1_2IL_7[10];
 	char trial1_2IL_8[10];
 	int scoretrial1_2;
+
+	char trial2_1U1_1[10];
+	char trial2_1U1_2[10];
+	char trial2_1U1_3[10];
+	char trial2_1U1_4[10];
+	char trial2_1U1_5[10];
+	char trial2_1U1_6[10];
+	char trial2_1U1_7[10];
+	char trial2_1U1_8[10];
 
 	char trial2_1IL_1[10];
 	char trial2_1IL_2[10];
@@ -739,6 +773,16 @@ struct ST_VCVS实验 {
 	char trial2_2V2_5[10];
 	char trial2_2V2_6[10];
 	char trial2_2V2_7[10];
+
+	char trial2_2RL_1[10];
+	char trial2_2RL_2[10];
+	char trial2_2RL_3[10];
+	char trial2_2RL_4[10];
+	char trial2_2RL_5[10];
+	char trial2_2RL_6[10];
+	char trial2_2RL_7[10];
+
+
 	int scoretrial2_2;
 
 	char trial3_1I1_1[10];
@@ -761,6 +805,15 @@ struct ST_VCVS实验 {
 	char trial3_1rm[10];
 	int scoretrial3_1;
 
+	char trial3_2RL_1[10];
+	char trial3_2RL_2[10];
+	char trial3_2RL_3[10];
+	char trial3_2RL_4[10];
+	char trial3_2RL_5[10];
+	char trial3_2RL_6[10];
+	char trial3_2RL_7[10];
+	char trial3_2RL_8[10];
+
 	char trial3_2U2_1[10];
 	char trial3_2U2_2[10];
 	char trial3_2U2_3[10];
@@ -779,6 +832,7 @@ struct ST_VCVS实验 {
 	char trial3_2IL_7[10];
 	char trial3_2IL_8[10];
 	int scoretrial3_2;
+
 
 	char trial4_1I1_1[10];
 	char trial4_1I1_2[10];
@@ -799,6 +853,7 @@ struct ST_VCVS实验 {
 	char trial4_1IL_8[10];
 	char trial4_1α[10];
 	int scoretrial4_1;
+
 	char trial4_2RL_1[10];
 	char trial4_2RL_2[10];
 	char trial4_2RL_3[10];
@@ -840,6 +895,9 @@ struct ST_二端口网络的研究 {
 	char Trial1_1_U12S[10];
 	char Trial1_1_C1[10];
 	char Trial1_1_D1[10];
+	char Trial1_1_U11[10];
+	char Trial1_1_U21[10];
+	char Trial2_1_U[10];
 
 	char Trial1_2_U210[10];
 	char Trial1_2_U220[10];
@@ -1009,16 +1067,77 @@ struct ST_电路状态轨迹的观测 {
 struct ST_RLC元件阻抗特性的测定 {
 	TrialInfo ti;
 
-	char Trial1_F[10];
-	char Trial1_R_Ur[10];
-	char Trial1_R_IR[10];
-	char Trial1_R_R[10];
-	char Trial1_L_Ur[10];
-	char Trial1_L_IL[10];
-	char Trial1_L_XL[10];
-	char Trial1_C_Ur[10];
-	char Trial1_C_IC[10];
-	char Trial1_C_XC[10];
+	char Trial1_F_1[10];
+	char Trial1_F_2[10];
+	char Trial1_F_3[10];
+	char Trial1_F_4[10];
+	char Trial1_F_5[10];
+	char Trial1_F_6[10];
+
+	char Trial1_R_Ur1[10];
+	char Trial1_R_Ur2[10];
+	char Trial1_R_Ur3[10];
+	char Trial1_R_Ur4[10];
+	char Trial1_R_Ur5[10];
+	char Trial1_R_Ur6[10];
+
+	char Trial1_R_IR1[10];
+	char Trial1_R_IR2[10];
+	char Trial1_R_IR3[10];
+	char Trial1_R_IR4[10];
+	char Trial1_R_IR5[10];
+	char Trial1_R_IR6[10];
+
+	char Trial1_R_R1[10];
+	char Trial1_R_R2[10];
+	char Trial1_R_R3[10];
+	char Trial1_R_R4[10];
+	char Trial1_R_R5[10];
+	char Trial1_R_R6[10];
+
+	char Trial1_L_Ur1[10];
+	char Trial1_L_Ur2[10];
+	char Trial1_L_Ur3[10];
+	char Trial1_L_Ur4[10];
+	char Trial1_L_Ur5[10];
+	char Trial1_L_Ur6[10];
+
+	char Trial1_L_IL1[10];
+	char Trial1_L_IL2[10];
+	char Trial1_L_IL3[10];
+	char Trial1_L_IL4[10];
+	char Trial1_L_IL5[10];
+	char Trial1_L_IL6[10];
+
+
+	char Trial1_L_XL1[10];
+	char Trial1_L_XL2[10];
+	char Trial1_L_XL3[10];
+	char Trial1_L_XL4[10];
+	char Trial1_L_XL5[10];
+	char Trial1_L_XL6[10];
+
+	char Trial1_C_Ur1[10];
+	char Trial1_C_Ur2[10];
+	char Trial1_C_Ur3[10];
+	char Trial1_C_Ur4[10];
+	char Trial1_C_Ur5[10];
+	char Trial1_C_Ur6[10];
+
+	char Trial1_C_IC1[10];
+	char Trial1_C_IC2[10];
+	char Trial1_C_IC3[10];
+	char Trial1_C_IC4[10];
+	char Trial1_C_IC5[10];
+	char Trial1_C_IC6[10];
+
+	char Trial1_C_XC1[10];
+	char Trial1_C_XC2[10];
+	char Trial1_C_XC3[10];
+	char Trial1_C_XC4[10];
+	char Trial1_C_XC5[10];
+	char Trial1_C_XC6[10];
+
 	int score1;
 
 
@@ -1026,10 +1145,41 @@ struct ST_RLC元件阻抗特性的测定 {
 	char Trial2_2Bmp[387072];
 	int score2;
 
-	char Trial3_F[10];
-	char Trial3_n[10];
-	char Trial3_m[10];
-	char Trial3_φ[10];
+	char Trial3_1Bmp[387072];
+	char Trial3_2Bmp[387072];
+	char Trial3_3Bmp[387072];
+	char Trial3_4Bmp[387072];
+	char Trial3_5Bmp[387072];
+	char Trial3_6Bmp[387072];
+
+	char Trial3_F_1[10];
+	char Trial3_F_2[10];
+	char Trial3_F_3[10];
+	char Trial3_F_4[10];
+	char Trial3_F_5[10];
+	char Trial3_F_6[10];
+
+	char Trial3_n1[10];
+	char Trial3_n2[10];
+	char Trial3_n3[10];
+	char Trial3_n4[10];
+	char Trial3_n5[10];
+	char Trial3_n6[10];
+
+	char Trial3_m1[10];
+	char Trial3_m2[10];
+	char Trial3_m3[10];
+	char Trial3_m4[10];
+	char Trial3_m5[10];
+	char Trial3_m6[10];
+
+
+	char Trial3_φ1[10];
+	char Trial3_φ2[10];
+	char Trial3_φ3[10];
+	char Trial3_φ4[10];
+	char Trial3_φ5[10];
+	char Trial3_φ6[10];
 	int score3;
 
 	char summing_up[100];
@@ -1053,14 +1203,6 @@ struct ST_RLC串联谐振电路的研究 {
 	char Trial3_F6[10];
 	char Trial3_F7[10];
 	char Trial3_F8[10];
-	char Trial3_F9[10];
-	char Trial3_F10[10];
-	char Trial3_F11[10];
-	char Trial3_F12[10];
-	char Trial3_F13[10];
-	char Trial3_F14[10];
-	char Trial3_F15[10];
-	char Trial3_F16[10];
 
 	char Trial3_U0_1[10];
 	char Trial3_U0_2[10];
@@ -1070,14 +1212,6 @@ struct ST_RLC串联谐振电路的研究 {
 	char Trial3_U0_6[10];
 	char Trial3_U0_7[10];
 	char Trial3_U0_8[10];
-	char Trial3_U0_9[10];
-	char Trial3_U0_10[10];
-	char Trial3_U0_11[10];
-	char Trial3_U0_12[10];
-	char Trial3_U0_13[10];
-	char Trial3_U0_14[10];
-	char Trial3_U0_15[10];
-	char Trial3_U0_16[10];
 
 	char Trial3_UL_1[10];
 	char Trial3_UL_2[10];
@@ -1087,14 +1221,6 @@ struct ST_RLC串联谐振电路的研究 {
 	char Trial3_UL_6[10];
 	char Trial3_UL_7[10];
 	char Trial3_UL_8[10];
-	char Trial3_UL_9[10];
-	char Trial3_UL_10[10];
-	char Trial3_UL_11[10];
-	char Trial3_UL_12[10];
-	char Trial3_UL_13[10];
-	char Trial3_UL_14[10];
-	char Trial3_UL_15[10];
-	char Trial3_UL_16[10];
 
 	
 	char Trial3_Uc_1[10];
@@ -1105,14 +1231,6 @@ struct ST_RLC串联谐振电路的研究 {
 	char Trial3_Uc_6[10];
 	char Trial3_Uc_7[10];
 	char Trial3_Uc_8[10];
-	char Trial3_Uc_9[10];
-	char Trial3_Uc_10[10];
-	char Trial3_Uc_11[10];
-	char Trial3_Uc_12[10];
-	char Trial3_Uc_13[10];
-	char Trial3_Uc_14[10];
-	char Trial3_Uc_15[10];
-	char Trial3_Uc_16[10];
     char Trial3_Fo[10];
 	char Trial3_Q[10];
 	char Trial3F2_F1[10];
@@ -1148,14 +1266,6 @@ struct ST_RLC串联谐振电路的研究 {
 	char Trial5_U0_6[10];
 	char Trial5_U0_7[10];
 	char Trial5_U0_8[10];
-	char Trial5_U0_9[10];
-	char Trial5_U0_10[10];
-	char Trial5_U0_11[10];
-	char Trial5_U0_12[10];
-	char Trial5_U0_13[10];
-	char Trial5_U0_14[10];
-	char Trial5_U0_15[10];
-	char Trial5_U0_16[10];
 
 	char Trial5_UL_1[10];
 	char Trial5_UL_2[10];
@@ -1165,14 +1275,6 @@ struct ST_RLC串联谐振电路的研究 {
 	char Trial5_UL_6[10];
 	char Trial5_UL_7[10];
 	char Trial5_UL_8[10];
-	char Trial5_UL_9[10];
-	char Trial5_UL_10[10];
-	char Trial5_UL_11[10];
-	char Trial5_UL_12[10];
-	char Trial5_UL_13[10];
-	char Trial5_UL_14[10];
-	char Trial5_UL_15[10];
-	char Trial5_UL_16[10];
 
 
 	char Trial5_Uc_1[10];
@@ -1183,14 +1285,6 @@ struct ST_RLC串联谐振电路的研究 {
 	char Trial5_Uc_6[10];
 	char Trial5_Uc_7[10];
 	char Trial5_Uc_8[10];
-	char Trial5_Uc_9[10];
-	char Trial5_Uc_10[10];
-	char Trial5_Uc_11[10];
-	char Trial5_Uc_12[10];
-	char Trial5_Uc_13[10];
-	char Trial5_Uc_14[10];
-	char Trial5_Uc_15[10];
-	char Trial5_Uc_16[10];
 	char Trial5_Fo[10];
 	char Trial5_Q[10];
 	char Trial5F2_F1[10];
@@ -1424,6 +1518,8 @@ struct ST_回转器 {
 	char Trial1_U1_line5[10];
 	char Trial1_U1_line6[10];
 	char Trial1_U1_line7[10];
+	char Trial1_Bmp_U[387072];
+	char Trial1_Bmp_I[387072];
 
 	char Trial1_U2_line1[10];
 	char Trial1_U2_line2[10];
@@ -1622,14 +1718,50 @@ struct ST_三相电路功率的测量 {
 
 struct ST_负阻抗变换器 {
 	TrialInfo ti;
-	char Trial1_300_U1[10];
-	char Trial1_300_I1[10];
-	char Trial1_300_R_[10];
-	char Trial1_600_U1[10];
-	char Trial1_600_I1[10];
-	char Trial1_600_R_[10];
-	int score1;
+	char Trial1_300_U1_1[10];
+	char Trial1_300_U1_2[10];
+	char Trial1_300_U1_3[10];
+	char Trial1_300_U1_4[10];
+	char Trial1_300_U1_5[10];
+	char Trial1_300_U1_6[10];
 
+	char Trial1_300_I1_1[10];
+	char Trial1_300_I1_2[10];
+	char Trial1_300_I1_3[10];
+	char Trial1_300_I1_4[10];
+	char Trial1_300_I1_5[10];
+	char Trial1_300_I1_6[10];
+
+	char Trial1_300_R_1[10];
+	char Trial1_300_R_2[10];
+	char Trial1_300_R_3[10];
+	char Trial1_300_R_4[10];
+	char Trial1_300_R_5[10];
+	char Trial1_300_R_6[10];
+
+
+	char Trial1_600_U1_1[10];
+	char Trial1_600_U1_2[10];
+	char Trial1_600_U1_3[10];
+	char Trial1_600_U1_4[10];
+	char Trial1_600_U1_5[10];
+	char Trial1_600_U1_6[10];
+
+	char Trial1_600_I1_1[10];
+	char Trial1_600_I1_2[10];
+	char Trial1_600_I1_3[10];
+	char Trial1_600_I1_4[10];
+	char Trial1_600_I1_5[10];
+	char Trial1_600_I1_6[10];
+
+	char Trial1_600_R_1[10];
+	char Trial1_600_R_2[10];
+	char Trial1_600_R_3[10];
+	char Trial1_600_R_4[10];
+	char Trial1_600_R_5[10];
+	char Trial1_600_R_6[10];
+
+	int score1;
 	char Trial2_Bmp_1[387072];
 	char Trial2_Bmp_2[387072];
 	int score2;
@@ -1764,6 +1896,7 @@ struct ST_基本电工仪表的使用与测量误差的计算{
 
 struct ST_功率因数及相序的测量 {
 	TrialInfo ti;
+	char summing_up[100];
 	char Trial2_U_1[10];
 	char Trial2_U_2[10];
 	char Trial2_U_3[10];
@@ -1814,6 +1947,8 @@ struct ST_互感器 {
 	char Trial3_Line1_4[10];
 	char Trial3_Line1_5[10];
 	char Trial3_Line1_6[10];
+	char Trial1_1结论[100];
+	char Trial1_2结论[100];
 
 	char Trial3_Line2_1[10];
 	char Trial3_Line2_2[10];

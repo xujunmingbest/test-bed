@@ -296,7 +296,9 @@ bool SerialHandle::GetliKongData(S_PLCRecv *pr)
 	pr->P = TwoByteTouInt(&r[9]);
 	pr->COS = TwoByteTouInt(&r[11]);
 	pr->Fhz = TwoByteTouInt(&r[13]);
-	pr->DCsymbol = TwoByteTouInt(&r[15]);
+	pr->DCsymbol = r[16];
+	pr->Usymbol = pr->DCsymbol >> 4;
+	pr->Isymbol = pr->DCsymbol & 0x01;
 	return pr;
 }//ªÒ»°
 

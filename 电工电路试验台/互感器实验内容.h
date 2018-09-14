@@ -207,6 +207,10 @@ private: System::Windows::Forms::Button^  button102;
 private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_3;
 private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_5;
 private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
+private: System::Windows::Forms::TextBox^  textBoxTrial1_2结论;
+private: System::Windows::Forms::Label^  label46;
+private: System::Windows::Forms::TextBox^  textBoxTrial1_1结论;
+private: System::Windows::Forms::Label^  label105;
 
 	private:
 		/// <summary>
@@ -224,6 +228,10 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(互感器实验内容::typeid));
 			this->textBoxTrial4_Line2_1 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->textBoxTrial1_2结论 = (gcnew System::Windows::Forms::TextBox());
+			this->label46 = (gcnew System::Windows::Forms::Label());
+			this->textBoxTrial1_1结论 = (gcnew System::Windows::Forms::TextBox());
+			this->label105 = (gcnew System::Windows::Forms::Label());
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
@@ -373,13 +381,17 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			// 
 			// textBoxTrial4_Line2_1
 			// 
-			this->textBoxTrial4_Line2_1->Location = System::Drawing::Point(160, 253);
+			this->textBoxTrial4_Line2_1->Location = System::Drawing::Point(242, 252);
 			this->textBoxTrial4_Line2_1->Name = L"textBoxTrial4_Line2_1";
 			this->textBoxTrial4_Line2_1->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line2_1->TabIndex = 152;
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->textBoxTrial1_2结论);
+			this->groupBox8->Controls->Add(this->label46);
+			this->groupBox8->Controls->Add(this->textBoxTrial1_1结论);
+			this->groupBox8->Controls->Add(this->label105);
 			this->groupBox8->Controls->Add(this->label5);
 			this->groupBox8->Controls->Add(this->label3);
 			this->groupBox8->Controls->Add(this->pictureBox2);
@@ -416,17 +428,59 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->groupBox8->ForeColor = System::Drawing::Color::Red;
 			this->groupBox8->Location = System::Drawing::Point(12, 85);
 			this->groupBox8->Name = L"groupBox8";
-			this->groupBox8->Size = System::Drawing::Size(1296, 866);
+			this->groupBox8->Size = System::Drawing::Size(1296, 946);
 			this->groupBox8->TabIndex = 86;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"互感器 实验内容1";
+			// 
+			// textBoxTrial1_2结论
+			// 
+			this->textBoxTrial1_2结论->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->textBoxTrial1_2结论->Location = System::Drawing::Point(205, 888);
+			this->textBoxTrial1_2结论->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxTrial1_2结论->Name = L"textBoxTrial1_2结论";
+			this->textBoxTrial1_2结论->Size = System::Drawing::Size(1070, 28);
+			this->textBoxTrial1_2结论->TabIndex = 183;
+			// 
+			// label46
+			// 
+			this->label46->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label46->ForeColor = System::Drawing::Color::Black;
+			this->label46->Location = System::Drawing::Point(29, 892);
+			this->label46->Name = L"label46";
+			this->label46->Size = System::Drawing::Size(95, 25);
+			this->label46->TabIndex = 182;
+			this->label46->Text = L"实验结论";
+			// 
+			// textBoxTrial1_1结论
+			// 
+			this->textBoxTrial1_1结论->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->textBoxTrial1_1结论->Location = System::Drawing::Point(190, 433);
+			this->textBoxTrial1_1结论->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxTrial1_1结论->Name = L"textBoxTrial1_1结论";
+			this->textBoxTrial1_1结论->Size = System::Drawing::Size(1085, 28);
+			this->textBoxTrial1_1结论->TabIndex = 181;
+			// 
+			// label105
+			// 
+			this->label105->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label105->ForeColor = System::Drawing::Color::Black;
+			this->label105->Location = System::Drawing::Point(14, 437);
+			this->label105->Name = L"label105";
+			this->label105->Size = System::Drawing::Size(95, 25);
+			this->label105->TabIndex = 180;
+			this->label105->Text = L"实验结论";
 			// 
 			// label5
 			// 
 			this->label5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label5->ForeColor = System::Drawing::Color::Black;
-			this->label5->Location = System::Drawing::Point(6, 809);
+			this->label5->Location = System::Drawing::Point(6, 829);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(1161, 54);
 			this->label5->TabIndex = 147;
@@ -437,16 +491,16 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label3->ForeColor = System::Drawing::Color::Black;
-			this->label3->Location = System::Drawing::Point(508, 769);
+			this->label3->Location = System::Drawing::Point(508, 806);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(78, 29);
+			this->label3->Size = System::Drawing::Size(78, 21);
 			this->label3->TabIndex = 146;
 			this->label3->Text = L"图23-2";
 			// 
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(205, 542);
+			this->pictureBox2->Location = System::Drawing::Point(205, 590);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(658, 213);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -458,7 +512,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label4->ForeColor = System::Drawing::Color::Black;
-			this->label4->Location = System::Drawing::Point(6, 451);
+			this->label4->Location = System::Drawing::Point(6, 499);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(1161, 76);
 			this->label4->TabIndex = 144;
@@ -791,7 +845,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->groupBox1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
-			this->groupBox1->Location = System::Drawing::Point(12, 975);
+			this->groupBox1->Location = System::Drawing::Point(12, 1047);
 			this->groupBox1->Name = L"groupBox1";
 			this->groupBox1->Size = System::Drawing::Size(1296, 172);
 			this->groupBox1->TabIndex = 148;
@@ -1053,13 +1107,12 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label22->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label22->ForeColor = System::Drawing::Color::Black;
-			this->label22->Location = System::Drawing::Point(6, 40);
+			this->label22->Location = System::Drawing::Point(14, 48);
 			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(1161, 117);
+			this->label22->Size = System::Drawing::Size(1161, 85);
 			this->label22->TabIndex = 0;
-			this->label22->Text = L"2．观察互感现象\r\n    在图23－2的N2侧接人LED发光二级管与510Ω串联的支路。\r\n   （1）将铁芯慢慢地从两线圈中抽出和插入，观察LED亮度的变化及"
-				L"各电表读数的变化，记录现象。\r\n   （2）改变两线圈的相对位置，观察LED亮度的变化及仪表读数。\r\n   （3）改用铝棒替代铁棒，重复（1）、（2）的步骤，观"
-				L"察LED的亮度变化，记录现象。";
+			this->label22->Text = L"2．观察互感现象\r\n    在图23－2的N2侧接人LED发光二级管与510Ω串联的支路。\r\n   （1）将铁芯慢慢地从两线圈中抽出和插入，观察各电表读数的变化，"
+				L"记录现象。";
 			// 
 			// groupBox2
 			// 
@@ -1105,7 +1158,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->groupBox2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox2->ForeColor = System::Drawing::Color::Red;
-			this->groupBox2->Location = System::Drawing::Point(12, 1167);
+			this->groupBox2->Location = System::Drawing::Point(12, 1225);
 			this->groupBox2->Name = L"groupBox2";
 			this->groupBox2->Size = System::Drawing::Size(1296, 273);
 			this->groupBox2->TabIndex = 149;
@@ -1114,84 +1167,84 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			// 
 			// textBoxTrial3_Line2_6
 			// 
-			this->textBoxTrial3_Line2_6->Location = System::Drawing::Point(750, 222);
+			this->textBoxTrial3_Line2_6->Location = System::Drawing::Point(815, 222);
 			this->textBoxTrial3_Line2_6->Name = L"textBoxTrial3_Line2_6";
 			this->textBoxTrial3_Line2_6->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line2_6->TabIndex = 157;
 			// 
 			// textBoxTrial3_Line2_5
 			// 
-			this->textBoxTrial3_Line2_5->Location = System::Drawing::Point(632, 222);
+			this->textBoxTrial3_Line2_5->Location = System::Drawing::Point(697, 222);
 			this->textBoxTrial3_Line2_5->Name = L"textBoxTrial3_Line2_5";
 			this->textBoxTrial3_Line2_5->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line2_5->TabIndex = 156;
 			// 
 			// textBoxTrial3_Line2_4
 			// 
-			this->textBoxTrial3_Line2_4->Location = System::Drawing::Point(514, 222);
+			this->textBoxTrial3_Line2_4->Location = System::Drawing::Point(579, 222);
 			this->textBoxTrial3_Line2_4->Name = L"textBoxTrial3_Line2_4";
 			this->textBoxTrial3_Line2_4->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line2_4->TabIndex = 155;
 			// 
 			// textBoxTrial3_Line2_3
 			// 
-			this->textBoxTrial3_Line2_3->Location = System::Drawing::Point(396, 222);
+			this->textBoxTrial3_Line2_3->Location = System::Drawing::Point(461, 222);
 			this->textBoxTrial3_Line2_3->Name = L"textBoxTrial3_Line2_3";
 			this->textBoxTrial3_Line2_3->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line2_3->TabIndex = 154;
 			// 
 			// textBoxTrial3_Line2_2
 			// 
-			this->textBoxTrial3_Line2_2->Location = System::Drawing::Point(278, 222);
+			this->textBoxTrial3_Line2_2->Location = System::Drawing::Point(343, 222);
 			this->textBoxTrial3_Line2_2->Name = L"textBoxTrial3_Line2_2";
 			this->textBoxTrial3_Line2_2->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line2_2->TabIndex = 153;
 			// 
 			// textBoxTrial3_Line2_1
 			// 
-			this->textBoxTrial3_Line2_1->Location = System::Drawing::Point(160, 222);
+			this->textBoxTrial3_Line2_1->Location = System::Drawing::Point(225, 222);
 			this->textBoxTrial3_Line2_1->Name = L"textBoxTrial3_Line2_1";
 			this->textBoxTrial3_Line2_1->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line2_1->TabIndex = 152;
 			// 
 			// textBoxTrial3_Line1_6
 			// 
-			this->textBoxTrial3_Line1_6->Location = System::Drawing::Point(750, 169);
+			this->textBoxTrial3_Line1_6->Location = System::Drawing::Point(815, 169);
 			this->textBoxTrial3_Line1_6->Name = L"textBoxTrial3_Line1_6";
 			this->textBoxTrial3_Line1_6->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line1_6->TabIndex = 151;
 			// 
 			// textBoxTrial3_Line1_5
 			// 
-			this->textBoxTrial3_Line1_5->Location = System::Drawing::Point(632, 169);
+			this->textBoxTrial3_Line1_5->Location = System::Drawing::Point(697, 169);
 			this->textBoxTrial3_Line1_5->Name = L"textBoxTrial3_Line1_5";
 			this->textBoxTrial3_Line1_5->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line1_5->TabIndex = 150;
 			// 
 			// textBoxTrial3_Line1_4
 			// 
-			this->textBoxTrial3_Line1_4->Location = System::Drawing::Point(514, 169);
+			this->textBoxTrial3_Line1_4->Location = System::Drawing::Point(579, 169);
 			this->textBoxTrial3_Line1_4->Name = L"textBoxTrial3_Line1_4";
 			this->textBoxTrial3_Line1_4->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line1_4->TabIndex = 149;
 			// 
 			// textBoxTrial3_Line1_3
 			// 
-			this->textBoxTrial3_Line1_3->Location = System::Drawing::Point(396, 169);
+			this->textBoxTrial3_Line1_3->Location = System::Drawing::Point(461, 169);
 			this->textBoxTrial3_Line1_3->Name = L"textBoxTrial3_Line1_3";
 			this->textBoxTrial3_Line1_3->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line1_3->TabIndex = 148;
 			// 
 			// textBoxTrial3_Line1_2
 			// 
-			this->textBoxTrial3_Line1_2->Location = System::Drawing::Point(278, 169);
+			this->textBoxTrial3_Line1_2->Location = System::Drawing::Point(343, 169);
 			this->textBoxTrial3_Line1_2->Name = L"textBoxTrial3_Line1_2";
 			this->textBoxTrial3_Line1_2->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line1_2->TabIndex = 147;
 			// 
 			// textBoxTrial3_Line1_1
 			// 
-			this->textBoxTrial3_Line1_1->Location = System::Drawing::Point(160, 169);
+			this->textBoxTrial3_Line1_1->Location = System::Drawing::Point(225, 169);
 			this->textBoxTrial3_Line1_1->Name = L"textBoxTrial3_Line1_1";
 			this->textBoxTrial3_Line1_1->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial3_Line1_1->TabIndex = 146;
@@ -1204,7 +1257,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label31->ForeColor = System::Drawing::Color::Black;
 			this->label31->Location = System::Drawing::Point(6, 225);
 			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(138, 27);
+			this->label31->Size = System::Drawing::Size(156, 27);
 			this->label31->TabIndex = 145;
 			this->label31->Text = L"互感电流输出";
 			// 
@@ -1216,7 +1269,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label30->ForeColor = System::Drawing::Color::Black;
 			this->label30->Location = System::Drawing::Point(6, 171);
 			this->label30->Name = L"label30";
-			this->label30->Size = System::Drawing::Size(138, 27);
+			this->label30->Size = System::Drawing::Size(156, 27);
 			this->label30->TabIndex = 144;
 			this->label30->Text = L"互感电流输入";
 			// 
@@ -1526,7 +1579,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->groupBox3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox3->ForeColor = System::Drawing::Color::Red;
-			this->groupBox3->Location = System::Drawing::Point(12, 1482);
+			this->groupBox3->Location = System::Drawing::Point(12, 1540);
 			this->groupBox3->Name = L"groupBox3";
 			this->groupBox3->Size = System::Drawing::Size(1296, 302);
 			this->groupBox3->TabIndex = 158;
@@ -1535,77 +1588,77 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			// 
 			// textBoxTrial4_Line2_6
 			// 
-			this->textBoxTrial4_Line2_6->Location = System::Drawing::Point(750, 253);
+			this->textBoxTrial4_Line2_6->Location = System::Drawing::Point(832, 252);
 			this->textBoxTrial4_Line2_6->Name = L"textBoxTrial4_Line2_6";
 			this->textBoxTrial4_Line2_6->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line2_6->TabIndex = 157;
 			// 
 			// textBoxTrial4_Line2_5
 			// 
-			this->textBoxTrial4_Line2_5->Location = System::Drawing::Point(632, 253);
+			this->textBoxTrial4_Line2_5->Location = System::Drawing::Point(714, 252);
 			this->textBoxTrial4_Line2_5->Name = L"textBoxTrial4_Line2_5";
 			this->textBoxTrial4_Line2_5->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line2_5->TabIndex = 156;
 			// 
 			// textBoxTrial4_Line2_4
 			// 
-			this->textBoxTrial4_Line2_4->Location = System::Drawing::Point(514, 253);
+			this->textBoxTrial4_Line2_4->Location = System::Drawing::Point(596, 252);
 			this->textBoxTrial4_Line2_4->Name = L"textBoxTrial4_Line2_4";
 			this->textBoxTrial4_Line2_4->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line2_4->TabIndex = 155;
 			// 
 			// textBoxTrial4_Line2_3
 			// 
-			this->textBoxTrial4_Line2_3->Location = System::Drawing::Point(396, 253);
+			this->textBoxTrial4_Line2_3->Location = System::Drawing::Point(478, 252);
 			this->textBoxTrial4_Line2_3->Name = L"textBoxTrial4_Line2_3";
 			this->textBoxTrial4_Line2_3->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line2_3->TabIndex = 154;
 			// 
 			// textBoxTrial4_Line2_2
 			// 
-			this->textBoxTrial4_Line2_2->Location = System::Drawing::Point(278, 253);
+			this->textBoxTrial4_Line2_2->Location = System::Drawing::Point(360, 252);
 			this->textBoxTrial4_Line2_2->Name = L"textBoxTrial4_Line2_2";
 			this->textBoxTrial4_Line2_2->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line2_2->TabIndex = 153;
 			// 
 			// textBoxTrial4_Line1_6
 			// 
-			this->textBoxTrial4_Line1_6->Location = System::Drawing::Point(750, 200);
+			this->textBoxTrial4_Line1_6->Location = System::Drawing::Point(832, 199);
 			this->textBoxTrial4_Line1_6->Name = L"textBoxTrial4_Line1_6";
 			this->textBoxTrial4_Line1_6->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line1_6->TabIndex = 151;
 			// 
 			// textBoxTrial4_Line1_5
 			// 
-			this->textBoxTrial4_Line1_5->Location = System::Drawing::Point(632, 200);
+			this->textBoxTrial4_Line1_5->Location = System::Drawing::Point(714, 199);
 			this->textBoxTrial4_Line1_5->Name = L"textBoxTrial4_Line1_5";
 			this->textBoxTrial4_Line1_5->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line1_5->TabIndex = 150;
 			// 
 			// textBoxTrial4_Line1_4
 			// 
-			this->textBoxTrial4_Line1_4->Location = System::Drawing::Point(514, 200);
+			this->textBoxTrial4_Line1_4->Location = System::Drawing::Point(596, 199);
 			this->textBoxTrial4_Line1_4->Name = L"textBoxTrial4_Line1_4";
 			this->textBoxTrial4_Line1_4->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line1_4->TabIndex = 149;
 			// 
 			// textBoxTrial4_Line1_3
 			// 
-			this->textBoxTrial4_Line1_3->Location = System::Drawing::Point(396, 200);
+			this->textBoxTrial4_Line1_3->Location = System::Drawing::Point(478, 199);
 			this->textBoxTrial4_Line1_3->Name = L"textBoxTrial4_Line1_3";
 			this->textBoxTrial4_Line1_3->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line1_3->TabIndex = 148;
 			// 
 			// textBoxTrial4_Line1_2
 			// 
-			this->textBoxTrial4_Line1_2->Location = System::Drawing::Point(278, 200);
+			this->textBoxTrial4_Line1_2->Location = System::Drawing::Point(360, 199);
 			this->textBoxTrial4_Line1_2->Name = L"textBoxTrial4_Line1_2";
 			this->textBoxTrial4_Line1_2->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line1_2->TabIndex = 147;
 			// 
 			// textBoxTrial4_Line1_1
 			// 
-			this->textBoxTrial4_Line1_1->Location = System::Drawing::Point(160, 200);
+			this->textBoxTrial4_Line1_1->Location = System::Drawing::Point(242, 199);
 			this->textBoxTrial4_Line1_1->Name = L"textBoxTrial4_Line1_1";
 			this->textBoxTrial4_Line1_1->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial4_Line1_1->TabIndex = 146;
@@ -1618,7 +1671,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label32->ForeColor = System::Drawing::Color::Black;
 			this->label32->Location = System::Drawing::Point(6, 256);
 			this->label32->Name = L"label32";
-			this->label32->Size = System::Drawing::Size(138, 27);
+			this->label32->Size = System::Drawing::Size(169, 27);
 			this->label32->TabIndex = 145;
 			this->label32->Text = L"互感电压输出";
 			// 
@@ -1630,7 +1683,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label33->ForeColor = System::Drawing::Color::Black;
 			this->label33->Location = System::Drawing::Point(6, 202);
 			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(138, 27);
+			this->label33->Size = System::Drawing::Size(169, 27);
 			this->label33->TabIndex = 144;
 			this->label33->Text = L"互感电压输入";
 			// 
@@ -1900,7 +1953,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			this->label129->BackColor = System::Drawing::Color::SkyBlue;
 			this->label129->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label129->Location = System::Drawing::Point(17, 1838);
+			this->label129->Location = System::Drawing::Point(17, 1896);
 			this->label129->Name = L"label129";
 			this->label129->Size = System::Drawing::Size(1314, 52);
 			this->label129->TabIndex = 195;
@@ -1909,7 +1962,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial4_Line2_1;
 			// 
 			// button102
 			// 
-			this->button102->Location = System::Drawing::Point(571, 1796);
+			this->button102->Location = System::Drawing::Point(571, 1854);
 			this->button102->Name = L"button102";
 			this->button102->Size = System::Drawing::Size(195, 39);
 			this->button102->TabIndex = 194;

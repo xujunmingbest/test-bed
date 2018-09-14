@@ -25,6 +25,23 @@ namespace 电工电路试验台 {
 			//
 		}
 
+		void chartTrial1_1Init();
+		void LoadTrial1_1();
+		void chartTrial1_2Init();
+		void LoadTrial1_2();
+		void chartTrial2_1Init();
+		void LoadTrial2_1();
+		void chartTrial2_2Init();
+		void LoadTrial2_2();
+
+		void chartTrial3_1Init();
+		void LoadTrial3_1();
+		void chartTrial3_2Init();
+		void LoadTrial3_2();
+		void chartTrial4_1Init();
+		void LoadTrial4_1();
+		void chartTrial4_2Init();
+		void LoadTrial4_2();
 	protected:
 		/// <summary>
 		/// 清理所有正在使用的资源。
@@ -42,15 +59,24 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  labeltrial1_1U2_1;
 
 
-	private: System::Windows::Forms::Label^  label13;
-	private: System::Windows::Forms::Label^  label12;
-	private: System::Windows::Forms::Label^  label11;
-	private: System::Windows::Forms::Label^  label10;
-	private: System::Windows::Forms::Label^  label9;
-	private: System::Windows::Forms::Label^  label8;
-	private: System::Windows::Forms::Label^  label7;
-	private: System::Windows::Forms::Label^  label6;
-	private: System::Windows::Forms::Label^  label5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Label^  label4;
 	private: System::Windows::Forms::Label^  label2;
 	private: System::Windows::Forms::Label^  label3;
@@ -90,7 +116,8 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  labeltrial1_2IL_1;
 
 	private: System::Windows::Forms::Label^  label46;
-	private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart2;
+	private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial1_2;
+
 	private: System::Windows::Forms::Button^  button1;
 	private: System::Windows::Forms::Label^  labeltrial1_2V2_8;
 
@@ -123,7 +150,8 @@ private: System::Windows::Forms::TextBox^  textBoxtrial1_1u;
 
 	private: System::Windows::Forms::Label^  label45;
 	private: System::Windows::Forms::PictureBox^  pictureBox1;
-	private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart1;
+private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial1_1;
+
 	private: System::Windows::Forms::Button^  button31;
 	private: System::Windows::Forms::Button^  button18;
 	private: System::Windows::Forms::Button^  button19;
@@ -184,7 +212,8 @@ private: System::Windows::Forms::Label^  labeltrial2_2V2_2;
 private: System::Windows::Forms::Label^  labeltrial2_2V2_1;
 
 	private: System::Windows::Forms::Label^  label61;
-	private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart3;
+private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial2_2;
+
 	private: System::Windows::Forms::Button^  button44;
 private: System::Windows::Forms::Label^  labeltrial2_2IL_7;
 
@@ -202,13 +231,13 @@ private: System::Windows::Forms::Label^  labeltrial2_2IL_2;
 private: System::Windows::Forms::Label^  labeltrial2_2IL_1;
 
 
-	private: System::Windows::Forms::Label^  label71;
-	private: System::Windows::Forms::Label^  label72;
-	private: System::Windows::Forms::Label^  label73;
-	private: System::Windows::Forms::Label^  label74;
-	private: System::Windows::Forms::Label^  label75;
-	private: System::Windows::Forms::Label^  label76;
-	private: System::Windows::Forms::Label^  label77;
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Label^  label78;
 	private: System::Windows::Forms::Label^  label79;
 	private: System::Windows::Forms::Label^  label80;
@@ -225,7 +254,8 @@ private: System::Windows::Forms::Label^  labeltrial2_2IL_1;
 private: System::Windows::Forms::TextBox^  textBoxtrial2_1gm;
 
 	private: System::Windows::Forms::Label^  label81;
-	private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart4;
+private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial2_1;
+
 	private: System::Windows::Forms::Button^  button54;
 private: System::Windows::Forms::Label^  labeltrial2_1IL_8;
 
@@ -246,14 +276,14 @@ private: System::Windows::Forms::Label^  labeltrial2_1IL_1;
 
 
 
-	private: System::Windows::Forms::Label^  label92;
-	private: System::Windows::Forms::Label^  label93;
-	private: System::Windows::Forms::Label^  label94;
-	private: System::Windows::Forms::Label^  label95;
-	private: System::Windows::Forms::Label^  label96;
-	private: System::Windows::Forms::Label^  label97;
-	private: System::Windows::Forms::Label^  label98;
-	private: System::Windows::Forms::Label^  label99;
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Label^  label100;
 	private: System::Windows::Forms::Label^  label101;
 	private: System::Windows::Forms::Label^  label102;
@@ -267,7 +297,7 @@ private: System::Windows::Forms::Label^  labeltrial3_2IL_8;
 
 private: System::Windows::Forms::Label^  labeltrial3_2U2_8;
 
-private: System::Windows::Forms::Label^  label147;
+
 private: System::Windows::Forms::Button^  button26;
 private: System::Windows::Forms::Button^  button36;
 private: System::Windows::Forms::Button^  button45;
@@ -297,7 +327,8 @@ private: System::Windows::Forms::Label^  labeltrial3_2IL_2;
 private: System::Windows::Forms::Label^  labeltrial3_2IL_1;
 
 private: System::Windows::Forms::Label^  label106;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart5;
+private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial3_2;
+
 private: System::Windows::Forms::Button^  button66;
 private: System::Windows::Forms::Label^  labeltrial3_2U2_7;
 
@@ -313,13 +344,13 @@ private: System::Windows::Forms::Label^  labeltrial3_2U2_2;
 
 private: System::Windows::Forms::Label^  labeltrial3_2U2_1;
 
-private: System::Windows::Forms::Label^  label114;
-private: System::Windows::Forms::Label^  label115;
-private: System::Windows::Forms::Label^  label116;
-private: System::Windows::Forms::Label^  label117;
-private: System::Windows::Forms::Label^  label118;
-private: System::Windows::Forms::Label^  label119;
-private: System::Windows::Forms::Label^  label120;
+
+
+
+
+
+
+
 private: System::Windows::Forms::Label^  label121;
 private: System::Windows::Forms::Label^  label122;
 private: System::Windows::Forms::Label^  label123;
@@ -344,7 +375,8 @@ private: System::Windows::Forms::TextBox^  textBoxtrial3_1rm;
 
 
 private: System::Windows::Forms::Label^  label124;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart6;
+private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial3_1;
+
 private: System::Windows::Forms::Button^  button75;
 private: System::Windows::Forms::Label^  labeltrial3_1V2_8;
 
@@ -444,7 +476,8 @@ private: System::Windows::Forms::Label^  labeltrial4_2U2_2;
 private: System::Windows::Forms::Label^  labeltrial4_2U2_1;
 
 private: System::Windows::Forms::Label^  label158;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart7;
+private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial4_2;
+
 private: System::Windows::Forms::Button^  button102;
 private: System::Windows::Forms::Label^  labeltrial4_2IL_7;
 
@@ -484,7 +517,8 @@ private: System::Windows::Forms::TextBox^  textBoxtrial4_1α;
 
 
 private: System::Windows::Forms::Label^  label176;
-private: System::Windows::Forms::DataVisualization::Charting::Chart^  chart8;
+private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial4_1;
+
 private: System::Windows::Forms::Button^  button119;
 private: System::Windows::Forms::Label^  labeltrial4_1IL_8;
 
@@ -526,6 +560,72 @@ private: System::Windows::Forms::Label^  label196;
 private: System::Windows::Forms::PictureBox^  pictureBox4;
 private: System::Windows::Forms::Button^  button246;
 private: System::Windows::Forms::Label^  label166;
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_1;
+private: System::Windows::Forms::Button^  button120;
+private: System::Windows::Forms::Button^  button121;
+private: System::Windows::Forms::Button^  button122;
+private: System::Windows::Forms::Button^  button123;
+private: System::Windows::Forms::Button^  button124;
+private: System::Windows::Forms::Button^  button125;
+private: System::Windows::Forms::Button^  button126;
+private: System::Windows::Forms::Button^  button127;
+private: System::Windows::Forms::Button^  button128;
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_9;
+
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_8;
+
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_7;
+
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_6;
+
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_5;
+
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_4;
+
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_3;
+
+private: System::Windows::Forms::TextBox^  labeltrial1_1U1_2;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_8;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_7;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_6;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_5;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_4;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_3;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_2;
+private: System::Windows::Forms::TextBox^  labeltrial2_1U1_1;
+private: System::Windows::Forms::Button^  button129;
+private: System::Windows::Forms::Button^  button130;
+private: System::Windows::Forms::Button^  button131;
+private: System::Windows::Forms::Button^  button132;
+private: System::Windows::Forms::Button^  button133;
+private: System::Windows::Forms::Button^  button134;
+private: System::Windows::Forms::Button^  button135;
+private: System::Windows::Forms::Button^  button136;
+private: System::Windows::Forms::TextBox^  textBoxtrial2_2RL_7;
+private: System::Windows::Forms::TextBox^  textBoxtrial2_2RL_6;
+private: System::Windows::Forms::TextBox^  textBoxtrial2_2RL_5;
+private: System::Windows::Forms::TextBox^  textBoxtrial2_2RL_4;
+private: System::Windows::Forms::TextBox^  textBoxtrial2_2RL_3;
+private: System::Windows::Forms::TextBox^  textBoxtrial2_2RL_2;
+private: System::Windows::Forms::TextBox^  textBoxtrial2_2RL_1;
+
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_7;
+
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_6;
+
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_5;
+
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_4;
+
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_3;
+
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_2;
+
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_1;
+private: System::Windows::Forms::TextBox^  textBoxtrial3_2RL_8;
+
+
+
 
 
 	protected:
@@ -596,7 +696,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial1_2IL_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial1_2IL_1 = (gcnew System::Windows::Forms::Label());
 			this->label46 = (gcnew System::Windows::Forms::Label());
-			this->chart2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial1_2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial1_2V2_8 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial1_2V2_7 = (gcnew System::Windows::Forms::Label());
@@ -618,6 +718,24 @@ private: System::Windows::Forms::Label^  label166;
 			this->label43 = (gcnew System::Windows::Forms::Label());
 			this->label44 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->button120 = (gcnew System::Windows::Forms::Button());
+			this->button121 = (gcnew System::Windows::Forms::Button());
+			this->button122 = (gcnew System::Windows::Forms::Button());
+			this->button123 = (gcnew System::Windows::Forms::Button());
+			this->button124 = (gcnew System::Windows::Forms::Button());
+			this->button125 = (gcnew System::Windows::Forms::Button());
+			this->button126 = (gcnew System::Windows::Forms::Button());
+			this->button127 = (gcnew System::Windows::Forms::Button());
+			this->button128 = (gcnew System::Windows::Forms::Button());
+			this->labeltrial1_1U1_9 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_8 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_7 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_6 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_5 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_4 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_3 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_2 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial1_1U1_1 = (gcnew System::Windows::Forms::TextBox());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
@@ -629,7 +747,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->button32 = (gcnew System::Windows::Forms::Button());
 			this->textBoxtrial1_1u = (gcnew System::Windows::Forms::TextBox());
 			this->label45 = (gcnew System::Windows::Forms::Label());
-			this->chart1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial1_1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button31 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial1_1U2_9 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial1_1U2_8 = (gcnew System::Windows::Forms::Label());
@@ -640,15 +758,6 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial1_1U2_3 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial1_1U2_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial1_1U2_1 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
-			this->label7 = (gcnew System::Windows::Forms::Label());
-			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
@@ -678,7 +787,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial2_2V2_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial2_2V2_1 = (gcnew System::Windows::Forms::Label());
 			this->label61 = (gcnew System::Windows::Forms::Label());
-			this->chart3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial2_2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button44 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial2_2IL_7 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial2_2IL_6 = (gcnew System::Windows::Forms::Label());
@@ -687,17 +796,26 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial2_2IL_3 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial2_2IL_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial2_2IL_1 = (gcnew System::Windows::Forms::Label());
-			this->label71 = (gcnew System::Windows::Forms::Label());
-			this->label72 = (gcnew System::Windows::Forms::Label());
-			this->label73 = (gcnew System::Windows::Forms::Label());
-			this->label74 = (gcnew System::Windows::Forms::Label());
-			this->label75 = (gcnew System::Windows::Forms::Label());
-			this->label76 = (gcnew System::Windows::Forms::Label());
-			this->label77 = (gcnew System::Windows::Forms::Label());
 			this->label78 = (gcnew System::Windows::Forms::Label());
 			this->label79 = (gcnew System::Windows::Forms::Label());
 			this->label80 = (gcnew System::Windows::Forms::Label());
 			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
+			this->labeltrial2_1U1_8 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial2_1U1_7 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial2_1U1_6 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial2_1U1_5 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial2_1U1_4 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial2_1U1_3 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial2_1U1_2 = (gcnew System::Windows::Forms::TextBox());
+			this->labeltrial2_1U1_1 = (gcnew System::Windows::Forms::TextBox());
+			this->button129 = (gcnew System::Windows::Forms::Button());
+			this->button130 = (gcnew System::Windows::Forms::Button());
+			this->button131 = (gcnew System::Windows::Forms::Button());
+			this->button132 = (gcnew System::Windows::Forms::Button());
+			this->button133 = (gcnew System::Windows::Forms::Button());
+			this->button134 = (gcnew System::Windows::Forms::Button());
+			this->button135 = (gcnew System::Windows::Forms::Button());
+			this->button136 = (gcnew System::Windows::Forms::Button());
 			this->button46 = (gcnew System::Windows::Forms::Button());
 			this->button47 = (gcnew System::Windows::Forms::Button());
 			this->button48 = (gcnew System::Windows::Forms::Button());
@@ -708,7 +826,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->button53 = (gcnew System::Windows::Forms::Button());
 			this->textBoxtrial2_1gm = (gcnew System::Windows::Forms::TextBox());
 			this->label81 = (gcnew System::Windows::Forms::Label());
-			this->chart4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial2_1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button54 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial2_1IL_8 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial2_1IL_7 = (gcnew System::Windows::Forms::Label());
@@ -718,14 +836,6 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial2_1IL_3 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial2_1IL_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial2_1IL_1 = (gcnew System::Windows::Forms::Label());
-			this->label92 = (gcnew System::Windows::Forms::Label());
-			this->label93 = (gcnew System::Windows::Forms::Label());
-			this->label94 = (gcnew System::Windows::Forms::Label());
-			this->label95 = (gcnew System::Windows::Forms::Label());
-			this->label96 = (gcnew System::Windows::Forms::Label());
-			this->label97 = (gcnew System::Windows::Forms::Label());
-			this->label98 = (gcnew System::Windows::Forms::Label());
-			this->label99 = (gcnew System::Windows::Forms::Label());
 			this->label100 = (gcnew System::Windows::Forms::Label());
 			this->label101 = (gcnew System::Windows::Forms::Label());
 			this->label102 = (gcnew System::Windows::Forms::Label());
@@ -737,7 +847,6 @@ private: System::Windows::Forms::Label^  label166;
 			this->button85 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial3_2IL_8 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial3_2U2_8 = (gcnew System::Windows::Forms::Label());
-			this->label147 = (gcnew System::Windows::Forms::Label());
 			this->button26 = (gcnew System::Windows::Forms::Button());
 			this->button36 = (gcnew System::Windows::Forms::Button());
 			this->button45 = (gcnew System::Windows::Forms::Button());
@@ -760,7 +869,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial3_2IL_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial3_2IL_1 = (gcnew System::Windows::Forms::Label());
 			this->label106 = (gcnew System::Windows::Forms::Label());
-			this->chart5 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial3_2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button66 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial3_2U2_7 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial3_2U2_6 = (gcnew System::Windows::Forms::Label());
@@ -769,13 +878,6 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial3_2U2_3 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial3_2U2_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial3_2U2_1 = (gcnew System::Windows::Forms::Label());
-			this->label114 = (gcnew System::Windows::Forms::Label());
-			this->label115 = (gcnew System::Windows::Forms::Label());
-			this->label116 = (gcnew System::Windows::Forms::Label());
-			this->label117 = (gcnew System::Windows::Forms::Label());
-			this->label118 = (gcnew System::Windows::Forms::Label());
-			this->label119 = (gcnew System::Windows::Forms::Label());
-			this->label120 = (gcnew System::Windows::Forms::Label());
 			this->label121 = (gcnew System::Windows::Forms::Label());
 			this->label122 = (gcnew System::Windows::Forms::Label());
 			this->label123 = (gcnew System::Windows::Forms::Label());
@@ -798,7 +900,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->button74 = (gcnew System::Windows::Forms::Button());
 			this->textBoxtrial3_1rm = (gcnew System::Windows::Forms::TextBox());
 			this->label124 = (gcnew System::Windows::Forms::Label());
-			this->chart6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial3_1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button75 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial3_1V2_8 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial3_1V2_7 = (gcnew System::Windows::Forms::Label());
@@ -857,7 +959,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial4_2U2_2 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial4_2U2_1 = (gcnew System::Windows::Forms::Label());
 			this->label158 = (gcnew System::Windows::Forms::Label());
-			this->chart7 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial4_2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button102 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial4_2IL_7 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial4_2IL_6 = (gcnew System::Windows::Forms::Label());
@@ -888,7 +990,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->button118 = (gcnew System::Windows::Forms::Button());
 			this->textBoxtrial4_1α = (gcnew System::Windows::Forms::TextBox());
 			this->label176 = (gcnew System::Windows::Forms::Label());
-			this->chart8 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
+			this->chartTrial4_1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button119 = (gcnew System::Windows::Forms::Button());
 			this->labeltrial4_1IL_8 = (gcnew System::Windows::Forms::Label());
 			this->labeltrial4_1IL_7 = (gcnew System::Windows::Forms::Label());
@@ -913,29 +1015,44 @@ private: System::Windows::Forms::Label^  label166;
 			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 			this->button246 = (gcnew System::Windows::Forms::Button());
 			this->label166 = (gcnew System::Windows::Forms::Label());
+			this->textBoxtrial3_2RL_7 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial3_2RL_6 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial3_2RL_5 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial3_2RL_4 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial3_2RL_3 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial3_2RL_2 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial3_2RL_1 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial2_2RL_7 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial2_2RL_6 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial2_2RL_5 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial2_2RL_4 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial2_2RL_3 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial2_2RL_2 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial2_2RL_1 = (gcnew System::Windows::Forms::TextBox());
+			this->textBoxtrial3_2RL_8 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox2->SuspendLayout();
 			this->groupBox3->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart2))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial1_2))->BeginInit();
 			this->groupBox1->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial1_1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox4->SuspendLayout();
 			this->groupBox5->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart3))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial2_2))->BeginInit();
 			this->groupBox6->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart4))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial2_1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->groupBox7->SuspendLayout();
 			this->groupBox8->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart5))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3_2))->BeginInit();
 			this->groupBox9->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart6))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3_1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
 			this->groupBox10->SuspendLayout();
 			this->groupBox11->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart7))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial4_2))->BeginInit();
 			this->groupBox12->SuspendLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart8))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial4_1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -960,12 +1077,15 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox2->ForeColor = System::Drawing::Color::Red;
-			this->groupBox2->Location = System::Drawing::Point(27, 113);
+			this->groupBox2->Location = System::Drawing::Point(27, 112);
+			this->groupBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Name = L"groupBox2";
+			this->groupBox2->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Size = System::Drawing::Size(1407, 1578);
 			this->groupBox2->TabIndex = 88;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验内容一";
+			this->groupBox2->Enter += gcnew System::EventHandler(this, &VCVS实验实验内容::groupBox2_Enter);
 			// 
 			// groupBox3
 			// 
@@ -994,7 +1114,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox3->Controls->Add(this->labeltrial1_2IL_2);
 			this->groupBox3->Controls->Add(this->labeltrial1_2IL_1);
 			this->groupBox3->Controls->Add(this->label46);
-			this->groupBox3->Controls->Add(this->chart2);
+			this->groupBox3->Controls->Add(this->chartTrial1_2);
 			this->groupBox3->Controls->Add(this->button1);
 			this->groupBox3->Controls->Add(this->labeltrial1_2V2_8);
 			this->groupBox3->Controls->Add(this->labeltrial1_2V2_7);
@@ -1018,8 +1138,10 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox3->ForeColor = System::Drawing::Color::Red;
-			this->groupBox3->Location = System::Drawing::Point(47, 928);
+			this->groupBox3->Location = System::Drawing::Point(47, 989);
+			this->groupBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox3->Name = L"groupBox3";
+			this->groupBox3->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox3->Size = System::Drawing::Size(1188, 630);
 			this->groupBox3->TabIndex = 111;
 			this->groupBox3->TabStop = false;
@@ -1029,138 +1151,164 @@ private: System::Windows::Forms::Label^  label166;
 			// button18
 			// 
 			this->button18->ForeColor = System::Drawing::Color::Black;
-			this->button18->Location = System::Drawing::Point(976, 263);
+			this->button18->Location = System::Drawing::Point(976, 262);
+			this->button18->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(96, 29);
 			this->button18->TabIndex = 138;
 			this->button18->Text = L"获取";
 			this->button18->UseVisualStyleBackColor = true;
+			this->button18->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button18_Click);
 			// 
 			// button19
 			// 
 			this->button19->ForeColor = System::Drawing::Color::Black;
-			this->button19->Location = System::Drawing::Point(862, 263);
+			this->button19->Location = System::Drawing::Point(861, 262);
+			this->button19->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(96, 29);
 			this->button19->TabIndex = 137;
 			this->button19->Text = L"获取";
 			this->button19->UseVisualStyleBackColor = true;
+			this->button19->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button19_Click);
 			// 
 			// button20
 			// 
 			this->button20->ForeColor = System::Drawing::Color::Black;
-			this->button20->Location = System::Drawing::Point(750, 263);
+			this->button20->Location = System::Drawing::Point(749, 262);
+			this->button20->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(96, 29);
 			this->button20->TabIndex = 136;
 			this->button20->Text = L"获取";
 			this->button20->UseVisualStyleBackColor = true;
+			this->button20->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button20_Click);
 			// 
 			// button21
 			// 
 			this->button21->ForeColor = System::Drawing::Color::Black;
-			this->button21->Location = System::Drawing::Point(636, 263);
+			this->button21->Location = System::Drawing::Point(636, 262);
+			this->button21->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(96, 29);
 			this->button21->TabIndex = 135;
 			this->button21->Text = L"获取";
 			this->button21->UseVisualStyleBackColor = true;
+			this->button21->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button21_Click);
 			// 
 			// button22
 			// 
 			this->button22->ForeColor = System::Drawing::Color::Black;
-			this->button22->Location = System::Drawing::Point(524, 263);
+			this->button22->Location = System::Drawing::Point(524, 262);
+			this->button22->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(96, 29);
 			this->button22->TabIndex = 134;
 			this->button22->Text = L"获取";
 			this->button22->UseVisualStyleBackColor = true;
+			this->button22->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button22_Click);
 			// 
 			// button23
 			// 
 			this->button23->ForeColor = System::Drawing::Color::Black;
-			this->button23->Location = System::Drawing::Point(410, 263);
+			this->button23->Location = System::Drawing::Point(411, 262);
+			this->button23->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button23->Name = L"button23";
 			this->button23->Size = System::Drawing::Size(96, 29);
 			this->button23->TabIndex = 133;
 			this->button23->Text = L"获取";
 			this->button23->UseVisualStyleBackColor = true;
+			this->button23->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button23_Click);
 			// 
 			// button24
 			// 
 			this->button24->ForeColor = System::Drawing::Color::Black;
-			this->button24->Location = System::Drawing::Point(302, 263);
+			this->button24->Location = System::Drawing::Point(301, 262);
+			this->button24->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button24->Name = L"button24";
 			this->button24->Size = System::Drawing::Size(96, 29);
 			this->button24->TabIndex = 132;
 			this->button24->Text = L"获取";
 			this->button24->UseVisualStyleBackColor = true;
+			this->button24->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button24_Click);
 			// 
 			// button25
 			// 
 			this->button25->ForeColor = System::Drawing::Color::Black;
-			this->button25->Location = System::Drawing::Point(188, 263);
+			this->button25->Location = System::Drawing::Point(188, 262);
+			this->button25->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button25->Name = L"button25";
 			this->button25->Size = System::Drawing::Size(96, 29);
 			this->button25->TabIndex = 131;
 			this->button25->Text = L"获取";
 			this->button25->UseVisualStyleBackColor = true;
+			this->button25->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button25_Click);
 			// 
 			// button14
 			// 
 			this->button14->ForeColor = System::Drawing::Color::Black;
-			this->button14->Location = System::Drawing::Point(978, 174);
+			this->button14->Location = System::Drawing::Point(979, 174);
+			this->button14->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button14->Name = L"button14";
 			this->button14->Size = System::Drawing::Size(96, 29);
 			this->button14->TabIndex = 130;
 			this->button14->Text = L"获取";
 			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button14_Click);
 			// 
 			// button15
 			// 
 			this->button15->ForeColor = System::Drawing::Color::Black;
 			this->button15->Location = System::Drawing::Point(864, 174);
+			this->button15->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button15->Name = L"button15";
 			this->button15->Size = System::Drawing::Size(96, 29);
 			this->button15->TabIndex = 129;
 			this->button15->Text = L"获取";
 			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button15_Click);
 			// 
 			// button16
 			// 
 			this->button16->ForeColor = System::Drawing::Color::Black;
 			this->button16->Location = System::Drawing::Point(752, 174);
+			this->button16->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button16->Name = L"button16";
 			this->button16->Size = System::Drawing::Size(96, 29);
 			this->button16->TabIndex = 128;
 			this->button16->Text = L"获取";
 			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button16_Click);
 			// 
 			// button17
 			// 
 			this->button17->ForeColor = System::Drawing::Color::Black;
-			this->button17->Location = System::Drawing::Point(638, 174);
+			this->button17->Location = System::Drawing::Point(637, 174);
+			this->button17->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(96, 29);
 			this->button17->TabIndex = 127;
 			this->button17->Text = L"获取";
 			this->button17->UseVisualStyleBackColor = true;
+			this->button17->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button17_Click);
 			// 
 			// button10
 			// 
 			this->button10->ForeColor = System::Drawing::Color::Black;
-			this->button10->Location = System::Drawing::Point(526, 174);
+			this->button10->Location = System::Drawing::Point(525, 174);
+			this->button10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(96, 29);
 			this->button10->TabIndex = 126;
 			this->button10->Text = L"获取";
 			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button10_Click);
 			// 
 			// labeltrial1_2IL_8
 			// 
 			this->labeltrial1_2IL_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_2IL_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_2IL_8->Location = System::Drawing::Point(978, 220);
+			this->labeltrial1_2IL_8->Location = System::Drawing::Point(979, 220);
 			this->labeltrial1_2IL_8->Name = L"labeltrial1_2IL_8";
 			this->labeltrial1_2IL_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_2IL_8->TabIndex = 119;
@@ -1169,11 +1317,13 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->button11->ForeColor = System::Drawing::Color::Black;
 			this->button11->Location = System::Drawing::Point(412, 174);
+			this->button11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(96, 29);
 			this->button11->TabIndex = 125;
 			this->button11->Text = L"获取";
 			this->button11->UseVisualStyleBackColor = true;
+			this->button11->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button11_Click);
 			// 
 			// labeltrial1_2IL_7
 			// 
@@ -1188,27 +1338,31 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->button12->ForeColor = System::Drawing::Color::Black;
 			this->button12->Location = System::Drawing::Point(304, 174);
+			this->button12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(96, 29);
 			this->button12->TabIndex = 124;
 			this->button12->Text = L"获取";
 			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button12_Click);
 			// 
 			// button13
 			// 
 			this->button13->ForeColor = System::Drawing::Color::Black;
-			this->button13->Location = System::Drawing::Point(190, 174);
+			this->button13->Location = System::Drawing::Point(189, 174);
+			this->button13->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(96, 29);
 			this->button13->TabIndex = 123;
 			this->button13->Text = L"获取";
 			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button13_Click);
 			// 
 			// labeltrial1_2IL_6
 			// 
 			this->labeltrial1_2IL_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_2IL_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_2IL_6->Location = System::Drawing::Point(754, 220);
+			this->labeltrial1_2IL_6->Location = System::Drawing::Point(755, 220);
 			this->labeltrial1_2IL_6->Name = L"labeltrial1_2IL_6";
 			this->labeltrial1_2IL_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_2IL_6->TabIndex = 117;
@@ -1226,7 +1380,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_2IL_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_2IL_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_2IL_4->Location = System::Drawing::Point(526, 220);
+			this->labeltrial1_2IL_4->Location = System::Drawing::Point(525, 220);
 			this->labeltrial1_2IL_4->Name = L"labeltrial1_2IL_4";
 			this->labeltrial1_2IL_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_2IL_4->TabIndex = 115;
@@ -1264,42 +1418,45 @@ private: System::Windows::Forms::Label^  label166;
 			this->label46->ForeColor = System::Drawing::Color::Black;
 			this->label46->Location = System::Drawing::Point(23, 224);
 			this->label46->Name = L"label46";
-			this->label46->Size = System::Drawing::Size(110, 26);
+			this->label46->Size = System::Drawing::Size(109, 26);
 			this->label46->TabIndex = 111;
 			this->label46->Text = L"IL（mA）";
 			// 
-			// chart2
+			// chartTrial1_2
 			// 
 			chartArea9->Name = L"ChartArea1";
-			this->chart2->ChartAreas->Add(chartArea9);
+			this->chartTrial1_2->ChartAreas->Add(chartArea9);
 			legend9->Name = L"Legend1";
-			this->chart2->Legends->Add(legend9);
-			this->chart2->Location = System::Drawing::Point(376, 307);
-			this->chart2->Name = L"chart2";
+			this->chartTrial1_2->Legends->Add(legend9);
+			this->chartTrial1_2->Location = System::Drawing::Point(376, 308);
+			this->chartTrial1_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial1_2->Name = L"chartTrial1_2";
 			series9->ChartArea = L"ChartArea1";
 			series9->Legend = L"Legend1";
 			series9->Name = L"Series1";
-			this->chart2->Series->Add(series9);
-			this->chart2->Size = System::Drawing::Size(458, 300);
-			this->chart2->TabIndex = 110;
-			this->chart2->Text = L"chart2";
-			this->chart2->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::chart2_Click);
+			this->chartTrial1_2->Series->Add(series9);
+			this->chartTrial1_2->Size = System::Drawing::Size(459, 300);
+			this->chartTrial1_2->TabIndex = 110;
+			this->chartTrial1_2->Text = L"chartTrial1_2";
+			this->chartTrial1_2->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::chart2_Click);
 			// 
 			// button1
 			// 
 			this->button1->ForeColor = System::Drawing::Color::Black;
 			this->button1->Location = System::Drawing::Point(188, 318);
+			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(109, 34);
+			this->button1->Size = System::Drawing::Size(144, 34);
 			this->button1->TabIndex = 109;
 			this->button1->Text = L"曲线生成";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button1_Click);
 			// 
 			// labeltrial1_2V2_8
 			// 
 			this->labeltrial1_2V2_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_2V2_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_2V2_8->Location = System::Drawing::Point(978, 141);
+			this->labeltrial1_2V2_8->Location = System::Drawing::Point(979, 141);
 			this->labeltrial1_2V2_8->Name = L"labeltrial1_2V2_8";
 			this->labeltrial1_2V2_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_2V2_8->TabIndex = 107;
@@ -1317,7 +1474,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_2V2_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_2V2_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_2V2_6->Location = System::Drawing::Point(754, 141);
+			this->labeltrial1_2V2_6->Location = System::Drawing::Point(755, 141);
 			this->labeltrial1_2V2_6->Name = L"labeltrial1_2V2_6";
 			this->labeltrial1_2V2_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_2V2_6->TabIndex = 105;
@@ -1335,7 +1492,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_2V2_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_2V2_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_2V2_4->Location = System::Drawing::Point(526, 141);
+			this->labeltrial1_2V2_4->Location = System::Drawing::Point(525, 141);
 			this->labeltrial1_2V2_4->Name = L"labeltrial1_2V2_4";
 			this->labeltrial1_2V2_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_2V2_4->TabIndex = 103;
@@ -1371,7 +1528,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label34->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label34->ForeColor = System::Drawing::Color::Black;
-			this->label34->Location = System::Drawing::Point(978, 101);
+			this->label34->Location = System::Drawing::Point(979, 101);
 			this->label34->Name = L"label34";
 			this->label34->Size = System::Drawing::Size(100, 26);
 			this->label34->TabIndex = 98;
@@ -1391,7 +1548,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label36->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label36->ForeColor = System::Drawing::Color::Black;
-			this->label36->Location = System::Drawing::Point(754, 101);
+			this->label36->Location = System::Drawing::Point(755, 101);
 			this->label36->Name = L"label36";
 			this->label36->Size = System::Drawing::Size(100, 26);
 			this->label36->TabIndex = 96;
@@ -1411,7 +1568,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label38->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label38->ForeColor = System::Drawing::Color::Black;
-			this->label38->Location = System::Drawing::Point(526, 101);
+			this->label38->Location = System::Drawing::Point(525, 101);
 			this->label38->Name = L"label38";
 			this->label38->Size = System::Drawing::Size(100, 26);
 			this->label38->TabIndex = 94;
@@ -1453,7 +1610,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->label42->ForeColor = System::Drawing::Color::Black;
 			this->label42->Location = System::Drawing::Point(23, 145);
 			this->label42->Name = L"label42";
-			this->label42->Size = System::Drawing::Size(110, 26);
+			this->label42->Size = System::Drawing::Size(109, 26);
 			this->label42->TabIndex = 90;
 			this->label42->Text = L"V2（v）";
 			// 
@@ -1463,14 +1620,14 @@ private: System::Windows::Forms::Label^  label166;
 			this->label43->ForeColor = System::Drawing::Color::Black;
 			this->label43->Location = System::Drawing::Point(23, 101);
 			this->label43->Name = L"label43";
-			this->label43->Size = System::Drawing::Size(110, 26);
+			this->label43->Size = System::Drawing::Size(109, 26);
 			this->label43->TabIndex = 89;
 			this->label43->Text = L"RL（Ω）";
 			// 
 			// label44
 			// 
 			this->label44->ForeColor = System::Drawing::Color::Black;
-			this->label44->Location = System::Drawing::Point(6, 26);
+			this->label44->Location = System::Drawing::Point(5, 26);
 			this->label44->Name = L"label44";
 			this->label44->Size = System::Drawing::Size(973, 38);
 			this->label44->TabIndex = 88;
@@ -1478,6 +1635,24 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Controls->Add(this->button120);
+			this->groupBox1->Controls->Add(this->button121);
+			this->groupBox1->Controls->Add(this->button122);
+			this->groupBox1->Controls->Add(this->button123);
+			this->groupBox1->Controls->Add(this->button124);
+			this->groupBox1->Controls->Add(this->button125);
+			this->groupBox1->Controls->Add(this->button126);
+			this->groupBox1->Controls->Add(this->button127);
+			this->groupBox1->Controls->Add(this->button128);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_9);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_8);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_7);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_6);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_5);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_4);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_3);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_2);
+			this->groupBox1->Controls->Add(this->labeltrial1_1U1_1);
 			this->groupBox1->Controls->Add(this->button9);
 			this->groupBox1->Controls->Add(this->button8);
 			this->groupBox1->Controls->Add(this->button7);
@@ -1489,7 +1664,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox1->Controls->Add(this->button32);
 			this->groupBox1->Controls->Add(this->textBoxtrial1_1u);
 			this->groupBox1->Controls->Add(this->label45);
-			this->groupBox1->Controls->Add(this->chart1);
+			this->groupBox1->Controls->Add(this->chartTrial1_1);
 			this->groupBox1->Controls->Add(this->button31);
 			this->groupBox1->Controls->Add(this->labeltrial1_1U2_9);
 			this->groupBox1->Controls->Add(this->labeltrial1_1U2_8);
@@ -1500,15 +1675,6 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox1->Controls->Add(this->labeltrial1_1U2_3);
 			this->groupBox1->Controls->Add(this->labeltrial1_1U2_2);
 			this->groupBox1->Controls->Add(this->labeltrial1_1U2_1);
-			this->groupBox1->Controls->Add(this->label13);
-			this->groupBox1->Controls->Add(this->label12);
-			this->groupBox1->Controls->Add(this->label11);
-			this->groupBox1->Controls->Add(this->label10);
-			this->groupBox1->Controls->Add(this->label9);
-			this->groupBox1->Controls->Add(this->label8);
-			this->groupBox1->Controls->Add(this->label7);
-			this->groupBox1->Controls->Add(this->label6);
-			this->groupBox1->Controls->Add(this->label5);
 			this->groupBox1->Controls->Add(this->label4);
 			this->groupBox1->Controls->Add(this->label2);
 			this->groupBox1->Controls->Add(this->label3);
@@ -1516,105 +1682,307 @@ private: System::Windows::Forms::Label^  label166;
 				static_cast<System::Byte>(134)));
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
 			this->groupBox1->Location = System::Drawing::Point(47, 380);
+			this->groupBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(1188, 532);
+			this->groupBox1->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->groupBox1->Size = System::Drawing::Size(1188, 576);
 			this->groupBox1->TabIndex = 89;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"第一组";
+			this->groupBox1->Enter += gcnew System::EventHandler(this, &VCVS实验实验内容::groupBox1_Enter);
+			// 
+			// button120
+			// 
+			this->button120->ForeColor = System::Drawing::Color::Black;
+			this->button120->Location = System::Drawing::Point(1043, 114);
+			this->button120->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button120->Name = L"button120";
+			this->button120->Size = System::Drawing::Size(96, 29);
+			this->button120->TabIndex = 140;
+			this->button120->Text = L"设置";
+			this->button120->UseVisualStyleBackColor = true;
+			this->button120->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button120_Click);
+			// 
+			// button121
+			// 
+			this->button121->ForeColor = System::Drawing::Color::Black;
+			this->button121->Location = System::Drawing::Point(931, 114);
+			this->button121->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button121->Name = L"button121";
+			this->button121->Size = System::Drawing::Size(96, 29);
+			this->button121->TabIndex = 139;
+			this->button121->Text = L"设置";
+			this->button121->UseVisualStyleBackColor = true;
+			this->button121->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button121_Click);
+			// 
+			// button122
+			// 
+			this->button122->ForeColor = System::Drawing::Color::Black;
+			this->button122->Location = System::Drawing::Point(821, 114);
+			this->button122->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button122->Name = L"button122";
+			this->button122->Size = System::Drawing::Size(96, 29);
+			this->button122->TabIndex = 138;
+			this->button122->Text = L"设置";
+			this->button122->UseVisualStyleBackColor = true;
+			this->button122->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button122_Click);
+			// 
+			// button123
+			// 
+			this->button123->ForeColor = System::Drawing::Color::Black;
+			this->button123->Location = System::Drawing::Point(711, 114);
+			this->button123->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button123->Name = L"button123";
+			this->button123->Size = System::Drawing::Size(96, 29);
+			this->button123->TabIndex = 137;
+			this->button123->Text = L"设置";
+			this->button123->UseVisualStyleBackColor = true;
+			this->button123->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button123_Click);
+			// 
+			// button124
+			// 
+			this->button124->ForeColor = System::Drawing::Color::Black;
+			this->button124->Location = System::Drawing::Point(597, 114);
+			this->button124->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button124->Name = L"button124";
+			this->button124->Size = System::Drawing::Size(96, 29);
+			this->button124->TabIndex = 136;
+			this->button124->Text = L"设置";
+			this->button124->UseVisualStyleBackColor = true;
+			this->button124->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button124_Click);
+			// 
+			// button125
+			// 
+			this->button125->ForeColor = System::Drawing::Color::Black;
+			this->button125->Location = System::Drawing::Point(483, 114);
+			this->button125->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button125->Name = L"button125";
+			this->button125->Size = System::Drawing::Size(96, 29);
+			this->button125->TabIndex = 135;
+			this->button125->Text = L"设置";
+			this->button125->UseVisualStyleBackColor = true;
+			this->button125->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button125_Click);
+			// 
+			// button126
+			// 
+			this->button126->ForeColor = System::Drawing::Color::Black;
+			this->button126->Location = System::Drawing::Point(369, 114);
+			this->button126->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button126->Name = L"button126";
+			this->button126->Size = System::Drawing::Size(96, 29);
+			this->button126->TabIndex = 134;
+			this->button126->Text = L"设置";
+			this->button126->UseVisualStyleBackColor = true;
+			this->button126->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button126_Click);
+			// 
+			// button127
+			// 
+			this->button127->ForeColor = System::Drawing::Color::Black;
+			this->button127->Location = System::Drawing::Point(261, 114);
+			this->button127->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button127->Name = L"button127";
+			this->button127->Size = System::Drawing::Size(96, 29);
+			this->button127->TabIndex = 133;
+			this->button127->Text = L"设置";
+			this->button127->UseVisualStyleBackColor = true;
+			this->button127->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button127_Click);
+			// 
+			// button128
+			// 
+			this->button128->ForeColor = System::Drawing::Color::Black;
+			this->button128->Location = System::Drawing::Point(149, 114);
+			this->button128->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button128->Name = L"button128";
+			this->button128->Size = System::Drawing::Size(96, 29);
+			this->button128->TabIndex = 132;
+			this->button128->Text = L"设置";
+			this->button128->UseVisualStyleBackColor = true;
+			this->button128->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button128_Click);
+			// 
+			// labeltrial1_1U1_9
+			// 
+			this->labeltrial1_1U1_9->Location = System::Drawing::Point(1039, 80);
+			this->labeltrial1_1U1_9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_9->Name = L"labeltrial1_1U1_9";
+			this->labeltrial1_1U1_9->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_9->TabIndex = 131;
+			// 
+			// labeltrial1_1U1_8
+			// 
+			this->labeltrial1_1U1_8->Location = System::Drawing::Point(931, 80);
+			this->labeltrial1_1U1_8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_8->Name = L"labeltrial1_1U1_8";
+			this->labeltrial1_1U1_8->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_8->TabIndex = 130;
+			// 
+			// labeltrial1_1U1_7
+			// 
+			this->labeltrial1_1U1_7->Location = System::Drawing::Point(817, 80);
+			this->labeltrial1_1U1_7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_7->Name = L"labeltrial1_1U1_7";
+			this->labeltrial1_1U1_7->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_7->TabIndex = 129;
+			// 
+			// labeltrial1_1U1_6
+			// 
+			this->labeltrial1_1U1_6->Location = System::Drawing::Point(709, 80);
+			this->labeltrial1_1U1_6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_6->Name = L"labeltrial1_1U1_6";
+			this->labeltrial1_1U1_6->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_6->TabIndex = 128;
+			// 
+			// labeltrial1_1U1_5
+			// 
+			this->labeltrial1_1U1_5->Location = System::Drawing::Point(597, 80);
+			this->labeltrial1_1U1_5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_5->Name = L"labeltrial1_1U1_5";
+			this->labeltrial1_1U1_5->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_5->TabIndex = 127;
+			// 
+			// labeltrial1_1U1_4
+			// 
+			this->labeltrial1_1U1_4->Location = System::Drawing::Point(479, 80);
+			this->labeltrial1_1U1_4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_4->Name = L"labeltrial1_1U1_4";
+			this->labeltrial1_1U1_4->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_4->TabIndex = 126;
+			// 
+			// labeltrial1_1U1_3
+			// 
+			this->labeltrial1_1U1_3->Location = System::Drawing::Point(367, 80);
+			this->labeltrial1_1U1_3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_3->Name = L"labeltrial1_1U1_3";
+			this->labeltrial1_1U1_3->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_3->TabIndex = 125;
+			// 
+			// labeltrial1_1U1_2
+			// 
+			this->labeltrial1_1U1_2->Location = System::Drawing::Point(261, 80);
+			this->labeltrial1_1U1_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_2->Name = L"labeltrial1_1U1_2";
+			this->labeltrial1_1U1_2->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_2->TabIndex = 124;
+			// 
+			// labeltrial1_1U1_1
+			// 
+			this->labeltrial1_1U1_1->Location = System::Drawing::Point(149, 80);
+			this->labeltrial1_1U1_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial1_1U1_1->Name = L"labeltrial1_1U1_1";
+			this->labeltrial1_1U1_1->Size = System::Drawing::Size(100, 30);
+			this->labeltrial1_1U1_1->TabIndex = 123;
 			// 
 			// button9
 			// 
 			this->button9->ForeColor = System::Drawing::Color::Black;
-			this->button9->Location = System::Drawing::Point(1043, 177);
+			this->button9->Location = System::Drawing::Point(1043, 216);
+			this->button9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(96, 29);
 			this->button9->TabIndex = 122;
 			this->button9->Text = L"获取";
 			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button9_Click);
 			// 
 			// button8
 			// 
 			this->button8->ForeColor = System::Drawing::Color::Black;
-			this->button8->Location = System::Drawing::Point(931, 177);
+			this->button8->Location = System::Drawing::Point(931, 216);
+			this->button8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(96, 29);
 			this->button8->TabIndex = 121;
 			this->button8->Text = L"获取";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button8_Click);
 			// 
 			// button7
 			// 
 			this->button7->ForeColor = System::Drawing::Color::Black;
-			this->button7->Location = System::Drawing::Point(821, 177);
+			this->button7->Location = System::Drawing::Point(821, 216);
+			this->button7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(96, 29);
 			this->button7->TabIndex = 120;
 			this->button7->Text = L"获取";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button7_Click);
 			// 
 			// button6
 			// 
 			this->button6->ForeColor = System::Drawing::Color::Black;
-			this->button6->Location = System::Drawing::Point(711, 177);
+			this->button6->Location = System::Drawing::Point(711, 216);
+			this->button6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(96, 29);
 			this->button6->TabIndex = 119;
 			this->button6->Text = L"获取";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button6_Click);
 			// 
 			// button5
 			// 
 			this->button5->ForeColor = System::Drawing::Color::Black;
-			this->button5->Location = System::Drawing::Point(597, 177);
+			this->button5->Location = System::Drawing::Point(597, 216);
+			this->button5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(96, 29);
 			this->button5->TabIndex = 118;
 			this->button5->Text = L"获取";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button5_Click);
 			// 
 			// button4
 			// 
 			this->button4->ForeColor = System::Drawing::Color::Black;
-			this->button4->Location = System::Drawing::Point(483, 177);
+			this->button4->Location = System::Drawing::Point(483, 216);
+			this->button4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(96, 29);
 			this->button4->TabIndex = 117;
 			this->button4->Text = L"获取";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button4_Click);
 			// 
 			// button3
 			// 
 			this->button3->ForeColor = System::Drawing::Color::Black;
-			this->button3->Location = System::Drawing::Point(369, 177);
+			this->button3->Location = System::Drawing::Point(369, 216);
+			this->button3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(96, 29);
 			this->button3->TabIndex = 116;
 			this->button3->Text = L"获取";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button3_Click);
 			// 
 			// button2
 			// 
 			this->button2->ForeColor = System::Drawing::Color::Black;
-			this->button2->Location = System::Drawing::Point(261, 177);
+			this->button2->Location = System::Drawing::Point(261, 216);
+			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(96, 29);
 			this->button2->TabIndex = 115;
 			this->button2->Text = L"获取";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button2_Click);
 			// 
 			// button32
 			// 
 			this->button32->ForeColor = System::Drawing::Color::Black;
-			this->button32->Location = System::Drawing::Point(149, 177);
+			this->button32->Location = System::Drawing::Point(149, 216);
+			this->button32->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button32->Name = L"button32";
 			this->button32->Size = System::Drawing::Size(96, 29);
 			this->button32->TabIndex = 114;
 			this->button32->Text = L"获取";
 			this->button32->UseVisualStyleBackColor = true;
+			this->button32->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button32_Click);
 			// 
 			// textBoxtrial1_1u
 			// 
-			this->textBoxtrial1_1u->Location = System::Drawing::Point(785, 482);
+			this->textBoxtrial1_1u->Location = System::Drawing::Point(785, 520);
+			this->textBoxtrial1_1u->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial1_1u->Name = L"textBoxtrial1_1u";
 			this->textBoxtrial1_1u->Size = System::Drawing::Size(132, 30);
 			this->textBoxtrial1_1u->TabIndex = 113;
@@ -1623,43 +1991,46 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label45->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label45->ForeColor = System::Drawing::Color::Black;
-			this->label45->Location = System::Drawing::Point(625, 486);
+			this->label45->Location = System::Drawing::Point(625, 524);
 			this->label45->Name = L"label45";
 			this->label45->Size = System::Drawing::Size(147, 26);
 			this->label45->TabIndex = 112;
 			this->label45->Text = L"转移电压比μ";
 			// 
-			// chart1
+			// chartTrial1_1
 			// 
 			chartArea10->Name = L"ChartArea1";
-			this->chart1->ChartAreas->Add(chartArea10);
+			this->chartTrial1_1->ChartAreas->Add(chartArea10);
 			legend10->Name = L"Legend1";
-			this->chart1->Legends->Add(legend10);
-			this->chart1->Location = System::Drawing::Point(149, 212);
-			this->chart1->Name = L"chart1";
+			this->chartTrial1_1->Legends->Add(legend10);
+			this->chartTrial1_1->Location = System::Drawing::Point(149, 250);
+			this->chartTrial1_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial1_1->Name = L"chartTrial1_1";
 			series10->ChartArea = L"ChartArea1";
 			series10->Legend = L"Legend1";
 			series10->Name = L"Series1";
-			this->chart1->Series->Add(series10);
-			this->chart1->Size = System::Drawing::Size(458, 300);
-			this->chart1->TabIndex = 110;
-			this->chart1->Text = L"chart1";
+			this->chartTrial1_1->Series->Add(series10);
+			this->chartTrial1_1->Size = System::Drawing::Size(459, 300);
+			this->chartTrial1_1->TabIndex = 110;
+			this->chartTrial1_1->Text = L"chartTrial1_1";
 			// 
 			// button31
 			// 
 			this->button31->ForeColor = System::Drawing::Color::Black;
-			this->button31->Location = System::Drawing::Point(27, 212);
+			this->button31->Location = System::Drawing::Point(5, 250);
+			this->button31->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button31->Name = L"button31";
-			this->button31->Size = System::Drawing::Size(109, 34);
+			this->button31->Size = System::Drawing::Size(131, 34);
 			this->button31->TabIndex = 109;
 			this->button31->Text = L"曲线生成";
 			this->button31->UseVisualStyleBackColor = true;
+			this->button31->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button31_Click);
 			// 
 			// labeltrial1_1U2_9
 			// 
 			this->labeltrial1_1U2_9->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_9->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_9->Location = System::Drawing::Point(1043, 124);
+			this->labeltrial1_1U2_9->Location = System::Drawing::Point(1043, 162);
 			this->labeltrial1_1U2_9->Name = L"labeltrial1_1U2_9";
 			this->labeltrial1_1U2_9->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_9->TabIndex = 108;
@@ -1668,7 +2039,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_8->Location = System::Drawing::Point(935, 124);
+			this->labeltrial1_1U2_8->Location = System::Drawing::Point(935, 162);
 			this->labeltrial1_1U2_8->Name = L"labeltrial1_1U2_8";
 			this->labeltrial1_1U2_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_8->TabIndex = 107;
@@ -1677,7 +2048,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_7->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_7->Location = System::Drawing::Point(821, 124);
+			this->labeltrial1_1U2_7->Location = System::Drawing::Point(821, 162);
 			this->labeltrial1_1U2_7->Name = L"labeltrial1_1U2_7";
 			this->labeltrial1_1U2_7->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_7->TabIndex = 106;
@@ -1686,7 +2057,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_6->Location = System::Drawing::Point(711, 124);
+			this->labeltrial1_1U2_6->Location = System::Drawing::Point(711, 162);
 			this->labeltrial1_1U2_6->Name = L"labeltrial1_1U2_6";
 			this->labeltrial1_1U2_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_6->TabIndex = 105;
@@ -1695,7 +2066,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_5->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_5->Location = System::Drawing::Point(597, 124);
+			this->labeltrial1_1U2_5->Location = System::Drawing::Point(597, 162);
 			this->labeltrial1_1U2_5->Name = L"labeltrial1_1U2_5";
 			this->labeltrial1_1U2_5->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_5->TabIndex = 104;
@@ -1704,7 +2075,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_4->Location = System::Drawing::Point(483, 124);
+			this->labeltrial1_1U2_4->Location = System::Drawing::Point(483, 162);
 			this->labeltrial1_1U2_4->Name = L"labeltrial1_1U2_4";
 			this->labeltrial1_1U2_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_4->TabIndex = 103;
@@ -1713,7 +2084,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_3->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_3->Location = System::Drawing::Point(369, 124);
+			this->labeltrial1_1U2_3->Location = System::Drawing::Point(369, 162);
 			this->labeltrial1_1U2_3->Name = L"labeltrial1_1U2_3";
 			this->labeltrial1_1U2_3->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_3->TabIndex = 102;
@@ -1722,7 +2093,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_2->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_2->Location = System::Drawing::Point(261, 124);
+			this->labeltrial1_1U2_2->Location = System::Drawing::Point(261, 162);
 			this->labeltrial1_1U2_2->Name = L"labeltrial1_1U2_2";
 			this->labeltrial1_1U2_2->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_2->TabIndex = 101;
@@ -1731,107 +2102,16 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial1_1U2_1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial1_1U2_1->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial1_1U2_1->Location = System::Drawing::Point(149, 124);
+			this->labeltrial1_1U2_1->Location = System::Drawing::Point(149, 162);
 			this->labeltrial1_1U2_1->Name = L"labeltrial1_1U2_1";
 			this->labeltrial1_1U2_1->Size = System::Drawing::Size(96, 30);
 			this->labeltrial1_1U2_1->TabIndex = 100;
-			// 
-			// label13
-			// 
-			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label13->ForeColor = System::Drawing::Color::Black;
-			this->label13->Location = System::Drawing::Point(1039, 84);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(100, 26);
-			this->label13->TabIndex = 99;
-			this->label13->Text = L"8";
-			// 
-			// label12
-			// 
-			this->label12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label12->ForeColor = System::Drawing::Color::Black;
-			this->label12->Location = System::Drawing::Point(931, 84);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(100, 26);
-			this->label12->TabIndex = 98;
-			this->label12->Text = L"7";
-			// 
-			// label11
-			// 
-			this->label11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label11->ForeColor = System::Drawing::Color::Black;
-			this->label11->Location = System::Drawing::Point(817, 84);
-			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(100, 26);
-			this->label11->TabIndex = 97;
-			this->label11->Text = L"6";
-			// 
-			// label10
-			// 
-			this->label10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label10->ForeColor = System::Drawing::Color::Black;
-			this->label10->Location = System::Drawing::Point(707, 84);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(100, 26);
-			this->label10->TabIndex = 96;
-			this->label10->Text = L"5";
-			// 
-			// label9
-			// 
-			this->label9->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label9->ForeColor = System::Drawing::Color::Black;
-			this->label9->Location = System::Drawing::Point(593, 84);
-			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(100, 26);
-			this->label9->TabIndex = 95;
-			this->label9->Text = L"4";
-			// 
-			// label8
-			// 
-			this->label8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label8->ForeColor = System::Drawing::Color::Black;
-			this->label8->Location = System::Drawing::Point(479, 84);
-			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(100, 26);
-			this->label8->TabIndex = 94;
-			this->label8->Text = L"3";
-			this->label8->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::label8_Click);
-			// 
-			// label7
-			// 
-			this->label7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label7->ForeColor = System::Drawing::Color::Black;
-			this->label7->Location = System::Drawing::Point(365, 84);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(100, 26);
-			this->label7->TabIndex = 93;
-			this->label7->Text = L"2";
-			// 
-			// label6
-			// 
-			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label6->ForeColor = System::Drawing::Color::Black;
-			this->label6->Location = System::Drawing::Point(257, 84);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(100, 26);
-			this->label6->TabIndex = 92;
-			this->label6->Text = L"1";
-			// 
-			// label5
-			// 
-			this->label5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label5->ForeColor = System::Drawing::Color::Black;
-			this->label5->Location = System::Drawing::Point(149, 84);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(100, 26);
-			this->label5->TabIndex = 91;
-			this->label5->Text = L"0";
 			// 
 			// label4
 			// 
 			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label4->ForeColor = System::Drawing::Color::Black;
-			this->label4->Location = System::Drawing::Point(42, 128);
+			this->label4->Location = System::Drawing::Point(43, 166);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(83, 26);
 			this->label4->TabIndex = 90;
@@ -1841,7 +2121,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label2->ForeColor = System::Drawing::Color::Black;
-			this->label2->Location = System::Drawing::Point(42, 84);
+			this->label2->Location = System::Drawing::Point(43, 84);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(83, 26);
 			this->label2->TabIndex = 89;
@@ -1850,7 +2130,7 @@ private: System::Windows::Forms::Label^  label166;
 			// label3
 			// 
 			this->label3->ForeColor = System::Drawing::Color::Black;
-			this->label3->Location = System::Drawing::Point(6, 26);
+			this->label3->Location = System::Drawing::Point(5, 26);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(973, 38);
 			this->label3->TabIndex = 88;
@@ -1859,7 +2139,7 @@ private: System::Windows::Forms::Label^  label166;
 			// label19
 			// 
 			this->label19->ForeColor = System::Drawing::Color::Black;
-			this->label19->Location = System::Drawing::Point(22, 55);
+			this->label19->Location = System::Drawing::Point(21, 55);
 			this->label19->Name = L"label19";
 			this->label19->Size = System::Drawing::Size(973, 38);
 			this->label19->TabIndex = 87;
@@ -1869,6 +2149,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
 			this->pictureBox1->Location = System::Drawing::Point(412, 96);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(389, 279);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -1884,8 +2165,10 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox4->ForeColor = System::Drawing::Color::Red;
-			this->groupBox4->Location = System::Drawing::Point(27, 1713);
+			this->groupBox4->Location = System::Drawing::Point(27, 1712);
+			this->groupBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox4->Name = L"groupBox4";
+			this->groupBox4->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox4->Size = System::Drawing::Size(1407, 1685);
 			this->groupBox4->TabIndex = 112;
 			this->groupBox4->TabStop = false;
@@ -1894,6 +2177,13 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			// groupBox5
 			// 
+			this->groupBox5->Controls->Add(this->textBoxtrial2_2RL_7);
+			this->groupBox5->Controls->Add(this->textBoxtrial2_2RL_6);
+			this->groupBox5->Controls->Add(this->textBoxtrial2_2RL_5);
+			this->groupBox5->Controls->Add(this->textBoxtrial2_2RL_4);
+			this->groupBox5->Controls->Add(this->textBoxtrial2_2RL_3);
+			this->groupBox5->Controls->Add(this->textBoxtrial2_2RL_2);
+			this->groupBox5->Controls->Add(this->textBoxtrial2_2RL_1);
 			this->groupBox5->Controls->Add(this->button27);
 			this->groupBox5->Controls->Add(this->button28);
 			this->groupBox5->Controls->Add(this->button29);
@@ -1916,7 +2206,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox5->Controls->Add(this->labeltrial2_2V2_2);
 			this->groupBox5->Controls->Add(this->labeltrial2_2V2_1);
 			this->groupBox5->Controls->Add(this->label61);
-			this->groupBox5->Controls->Add(this->chart3);
+			this->groupBox5->Controls->Add(this->chartTrial2_2);
 			this->groupBox5->Controls->Add(this->button44);
 			this->groupBox5->Controls->Add(this->labeltrial2_2IL_7);
 			this->groupBox5->Controls->Add(this->labeltrial2_2IL_6);
@@ -1925,21 +2215,16 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox5->Controls->Add(this->labeltrial2_2IL_3);
 			this->groupBox5->Controls->Add(this->labeltrial2_2IL_2);
 			this->groupBox5->Controls->Add(this->labeltrial2_2IL_1);
-			this->groupBox5->Controls->Add(this->label71);
-			this->groupBox5->Controls->Add(this->label72);
-			this->groupBox5->Controls->Add(this->label73);
-			this->groupBox5->Controls->Add(this->label74);
-			this->groupBox5->Controls->Add(this->label75);
-			this->groupBox5->Controls->Add(this->label76);
-			this->groupBox5->Controls->Add(this->label77);
 			this->groupBox5->Controls->Add(this->label78);
 			this->groupBox5->Controls->Add(this->label79);
 			this->groupBox5->Controls->Add(this->label80);
 			this->groupBox5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox5->ForeColor = System::Drawing::Color::Red;
-			this->groupBox5->Location = System::Drawing::Point(47, 1033);
+			this->groupBox5->Location = System::Drawing::Point(52, 1051);
+			this->groupBox5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox5->Name = L"groupBox5";
+			this->groupBox5->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox5->Size = System::Drawing::Size(1188, 630);
 			this->groupBox5->TabIndex = 111;
 			this->groupBox5->TabStop = false;
@@ -1948,122 +2233,146 @@ private: System::Windows::Forms::Label^  label166;
 			// button27
 			// 
 			this->button27->ForeColor = System::Drawing::Color::Black;
-			this->button27->Location = System::Drawing::Point(862, 263);
+			this->button27->Location = System::Drawing::Point(861, 262);
+			this->button27->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button27->Name = L"button27";
 			this->button27->Size = System::Drawing::Size(96, 29);
 			this->button27->TabIndex = 137;
 			this->button27->Text = L"获取";
 			this->button27->UseVisualStyleBackColor = true;
+			this->button27->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button27_Click);
 			// 
 			// button28
 			// 
 			this->button28->ForeColor = System::Drawing::Color::Black;
-			this->button28->Location = System::Drawing::Point(750, 263);
+			this->button28->Location = System::Drawing::Point(749, 262);
+			this->button28->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button28->Name = L"button28";
 			this->button28->Size = System::Drawing::Size(96, 29);
 			this->button28->TabIndex = 136;
 			this->button28->Text = L"获取";
 			this->button28->UseVisualStyleBackColor = true;
+			this->button28->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button28_Click);
 			// 
 			// button29
 			// 
 			this->button29->ForeColor = System::Drawing::Color::Black;
-			this->button29->Location = System::Drawing::Point(636, 263);
+			this->button29->Location = System::Drawing::Point(636, 262);
+			this->button29->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button29->Name = L"button29";
 			this->button29->Size = System::Drawing::Size(96, 29);
 			this->button29->TabIndex = 135;
 			this->button29->Text = L"获取";
 			this->button29->UseVisualStyleBackColor = true;
+			this->button29->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button29_Click);
 			// 
 			// button30
 			// 
 			this->button30->ForeColor = System::Drawing::Color::Black;
-			this->button30->Location = System::Drawing::Point(524, 263);
+			this->button30->Location = System::Drawing::Point(524, 262);
+			this->button30->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button30->Name = L"button30";
 			this->button30->Size = System::Drawing::Size(96, 29);
 			this->button30->TabIndex = 134;
 			this->button30->Text = L"获取";
 			this->button30->UseVisualStyleBackColor = true;
+			this->button30->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button30_Click);
 			// 
 			// button33
 			// 
 			this->button33->ForeColor = System::Drawing::Color::Black;
-			this->button33->Location = System::Drawing::Point(410, 263);
+			this->button33->Location = System::Drawing::Point(411, 262);
+			this->button33->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button33->Name = L"button33";
 			this->button33->Size = System::Drawing::Size(96, 29);
 			this->button33->TabIndex = 133;
 			this->button33->Text = L"获取";
 			this->button33->UseVisualStyleBackColor = true;
+			this->button33->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button33_Click);
 			// 
 			// button34
 			// 
 			this->button34->ForeColor = System::Drawing::Color::Black;
-			this->button34->Location = System::Drawing::Point(302, 263);
+			this->button34->Location = System::Drawing::Point(301, 262);
+			this->button34->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button34->Name = L"button34";
 			this->button34->Size = System::Drawing::Size(96, 29);
 			this->button34->TabIndex = 132;
 			this->button34->Text = L"获取";
 			this->button34->UseVisualStyleBackColor = true;
+			this->button34->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button34_Click);
 			// 
 			// button35
 			// 
 			this->button35->ForeColor = System::Drawing::Color::Black;
-			this->button35->Location = System::Drawing::Point(188, 263);
+			this->button35->Location = System::Drawing::Point(188, 262);
+			this->button35->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button35->Name = L"button35";
 			this->button35->Size = System::Drawing::Size(96, 29);
 			this->button35->TabIndex = 131;
 			this->button35->Text = L"获取";
 			this->button35->UseVisualStyleBackColor = true;
+			this->button35->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button35_Click);
 			// 
 			// button37
 			// 
 			this->button37->ForeColor = System::Drawing::Color::Black;
 			this->button37->Location = System::Drawing::Point(864, 174);
+			this->button37->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button37->Name = L"button37";
 			this->button37->Size = System::Drawing::Size(96, 29);
 			this->button37->TabIndex = 129;
 			this->button37->Text = L"获取";
 			this->button37->UseVisualStyleBackColor = true;
+			this->button37->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button37_Click);
 			// 
 			// button38
 			// 
 			this->button38->ForeColor = System::Drawing::Color::Black;
 			this->button38->Location = System::Drawing::Point(752, 174);
+			this->button38->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button38->Name = L"button38";
 			this->button38->Size = System::Drawing::Size(96, 29);
 			this->button38->TabIndex = 128;
 			this->button38->Text = L"获取";
 			this->button38->UseVisualStyleBackColor = true;
+			this->button38->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button38_Click);
 			// 
 			// button39
 			// 
 			this->button39->ForeColor = System::Drawing::Color::Black;
-			this->button39->Location = System::Drawing::Point(638, 174);
+			this->button39->Location = System::Drawing::Point(637, 174);
+			this->button39->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button39->Name = L"button39";
 			this->button39->Size = System::Drawing::Size(96, 29);
 			this->button39->TabIndex = 127;
 			this->button39->Text = L"获取";
 			this->button39->UseVisualStyleBackColor = true;
+			this->button39->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button39_Click);
 			// 
 			// button40
 			// 
 			this->button40->ForeColor = System::Drawing::Color::Black;
-			this->button40->Location = System::Drawing::Point(526, 174);
+			this->button40->Location = System::Drawing::Point(525, 174);
+			this->button40->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button40->Name = L"button40";
 			this->button40->Size = System::Drawing::Size(96, 29);
 			this->button40->TabIndex = 126;
 			this->button40->Text = L"获取";
 			this->button40->UseVisualStyleBackColor = true;
+			this->button40->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button40_Click);
 			// 
 			// button41
 			// 
 			this->button41->ForeColor = System::Drawing::Color::Black;
 			this->button41->Location = System::Drawing::Point(412, 174);
+			this->button41->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button41->Name = L"button41";
 			this->button41->Size = System::Drawing::Size(96, 29);
 			this->button41->TabIndex = 125;
 			this->button41->Text = L"获取";
 			this->button41->UseVisualStyleBackColor = true;
+			this->button41->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button41_Click);
 			// 
 			// labeltrial2_2V2_7
 			// 
@@ -2078,27 +2387,31 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->button42->ForeColor = System::Drawing::Color::Black;
 			this->button42->Location = System::Drawing::Point(304, 174);
+			this->button42->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button42->Name = L"button42";
 			this->button42->Size = System::Drawing::Size(96, 29);
 			this->button42->TabIndex = 124;
 			this->button42->Text = L"获取";
 			this->button42->UseVisualStyleBackColor = true;
+			this->button42->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button42_Click);
 			// 
 			// button43
 			// 
 			this->button43->ForeColor = System::Drawing::Color::Black;
-			this->button43->Location = System::Drawing::Point(190, 174);
+			this->button43->Location = System::Drawing::Point(189, 174);
+			this->button43->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button43->Name = L"button43";
 			this->button43->Size = System::Drawing::Size(96, 29);
 			this->button43->TabIndex = 123;
 			this->button43->Text = L"获取";
 			this->button43->UseVisualStyleBackColor = true;
+			this->button43->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button43_Click);
 			// 
 			// labeltrial2_2V2_6
 			// 
 			this->labeltrial2_2V2_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_2V2_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_2V2_6->Location = System::Drawing::Point(754, 220);
+			this->labeltrial2_2V2_6->Location = System::Drawing::Point(755, 220);
 			this->labeltrial2_2V2_6->Name = L"labeltrial2_2V2_6";
 			this->labeltrial2_2V2_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_2V2_6->TabIndex = 117;
@@ -2116,7 +2429,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_2V2_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_2V2_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_2V2_4->Location = System::Drawing::Point(526, 220);
+			this->labeltrial2_2V2_4->Location = System::Drawing::Point(525, 220);
 			this->labeltrial2_2V2_4->Name = L"labeltrial2_2V2_4";
 			this->labeltrial2_2V2_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_2V2_4->TabIndex = 115;
@@ -2154,35 +2467,38 @@ private: System::Windows::Forms::Label^  label166;
 			this->label61->ForeColor = System::Drawing::Color::Black;
 			this->label61->Location = System::Drawing::Point(23, 224);
 			this->label61->Name = L"label61";
-			this->label61->Size = System::Drawing::Size(110, 26);
+			this->label61->Size = System::Drawing::Size(109, 26);
 			this->label61->TabIndex = 111;
 			this->label61->Text = L"V2（v）";
 			// 
-			// chart3
+			// chartTrial2_2
 			// 
 			chartArea11->Name = L"ChartArea1";
-			this->chart3->ChartAreas->Add(chartArea11);
+			this->chartTrial2_2->ChartAreas->Add(chartArea11);
 			legend11->Name = L"Legend1";
-			this->chart3->Legends->Add(legend11);
-			this->chart3->Location = System::Drawing::Point(376, 307);
-			this->chart3->Name = L"chart3";
+			this->chartTrial2_2->Legends->Add(legend11);
+			this->chartTrial2_2->Location = System::Drawing::Point(376, 308);
+			this->chartTrial2_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial2_2->Name = L"chartTrial2_2";
 			series11->ChartArea = L"ChartArea1";
 			series11->Legend = L"Legend1";
 			series11->Name = L"Series1";
-			this->chart3->Series->Add(series11);
-			this->chart3->Size = System::Drawing::Size(458, 300);
-			this->chart3->TabIndex = 110;
-			this->chart3->Text = L"chart3";
+			this->chartTrial2_2->Series->Add(series11);
+			this->chartTrial2_2->Size = System::Drawing::Size(459, 300);
+			this->chartTrial2_2->TabIndex = 110;
+			this->chartTrial2_2->Text = L"chartTrial2_2";
 			// 
 			// button44
 			// 
 			this->button44->ForeColor = System::Drawing::Color::Black;
 			this->button44->Location = System::Drawing::Point(188, 318);
+			this->button44->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button44->Name = L"button44";
-			this->button44->Size = System::Drawing::Size(109, 34);
+			this->button44->Size = System::Drawing::Size(144, 34);
 			this->button44->TabIndex = 109;
 			this->button44->Text = L"曲线生成";
 			this->button44->UseVisualStyleBackColor = true;
+			this->button44->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button44_Click);
 			// 
 			// labeltrial2_2IL_7
 			// 
@@ -2197,7 +2513,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_2IL_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_2IL_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_2IL_6->Location = System::Drawing::Point(754, 141);
+			this->labeltrial2_2IL_6->Location = System::Drawing::Point(755, 141);
 			this->labeltrial2_2IL_6->Name = L"labeltrial2_2IL_6";
 			this->labeltrial2_2IL_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_2IL_6->TabIndex = 105;
@@ -2215,7 +2531,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_2IL_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_2IL_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_2IL_4->Location = System::Drawing::Point(526, 141);
+			this->labeltrial2_2IL_4->Location = System::Drawing::Point(525, 141);
 			this->labeltrial2_2IL_4->Name = L"labeltrial2_2IL_4";
 			this->labeltrial2_2IL_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_2IL_4->TabIndex = 103;
@@ -2247,83 +2563,13 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial2_2IL_1->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_2IL_1->TabIndex = 100;
 			// 
-			// label71
-			// 
-			this->label71->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label71->ForeColor = System::Drawing::Color::Black;
-			this->label71->Location = System::Drawing::Point(860, 101);
-			this->label71->Name = L"label71";
-			this->label71->Size = System::Drawing::Size(100, 26);
-			this->label71->TabIndex = 97;
-			this->label71->Text = L"1";
-			// 
-			// label72
-			// 
-			this->label72->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label72->ForeColor = System::Drawing::Color::Black;
-			this->label72->Location = System::Drawing::Point(750, 101);
-			this->label72->Name = L"label72";
-			this->label72->Size = System::Drawing::Size(100, 26);
-			this->label72->TabIndex = 96;
-			this->label72->Text = L"2";
-			// 
-			// label73
-			// 
-			this->label73->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label73->ForeColor = System::Drawing::Color::Black;
-			this->label73->Location = System::Drawing::Point(636, 101);
-			this->label73->Name = L"label73";
-			this->label73->Size = System::Drawing::Size(100, 26);
-			this->label73->TabIndex = 95;
-			this->label73->Text = L"4";
-			// 
-			// label74
-			// 
-			this->label74->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label74->ForeColor = System::Drawing::Color::Black;
-			this->label74->Location = System::Drawing::Point(522, 101);
-			this->label74->Name = L"label74";
-			this->label74->Size = System::Drawing::Size(100, 26);
-			this->label74->TabIndex = 94;
-			this->label74->Text = L"8";
-			// 
-			// label75
-			// 
-			this->label75->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label75->ForeColor = System::Drawing::Color::Black;
-			this->label75->Location = System::Drawing::Point(408, 101);
-			this->label75->Name = L"label75";
-			this->label75->Size = System::Drawing::Size(100, 26);
-			this->label75->TabIndex = 93;
-			this->label75->Text = L"10";
-			// 
-			// label76
-			// 
-			this->label76->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label76->ForeColor = System::Drawing::Color::Black;
-			this->label76->Location = System::Drawing::Point(300, 101);
-			this->label76->Name = L"label76";
-			this->label76->Size = System::Drawing::Size(100, 26);
-			this->label76->TabIndex = 92;
-			this->label76->Text = L"20";
-			// 
-			// label77
-			// 
-			this->label77->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label77->ForeColor = System::Drawing::Color::Black;
-			this->label77->Location = System::Drawing::Point(192, 101);
-			this->label77->Name = L"label77";
-			this->label77->Size = System::Drawing::Size(100, 26);
-			this->label77->TabIndex = 91;
-			this->label77->Text = L"50";
-			// 
 			// label78
 			// 
 			this->label78->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label78->ForeColor = System::Drawing::Color::Black;
 			this->label78->Location = System::Drawing::Point(23, 141);
 			this->label78->Name = L"label78";
-			this->label78->Size = System::Drawing::Size(110, 26);
+			this->label78->Size = System::Drawing::Size(109, 26);
 			this->label78->TabIndex = 90;
 			this->label78->Text = L"IL（mA）";
 			// 
@@ -2331,23 +2577,39 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label79->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label79->ForeColor = System::Drawing::Color::Black;
-			this->label79->Location = System::Drawing::Point(23, 97);
+			this->label79->Location = System::Drawing::Point(23, 98);
 			this->label79->Name = L"label79";
-			this->label79->Size = System::Drawing::Size(110, 26);
+			this->label79->Size = System::Drawing::Size(109, 26);
 			this->label79->TabIndex = 89;
 			this->label79->Text = L"RL（KΩ）";
 			// 
 			// label80
 			// 
 			this->label80->ForeColor = System::Drawing::Color::Black;
-			this->label80->Location = System::Drawing::Point(6, 38);
+			this->label80->Location = System::Drawing::Point(5, 38);
 			this->label80->Name = L"label80";
-			this->label80->Size = System::Drawing::Size(973, 33);
+			this->label80->Size = System::Drawing::Size(973, 32);
 			this->label80->TabIndex = 88;
 			this->label80->Text = L"（2）保持U1＝2V，令RL从大到小变化，测出相应的IL及U2，绘制IL＝F（U2）曲线。";
 			// 
 			// groupBox6
 			// 
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_8);
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_7);
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_6);
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_5);
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_4);
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_3);
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_2);
+			this->groupBox6->Controls->Add(this->labeltrial2_1U1_1);
+			this->groupBox6->Controls->Add(this->button129);
+			this->groupBox6->Controls->Add(this->button130);
+			this->groupBox6->Controls->Add(this->button131);
+			this->groupBox6->Controls->Add(this->button132);
+			this->groupBox6->Controls->Add(this->button133);
+			this->groupBox6->Controls->Add(this->button134);
+			this->groupBox6->Controls->Add(this->button135);
+			this->groupBox6->Controls->Add(this->button136);
 			this->groupBox6->Controls->Add(this->button46);
 			this->groupBox6->Controls->Add(this->button47);
 			this->groupBox6->Controls->Add(this->button48);
@@ -2358,7 +2620,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox6->Controls->Add(this->button53);
 			this->groupBox6->Controls->Add(this->textBoxtrial2_1gm);
 			this->groupBox6->Controls->Add(this->label81);
-			this->groupBox6->Controls->Add(this->chart4);
+			this->groupBox6->Controls->Add(this->chartTrial2_1);
 			this->groupBox6->Controls->Add(this->button54);
 			this->groupBox6->Controls->Add(this->labeltrial2_1IL_8);
 			this->groupBox6->Controls->Add(this->labeltrial2_1IL_7);
@@ -2368,110 +2630,281 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox6->Controls->Add(this->labeltrial2_1IL_3);
 			this->groupBox6->Controls->Add(this->labeltrial2_1IL_2);
 			this->groupBox6->Controls->Add(this->labeltrial2_1IL_1);
-			this->groupBox6->Controls->Add(this->label92);
-			this->groupBox6->Controls->Add(this->label93);
-			this->groupBox6->Controls->Add(this->label94);
-			this->groupBox6->Controls->Add(this->label95);
-			this->groupBox6->Controls->Add(this->label96);
-			this->groupBox6->Controls->Add(this->label97);
-			this->groupBox6->Controls->Add(this->label98);
-			this->groupBox6->Controls->Add(this->label99);
 			this->groupBox6->Controls->Add(this->label100);
 			this->groupBox6->Controls->Add(this->label101);
 			this->groupBox6->Controls->Add(this->label102);
 			this->groupBox6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox6->ForeColor = System::Drawing::Color::Red;
-			this->groupBox6->Location = System::Drawing::Point(47, 403);
+			this->groupBox6->Location = System::Drawing::Point(47, 402);
+			this->groupBox6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox6->Name = L"groupBox6";
-			this->groupBox6->Size = System::Drawing::Size(1188, 601);
+			this->groupBox6->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->groupBox6->Size = System::Drawing::Size(1188, 628);
 			this->groupBox6->TabIndex = 89;
 			this->groupBox6->TabStop = false;
 			this->groupBox6->Text = L"第一组";
 			// 
+			// labeltrial2_1U1_8
+			// 
+			this->labeltrial2_1U1_8->Location = System::Drawing::Point(914, 117);
+			this->labeltrial2_1U1_8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_8->Name = L"labeltrial2_1U1_8";
+			this->labeltrial2_1U1_8->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_8->TabIndex = 139;
+			// 
+			// labeltrial2_1U1_7
+			// 
+			this->labeltrial2_1U1_7->Location = System::Drawing::Point(800, 117);
+			this->labeltrial2_1U1_7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_7->Name = L"labeltrial2_1U1_7";
+			this->labeltrial2_1U1_7->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_7->TabIndex = 138;
+			// 
+			// labeltrial2_1U1_6
+			// 
+			this->labeltrial2_1U1_6->Location = System::Drawing::Point(692, 117);
+			this->labeltrial2_1U1_6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_6->Name = L"labeltrial2_1U1_6";
+			this->labeltrial2_1U1_6->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_6->TabIndex = 137;
+			// 
+			// labeltrial2_1U1_5
+			// 
+			this->labeltrial2_1U1_5->Location = System::Drawing::Point(580, 117);
+			this->labeltrial2_1U1_5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_5->Name = L"labeltrial2_1U1_5";
+			this->labeltrial2_1U1_5->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_5->TabIndex = 136;
+			// 
+			// labeltrial2_1U1_4
+			// 
+			this->labeltrial2_1U1_4->Location = System::Drawing::Point(462, 117);
+			this->labeltrial2_1U1_4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_4->Name = L"labeltrial2_1U1_4";
+			this->labeltrial2_1U1_4->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_4->TabIndex = 135;
+			// 
+			// labeltrial2_1U1_3
+			// 
+			this->labeltrial2_1U1_3->Location = System::Drawing::Point(350, 117);
+			this->labeltrial2_1U1_3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_3->Name = L"labeltrial2_1U1_3";
+			this->labeltrial2_1U1_3->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_3->TabIndex = 134;
+			// 
+			// labeltrial2_1U1_2
+			// 
+			this->labeltrial2_1U1_2->Location = System::Drawing::Point(244, 117);
+			this->labeltrial2_1U1_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_2->Name = L"labeltrial2_1U1_2";
+			this->labeltrial2_1U1_2->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_2->TabIndex = 133;
+			// 
+			// labeltrial2_1U1_1
+			// 
+			this->labeltrial2_1U1_1->Location = System::Drawing::Point(132, 117);
+			this->labeltrial2_1U1_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->labeltrial2_1U1_1->Name = L"labeltrial2_1U1_1";
+			this->labeltrial2_1U1_1->Size = System::Drawing::Size(100, 30);
+			this->labeltrial2_1U1_1->TabIndex = 132;
+			// 
+			// button129
+			// 
+			this->button129->ForeColor = System::Drawing::Color::Black;
+			this->button129->Location = System::Drawing::Point(911, 161);
+			this->button129->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button129->Name = L"button129";
+			this->button129->Size = System::Drawing::Size(96, 29);
+			this->button129->TabIndex = 129;
+			this->button129->Text = L"设置";
+			this->button129->UseVisualStyleBackColor = true;
+			this->button129->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button129_Click);
+			// 
+			// button130
+			// 
+			this->button130->ForeColor = System::Drawing::Color::Black;
+			this->button130->Location = System::Drawing::Point(802, 161);
+			this->button130->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button130->Name = L"button130";
+			this->button130->Size = System::Drawing::Size(96, 29);
+			this->button130->TabIndex = 128;
+			this->button130->Text = L"设置";
+			this->button130->UseVisualStyleBackColor = true;
+			this->button130->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button130_Click);
+			// 
+			// button131
+			// 
+			this->button131->ForeColor = System::Drawing::Color::Black;
+			this->button131->Location = System::Drawing::Point(693, 161);
+			this->button131->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button131->Name = L"button131";
+			this->button131->Size = System::Drawing::Size(96, 29);
+			this->button131->TabIndex = 127;
+			this->button131->Text = L"设置";
+			this->button131->UseVisualStyleBackColor = true;
+			this->button131->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button131_Click);
+			// 
+			// button132
+			// 
+			this->button132->ForeColor = System::Drawing::Color::Black;
+			this->button132->Location = System::Drawing::Point(578, 161);
+			this->button132->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button132->Name = L"button132";
+			this->button132->Size = System::Drawing::Size(96, 29);
+			this->button132->TabIndex = 126;
+			this->button132->Text = L"设置";
+			this->button132->UseVisualStyleBackColor = true;
+			this->button132->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button132_Click);
+			// 
+			// button133
+			// 
+			this->button133->ForeColor = System::Drawing::Color::Black;
+			this->button133->Location = System::Drawing::Point(463, 161);
+			this->button133->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button133->Name = L"button133";
+			this->button133->Size = System::Drawing::Size(96, 29);
+			this->button133->TabIndex = 125;
+			this->button133->Text = L"设置";
+			this->button133->UseVisualStyleBackColor = true;
+			this->button133->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button133_Click);
+			// 
+			// button134
+			// 
+			this->button134->ForeColor = System::Drawing::Color::Black;
+			this->button134->Location = System::Drawing::Point(350, 161);
+			this->button134->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button134->Name = L"button134";
+			this->button134->Size = System::Drawing::Size(96, 29);
+			this->button134->TabIndex = 124;
+			this->button134->Text = L"设置";
+			this->button134->UseVisualStyleBackColor = true;
+			this->button134->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button134_Click);
+			// 
+			// button135
+			// 
+			this->button135->ForeColor = System::Drawing::Color::Black;
+			this->button135->Location = System::Drawing::Point(242, 161);
+			this->button135->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button135->Name = L"button135";
+			this->button135->Size = System::Drawing::Size(96, 29);
+			this->button135->TabIndex = 123;
+			this->button135->Text = L"设置";
+			this->button135->UseVisualStyleBackColor = true;
+			this->button135->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button135_Click);
+			// 
+			// button136
+			// 
+			this->button136->ForeColor = System::Drawing::Color::Black;
+			this->button136->Location = System::Drawing::Point(130, 161);
+			this->button136->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button136->Name = L"button136";
+			this->button136->Size = System::Drawing::Size(96, 29);
+			this->button136->TabIndex = 122;
+			this->button136->Text = L"设置";
+			this->button136->UseVisualStyleBackColor = true;
+			this->button136->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button136_Click);
+			// 
 			// button46
 			// 
 			this->button46->ForeColor = System::Drawing::Color::Black;
-			this->button46->Location = System::Drawing::Point(910, 212);
+			this->button46->Location = System::Drawing::Point(911, 254);
+			this->button46->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button46->Name = L"button46";
 			this->button46->Size = System::Drawing::Size(96, 29);
 			this->button46->TabIndex = 121;
 			this->button46->Text = L"获取";
 			this->button46->UseVisualStyleBackColor = true;
+			this->button46->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button46_Click);
 			// 
 			// button47
 			// 
 			this->button47->ForeColor = System::Drawing::Color::Black;
-			this->button47->Location = System::Drawing::Point(800, 212);
+			this->button47->Location = System::Drawing::Point(802, 254);
+			this->button47->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button47->Name = L"button47";
 			this->button47->Size = System::Drawing::Size(96, 29);
 			this->button47->TabIndex = 120;
 			this->button47->Text = L"获取";
 			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button47_Click);
 			// 
 			// button48
 			// 
 			this->button48->ForeColor = System::Drawing::Color::Black;
-			this->button48->Location = System::Drawing::Point(690, 212);
+			this->button48->Location = System::Drawing::Point(693, 254);
+			this->button48->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button48->Name = L"button48";
 			this->button48->Size = System::Drawing::Size(96, 29);
 			this->button48->TabIndex = 119;
 			this->button48->Text = L"获取";
 			this->button48->UseVisualStyleBackColor = true;
+			this->button48->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button48_Click);
 			// 
 			// button49
 			// 
 			this->button49->ForeColor = System::Drawing::Color::Black;
-			this->button49->Location = System::Drawing::Point(576, 212);
+			this->button49->Location = System::Drawing::Point(578, 254);
+			this->button49->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button49->Name = L"button49";
 			this->button49->Size = System::Drawing::Size(96, 29);
 			this->button49->TabIndex = 118;
 			this->button49->Text = L"获取";
 			this->button49->UseVisualStyleBackColor = true;
+			this->button49->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button49_Click);
 			// 
 			// button50
 			// 
 			this->button50->ForeColor = System::Drawing::Color::Black;
-			this->button50->Location = System::Drawing::Point(462, 212);
+			this->button50->Location = System::Drawing::Point(463, 254);
+			this->button50->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button50->Name = L"button50";
 			this->button50->Size = System::Drawing::Size(96, 29);
 			this->button50->TabIndex = 117;
 			this->button50->Text = L"获取";
 			this->button50->UseVisualStyleBackColor = true;
+			this->button50->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button50_Click);
 			// 
 			// button51
 			// 
 			this->button51->ForeColor = System::Drawing::Color::Black;
-			this->button51->Location = System::Drawing::Point(348, 212);
+			this->button51->Location = System::Drawing::Point(350, 254);
+			this->button51->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button51->Name = L"button51";
 			this->button51->Size = System::Drawing::Size(96, 29);
 			this->button51->TabIndex = 116;
 			this->button51->Text = L"获取";
 			this->button51->UseVisualStyleBackColor = true;
+			this->button51->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button51_Click);
 			// 
 			// button52
 			// 
 			this->button52->ForeColor = System::Drawing::Color::Black;
-			this->button52->Location = System::Drawing::Point(240, 212);
+			this->button52->Location = System::Drawing::Point(242, 254);
+			this->button52->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button52->Name = L"button52";
 			this->button52->Size = System::Drawing::Size(96, 29);
 			this->button52->TabIndex = 115;
 			this->button52->Text = L"获取";
 			this->button52->UseVisualStyleBackColor = true;
+			this->button52->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button52_Click);
 			// 
 			// button53
 			// 
 			this->button53->ForeColor = System::Drawing::Color::Black;
-			this->button53->Location = System::Drawing::Point(128, 212);
+			this->button53->Location = System::Drawing::Point(130, 254);
+			this->button53->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button53->Name = L"button53";
 			this->button53->Size = System::Drawing::Size(96, 29);
 			this->button53->TabIndex = 114;
 			this->button53->Text = L"获取";
 			this->button53->UseVisualStyleBackColor = true;
+			this->button53->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button53_Click);
 			// 
 			// textBoxtrial2_1gm
 			// 
-			this->textBoxtrial2_1gm->Location = System::Drawing::Point(769, 534);
+			this->textBoxtrial2_1gm->Location = System::Drawing::Point(771, 576);
+			this->textBoxtrial2_1gm->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial2_1gm->Name = L"textBoxtrial2_1gm";
 			this->textBoxtrial2_1gm->Size = System::Drawing::Size(132, 30);
 			this->textBoxtrial2_1gm->TabIndex = 113;
@@ -2480,43 +2913,46 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label81->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label81->ForeColor = System::Drawing::Color::Black;
-			this->label81->Location = System::Drawing::Point(609, 538);
+			this->label81->Location = System::Drawing::Point(611, 580);
 			this->label81->Name = L"label81";
 			this->label81->Size = System::Drawing::Size(147, 26);
 			this->label81->TabIndex = 112;
-			this->label81->Text = L"转移电导gm";
+			this->label81->Text = L"转移电导gm=";
 			// 
-			// chart4
+			// chartTrial2_1
 			// 
 			chartArea12->Name = L"ChartArea1";
-			this->chart4->ChartAreas->Add(chartArea12);
+			this->chartTrial2_1->ChartAreas->Add(chartArea12);
 			legend12->Name = L"Legend1";
-			this->chart4->Legends->Add(legend12);
-			this->chart4->Location = System::Drawing::Point(128, 264);
-			this->chart4->Name = L"chart4";
+			this->chartTrial2_1->Legends->Add(legend12);
+			this->chartTrial2_1->Location = System::Drawing::Point(130, 306);
+			this->chartTrial2_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial2_1->Name = L"chartTrial2_1";
 			series12->ChartArea = L"ChartArea1";
 			series12->Legend = L"Legend1";
 			series12->Name = L"Series1";
-			this->chart4->Series->Add(series12);
-			this->chart4->Size = System::Drawing::Size(458, 300);
-			this->chart4->TabIndex = 110;
-			this->chart4->Text = L"chart4";
+			this->chartTrial2_1->Series->Add(series12);
+			this->chartTrial2_1->Size = System::Drawing::Size(459, 300);
+			this->chartTrial2_1->TabIndex = 110;
+			this->chartTrial2_1->Text = L"chartTrial2_1";
 			// 
 			// button54
 			// 
 			this->button54->ForeColor = System::Drawing::Color::Black;
-			this->button54->Location = System::Drawing::Point(6, 264);
+			this->button54->Location = System::Drawing::Point(7, 306);
+			this->button54->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button54->Name = L"button54";
 			this->button54->Size = System::Drawing::Size(109, 34);
 			this->button54->TabIndex = 109;
 			this->button54->Text = L"曲线生成";
 			this->button54->UseVisualStyleBackColor = true;
+			this->button54->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button54_Click);
 			// 
 			// labeltrial2_1IL_8
 			// 
 			this->labeltrial2_1IL_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_8->Location = System::Drawing::Point(914, 159);
+			this->labeltrial2_1IL_8->Location = System::Drawing::Point(917, 201);
 			this->labeltrial2_1IL_8->Name = L"labeltrial2_1IL_8";
 			this->labeltrial2_1IL_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_8->TabIndex = 107;
@@ -2525,7 +2961,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_1IL_7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_7->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_7->Location = System::Drawing::Point(800, 159);
+			this->labeltrial2_1IL_7->Location = System::Drawing::Point(802, 201);
 			this->labeltrial2_1IL_7->Name = L"labeltrial2_1IL_7";
 			this->labeltrial2_1IL_7->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_7->TabIndex = 106;
@@ -2534,7 +2970,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_1IL_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_6->Location = System::Drawing::Point(690, 159);
+			this->labeltrial2_1IL_6->Location = System::Drawing::Point(693, 201);
 			this->labeltrial2_1IL_6->Name = L"labeltrial2_1IL_6";
 			this->labeltrial2_1IL_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_6->TabIndex = 105;
@@ -2543,7 +2979,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_1IL_5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_5->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_5->Location = System::Drawing::Point(576, 159);
+			this->labeltrial2_1IL_5->Location = System::Drawing::Point(578, 201);
 			this->labeltrial2_1IL_5->Name = L"labeltrial2_1IL_5";
 			this->labeltrial2_1IL_5->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_5->TabIndex = 104;
@@ -2552,7 +2988,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_1IL_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_4->Location = System::Drawing::Point(462, 159);
+			this->labeltrial2_1IL_4->Location = System::Drawing::Point(463, 201);
 			this->labeltrial2_1IL_4->Name = L"labeltrial2_1IL_4";
 			this->labeltrial2_1IL_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_4->TabIndex = 103;
@@ -2561,7 +2997,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_1IL_3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_3->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_3->Location = System::Drawing::Point(348, 159);
+			this->labeltrial2_1IL_3->Location = System::Drawing::Point(350, 201);
 			this->labeltrial2_1IL_3->Name = L"labeltrial2_1IL_3";
 			this->labeltrial2_1IL_3->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_3->TabIndex = 102;
@@ -2570,7 +3006,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_1IL_2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_2->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_2->Location = System::Drawing::Point(240, 159);
+			this->labeltrial2_1IL_2->Location = System::Drawing::Point(242, 201);
 			this->labeltrial2_1IL_2->Name = L"labeltrial2_1IL_2";
 			this->labeltrial2_1IL_2->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_2->TabIndex = 101;
@@ -2579,97 +3015,16 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial2_1IL_1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial2_1IL_1->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial2_1IL_1->Location = System::Drawing::Point(128, 159);
+			this->labeltrial2_1IL_1->Location = System::Drawing::Point(130, 201);
 			this->labeltrial2_1IL_1->Name = L"labeltrial2_1IL_1";
 			this->labeltrial2_1IL_1->Size = System::Drawing::Size(96, 30);
 			this->labeltrial2_1IL_1->TabIndex = 100;
-			// 
-			// label92
-			// 
-			this->label92->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label92->ForeColor = System::Drawing::Color::Black;
-			this->label92->Location = System::Drawing::Point(910, 119);
-			this->label92->Name = L"label92";
-			this->label92->Size = System::Drawing::Size(100, 26);
-			this->label92->TabIndex = 98;
-			this->label92->Text = L"3.5";
-			// 
-			// label93
-			// 
-			this->label93->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label93->ForeColor = System::Drawing::Color::Black;
-			this->label93->Location = System::Drawing::Point(796, 119);
-			this->label93->Name = L"label93";
-			this->label93->Size = System::Drawing::Size(100, 26);
-			this->label93->TabIndex = 97;
-			this->label93->Text = L"3";
-			// 
-			// label94
-			// 
-			this->label94->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label94->ForeColor = System::Drawing::Color::Black;
-			this->label94->Location = System::Drawing::Point(686, 119);
-			this->label94->Name = L"label94";
-			this->label94->Size = System::Drawing::Size(100, 26);
-			this->label94->TabIndex = 96;
-			this->label94->Text = L"2.5";
-			// 
-			// label95
-			// 
-			this->label95->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label95->ForeColor = System::Drawing::Color::Black;
-			this->label95->Location = System::Drawing::Point(572, 119);
-			this->label95->Name = L"label95";
-			this->label95->Size = System::Drawing::Size(100, 26);
-			this->label95->TabIndex = 95;
-			this->label95->Text = L"2";
-			this->label95->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::label95_Click);
-			// 
-			// label96
-			// 
-			this->label96->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label96->ForeColor = System::Drawing::Color::Black;
-			this->label96->Location = System::Drawing::Point(458, 119);
-			this->label96->Name = L"label96";
-			this->label96->Size = System::Drawing::Size(100, 26);
-			this->label96->TabIndex = 94;
-			this->label96->Text = L"1.5";
-			// 
-			// label97
-			// 
-			this->label97->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label97->ForeColor = System::Drawing::Color::Black;
-			this->label97->Location = System::Drawing::Point(344, 119);
-			this->label97->Name = L"label97";
-			this->label97->Size = System::Drawing::Size(100, 26);
-			this->label97->TabIndex = 93;
-			this->label97->Text = L"1";
-			// 
-			// label98
-			// 
-			this->label98->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label98->ForeColor = System::Drawing::Color::Black;
-			this->label98->Location = System::Drawing::Point(236, 119);
-			this->label98->Name = L"label98";
-			this->label98->Size = System::Drawing::Size(100, 26);
-			this->label98->TabIndex = 92;
-			this->label98->Text = L"0.5";
-			// 
-			// label99
-			// 
-			this->label99->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label99->ForeColor = System::Drawing::Color::Black;
-			this->label99->Location = System::Drawing::Point(128, 119);
-			this->label99->Name = L"label99";
-			this->label99->Size = System::Drawing::Size(100, 26);
-			this->label99->TabIndex = 91;
-			this->label99->Text = L"0";
 			// 
 			// label100
 			// 
 			this->label100->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label100->ForeColor = System::Drawing::Color::Black;
-			this->label100->Location = System::Drawing::Point(21, 163);
+			this->label100->Location = System::Drawing::Point(23, 204);
 			this->label100->Name = L"label100";
 			this->label100->Size = System::Drawing::Size(101, 26);
 			this->label100->TabIndex = 90;
@@ -2690,14 +3045,14 @@ private: System::Windows::Forms::Label^  label166;
 			this->label102->ForeColor = System::Drawing::Color::Black;
 			this->label102->Location = System::Drawing::Point(28, 40);
 			this->label102->Name = L"label102";
-			this->label102->Size = System::Drawing::Size(973, 57);
+			this->label102->Size = System::Drawing::Size(973, 58);
 			this->label102->TabIndex = 88;
 			this->label102->Text = L"   （1）固定RL＝2KΩ，调节稳压电源的输出电压U1，测出相应的IL值，绘制IL＝F（U1）曲线，并由其线性部分求出转移电导gm 。";
 			// 
 			// label103
 			// 
 			this->label103->ForeColor = System::Drawing::Color::Black;
-			this->label103->Location = System::Drawing::Point(22, 55);
+			this->label103->Location = System::Drawing::Point(21, 55);
 			this->label103->Name = L"label103";
 			this->label103->Size = System::Drawing::Size(973, 38);
 			this->label103->TabIndex = 87;
@@ -2706,7 +3061,8 @@ private: System::Windows::Forms::Label^  label166;
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(402, 96);
+			this->pictureBox2->Location = System::Drawing::Point(403, 96);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(389, 279);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -2723,7 +3079,9 @@ private: System::Windows::Forms::Label^  label166;
 				static_cast<System::Byte>(134)));
 			this->groupBox7->ForeColor = System::Drawing::Color::Red;
 			this->groupBox7->Location = System::Drawing::Point(27, 3418);
+			this->groupBox7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox7->Name = L"groupBox7";
+			this->groupBox7->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox7->Size = System::Drawing::Size(1407, 1686);
 			this->groupBox7->TabIndex = 113;
 			this->groupBox7->TabStop = false;
@@ -2731,11 +3089,18 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_8);
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_7);
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_6);
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_5);
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_4);
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_3);
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_2);
+			this->groupBox8->Controls->Add(this->textBoxtrial3_2RL_1);
 			this->groupBox8->Controls->Add(this->button84);
 			this->groupBox8->Controls->Add(this->button85);
 			this->groupBox8->Controls->Add(this->labeltrial3_2IL_8);
 			this->groupBox8->Controls->Add(this->labeltrial3_2U2_8);
-			this->groupBox8->Controls->Add(this->label147);
 			this->groupBox8->Controls->Add(this->button26);
 			this->groupBox8->Controls->Add(this->button36);
 			this->groupBox8->Controls->Add(this->button45);
@@ -2758,7 +3123,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox8->Controls->Add(this->labeltrial3_2IL_2);
 			this->groupBox8->Controls->Add(this->labeltrial3_2IL_1);
 			this->groupBox8->Controls->Add(this->label106);
-			this->groupBox8->Controls->Add(this->chart5);
+			this->groupBox8->Controls->Add(this->chartTrial3_2);
 			this->groupBox8->Controls->Add(this->button66);
 			this->groupBox8->Controls->Add(this->labeltrial3_2U2_7);
 			this->groupBox8->Controls->Add(this->labeltrial3_2U2_6);
@@ -2767,21 +3132,16 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox8->Controls->Add(this->labeltrial3_2U2_3);
 			this->groupBox8->Controls->Add(this->labeltrial3_2U2_2);
 			this->groupBox8->Controls->Add(this->labeltrial3_2U2_1);
-			this->groupBox8->Controls->Add(this->label114);
-			this->groupBox8->Controls->Add(this->label115);
-			this->groupBox8->Controls->Add(this->label116);
-			this->groupBox8->Controls->Add(this->label117);
-			this->groupBox8->Controls->Add(this->label118);
-			this->groupBox8->Controls->Add(this->label119);
-			this->groupBox8->Controls->Add(this->label120);
 			this->groupBox8->Controls->Add(this->label121);
 			this->groupBox8->Controls->Add(this->label122);
 			this->groupBox8->Controls->Add(this->label123);
 			this->groupBox8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox8->ForeColor = System::Drawing::Color::Red;
-			this->groupBox8->Location = System::Drawing::Point(47, 1033);
+			this->groupBox8->Location = System::Drawing::Point(47, 1032);
+			this->groupBox8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox8->Name = L"groupBox8";
+			this->groupBox8->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox8->Size = System::Drawing::Size(1188, 625);
 			this->groupBox8->TabIndex = 111;
 			this->groupBox8->TabStop = false;
@@ -2791,28 +3151,32 @@ private: System::Windows::Forms::Label^  label166;
 			// button84
 			// 
 			this->button84->ForeColor = System::Drawing::Color::Black;
-			this->button84->Location = System::Drawing::Point(976, 263);
+			this->button84->Location = System::Drawing::Point(976, 262);
+			this->button84->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button84->Name = L"button84";
 			this->button84->Size = System::Drawing::Size(96, 29);
 			this->button84->TabIndex = 142;
 			this->button84->Text = L"获取";
 			this->button84->UseVisualStyleBackColor = true;
+			this->button84->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button84_Click);
 			// 
 			// button85
 			// 
 			this->button85->ForeColor = System::Drawing::Color::Black;
-			this->button85->Location = System::Drawing::Point(978, 174);
+			this->button85->Location = System::Drawing::Point(979, 174);
+			this->button85->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button85->Name = L"button85";
 			this->button85->Size = System::Drawing::Size(96, 29);
 			this->button85->TabIndex = 141;
 			this->button85->Text = L"获取";
 			this->button85->UseVisualStyleBackColor = true;
+			this->button85->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button85_Click);
 			// 
 			// labeltrial3_2IL_8
 			// 
 			this->labeltrial3_2IL_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_2IL_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_2IL_8->Location = System::Drawing::Point(978, 220);
+			this->labeltrial3_2IL_8->Location = System::Drawing::Point(979, 220);
 			this->labeltrial3_2IL_8->Name = L"labeltrial3_2IL_8";
 			this->labeltrial3_2IL_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_2IL_8->TabIndex = 140;
@@ -2821,140 +3185,154 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_2U2_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_2U2_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_2U2_8->Location = System::Drawing::Point(978, 141);
+			this->labeltrial3_2U2_8->Location = System::Drawing::Point(979, 141);
 			this->labeltrial3_2U2_8->Name = L"labeltrial3_2U2_8";
 			this->labeltrial3_2U2_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_2U2_8->TabIndex = 139;
 			// 
-			// label147
-			// 
-			this->label147->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label147->ForeColor = System::Drawing::Color::Black;
-			this->label147->Location = System::Drawing::Point(974, 101);
-			this->label147->Name = L"label147";
-			this->label147->Size = System::Drawing::Size(100, 26);
-			this->label147->TabIndex = 138;
-			this->label147->Text = L"8";
-			// 
 			// button26
 			// 
 			this->button26->ForeColor = System::Drawing::Color::Black;
-			this->button26->Location = System::Drawing::Point(862, 263);
+			this->button26->Location = System::Drawing::Point(861, 262);
+			this->button26->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button26->Name = L"button26";
 			this->button26->Size = System::Drawing::Size(96, 29);
 			this->button26->TabIndex = 137;
 			this->button26->Text = L"获取";
 			this->button26->UseVisualStyleBackColor = true;
+			this->button26->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button26_Click);
 			// 
 			// button36
 			// 
 			this->button36->ForeColor = System::Drawing::Color::Black;
-			this->button36->Location = System::Drawing::Point(750, 263);
+			this->button36->Location = System::Drawing::Point(749, 262);
+			this->button36->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button36->Name = L"button36";
 			this->button36->Size = System::Drawing::Size(96, 29);
 			this->button36->TabIndex = 136;
 			this->button36->Text = L"获取";
 			this->button36->UseVisualStyleBackColor = true;
+			this->button36->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button36_Click);
 			// 
 			// button45
 			// 
 			this->button45->ForeColor = System::Drawing::Color::Black;
-			this->button45->Location = System::Drawing::Point(636, 263);
+			this->button45->Location = System::Drawing::Point(636, 262);
+			this->button45->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button45->Name = L"button45";
 			this->button45->Size = System::Drawing::Size(96, 29);
 			this->button45->TabIndex = 135;
 			this->button45->Text = L"获取";
 			this->button45->UseVisualStyleBackColor = true;
+			this->button45->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button45_Click);
 			// 
 			// button55
 			// 
 			this->button55->ForeColor = System::Drawing::Color::Black;
-			this->button55->Location = System::Drawing::Point(524, 263);
+			this->button55->Location = System::Drawing::Point(524, 262);
+			this->button55->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button55->Name = L"button55";
 			this->button55->Size = System::Drawing::Size(96, 29);
 			this->button55->TabIndex = 134;
 			this->button55->Text = L"获取";
 			this->button55->UseVisualStyleBackColor = true;
+			this->button55->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button55_Click);
 			// 
 			// button56
 			// 
 			this->button56->ForeColor = System::Drawing::Color::Black;
-			this->button56->Location = System::Drawing::Point(410, 263);
+			this->button56->Location = System::Drawing::Point(411, 262);
+			this->button56->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button56->Name = L"button56";
 			this->button56->Size = System::Drawing::Size(96, 29);
 			this->button56->TabIndex = 133;
 			this->button56->Text = L"获取";
 			this->button56->UseVisualStyleBackColor = true;
+			this->button56->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button56_Click);
 			// 
 			// button57
 			// 
 			this->button57->ForeColor = System::Drawing::Color::Black;
-			this->button57->Location = System::Drawing::Point(302, 263);
+			this->button57->Location = System::Drawing::Point(301, 262);
+			this->button57->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button57->Name = L"button57";
 			this->button57->Size = System::Drawing::Size(96, 29);
 			this->button57->TabIndex = 132;
 			this->button57->Text = L"获取";
 			this->button57->UseVisualStyleBackColor = true;
+			this->button57->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button57_Click);
 			// 
 			// button58
 			// 
 			this->button58->ForeColor = System::Drawing::Color::Black;
-			this->button58->Location = System::Drawing::Point(188, 263);
+			this->button58->Location = System::Drawing::Point(188, 262);
+			this->button58->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button58->Name = L"button58";
 			this->button58->Size = System::Drawing::Size(96, 29);
 			this->button58->TabIndex = 131;
 			this->button58->Text = L"获取";
 			this->button58->UseVisualStyleBackColor = true;
+			this->button58->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button58_Click);
 			// 
 			// button59
 			// 
 			this->button59->ForeColor = System::Drawing::Color::Black;
 			this->button59->Location = System::Drawing::Point(864, 174);
+			this->button59->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button59->Name = L"button59";
 			this->button59->Size = System::Drawing::Size(96, 29);
 			this->button59->TabIndex = 129;
 			this->button59->Text = L"获取";
 			this->button59->UseVisualStyleBackColor = true;
+			this->button59->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button59_Click);
 			// 
 			// button60
 			// 
 			this->button60->ForeColor = System::Drawing::Color::Black;
 			this->button60->Location = System::Drawing::Point(752, 174);
+			this->button60->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button60->Name = L"button60";
 			this->button60->Size = System::Drawing::Size(96, 29);
 			this->button60->TabIndex = 128;
 			this->button60->Text = L"获取";
 			this->button60->UseVisualStyleBackColor = true;
+			this->button60->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button60_Click);
 			// 
 			// button61
 			// 
 			this->button61->ForeColor = System::Drawing::Color::Black;
-			this->button61->Location = System::Drawing::Point(638, 174);
+			this->button61->Location = System::Drawing::Point(637, 174);
+			this->button61->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button61->Name = L"button61";
 			this->button61->Size = System::Drawing::Size(96, 29);
 			this->button61->TabIndex = 127;
 			this->button61->Text = L"获取";
 			this->button61->UseVisualStyleBackColor = true;
+			this->button61->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button61_Click);
 			// 
 			// button62
 			// 
 			this->button62->ForeColor = System::Drawing::Color::Black;
-			this->button62->Location = System::Drawing::Point(526, 174);
+			this->button62->Location = System::Drawing::Point(525, 174);
+			this->button62->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button62->Name = L"button62";
 			this->button62->Size = System::Drawing::Size(96, 29);
 			this->button62->TabIndex = 126;
 			this->button62->Text = L"获取";
 			this->button62->UseVisualStyleBackColor = true;
+			this->button62->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button62_Click);
 			// 
 			// button63
 			// 
 			this->button63->ForeColor = System::Drawing::Color::Black;
 			this->button63->Location = System::Drawing::Point(412, 174);
+			this->button63->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button63->Name = L"button63";
 			this->button63->Size = System::Drawing::Size(96, 29);
 			this->button63->TabIndex = 125;
 			this->button63->Text = L"获取";
 			this->button63->UseVisualStyleBackColor = true;
+			this->button63->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button63_Click);
 			// 
 			// labeltrial3_2IL_7
 			// 
@@ -2969,27 +3347,31 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->button64->ForeColor = System::Drawing::Color::Black;
 			this->button64->Location = System::Drawing::Point(304, 174);
+			this->button64->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button64->Name = L"button64";
 			this->button64->Size = System::Drawing::Size(96, 29);
 			this->button64->TabIndex = 124;
 			this->button64->Text = L"获取";
 			this->button64->UseVisualStyleBackColor = true;
+			this->button64->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button64_Click);
 			// 
 			// button65
 			// 
 			this->button65->ForeColor = System::Drawing::Color::Black;
-			this->button65->Location = System::Drawing::Point(190, 174);
+			this->button65->Location = System::Drawing::Point(189, 174);
+			this->button65->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button65->Name = L"button65";
 			this->button65->Size = System::Drawing::Size(96, 29);
 			this->button65->TabIndex = 123;
 			this->button65->Text = L"获取";
 			this->button65->UseVisualStyleBackColor = true;
+			this->button65->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button65_Click);
 			// 
 			// labeltrial3_2IL_6
 			// 
 			this->labeltrial3_2IL_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_2IL_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_2IL_6->Location = System::Drawing::Point(754, 220);
+			this->labeltrial3_2IL_6->Location = System::Drawing::Point(755, 220);
 			this->labeltrial3_2IL_6->Name = L"labeltrial3_2IL_6";
 			this->labeltrial3_2IL_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_2IL_6->TabIndex = 117;
@@ -3007,7 +3389,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_2IL_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_2IL_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_2IL_4->Location = System::Drawing::Point(526, 220);
+			this->labeltrial3_2IL_4->Location = System::Drawing::Point(525, 220);
 			this->labeltrial3_2IL_4->Name = L"labeltrial3_2IL_4";
 			this->labeltrial3_2IL_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_2IL_4->TabIndex = 115;
@@ -3045,35 +3427,38 @@ private: System::Windows::Forms::Label^  label166;
 			this->label106->ForeColor = System::Drawing::Color::Black;
 			this->label106->Location = System::Drawing::Point(23, 224);
 			this->label106->Name = L"label106";
-			this->label106->Size = System::Drawing::Size(110, 26);
+			this->label106->Size = System::Drawing::Size(109, 26);
 			this->label106->TabIndex = 111;
 			this->label106->Text = L"IL（mA）";
 			// 
-			// chart5
+			// chartTrial3_2
 			// 
 			chartArea13->Name = L"ChartArea1";
-			this->chart5->ChartAreas->Add(chartArea13);
+			this->chartTrial3_2->ChartAreas->Add(chartArea13);
 			legend13->Name = L"Legend1";
-			this->chart5->Legends->Add(legend13);
-			this->chart5->Location = System::Drawing::Point(376, 307);
-			this->chart5->Name = L"chart5";
+			this->chartTrial3_2->Legends->Add(legend13);
+			this->chartTrial3_2->Location = System::Drawing::Point(376, 308);
+			this->chartTrial3_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial3_2->Name = L"chartTrial3_2";
 			series13->ChartArea = L"ChartArea1";
 			series13->Legend = L"Legend1";
 			series13->Name = L"Series1";
-			this->chart5->Series->Add(series13);
-			this->chart5->Size = System::Drawing::Size(458, 300);
-			this->chart5->TabIndex = 110;
-			this->chart5->Text = L"chart5";
+			this->chartTrial3_2->Series->Add(series13);
+			this->chartTrial3_2->Size = System::Drawing::Size(459, 300);
+			this->chartTrial3_2->TabIndex = 110;
+			this->chartTrial3_2->Text = L"chartTrial3_2";
 			// 
 			// button66
 			// 
 			this->button66->ForeColor = System::Drawing::Color::Black;
 			this->button66->Location = System::Drawing::Point(188, 318);
+			this->button66->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button66->Name = L"button66";
-			this->button66->Size = System::Drawing::Size(109, 34);
+			this->button66->Size = System::Drawing::Size(144, 34);
 			this->button66->TabIndex = 109;
 			this->button66->Text = L"曲线生成";
 			this->button66->UseVisualStyleBackColor = true;
+			this->button66->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button66_Click);
 			// 
 			// labeltrial3_2U2_7
 			// 
@@ -3088,7 +3473,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_2U2_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_2U2_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_2U2_6->Location = System::Drawing::Point(754, 141);
+			this->labeltrial3_2U2_6->Location = System::Drawing::Point(755, 141);
 			this->labeltrial3_2U2_6->Name = L"labeltrial3_2U2_6";
 			this->labeltrial3_2U2_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_2U2_6->TabIndex = 105;
@@ -3106,7 +3491,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_2U2_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_2U2_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_2U2_4->Location = System::Drawing::Point(526, 141);
+			this->labeltrial3_2U2_4->Location = System::Drawing::Point(525, 141);
 			this->labeltrial3_2U2_4->Name = L"labeltrial3_2U2_4";
 			this->labeltrial3_2U2_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_2U2_4->TabIndex = 103;
@@ -3138,83 +3523,13 @@ private: System::Windows::Forms::Label^  label166;
 			this->labeltrial3_2U2_1->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_2U2_1->TabIndex = 100;
 			// 
-			// label114
-			// 
-			this->label114->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label114->ForeColor = System::Drawing::Color::Black;
-			this->label114->Location = System::Drawing::Point(860, 101);
-			this->label114->Name = L"label114";
-			this->label114->Size = System::Drawing::Size(100, 26);
-			this->label114->TabIndex = 97;
-			this->label114->Text = L"7";
-			// 
-			// label115
-			// 
-			this->label115->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label115->ForeColor = System::Drawing::Color::Black;
-			this->label115->Location = System::Drawing::Point(750, 101);
-			this->label115->Name = L"label115";
-			this->label115->Size = System::Drawing::Size(100, 26);
-			this->label115->TabIndex = 96;
-			this->label115->Text = L"6";
-			// 
-			// label116
-			// 
-			this->label116->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label116->ForeColor = System::Drawing::Color::Black;
-			this->label116->Location = System::Drawing::Point(636, 101);
-			this->label116->Name = L"label116";
-			this->label116->Size = System::Drawing::Size(100, 26);
-			this->label116->TabIndex = 95;
-			this->label116->Text = L"5";
-			// 
-			// label117
-			// 
-			this->label117->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label117->ForeColor = System::Drawing::Color::Black;
-			this->label117->Location = System::Drawing::Point(522, 101);
-			this->label117->Name = L"label117";
-			this->label117->Size = System::Drawing::Size(100, 26);
-			this->label117->TabIndex = 94;
-			this->label117->Text = L"4";
-			// 
-			// label118
-			// 
-			this->label118->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label118->ForeColor = System::Drawing::Color::Black;
-			this->label118->Location = System::Drawing::Point(408, 101);
-			this->label118->Name = L"label118";
-			this->label118->Size = System::Drawing::Size(100, 26);
-			this->label118->TabIndex = 93;
-			this->label118->Text = L"3";
-			// 
-			// label119
-			// 
-			this->label119->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label119->ForeColor = System::Drawing::Color::Black;
-			this->label119->Location = System::Drawing::Point(300, 101);
-			this->label119->Name = L"label119";
-			this->label119->Size = System::Drawing::Size(100, 26);
-			this->label119->TabIndex = 92;
-			this->label119->Text = L"2";
-			// 
-			// label120
-			// 
-			this->label120->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label120->ForeColor = System::Drawing::Color::Black;
-			this->label120->Location = System::Drawing::Point(192, 101);
-			this->label120->Name = L"label120";
-			this->label120->Size = System::Drawing::Size(100, 26);
-			this->label120->TabIndex = 91;
-			this->label120->Text = L"1";
-			// 
 			// label121
 			// 
 			this->label121->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label121->ForeColor = System::Drawing::Color::Black;
 			this->label121->Location = System::Drawing::Point(23, 141);
 			this->label121->Name = L"label121";
-			this->label121->Size = System::Drawing::Size(110, 26);
+			this->label121->Size = System::Drawing::Size(109, 26);
 			this->label121->TabIndex = 90;
 			this->label121->Text = L"U2（v）";
 			// 
@@ -3222,18 +3537,18 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label122->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label122->ForeColor = System::Drawing::Color::Black;
-			this->label122->Location = System::Drawing::Point(23, 97);
+			this->label122->Location = System::Drawing::Point(23, 98);
 			this->label122->Name = L"label122";
-			this->label122->Size = System::Drawing::Size(110, 26);
+			this->label122->Size = System::Drawing::Size(109, 26);
 			this->label122->TabIndex = 89;
 			this->label122->Text = L"RL（KΩ）";
 			// 
 			// label123
 			// 
 			this->label123->ForeColor = System::Drawing::Color::Black;
-			this->label123->Location = System::Drawing::Point(6, 38);
+			this->label123->Location = System::Drawing::Point(5, 38);
 			this->label123->Name = L"label123";
-			this->label123->Size = System::Drawing::Size(973, 33);
+			this->label123->Size = System::Drawing::Size(973, 32);
 			this->label123->TabIndex = 88;
 			this->label123->Text = L"（2）保持IS＝0.5mA，令RL从1KΩ增至8KΩ，测出U2及IL，绘制负载特性曲线U2＝F（IL）。";
 			// 
@@ -3257,7 +3572,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox9->Controls->Add(this->button74);
 			this->groupBox9->Controls->Add(this->textBoxtrial3_1rm);
 			this->groupBox9->Controls->Add(this->label124);
-			this->groupBox9->Controls->Add(this->chart6);
+			this->groupBox9->Controls->Add(this->chartTrial3_1);
 			this->groupBox9->Controls->Add(this->button75);
 			this->groupBox9->Controls->Add(this->labeltrial3_1V2_8);
 			this->groupBox9->Controls->Add(this->labeltrial3_1V2_7);
@@ -3281,8 +3596,10 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox9->ForeColor = System::Drawing::Color::Red;
-			this->groupBox9->Location = System::Drawing::Point(47, 403);
+			this->groupBox9->Location = System::Drawing::Point(47, 402);
+			this->groupBox9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox9->Name = L"groupBox9";
+			this->groupBox9->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox9->Size = System::Drawing::Size(1188, 624);
 			this->groupBox9->TabIndex = 89;
 			this->groupBox9->TabStop = false;
@@ -3292,166 +3609,199 @@ private: System::Windows::Forms::Label^  label166;
 			// button76
 			// 
 			this->button76->ForeColor = System::Drawing::Color::Black;
-			this->button76->Location = System::Drawing::Point(906, 158);
+			this->button76->Location = System::Drawing::Point(907, 158);
+			this->button76->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button76->Name = L"button76";
 			this->button76->Size = System::Drawing::Size(96, 29);
 			this->button76->TabIndex = 129;
 			this->button76->Text = L"获取";
 			this->button76->UseVisualStyleBackColor = true;
+			this->button76->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button76_Click);
 			// 
 			// button77
 			// 
 			this->button77->ForeColor = System::Drawing::Color::Black;
 			this->button77->Location = System::Drawing::Point(796, 158);
+			this->button77->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button77->Name = L"button77";
 			this->button77->Size = System::Drawing::Size(96, 29);
 			this->button77->TabIndex = 128;
 			this->button77->Text = L"获取";
 			this->button77->UseVisualStyleBackColor = true;
+			this->button77->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button77_Click);
 			// 
 			// button78
 			// 
 			this->button78->ForeColor = System::Drawing::Color::Black;
-			this->button78->Location = System::Drawing::Point(686, 158);
+			this->button78->Location = System::Drawing::Point(685, 158);
+			this->button78->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button78->Name = L"button78";
 			this->button78->Size = System::Drawing::Size(96, 29);
 			this->button78->TabIndex = 127;
 			this->button78->Text = L"获取";
 			this->button78->UseVisualStyleBackColor = true;
+			this->button78->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button78_Click);
 			// 
 			// button79
 			// 
 			this->button79->ForeColor = System::Drawing::Color::Black;
 			this->button79->Location = System::Drawing::Point(572, 158);
+			this->button79->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button79->Name = L"button79";
 			this->button79->Size = System::Drawing::Size(96, 29);
 			this->button79->TabIndex = 126;
 			this->button79->Text = L"获取";
 			this->button79->UseVisualStyleBackColor = true;
+			this->button79->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button79_Click);
 			// 
 			// button80
 			// 
 			this->button80->ForeColor = System::Drawing::Color::Black;
-			this->button80->Location = System::Drawing::Point(458, 158);
+			this->button80->Location = System::Drawing::Point(459, 158);
+			this->button80->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button80->Name = L"button80";
 			this->button80->Size = System::Drawing::Size(96, 29);
 			this->button80->TabIndex = 125;
 			this->button80->Text = L"获取";
 			this->button80->UseVisualStyleBackColor = true;
+			this->button80->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button80_Click);
 			// 
 			// button81
 			// 
 			this->button81->ForeColor = System::Drawing::Color::Black;
 			this->button81->Location = System::Drawing::Point(344, 158);
+			this->button81->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button81->Name = L"button81";
 			this->button81->Size = System::Drawing::Size(96, 29);
 			this->button81->TabIndex = 124;
 			this->button81->Text = L"获取";
 			this->button81->UseVisualStyleBackColor = true;
+			this->button81->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button81_Click);
 			// 
 			// button82
 			// 
 			this->button82->ForeColor = System::Drawing::Color::Black;
 			this->button82->Location = System::Drawing::Point(236, 158);
+			this->button82->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button82->Name = L"button82";
 			this->button82->Size = System::Drawing::Size(96, 29);
 			this->button82->TabIndex = 123;
 			this->button82->Text = L"获取";
 			this->button82->UseVisualStyleBackColor = true;
+			this->button82->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button82_Click);
 			// 
 			// button83
 			// 
 			this->button83->ForeColor = System::Drawing::Color::Black;
 			this->button83->Location = System::Drawing::Point(124, 158);
+			this->button83->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button83->Name = L"button83";
 			this->button83->Size = System::Drawing::Size(96, 29);
 			this->button83->TabIndex = 122;
 			this->button83->Text = L"获取";
 			this->button83->UseVisualStyleBackColor = true;
+			this->button83->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button83_Click);
 			// 
 			// button67
 			// 
 			this->button67->ForeColor = System::Drawing::Color::Black;
-			this->button67->Location = System::Drawing::Point(910, 250);
+			this->button67->Location = System::Drawing::Point(909, 250);
+			this->button67->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button67->Name = L"button67";
 			this->button67->Size = System::Drawing::Size(96, 29);
 			this->button67->TabIndex = 121;
 			this->button67->Text = L"获取";
 			this->button67->UseVisualStyleBackColor = true;
+			this->button67->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button67_Click);
 			// 
 			// button68
 			// 
 			this->button68->ForeColor = System::Drawing::Color::Black;
 			this->button68->Location = System::Drawing::Point(800, 250);
+			this->button68->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button68->Name = L"button68";
 			this->button68->Size = System::Drawing::Size(96, 29);
 			this->button68->TabIndex = 120;
 			this->button68->Text = L"获取";
 			this->button68->UseVisualStyleBackColor = true;
+			this->button68->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button68_Click);
 			// 
 			// button69
 			// 
 			this->button69->ForeColor = System::Drawing::Color::Black;
-			this->button69->Location = System::Drawing::Point(690, 250);
+			this->button69->Location = System::Drawing::Point(691, 250);
+			this->button69->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button69->Name = L"button69";
 			this->button69->Size = System::Drawing::Size(96, 29);
 			this->button69->TabIndex = 119;
 			this->button69->Text = L"获取";
 			this->button69->UseVisualStyleBackColor = true;
+			this->button69->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button69_Click);
 			// 
 			// button70
 			// 
 			this->button70->ForeColor = System::Drawing::Color::Black;
 			this->button70->Location = System::Drawing::Point(576, 250);
+			this->button70->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button70->Name = L"button70";
 			this->button70->Size = System::Drawing::Size(96, 29);
 			this->button70->TabIndex = 118;
 			this->button70->Text = L"获取";
 			this->button70->UseVisualStyleBackColor = true;
+			this->button70->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button70_Click);
 			// 
 			// button71
 			// 
 			this->button71->ForeColor = System::Drawing::Color::Black;
-			this->button71->Location = System::Drawing::Point(462, 250);
+			this->button71->Location = System::Drawing::Point(461, 250);
+			this->button71->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button71->Name = L"button71";
 			this->button71->Size = System::Drawing::Size(96, 29);
 			this->button71->TabIndex = 117;
 			this->button71->Text = L"获取";
 			this->button71->UseVisualStyleBackColor = true;
+			this->button71->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button71_Click);
 			// 
 			// button72
 			// 
 			this->button72->ForeColor = System::Drawing::Color::Black;
 			this->button72->Location = System::Drawing::Point(348, 250);
+			this->button72->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button72->Name = L"button72";
 			this->button72->Size = System::Drawing::Size(96, 29);
 			this->button72->TabIndex = 116;
 			this->button72->Text = L"获取";
 			this->button72->UseVisualStyleBackColor = true;
+			this->button72->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button72_Click);
 			// 
 			// button73
 			// 
 			this->button73->ForeColor = System::Drawing::Color::Black;
 			this->button73->Location = System::Drawing::Point(240, 250);
+			this->button73->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button73->Name = L"button73";
 			this->button73->Size = System::Drawing::Size(96, 29);
 			this->button73->TabIndex = 115;
 			this->button73->Text = L"获取";
 			this->button73->UseVisualStyleBackColor = true;
+			this->button73->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button73_Click);
 			// 
 			// button74
 			// 
 			this->button74->ForeColor = System::Drawing::Color::Black;
 			this->button74->Location = System::Drawing::Point(128, 250);
+			this->button74->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button74->Name = L"button74";
 			this->button74->Size = System::Drawing::Size(96, 29);
 			this->button74->TabIndex = 114;
 			this->button74->Text = L"获取";
 			this->button74->UseVisualStyleBackColor = true;
+			this->button74->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button74_Click);
 			// 
 			// textBoxtrial3_1rm
 			// 
 			this->textBoxtrial3_1rm->Location = System::Drawing::Point(769, 581);
+			this->textBoxtrial3_1rm->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial3_1rm->Name = L"textBoxtrial3_1rm";
 			this->textBoxtrial3_1rm->Size = System::Drawing::Size(132, 30);
 			this->textBoxtrial3_1rm->TabIndex = 113;
@@ -3466,37 +3816,40 @@ private: System::Windows::Forms::Label^  label166;
 			this->label124->TabIndex = 112;
 			this->label124->Text = L"转移电阻rm";
 			// 
-			// chart6
+			// chartTrial3_1
 			// 
 			chartArea14->Name = L"ChartArea1";
-			this->chart6->ChartAreas->Add(chartArea14);
+			this->chartTrial3_1->ChartAreas->Add(chartArea14);
 			legend14->Name = L"Legend1";
-			this->chart6->Legends->Add(legend14);
-			this->chart6->Location = System::Drawing::Point(128, 311);
-			this->chart6->Name = L"chart6";
+			this->chartTrial3_1->Legends->Add(legend14);
+			this->chartTrial3_1->Location = System::Drawing::Point(128, 311);
+			this->chartTrial3_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial3_1->Name = L"chartTrial3_1";
 			series14->ChartArea = L"ChartArea1";
 			series14->Legend = L"Legend1";
 			series14->Name = L"Series1";
-			this->chart6->Series->Add(series14);
-			this->chart6->Size = System::Drawing::Size(458, 300);
-			this->chart6->TabIndex = 110;
-			this->chart6->Text = L"chart6";
+			this->chartTrial3_1->Series->Add(series14);
+			this->chartTrial3_1->Size = System::Drawing::Size(459, 300);
+			this->chartTrial3_1->TabIndex = 110;
+			this->chartTrial3_1->Text = L"chartTrial3_1";
 			// 
 			// button75
 			// 
 			this->button75->ForeColor = System::Drawing::Color::Black;
-			this->button75->Location = System::Drawing::Point(6, 311);
+			this->button75->Location = System::Drawing::Point(5, 311);
+			this->button75->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button75->Name = L"button75";
-			this->button75->Size = System::Drawing::Size(109, 34);
+			this->button75->Size = System::Drawing::Size(127, 34);
 			this->button75->TabIndex = 109;
 			this->button75->Text = L"曲线生成";
 			this->button75->UseVisualStyleBackColor = true;
+			this->button75->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button75_Click);
 			// 
 			// labeltrial3_1V2_8
 			// 
 			this->labeltrial3_1V2_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_1V2_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_1V2_8->Location = System::Drawing::Point(914, 215);
+			this->labeltrial3_1V2_8->Location = System::Drawing::Point(915, 215);
 			this->labeltrial3_1V2_8->Name = L"labeltrial3_1V2_8";
 			this->labeltrial3_1V2_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_1V2_8->TabIndex = 107;
@@ -3514,7 +3867,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_1V2_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_1V2_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_1V2_6->Location = System::Drawing::Point(690, 215);
+			this->labeltrial3_1V2_6->Location = System::Drawing::Point(691, 215);
 			this->labeltrial3_1V2_6->Name = L"labeltrial3_1V2_6";
 			this->labeltrial3_1V2_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_1V2_6->TabIndex = 105;
@@ -3532,7 +3885,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_1V2_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_1V2_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_1V2_4->Location = System::Drawing::Point(462, 215);
+			this->labeltrial3_1V2_4->Location = System::Drawing::Point(461, 215);
 			this->labeltrial3_1V2_4->Name = L"labeltrial3_1V2_4";
 			this->labeltrial3_1V2_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial3_1V2_4->TabIndex = 103;
@@ -3568,7 +3921,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_1I1_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_1I1_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_1I1_8->Location = System::Drawing::Point(910, 119);
+			this->labeltrial3_1I1_8->Location = System::Drawing::Point(909, 119);
 			this->labeltrial3_1I1_8->Name = L"labeltrial3_1I1_8";
 			this->labeltrial3_1I1_8->Size = System::Drawing::Size(100, 26);
 			this->labeltrial3_1I1_8->TabIndex = 98;
@@ -3588,7 +3941,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_1I1_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_1I1_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_1I1_6->Location = System::Drawing::Point(686, 119);
+			this->labeltrial3_1I1_6->Location = System::Drawing::Point(685, 119);
 			this->labeltrial3_1I1_6->Name = L"labeltrial3_1I1_6";
 			this->labeltrial3_1I1_6->Size = System::Drawing::Size(100, 26);
 			this->labeltrial3_1I1_6->TabIndex = 96;
@@ -3608,7 +3961,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial3_1I1_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial3_1I1_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial3_1I1_4->Location = System::Drawing::Point(458, 119);
+			this->labeltrial3_1I1_4->Location = System::Drawing::Point(459, 119);
 			this->labeltrial3_1I1_4->Name = L"labeltrial3_1I1_4";
 			this->labeltrial3_1I1_4->Size = System::Drawing::Size(100, 26);
 			this->labeltrial3_1I1_4->TabIndex = 94;
@@ -3669,7 +4022,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->label143->ForeColor = System::Drawing::Color::Black;
 			this->label143->Location = System::Drawing::Point(28, 40);
 			this->label143->Name = L"label143";
-			this->label143->Size = System::Drawing::Size(973, 57);
+			this->label143->Size = System::Drawing::Size(973, 58);
 			this->label143->TabIndex = 88;
 			this->label143->Text = L"  （1）固定RL＝2KΩ，调节恒流源的输出电流Is，使其在0.05~0.7mA范围内取8个数，测出U2，绘制U2=F（I1）曲线，并由线性部分求出转移电阻rm "
 				L"。";
@@ -3677,7 +4030,7 @@ private: System::Windows::Forms::Label^  label166;
 			// label144
 			// 
 			this->label144->ForeColor = System::Drawing::Color::Black;
-			this->label144->Location = System::Drawing::Point(22, 55);
+			this->label144->Location = System::Drawing::Point(21, 55);
 			this->label144->Name = L"label144";
 			this->label144->Size = System::Drawing::Size(973, 38);
 			this->label144->TabIndex = 87;
@@ -3686,7 +4039,8 @@ private: System::Windows::Forms::Label^  label166;
 			// pictureBox3
 			// 
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(402, 96);
+			this->pictureBox3->Location = System::Drawing::Point(403, 96);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(389, 279);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -3703,11 +4057,14 @@ private: System::Windows::Forms::Label^  label166;
 				static_cast<System::Byte>(134)));
 			this->groupBox10->ForeColor = System::Drawing::Color::Red;
 			this->groupBox10->Location = System::Drawing::Point(27, 5124);
+			this->groupBox10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox10->Name = L"groupBox10";
+			this->groupBox10->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox10->Size = System::Drawing::Size(1407, 1686);
 			this->groupBox10->TabIndex = 114;
 			this->groupBox10->TabStop = false;
 			this->groupBox10->Text = L"实验内容四";
+			this->groupBox10->Enter += gcnew System::EventHandler(this, &VCVS实验实验内容::groupBox10_Enter);
 			// 
 			// groupBox11
 			// 
@@ -3745,7 +4102,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox11->Controls->Add(this->labeltrial4_2U2_2);
 			this->groupBox11->Controls->Add(this->labeltrial4_2U2_1);
 			this->groupBox11->Controls->Add(this->label158);
-			this->groupBox11->Controls->Add(this->chart7);
+			this->groupBox11->Controls->Add(this->chartTrial4_2);
 			this->groupBox11->Controls->Add(this->button102);
 			this->groupBox11->Controls->Add(this->labeltrial4_2IL_7);
 			this->groupBox11->Controls->Add(this->labeltrial4_2IL_6);
@@ -3760,8 +4117,10 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox11->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox11->ForeColor = System::Drawing::Color::Red;
-			this->groupBox11->Location = System::Drawing::Point(47, 1033);
+			this->groupBox11->Location = System::Drawing::Point(47, 1032);
+			this->groupBox11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox11->Name = L"groupBox11";
+			this->groupBox11->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox11->Size = System::Drawing::Size(1188, 625);
 			this->groupBox11->TabIndex = 111;
 			this->groupBox11->TabStop = false;
@@ -3769,7 +4128,8 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			// textBoxtrial4_2RL_8
 			// 
-			this->textBoxtrial4_2RL_8->Location = System::Drawing::Point(974, 95);
+			this->textBoxtrial4_2RL_8->Location = System::Drawing::Point(973, 95);
+			this->textBoxtrial4_2RL_8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_8->Name = L"textBoxtrial4_2RL_8";
 			this->textBoxtrial4_2RL_8->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_8->TabIndex = 150;
@@ -3777,6 +4137,7 @@ private: System::Windows::Forms::Label^  label166;
 			// textBoxtrial4_2RL_7
 			// 
 			this->textBoxtrial4_2RL_7->Location = System::Drawing::Point(864, 95);
+			this->textBoxtrial4_2RL_7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_7->Name = L"textBoxtrial4_2RL_7";
 			this->textBoxtrial4_2RL_7->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_7->TabIndex = 149;
@@ -3784,6 +4145,7 @@ private: System::Windows::Forms::Label^  label166;
 			// textBoxtrial4_2RL_6
 			// 
 			this->textBoxtrial4_2RL_6->Location = System::Drawing::Point(752, 94);
+			this->textBoxtrial4_2RL_6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_6->Name = L"textBoxtrial4_2RL_6";
 			this->textBoxtrial4_2RL_6->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_6->TabIndex = 148;
@@ -3791,13 +4153,15 @@ private: System::Windows::Forms::Label^  label166;
 			// textBoxtrial4_2RL_5
 			// 
 			this->textBoxtrial4_2RL_5->Location = System::Drawing::Point(640, 94);
+			this->textBoxtrial4_2RL_5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_5->Name = L"textBoxtrial4_2RL_5";
 			this->textBoxtrial4_2RL_5->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_5->TabIndex = 147;
 			// 
 			// textBoxtrial4_2RL_4
 			// 
-			this->textBoxtrial4_2RL_4->Location = System::Drawing::Point(522, 95);
+			this->textBoxtrial4_2RL_4->Location = System::Drawing::Point(523, 95);
+			this->textBoxtrial4_2RL_4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_4->Name = L"textBoxtrial4_2RL_4";
 			this->textBoxtrial4_2RL_4->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_4->TabIndex = 146;
@@ -3805,13 +4169,15 @@ private: System::Windows::Forms::Label^  label166;
 			// textBoxtrial4_2RL_3
 			// 
 			this->textBoxtrial4_2RL_3->Location = System::Drawing::Point(412, 95);
+			this->textBoxtrial4_2RL_3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_3->Name = L"textBoxtrial4_2RL_3";
 			this->textBoxtrial4_2RL_3->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_3->TabIndex = 145;
 			// 
 			// textBoxtrial4_2RL_2
 			// 
-			this->textBoxtrial4_2RL_2->Location = System::Drawing::Point(302, 95);
+			this->textBoxtrial4_2RL_2->Location = System::Drawing::Point(301, 95);
+			this->textBoxtrial4_2RL_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_2->Name = L"textBoxtrial4_2RL_2";
 			this->textBoxtrial4_2RL_2->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_2->TabIndex = 144;
@@ -3819,6 +4185,7 @@ private: System::Windows::Forms::Label^  label166;
 			// textBoxtrial4_2RL_1
 			// 
 			this->textBoxtrial4_2RL_1->Location = System::Drawing::Point(192, 95);
+			this->textBoxtrial4_2RL_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_2RL_1->Name = L"textBoxtrial4_2RL_1";
 			this->textBoxtrial4_2RL_1->Size = System::Drawing::Size(100, 30);
 			this->textBoxtrial4_2RL_1->TabIndex = 143;
@@ -3826,28 +4193,32 @@ private: System::Windows::Forms::Label^  label166;
 			// button86
 			// 
 			this->button86->ForeColor = System::Drawing::Color::Black;
-			this->button86->Location = System::Drawing::Point(976, 263);
+			this->button86->Location = System::Drawing::Point(976, 262);
+			this->button86->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button86->Name = L"button86";
 			this->button86->Size = System::Drawing::Size(96, 29);
 			this->button86->TabIndex = 142;
 			this->button86->Text = L"获取";
 			this->button86->UseVisualStyleBackColor = true;
+			this->button86->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button86_Click);
 			// 
 			// button87
 			// 
 			this->button87->ForeColor = System::Drawing::Color::Black;
-			this->button87->Location = System::Drawing::Point(978, 174);
+			this->button87->Location = System::Drawing::Point(979, 174);
+			this->button87->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button87->Name = L"button87";
 			this->button87->Size = System::Drawing::Size(96, 29);
 			this->button87->TabIndex = 141;
 			this->button87->Text = L"获取";
 			this->button87->UseVisualStyleBackColor = true;
+			this->button87->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button87_Click);
 			// 
 			// labeltrial4_2U2_8
 			// 
 			this->labeltrial4_2U2_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_2U2_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_2U2_8->Location = System::Drawing::Point(978, 220);
+			this->labeltrial4_2U2_8->Location = System::Drawing::Point(979, 220);
 			this->labeltrial4_2U2_8->Name = L"labeltrial4_2U2_8";
 			this->labeltrial4_2U2_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_2U2_8->TabIndex = 140;
@@ -3856,7 +4227,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_2IL_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_2IL_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_2IL_8->Location = System::Drawing::Point(978, 141);
+			this->labeltrial4_2IL_8->Location = System::Drawing::Point(979, 141);
 			this->labeltrial4_2IL_8->Name = L"labeltrial4_2IL_8";
 			this->labeltrial4_2IL_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_2IL_8->TabIndex = 139;
@@ -3864,122 +4235,146 @@ private: System::Windows::Forms::Label^  label166;
 			// button88
 			// 
 			this->button88->ForeColor = System::Drawing::Color::Black;
-			this->button88->Location = System::Drawing::Point(862, 263);
+			this->button88->Location = System::Drawing::Point(861, 262);
+			this->button88->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button88->Name = L"button88";
 			this->button88->Size = System::Drawing::Size(96, 29);
 			this->button88->TabIndex = 137;
 			this->button88->Text = L"获取";
 			this->button88->UseVisualStyleBackColor = true;
+			this->button88->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button88_Click);
 			// 
 			// button89
 			// 
 			this->button89->ForeColor = System::Drawing::Color::Black;
-			this->button89->Location = System::Drawing::Point(750, 263);
+			this->button89->Location = System::Drawing::Point(749, 262);
+			this->button89->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button89->Name = L"button89";
 			this->button89->Size = System::Drawing::Size(96, 29);
 			this->button89->TabIndex = 136;
 			this->button89->Text = L"获取";
 			this->button89->UseVisualStyleBackColor = true;
+			this->button89->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button89_Click);
 			// 
 			// button90
 			// 
 			this->button90->ForeColor = System::Drawing::Color::Black;
-			this->button90->Location = System::Drawing::Point(636, 263);
+			this->button90->Location = System::Drawing::Point(636, 262);
+			this->button90->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button90->Name = L"button90";
 			this->button90->Size = System::Drawing::Size(96, 29);
 			this->button90->TabIndex = 135;
 			this->button90->Text = L"获取";
 			this->button90->UseVisualStyleBackColor = true;
+			this->button90->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button90_Click);
 			// 
 			// button91
 			// 
 			this->button91->ForeColor = System::Drawing::Color::Black;
-			this->button91->Location = System::Drawing::Point(524, 263);
+			this->button91->Location = System::Drawing::Point(524, 262);
+			this->button91->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button91->Name = L"button91";
 			this->button91->Size = System::Drawing::Size(96, 29);
 			this->button91->TabIndex = 134;
 			this->button91->Text = L"获取";
 			this->button91->UseVisualStyleBackColor = true;
+			this->button91->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button91_Click);
 			// 
 			// button92
 			// 
 			this->button92->ForeColor = System::Drawing::Color::Black;
-			this->button92->Location = System::Drawing::Point(410, 263);
+			this->button92->Location = System::Drawing::Point(411, 262);
+			this->button92->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button92->Name = L"button92";
 			this->button92->Size = System::Drawing::Size(96, 29);
 			this->button92->TabIndex = 133;
 			this->button92->Text = L"获取";
 			this->button92->UseVisualStyleBackColor = true;
+			this->button92->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button92_Click);
 			// 
 			// button93
 			// 
 			this->button93->ForeColor = System::Drawing::Color::Black;
-			this->button93->Location = System::Drawing::Point(302, 263);
+			this->button93->Location = System::Drawing::Point(301, 262);
+			this->button93->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button93->Name = L"button93";
 			this->button93->Size = System::Drawing::Size(96, 29);
 			this->button93->TabIndex = 132;
 			this->button93->Text = L"获取";
 			this->button93->UseVisualStyleBackColor = true;
+			this->button93->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button93_Click);
 			// 
 			// button94
 			// 
 			this->button94->ForeColor = System::Drawing::Color::Black;
-			this->button94->Location = System::Drawing::Point(188, 263);
+			this->button94->Location = System::Drawing::Point(188, 262);
+			this->button94->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button94->Name = L"button94";
 			this->button94->Size = System::Drawing::Size(96, 29);
 			this->button94->TabIndex = 131;
 			this->button94->Text = L"获取";
 			this->button94->UseVisualStyleBackColor = true;
+			this->button94->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button94_Click);
 			// 
 			// button95
 			// 
 			this->button95->ForeColor = System::Drawing::Color::Black;
 			this->button95->Location = System::Drawing::Point(864, 174);
+			this->button95->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button95->Name = L"button95";
 			this->button95->Size = System::Drawing::Size(96, 29);
 			this->button95->TabIndex = 129;
 			this->button95->Text = L"获取";
 			this->button95->UseVisualStyleBackColor = true;
+			this->button95->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button95_Click);
 			// 
 			// button96
 			// 
 			this->button96->ForeColor = System::Drawing::Color::Black;
 			this->button96->Location = System::Drawing::Point(752, 174);
+			this->button96->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button96->Name = L"button96";
 			this->button96->Size = System::Drawing::Size(96, 29);
 			this->button96->TabIndex = 128;
 			this->button96->Text = L"获取";
 			this->button96->UseVisualStyleBackColor = true;
+			this->button96->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button96_Click);
 			// 
 			// button97
 			// 
 			this->button97->ForeColor = System::Drawing::Color::Black;
-			this->button97->Location = System::Drawing::Point(638, 174);
+			this->button97->Location = System::Drawing::Point(637, 174);
+			this->button97->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button97->Name = L"button97";
 			this->button97->Size = System::Drawing::Size(96, 29);
 			this->button97->TabIndex = 127;
 			this->button97->Text = L"获取";
 			this->button97->UseVisualStyleBackColor = true;
+			this->button97->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button97_Click);
 			// 
 			// button98
 			// 
 			this->button98->ForeColor = System::Drawing::Color::Black;
-			this->button98->Location = System::Drawing::Point(526, 174);
+			this->button98->Location = System::Drawing::Point(525, 174);
+			this->button98->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button98->Name = L"button98";
 			this->button98->Size = System::Drawing::Size(96, 29);
 			this->button98->TabIndex = 126;
 			this->button98->Text = L"获取";
 			this->button98->UseVisualStyleBackColor = true;
+			this->button98->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button98_Click);
 			// 
 			// button99
 			// 
 			this->button99->ForeColor = System::Drawing::Color::Black;
 			this->button99->Location = System::Drawing::Point(412, 174);
+			this->button99->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button99->Name = L"button99";
 			this->button99->Size = System::Drawing::Size(96, 29);
 			this->button99->TabIndex = 125;
 			this->button99->Text = L"获取";
 			this->button99->UseVisualStyleBackColor = true;
+			this->button99->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button99_Click);
 			// 
 			// labeltrial4_2U2_7
 			// 
@@ -3994,27 +4389,31 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->button100->ForeColor = System::Drawing::Color::Black;
 			this->button100->Location = System::Drawing::Point(304, 174);
+			this->button100->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button100->Name = L"button100";
 			this->button100->Size = System::Drawing::Size(96, 29);
 			this->button100->TabIndex = 124;
 			this->button100->Text = L"获取";
 			this->button100->UseVisualStyleBackColor = true;
+			this->button100->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button100_Click);
 			// 
 			// button101
 			// 
 			this->button101->ForeColor = System::Drawing::Color::Black;
-			this->button101->Location = System::Drawing::Point(190, 174);
+			this->button101->Location = System::Drawing::Point(189, 174);
+			this->button101->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button101->Name = L"button101";
 			this->button101->Size = System::Drawing::Size(96, 29);
 			this->button101->TabIndex = 123;
 			this->button101->Text = L"获取";
 			this->button101->UseVisualStyleBackColor = true;
+			this->button101->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button101_Click);
 			// 
 			// labeltrial4_2U2_6
 			// 
 			this->labeltrial4_2U2_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_2U2_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_2U2_6->Location = System::Drawing::Point(754, 220);
+			this->labeltrial4_2U2_6->Location = System::Drawing::Point(755, 220);
 			this->labeltrial4_2U2_6->Name = L"labeltrial4_2U2_6";
 			this->labeltrial4_2U2_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_2U2_6->TabIndex = 117;
@@ -4032,7 +4431,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_2U2_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_2U2_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_2U2_4->Location = System::Drawing::Point(526, 220);
+			this->labeltrial4_2U2_4->Location = System::Drawing::Point(525, 220);
 			this->labeltrial4_2U2_4->Name = L"labeltrial4_2U2_4";
 			this->labeltrial4_2U2_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_2U2_4->TabIndex = 115;
@@ -4070,35 +4469,38 @@ private: System::Windows::Forms::Label^  label166;
 			this->label158->ForeColor = System::Drawing::Color::Black;
 			this->label158->Location = System::Drawing::Point(23, 224);
 			this->label158->Name = L"label158";
-			this->label158->Size = System::Drawing::Size(110, 26);
+			this->label158->Size = System::Drawing::Size(109, 26);
 			this->label158->TabIndex = 111;
 			this->label158->Text = L"U2（v）";
 			// 
-			// chart7
+			// chartTrial4_2
 			// 
 			chartArea15->Name = L"ChartArea1";
-			this->chart7->ChartAreas->Add(chartArea15);
+			this->chartTrial4_2->ChartAreas->Add(chartArea15);
 			legend15->Name = L"Legend1";
-			this->chart7->Legends->Add(legend15);
-			this->chart7->Location = System::Drawing::Point(376, 307);
-			this->chart7->Name = L"chart7";
+			this->chartTrial4_2->Legends->Add(legend15);
+			this->chartTrial4_2->Location = System::Drawing::Point(376, 308);
+			this->chartTrial4_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial4_2->Name = L"chartTrial4_2";
 			series15->ChartArea = L"ChartArea1";
 			series15->Legend = L"Legend1";
 			series15->Name = L"Series1";
-			this->chart7->Series->Add(series15);
-			this->chart7->Size = System::Drawing::Size(458, 300);
-			this->chart7->TabIndex = 110;
-			this->chart7->Text = L"chart7";
+			this->chartTrial4_2->Series->Add(series15);
+			this->chartTrial4_2->Size = System::Drawing::Size(459, 300);
+			this->chartTrial4_2->TabIndex = 110;
+			this->chartTrial4_2->Text = L"chartTrial4_2";
 			// 
 			// button102
 			// 
 			this->button102->ForeColor = System::Drawing::Color::Black;
 			this->button102->Location = System::Drawing::Point(188, 318);
+			this->button102->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button102->Name = L"button102";
-			this->button102->Size = System::Drawing::Size(109, 34);
+			this->button102->Size = System::Drawing::Size(131, 34);
 			this->button102->TabIndex = 109;
 			this->button102->Text = L"曲线生成";
 			this->button102->UseVisualStyleBackColor = true;
+			this->button102->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button102_Click);
 			// 
 			// labeltrial4_2IL_7
 			// 
@@ -4113,7 +4515,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_2IL_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_2IL_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_2IL_6->Location = System::Drawing::Point(754, 141);
+			this->labeltrial4_2IL_6->Location = System::Drawing::Point(755, 141);
 			this->labeltrial4_2IL_6->Name = L"labeltrial4_2IL_6";
 			this->labeltrial4_2IL_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_2IL_6->TabIndex = 105;
@@ -4131,7 +4533,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_2IL_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_2IL_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_2IL_4->Location = System::Drawing::Point(526, 141);
+			this->labeltrial4_2IL_4->Location = System::Drawing::Point(525, 141);
 			this->labeltrial4_2IL_4->Name = L"labeltrial4_2IL_4";
 			this->labeltrial4_2IL_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_2IL_4->TabIndex = 103;
@@ -4169,7 +4571,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->label173->ForeColor = System::Drawing::Color::Black;
 			this->label173->Location = System::Drawing::Point(23, 141);
 			this->label173->Name = L"label173";
-			this->label173->Size = System::Drawing::Size(110, 26);
+			this->label173->Size = System::Drawing::Size(109, 26);
 			this->label173->TabIndex = 90;
 			this->label173->Text = L"IL（mA）";
 			// 
@@ -4177,16 +4579,16 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->label174->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label174->ForeColor = System::Drawing::Color::Black;
-			this->label174->Location = System::Drawing::Point(23, 97);
+			this->label174->Location = System::Drawing::Point(23, 98);
 			this->label174->Name = L"label174";
-			this->label174->Size = System::Drawing::Size(110, 26);
+			this->label174->Size = System::Drawing::Size(109, 26);
 			this->label174->TabIndex = 89;
 			this->label174->Text = L"RL（KΩ）";
 			// 
 			// label175
 			// 
 			this->label175->ForeColor = System::Drawing::Color::Black;
-			this->label175->Location = System::Drawing::Point(6, 38);
+			this->label175->Location = System::Drawing::Point(5, 38);
 			this->label175->Name = L"label175";
 			this->label175->Size = System::Drawing::Size(973, 34);
 			this->label175->TabIndex = 88;
@@ -4212,7 +4614,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox12->Controls->Add(this->button118);
 			this->groupBox12->Controls->Add(this->textBoxtrial4_1α);
 			this->groupBox12->Controls->Add(this->label176);
-			this->groupBox12->Controls->Add(this->chart8);
+			this->groupBox12->Controls->Add(this->chartTrial4_1);
 			this->groupBox12->Controls->Add(this->button119);
 			this->groupBox12->Controls->Add(this->labeltrial4_1IL_8);
 			this->groupBox12->Controls->Add(this->labeltrial4_1IL_7);
@@ -4236,8 +4638,10 @@ private: System::Windows::Forms::Label^  label166;
 			this->groupBox12->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox12->ForeColor = System::Drawing::Color::Red;
-			this->groupBox12->Location = System::Drawing::Point(47, 403);
+			this->groupBox12->Location = System::Drawing::Point(47, 402);
+			this->groupBox12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox12->Name = L"groupBox12";
+			this->groupBox12->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox12->Size = System::Drawing::Size(1188, 624);
 			this->groupBox12->TabIndex = 89;
 			this->groupBox12->TabStop = false;
@@ -4246,166 +4650,199 @@ private: System::Windows::Forms::Label^  label166;
 			// button103
 			// 
 			this->button103->ForeColor = System::Drawing::Color::Black;
-			this->button103->Location = System::Drawing::Point(906, 158);
+			this->button103->Location = System::Drawing::Point(907, 158);
+			this->button103->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button103->Name = L"button103";
 			this->button103->Size = System::Drawing::Size(96, 29);
 			this->button103->TabIndex = 129;
 			this->button103->Text = L"获取";
 			this->button103->UseVisualStyleBackColor = true;
+			this->button103->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button103_Click);
 			// 
 			// button104
 			// 
 			this->button104->ForeColor = System::Drawing::Color::Black;
 			this->button104->Location = System::Drawing::Point(796, 158);
+			this->button104->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button104->Name = L"button104";
 			this->button104->Size = System::Drawing::Size(96, 29);
 			this->button104->TabIndex = 128;
 			this->button104->Text = L"获取";
 			this->button104->UseVisualStyleBackColor = true;
+			this->button104->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button104_Click);
 			// 
 			// button105
 			// 
 			this->button105->ForeColor = System::Drawing::Color::Black;
-			this->button105->Location = System::Drawing::Point(686, 158);
+			this->button105->Location = System::Drawing::Point(685, 158);
+			this->button105->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button105->Name = L"button105";
 			this->button105->Size = System::Drawing::Size(96, 29);
 			this->button105->TabIndex = 127;
 			this->button105->Text = L"获取";
 			this->button105->UseVisualStyleBackColor = true;
+			this->button105->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button105_Click);
 			// 
 			// button106
 			// 
 			this->button106->ForeColor = System::Drawing::Color::Black;
 			this->button106->Location = System::Drawing::Point(572, 158);
+			this->button106->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button106->Name = L"button106";
 			this->button106->Size = System::Drawing::Size(96, 29);
 			this->button106->TabIndex = 126;
 			this->button106->Text = L"获取";
 			this->button106->UseVisualStyleBackColor = true;
+			this->button106->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button106_Click);
 			// 
 			// button107
 			// 
 			this->button107->ForeColor = System::Drawing::Color::Black;
-			this->button107->Location = System::Drawing::Point(458, 158);
+			this->button107->Location = System::Drawing::Point(459, 158);
+			this->button107->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button107->Name = L"button107";
 			this->button107->Size = System::Drawing::Size(96, 29);
 			this->button107->TabIndex = 125;
 			this->button107->Text = L"获取";
 			this->button107->UseVisualStyleBackColor = true;
+			this->button107->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button107_Click);
 			// 
 			// button108
 			// 
 			this->button108->ForeColor = System::Drawing::Color::Black;
 			this->button108->Location = System::Drawing::Point(344, 158);
+			this->button108->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button108->Name = L"button108";
 			this->button108->Size = System::Drawing::Size(96, 29);
 			this->button108->TabIndex = 124;
 			this->button108->Text = L"获取";
 			this->button108->UseVisualStyleBackColor = true;
+			this->button108->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button108_Click);
 			// 
 			// button109
 			// 
 			this->button109->ForeColor = System::Drawing::Color::Black;
 			this->button109->Location = System::Drawing::Point(236, 158);
+			this->button109->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button109->Name = L"button109";
 			this->button109->Size = System::Drawing::Size(96, 29);
 			this->button109->TabIndex = 123;
 			this->button109->Text = L"获取";
 			this->button109->UseVisualStyleBackColor = true;
+			this->button109->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button109_Click);
 			// 
 			// button110
 			// 
 			this->button110->ForeColor = System::Drawing::Color::Black;
 			this->button110->Location = System::Drawing::Point(124, 158);
+			this->button110->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button110->Name = L"button110";
 			this->button110->Size = System::Drawing::Size(96, 29);
 			this->button110->TabIndex = 122;
 			this->button110->Text = L"获取";
 			this->button110->UseVisualStyleBackColor = true;
+			this->button110->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button110_Click);
 			// 
 			// button111
 			// 
 			this->button111->ForeColor = System::Drawing::Color::Black;
-			this->button111->Location = System::Drawing::Point(910, 250);
+			this->button111->Location = System::Drawing::Point(909, 250);
+			this->button111->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button111->Name = L"button111";
 			this->button111->Size = System::Drawing::Size(96, 29);
 			this->button111->TabIndex = 121;
 			this->button111->Text = L"获取";
 			this->button111->UseVisualStyleBackColor = true;
+			this->button111->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button111_Click);
 			// 
 			// button112
 			// 
 			this->button112->ForeColor = System::Drawing::Color::Black;
 			this->button112->Location = System::Drawing::Point(800, 250);
+			this->button112->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button112->Name = L"button112";
 			this->button112->Size = System::Drawing::Size(96, 29);
 			this->button112->TabIndex = 120;
 			this->button112->Text = L"获取";
 			this->button112->UseVisualStyleBackColor = true;
+			this->button112->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button112_Click);
 			// 
 			// button113
 			// 
 			this->button113->ForeColor = System::Drawing::Color::Black;
-			this->button113->Location = System::Drawing::Point(690, 250);
+			this->button113->Location = System::Drawing::Point(691, 250);
+			this->button113->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button113->Name = L"button113";
 			this->button113->Size = System::Drawing::Size(96, 29);
 			this->button113->TabIndex = 119;
 			this->button113->Text = L"获取";
 			this->button113->UseVisualStyleBackColor = true;
+			this->button113->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button113_Click);
 			// 
 			// button114
 			// 
 			this->button114->ForeColor = System::Drawing::Color::Black;
 			this->button114->Location = System::Drawing::Point(576, 250);
+			this->button114->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button114->Name = L"button114";
 			this->button114->Size = System::Drawing::Size(96, 29);
 			this->button114->TabIndex = 118;
 			this->button114->Text = L"获取";
 			this->button114->UseVisualStyleBackColor = true;
+			this->button114->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button114_Click);
 			// 
 			// button115
 			// 
 			this->button115->ForeColor = System::Drawing::Color::Black;
-			this->button115->Location = System::Drawing::Point(462, 250);
+			this->button115->Location = System::Drawing::Point(461, 250);
+			this->button115->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button115->Name = L"button115";
 			this->button115->Size = System::Drawing::Size(96, 29);
 			this->button115->TabIndex = 117;
 			this->button115->Text = L"获取";
 			this->button115->UseVisualStyleBackColor = true;
+			this->button115->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button115_Click);
 			// 
 			// button116
 			// 
 			this->button116->ForeColor = System::Drawing::Color::Black;
 			this->button116->Location = System::Drawing::Point(348, 250);
+			this->button116->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button116->Name = L"button116";
 			this->button116->Size = System::Drawing::Size(96, 29);
 			this->button116->TabIndex = 116;
 			this->button116->Text = L"获取";
 			this->button116->UseVisualStyleBackColor = true;
+			this->button116->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button116_Click);
 			// 
 			// button117
 			// 
 			this->button117->ForeColor = System::Drawing::Color::Black;
 			this->button117->Location = System::Drawing::Point(240, 250);
+			this->button117->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button117->Name = L"button117";
 			this->button117->Size = System::Drawing::Size(96, 29);
 			this->button117->TabIndex = 115;
 			this->button117->Text = L"获取";
 			this->button117->UseVisualStyleBackColor = true;
+			this->button117->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button117_Click);
 			// 
 			// button118
 			// 
 			this->button118->ForeColor = System::Drawing::Color::Black;
 			this->button118->Location = System::Drawing::Point(128, 250);
+			this->button118->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button118->Name = L"button118";
 			this->button118->Size = System::Drawing::Size(96, 29);
 			this->button118->TabIndex = 114;
 			this->button118->Text = L"获取";
 			this->button118->UseVisualStyleBackColor = true;
+			this->button118->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button118_Click);
 			// 
 			// textBoxtrial4_1α
 			// 
 			this->textBoxtrial4_1α->Location = System::Drawing::Point(769, 581);
+			this->textBoxtrial4_1α->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxtrial4_1α->Name = L"textBoxtrial4_1α";
 			this->textBoxtrial4_1α->Size = System::Drawing::Size(132, 30);
 			this->textBoxtrial4_1α->TabIndex = 113;
@@ -4420,37 +4857,40 @@ private: System::Windows::Forms::Label^  label166;
 			this->label176->TabIndex = 112;
 			this->label176->Text = L"转移电流比α";
 			// 
-			// chart8
+			// chartTrial4_1
 			// 
 			chartArea16->Name = L"ChartArea1";
-			this->chart8->ChartAreas->Add(chartArea16);
+			this->chartTrial4_1->ChartAreas->Add(chartArea16);
 			legend16->Name = L"Legend1";
-			this->chart8->Legends->Add(legend16);
-			this->chart8->Location = System::Drawing::Point(128, 311);
-			this->chart8->Name = L"chart8";
+			this->chartTrial4_1->Legends->Add(legend16);
+			this->chartTrial4_1->Location = System::Drawing::Point(128, 311);
+			this->chartTrial4_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->chartTrial4_1->Name = L"chartTrial4_1";
 			series16->ChartArea = L"ChartArea1";
 			series16->Legend = L"Legend1";
 			series16->Name = L"Series1";
-			this->chart8->Series->Add(series16);
-			this->chart8->Size = System::Drawing::Size(458, 300);
-			this->chart8->TabIndex = 110;
-			this->chart8->Text = L"chart8";
+			this->chartTrial4_1->Series->Add(series16);
+			this->chartTrial4_1->Size = System::Drawing::Size(459, 300);
+			this->chartTrial4_1->TabIndex = 110;
+			this->chartTrial4_1->Text = L"chartTrial4_1";
 			// 
 			// button119
 			// 
 			this->button119->ForeColor = System::Drawing::Color::Black;
-			this->button119->Location = System::Drawing::Point(6, 311);
+			this->button119->Location = System::Drawing::Point(5, 311);
+			this->button119->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button119->Name = L"button119";
-			this->button119->Size = System::Drawing::Size(109, 34);
+			this->button119->Size = System::Drawing::Size(127, 34);
 			this->button119->TabIndex = 109;
 			this->button119->Text = L"曲线生成";
 			this->button119->UseVisualStyleBackColor = true;
+			this->button119->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button119_Click);
 			// 
 			// labeltrial4_1IL_8
 			// 
 			this->labeltrial4_1IL_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_1IL_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_1IL_8->Location = System::Drawing::Point(914, 215);
+			this->labeltrial4_1IL_8->Location = System::Drawing::Point(915, 215);
 			this->labeltrial4_1IL_8->Name = L"labeltrial4_1IL_8";
 			this->labeltrial4_1IL_8->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_1IL_8->TabIndex = 107;
@@ -4468,7 +4908,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_1IL_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_1IL_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_1IL_6->Location = System::Drawing::Point(690, 215);
+			this->labeltrial4_1IL_6->Location = System::Drawing::Point(691, 215);
 			this->labeltrial4_1IL_6->Name = L"labeltrial4_1IL_6";
 			this->labeltrial4_1IL_6->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_1IL_6->TabIndex = 105;
@@ -4486,7 +4926,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_1IL_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_1IL_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_1IL_4->Location = System::Drawing::Point(462, 215);
+			this->labeltrial4_1IL_4->Location = System::Drawing::Point(461, 215);
 			this->labeltrial4_1IL_4->Name = L"labeltrial4_1IL_4";
 			this->labeltrial4_1IL_4->Size = System::Drawing::Size(96, 30);
 			this->labeltrial4_1IL_4->TabIndex = 103;
@@ -4522,7 +4962,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_1I1_8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_1I1_8->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_1I1_8->Location = System::Drawing::Point(910, 119);
+			this->labeltrial4_1I1_8->Location = System::Drawing::Point(909, 119);
 			this->labeltrial4_1I1_8->Name = L"labeltrial4_1I1_8";
 			this->labeltrial4_1I1_8->Size = System::Drawing::Size(100, 26);
 			this->labeltrial4_1I1_8->TabIndex = 98;
@@ -4542,7 +4982,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_1I1_6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_1I1_6->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_1I1_6->Location = System::Drawing::Point(686, 119);
+			this->labeltrial4_1I1_6->Location = System::Drawing::Point(685, 119);
 			this->labeltrial4_1I1_6->Name = L"labeltrial4_1I1_6";
 			this->labeltrial4_1I1_6->Size = System::Drawing::Size(100, 26);
 			this->labeltrial4_1I1_6->TabIndex = 96;
@@ -4562,7 +5002,7 @@ private: System::Windows::Forms::Label^  label166;
 			// 
 			this->labeltrial4_1I1_4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labeltrial4_1I1_4->ForeColor = System::Drawing::Color::Black;
-			this->labeltrial4_1I1_4->Location = System::Drawing::Point(458, 119);
+			this->labeltrial4_1I1_4->Location = System::Drawing::Point(459, 119);
 			this->labeltrial4_1I1_4->Name = L"labeltrial4_1I1_4";
 			this->labeltrial4_1I1_4->Size = System::Drawing::Size(100, 26);
 			this->labeltrial4_1I1_4->TabIndex = 94;
@@ -4623,7 +5063,7 @@ private: System::Windows::Forms::Label^  label166;
 			this->label195->ForeColor = System::Drawing::Color::Black;
 			this->label195->Location = System::Drawing::Point(28, 40);
 			this->label195->Name = L"label195";
-			this->label195->Size = System::Drawing::Size(973, 57);
+			this->label195->Size = System::Drawing::Size(973, 58);
 			this->label195->TabIndex = 88;
 			this->label195->Text = L"  （1）固定RL＝2KΩ，调节恒流源的输出电流IS，使其在0.05~0.7mA范围内取8个数值，测出IL，绘制IL＝F（I1）曲线，并由其线性部分求出转移电流比"
 				L"α。";
@@ -4631,7 +5071,7 @@ private: System::Windows::Forms::Label^  label166;
 			// label196
 			// 
 			this->label196->ForeColor = System::Drawing::Color::Black;
-			this->label196->Location = System::Drawing::Point(22, 55);
+			this->label196->Location = System::Drawing::Point(21, 55);
 			this->label196->Name = L"label196";
 			this->label196->Size = System::Drawing::Size(973, 38);
 			this->label196->TabIndex = 87;
@@ -4640,7 +5080,8 @@ private: System::Windows::Forms::Label^  label166;
 			// pictureBox4
 			// 
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(402, 96);
+			this->pictureBox4->Location = System::Drawing::Point(403, 96);
+			this->pictureBox4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(389, 279);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -4650,8 +5091,9 @@ private: System::Windows::Forms::Label^  label166;
 			// button246
 			// 
 			this->button246->Location = System::Drawing::Point(629, 6882);
+			this->button246->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button246->Name = L"button246";
-			this->button246->Size = System::Drawing::Size(189, 37);
+			this->button246->Size = System::Drawing::Size(189, 38);
 			this->button246->TabIndex = 115;
 			this->button246->Text = L"成绩完成并上传";
 			this->button246->UseVisualStyleBackColor = true;
@@ -4662,19 +5104,139 @@ private: System::Windows::Forms::Label^  label166;
 			this->label166->BackColor = System::Drawing::Color::SkyBlue;
 			this->label166->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label166->Location = System::Drawing::Point(22, 6922);
+			this->label166->Location = System::Drawing::Point(21, 6922);
 			this->label166->Name = L"label166";
 			this->label166->Size = System::Drawing::Size(1412, 52);
 			this->label166->TabIndex = 118;
 			this->label166->Text = L"答题结束";
 			this->label166->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
+			// textBoxtrial3_2RL_7
+			// 
+			this->textBoxtrial3_2RL_7->Location = System::Drawing::Point(860, 94);
+			this->textBoxtrial3_2RL_7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_7->Name = L"textBoxtrial3_2RL_7";
+			this->textBoxtrial3_2RL_7->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_7->TabIndex = 149;
+			// 
+			// textBoxtrial3_2RL_6
+			// 
+			this->textBoxtrial3_2RL_6->Location = System::Drawing::Point(752, 94);
+			this->textBoxtrial3_2RL_6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_6->Name = L"textBoxtrial3_2RL_6";
+			this->textBoxtrial3_2RL_6->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_6->TabIndex = 148;
+			// 
+			// textBoxtrial3_2RL_5
+			// 
+			this->textBoxtrial3_2RL_5->Location = System::Drawing::Point(640, 94);
+			this->textBoxtrial3_2RL_5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_5->Name = L"textBoxtrial3_2RL_5";
+			this->textBoxtrial3_2RL_5->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_5->TabIndex = 147;
+			// 
+			// textBoxtrial3_2RL_4
+			// 
+			this->textBoxtrial3_2RL_4->Location = System::Drawing::Point(522, 94);
+			this->textBoxtrial3_2RL_4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_4->Name = L"textBoxtrial3_2RL_4";
+			this->textBoxtrial3_2RL_4->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_4->TabIndex = 146;
+			// 
+			// textBoxtrial3_2RL_3
+			// 
+			this->textBoxtrial3_2RL_3->Location = System::Drawing::Point(410, 94);
+			this->textBoxtrial3_2RL_3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_3->Name = L"textBoxtrial3_2RL_3";
+			this->textBoxtrial3_2RL_3->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_3->TabIndex = 145;
+			// 
+			// textBoxtrial3_2RL_2
+			// 
+			this->textBoxtrial3_2RL_2->Location = System::Drawing::Point(304, 94);
+			this->textBoxtrial3_2RL_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_2->Name = L"textBoxtrial3_2RL_2";
+			this->textBoxtrial3_2RL_2->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_2->TabIndex = 144;
+			// 
+			// textBoxtrial3_2RL_1
+			// 
+			this->textBoxtrial3_2RL_1->Location = System::Drawing::Point(192, 94);
+			this->textBoxtrial3_2RL_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_1->Name = L"textBoxtrial3_2RL_1";
+			this->textBoxtrial3_2RL_1->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_1->TabIndex = 143;
+			// 
+			// textBoxtrial2_2RL_7
+			// 
+			this->textBoxtrial2_2RL_7->Location = System::Drawing::Point(860, 96);
+			this->textBoxtrial2_2RL_7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial2_2RL_7->Name = L"textBoxtrial2_2RL_7";
+			this->textBoxtrial2_2RL_7->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial2_2RL_7->TabIndex = 146;
+			// 
+			// textBoxtrial2_2RL_6
+			// 
+			this->textBoxtrial2_2RL_6->Location = System::Drawing::Point(752, 96);
+			this->textBoxtrial2_2RL_6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial2_2RL_6->Name = L"textBoxtrial2_2RL_6";
+			this->textBoxtrial2_2RL_6->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial2_2RL_6->TabIndex = 145;
+			// 
+			// textBoxtrial2_2RL_5
+			// 
+			this->textBoxtrial2_2RL_5->Location = System::Drawing::Point(640, 96);
+			this->textBoxtrial2_2RL_5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial2_2RL_5->Name = L"textBoxtrial2_2RL_5";
+			this->textBoxtrial2_2RL_5->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial2_2RL_5->TabIndex = 144;
+			// 
+			// textBoxtrial2_2RL_4
+			// 
+			this->textBoxtrial2_2RL_4->Location = System::Drawing::Point(522, 96);
+			this->textBoxtrial2_2RL_4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial2_2RL_4->Name = L"textBoxtrial2_2RL_4";
+			this->textBoxtrial2_2RL_4->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial2_2RL_4->TabIndex = 143;
+			// 
+			// textBoxtrial2_2RL_3
+			// 
+			this->textBoxtrial2_2RL_3->Location = System::Drawing::Point(410, 96);
+			this->textBoxtrial2_2RL_3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial2_2RL_3->Name = L"textBoxtrial2_2RL_3";
+			this->textBoxtrial2_2RL_3->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial2_2RL_3->TabIndex = 142;
+			// 
+			// textBoxtrial2_2RL_2
+			// 
+			this->textBoxtrial2_2RL_2->Location = System::Drawing::Point(304, 96);
+			this->textBoxtrial2_2RL_2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial2_2RL_2->Name = L"textBoxtrial2_2RL_2";
+			this->textBoxtrial2_2RL_2->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial2_2RL_2->TabIndex = 141;
+			// 
+			// textBoxtrial2_2RL_1
+			// 
+			this->textBoxtrial2_2RL_1->Location = System::Drawing::Point(192, 96);
+			this->textBoxtrial2_2RL_1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial2_2RL_1->Name = L"textBoxtrial2_2RL_1";
+			this->textBoxtrial2_2RL_1->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial2_2RL_1->TabIndex = 140;
+			// 
+			// textBoxtrial3_2RL_8
+			// 
+			this->textBoxtrial3_2RL_8->Location = System::Drawing::Point(974, 94);
+			this->textBoxtrial3_2RL_8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxtrial3_2RL_8->Name = L"textBoxtrial3_2RL_8";
+			this->textBoxtrial3_2RL_8->Size = System::Drawing::Size(100, 30);
+			this->textBoxtrial3_2RL_8->TabIndex = 150;
+			// 
 			// VCVS实验实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1544, 1102);
+			this->ClientSize = System::Drawing::Size(1527, 1100);
 			this->Controls->Add(this->button246);
 			this->Controls->Add(this->groupBox10);
 			this->Controls->Add(this->groupBox7);
@@ -4683,41 +5245,44 @@ private: System::Windows::Forms::Label^  label166;
 			this->Controls->Add(this->label166);
 			this->Controls->Add(this->label1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
+			this->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->Name = L"VCVS实验实验内容";
 			this->Text = L"VCVS实验实验内容";
 			this->Load += gcnew System::EventHandler(this, &VCVS实验实验内容::VCVS实验实验内容_Load);
 			this->groupBox2->ResumeLayout(false);
 			this->groupBox2->PerformLayout();
 			this->groupBox3->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart2))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial1_2))->EndInit();
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial1_1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->groupBox4->ResumeLayout(false);
 			this->groupBox4->PerformLayout();
 			this->groupBox5->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart3))->EndInit();
+			this->groupBox5->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial2_2))->EndInit();
 			this->groupBox6->ResumeLayout(false);
 			this->groupBox6->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart4))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial2_1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->groupBox7->ResumeLayout(false);
 			this->groupBox7->PerformLayout();
 			this->groupBox8->ResumeLayout(false);
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart5))->EndInit();
+			this->groupBox8->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3_2))->EndInit();
 			this->groupBox9->ResumeLayout(false);
 			this->groupBox9->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart6))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3_1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->EndInit();
 			this->groupBox10->ResumeLayout(false);
 			this->groupBox10->PerformLayout();
 			this->groupBox11->ResumeLayout(false);
 			this->groupBox11->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart7))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial4_2))->EndInit();
 			this->groupBox12->ResumeLayout(false);
 			this->groupBox12->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart8))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial4_1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox4))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -4743,8 +5308,435 @@ private: System::Void groupBox3_Enter(System::Object^  sender, System::EventArgs
 private: System::Void chart2_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void VCVS实验实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	 chartTrial1_1Init();
+	 chartTrial1_2Init();
+	 chartTrial2_1Init();
+	 chartTrial2_2Init();
+	 chartTrial3_1Init();
+	 chartTrial3_2Init();
+	 chartTrial4_1Init();
+	 chartTrial4_2Init();
+
 }
 private: System::Void groupBox4_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_1->Text = global::GetU30Data();
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_2->Text = global::GetU30Data();
+}
+private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_3->Text = global::GetU30Data();
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_4->Text = global::GetU30Data();
+}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_5->Text = global::GetU30Data();
+}
+private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_6->Text = global::GetU30Data();
+}
+private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_7->Text = global::GetU30Data();
+}
+private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_8->Text = global::GetU30Data();
+}
+private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_1U2_9->Text = global::GetU30Data();
+}
+private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_1->Text = global::GetU30Data();
+}
+private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_2->Text = global::GetU30Data();
+}
+private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_3->Text = global::GetU30Data();
+}
+private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_4->Text = global::GetU30Data();
+}
+private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_5->Text = global::GetU30Data();
+}
+private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_6->Text = global::GetU30Data();
+}
+private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_7->Text = global::GetU30Data();
+}
+private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2V2_8->Text = global::GetU30Data();
+}
+private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_1->Text = global::GetU30Data();
+}
+private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_2->Text = global::GetU30Data();
+}
+private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_3->Text = global::GetU30Data();
+}
+private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_4->Text = global::GetU30Data();
+}
+private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_5->Text = global::GetU30Data();
+}
+private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_6->Text = global::GetU30Data();
+}
+private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_7->Text = global::GetU30Data();
+}
+private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial1_2IL_8->Text = global::GetU30Data();
+}
+private: System::Void button53_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_1->Text = global::GetI500Data();
+}
+private: System::Void button52_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_2->Text = global::GetI500Data();
+}
+private: System::Void button51_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_3->Text = global::GetI500Data();
+}
+private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_4->Text = global::GetI500Data();
+}
+private: System::Void button49_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_5->Text = global::GetI500Data();
+}
+private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_6->Text = global::GetI500Data();
+}
+private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_7->Text = global::GetI500Data();
+}
+private: System::Void groupBox2_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_1IL_8->Text = global::GetI500Data();
+}
+private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2IL_1->Text = global::GetI500Data();
+}
+private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2IL_2->Text = global::GetI500Data();
+}
+private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2IL_3->Text = global::GetI500Data();
+}
+private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2IL_4->Text = global::GetI500Data();
+}
+private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2IL_5->Text = global::GetI500Data();
+}
+private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2IL_6->Text = global::GetI500Data();
+}
+private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2IL_7->Text = global::GetI500Data();
+}
+private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2V2_1->Text = global::GetU30Data();
+}
+private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
+
+	labeltrial2_2V2_2->Text = global::GetU30Data();
+}
+private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2V2_3->Text = global::GetU30Data();
+}
+private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2V2_4->Text = global::GetU30Data();
+}
+private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2V2_5->Text = global::GetU30Data();
+}
+private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2V2_6->Text = global::GetU30Data();
+}
+private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial2_2V2_7->Text = global::GetU30Data();
+}
+private: System::Void button83_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_1->Text = global::GetI500Data();
+}
+private: System::Void button82_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_2->Text = global::GetI500Data();
+}
+private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_3->Text = global::GetI500Data();
+}
+private: System::Void button80_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_4->Text = global::GetI500Data();
+}
+private: System::Void button79_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_5->Text = global::GetI500Data();
+}
+private: System::Void button78_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_6->Text = global::GetI500Data();
+}
+private: System::Void button77_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_7->Text = global::GetI500Data();
+}
+private: System::Void button76_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1I1_8->Text = global::GetI500Data();
+}
+private: System::Void button74_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_1->Text = global::GetU30Data();
+}
+private: System::Void button73_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_2->Text = global::GetU30Data();
+}
+private: System::Void button72_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_3->Text = global::GetU30Data();
+}
+private: System::Void button71_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_4->Text = global::GetU30Data();
+}
+private: System::Void button70_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_5->Text = global::GetU30Data();
+}
+
+private: System::Void button69_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_6->Text = global::GetU30Data();
+}
+
+private: System::Void button68_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_7->Text = global::GetU30Data();
+}
+private: System::Void button67_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_1V2_8->Text = global::GetU30Data();
+}
+private: System::Void button65_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_1->Text = global::GetU30Data();
+}
+private: System::Void button64_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_2->Text = global::GetU30Data();
+}
+private: System::Void button63_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_3->Text = global::GetU30Data();
+}
+private: System::Void button62_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_4->Text = global::GetU30Data();
+}
+private: System::Void button61_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_5->Text = global::GetU30Data();
+}
+private: System::Void button60_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_6->Text = global::GetU30Data();
+}
+private: System::Void button56_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_3->Text = global::GetI500Data();
+}
+private: System::Void button59_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_7->Text = global::GetU30Data();
+}
+private: System::Void button85_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2U2_8->Text = global::GetU30Data();
+}
+private: System::Void button58_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_1->Text = global::GetI500Data();
+}
+private: System::Void button57_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_2->Text = global::GetI500Data();
+}
+private: System::Void button55_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_4->Text = global::GetI500Data();
+}
+private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_5->Text = global::GetI500Data();
+}
+private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_6->Text = global::GetI500Data();
+}
+private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_7->Text = global::GetI500Data();
+}
+private: System::Void button84_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial3_2IL_8->Text = global::GetI500Data();
+}
+private: System::Void button110_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_1->Text = global::GetI500Data();
+}
+private: System::Void button109_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_2->Text = global::GetI500Data();
+}
+private: System::Void button108_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_3->Text = global::GetI500Data();
+}
+private: System::Void button107_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_4->Text = global::GetI500Data();
+}
+private: System::Void button106_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_5->Text = global::GetI500Data();
+}
+private: System::Void button105_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_6->Text = global::GetI500Data();
+}
+private: System::Void button104_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_7->Text = global::GetI500Data();
+}
+private: System::Void button103_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1I1_8->Text = global::GetI500Data();
+}
+private: System::Void button118_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_1->Text = global::GetI500Data();
+}
+private: System::Void button117_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_2->Text = global::GetI500Data();
+}
+private: System::Void button116_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_3->Text = global::GetI500Data();
+}
+private: System::Void button115_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_4->Text = global::GetI500Data();
+}
+private: System::Void button114_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_5->Text = global::GetI500Data();
+}
+private: System::Void button113_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_6->Text = global::GetI500Data();
+}
+private: System::Void button112_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_7->Text = global::GetI500Data();
+}
+private: System::Void button111_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_1IL_8->Text = global::GetI500Data();
+}
+private: System::Void button101_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_1->Text = global::GetI500Data();
+}
+private: System::Void button100_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_2->Text = global::GetI500Data();
+}
+private: System::Void button99_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_3->Text = global::GetI500Data();
+}
+private: System::Void button98_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_4->Text = global::GetI500Data();
+}
+private: System::Void button97_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_5->Text = global::GetI500Data();
+}
+private: System::Void button96_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_6->Text = global::GetI500Data();
+}
+private: System::Void button95_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_7->Text = global::GetI500Data();
+}
+private: System::Void button87_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2IL_8->Text = global::GetI500Data();
+}
+private: System::Void button94_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_1->Text = global::GetU30Data();
+}
+private: System::Void button93_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_2->Text = global::GetU30Data();
+}
+private: System::Void button92_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_3->Text = global::GetU30Data();
+}
+private: System::Void button91_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_4->Text = global::GetU30Data();
+}
+private: System::Void button90_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_5->Text = global::GetU30Data();
+}
+private: System::Void button89_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_6->Text = global::GetU30Data();
+}
+private: System::Void button88_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_7->Text = global::GetU30Data();
+}
+private: System::Void button86_Click(System::Object^  sender, System::EventArgs^  e) {
+	labeltrial4_2U2_8->Text = global::GetU30Data();
+}
+private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial1_1();
+	
+}
+private: System::Void groupBox10_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial1_2();
+}
+private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial2_1();
+}
+private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial2_2();
+}
+private: System::Void button75_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial3_1();
+}
+private: System::Void button66_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial3_2();
+}
+private: System::Void button119_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial4_1();
+}
+private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
+	LoadTrial4_2();
+}
+private: System::Void button128_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_1->Text,0,30);
+}
+private: System::Void button127_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_2->Text, 0, 30);
+}
+private: System::Void button126_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_3->Text, 0, 30);
+}
+private: System::Void button125_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_4->Text, 0, 30);
+}
+private: System::Void button124_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_5->Text, 0, 30);
+}
+private: System::Void button123_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_6->Text, 0, 30);
+}
+private: System::Void button122_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_7->Text, 0, 30);
+}
+private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button121_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_8->Text, 0, 30);
+}
+private: System::Void button120_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial1_1U1_9->Text, 0, 30);
+}
+private: System::Void button136_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_1->Text,0,5);
+}
+private: System::Void button135_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_2->Text, 0, 5);
+}
+private: System::Void button134_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_3->Text, 0, 5);
+}
+private: System::Void button133_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_4->Text, 0, 5);
+}
+private: System::Void button132_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_5->Text, 0, 5);
+}
+private: System::Void button131_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_6->Text, 0, 5);
+}
+private: System::Void button130_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_7->Text, 0, 5);
+}
+private: System::Void button129_Click(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(labeltrial2_1U1_8->Text, 0, 5);
 }
 };
 }

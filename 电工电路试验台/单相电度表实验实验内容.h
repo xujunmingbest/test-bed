@@ -68,7 +68,7 @@ namespace 电工电路试验台 {
 
 
 
-	private: System::Windows::Forms::Button^  button3;
+
 	private: System::Windows::Forms::Button^  button2;
 	private: System::Windows::Forms::Button^  button1;
 	private: System::Windows::Forms::Label^  label19;
@@ -88,7 +88,7 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  label34;
 	private: System::Windows::Forms::Label^  label22;
 	private: System::Windows::Forms::Label^  label20;
-	private: System::Windows::Forms::Label^  labelTrial1_mea_P;
+
 
 
 	private: System::Windows::Forms::Label^  label18;
@@ -111,6 +111,7 @@ namespace 电工电路试验台 {
 
 	private: System::Windows::Forms::Label^  label129;
 	private: System::Windows::Forms::Button^  button102;
+	private: System::Windows::Forms::TextBox^  labelTrial1_mea_P;
 
 	private:
 		/// <summary>
@@ -131,7 +132,6 @@ namespace 电工电路试验台 {
 			this->textBoxTrial1_cal_calW = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial1_cal_meaW = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial1_cal_N = (gcnew System::Windows::Forms::TextBox());
-			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->label19 = (gcnew System::Windows::Forms::Label());
@@ -145,7 +145,6 @@ namespace 电工电路试验台 {
 			this->label34 = (gcnew System::Windows::Forms::Label());
 			this->label22 = (gcnew System::Windows::Forms::Label());
 			this->label20 = (gcnew System::Windows::Forms::Label());
-			this->labelTrial1_mea_P = (gcnew System::Windows::Forms::Label());
 			this->label18 = (gcnew System::Windows::Forms::Label());
 			this->labelTrial1_mea_I = (gcnew System::Windows::Forms::Label());
 			this->label16 = (gcnew System::Windows::Forms::Label());
@@ -171,17 +170,18 @@ namespace 电工电路试验台 {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label129 = (gcnew System::Windows::Forms::Label());
 			this->button102 = (gcnew System::Windows::Forms::Button());
+			this->labelTrial1_mea_P = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->labelTrial1_mea_P);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_cal_WW);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_cal_calW);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_cal_meaW);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_cal_N);
-			this->groupBox8->Controls->Add(this->button3);
 			this->groupBox8->Controls->Add(this->button2);
 			this->groupBox8->Controls->Add(this->button1);
 			this->groupBox8->Controls->Add(this->label19);
@@ -195,7 +195,6 @@ namespace 电工电路试验台 {
 			this->groupBox8->Controls->Add(this->label34);
 			this->groupBox8->Controls->Add(this->label22);
 			this->groupBox8->Controls->Add(this->label20);
-			this->groupBox8->Controls->Add(this->labelTrial1_mea_P);
 			this->groupBox8->Controls->Add(this->label18);
 			this->groupBox8->Controls->Add(this->labelTrial1_mea_I);
 			this->groupBox8->Controls->Add(this->label16);
@@ -256,18 +255,6 @@ namespace 电工电路试验台 {
 			this->textBoxTrial1_cal_N->Size = System::Drawing::Size(135, 30);
 			this->textBoxTrial1_cal_N->TabIndex = 45;
 			// 
-			// button3
-			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button3->ForeColor = System::Drawing::Color::Black;
-			this->button3->Location = System::Drawing::Point(436, 1023);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(96, 32);
-			this->button3->TabIndex = 44;
-			this->button3->Text = L"获取";
-			this->button3->UseVisualStyleBackColor = true;
-			// 
 			// button2
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -279,6 +266,7 @@ namespace 电工电路试验台 {
 			this->button2->TabIndex = 43;
 			this->button2->Text = L"获取";
 			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &单相电度表实验实验内容::button2_Click);
 			// 
 			// button1
 			// 
@@ -291,6 +279,7 @@ namespace 电工电路试验台 {
 			this->button1->TabIndex = 42;
 			this->button1->Text = L"获取";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &单相电度表实验实验内容::button1_Click);
 			// 
 			// label19
 			// 
@@ -306,14 +295,14 @@ namespace 电工电路试验台 {
 			// 
 			// textBoxTrial1_mea_n
 			// 
-			this->textBoxTrial1_mea_n->Location = System::Drawing::Point(720, 978);
+			this->textBoxTrial1_mea_n->Location = System::Drawing::Point(766, 977);
 			this->textBoxTrial1_mea_n->Name = L"textBoxTrial1_mea_n";
 			this->textBoxTrial1_mea_n->Size = System::Drawing::Size(94, 30);
 			this->textBoxTrial1_mea_n->TabIndex = 40;
 			// 
 			// textBoxTrial1_mea_time
 			// 
-			this->textBoxTrial1_mea_time->Location = System::Drawing::Point(549, 978);
+			this->textBoxTrial1_mea_time->Location = System::Drawing::Point(595, 977);
 			this->textBoxTrial1_mea_time->Name = L"textBoxTrial1_mea_time";
 			this->textBoxTrial1_mea_time->Size = System::Drawing::Size(150, 30);
 			this->textBoxTrial1_mea_time->TabIndex = 39;
@@ -396,7 +385,7 @@ namespace 电工电路试验台 {
 			this->label22->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label22->ForeColor = System::Drawing::Color::Black;
-			this->label22->Location = System::Drawing::Point(720, 930);
+			this->label22->Location = System::Drawing::Point(766, 929);
 			this->label22->Name = L"label22";
 			this->label22->Size = System::Drawing::Size(92, 27);
 			this->label22->TabIndex = 25;
@@ -408,22 +397,11 @@ namespace 电工电路试验台 {
 			this->label20->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label20->ForeColor = System::Drawing::Color::Black;
-			this->label20->Location = System::Drawing::Point(549, 929);
+			this->label20->Location = System::Drawing::Point(595, 928);
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(153, 27);
 			this->label20->TabIndex = 23;
 			this->label20->Text = L"测定时间（s）";
-			// 
-			// labelTrial1_mea_P
-			// 
-			this->labelTrial1_mea_P->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelTrial1_mea_P->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->labelTrial1_mea_P->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial1_mea_P->Location = System::Drawing::Point(436, 979);
-			this->labelTrial1_mea_P->Name = L"labelTrial1_mea_P";
-			this->labelTrial1_mea_P->Size = System::Drawing::Size(96, 27);
-			this->labelTrial1_mea_P->TabIndex = 22;
 			// 
 			// label18
 			// 
@@ -433,7 +411,7 @@ namespace 电工电路试验台 {
 			this->label18->ForeColor = System::Drawing::Color::Black;
 			this->label18->Location = System::Drawing::Point(437, 929);
 			this->label18->Name = L"label18";
-			this->label18->Size = System::Drawing::Size(96, 27);
+			this->label18->Size = System::Drawing::Size(126, 27);
 			this->label18->TabIndex = 21;
 			this->label18->Text = L"P(W)";
 			// 
@@ -529,7 +507,7 @@ namespace 电工电路试验台 {
 			this->label9->ForeColor = System::Drawing::Color::Black;
 			this->label9->Location = System::Drawing::Point(208, 869);
 			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(623, 23);
+			this->label9->Size = System::Drawing::Size(650, 23);
 			this->label9->TabIndex = 13;
 			this->label9->Text = L"测   量  值";
 			this->label9->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -700,12 +678,19 @@ namespace 电工电路试验台 {
 			this->button102->UseVisualStyleBackColor = true;
 			this->button102->Click += gcnew System::EventHandler(this, &单相电度表实验实验内容::button102_Click);
 			// 
+			// labelTrial1_mea_P
+			// 
+			this->labelTrial1_mea_P->Location = System::Drawing::Point(437, 975);
+			this->labelTrial1_mea_P->Name = L"labelTrial1_mea_P";
+			this->labelTrial1_mea_P->Size = System::Drawing::Size(127, 30);
+			this->labelTrial1_mea_P->TabIndex = 52;
+			// 
 			// 单相电度表实验实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1577, 740);
+			this->ClientSize = System::Drawing::Size(1433, 740);
 			this->Controls->Add(this->label129);
 			this->Controls->Add(this->button102);
 			this->Controls->Add(this->groupBox8);
@@ -730,6 +715,12 @@ private: System::Void 单相电度表实验实验内容_Load(System::Object^  sender, Syste
 }
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();
+}
+private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_mea_V->Text = global::GetU30Data();
+}
+private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_mea_I->Text = global::GetI500Data();
 }
 };
 }

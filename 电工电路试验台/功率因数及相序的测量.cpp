@@ -37,7 +37,10 @@ ST_功率因数及相序的测量 功率因数及相序的测量实验内容::Load_Grade_data() {
 	ST_功率因数及相序的测量 d;
 	memset(&d, 0x00, sizeof(ST_功率因数及相序的测量));
 
+	snprintf(d.summing_up, 100, "%s", textBox结论->Text);
+
 	snprintf(d.Trial2_U_1,10,"%s",labelTrial2_U_1->Text);
+
 	snprintf(d. Trial2_U_2,10,"%s",labelTrial2_U_2->Text);
 	snprintf(d. Trial2_U_3,10,"%s",labelTrial2_U_3->Text);
 	snprintf(d. Trial2_U_4,10,"%s",labelTrial2_U_4->Text);

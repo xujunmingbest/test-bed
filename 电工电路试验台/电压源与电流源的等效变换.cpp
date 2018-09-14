@@ -37,6 +37,11 @@ ST_电压源与电流源的等效变换 电压源与电流源的等效变换实验内容::Load_Grade_data() 
 	memset(&d, 0x00, sizeof(ST_电压源与电流源的等效变换));
 
 	snprintf(d.summing_up, 100, "%s", textBox结论->Text);
+
+	snprintf(d.Trial11UP1, 10, "%s", textBoxTrial11UP1->Text);
+	snprintf(d.Trial11UP2, 10, "%s", textBoxTrial11UP2->Text);
+	snprintf(d.Trial2Is, 10, "%s", textBoxTrial2Is->Text);
+
 	snprintf(d.Trial11I1, 10, "%s", labelTrial11I1->Text);
 	snprintf(d.Trial11I2, 10, "%s", labelTrial11I2->Text);
 	snprintf(d.Trial11I3, 10, "%s", labelTrial11I3->Text);

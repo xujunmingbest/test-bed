@@ -221,7 +221,7 @@ namespace 电工电路试验台 {
 			this->groupBox8->Size = System::Drawing::Size(1296, 302);
 			this->groupBox8->TabIndex = 86;
 			this->groupBox8->TabStop = false;
-			this->groupBox8->Text = L"回转器 实验内容1";
+			this->groupBox8->Text = L"仪表量程的扩展 实验内容1";
 			// 
 			// textBoxTrial1_6
 			// 
@@ -410,7 +410,7 @@ namespace 电工电路试验台 {
 			this->groupBox1->Size = System::Drawing::Size(1296, 302);
 			this->groupBox1->TabIndex = 91;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"回转器 实验内容2";
+			this->groupBox1->Text = L"仪表量程的扩展 实验内容2";
 			// 
 			// textBoxTrial2_6
 			// 
@@ -588,7 +588,7 @@ namespace 电工电路试验台 {
 			this->groupBox2->Size = System::Drawing::Size(1296, 302);
 			this->groupBox2->TabIndex = 92;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"回转器 实验内容3";
+			this->groupBox2->Text = L"仪表量程的扩展 实验内容3";
 			// 
 			// textBoxTrial3_6
 			// 

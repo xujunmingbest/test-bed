@@ -120,13 +120,13 @@
   <data name="label38.Text" xml:space="preserve">
     <value>    1．实验前先任意设定三条支路的电流参考方向，如图中的I1、I2、I3所示，并熟悉线路结构。
 
-    2．将开关向上拔，即电阻接入电路中。分别将两路直流稳压源接入电路，令U11＝12V，U12＝6V。
+    2．将开关向上拔，即电阻接入电路中。分别将两路直流稳压源接入电路，电位器先旋转至最小。
 
-    3．熟悉电流插头的结构，将电流插头的两端接至万用表的“＋、－”两端。
+    3．熟悉电流插头的结构，将电流插头的两端接至测量表的“＋、－”两端。
 
     4．将电流插头分别插入三条支路的三个电流插座中，读出并记录电流值。
 
-    5．用万用表分别测量两路电源及电阻元件上的电压值，并记录。
+    5．分别测量两路电源及电阻元件上的电压值，并记录。
 </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -2162,7 +2162,7 @@
         RudN65tdA8sHzg46DF645Xrr8m2v29fvrLwzMBQydHc4cnjkLvvu5L2key/vZ9yff7DpIfph4SOpR+WP
         lR7X/aj3Y+uI5ciZUdfRvidBTx6Mscae/5T+04fx/Kfkp+UTqhONk2aTp6fcp24+W/1s/Hnq8/npgp+l
         f65+ofviu18cf+mbWTUz/pL/cuHX4lfyr468Xva6e9Z/9vGb5Dfzc4Vv5d8efcd41/s+7P3EfOYH7IeK
-        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAAScgAAEnIBXmVb4wAAZgVJREFUeF7tnQdYVVf2
+        j3ofuz55f3q4kLyw8Bv3hPP74uYdwgAAAAlwSFlzAAAScQAAEnEB89x6jgAAZgVJREFUeF7tnQdYVVf2
         9s8/M5MeE6UXsSCg2FDEXgBRARVQVJBeBERE7FgRC4IFC/beG2Kj916V3uFeujWJscSW+n5rn6vJTL4z
         M5nJTeYmufd5fg+4I0I4671rvXuvvTcHQI4cOf8EwUE5cuRIEByUI0eOBMFBOXLkSBAclCNHjgTBQTly
         5EgQHJQjR44EwUE5cuRIEByUI0eOBMFBOXLkSBAclCNHjgTBQTly5EgQHJQjR44EwUE5cuRIEByUI0eO

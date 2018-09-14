@@ -152,7 +152,7 @@ int string_Has_Num(string &in,char c) {
 	return occurrences();
 }
 
-String^ DcNumToString(uint in ,uint DcSymbol)
+String^ DcNumToString(uint in , BYTE DcSymbol)
 {
 	uint zs = in / 100;
 	uint xs = in % 100;
@@ -200,7 +200,7 @@ void global::SystemStart()
 	}
 	oscillograph::oscillographOpen();
 
-	lcc.open();
+	//lcc.open();
 }
 
 

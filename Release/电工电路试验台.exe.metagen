@@ -106,6 +106,8 @@ Assembly 电工电路试验台, Version=0.0.*, Culture=固定语言(固定国家
 	hash=SHA1, flags=PublicKey
 Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Assembly AForge.Controls, Version=2.2.4.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9: 
+	hash=None, flags=None
 Assembly Microsoft.Speech, Version=10.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
 	hash=None, flags=None
 Assembly Microsoft.Speech.VoiceXml, Version=10.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
@@ -217,6 +219,7 @@ Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     GetMData(): PrivateScope, Public, Static, HideBySig
     GetU30Data(): PrivateScope, Public, Static, HideBySig
     GetI500Data(): PrivateScope, Public, Static, HideBySig
+    GetPData(): PrivateScope, Public, Static, HideBySig
 Class 电工电路试验台.loginWnd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -545,6 +548,8 @@ Class 电工电路试验台.戴维南定理实验内容: AutoLayout, AnsiClass, 
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    chartTrial2_load(): PrivateScope, Public, HideBySig
+    chartTrial6_load(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_戴维南定理*): PrivateScope, Public, HideBySig
     SendData(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.戴维南定理实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
@@ -604,6 +609,22 @@ Class 电工电路试验台.VCVS实验实验内容: AutoLayout, AnsiClass, Class
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    chartTrial1_1Init(): PrivateScope, Public, HideBySig
+    LoadTrial1_1(): PrivateScope, Public, HideBySig
+    chartTrial1_2Init(): PrivateScope, Public, HideBySig
+    LoadTrial1_2(): PrivateScope, Public, HideBySig
+    chartTrial2_1Init(): PrivateScope, Public, HideBySig
+    LoadTrial2_1(): PrivateScope, Public, HideBySig
+    chartTrial2_2Init(): PrivateScope, Public, HideBySig
+    LoadTrial2_2(): PrivateScope, Public, HideBySig
+    chartTrial3_1Init(): PrivateScope, Public, HideBySig
+    LoadTrial3_1(): PrivateScope, Public, HideBySig
+    chartTrial3_2Init(): PrivateScope, Public, HideBySig
+    LoadTrial3_2(): PrivateScope, Public, HideBySig
+    chartTrial4_1Init(): PrivateScope, Public, HideBySig
+    LoadTrial4_1(): PrivateScope, Public, HideBySig
+    chartTrial4_2Init(): PrivateScope, Public, HideBySig
+    LoadTrial4_2(): PrivateScope, Public, HideBySig
     this_load(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_VCVS实验*): PrivateScope, Public, HideBySig
     SendData(): PrivateScope, Public, HideBySig
@@ -663,6 +684,7 @@ Class 电工电路试验台.RLC元件阻抗特性的测定实验内容: AutoLayo
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    chartTrial3oad(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_RLC元件阻抗特性的测定*): PrivateScope, Public, HideBySig
     SendData(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.RLC元件阻抗特性的测定实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
@@ -692,6 +714,8 @@ Class 电工电路试验台.单相铁心变压器特性的测试实验内容: Au
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    chartTrial2_load(): PrivateScope, Public, HideBySig
+    chartTrial3_load(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_单相铁心变压器特性的测试*): PrivateScope, Public, HideBySig
     SendData(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.单相铁心变压器特性的测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
@@ -783,6 +807,7 @@ Class 电工电路试验台.负阻抗变换器实验内容: AutoLayout, AnsiClas
     System.String PT_name1 : Public
     System.String PT_name2 : Public
   Methods:
+    chart_load(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_负阻抗变换器*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.负阻抗变换器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form

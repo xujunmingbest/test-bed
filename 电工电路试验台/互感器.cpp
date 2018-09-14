@@ -38,6 +38,9 @@ ST_互感器 互感器实验内容::Load_Grade_data() {
 	ST_互感器 d;
 	memset(&d, 0x00, sizeof(ST_互感器));
 
+	snprintf(d.Trial1_1结论, 100, "%s", textBoxTrial1_1结论->Text);
+	snprintf(d.Trial1_2结论, 100, "%s", textBoxTrial1_2结论->Text);
+
 	snprintf(d.Trial3_Line1_1, 10, "%s", textBoxTrial3_Line1_1->Text);
 	snprintf(d.Trial3_Line1_2, 10, "%s", textBoxTrial3_Line1_2->Text);
 	snprintf(d.Trial3_Line1_3, 10, "%s", textBoxTrial3_Line1_3->Text);

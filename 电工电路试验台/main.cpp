@@ -11,8 +11,6 @@ using namespace System::Threading;
 //int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
 void main(){
 
-	ST_一阶电路的响应测试 d;
-	memset(&d, 0x00, sizeof(ST_一阶电路的响应测试));
 	global::SystemStart(); //控制电源模块
 
 	Application::Run(gcnew 主窗体);

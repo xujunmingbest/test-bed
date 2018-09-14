@@ -4,7 +4,7 @@
 using namespace 电工电路试验台;
 
 
-
+using namespace System::Windows::Forms::DataVisualization::Charting;
 
 void 单相铁心变压器特性的测试实验内容::SendData() {
 	int TrialCode = 14;
@@ -33,6 +33,71 @@ void 单相铁心变压器特性的测试实验内容::SendData() {
 	d.RecvHandle(true);
 	d.close();
 	lcc.SendComputerInfo(Grades[TrialCode] + "已交卷");
+}
+
+
+void 单相铁心变压器特性的测试实验内容::chartTrial2_load() {
+	Series ^s = chartTrial2->Series[0];
+	ChartArea ^ c = chartTrial2->ChartAreas[0];
+	c->AxisX->Interval = 2;
+	c->AxisY->Interval = 2;
+	c->AxisX->ScrollBar->IsPositionedInside = true;
+	c->AxisX->ScrollBar->Enabled = true;
+	c->AxisX->Title = "U1";
+	c->AxisY->Title = "I1";
+	c->AxisY->TextOrientation = TextOrientation::Horizontal;
+	s->ChartType = SeriesChartType::Line;
+	s->IsVisibleInLegend = false;
+	c->AxisX->LabelStyle->Format = "N1";
+	c->AxisX->MajorGrid->LineColor = Color::Transparent;
+	c->AxisY->MajorGrid->LineColor = Color::Transparent;
+
+	s->Points->Clear();
+	try {
+		s->Name = "";
+		s->Points->AddXY(Convert::ToSingle(labelTrial2_Line1_U1->Text), Convert::ToSingle(labelTrial2_Line1_I1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial2_Line2_U1->Text), Convert::ToSingle(labelTrial2_Line2_I1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial2_Line3_U1->Text), Convert::ToSingle(labelTrial2_Line3_U1->Text));
+	}
+	catch (System::Exception^ E) {
+
+	}
+}
+
+void 单相铁心变压器特性的测试实验内容::chartTrial3_load() {
+	Series ^s = chartTrial3->Series[0];
+	ChartArea ^ c = chartTrial3->ChartAreas[0];
+	c->AxisX->Interval = 2;
+	c->AxisY->Interval = 2;
+	c->AxisX->ScrollBar->IsPositionedInside = true;
+	c->AxisX->ScrollBar->Enabled = true;
+	c->AxisX->Title = "U1";
+	c->AxisY->Title = "I10";
+	c->AxisY->TextOrientation = TextOrientation::Horizontal;
+	s->ChartType = SeriesChartType::Line;
+	s->IsVisibleInLegend = false;
+	c->AxisX->LabelStyle->Format = "N1";
+	c->AxisX->MajorGrid->LineColor = Color::Transparent;
+	c->AxisY->MajorGrid->LineColor = Color::Transparent;
+
+	s->Points->Clear();
+	try {
+		s->Name = "";
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_1->Text), Convert::ToSingle(labelTrial3_I10_1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_2->Text), Convert::ToSingle(labelTrial3_I10_2->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_3->Text), Convert::ToSingle(labelTrial3_I10_3->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_4->Text), Convert::ToSingle(labelTrial3_I10_4->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_5->Text), Convert::ToSingle(labelTrial3_I10_5->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_6->Text), Convert::ToSingle(labelTrial3_I10_6->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_7->Text), Convert::ToSingle(labelTrial3_I10_7->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_8->Text), Convert::ToSingle(labelTrial3_I10_8->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_9->Text), Convert::ToSingle(labelTrial3_I10_9->Text));
+		s->Points->AddXY(Convert::ToSingle(labelTrial3_U1_10->Text), Convert::ToSingle(labelTrial3_I10_10->Text));
+	}
+	catch (System::Exception^ E) {
+
+	}
+
 }
 
 
