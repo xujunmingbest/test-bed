@@ -234,6 +234,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial1_1_U11;
 
 private: System::Windows::Forms::Button^  button19;
 private: System::Windows::Forms::TextBox^  textBoxTrial2_1_U;
+private: System::Windows::Forms::Label^  label14;
 
 
 	private:
@@ -373,6 +374,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_1_U;
 			this->label103 = (gcnew System::Windows::Forms::Label());
 			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->button25 = (gcnew System::Windows::Forms::Button());
+			this->label14 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
@@ -382,6 +384,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_1_U;
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->label14);
 			this->groupBox8->Controls->Add(this->pictureBox2);
 			this->groupBox8->Controls->Add(this->pictureBox1);
 			this->groupBox8->Controls->Add(this->label37);
@@ -1872,6 +1875,17 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_1_U;
 			this->button25->UseVisualStyleBackColor = true;
 			this->button25->Click += gcnew System::EventHandler(this, &二端口网络的研究实验内容::button25_Click);
 			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(791, 52);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(408, 70);
+			this->label14->TabIndex = 312;
+			this->label14->Text = L"说明:以下表电压用直流电压表3获取，电流用直流电流表2获取";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
 			// 二端口网络的研究实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -1911,27 +1925,27 @@ private: System::Void button25_Click(System::Object^  sender, System::EventArgs^
 	SendGrade();
 }
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_1_U110->Text = global::GetU30Data();
+	labelTrial1_1_U110->Text = global::GetU30_U400VData();
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_1_U120->Text = global::GetU30Data();
+	labelTrial1_1_U120->Text = global::GetU30_U400VData();
 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial1_1_I110->Text = global::GetI500Data();
 }
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_1_U11S->Text = global::GetU30Data();
+	labelTrial1_1_U11S->Text = global::GetU30_U400VData();
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial1_1_I11S->Text = global::GetI500Data();
 }
 private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_1_U12S->Text = global::GetU30Data();
+	labelTrial1_1_U12S->Text = global::GetU30_U400VData();
 }
 
 
 private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_2_U210->Text = global::GetU30Data();
+	labelTrial1_2_U210->Text = global::GetU30_U400VData();
 }
 
 
@@ -1939,7 +1953,7 @@ private: System::Void button9_Click(System::Object^  sender, System::EventArgs^ 
 	labelTrial1_2_I210->Text = global::GetI500Data();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_2_U21S->Text = global::GetU30Data();
+	labelTrial1_2_U21S->Text = global::GetU30_U400VData();
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial1_2_I21S->Text = global::GetI500Data();
@@ -1948,7 +1962,7 @@ private: System::Void button11_Click(System::Object^  sender, System::EventArgs^
 	labelTrial1_2_I22S->Text = global::GetI500Data();
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_1_U10->Text = global::GetU30Data();
+	labelTrial2_1_U10->Text = global::GetU30_U400VData();
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial2_1_I10->Text = global::GetI500Data();
@@ -1957,7 +1971,7 @@ private: System::Void button15_Click(System::Object^  sender, System::EventArgs^
 	labelTrial2_1_R10->Text = global::GetI500Data();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_1_U20->Text = global::GetU30Data();
+	labelTrial2_1_U20->Text = global::GetU30_U400VData();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial2_1_I20->Text = global::GetI500Data();
@@ -1966,10 +1980,10 @@ private: System::Void button22_Click(System::Object^  sender, System::EventArgs^
 	labelTrial2_1_R20->Text = global::GetI500Data();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_1_U2S->Text = global::GetU30Data();
+	labelTrial2_1_U2S->Text = global::GetU30_U400VData();
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_1_U1S->Text = global::GetU30Data();
+	labelTrial2_1_U1S->Text = global::GetU30_U400VData();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial2_1_I1S->Text = global::GetI500Data();

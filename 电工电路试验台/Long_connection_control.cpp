@@ -36,3 +36,16 @@ Long_connection_control lcc;
 		string final = l_f + l_s + string((char*)&H, sizeof(Long_connection_Head)) + string( (char*)&Ts,sizeof(TrialStatus));
 		pd.Send(ssc.sc,final);
 	}
+
+
+	void Long_connection_control::GetStudentList() {
+		protocolDemo pd;
+		Long_connection_Head H;
+		memset(&H, 0x00, sizeof(Long_connection_Head));
+		snprintf(H.req, sizeof(H.req), "%s", Long_connection_Req[7].c_str());
+		string l_f = pd.GenerateFIRSTBYTES(sizeof(Long_connection_Head));
+		string body = "null";
+		string l_s = pd.GenerateSECONDBYTES(body.length());
+		string final = l_f + l_s + string((char*)&H, sizeof(Long_connection_Head)) + body;
+		pd.Send(ssc.sc, final);
+	}

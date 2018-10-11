@@ -73,11 +73,11 @@ namespace 电工电路试验台 {
 			// label3
 			// 
 			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label3->Location = System::Drawing::Point(23, 399);
+			this->label3->Location = System::Drawing::Point(24, 356);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(940, 217);
+			this->label3->Size = System::Drawing::Size(940, 167);
 			this->label3->TabIndex = 15;
 			this->label3->Text = L"    基尔霍夫定律是电路的基本定律。测量某电路的各支路电流及多个元件两端的电压，应能分别满足基尔霍夫电流定律和电压定律。即对电路中的任一个节点而言，应有ΣI＝0"
 				L"；对任何一个闭合回路而言，应有ΣU＝0。\r\n\r\n\r\n\r\n    运用上述定律时必须注意电流的正方向，此方向可预先任意设定。\r\n";

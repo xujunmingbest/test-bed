@@ -39,6 +39,7 @@ using namespace Microsoft::Speech::Synthesis;
 using namespace System::Media;
 using namespace System::Threading;
 namespace 电工电路试验台 {
+	/*
 	public ref class Voice
 	{
 		SoundPlayer ^ player = gcnew SoundPlayer;
@@ -82,6 +83,7 @@ namespace 电工电路试验台 {
 	}
 		   // TODO:  在此处添加此类的方法。
 	};
+	*/
 	public ref class Waver
 	{
 		Hashtable ^LabelHt ;
@@ -287,6 +289,7 @@ public:
 #define LOGINYOUKE 2;
 #define BMPSAVEPATH "bmp/"
 
+extern QueueMutex g_ClassListMutex; //向量操作锁
 
 public ref class global {
 public:
@@ -299,7 +302,7 @@ public:
 	static S_PLCRecv *PLCRecv ;
 	static SerialHandle^ sh = gcnew SerialHandle;  //全局seriesPort 变量
 	static SerialControlSource^ scs = gcnew SerialControlSource;
-	static Voice^ voice = gcnew Voice();
+	//static Voice^ voice = gcnew Voice();
 
 
 	/* LiKongMonter
@@ -317,10 +320,10 @@ public:
 		}
 		return pr;
 	}
-	static String^ GetU30Data() {
+	static String^ GetU30_U400VData() {
 		S_PLCRecv p = GetMData();
 
-		if (p.HeaderId == 6) {
+		if (p.HeaderId == 6 || p.HeaderId == 2) {
 			return  DcNumToString(p.U, p.Usymbol);
 		}
 		else {
@@ -347,6 +350,53 @@ public:
 			return "0.00";
 		}
 	}
+	static String^ GetGongPingU() {
+		S_PLCRecv p = GetMData();
+
+		uint zs = p.U / 100;
+		uint xs = p.U % 100;
+
+		return zs.ToString() + "." + xs.ToString();
+	}
+
+	static String^ GetGongPingI() {
+		S_PLCRecv p = GetMData();
+
+		uint zs = p.I / 1000;
+		uint xs = p.I % 1000;
+
+		return zs.ToString() + "." + xs.ToString();
+	}
+	static String^ GetGongPingP() {
+
+		S_PLCRecv p = GetMData();
+		
+		return p.P.ToString();
+	}	
+	static String^ GetGongPingCos() {
+
+		S_PLCRecv p = GetMData();
+		uint zs = p.I / 1000;
+		uint xs = p.I % 1000;
+		return zs.ToString() + "." + xs.ToString();
+	}
+
+	static String^ GetKuangPingURMS1() {
+
+		S_PLCRecv p = GetMData();
+		uint zs = p.U / 1000;
+		uint xs = p.U % 1000;
+
+		return zs.ToString() + "." + xs.ToString();
+	}	
+	static String^ GetKuangPingURMS2() {
+		S_PLCRecv p = GetMData();
+		uint zs = p.U / 100;
+		uint xs = p.U % 100;
+
+		return zs.ToString() + "." + xs.ToString();
+	}
+
 };
 
 
@@ -364,5 +414,7 @@ void MsgQueueRegister();
 String ^GenerateOrderNumber();
 string GenerateStuCheckInfo();
 
+template<typename T>
+void QuickSort(T a[], int low, int high); //low 是开始下标 一般为0 ，high 是最后一个元素的下标 一般是数组长度减1
 
 #endif

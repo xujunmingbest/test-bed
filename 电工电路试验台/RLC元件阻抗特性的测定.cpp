@@ -187,7 +187,7 @@ void RLC元件阻抗特性的测定实验内容::chartTrial3oad() {
 	c->AxisX->Title = "频率V";
 	c->AxisY->Title = "阻抗角φ";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;

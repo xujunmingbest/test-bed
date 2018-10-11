@@ -128,8 +128,6 @@ Assembly Interop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=固定语言(
 	hash=None, flags=None
 Assembly AxInterop.ShockwaveFlashObjects.1.0, Version=1.0.*, Culture=固定语言(固定国家/地区): 
 	hash=None, flags=None
-Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
-	hash=None, flags=None
 Class Capture: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -177,13 +175,6 @@ Class 电工电路试验台.SerialControlSource: AutoLayout, AnsiClass, Class, P
     CloseSource(Int32): PrivateScope, Public, HideBySig
     SetWaveForm(Int32): PrivateScope, Public, HideBySig
     SetFrequency(Int32): PrivateScope, Public, HideBySig
-Class 电工电路试验台.Voice: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Methods:
-    Close(): PrivateScope, Public, HideBySig
-    SetVolume(Int32): PrivateScope, Public, HideBySig
-    SetRate(Int32): PrivateScope, Public, HideBySig
-    Speak(String): PrivateScope, Public, HideBySig
 Class 电工电路试验台.Waver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
@@ -210,16 +201,21 @@ Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     S_PLCRecv* PLCRecv : Public, Static
     电工电路试验台.SerialHandle sh : Public, Static
     电工电路试验台.SerialControlSource scs : Public, Static
-    电工电路试验台.Voice voice : Public, Static
   Methods:
     SystemStart(): PrivateScope, Public, Static, HideBySig
     SystemShortDown(): PrivateScope, Public, Static, HideBySig
     LiKongMonter(): PrivateScope, Public, Static, HideBySig
     SetDV(String): PrivateScope, Public, Static, HideBySig
     GetMData(): PrivateScope, Public, Static, HideBySig
-    GetU30Data(): PrivateScope, Public, Static, HideBySig
+    GetU30_U400VData(): PrivateScope, Public, Static, HideBySig
     GetI500Data(): PrivateScope, Public, Static, HideBySig
     GetPData(): PrivateScope, Public, Static, HideBySig
+    GetGongPingU(): PrivateScope, Public, Static, HideBySig
+    GetGongPingI(): PrivateScope, Public, Static, HideBySig
+    GetGongPingP(): PrivateScope, Public, Static, HideBySig
+    GetGongPingCos(): PrivateScope, Public, Static, HideBySig
+    GetKuangPingURMS1(): PrivateScope, Public, Static, HideBySig
+    GetKuangPingURMS2(): PrivateScope, Public, Static, HideBySig
 Class 电工电路试验台.loginWnd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

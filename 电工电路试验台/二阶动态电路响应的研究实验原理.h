@@ -65,34 +65,32 @@ namespace 电工电路试验台 {
 			this->label7->BackColor = System::Drawing::Color::Transparent;
 			this->label7->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label7->Location = System::Drawing::Point(23, 59);
-			this->label7->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label7->Location = System::Drawing::Point(31, 74);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(324, 20);
+			this->label7->Size = System::Drawing::Size(402, 25);
 			this->label7->TabIndex = 22;
 			this->label7->Text = L"二阶动态电路响应的研究实验原理";
 			// 
 			// label3
 			// 
 			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label3->Location = System::Drawing::Point(23, 154);
-			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label3->Location = System::Drawing::Point(32, 220);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(705, 211);
+			this->label3->Size = System::Drawing::Size(940, 173);
 			this->label3->TabIndex = 23;
 			this->label3->Text = resources->GetString(L"label3.Text");
 			// 
 			// 二阶动态电路响应的研究实验原理
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 12);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(904, 590);
+			this->ClientSize = System::Drawing::Size(1205, 738);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label7);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->Name = L"二阶动态电路响应的研究实验原理";
 			this->Text = L"二阶动态电路响应的研究实验原理";
 			this->ResumeLayout(false);

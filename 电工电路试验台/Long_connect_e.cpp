@@ -8,8 +8,7 @@
 using namespace System::Threading;
 using namespace System::Windows::Forms;
 
-
-
+vector<ClassElement> g_ClassList; //学生名单列表
 void ForceCommitGrade();
 
 void Long_connection_control::RecvHandle() {
@@ -87,7 +86,19 @@ void Long_connection_control::RecvHandle() {
 					}
 				}
 			}
-		
+			if (reply == Long_connection_Req[7]) { //获取学生列表
+				g_ClassListMutex.Lock();
+				g_ClassList.clear();
+				if (s_s == MsgRet[-5]) continue;
+				int CElength = sizeof(ClassElement);
+				int ClassNumber = s_s.length()  / CElength;
+				for (int i = 0; i < ClassNumber; i++) {
+					ClassElement CE;
+					memcpy(&CE, s_s.c_str() + i * CElength, CElength);
+					g_ClassList.push_back(CE);
+				}
+				g_ClassListMutex.UnLock();
+			}
 		}
 	}
 	open();

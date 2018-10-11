@@ -23,7 +23,7 @@ void VCVS实验实验内容::chartTrial1_1Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -63,7 +63,7 @@ void VCVS实验实验内容::chartTrial1_2Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -102,7 +102,7 @@ void VCVS实验实验内容::chartTrial2_1Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -143,7 +143,7 @@ void VCVS实验实验内容::chartTrial2_2Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -180,7 +180,7 @@ void VCVS实验实验内容::chartTrial3_1Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -219,7 +219,7 @@ void VCVS实验实验内容::chartTrial3_2Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -258,7 +258,7 @@ void VCVS实验实验内容::chartTrial4_1Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -297,7 +297,7 @@ void VCVS实验实验内容::chartTrial4_2Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;

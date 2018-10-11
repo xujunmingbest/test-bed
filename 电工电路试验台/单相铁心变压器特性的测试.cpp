@@ -46,7 +46,7 @@ void 单相铁心变压器特性的测试实验内容::chartTrial2_load() {
 	c->AxisX->Title = "U1";
 	c->AxisY->Title = "I1";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -74,7 +74,7 @@ void 单相铁心变压器特性的测试实验内容::chartTrial3_load() {
 	c->AxisX->Title = "U1";
 	c->AxisY->Title = "I10";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;

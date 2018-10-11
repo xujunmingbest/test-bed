@@ -49,23 +49,23 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::PictureBox^  pictureBox1;
 	protected:
 	private: System::Windows::Forms::Button^  button1;
-	private: System::Windows::Forms::TextBox^  textBoxclass;
+
 
 
 
 	private: System::Windows::Forms::Label^  label1;
-	private: System::Windows::Forms::TextBox^  textBoxStuName1;
+
 
 	private: System::Windows::Forms::Label^  label3;
-	private: System::Windows::Forms::TextBox^  textBoxXueHao1;
+
 
 
 
 	private: System::Windows::Forms::Label^  label2;
-	private: System::Windows::Forms::TextBox^  textBoxXueHao2;
+
 
 	private: System::Windows::Forms::Label^  label4;
-	private: System::Windows::Forms::TextBox^  textBoxStuName2;
+
 
 	private: System::Windows::Forms::Label^  label5;
 	private: System::Windows::Forms::TextBox^  textBoxmajor;
@@ -77,6 +77,13 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::TextBox^  textBoxteacher;
 
 	private: System::Windows::Forms::Label^  label8;
+	private: System::Windows::Forms::ComboBox^  textBoxclass;
+	private: System::Windows::Forms::ComboBox^  textBoxStuName2;
+	private: System::Windows::Forms::ComboBox^  textBoxStuName1;
+	private: System::Windows::Forms::ComboBox^  textBoxXueHao1;
+	private: System::Windows::Forms::ComboBox^  textBoxXueHao2;
+
+
 
 	private:
 		/// <summary>
@@ -94,15 +101,10 @@ namespace 电工电路试验台 {
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(loginWnd::typeid));
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->textBoxclass = (gcnew System::Windows::Forms::TextBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->textBoxStuName1 = (gcnew System::Windows::Forms::TextBox());
 			this->label3 = (gcnew System::Windows::Forms::Label());
-			this->textBoxXueHao1 = (gcnew System::Windows::Forms::TextBox());
 			this->label2 = (gcnew System::Windows::Forms::Label());
-			this->textBoxXueHao2 = (gcnew System::Windows::Forms::TextBox());
 			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->textBoxStuName2 = (gcnew System::Windows::Forms::TextBox());
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->textBoxmajor = (gcnew System::Windows::Forms::TextBox());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -110,6 +112,11 @@ namespace 电工电路试验台 {
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->textBoxteacher = (gcnew System::Windows::Forms::TextBox());
 			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->textBoxclass = (gcnew System::Windows::Forms::ComboBox());
+			this->textBoxStuName2 = (gcnew System::Windows::Forms::ComboBox());
+			this->textBoxStuName1 = (gcnew System::Windows::Forms::ComboBox());
+			this->textBoxXueHao1 = (gcnew System::Windows::Forms::ComboBox());
+			this->textBoxXueHao2 = (gcnew System::Windows::Forms::ComboBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -135,14 +142,6 @@ namespace 电工电路试验台 {
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &loginWnd::button1_Click);
 			// 
-			// textBoxclass
-			// 
-			this->textBoxclass->Location = System::Drawing::Point(145, 92);
-			this->textBoxclass->Name = L"textBoxclass";
-			this->textBoxclass->Size = System::Drawing::Size(168, 25);
-			this->textBoxclass->TabIndex = 8;
-			this->textBoxclass->Text = L"通信1106";
-			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
@@ -153,14 +152,6 @@ namespace 电工电路试验台 {
 			this->label1->Size = System::Drawing::Size(51, 20);
 			this->label1->TabIndex = 6;
 			this->label1->Text = L"班级";
-			// 
-			// textBoxStuName1
-			// 
-			this->textBoxStuName1->Location = System::Drawing::Point(145, 231);
-			this->textBoxStuName1->Name = L"textBoxStuName1";
-			this->textBoxStuName1->Size = System::Drawing::Size(168, 25);
-			this->textBoxStuName1->TabIndex = 13;
-			this->textBoxStuName1->Text = L"徐军明";
 			// 
 			// label3
 			// 
@@ -173,14 +164,6 @@ namespace 电工电路试验台 {
 			this->label3->TabIndex = 12;
 			this->label3->Text = L"姓名1";
 			// 
-			// textBoxXueHao1
-			// 
-			this->textBoxXueHao1->Location = System::Drawing::Point(145, 266);
-			this->textBoxXueHao1->Name = L"textBoxXueHao1";
-			this->textBoxXueHao1->Size = System::Drawing::Size(168, 25);
-			this->textBoxXueHao1->TabIndex = 15;
-			this->textBoxXueHao1->Text = L"11";
-			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
@@ -192,14 +175,6 @@ namespace 电工电路试验台 {
 			this->label2->TabIndex = 14;
 			this->label2->Text = L"学号1";
 			// 
-			// textBoxXueHao2
-			// 
-			this->textBoxXueHao2->Location = System::Drawing::Point(145, 338);
-			this->textBoxXueHao2->Name = L"textBoxXueHao2";
-			this->textBoxXueHao2->Size = System::Drawing::Size(168, 25);
-			this->textBoxXueHao2->TabIndex = 19;
-			this->textBoxXueHao2->Text = L"12";
-			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
@@ -210,14 +185,6 @@ namespace 电工电路试验台 {
 			this->label4->Size = System::Drawing::Size(62, 20);
 			this->label4->TabIndex = 18;
 			this->label4->Text = L"学号2";
-			// 
-			// textBoxStuName2
-			// 
-			this->textBoxStuName2->Location = System::Drawing::Point(145, 303);
-			this->textBoxStuName2->Name = L"textBoxStuName2";
-			this->textBoxStuName2->Size = System::Drawing::Size(168, 25);
-			this->textBoxStuName2->TabIndex = 17;
-			this->textBoxStuName2->Text = L"徐军明2";
 			// 
 			// label5
 			// 
@@ -284,28 +251,69 @@ namespace 电工电路试验台 {
 			this->label8->TabIndex = 24;
 			this->label8->Text = L"指导老师";
 			// 
+			// textBoxclass
+			// 
+			this->textBoxclass->FormattingEnabled = true;
+			this->textBoxclass->Location = System::Drawing::Point(145, 94);
+			this->textBoxclass->Name = L"textBoxclass";
+			this->textBoxclass->Size = System::Drawing::Size(168, 23);
+			this->textBoxclass->TabIndex = 26;
+			this->textBoxclass->SelectedIndexChanged += gcnew System::EventHandler(this, &loginWnd::textBoxclass_SelectedIndexChanged);
+			// 
+			// textBoxStuName2
+			// 
+			this->textBoxStuName2->FormattingEnabled = true;
+			this->textBoxStuName2->Location = System::Drawing::Point(145, 309);
+			this->textBoxStuName2->Name = L"textBoxStuName2";
+			this->textBoxStuName2->Size = System::Drawing::Size(168, 23);
+			this->textBoxStuName2->TabIndex = 27;
+			// 
+			// textBoxStuName1
+			// 
+			this->textBoxStuName1->FormattingEnabled = true;
+			this->textBoxStuName1->Location = System::Drawing::Point(145, 236);
+			this->textBoxStuName1->Name = L"textBoxStuName1";
+			this->textBoxStuName1->Size = System::Drawing::Size(168, 23);
+			this->textBoxStuName1->TabIndex = 28;
+			// 
+			// textBoxXueHao1
+			// 
+			this->textBoxXueHao1->FormattingEnabled = true;
+			this->textBoxXueHao1->Location = System::Drawing::Point(145, 271);
+			this->textBoxXueHao1->Name = L"textBoxXueHao1";
+			this->textBoxXueHao1->Size = System::Drawing::Size(168, 23);
+			this->textBoxXueHao1->TabIndex = 29;
+			// 
+			// textBoxXueHao2
+			// 
+			this->textBoxXueHao2->FormattingEnabled = true;
+			this->textBoxXueHao2->Location = System::Drawing::Point(145, 340);
+			this->textBoxXueHao2->Name = L"textBoxXueHao2";
+			this->textBoxXueHao2->Size = System::Drawing::Size(168, 23);
+			this->textBoxXueHao2->TabIndex = 30;
+			// 
 			// loginWnd
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(350, 457);
+			this->Controls->Add(this->textBoxXueHao2);
+			this->Controls->Add(this->textBoxXueHao1);
+			this->Controls->Add(this->textBoxStuName1);
+			this->Controls->Add(this->textBoxStuName2);
+			this->Controls->Add(this->textBoxclass);
 			this->Controls->Add(this->textBoxteacher);
 			this->Controls->Add(this->label8);
 			this->Controls->Add(this->textBoxlab);
 			this->Controls->Add(this->label7);
 			this->Controls->Add(this->textBoxmajor);
 			this->Controls->Add(this->label6);
-			this->Controls->Add(this->textBoxXueHao2);
 			this->Controls->Add(this->label4);
-			this->Controls->Add(this->textBoxStuName2);
 			this->Controls->Add(this->label5);
-			this->Controls->Add(this->textBoxXueHao1);
 			this->Controls->Add(this->label2);
-			this->Controls->Add(this->textBoxStuName1);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
-			this->Controls->Add(this->textBoxclass);
 			this->Controls->Add(this->label1);
 			this->Name = L"loginWnd";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
@@ -318,6 +326,14 @@ namespace 电工电路试验台 {
 		}
 #pragma endregion
 	private: System::Void loginWnd_Load(System::Object^  sender, System::EventArgs^  e) {
+		lcc.GetStudentList();
+		Sleep(1000);
+		textBoxclass->Items->Clear();
+		g_ClassListMutex.Lock();
+		for (int i = 0; i < g_ClassList.size(); i++) {
+			textBoxclass->Items->Add(gcnew String(g_ClassList[i].ClassName));
+		}
+		g_ClassListMutex.UnLock();
 	}
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 
@@ -331,6 +347,30 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 	snprintf(trialInfo.XueHao1, sizeof(trialInfo.XueHao1), "%s", textBoxXueHao1->Text);
 	snprintf(trialInfo.XueHao2, sizeof(trialInfo.XueHao2), "%s", textBoxXueHao2->Text);
 	lcc.SendComputerInfo("软件已开机");
+}
+private: System::Void textBoxclass_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+	int Index = textBoxclass->SelectedIndex;
+	if (Index >= 0) {
+		textBoxStuName1->Items->Clear();
+		textBoxStuName2->Items->Clear();
+		textBoxXueHao1->Items->Clear();
+		textBoxXueHao2->Items->Clear();
+		for (int i = 0; i < 100; i++) {
+			string Name = g_ClassList[Index].SEs[i].stuName;
+			string XueHao = g_ClassList[Index].SEs[i].XueHao;
+			if (Name.length() == 0 || XueHao.length() == 0) {
+				continue;
+			}
+			textBoxStuName1->Items->Add(gcnew String(Name.c_str()));
+			textBoxStuName2->Items->Add(gcnew String(Name.c_str()));
+			textBoxXueHao1->Items->Add(gcnew String(XueHao.c_str()));
+			textBoxXueHao2->Items->Add(gcnew String(XueHao.c_str()));
+			textBoxStuName1->SelectedIndex = 0;
+			textBoxStuName2->SelectedIndex = 0;
+			textBoxXueHao1->SelectedIndex = 0;
+			textBoxXueHao2->SelectedIndex = 0;
+		}
+	}
 }
 };
 }

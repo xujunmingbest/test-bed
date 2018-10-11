@@ -123,6 +123,8 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::PictureBox^  pictureBox1;
 	private: System::Windows::Forms::Label^  label129;
 	private: System::Windows::Forms::Button^  button102;
+private: System::Windows::Forms::Label^  label6;
+private: System::Windows::Forms::Label^  label50;
 
 	private:
 		/// <summary>
@@ -166,12 +168,16 @@ namespace 电工电路试验台 {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label129 = (gcnew System::Windows::Forms::Label());
 			this->button102 = (gcnew System::Windows::Forms::Button());
+			this->label50 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->label6);
+			this->groupBox8->Controls->Add(this->label50);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_RA_5V);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_RA_5mA);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_R1_5V);
@@ -490,6 +496,28 @@ namespace 电工电路试验台 {
 			this->button102->Text = L"成绩完成并上传";
 			this->button102->UseVisualStyleBackColor = true;
 			this->button102->Click += gcnew System::EventHandler(this, &基本电工仪表的使用与测量误差的计算实验内容::button102_Click);
+			// 
+			// label50
+			// 
+			this->label50->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label50->ForeColor = System::Drawing::Color::Lime;
+			this->label50->Location = System::Drawing::Point(55, 571);
+			this->label50->Name = L"label50";
+			this->label50->Size = System::Drawing::Size(160, 28);
+			this->label50->TabIndex = 392;
+			this->label50->Text = L"直流电流表2";
+			this->label50->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label6
+			// 
+			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label6->ForeColor = System::Drawing::Color::Lime;
+			this->label6->Location = System::Drawing::Point(55, 651);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(160, 28);
+			this->label6->TabIndex = 393;
+			this->label6->Text = L"直流电压表3";
+			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// 基本电工仪表的使用与测量误差的计算实验内容
 			// 

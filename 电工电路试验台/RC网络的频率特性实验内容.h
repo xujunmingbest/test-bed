@@ -315,6 +315,8 @@ private: System::Windows::Forms::Button^  button102;
 private: System::Windows::Forms::TextBox^  textBox结论;
 private: System::Windows::Forms::Label^  label105;
 private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
+private: System::Windows::Forms::Label^  label13;
+private: System::Windows::Forms::PictureBox^  pictureBox1;
 
 	private:
 		/// <summary>
@@ -456,12 +458,17 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->button102 = (gcnew System::Windows::Forms::Button());
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label105 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox8->SuspendLayout();
 			this->groupBox1->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->label13);
+			this->groupBox8->Controls->Add(this->pictureBox1);
 			this->groupBox8->Controls->Add(this->labelTrial1_Uo2_8);
 			this->groupBox8->Controls->Add(this->labelTrial1_Uo2_7);
 			this->groupBox8->Controls->Add(this->labelTrial1_Uo2_6);
@@ -519,9 +526,9 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->groupBox8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox8->ForeColor = System::Drawing::Color::Red;
-			this->groupBox8->Location = System::Drawing::Point(94, 90);
+			this->groupBox8->Location = System::Drawing::Point(62, 78);
 			this->groupBox8->Name = L"groupBox8";
-			this->groupBox8->Size = System::Drawing::Size(1247, 618);
+			this->groupBox8->Size = System::Drawing::Size(1247, 849);
 			this->groupBox8->TabIndex = 86;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"RC网络的频率特性 实验内容1";
@@ -1142,7 +1149,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label1->ForeColor = System::Drawing::Color::Red;
-			this->label1->Location = System::Drawing::Point(430, 14);
+			this->label1->Location = System::Drawing::Point(398, 27);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(340, 25);
 			this->label1->TabIndex = 85;
@@ -1218,7 +1225,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->groupBox1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
-			this->groupBox1->Location = System::Drawing::Point(94, 723);
+			this->groupBox1->Location = System::Drawing::Point(62, 942);
 			this->groupBox1->Name = L"groupBox1";
 			this->groupBox1->Size = System::Drawing::Size(1247, 479);
 			this->groupBox1->TabIndex = 87;
@@ -1787,7 +1794,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->label129->BackColor = System::Drawing::Color::SkyBlue;
 			this->label129->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label129->Location = System::Drawing::Point(12, 1296);
+			this->label129->Location = System::Drawing::Point(-20, 1515);
 			this->label129->Name = L"label129";
 			this->label129->Size = System::Drawing::Size(1314, 52);
 			this->label129->TabIndex = 195;
@@ -1796,7 +1803,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			// 
 			// button102
 			// 
-			this->button102->Location = System::Drawing::Point(566, 1254);
+			this->button102->Location = System::Drawing::Point(534, 1473);
 			this->button102->Name = L"button102";
 			this->button102->Size = System::Drawing::Size(195, 39);
 			this->button102->TabIndex = 194;
@@ -1808,7 +1815,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			// 
 			this->textBox结论->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBox结论->Location = System::Drawing::Point(277, 1220);
+			this->textBox结论->Location = System::Drawing::Point(245, 1439);
 			this->textBox结论->Name = L"textBox结论";
 			this->textBox结论->Size = System::Drawing::Size(1070, 28);
 			this->textBox结论->TabIndex = 197;
@@ -1818,11 +1825,32 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->label105->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label105->ForeColor = System::Drawing::Color::Black;
-			this->label105->Location = System::Drawing::Point(101, 1223);
+			this->label105->Location = System::Drawing::Point(69, 1442);
 			this->label105->Name = L"label105";
 			this->label105->Size = System::Drawing::Size(95, 25);
 			this->label105->TabIndex = 196;
 			this->label105->Text = L"实验结论";
+			// 
+			// label13
+			// 
+			this->label13->BackColor = System::Drawing::Color::Transparent;
+			this->label13->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label13->Location = System::Drawing::Point(556, 822);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(79, 27);
+			this->label13->TabIndex = 162;
+			this->label13->Text = L"图21-1";
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(370, 603);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(455, 216);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
+			this->pictureBox1->TabIndex = 161;
+			this->pictureBox1->TabStop = false;
 			// 
 			// RC网络的频率特性实验内容
 			// 
@@ -1845,6 +1873,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_τ5;
 			this->groupBox8->PerformLayout();
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -1939,52 +1968,52 @@ private: System::Void button3_Click(System::Object^  sender, System::EventArgs^ 
 	}
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_1->Text = global::GetU30Data();
+	labelTrial1_Uo1_1->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_2->Text = global::GetU30Data();
+	labelTrial1_Uo1_2->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_3->Text = global::GetU30Data();
+	labelTrial1_Uo1_3->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_4->Text = global::GetU30Data();
+	labelTrial1_Uo1_4->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_5->Text = global::GetU30Data();
+	labelTrial1_Uo1_5->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_6->Text = global::GetU30Data();
+	labelTrial1_Uo1_6->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_7->Text = global::GetU30Data();
+	labelTrial1_Uo1_7->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo1_8->Text = global::GetU30Data();
+	labelTrial1_Uo1_8->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_1->Text = global::GetU30Data();
+	labelTrial1_Uo2_1->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_2->Text = global::GetU30Data();
+	labelTrial1_Uo2_2->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_3->Text = global::GetU30Data();
+	labelTrial1_Uo2_3->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_4->Text = global::GetU30Data();
+	labelTrial1_Uo2_4->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_5->Text = global::GetU30Data();
+	labelTrial1_Uo2_5->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_6->Text = global::GetU30Data();
+	labelTrial1_Uo2_6->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_7->Text = global::GetU30Data();
+	labelTrial1_Uo2_7->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Uo2_8->Text = global::GetU30Data();
+	labelTrial1_Uo2_8->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
 	try {

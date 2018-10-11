@@ -32,6 +32,22 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  label7;
 	private: System::Windows::Forms::Label^  label8;
 	private: System::Windows::Forms::Label^  label9;
+	private: System::Windows::Forms::Label^  label22;
+	private: System::Windows::Forms::Label^  label23;
+	private: System::Windows::Forms::Label^  label24;
+	private: System::Windows::Forms::Label^  label25;
+	private: System::Windows::Forms::Label^  label20;
+	private: System::Windows::Forms::Label^  label21;
+	private: System::Windows::Forms::Label^  label18;
+	private: System::Windows::Forms::Label^  label19;
+	private: System::Windows::Forms::Label^  label14;
+	private: System::Windows::Forms::Label^  label15;
+	private: System::Windows::Forms::Label^  label16;
+	private: System::Windows::Forms::Label^  label17;
+	private: System::Windows::Forms::Label^  label11;
+	private: System::Windows::Forms::Label^  label10;
+	private: System::Windows::Forms::Label^  label12;
+	private: System::Windows::Forms::Label^  label13;
 	public:
 		bool Open = false;
 	protected:
@@ -633,22 +649,22 @@ private: System::Windows::Forms::Label^  label6;
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea6 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(元件伏安特性的测试实验内容::typeid));
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea4 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea5 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend5 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series5 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea7 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend7 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series7 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea8 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend8 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series8 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea9 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend9 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series9 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea10 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend10 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series10 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->button246 = (gcnew System::Windows::Forms::Button());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -663,6 +679,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->label64 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->groupBox14 = (gcnew System::Windows::Forms::GroupBox());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->label23 = (gcnew System::Windows::Forms::Label());
 			this->button234 = (gcnew System::Windows::Forms::Button());
 			this->button235 = (gcnew System::Windows::Forms::Button());
 			this->button236 = (gcnew System::Windows::Forms::Button());
@@ -727,6 +745,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->label69 = (gcnew System::Windows::Forms::Label());
 			this->label70 = (gcnew System::Windows::Forms::Label());
 			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
+			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->label25 = (gcnew System::Windows::Forms::Label());
 			this->button244 = (gcnew System::Windows::Forms::Button());
 			this->button214 = (gcnew System::Windows::Forms::Button());
 			this->button215 = (gcnew System::Windows::Forms::Button());
@@ -801,6 +821,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->label204 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox5 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox12 = (gcnew System::Windows::Forms::GroupBox());
+			this->label20 = (gcnew System::Windows::Forms::Label());
+			this->label21 = (gcnew System::Windows::Forms::Label());
 			this->button203 = (gcnew System::Windows::Forms::Button());
 			this->button193 = (gcnew System::Windows::Forms::Button());
 			this->button194 = (gcnew System::Windows::Forms::Button());
@@ -867,6 +889,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->label180 = (gcnew System::Windows::Forms::Label());
 			this->chart锗管 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->groupBox13 = (gcnew System::Windows::Forms::GroupBox());
+			this->label18 = (gcnew System::Windows::Forms::Label());
+			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->button163 = (gcnew System::Windows::Forms::Button());
 			this->button164 = (gcnew System::Windows::Forms::Button());
 			this->button165 = (gcnew System::Windows::Forms::Button());
@@ -932,6 +956,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->label203 = (gcnew System::Windows::Forms::Label());
 			this->textBox锗管结论 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->button102 = (gcnew System::Windows::Forms::Button());
 			this->button103 = (gcnew System::Windows::Forms::Button());
 			this->button104 = (gcnew System::Windows::Forms::Button());
@@ -1002,6 +1028,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->label52 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox3 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox4 = (gcnew System::Windows::Forms::GroupBox());
+			this->label16 = (gcnew System::Windows::Forms::Label());
+			this->label17 = (gcnew System::Windows::Forms::Label());
 			this->button152 = (gcnew System::Windows::Forms::Button());
 			this->button132 = (gcnew System::Windows::Forms::Button());
 			this->button133 = (gcnew System::Windows::Forms::Button());
@@ -1070,6 +1098,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->chart线性 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->textBox线性结论 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->button42 = (gcnew System::Windows::Forms::Button());
 			this->button43 = (gcnew System::Windows::Forms::Button());
 			this->button44 = (gcnew System::Windows::Forms::Button());
@@ -1144,6 +1174,8 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label47 = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
 			this->button245 = (gcnew System::Windows::Forms::Button());
 			this->button72 = (gcnew System::Windows::Forms::Button());
 			this->button73 = (gcnew System::Windows::Forms::Button());
@@ -1327,17 +1359,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart稳压
 			// 
-			chartArea1->Name = L"ChartArea1";
-			this->chart稳压->ChartAreas->Add(chartArea1);
-			legend1->Name = L"Legend1";
-			this->chart稳压->Legends->Add(legend1);
+			chartArea6->Name = L"ChartArea1";
+			this->chart稳压->ChartAreas->Add(chartArea6);
+			legend6->Name = L"Legend1";
+			this->chart稳压->Legends->Add(legend6);
 			this->chart稳压->Location = System::Drawing::Point(945, 3785);
 			this->chart稳压->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart稳压->Name = L"chart稳压";
-			series1->ChartArea = L"ChartArea1";
-			series1->Legend = L"Legend1";
-			series1->Name = L"Series1";
-			this->chart稳压->Series->Add(series1);
+			series6->ChartArea = L"ChartArea1";
+			series6->Legend = L"Legend1";
+			series6->Name = L"Series1";
+			this->chart稳压->Series->Add(series6);
 			this->chart稳压->Size = System::Drawing::Size(592, 542);
 			this->chart稳压->TabIndex = 109;
 			this->chart稳压->Text = L"chart5";
@@ -1437,6 +1469,8 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// groupBox14
 			// 
+			this->groupBox14->Controls->Add(this->label22);
+			this->groupBox14->Controls->Add(this->label23);
 			this->groupBox14->Controls->Add(this->button234);
 			this->groupBox14->Controls->Add(this->button235);
 			this->groupBox14->Controls->Add(this->button236);
@@ -1510,6 +1544,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox14->TabIndex = 104;
 			this->groupBox14->TabStop = false;
 			this->groupBox14->Text = L"正向特性测试";
+			// 
+			// label22
+			// 
+			this->label22->ForeColor = System::Drawing::Color::Lime;
+			this->label22->Location = System::Drawing::Point(30, 238);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(145, 22);
+			this->label22->TabIndex = 116;
+			this->label22->Text = L"直流电流表2";
+			// 
+			// label23
+			// 
+			this->label23->ForeColor = System::Drawing::Color::Lime;
+			this->label23->Location = System::Drawing::Point(28, 159);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(145, 22);
+			this->label23->TabIndex = 115;
+			this->label23->Text = L"直流电压表3";
 			// 
 			// button234
 			// 
@@ -2130,6 +2182,8 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// groupBox6
 			// 
+			this->groupBox6->Controls->Add(this->label24);
+			this->groupBox6->Controls->Add(this->label25);
 			this->groupBox6->Controls->Add(this->button244);
 			this->groupBox6->Controls->Add(this->button214);
 			this->groupBox6->Controls->Add(this->button215);
@@ -2204,6 +2258,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox6->TabIndex = 105;
 			this->groupBox6->TabStop = false;
 			this->groupBox6->Text = L"反向特性测试";
+			// 
+			// label24
+			// 
+			this->label24->ForeColor = System::Drawing::Color::Lime;
+			this->label24->Location = System::Drawing::Point(25, 237);
+			this->label24->Name = L"label24";
+			this->label24->Size = System::Drawing::Size(145, 22);
+			this->label24->TabIndex = 116;
+			this->label24->Text = L"直流电流表2";
+			// 
+			// label25
+			// 
+			this->label25->ForeColor = System::Drawing::Color::Lime;
+			this->label25->Location = System::Drawing::Point(23, 158);
+			this->label25->Name = L"label25";
+			this->label25->Size = System::Drawing::Size(145, 22);
+			this->label25->TabIndex = 115;
+			this->label25->Text = L"直流电压表3";
 			// 
 			// button244
 			// 
@@ -2847,17 +2919,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart硅管
 			// 
-			chartArea2->Name = L"ChartArea1";
-			this->chart硅管->ChartAreas->Add(chartArea2);
-			legend2->Name = L"Legend1";
-			this->chart硅管->Legends->Add(legend2);
+			chartArea7->Name = L"ChartArea1";
+			this->chart硅管->ChartAreas->Add(chartArea7);
+			legend7->Name = L"Legend1";
+			this->chart硅管->Legends->Add(legend7);
 			this->chart硅管->Location = System::Drawing::Point(907, 2832);
 			this->chart硅管->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart硅管->Name = L"chart硅管";
-			series2->ChartArea = L"ChartArea1";
-			series2->Legend = L"Legend1";
-			series2->Name = L"Series1";
-			this->chart硅管->Series->Add(series2);
+			series7->ChartArea = L"ChartArea1";
+			series7->Legend = L"Legend1";
+			series7->Name = L"Series1";
+			this->chart硅管->Series->Add(series7);
 			this->chart硅管->Size = System::Drawing::Size(615, 546);
 			this->chart硅管->TabIndex = 99;
 			this->chart硅管->Text = L"chart4";
@@ -2943,6 +3015,8 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// groupBox12
 			// 
+			this->groupBox12->Controls->Add(this->label20);
+			this->groupBox12->Controls->Add(this->label21);
 			this->groupBox12->Controls->Add(this->button203);
 			this->groupBox12->Controls->Add(this->button193);
 			this->groupBox12->Controls->Add(this->button194);
@@ -3017,6 +3091,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox12->TabIndex = 96;
 			this->groupBox12->TabStop = false;
 			this->groupBox12->Text = L"反向特性测试";
+			// 
+			// label20
+			// 
+			this->label20->ForeColor = System::Drawing::Color::Lime;
+			this->label20->Location = System::Drawing::Point(17, 224);
+			this->label20->Name = L"label20";
+			this->label20->Size = System::Drawing::Size(145, 22);
+			this->label20->TabIndex = 116;
+			this->label20->Text = L"直流电流表2";
+			// 
+			// label21
+			// 
+			this->label21->ForeColor = System::Drawing::Color::Lime;
+			this->label21->Location = System::Drawing::Point(15, 145);
+			this->label21->Name = L"label21";
+			this->label21->Size = System::Drawing::Size(145, 22);
+			this->label21->TabIndex = 115;
+			this->label21->Text = L"直流电压表3";
 			// 
 			// button203
 			// 
@@ -3648,23 +3740,25 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart锗管
 			// 
-			chartArea3->Name = L"ChartArea1";
-			this->chart锗管->ChartAreas->Add(chartArea3);
-			legend3->Name = L"Legend1";
-			this->chart锗管->Legends->Add(legend3);
+			chartArea8->Name = L"ChartArea1";
+			this->chart锗管->ChartAreas->Add(chartArea8);
+			legend8->Name = L"Legend1";
+			this->chart锗管->Legends->Add(legend8);
 			this->chart锗管->Location = System::Drawing::Point(965, 1908);
 			this->chart锗管->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart锗管->Name = L"chart锗管";
-			series3->ChartArea = L"ChartArea1";
-			series3->Legend = L"Legend1";
-			series3->Name = L"Series1";
-			this->chart锗管->Series->Add(series3);
+			series8->ChartArea = L"ChartArea1";
+			series8->Legend = L"Legend1";
+			series8->Name = L"Series1";
+			this->chart锗管->Series->Add(series8);
 			this->chart锗管->Size = System::Drawing::Size(547, 522);
 			this->chart锗管->TabIndex = 91;
 			this->chart锗管->Text = L"chart3";
 			// 
 			// groupBox13
 			// 
+			this->groupBox13->Controls->Add(this->label18);
+			this->groupBox13->Controls->Add(this->label19);
 			this->groupBox13->Controls->Add(this->button163);
 			this->groupBox13->Controls->Add(this->button164);
 			this->groupBox13->Controls->Add(this->button165);
@@ -3738,6 +3832,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox13->TabIndex = 95;
 			this->groupBox13->TabStop = false;
 			this->groupBox13->Text = L"正向特性测试";
+			// 
+			// label18
+			// 
+			this->label18->ForeColor = System::Drawing::Color::Lime;
+			this->label18->Location = System::Drawing::Point(25, 235);
+			this->label18->Name = L"label18";
+			this->label18->Size = System::Drawing::Size(145, 22);
+			this->label18->TabIndex = 116;
+			this->label18->Text = L"直流电流表2";
+			// 
+			// label19
+			// 
+			this->label19->ForeColor = System::Drawing::Color::Lime;
+			this->label19->Location = System::Drawing::Point(23, 156);
+			this->label19->Name = L"label19";
+			this->label19->Size = System::Drawing::Size(145, 22);
+			this->label19->TabIndex = 115;
+			this->label19->Text = L"直流电压表3";
 			// 
 			// button163
 			// 
@@ -4368,6 +4480,8 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// groupBox5
 			// 
+			this->groupBox5->Controls->Add(this->label14);
+			this->groupBox5->Controls->Add(this->label15);
 			this->groupBox5->Controls->Add(this->button102);
 			this->groupBox5->Controls->Add(this->button103);
 			this->groupBox5->Controls->Add(this->button104);
@@ -4441,6 +4555,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox5->TabIndex = 87;
 			this->groupBox5->TabStop = false;
 			this->groupBox5->Text = L"正向特性测试";
+			// 
+			// label14
+			// 
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(17, 237);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(145, 22);
+			this->label14->TabIndex = 116;
+			this->label14->Text = L"直流电流表2";
+			// 
+			// label15
+			// 
+			this->label15->ForeColor = System::Drawing::Color::Lime;
+			this->label15->Location = System::Drawing::Point(15, 158);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(145, 22);
+			this->label15->TabIndex = 115;
+			this->label15->Text = L"直流电压表3";
 			// 
 			// button102
 			// 
@@ -4852,6 +4984,7 @@ private: System::Windows::Forms::Label^  label6;
 			this->button81->TabIndex = 27;
 			this->button81->Text = L"设置";
 			this->button81->UseVisualStyleBackColor = true;
+			this->button81->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button81_Click_1);
 			// 
 			// textBox锗管ZSU10
 			// 
@@ -4870,6 +5003,7 @@ private: System::Windows::Forms::Label^  label6;
 			this->button82->TabIndex = 25;
 			this->button82->Text = L"设置";
 			this->button82->UseVisualStyleBackColor = true;
+			this->button82->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button82_Click_1);
 			// 
 			// textBox锗管ZSU9
 			// 
@@ -5133,6 +5267,8 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// groupBox4
 			// 
+			this->groupBox4->Controls->Add(this->label16);
+			this->groupBox4->Controls->Add(this->label17);
 			this->groupBox4->Controls->Add(this->button152);
 			this->groupBox4->Controls->Add(this->button132);
 			this->groupBox4->Controls->Add(this->button133);
@@ -5208,6 +5344,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox4->TabStop = false;
 			this->groupBox4->Text = L"反向特性测试";
 			// 
+			// label16
+			// 
+			this->label16->ForeColor = System::Drawing::Color::Lime;
+			this->label16->Location = System::Drawing::Point(17, 222);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(145, 22);
+			this->label16->TabIndex = 116;
+			this->label16->Text = L"直流电流表2";
+			// 
+			// label17
+			// 
+			this->label17->ForeColor = System::Drawing::Color::Lime;
+			this->label17->Location = System::Drawing::Point(15, 143);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(145, 22);
+			this->label17->TabIndex = 115;
+			this->label17->Text = L"直流电压表3";
+			// 
 			// button152
 			// 
 			this->button152->Location = System::Drawing::Point(760, 241);
@@ -5272,6 +5426,7 @@ private: System::Windows::Forms::Label^  label6;
 			this->button136->TabIndex = 84;
 			this->button136->Text = L"获取";
 			this->button136->UseVisualStyleBackColor = true;
+			this->button136->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button136_Click_1);
 			// 
 			// button137
 			// 
@@ -5845,17 +6000,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart线性
 			// 
-			chartArea4->Name = L"ChartArea1";
-			this->chart线性->ChartAreas->Add(chartArea4);
-			legend4->Name = L"Legend1";
-			this->chart线性->Legends->Add(legend4);
+			chartArea9->Name = L"ChartArea1";
+			this->chart线性->ChartAreas->Add(chartArea9);
+			legend9->Name = L"Legend1";
+			this->chart线性->Legends->Add(legend9);
 			this->chart线性->Location = System::Drawing::Point(939, 349);
 			this->chart线性->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart线性->Name = L"chart线性";
-			series4->ChartArea = L"ChartArea1";
-			series4->Legend = L"Legend1";
-			series4->Name = L"Series1";
-			this->chart线性->Series->Add(series4);
+			series9->ChartArea = L"ChartArea1";
+			series9->Legend = L"Legend1";
+			series9->Name = L"Series1";
+			this->chart线性->Series->Add(series9);
 			this->chart线性->Size = System::Drawing::Size(560, 360);
 			this->chart线性->TabIndex = 82;
 			this->chart线性->Text = L"chart1";
@@ -5870,6 +6025,8 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->label11);
+			this->groupBox2->Controls->Add(this->label10);
 			this->groupBox2->Controls->Add(this->button42);
 			this->groupBox2->Controls->Add(this->button43);
 			this->groupBox2->Controls->Add(this->button44);
@@ -5944,6 +6101,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox2->TabIndex = 80;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"测量数据";
+			// 
+			// label11
+			// 
+			this->label11->ForeColor = System::Drawing::Color::Lime;
+			this->label11->Location = System::Drawing::Point(15, 229);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(145, 22);
+			this->label11->TabIndex = 114;
+			this->label11->Text = L"直流电流表2";
+			// 
+			// label10
+			// 
+			this->label10->ForeColor = System::Drawing::Color::Lime;
+			this->label10->Location = System::Drawing::Point(13, 150);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(145, 22);
+			this->label10->TabIndex = 113;
+			this->label10->Text = L"直流电压表3";
 			// 
 			// button42
 			// 
@@ -6395,6 +6570,7 @@ private: System::Windows::Forms::Label^  label6;
 			this->label线性I1->Size = System::Drawing::Size(61, 22);
 			this->label线性I1->TabIndex = 28;
 			this->label线性I1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->label线性I1->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::label线性I1_Click);
 			// 
 			// button10
 			// 
@@ -6703,17 +6879,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart白炽
 			// 
-			chartArea5->Name = L"ChartArea1";
-			this->chart白炽->ChartAreas->Add(chartArea5);
-			legend5->Name = L"Legend1";
-			this->chart白炽->Legends->Add(legend5);
+			chartArea10->Name = L"ChartArea1";
+			this->chart白炽->ChartAreas->Add(chartArea10);
+			legend10->Name = L"Legend1";
+			this->chart白炽->Legends->Add(legend10);
 			this->chart白炽->Location = System::Drawing::Point(961, 1125);
 			this->chart白炽->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart白炽->Name = L"chart白炽";
-			series5->ChartArea = L"ChartArea1";
-			series5->Legend = L"Legend1";
-			series5->Name = L"Series1";
-			this->chart白炽->Series->Add(series5);
+			series10->ChartArea = L"ChartArea1";
+			series10->Legend = L"Legend1";
+			series10->Name = L"Series1";
+			this->chart白炽->Series->Add(series10);
 			this->chart白炽->Size = System::Drawing::Size(564, 360);
 			this->chart白炽->TabIndex = 74;
 			this->chart白炽->Text = L"chart2";
@@ -6741,6 +6917,8 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->label12);
+			this->groupBox3->Controls->Add(this->label13);
 			this->groupBox3->Controls->Add(this->button245);
 			this->groupBox3->Controls->Add(this->button72);
 			this->groupBox3->Controls->Add(this->button73);
@@ -6815,6 +6993,24 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox3->TabIndex = 71;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"测量数据";
+			// 
+			// label12
+			// 
+			this->label12->ForeColor = System::Drawing::Color::Lime;
+			this->label12->Location = System::Drawing::Point(19, 245);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(145, 22);
+			this->label12->TabIndex = 116;
+			this->label12->Text = L"直流电流表2";
+			// 
+			// label13
+			// 
+			this->label13->ForeColor = System::Drawing::Color::Lime;
+			this->label13->Location = System::Drawing::Point(17, 166);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(145, 22);
+			this->label13->TabIndex = 115;
+			this->label13->Text = L"直流电压表3";
 			// 
 			// button245
 			// 
@@ -7544,7 +7740,6 @@ private: System::Windows::Forms::Label^  label6;
 #pragma endregion
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 		SetDVNum(textBoxSU1->Text,0,30);
-		s_线性电阻器::SU1 = textBoxSU1->Text;
 	}
 
 
@@ -8631,6 +8826,17 @@ private: System::Void button246_Click(System::Object^  sender, System::EventArgs
 
 }
 private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label线性I1_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button136_Click_1(System::Object^  sender, System::EventArgs^  e) {
+	label锗管FI6->Text = GetIData();
+}
+private: System::Void button81_Click_1(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(textBox锗管ZSU10->Text, 0, 30);
+}
+private: System::Void button82_Click_1(System::Object^  sender, System::EventArgs^  e) {
+	SetDVNum(textBox锗管ZSU9->Text, 0, 30);
 }
 };
 }

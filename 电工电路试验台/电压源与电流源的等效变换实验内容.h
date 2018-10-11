@@ -327,6 +327,11 @@ private: System::Windows::Forms::Button^  button51;
 private: System::Windows::Forms::TextBox^  textBoxTrial11UP1;
 private: System::Windows::Forms::TextBox^  textBoxTrial2Is;
 private: System::Windows::Forms::Label^  label10;
+private: System::Windows::Forms::Label^  label13;
+private: System::Windows::Forms::Label^  label14;
+private: System::Windows::Forms::Label^  label11;
+private: System::Windows::Forms::Label^  label12;
+private: System::Windows::Forms::Label^  label15;
 
 
 
@@ -481,6 +486,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U9 = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->textBoxTrial2Is = (gcnew System::Windows::Forms::TextBox());
 			this->label43 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
@@ -521,7 +527,11 @@ private: System::Windows::Forms::Label^  label10;
 			this->label105 = (gcnew System::Windows::Forms::Label());
 			this->label106 = (gcnew System::Windows::Forms::Label());
 			this->button81 = (gcnew System::Windows::Forms::Button());
-			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox3->SuspendLayout();
@@ -530,6 +540,10 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->label13);
+			this->groupBox2->Controls->Add(this->label14);
+			this->groupBox2->Controls->Add(this->label11);
+			this->groupBox2->Controls->Add(this->label12);
 			this->groupBox2->Controls->Add(this->button52);
 			this->groupBox2->Controls->Add(this->textBoxTrial11UP2);
 			this->groupBox2->Controls->Add(this->button51);
@@ -710,7 +724,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load10->Location = System::Drawing::Point(1021, 878);
+			this->textBoxTrial12Load10->Location = System::Drawing::Point(1075, 878);
 			this->textBoxTrial12Load10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load10->Name = L"textBoxTrial12Load10";
 			this->textBoxTrial12Load10->Size = System::Drawing::Size(93, 30);
@@ -720,7 +734,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load9->Location = System::Drawing::Point(919, 878);
+			this->textBoxTrial12Load9->Location = System::Drawing::Point(973, 878);
 			this->textBoxTrial12Load9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load9->Name = L"textBoxTrial12Load9";
 			this->textBoxTrial12Load9->Size = System::Drawing::Size(93, 30);
@@ -730,7 +744,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load8->Location = System::Drawing::Point(812, 878);
+			this->textBoxTrial12Load8->Location = System::Drawing::Point(866, 878);
 			this->textBoxTrial12Load8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load8->Name = L"textBoxTrial12Load8";
 			this->textBoxTrial12Load8->Size = System::Drawing::Size(93, 30);
@@ -740,7 +754,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load7->Location = System::Drawing::Point(713, 878);
+			this->textBoxTrial12Load7->Location = System::Drawing::Point(767, 878);
 			this->textBoxTrial12Load7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load7->Name = L"textBoxTrial12Load7";
 			this->textBoxTrial12Load7->Size = System::Drawing::Size(93, 30);
@@ -750,7 +764,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load6->Location = System::Drawing::Point(611, 878);
+			this->textBoxTrial12Load6->Location = System::Drawing::Point(665, 878);
 			this->textBoxTrial12Load6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load6->Name = L"textBoxTrial12Load6";
 			this->textBoxTrial12Load6->Size = System::Drawing::Size(93, 30);
@@ -760,7 +774,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load5->Location = System::Drawing::Point(512, 878);
+			this->textBoxTrial12Load5->Location = System::Drawing::Point(566, 878);
 			this->textBoxTrial12Load5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load5->Name = L"textBoxTrial12Load5";
 			this->textBoxTrial12Load5->Size = System::Drawing::Size(93, 30);
@@ -770,7 +784,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load4->Location = System::Drawing::Point(413, 878);
+			this->textBoxTrial12Load4->Location = System::Drawing::Point(467, 878);
 			this->textBoxTrial12Load4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load4->Name = L"textBoxTrial12Load4";
 			this->textBoxTrial12Load4->Size = System::Drawing::Size(93, 30);
@@ -780,7 +794,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load3->Location = System::Drawing::Point(315, 878);
+			this->textBoxTrial12Load3->Location = System::Drawing::Point(369, 878);
 			this->textBoxTrial12Load3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load3->Name = L"textBoxTrial12Load3";
 			this->textBoxTrial12Load3->Size = System::Drawing::Size(93, 30);
@@ -790,7 +804,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load2->Location = System::Drawing::Point(216, 878);
+			this->textBoxTrial12Load2->Location = System::Drawing::Point(270, 878);
 			this->textBoxTrial12Load2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load2->Name = L"textBoxTrial12Load2";
 			this->textBoxTrial12Load2->Size = System::Drawing::Size(93, 30);
@@ -811,7 +825,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial12Load1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial12Load1->Location = System::Drawing::Point(115, 878);
+			this->textBoxTrial12Load1->Location = System::Drawing::Point(169, 878);
 			this->textBoxTrial12Load1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial12Load1->Name = L"textBoxTrial12Load1";
 			this->textBoxTrial12Load1->Size = System::Drawing::Size(93, 30);
@@ -844,7 +858,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button1->ForeColor = System::Drawing::Color::Black;
-			this->button1->Location = System::Drawing::Point(1021, 1092);
+			this->button1->Location = System::Drawing::Point(1075, 1092);
 			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(93, 42);
@@ -858,7 +872,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button2->ForeColor = System::Drawing::Color::Black;
-			this->button2->Location = System::Drawing::Point(919, 1092);
+			this->button2->Location = System::Drawing::Point(973, 1092);
 			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(93, 42);
@@ -872,7 +886,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button3->ForeColor = System::Drawing::Color::Black;
-			this->button3->Location = System::Drawing::Point(815, 1092);
+			this->button3->Location = System::Drawing::Point(869, 1092);
 			this->button3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(93, 42);
@@ -886,7 +900,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button4->ForeColor = System::Drawing::Color::Black;
-			this->button4->Location = System::Drawing::Point(713, 1092);
+			this->button4->Location = System::Drawing::Point(767, 1092);
 			this->button4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(93, 42);
@@ -900,7 +914,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button5->ForeColor = System::Drawing::Color::Black;
-			this->button5->Location = System::Drawing::Point(611, 1092);
+			this->button5->Location = System::Drawing::Point(665, 1092);
 			this->button5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(93, 42);
@@ -914,7 +928,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button6->ForeColor = System::Drawing::Color::Black;
-			this->button6->Location = System::Drawing::Point(512, 1092);
+			this->button6->Location = System::Drawing::Point(566, 1092);
 			this->button6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(93, 42);
@@ -928,7 +942,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button7->ForeColor = System::Drawing::Color::Black;
-			this->button7->Location = System::Drawing::Point(417, 1092);
+			this->button7->Location = System::Drawing::Point(471, 1092);
 			this->button7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(93, 42);
@@ -942,7 +956,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button8->ForeColor = System::Drawing::Color::Black;
-			this->button8->Location = System::Drawing::Point(315, 1092);
+			this->button8->Location = System::Drawing::Point(369, 1092);
 			this->button8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(93, 42);
@@ -956,7 +970,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button9->ForeColor = System::Drawing::Color::Black;
-			this->button9->Location = System::Drawing::Point(216, 1092);
+			this->button9->Location = System::Drawing::Point(270, 1092);
 			this->button9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(93, 42);
@@ -970,7 +984,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button10->ForeColor = System::Drawing::Color::Black;
-			this->button10->Location = System::Drawing::Point(112, 1092);
+			this->button10->Location = System::Drawing::Point(166, 1092);
 			this->button10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(93, 42);
@@ -984,7 +998,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button31->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button31->ForeColor = System::Drawing::Color::Black;
-			this->button31->Location = System::Drawing::Point(1021, 974);
+			this->button31->Location = System::Drawing::Point(1075, 974);
 			this->button31->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button31->Name = L"button31";
 			this->button31->Size = System::Drawing::Size(93, 42);
@@ -998,7 +1012,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button32->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button32->ForeColor = System::Drawing::Color::Black;
-			this->button32->Location = System::Drawing::Point(919, 974);
+			this->button32->Location = System::Drawing::Point(973, 974);
 			this->button32->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button32->Name = L"button32";
 			this->button32->Size = System::Drawing::Size(93, 42);
@@ -1012,7 +1026,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button33->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button33->ForeColor = System::Drawing::Color::Black;
-			this->button33->Location = System::Drawing::Point(815, 974);
+			this->button33->Location = System::Drawing::Point(869, 974);
 			this->button33->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button33->Name = L"button33";
 			this->button33->Size = System::Drawing::Size(93, 42);
@@ -1026,7 +1040,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button34->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button34->ForeColor = System::Drawing::Color::Black;
-			this->button34->Location = System::Drawing::Point(713, 974);
+			this->button34->Location = System::Drawing::Point(767, 974);
 			this->button34->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button34->Name = L"button34";
 			this->button34->Size = System::Drawing::Size(93, 42);
@@ -1040,7 +1054,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button35->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button35->ForeColor = System::Drawing::Color::Black;
-			this->button35->Location = System::Drawing::Point(611, 974);
+			this->button35->Location = System::Drawing::Point(665, 974);
 			this->button35->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button35->Name = L"button35";
 			this->button35->Size = System::Drawing::Size(93, 42);
@@ -1054,7 +1068,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button36->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button36->ForeColor = System::Drawing::Color::Black;
-			this->button36->Location = System::Drawing::Point(512, 974);
+			this->button36->Location = System::Drawing::Point(566, 974);
 			this->button36->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button36->Name = L"button36";
 			this->button36->Size = System::Drawing::Size(93, 42);
@@ -1068,7 +1082,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button37->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button37->ForeColor = System::Drawing::Color::Black;
-			this->button37->Location = System::Drawing::Point(417, 974);
+			this->button37->Location = System::Drawing::Point(471, 974);
 			this->button37->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button37->Name = L"button37";
 			this->button37->Size = System::Drawing::Size(93, 42);
@@ -1082,7 +1096,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button38->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button38->ForeColor = System::Drawing::Color::Black;
-			this->button38->Location = System::Drawing::Point(315, 974);
+			this->button38->Location = System::Drawing::Point(369, 974);
 			this->button38->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button38->Name = L"button38";
 			this->button38->Size = System::Drawing::Size(93, 42);
@@ -1096,7 +1110,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button39->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button39->ForeColor = System::Drawing::Color::Black;
-			this->button39->Location = System::Drawing::Point(216, 974);
+			this->button39->Location = System::Drawing::Point(270, 974);
 			this->button39->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button39->Name = L"button39";
 			this->button39->Size = System::Drawing::Size(93, 42);
@@ -1110,7 +1124,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button40->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button40->ForeColor = System::Drawing::Color::Black;
-			this->button40->Location = System::Drawing::Point(112, 974);
+			this->button40->Location = System::Drawing::Point(166, 974);
 			this->button40->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button40->Name = L"button40";
 			this->button40->Size = System::Drawing::Size(93, 42);
@@ -1125,7 +1139,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I8->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I8->Location = System::Drawing::Point(815, 1038);
+			this->labelTrial12I8->Location = System::Drawing::Point(869, 1038);
 			this->labelTrial12I8->Name = L"labelTrial12I8";
 			this->labelTrial12I8->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I8->TabIndex = 239;
@@ -1137,7 +1151,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I7->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I7->Location = System::Drawing::Point(713, 1038);
+			this->labelTrial12I7->Location = System::Drawing::Point(767, 1038);
 			this->labelTrial12I7->Name = L"labelTrial12I7";
 			this->labelTrial12I7->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I7->TabIndex = 238;
@@ -1149,7 +1163,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I6->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I6->Location = System::Drawing::Point(611, 1038);
+			this->labelTrial12I6->Location = System::Drawing::Point(665, 1038);
 			this->labelTrial12I6->Name = L"labelTrial12I6";
 			this->labelTrial12I6->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I6->TabIndex = 237;
@@ -1161,7 +1175,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I5->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I5->Location = System::Drawing::Point(512, 1038);
+			this->labelTrial12I5->Location = System::Drawing::Point(566, 1038);
 			this->labelTrial12I5->Name = L"labelTrial12I5";
 			this->labelTrial12I5->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I5->TabIndex = 236;
@@ -1173,7 +1187,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I4->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I4->Location = System::Drawing::Point(417, 1038);
+			this->labelTrial12I4->Location = System::Drawing::Point(471, 1038);
 			this->labelTrial12I4->Name = L"labelTrial12I4";
 			this->labelTrial12I4->Size = System::Drawing::Size(89, 42);
 			this->labelTrial12I4->TabIndex = 235;
@@ -1185,7 +1199,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I3->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I3->Location = System::Drawing::Point(315, 1038);
+			this->labelTrial12I3->Location = System::Drawing::Point(369, 1038);
 			this->labelTrial12I3->Name = L"labelTrial12I3";
 			this->labelTrial12I3->Size = System::Drawing::Size(92, 42);
 			this->labelTrial12I3->TabIndex = 234;
@@ -1197,7 +1211,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I2->Location = System::Drawing::Point(216, 1038);
+			this->labelTrial12I2->Location = System::Drawing::Point(270, 1038);
 			this->labelTrial12I2->Name = L"labelTrial12I2";
 			this->labelTrial12I2->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I2->TabIndex = 233;
@@ -1209,7 +1223,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I1->Location = System::Drawing::Point(115, 1038);
+			this->labelTrial12I1->Location = System::Drawing::Point(169, 1038);
 			this->labelTrial12I1->Name = L"labelTrial12I1";
 			this->labelTrial12I1->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I1->TabIndex = 232;
@@ -1221,7 +1235,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I10->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I10->Location = System::Drawing::Point(1021, 1038);
+			this->labelTrial12I10->Location = System::Drawing::Point(1075, 1038);
 			this->labelTrial12I10->Name = L"labelTrial12I10";
 			this->labelTrial12I10->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I10->TabIndex = 231;
@@ -1233,7 +1247,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12I9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12I9->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12I9->Location = System::Drawing::Point(919, 1038);
+			this->labelTrial12I9->Location = System::Drawing::Point(973, 1038);
 			this->labelTrial12I9->Name = L"labelTrial12I9";
 			this->labelTrial12I9->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12I9->TabIndex = 230;
@@ -1245,7 +1259,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U8->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U8->Location = System::Drawing::Point(815, 928);
+			this->labelTrial12U8->Location = System::Drawing::Point(869, 928);
 			this->labelTrial12U8->Name = L"labelTrial12U8";
 			this->labelTrial12U8->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U8->TabIndex = 229;
@@ -1257,7 +1271,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U7->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U7->Location = System::Drawing::Point(713, 928);
+			this->labelTrial12U7->Location = System::Drawing::Point(767, 928);
 			this->labelTrial12U7->Name = L"labelTrial12U7";
 			this->labelTrial12U7->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U7->TabIndex = 228;
@@ -1269,7 +1283,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U6->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U6->Location = System::Drawing::Point(611, 928);
+			this->labelTrial12U6->Location = System::Drawing::Point(665, 928);
 			this->labelTrial12U6->Name = L"labelTrial12U6";
 			this->labelTrial12U6->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U6->TabIndex = 227;
@@ -1281,7 +1295,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U5->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U5->Location = System::Drawing::Point(512, 928);
+			this->labelTrial12U5->Location = System::Drawing::Point(566, 928);
 			this->labelTrial12U5->Name = L"labelTrial12U5";
 			this->labelTrial12U5->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U5->TabIndex = 226;
@@ -1293,7 +1307,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U4->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U4->Location = System::Drawing::Point(417, 928);
+			this->labelTrial12U4->Location = System::Drawing::Point(471, 928);
 			this->labelTrial12U4->Name = L"labelTrial12U4";
 			this->labelTrial12U4->Size = System::Drawing::Size(89, 42);
 			this->labelTrial12U4->TabIndex = 225;
@@ -1305,7 +1319,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U3->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U3->Location = System::Drawing::Point(315, 928);
+			this->labelTrial12U3->Location = System::Drawing::Point(369, 928);
 			this->labelTrial12U3->Name = L"labelTrial12U3";
 			this->labelTrial12U3->Size = System::Drawing::Size(92, 42);
 			this->labelTrial12U3->TabIndex = 224;
@@ -1317,7 +1331,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U2->Location = System::Drawing::Point(216, 928);
+			this->labelTrial12U2->Location = System::Drawing::Point(270, 928);
 			this->labelTrial12U2->Name = L"labelTrial12U2";
 			this->labelTrial12U2->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U2->TabIndex = 223;
@@ -1329,7 +1343,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U1->Location = System::Drawing::Point(115, 928);
+			this->labelTrial12U1->Location = System::Drawing::Point(169, 928);
 			this->labelTrial12U1->Name = L"labelTrial12U1";
 			this->labelTrial12U1->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U1->TabIndex = 222;
@@ -1341,7 +1355,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U10->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U10->Location = System::Drawing::Point(1021, 928);
+			this->labelTrial12U10->Location = System::Drawing::Point(1075, 928);
 			this->labelTrial12U10->Name = L"labelTrial12U10";
 			this->labelTrial12U10->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U10->TabIndex = 221;
@@ -1353,7 +1367,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial12U9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial12U9->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial12U9->Location = System::Drawing::Point(919, 928);
+			this->labelTrial12U9->Location = System::Drawing::Point(973, 928);
 			this->labelTrial12U9->Name = L"labelTrial12U9";
 			this->labelTrial12U9->Size = System::Drawing::Size(93, 42);
 			this->labelTrial12U9->TabIndex = 220;
@@ -1374,7 +1388,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load10->Location = System::Drawing::Point(1021, 552);
+			this->textBoxTrial11Load10->Location = System::Drawing::Point(1075, 553);
 			this->textBoxTrial11Load10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load10->Name = L"textBoxTrial11Load10";
 			this->textBoxTrial11Load10->Size = System::Drawing::Size(93, 30);
@@ -1384,7 +1398,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load9->Location = System::Drawing::Point(919, 552);
+			this->textBoxTrial11Load9->Location = System::Drawing::Point(973, 553);
 			this->textBoxTrial11Load9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load9->Name = L"textBoxTrial11Load9";
 			this->textBoxTrial11Load9->Size = System::Drawing::Size(93, 30);
@@ -1394,7 +1408,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load8->Location = System::Drawing::Point(812, 552);
+			this->textBoxTrial11Load8->Location = System::Drawing::Point(866, 553);
 			this->textBoxTrial11Load8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load8->Name = L"textBoxTrial11Load8";
 			this->textBoxTrial11Load8->Size = System::Drawing::Size(93, 30);
@@ -1404,7 +1418,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load7->Location = System::Drawing::Point(713, 552);
+			this->textBoxTrial11Load7->Location = System::Drawing::Point(767, 553);
 			this->textBoxTrial11Load7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load7->Name = L"textBoxTrial11Load7";
 			this->textBoxTrial11Load7->Size = System::Drawing::Size(93, 30);
@@ -1414,7 +1428,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load6->Location = System::Drawing::Point(611, 552);
+			this->textBoxTrial11Load6->Location = System::Drawing::Point(665, 553);
 			this->textBoxTrial11Load6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load6->Name = L"textBoxTrial11Load6";
 			this->textBoxTrial11Load6->Size = System::Drawing::Size(93, 30);
@@ -1424,7 +1438,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load5->Location = System::Drawing::Point(512, 552);
+			this->textBoxTrial11Load5->Location = System::Drawing::Point(566, 553);
 			this->textBoxTrial11Load5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load5->Name = L"textBoxTrial11Load5";
 			this->textBoxTrial11Load5->Size = System::Drawing::Size(93, 30);
@@ -1434,7 +1448,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load4->Location = System::Drawing::Point(413, 552);
+			this->textBoxTrial11Load4->Location = System::Drawing::Point(467, 553);
 			this->textBoxTrial11Load4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load4->Name = L"textBoxTrial11Load4";
 			this->textBoxTrial11Load4->Size = System::Drawing::Size(93, 30);
@@ -1444,7 +1458,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load3->Location = System::Drawing::Point(315, 552);
+			this->textBoxTrial11Load3->Location = System::Drawing::Point(369, 553);
 			this->textBoxTrial11Load3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load3->Name = L"textBoxTrial11Load3";
 			this->textBoxTrial11Load3->Size = System::Drawing::Size(93, 30);
@@ -1454,7 +1468,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load2->Location = System::Drawing::Point(216, 552);
+			this->textBoxTrial11Load2->Location = System::Drawing::Point(270, 553);
 			this->textBoxTrial11Load2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load2->Name = L"textBoxTrial11Load2";
 			this->textBoxTrial11Load2->Size = System::Drawing::Size(93, 30);
@@ -1475,7 +1489,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial11Load1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial11Load1->Location = System::Drawing::Point(115, 552);
+			this->textBoxTrial11Load1->Location = System::Drawing::Point(169, 553);
 			this->textBoxTrial11Load1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial11Load1->Name = L"textBoxTrial11Load1";
 			this->textBoxTrial11Load1->Size = System::Drawing::Size(93, 30);
@@ -1542,7 +1556,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button21->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button21->ForeColor = System::Drawing::Color::Black;
-			this->button21->Location = System::Drawing::Point(1021, 766);
+			this->button21->Location = System::Drawing::Point(1075, 767);
 			this->button21->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(93, 42);
@@ -1556,7 +1570,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button22->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button22->ForeColor = System::Drawing::Color::Black;
-			this->button22->Location = System::Drawing::Point(919, 766);
+			this->button22->Location = System::Drawing::Point(973, 767);
 			this->button22->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(93, 42);
@@ -1570,7 +1584,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button23->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button23->ForeColor = System::Drawing::Color::Black;
-			this->button23->Location = System::Drawing::Point(815, 766);
+			this->button23->Location = System::Drawing::Point(869, 767);
 			this->button23->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button23->Name = L"button23";
 			this->button23->Size = System::Drawing::Size(93, 42);
@@ -1584,7 +1598,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button24->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button24->ForeColor = System::Drawing::Color::Black;
-			this->button24->Location = System::Drawing::Point(713, 766);
+			this->button24->Location = System::Drawing::Point(767, 767);
 			this->button24->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button24->Name = L"button24";
 			this->button24->Size = System::Drawing::Size(93, 42);
@@ -1598,7 +1612,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button25->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button25->ForeColor = System::Drawing::Color::Black;
-			this->button25->Location = System::Drawing::Point(611, 766);
+			this->button25->Location = System::Drawing::Point(665, 767);
 			this->button25->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button25->Name = L"button25";
 			this->button25->Size = System::Drawing::Size(93, 42);
@@ -1612,7 +1626,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button26->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button26->ForeColor = System::Drawing::Color::Black;
-			this->button26->Location = System::Drawing::Point(512, 766);
+			this->button26->Location = System::Drawing::Point(566, 767);
 			this->button26->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button26->Name = L"button26";
 			this->button26->Size = System::Drawing::Size(93, 42);
@@ -1626,7 +1640,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button27->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button27->ForeColor = System::Drawing::Color::Black;
-			this->button27->Location = System::Drawing::Point(417, 766);
+			this->button27->Location = System::Drawing::Point(471, 767);
 			this->button27->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button27->Name = L"button27";
 			this->button27->Size = System::Drawing::Size(93, 42);
@@ -1640,7 +1654,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button28->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button28->ForeColor = System::Drawing::Color::Black;
-			this->button28->Location = System::Drawing::Point(315, 766);
+			this->button28->Location = System::Drawing::Point(369, 767);
 			this->button28->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button28->Name = L"button28";
 			this->button28->Size = System::Drawing::Size(93, 42);
@@ -1654,7 +1668,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button29->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button29->ForeColor = System::Drawing::Color::Black;
-			this->button29->Location = System::Drawing::Point(216, 766);
+			this->button29->Location = System::Drawing::Point(270, 767);
 			this->button29->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button29->Name = L"button29";
 			this->button29->Size = System::Drawing::Size(93, 42);
@@ -1668,7 +1682,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button30->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button30->ForeColor = System::Drawing::Color::Black;
-			this->button30->Location = System::Drawing::Point(112, 766);
+			this->button30->Location = System::Drawing::Point(166, 767);
 			this->button30->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button30->Name = L"button30";
 			this->button30->Size = System::Drawing::Size(93, 42);
@@ -1682,7 +1696,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button11->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button11->ForeColor = System::Drawing::Color::Black;
-			this->button11->Location = System::Drawing::Point(1021, 648);
+			this->button11->Location = System::Drawing::Point(1075, 649);
 			this->button11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(93, 42);
@@ -1696,7 +1710,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button12->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button12->ForeColor = System::Drawing::Color::Black;
-			this->button12->Location = System::Drawing::Point(919, 648);
+			this->button12->Location = System::Drawing::Point(973, 649);
 			this->button12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(93, 42);
@@ -1710,7 +1724,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button13->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button13->ForeColor = System::Drawing::Color::Black;
-			this->button13->Location = System::Drawing::Point(815, 648);
+			this->button13->Location = System::Drawing::Point(869, 649);
 			this->button13->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(93, 42);
@@ -1724,7 +1738,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button14->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button14->ForeColor = System::Drawing::Color::Black;
-			this->button14->Location = System::Drawing::Point(713, 648);
+			this->button14->Location = System::Drawing::Point(767, 649);
 			this->button14->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button14->Name = L"button14";
 			this->button14->Size = System::Drawing::Size(93, 42);
@@ -1738,7 +1752,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button15->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button15->ForeColor = System::Drawing::Color::Black;
-			this->button15->Location = System::Drawing::Point(611, 648);
+			this->button15->Location = System::Drawing::Point(665, 649);
 			this->button15->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button15->Name = L"button15";
 			this->button15->Size = System::Drawing::Size(93, 42);
@@ -1752,7 +1766,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button16->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button16->ForeColor = System::Drawing::Color::Black;
-			this->button16->Location = System::Drawing::Point(512, 648);
+			this->button16->Location = System::Drawing::Point(566, 649);
 			this->button16->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button16->Name = L"button16";
 			this->button16->Size = System::Drawing::Size(93, 42);
@@ -1766,7 +1780,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button17->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button17->ForeColor = System::Drawing::Color::Black;
-			this->button17->Location = System::Drawing::Point(417, 648);
+			this->button17->Location = System::Drawing::Point(471, 649);
 			this->button17->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(93, 42);
@@ -1780,7 +1794,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button18->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button18->ForeColor = System::Drawing::Color::Black;
-			this->button18->Location = System::Drawing::Point(315, 648);
+			this->button18->Location = System::Drawing::Point(369, 649);
 			this->button18->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(93, 42);
@@ -1794,7 +1808,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button19->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button19->ForeColor = System::Drawing::Color::Black;
-			this->button19->Location = System::Drawing::Point(216, 648);
+			this->button19->Location = System::Drawing::Point(270, 649);
 			this->button19->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(93, 42);
@@ -1808,7 +1822,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button20->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button20->ForeColor = System::Drawing::Color::Black;
-			this->button20->Location = System::Drawing::Point(112, 648);
+			this->button20->Location = System::Drawing::Point(166, 649);
 			this->button20->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(93, 42);
@@ -1823,7 +1837,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I8->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I8->Location = System::Drawing::Point(815, 711);
+			this->labelTrial11I8->Location = System::Drawing::Point(869, 712);
 			this->labelTrial11I8->Name = L"labelTrial11I8";
 			this->labelTrial11I8->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I8->TabIndex = 172;
@@ -1835,7 +1849,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I7->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I7->Location = System::Drawing::Point(713, 711);
+			this->labelTrial11I7->Location = System::Drawing::Point(767, 712);
 			this->labelTrial11I7->Name = L"labelTrial11I7";
 			this->labelTrial11I7->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I7->TabIndex = 171;
@@ -1847,7 +1861,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I6->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I6->Location = System::Drawing::Point(611, 711);
+			this->labelTrial11I6->Location = System::Drawing::Point(665, 712);
 			this->labelTrial11I6->Name = L"labelTrial11I6";
 			this->labelTrial11I6->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I6->TabIndex = 170;
@@ -1859,7 +1873,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I5->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I5->Location = System::Drawing::Point(512, 711);
+			this->labelTrial11I5->Location = System::Drawing::Point(566, 712);
 			this->labelTrial11I5->Name = L"labelTrial11I5";
 			this->labelTrial11I5->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I5->TabIndex = 169;
@@ -1871,7 +1885,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I4->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I4->Location = System::Drawing::Point(417, 711);
+			this->labelTrial11I4->Location = System::Drawing::Point(471, 712);
 			this->labelTrial11I4->Name = L"labelTrial11I4";
 			this->labelTrial11I4->Size = System::Drawing::Size(89, 42);
 			this->labelTrial11I4->TabIndex = 168;
@@ -1883,7 +1897,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I3->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I3->Location = System::Drawing::Point(315, 711);
+			this->labelTrial11I3->Location = System::Drawing::Point(369, 712);
 			this->labelTrial11I3->Name = L"labelTrial11I3";
 			this->labelTrial11I3->Size = System::Drawing::Size(92, 42);
 			this->labelTrial11I3->TabIndex = 167;
@@ -1895,7 +1909,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I2->Location = System::Drawing::Point(216, 711);
+			this->labelTrial11I2->Location = System::Drawing::Point(270, 712);
 			this->labelTrial11I2->Name = L"labelTrial11I2";
 			this->labelTrial11I2->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I2->TabIndex = 166;
@@ -1907,7 +1921,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I1->Location = System::Drawing::Point(115, 711);
+			this->labelTrial11I1->Location = System::Drawing::Point(169, 712);
 			this->labelTrial11I1->Name = L"labelTrial11I1";
 			this->labelTrial11I1->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I1->TabIndex = 165;
@@ -1919,7 +1933,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I10->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I10->Location = System::Drawing::Point(1021, 711);
+			this->labelTrial11I10->Location = System::Drawing::Point(1075, 712);
 			this->labelTrial11I10->Name = L"labelTrial11I10";
 			this->labelTrial11I10->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I10->TabIndex = 154;
@@ -1931,7 +1945,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11I9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11I9->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11I9->Location = System::Drawing::Point(919, 711);
+			this->labelTrial11I9->Location = System::Drawing::Point(973, 712);
 			this->labelTrial11I9->Name = L"labelTrial11I9";
 			this->labelTrial11I9->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11I9->TabIndex = 153;
@@ -1943,7 +1957,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U8->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U8->Location = System::Drawing::Point(815, 602);
+			this->labelTrial11U8->Location = System::Drawing::Point(869, 603);
 			this->labelTrial11U8->Name = L"labelTrial11U8";
 			this->labelTrial11U8->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U8->TabIndex = 151;
@@ -1955,7 +1969,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U7->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U7->Location = System::Drawing::Point(713, 602);
+			this->labelTrial11U7->Location = System::Drawing::Point(767, 603);
 			this->labelTrial11U7->Name = L"labelTrial11U7";
 			this->labelTrial11U7->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U7->TabIndex = 150;
@@ -1967,7 +1981,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U6->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U6->Location = System::Drawing::Point(611, 602);
+			this->labelTrial11U6->Location = System::Drawing::Point(665, 603);
 			this->labelTrial11U6->Name = L"labelTrial11U6";
 			this->labelTrial11U6->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U6->TabIndex = 149;
@@ -1979,7 +1993,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U5->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U5->Location = System::Drawing::Point(512, 602);
+			this->labelTrial11U5->Location = System::Drawing::Point(566, 603);
 			this->labelTrial11U5->Name = L"labelTrial11U5";
 			this->labelTrial11U5->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U5->TabIndex = 148;
@@ -1991,7 +2005,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U4->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U4->Location = System::Drawing::Point(417, 602);
+			this->labelTrial11U4->Location = System::Drawing::Point(471, 603);
 			this->labelTrial11U4->Name = L"labelTrial11U4";
 			this->labelTrial11U4->Size = System::Drawing::Size(89, 42);
 			this->labelTrial11U4->TabIndex = 147;
@@ -2003,7 +2017,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U3->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U3->Location = System::Drawing::Point(315, 602);
+			this->labelTrial11U3->Location = System::Drawing::Point(369, 603);
 			this->labelTrial11U3->Name = L"labelTrial11U3";
 			this->labelTrial11U3->Size = System::Drawing::Size(92, 42);
 			this->labelTrial11U3->TabIndex = 146;
@@ -2015,7 +2029,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U2->Location = System::Drawing::Point(216, 602);
+			this->labelTrial11U2->Location = System::Drawing::Point(270, 603);
 			this->labelTrial11U2->Name = L"labelTrial11U2";
 			this->labelTrial11U2->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U2->TabIndex = 145;
@@ -2027,7 +2041,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U1->Location = System::Drawing::Point(115, 602);
+			this->labelTrial11U1->Location = System::Drawing::Point(169, 603);
 			this->labelTrial11U1->Name = L"labelTrial11U1";
 			this->labelTrial11U1->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U1->TabIndex = 144;
@@ -2039,7 +2053,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U10->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U10->Location = System::Drawing::Point(1021, 602);
+			this->labelTrial11U10->Location = System::Drawing::Point(1075, 603);
 			this->labelTrial11U10->Name = L"labelTrial11U10";
 			this->labelTrial11U10->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U10->TabIndex = 133;
@@ -2051,7 +2065,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial11U9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial11U9->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial11U9->Location = System::Drawing::Point(919, 602);
+			this->labelTrial11U9->Location = System::Drawing::Point(973, 603);
 			this->labelTrial11U9->Name = L"labelTrial11U9";
 			this->labelTrial11U9->Size = System::Drawing::Size(93, 42);
 			this->labelTrial11U9->TabIndex = 132;
@@ -2070,6 +2084,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->label15);
 			this->groupBox3->Controls->Add(this->label10);
 			this->groupBox3->Controls->Add(this->textBoxTrial2Is);
 			this->groupBox3->Controls->Add(this->label43);
@@ -2119,6 +2134,19 @@ private: System::Windows::Forms::Label^  label10;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"2．测定电流源的外特性";
 			// 
+			// label10
+			// 
+			this->label10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label10->ForeColor = System::Drawing::Color::Black;
+			this->label10->Location = System::Drawing::Point(421, 194);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(116, 42);
+			this->label10->TabIndex = 277;
+			this->label10->Text = L"填写Is的值";
+			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
 			// textBoxTrial2Is
 			// 
 			this->textBoxTrial2Is->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -2134,7 +2162,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->label43->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label43->ForeColor = System::Drawing::Color::Black;
-			this->label43->Location = System::Drawing::Point(669, 504);
+			this->label43->Location = System::Drawing::Point(696, 504);
 			this->label43->Name = L"label43";
 			this->label43->Size = System::Drawing::Size(65, 22);
 			this->label43->TabIndex = 306;
@@ -2155,7 +2183,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load10->Location = System::Drawing::Point(1025, 544);
+			this->textBoxTrial2Load10->Location = System::Drawing::Point(1110, 544);
 			this->textBoxTrial2Load10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load10->Name = L"textBoxTrial2Load10";
 			this->textBoxTrial2Load10->Size = System::Drawing::Size(93, 30);
@@ -2165,7 +2193,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load9->Location = System::Drawing::Point(923, 544);
+			this->textBoxTrial2Load9->Location = System::Drawing::Point(1008, 544);
 			this->textBoxTrial2Load9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load9->Name = L"textBoxTrial2Load9";
 			this->textBoxTrial2Load9->Size = System::Drawing::Size(93, 30);
@@ -2175,7 +2203,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load8->Location = System::Drawing::Point(816, 544);
+			this->textBoxTrial2Load8->Location = System::Drawing::Point(901, 544);
 			this->textBoxTrial2Load8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load8->Name = L"textBoxTrial2Load8";
 			this->textBoxTrial2Load8->Size = System::Drawing::Size(93, 30);
@@ -2185,7 +2213,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load7->Location = System::Drawing::Point(717, 544);
+			this->textBoxTrial2Load7->Location = System::Drawing::Point(802, 544);
 			this->textBoxTrial2Load7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load7->Name = L"textBoxTrial2Load7";
 			this->textBoxTrial2Load7->Size = System::Drawing::Size(93, 30);
@@ -2195,7 +2223,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load6->Location = System::Drawing::Point(615, 544);
+			this->textBoxTrial2Load6->Location = System::Drawing::Point(700, 544);
 			this->textBoxTrial2Load6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load6->Name = L"textBoxTrial2Load6";
 			this->textBoxTrial2Load6->Size = System::Drawing::Size(93, 30);
@@ -2205,7 +2233,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load5->Location = System::Drawing::Point(516, 544);
+			this->textBoxTrial2Load5->Location = System::Drawing::Point(601, 544);
 			this->textBoxTrial2Load5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load5->Name = L"textBoxTrial2Load5";
 			this->textBoxTrial2Load5->Size = System::Drawing::Size(93, 30);
@@ -2215,7 +2243,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load4->Location = System::Drawing::Point(417, 544);
+			this->textBoxTrial2Load4->Location = System::Drawing::Point(502, 544);
 			this->textBoxTrial2Load4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load4->Name = L"textBoxTrial2Load4";
 			this->textBoxTrial2Load4->Size = System::Drawing::Size(93, 30);
@@ -2225,7 +2253,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load3->Location = System::Drawing::Point(319, 544);
+			this->textBoxTrial2Load3->Location = System::Drawing::Point(404, 544);
 			this->textBoxTrial2Load3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load3->Name = L"textBoxTrial2Load3";
 			this->textBoxTrial2Load3->Size = System::Drawing::Size(93, 30);
@@ -2235,7 +2263,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load2->Location = System::Drawing::Point(220, 544);
+			this->textBoxTrial2Load2->Location = System::Drawing::Point(305, 544);
 			this->textBoxTrial2Load2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load2->Name = L"textBoxTrial2Load2";
 			this->textBoxTrial2Load2->Size = System::Drawing::Size(93, 30);
@@ -2256,7 +2284,7 @@ private: System::Windows::Forms::Label^  label10;
 			// 
 			this->textBoxTrial2Load1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Load1->Location = System::Drawing::Point(117, 544);
+			this->textBoxTrial2Load1->Location = System::Drawing::Point(202, 544);
 			this->textBoxTrial2Load1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Load1->Name = L"textBoxTrial2Load1";
 			this->textBoxTrial2Load1->Size = System::Drawing::Size(93, 30);
@@ -2278,7 +2306,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button41->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button41->ForeColor = System::Drawing::Color::Black;
-			this->button41->Location = System::Drawing::Point(1025, 640);
+			this->button41->Location = System::Drawing::Point(1110, 640);
 			this->button41->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button41->Name = L"button41";
 			this->button41->Size = System::Drawing::Size(93, 42);
@@ -2292,7 +2320,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button42->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button42->ForeColor = System::Drawing::Color::Black;
-			this->button42->Location = System::Drawing::Point(923, 640);
+			this->button42->Location = System::Drawing::Point(1008, 640);
 			this->button42->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button42->Name = L"button42";
 			this->button42->Size = System::Drawing::Size(93, 42);
@@ -2306,7 +2334,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button43->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button43->ForeColor = System::Drawing::Color::Black;
-			this->button43->Location = System::Drawing::Point(819, 640);
+			this->button43->Location = System::Drawing::Point(904, 640);
 			this->button43->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button43->Name = L"button43";
 			this->button43->Size = System::Drawing::Size(93, 42);
@@ -2320,7 +2348,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button44->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button44->ForeColor = System::Drawing::Color::Black;
-			this->button44->Location = System::Drawing::Point(717, 640);
+			this->button44->Location = System::Drawing::Point(802, 640);
 			this->button44->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button44->Name = L"button44";
 			this->button44->Size = System::Drawing::Size(93, 42);
@@ -2334,7 +2362,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button45->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button45->ForeColor = System::Drawing::Color::Black;
-			this->button45->Location = System::Drawing::Point(615, 640);
+			this->button45->Location = System::Drawing::Point(700, 640);
 			this->button45->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button45->Name = L"button45";
 			this->button45->Size = System::Drawing::Size(93, 42);
@@ -2348,7 +2376,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button46->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button46->ForeColor = System::Drawing::Color::Black;
-			this->button46->Location = System::Drawing::Point(516, 640);
+			this->button46->Location = System::Drawing::Point(601, 640);
 			this->button46->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button46->Name = L"button46";
 			this->button46->Size = System::Drawing::Size(93, 42);
@@ -2362,7 +2390,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button47->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button47->ForeColor = System::Drawing::Color::Black;
-			this->button47->Location = System::Drawing::Point(421, 640);
+			this->button47->Location = System::Drawing::Point(506, 640);
 			this->button47->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button47->Name = L"button47";
 			this->button47->Size = System::Drawing::Size(93, 42);
@@ -2376,7 +2404,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button48->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button48->ForeColor = System::Drawing::Color::Black;
-			this->button48->Location = System::Drawing::Point(319, 640);
+			this->button48->Location = System::Drawing::Point(404, 640);
 			this->button48->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button48->Name = L"button48";
 			this->button48->Size = System::Drawing::Size(93, 42);
@@ -2390,7 +2418,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button49->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button49->ForeColor = System::Drawing::Color::Black;
-			this->button49->Location = System::Drawing::Point(220, 640);
+			this->button49->Location = System::Drawing::Point(305, 640);
 			this->button49->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button49->Name = L"button49";
 			this->button49->Size = System::Drawing::Size(93, 42);
@@ -2404,7 +2432,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->button50->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->button50->ForeColor = System::Drawing::Color::Black;
-			this->button50->Location = System::Drawing::Point(116, 640);
+			this->button50->Location = System::Drawing::Point(201, 640);
 			this->button50->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button50->Name = L"button50";
 			this->button50->Size = System::Drawing::Size(93, 42);
@@ -2419,7 +2447,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I8->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I8->Location = System::Drawing::Point(819, 594);
+			this->labelTrial2I8->Location = System::Drawing::Point(904, 594);
 			this->labelTrial2I8->Name = L"labelTrial2I8";
 			this->labelTrial2I8->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I8->TabIndex = 282;
@@ -2431,7 +2459,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I7->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I7->Location = System::Drawing::Point(717, 594);
+			this->labelTrial2I7->Location = System::Drawing::Point(802, 594);
 			this->labelTrial2I7->Name = L"labelTrial2I7";
 			this->labelTrial2I7->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I7->TabIndex = 281;
@@ -2443,7 +2471,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I6->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I6->Location = System::Drawing::Point(615, 594);
+			this->labelTrial2I6->Location = System::Drawing::Point(700, 594);
 			this->labelTrial2I6->Name = L"labelTrial2I6";
 			this->labelTrial2I6->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I6->TabIndex = 280;
@@ -2455,7 +2483,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I5->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I5->Location = System::Drawing::Point(516, 594);
+			this->labelTrial2I5->Location = System::Drawing::Point(601, 594);
 			this->labelTrial2I5->Name = L"labelTrial2I5";
 			this->labelTrial2I5->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I5->TabIndex = 279;
@@ -2467,7 +2495,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I4->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I4->Location = System::Drawing::Point(421, 594);
+			this->labelTrial2I4->Location = System::Drawing::Point(506, 594);
 			this->labelTrial2I4->Name = L"labelTrial2I4";
 			this->labelTrial2I4->Size = System::Drawing::Size(89, 42);
 			this->labelTrial2I4->TabIndex = 278;
@@ -2479,7 +2507,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I3->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I3->Location = System::Drawing::Point(319, 594);
+			this->labelTrial2I3->Location = System::Drawing::Point(404, 594);
 			this->labelTrial2I3->Name = L"labelTrial2I3";
 			this->labelTrial2I3->Size = System::Drawing::Size(92, 42);
 			this->labelTrial2I3->TabIndex = 277;
@@ -2491,7 +2519,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I2->Location = System::Drawing::Point(220, 594);
+			this->labelTrial2I2->Location = System::Drawing::Point(305, 594);
 			this->labelTrial2I2->Name = L"labelTrial2I2";
 			this->labelTrial2I2->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I2->TabIndex = 276;
@@ -2503,7 +2531,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I1->Location = System::Drawing::Point(117, 594);
+			this->labelTrial2I1->Location = System::Drawing::Point(202, 594);
 			this->labelTrial2I1->Name = L"labelTrial2I1";
 			this->labelTrial2I1->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I1->TabIndex = 275;
@@ -2515,7 +2543,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I10->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I10->Location = System::Drawing::Point(1025, 594);
+			this->labelTrial2I10->Location = System::Drawing::Point(1110, 594);
 			this->labelTrial2I10->Name = L"labelTrial2I10";
 			this->labelTrial2I10->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I10->TabIndex = 274;
@@ -2527,7 +2555,7 @@ private: System::Windows::Forms::Label^  label10;
 			this->labelTrial2I9->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->labelTrial2I9->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2I9->Location = System::Drawing::Point(923, 594);
+			this->labelTrial2I9->Location = System::Drawing::Point(1008, 594);
 			this->labelTrial2I9->Name = L"labelTrial2I9";
 			this->labelTrial2I9->Size = System::Drawing::Size(93, 42);
 			this->labelTrial2I9->TabIndex = 273;
@@ -2588,18 +2616,60 @@ private: System::Windows::Forms::Label^  label10;
 			this->button81->UseVisualStyleBackColor = true;
 			this->button81->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button81_Click);
 			// 
-			// label10
+			// label11
 			// 
-			this->label10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label10->ForeColor = System::Drawing::Color::Black;
-			this->label10->Location = System::Drawing::Point(421, 194);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(116, 42);
-			this->label10->TabIndex = 277;
-			this->label10->Text = L"填写Is的值";
-			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->label11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label11->ForeColor = System::Drawing::Color::Lime;
+			this->label11->Location = System::Drawing::Point(6, 758);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(145, 26);
+			this->label11->TabIndex = 309;
+			this->label11->Text = L"直流电流表2";
+			this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label12
+			// 
+			this->label12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label12->ForeColor = System::Drawing::Color::Lime;
+			this->label12->Location = System::Drawing::Point(6, 664);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(145, 26);
+			this->label12->TabIndex = 308;
+			this->label12->Text = L"直流电压表3";
+			this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label13
+			// 
+			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label13->ForeColor = System::Drawing::Color::Lime;
+			this->label13->Location = System::Drawing::Point(6, 1086);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(145, 26);
+			this->label13->TabIndex = 311;
+			this->label13->Text = L"直流电流表2";
+			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(6, 992);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(145, 26);
+			this->label14->TabIndex = 310;
+			this->label14->Text = L"直流电压表3";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label15
+			// 
+			this->label15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label15->ForeColor = System::Drawing::Color::Lime;
+			this->label15->Location = System::Drawing::Point(18, 647);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(145, 26);
+			this->label15->TabIndex = 311;
+			this->label15->Text = L"直流电流表2";
+			this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// 电压源与电流源的等效变换实验内容
 			// 
@@ -2640,94 +2710,94 @@ private: System::Void button81_Click(System::Object^  sender, System::EventArgs^
 	SendData();
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U1->Text = global::GetU30Data();
+	labelTrial11U1->Text = global::GetU30_U400VData();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U2->Text = global::GetU30Data();
+	labelTrial11U2->Text = global::GetU30_U400VData();
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U3->Text = global::GetU30Data();
+	labelTrial11U3->Text = global::GetU30_U400VData();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U4->Text = global::GetU30Data();
+	labelTrial11U4->Text = global::GetU30_U400VData();
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U5->Text = global::GetU30Data();
+	labelTrial11U5->Text = global::GetU30_U400VData();
 }
 private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U6->Text = global::GetU30Data();
+	labelTrial11U6->Text = global::GetU30_U400VData();
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U7->Text = global::GetU30Data();
+	labelTrial11U7->Text = global::GetU30_U400VData();
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U8->Text = global::GetU30Data();
+	labelTrial11U8->Text = global::GetU30_U400VData();
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U9->Text = global::GetU30Data();
+	labelTrial11U9->Text = global::GetU30_U400VData();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11U10->Text = global::GetU30Data();
+	labelTrial11U10->Text = global::GetU30_U400VData();
 }
 private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I1->Text = global::GetU30Data();
+	labelTrial11I1->Text = global::GetU30_U400VData();
 }
 private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I2->Text = global::GetU30Data();
+	labelTrial11I2->Text = global::GetU30_U400VData();
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I3->Text = global::GetU30Data();
+	labelTrial11I3->Text = global::GetU30_U400VData();
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I4->Text = global::GetU30Data();
+	labelTrial11I4->Text = global::GetU30_U400VData();
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I5->Text = global::GetU30Data();
+	labelTrial11I5->Text = global::GetU30_U400VData();
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I6->Text = global::GetU30Data();
+	labelTrial11I6->Text = global::GetU30_U400VData();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I7->Text = global::GetU30Data();
+	labelTrial11I7->Text = global::GetU30_U400VData();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I8->Text = global::GetU30Data();
+	labelTrial11I8->Text = global::GetU30_U400VData();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I9->Text = global::GetU30Data();
+	labelTrial11I9->Text = global::GetU30_U400VData();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I10->Text = global::GetU30Data();
+	labelTrial11I10->Text = global::GetU30_U400VData();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U1->Text = global::GetU30Data();
+	labelTrial12U1->Text = global::GetU30_U400VData();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U2->Text = global::GetU30Data();
+	labelTrial12U2->Text = global::GetU30_U400VData();
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U4->Text = global::GetU30Data();
+	labelTrial12U4->Text = global::GetU30_U400VData();
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U5->Text = global::GetU30Data();
+	labelTrial12U5->Text = global::GetU30_U400VData();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U6->Text = global::GetU30Data();
+	labelTrial12U6->Text = global::GetU30_U400VData();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U3->Text = global::GetU30Data();
+	labelTrial12U3->Text = global::GetU30_U400VData();
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U7->Text = global::GetU30Data();
+	labelTrial12U7->Text = global::GetU30_U400VData();
 }
 private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U8->Text = global::GetU30Data();
+	labelTrial12U8->Text = global::GetU30_U400VData();
 }
 private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U9->Text = global::GetU30Data();
+	labelTrial12U9->Text = global::GetU30_U400VData();
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial12U10->Text = global::GetU30Data();
+	labelTrial12U10->Text = global::GetU30_U400VData();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial12I1->Text = global::GetI500Data();

@@ -290,7 +290,7 @@ void 元件伏安特性的测试实验报告::chart线性_load() {
 	c->AxisX->Title = "电压V";
 	c->AxisY->Title = "电流mA";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -313,8 +313,10 @@ void 元件伏安特性的测试实验报告::chart线性_load() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
+
 void 元件伏安特性的测试实验报告::chart白炽_load() {
 	Series ^s = chart白炽->Series[0];
 	chart白炽->Titles->Add("  白炽灯泡伏安特性");
@@ -326,7 +328,7 @@ void 元件伏安特性的测试实验报告::chart白炽_load() {
 	c->AxisX->Title = "电压V";
 	c->AxisY->Title = "电流mA";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -349,7 +351,8 @@ void 元件伏安特性的测试实验报告::chart白炽_load() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验报告::chart稳压_load() {
 	Series ^s = chart稳压->Series[0];
@@ -362,7 +365,7 @@ void 元件伏安特性的测试实验报告::chart稳压_load() {
 	c->AxisX->Title = "电压V";
 	c->AxisY->Title = "电流mA";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -395,7 +398,8 @@ void 元件伏安特性的测试实验报告::chart稳压_load() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验报告::chart锗管_load() {
 	Series ^s = chart锗管->Series[0];
@@ -408,7 +412,7 @@ void 元件伏安特性的测试实验报告::chart锗管_load() {
 	c->AxisX->Title = "电压V";
 	c->AxisY->Title = "电流mA";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -441,6 +445,8 @@ void 元件伏安特性的测试实验报告::chart锗管_load() {
 	catch (System::Exception^ E) {
 
 	}
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验报告::chart硅管_load() {
 	Series ^s = chart硅管->Series[0];
@@ -453,7 +459,7 @@ void 元件伏安特性的测试实验报告::chart硅管_load() {
 	c->AxisX->Title = "电压V";
 	c->AxisY->Title = "电流mA";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -486,7 +492,8 @@ void 元件伏安特性的测试实验报告::chart硅管_load() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 
@@ -806,7 +813,7 @@ void 元件伏安特性的测试实验内容::chart线性Init() {
 	c->AxisX->Title = "电压";
 	c->AxisY->Title = "电流";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -833,7 +840,8 @@ void 元件伏安特性的测试实验内容::Loadchart线性() {
 	catch (System::Exception^ E) {
 
 	}
-
+		s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 void 元件伏安特性的测试实验内容::chart白炽Init() {
@@ -847,7 +855,7 @@ void 元件伏安特性的测试实验内容::chart白炽Init() {
 	c->AxisX->Title = "电压(V)";
 	c->AxisY->Title = "电流(mA)";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -888,7 +896,7 @@ void 元件伏安特性的测试实验内容::chart锗管Init() {
 	c->AxisX->Title = "电压(V)";
 	c->AxisY->Title = "电流(mA)";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -925,7 +933,8 @@ void 元件伏安特性的测试实验内容::Loadchart锗管() {
 
 	}
 
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验内容::chart硅管Init() {
 	Series ^s = chart硅管->Series[0];
@@ -938,7 +947,7 @@ void 元件伏安特性的测试实验内容::chart硅管Init() {
 	c->AxisX->Title = "电压(V)";
 	c->AxisY->Title = "电流(mA)";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -975,7 +984,8 @@ void 元件伏安特性的测试实验内容::Loadchart硅管() {
 
 	}
 
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验内容::chart稳压Init() {
 	Series ^s = chart稳压->Series[0];
@@ -988,7 +998,7 @@ void 元件伏安特性的测试实验内容::chart稳压Init() {
 	c->AxisX->Title = "电压(V)";
 	c->AxisY->Title = "电流(mA)";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -1025,7 +1035,8 @@ void 元件伏安特性的测试实验内容::Loadchart稳压() {
 	}
 	catch (System::Exception^ E) {
 
-	}
+	}	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 

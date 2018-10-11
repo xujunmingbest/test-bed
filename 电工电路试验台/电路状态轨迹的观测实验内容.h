@@ -241,7 +241,7 @@ namespace 电工电路试验台 {
 			// label102
 			// 
 			this->label102->ForeColor = System::Drawing::Color::Black;
-			this->label102->Location = System::Drawing::Point(44, 230);
+			this->label102->Location = System::Drawing::Point(44, 104);
 			this->label102->Name = L"label102";
 			this->label102->Size = System::Drawing::Size(973, 82);
 			this->label102->TabIndex = 89;

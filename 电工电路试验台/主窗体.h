@@ -166,6 +166,7 @@ namespace 电工电路试验台 {
 			this->toolStrip1->Size = System::Drawing::Size(319, 48);
 			this->toolStrip1->TabIndex = 2;
 			this->toolStrip1->Text = L"toolStrip1";
+			this->toolStrip1->ItemClicked += gcnew System::Windows::Forms::ToolStripItemClickedEventHandler(this, &主窗体::toolStrip1_ItemClicked);
 			// 
 			// toolStripButton1
 			// 
@@ -358,6 +359,9 @@ namespace 电工电路试验台 {
 		//show实验目的F();
 		//实验目的click(6);
 		listView1Load();
+		listView1->Items[0]->Selected = true;
+		show实验目的F();
+		实验目的click(1);
 	}
 			void listView1Load(){
 				listView1->Items->Clear();
@@ -564,6 +568,8 @@ private: System::Void toolStripButton1_Click(System::Object^  sender, System::Ev
 }
 private: System::Void toolStripButton3_Click(System::Object^  sender, System::EventArgs^  e) {
 	this->WindowState = FormWindowState::Minimized;
+}
+private: System::Void toolStrip1_ItemClicked(System::Object^  sender, System::Windows::Forms::ToolStripItemClickedEventArgs^  e) {
 }
 };
 }

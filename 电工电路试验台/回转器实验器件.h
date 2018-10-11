@@ -37,18 +37,26 @@ namespace 电工电路试验台 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::ListView^  listView1;
+	private: System::Windows::Forms::ImageList^  imageList1;
 	protected:
+	private: System::Windows::Forms::ListView^  listView1;
 	private: System::Windows::Forms::ColumnHeader^  columnHeader1;
 	private: System::Windows::Forms::ColumnHeader^  columnHeader2;
 	private: System::Windows::Forms::ColumnHeader^  columnHeader3;
 	private: System::Windows::Forms::ColumnHeader^  columnHeader4;
+	private: System::ComponentModel::IContainer^  components;
+
+	protected:
+
+
+
+
 
 	private:
 		/// <summary>
 		/// 必需的设计器变量。
 		/// </summary>
-		System::ComponentModel::Container ^components;
+
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -57,6 +65,8 @@ namespace 电工电路试验台 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			this->components = (gcnew System::ComponentModel::Container());
+			this->imageList1 = (gcnew System::Windows::Forms::ImageList(this->components));
 			this->listView1 = (gcnew System::Windows::Forms::ListView());
 			this->columnHeader1 = (gcnew System::Windows::Forms::ColumnHeader());
 			this->columnHeader2 = (gcnew System::Windows::Forms::ColumnHeader());
@@ -64,20 +74,28 @@ namespace 电工电路试验台 {
 			this->columnHeader4 = (gcnew System::Windows::Forms::ColumnHeader());
 			this->SuspendLayout();
 			// 
+			// imageList1
+			// 
+			this->imageList1->ColorDepth = System::Windows::Forms::ColorDepth::Depth8Bit;
+			this->imageList1->ImageSize = System::Drawing::Size(16, 60);
+			this->imageList1->TransparentColor = System::Drawing::Color::Transparent;
+			// 
 			// listView1
 			// 
-			this->listView1->BackColor = System::Drawing::Color::Silver;
+			this->listView1->BackColor = System::Drawing::Color::Gainsboro;
 			this->listView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::ColumnHeader^  >(4) {
 				this->columnHeader1, this->columnHeader2,
 					this->columnHeader3, this->columnHeader4
 			});
 			this->listView1->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
+			this->listView1->FullRowSelect = true;
 			this->listView1->GridLines = true;
-			this->listView1->Location = System::Drawing::Point(68, 223);
+			this->listView1->Location = System::Drawing::Point(80, 85);
 			this->listView1->Name = L"listView1";
-			this->listView1->Size = System::Drawing::Size(888, 354);
-			this->listView1->TabIndex = 3;
+			this->listView1->Size = System::Drawing::Size(953, 762);
+			this->listView1->SmallImageList = this->imageList1;
+			this->listView1->TabIndex = 47;
 			this->listView1->UseCompatibleStateImageBehavior = false;
 			this->listView1->View = System::Windows::Forms::View::Details;
 			// 
@@ -105,7 +123,7 @@ namespace 电工电路试验台 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1280, 641);
+			this->ClientSize = System::Drawing::Size(1280, 846);
 			this->Controls->Add(this->listView1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"回转器实验器件";
@@ -118,28 +136,28 @@ namespace 电工电路试验台 {
 	private: System::Void 回转器实验器件_Load(System::Object^  sender, System::EventArgs^  e) {
 		listView1->Items->Add("1");
 		listView1->Items[0]->SubItems->Add("函数信号发生器");
-		listView1->Items[0]->SubItems->Add("");
-		listView1->Items[0]->SubItems->Add("电源屏");
+		listView1->Items[0]->SubItems->Add("0-2Mhz");
+		listView1->Items[0]->SubItems->Add("DY08(数控型)");
 
 		listView1->Items->Add("2");
-		listView1->Items[1]->SubItems->Add("双踪示波器");
 		listView1->Items[1]->SubItems->Add("");
-		listView1->Items[1]->SubItems->Add("");
+		listView1->Items[1]->SubItems->Add("5-550Khz");
+		listView1->Items[1]->SubItems->Add("DY09（普通型）");
 
 		listView1->Items->Add("3");
-		listView1->Items[2]->SubItems->Add("回转器");
+		listView1->Items[2]->SubItems->Add("测量仪表");
 		listView1->Items[2]->SubItems->Add("");
-		listView1->Items[2]->SubItems->Add("DG02");
+		listView1->Items[2]->SubItems->Add("CL04(智能电参数仪)");
 
 		listView1->Items->Add("4");
-		listView1->Items[3]->SubItems->Add("电阻");
-		listView1->Items[3]->SubItems->Add("1K/2W");
-		listView1->Items[3]->SubItems->Add("DG02");
+		listView1->Items[3]->SubItems->Add("");
+		listView1->Items[3]->SubItems->Add("");
+		listView1->Items[3]->SubItems->Add("CL03(毫伏表)");
 
 		listView1->Items->Add("5");
-		listView1->Items[4]->SubItems->Add("电位器");
+		listView1->Items[4]->SubItems->Add("电阻");
 		listView1->Items[4]->SubItems->Add("1K/2W");
-		listView1->Items[4]->SubItems->Add("DG04");
+		listView1->Items[4]->SubItems->Add("DG02");
 
 		listView1->Items->Add("6");
 		listView1->Items[5]->SubItems->Add("电容");
@@ -147,9 +165,19 @@ namespace 电工电路试验台 {
 		listView1->Items[5]->SubItems->Add("DG02");
 
 		listView1->Items->Add("7");
-		listView1->Items[6]->SubItems->Add("电阻箱");
-		listView1->Items[6]->SubItems->Add("");
-		listView1->Items[6]->SubItems->Add("DG04");
+		listView1->Items[6]->SubItems->Add("电位器");
+		listView1->Items[6]->SubItems->Add("1K/2W");
+		listView1->Items[6]->SubItems->Add("DG02");
+
+		listView1->Items->Add("8");
+		listView1->Items[7]->SubItems->Add("双踪示波器");
+		listView1->Items[7]->SubItems->Add("");
+		listView1->Items[7]->SubItems->Add("");
+
+		listView1->Items->Add("9");
+		listView1->Items[8]->SubItems->Add("电阻箱");
+		listView1->Items[8]->SubItems->Add("");
+		listView1->Items[8]->SubItems->Add("DG04");
 
 		for (int i = 0; i < 4; i++) {
 			listView1->Columns[i]->Width = -2;

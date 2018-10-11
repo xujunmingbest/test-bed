@@ -108,9 +108,9 @@ void 负阻抗变换器实验内容::chart_load() {
 	c->AxisX->Title = "I1(mA)";
 	c->AxisY->Title = "U1(V)";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s1->ChartType = SeriesChartType::Line;
+	s1->ChartType = SeriesChartType::Spline;
 	//s1->IsVisibleInLegend = false;
-	s2->ChartType = SeriesChartType::Line;
+	s2->ChartType = SeriesChartType::Spline;
 	//s2->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;

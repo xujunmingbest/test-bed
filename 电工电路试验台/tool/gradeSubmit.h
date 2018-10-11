@@ -18,6 +18,7 @@ static map<int, string> MsgRet = {
 	{ -2,"实验代码与实验名称不一致" },
 	{ -3,"文件存储失败" },
 	{ -4,"您不在学生名单中，不能进行实验" },
+	{ -5,"学生成绩为空"},
 };
 
  static map<int, string> Grades = {
@@ -51,6 +52,21 @@ static map<int, string> MsgRet = {
 
 #pragma pack(push,1)
 
+/* 
+   用于传输学生信息的内容 
+   报文头:  Long_connection_Head 
+   请求类型id: 7
+
+*/
+ struct StudentElement {
+	 char stuName[100];
+	 char XueHao[50];
+ };
+
+struct ClassElement{
+	char ClassName[50];
+    StudentElement SEs[100]; //默认100个学生,不到100个学生 ,不用
+};
 
 struct GradesHead {
 	char RequestType[50]; //请求类型 SAVEFILE|RETMSG|GRADEDATA
@@ -1897,6 +1913,8 @@ struct ST_基本电工仪表的使用与测量误差的计算{
 struct ST_功率因数及相序的测量 {
 	TrialInfo ti;
 	char summing_up[100];
+	int score1;
+	int score2;
 	char Trial2_U_1[10];
 	char Trial2_U_2[10];
 	char Trial2_U_3[10];
@@ -1949,6 +1967,7 @@ struct ST_互感器 {
 	char Trial3_Line1_6[10];
 	char Trial1_1结论[100];
 	char Trial1_2结论[100];
+	int score1;
 
 	char Trial3_Line2_1[10];
 	char Trial3_Line2_2[10];

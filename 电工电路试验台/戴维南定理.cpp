@@ -45,7 +45,7 @@ void 戴维南定理实验内容::chartTrial2_load() {
 	c->AxisX->Title = "电流mA";
 	c->AxisY->Title = "电压V";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -68,7 +68,8 @@ void 戴维南定理实验内容::chartTrial2_load() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 
@@ -82,7 +83,7 @@ void 戴维南定理实验内容::chartTrial6_load() {
 	c->AxisX->Title = "电流mA";
 	c->AxisY->Title = "电压V";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
-	s->ChartType = SeriesChartType::Line;
+	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
 	c->AxisX->LabelStyle->Format = "N1";
 	c->AxisX->MajorGrid->LineColor = Color::Transparent;
@@ -105,7 +106,8 @@ void 戴维南定理实验内容::chartTrial6_load() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 

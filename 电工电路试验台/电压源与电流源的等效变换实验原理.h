@@ -83,22 +83,20 @@ namespace 电工电路试验台 {
 			this->label7->BackColor = System::Drawing::Color::Transparent;
 			this->label7->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label7->Location = System::Drawing::Point(9, 7);
-			this->label7->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label7->Location = System::Drawing::Point(12, 9);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(345, 20);
+			this->label7->Size = System::Drawing::Size(428, 25);
 			this->label7->TabIndex = 20;
 			this->label7->Text = L"电压源与电流源的等效变换实验原理";
 			// 
 			// label3
 			// 
 			this->label3->BackColor = System::Drawing::Color::Transparent;
-			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label3->Location = System::Drawing::Point(9, 81);
-			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label3->Location = System::Drawing::Point(12, 101);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(705, 111);
+			this->label3->Size = System::Drawing::Size(940, 139);
 			this->label3->TabIndex = 21;
 			this->label3->Text = L"    1．一个直流稳压电源在一定的电流范围内，具有很小的内阻，故在实用中，常将它视为一个理想的电压源，即其输出电压不随负载电流而变，其外特性，即其伏安特性V＝F"
 				L"（I）是一条平行于I轴的直线。\r\n     一个恒流源在实用中，在一定的电压范围内，可视为一个理想的电流源。\r\n";
@@ -106,12 +104,11 @@ namespace 电工电路试验台 {
 			// label1
 			// 
 			this->label1->BackColor = System::Drawing::Color::Transparent;
-			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label1->Location = System::Drawing::Point(9, 208);
-			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label1->Location = System::Drawing::Point(12, 260);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(705, 77);
+			this->label1->Size = System::Drawing::Size(940, 96);
 			this->label1->TabIndex = 22;
 			this->label1->Text = L"    2．一个实际的电压源（或电流源），其端电压（或输出电流）不可能不随负载而变，因它具有一定的内阻值。故在实验中，用一个小阻值的电阻（或大电阻）与稳压源（或恒"
 				L"流源）相串联（或并联）来模拟一个电压源（或电流源）的情况。";
@@ -119,12 +116,11 @@ namespace 电工电路试验台 {
 			// label2
 			// 
 			this->label2->BackColor = System::Drawing::Color::Transparent;
-			this->label2->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label2->Location = System::Drawing::Point(9, 309);
-			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label2->Location = System::Drawing::Point(12, 386);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(705, 129);
+			this->label2->Size = System::Drawing::Size(940, 161);
 			this->label2->TabIndex = 23;
 			this->label2->Text = L"    3．一个实际的电源，就其外部特性而言，即可以看成是一个电压源，又可以看成是一个电流源。若视为电压源，则可用一个理想的电压源ES与一个电阻Ro相串联的组合来"
 				L"表示；若视为电流源，则可用一个理想电流源IS与一电导g0相并联来表示，若它们向同样大小的负载供出同样大小的电流和端电压，则称这两个电源是等效的，即具有相同的外特"
@@ -133,10 +129,10 @@ namespace 电工电路试验台 {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(100, 440);
-			this->pictureBox1->Margin = System::Windows::Forms::Padding(2);
+			this->pictureBox1->Location = System::Drawing::Point(133, 550);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(115, 40);
+			this->pictureBox1->Size = System::Drawing::Size(153, 50);
 			this->pictureBox1->TabIndex = 24;
 			this->pictureBox1->TabStop = false;
 			// 
@@ -145,40 +141,38 @@ namespace 电工电路试验台 {
 			this->label4->BackColor = System::Drawing::Color::Transparent;
 			this->label4->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label4->Location = System::Drawing::Point(228, 448);
-			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label4->Location = System::Drawing::Point(304, 560);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(30, 32);
+			this->label4->Size = System::Drawing::Size(40, 40);
 			this->label4->TabIndex = 25;
 			this->label4->Text = L"或\r\n";
 			// 
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(280, 440);
-			this->pictureBox2->Margin = System::Windows::Forms::Padding(2);
+			this->pictureBox2->Location = System::Drawing::Point(373, 550);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(103, 40);
+			this->pictureBox2->Size = System::Drawing::Size(137, 50);
 			this->pictureBox2->TabIndex = 26;
 			this->pictureBox2->TabStop = false;
 			// 
 			// label5
 			// 
 			this->label5->BackColor = System::Drawing::Color::Transparent;
-			this->label5->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label5->Location = System::Drawing::Point(50, 494);
-			this->label5->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
+			this->label5->Location = System::Drawing::Point(67, 618);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(165, 24);
+			this->label5->Size = System::Drawing::Size(220, 30);
 			this->label5->TabIndex = 27;
 			this->label5->Text = L"如图5-1所示。";
 			// 
 			// pictureBox3
 			// 
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(148, 521);
-			this->pictureBox3->Margin = System::Windows::Forms::Padding(2);
+			this->pictureBox3->Location = System::Drawing::Point(197, 651);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->pictureBox3->Name = L"pictureBox3";
 			this->pictureBox3->Size = System::Drawing::Size(638, 225);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -187,10 +181,10 @@ namespace 电工电路试验台 {
 			// 
 			// 电压源与电流源的等效变换实验原理
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 12);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(878, 672);
+			this->ClientSize = System::Drawing::Size(1171, 840);
 			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->pictureBox2);
@@ -201,7 +195,7 @@ namespace 电工电路试验台 {
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label7);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
-			this->Margin = System::Windows::Forms::Padding(2);
+			this->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->Name = L"电压源与电流源的等效变换实验原理";
 			this->Text = L"电压源与电流源的等效变换实验原理";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();

@@ -270,6 +270,13 @@ private: System::Windows::Forms::Label^  label9;
 private: System::Windows::Forms::TextBox^  textBoxMethod4Uoc;
 private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 
+private: System::Windows::Forms::Label^  label11;
+private: System::Windows::Forms::Label^  label10;
+private: System::Windows::Forms::Label^  label13;
+private: System::Windows::Forms::Label^  label14;
+private: System::Windows::Forms::Label^  label15;
+private: System::Windows::Forms::Button^  button47;
+
 
 	private:
 		/// <summary>
@@ -311,6 +318,8 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->textBoxMethod2Ro = (gcnew System::Windows::Forms::TextBox());
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->button2 = (gcnew System::Windows::Forms::Button());
@@ -372,6 +381,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->label13 = (gcnew System::Windows::Forms::Label());
 			this->textBoxMethod3Ro = (gcnew System::Windows::Forms::TextBox());
 			this->label33 = (gcnew System::Windows::Forms::Label());
 			this->button23 = (gcnew System::Windows::Forms::Button());
@@ -387,6 +397,8 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->textBoxMethod5R0 = (gcnew System::Windows::Forms::TextBox());
 			this->label34 = (gcnew System::Windows::Forms::Label());
 			this->groupBox6 = (gcnew System::Windows::Forms::GroupBox());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->button24 = (gcnew System::Windows::Forms::Button());
 			this->chartTrial6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button25 = (gcnew System::Windows::Forms::Button());
@@ -448,6 +460,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->label105 = (gcnew System::Windows::Forms::Label());
 			this->label106 = (gcnew System::Windows::Forms::Label());
 			this->button81 = (gcnew System::Windows::Forms::Button());
+			this->button47 = (gcnew System::Windows::Forms::Button());
 			this->groupBox1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox2->SuspendLayout();
@@ -471,7 +484,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->groupBox8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox8->Name = L"groupBox8";
 			this->groupBox8->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->groupBox8->Size = System::Drawing::Size(1296, 46);
+			this->groupBox8->Size = System::Drawing::Size(1296, 69);
 			this->groupBox8->TabIndex = 81;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"戴维南定律实验内容";
@@ -490,6 +503,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Controls->Add(this->button47);
 			this->groupBox1->Controls->Add(this->button46);
 			this->groupBox1->Controls->Add(this->textBoxMethod1I);
 			this->groupBox1->Controls->Add(this->textBoxMethod1Us);
@@ -553,7 +567,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(119, 25);
 			this->label6->TabIndex = 250;
-			this->label6->Text = L"I(mA)";
+			this->label6->Text = L"Is(mA)";
 			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label3
@@ -676,6 +690,8 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->label11);
+			this->groupBox2->Controls->Add(this->label10);
 			this->groupBox2->Controls->Add(this->textBoxMethod2Ro);
 			this->groupBox2->Controls->Add(this->label9);
 			this->groupBox2->Controls->Add(this->button2);
@@ -742,10 +758,32 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->groupBox2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->groupBox2->Name = L"groupBox2";
 			this->groupBox2->Padding = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->groupBox2->Size = System::Drawing::Size(1360, 741);
+			this->groupBox2->Size = System::Drawing::Size(1372, 741);
 			this->groupBox2->TabIndex = 83;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"2.伏安法";
+			// 
+			// label11
+			// 
+			this->label11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label11->ForeColor = System::Drawing::Color::Lime;
+			this->label11->Location = System::Drawing::Point(0, 704);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(145, 26);
+			this->label11->TabIndex = 307;
+			this->label11->Text = L"直流电流表2";
+			this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label10
+			// 
+			this->label10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label10->ForeColor = System::Drawing::Color::Lime;
+			this->label10->Location = System::Drawing::Point(0, 610);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(145, 26);
+			this->label10->TabIndex = 306;
+			this->label10->Text = L"直流电压表3";
+			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// textBoxMethod2Ro
 			// 
@@ -767,7 +805,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(564, 316);
+			this->button2->Location = System::Drawing::Point(564, 171);
 			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(115, 34);
@@ -804,7 +842,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button13
 			// 
-			this->button13->Location = System::Drawing::Point(1236, 698);
+			this->button13->Location = System::Drawing::Point(1255, 696);
 			this->button13->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(93, 34);
@@ -815,7 +853,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button14
 			// 
-			this->button14->Location = System::Drawing::Point(1110, 698);
+			this->button14->Location = System::Drawing::Point(1129, 696);
 			this->button14->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button14->Name = L"button14";
 			this->button14->Size = System::Drawing::Size(93, 34);
@@ -826,7 +864,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button15
 			// 
-			this->button15->Location = System::Drawing::Point(1002, 698);
+			this->button15->Location = System::Drawing::Point(1021, 696);
 			this->button15->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button15->Name = L"button15";
 			this->button15->Size = System::Drawing::Size(93, 34);
@@ -837,7 +875,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button16
 			// 
-			this->button16->Location = System::Drawing::Point(877, 698);
+			this->button16->Location = System::Drawing::Point(896, 696);
 			this->button16->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button16->Name = L"button16";
 			this->button16->Size = System::Drawing::Size(93, 34);
@@ -848,7 +886,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button17
 			// 
-			this->button17->Location = System::Drawing::Point(753, 698);
+			this->button17->Location = System::Drawing::Point(772, 696);
 			this->button17->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(93, 34);
@@ -859,7 +897,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button18
 			// 
-			this->button18->Location = System::Drawing::Point(628, 698);
+			this->button18->Location = System::Drawing::Point(647, 696);
 			this->button18->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(93, 34);
@@ -870,7 +908,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button19
 			// 
-			this->button19->Location = System::Drawing::Point(506, 698);
+			this->button19->Location = System::Drawing::Point(525, 696);
 			this->button19->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(93, 34);
@@ -880,7 +918,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button20
 			// 
-			this->button20->Location = System::Drawing::Point(381, 698);
+			this->button20->Location = System::Drawing::Point(400, 696);
 			this->button20->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button20->Name = L"button20";
 			this->button20->Size = System::Drawing::Size(93, 34);
@@ -891,7 +929,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button21
 			// 
-			this->button21->Location = System::Drawing::Point(257, 698);
+			this->button21->Location = System::Drawing::Point(276, 696);
 			this->button21->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button21->Name = L"button21";
 			this->button21->Size = System::Drawing::Size(93, 34);
@@ -902,7 +940,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button22
 			// 
-			this->button22->Location = System::Drawing::Point(132, 698);
+			this->button22->Location = System::Drawing::Point(151, 696);
 			this->button22->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button22->Name = L"button22";
 			this->button22->Size = System::Drawing::Size(93, 34);
@@ -913,7 +951,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button11
 			// 
-			this->button11->Location = System::Drawing::Point(1236, 606);
+			this->button11->Location = System::Drawing::Point(1255, 604);
 			this->button11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(93, 34);
@@ -924,7 +962,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button12
 			// 
-			this->button12->Location = System::Drawing::Point(1110, 606);
+			this->button12->Location = System::Drawing::Point(1129, 604);
 			this->button12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(93, 34);
@@ -935,7 +973,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button9
 			// 
-			this->button9->Location = System::Drawing::Point(1002, 606);
+			this->button9->Location = System::Drawing::Point(1021, 604);
 			this->button9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(93, 34);
@@ -946,7 +984,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button10
 			// 
-			this->button10->Location = System::Drawing::Point(877, 606);
+			this->button10->Location = System::Drawing::Point(896, 604);
 			this->button10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(93, 34);
@@ -957,7 +995,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button7
 			// 
-			this->button7->Location = System::Drawing::Point(753, 606);
+			this->button7->Location = System::Drawing::Point(772, 604);
 			this->button7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(93, 34);
@@ -968,7 +1006,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button8
 			// 
-			this->button8->Location = System::Drawing::Point(628, 606);
+			this->button8->Location = System::Drawing::Point(647, 604);
 			this->button8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(93, 34);
@@ -979,7 +1017,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(506, 606);
+			this->button4->Location = System::Drawing::Point(525, 604);
 			this->button4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(93, 34);
@@ -990,7 +1028,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button6
 			// 
-			this->button6->Location = System::Drawing::Point(381, 606);
+			this->button6->Location = System::Drawing::Point(400, 604);
 			this->button6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(93, 34);
@@ -1002,7 +1040,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I10
 			// 
 			this->labelMethod2I10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I10->Location = System::Drawing::Point(1236, 662);
+			this->labelMethod2I10->Location = System::Drawing::Point(1255, 660);
 			this->labelMethod2I10->Name = L"labelMethod2I10";
 			this->labelMethod2I10->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2I10->TabIndex = 229;
@@ -1011,7 +1049,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I9
 			// 
 			this->labelMethod2I9->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I9->Location = System::Drawing::Point(1110, 662);
+			this->labelMethod2I9->Location = System::Drawing::Point(1129, 660);
 			this->labelMethod2I9->Name = L"labelMethod2I9";
 			this->labelMethod2I9->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2I9->TabIndex = 228;
@@ -1020,7 +1058,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I8
 			// 
 			this->labelMethod2I8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I8->Location = System::Drawing::Point(1002, 662);
+			this->labelMethod2I8->Location = System::Drawing::Point(1021, 660);
 			this->labelMethod2I8->Name = L"labelMethod2I8";
 			this->labelMethod2I8->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2I8->TabIndex = 227;
@@ -1029,7 +1067,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I7
 			// 
 			this->labelMethod2I7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I7->Location = System::Drawing::Point(877, 662);
+			this->labelMethod2I7->Location = System::Drawing::Point(896, 660);
 			this->labelMethod2I7->Name = L"labelMethod2I7";
 			this->labelMethod2I7->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2I7->TabIndex = 226;
@@ -1038,7 +1076,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I6
 			// 
 			this->labelMethod2I6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I6->Location = System::Drawing::Point(753, 660);
+			this->labelMethod2I6->Location = System::Drawing::Point(772, 658);
 			this->labelMethod2I6->Name = L"labelMethod2I6";
 			this->labelMethod2I6->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2I6->TabIndex = 225;
@@ -1047,7 +1085,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I5
 			// 
 			this->labelMethod2I5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I5->Location = System::Drawing::Point(628, 660);
+			this->labelMethod2I5->Location = System::Drawing::Point(647, 658);
 			this->labelMethod2I5->Name = L"labelMethod2I5";
 			this->labelMethod2I5->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2I5->TabIndex = 224;
@@ -1056,7 +1094,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I4
 			// 
 			this->labelMethod2I4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I4->Location = System::Drawing::Point(506, 662);
+			this->labelMethod2I4->Location = System::Drawing::Point(525, 660);
 			this->labelMethod2I4->Name = L"labelMethod2I4";
 			this->labelMethod2I4->Size = System::Drawing::Size(99, 35);
 			this->labelMethod2I4->TabIndex = 223;
@@ -1066,7 +1104,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I3
 			// 
 			this->labelMethod2I3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I3->Location = System::Drawing::Point(381, 662);
+			this->labelMethod2I3->Location = System::Drawing::Point(400, 660);
 			this->labelMethod2I3->Name = L"labelMethod2I3";
 			this->labelMethod2I3->Size = System::Drawing::Size(100, 35);
 			this->labelMethod2I3->TabIndex = 222;
@@ -1075,7 +1113,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I2
 			// 
 			this->labelMethod2I2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I2->Location = System::Drawing::Point(257, 660);
+			this->labelMethod2I2->Location = System::Drawing::Point(276, 658);
 			this->labelMethod2I2->Name = L"labelMethod2I2";
 			this->labelMethod2I2->Size = System::Drawing::Size(99, 35);
 			this->labelMethod2I2->TabIndex = 221;
@@ -1084,7 +1122,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2I1
 			// 
 			this->labelMethod2I1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2I1->Location = System::Drawing::Point(132, 660);
+			this->labelMethod2I1->Location = System::Drawing::Point(151, 658);
 			this->labelMethod2I1->Name = L"labelMethod2I1";
 			this->labelMethod2I1->Size = System::Drawing::Size(100, 35);
 			this->labelMethod2I1->TabIndex = 220;
@@ -1093,7 +1131,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL10
 			// 
 			this->labelMethod2URL10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL10->Location = System::Drawing::Point(1236, 567);
+			this->labelMethod2URL10->Location = System::Drawing::Point(1255, 565);
 			this->labelMethod2URL10->Name = L"labelMethod2URL10";
 			this->labelMethod2URL10->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2URL10->TabIndex = 219;
@@ -1102,7 +1140,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL9
 			// 
 			this->labelMethod2URL9->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL9->Location = System::Drawing::Point(1110, 567);
+			this->labelMethod2URL9->Location = System::Drawing::Point(1129, 565);
 			this->labelMethod2URL9->Name = L"labelMethod2URL9";
 			this->labelMethod2URL9->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2URL9->TabIndex = 218;
@@ -1111,7 +1149,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL8
 			// 
 			this->labelMethod2URL8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL8->Location = System::Drawing::Point(1002, 567);
+			this->labelMethod2URL8->Location = System::Drawing::Point(1021, 565);
 			this->labelMethod2URL8->Name = L"labelMethod2URL8";
 			this->labelMethod2URL8->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2URL8->TabIndex = 217;
@@ -1120,7 +1158,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL7
 			// 
 			this->labelMethod2URL7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL7->Location = System::Drawing::Point(877, 567);
+			this->labelMethod2URL7->Location = System::Drawing::Point(896, 565);
 			this->labelMethod2URL7->Name = L"labelMethod2URL7";
 			this->labelMethod2URL7->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2URL7->TabIndex = 216;
@@ -1129,7 +1167,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL6
 			// 
 			this->labelMethod2URL6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL6->Location = System::Drawing::Point(753, 567);
+			this->labelMethod2URL6->Location = System::Drawing::Point(772, 565);
 			this->labelMethod2URL6->Name = L"labelMethod2URL6";
 			this->labelMethod2URL6->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2URL6->TabIndex = 215;
@@ -1138,7 +1176,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL5
 			// 
 			this->labelMethod2URL5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL5->Location = System::Drawing::Point(628, 567);
+			this->labelMethod2URL5->Location = System::Drawing::Point(647, 565);
 			this->labelMethod2URL5->Name = L"labelMethod2URL5";
 			this->labelMethod2URL5->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2URL5->TabIndex = 214;
@@ -1147,7 +1185,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL4
 			// 
 			this->labelMethod2URL4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL4->Location = System::Drawing::Point(506, 567);
+			this->labelMethod2URL4->Location = System::Drawing::Point(525, 565);
 			this->labelMethod2URL4->Name = L"labelMethod2URL4";
 			this->labelMethod2URL4->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2URL4->TabIndex = 213;
@@ -1156,7 +1194,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL3
 			// 
 			this->labelMethod2URL3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL3->Location = System::Drawing::Point(381, 567);
+			this->labelMethod2URL3->Location = System::Drawing::Point(400, 565);
 			this->labelMethod2URL3->Name = L"labelMethod2URL3";
 			this->labelMethod2URL3->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2URL3->TabIndex = 212;
@@ -1164,7 +1202,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL10
 			// 
-			this->textBoxMethod2RL10->Location = System::Drawing::Point(1236, 510);
+			this->textBoxMethod2RL10->Location = System::Drawing::Point(1255, 508);
 			this->textBoxMethod2RL10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL10->Name = L"textBoxMethod2RL10";
 			this->textBoxMethod2RL10->Size = System::Drawing::Size(100, 30);
@@ -1172,7 +1210,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL9
 			// 
-			this->textBoxMethod2RL9->Location = System::Drawing::Point(1110, 510);
+			this->textBoxMethod2RL9->Location = System::Drawing::Point(1129, 508);
 			this->textBoxMethod2RL9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL9->Name = L"textBoxMethod2RL9";
 			this->textBoxMethod2RL9->Size = System::Drawing::Size(100, 30);
@@ -1180,7 +1218,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL8
 			// 
-			this->textBoxMethod2RL8->Location = System::Drawing::Point(1002, 510);
+			this->textBoxMethod2RL8->Location = System::Drawing::Point(1021, 508);
 			this->textBoxMethod2RL8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL8->Name = L"textBoxMethod2RL8";
 			this->textBoxMethod2RL8->Size = System::Drawing::Size(100, 30);
@@ -1188,7 +1226,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL7
 			// 
-			this->textBoxMethod2RL7->Location = System::Drawing::Point(877, 510);
+			this->textBoxMethod2RL7->Location = System::Drawing::Point(896, 508);
 			this->textBoxMethod2RL7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL7->Name = L"textBoxMethod2RL7";
 			this->textBoxMethod2RL7->Size = System::Drawing::Size(100, 30);
@@ -1196,7 +1234,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL6
 			// 
-			this->textBoxMethod2RL6->Location = System::Drawing::Point(753, 510);
+			this->textBoxMethod2RL6->Location = System::Drawing::Point(772, 508);
 			this->textBoxMethod2RL6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL6->Name = L"textBoxMethod2RL6";
 			this->textBoxMethod2RL6->Size = System::Drawing::Size(100, 30);
@@ -1204,7 +1242,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL5
 			// 
-			this->textBoxMethod2RL5->Location = System::Drawing::Point(628, 510);
+			this->textBoxMethod2RL5->Location = System::Drawing::Point(647, 508);
 			this->textBoxMethod2RL5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL5->Name = L"textBoxMethod2RL5";
 			this->textBoxMethod2RL5->Size = System::Drawing::Size(100, 30);
@@ -1212,7 +1250,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL4
 			// 
-			this->textBoxMethod2RL4->Location = System::Drawing::Point(506, 510);
+			this->textBoxMethod2RL4->Location = System::Drawing::Point(525, 508);
 			this->textBoxMethod2RL4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL4->Name = L"textBoxMethod2RL4";
 			this->textBoxMethod2RL4->Size = System::Drawing::Size(100, 30);
@@ -1220,7 +1258,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL3
 			// 
-			this->textBoxMethod2RL3->Location = System::Drawing::Point(381, 510);
+			this->textBoxMethod2RL3->Location = System::Drawing::Point(400, 508);
 			this->textBoxMethod2RL3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL3->Name = L"textBoxMethod2RL3";
 			this->textBoxMethod2RL3->Size = System::Drawing::Size(100, 30);
@@ -1228,7 +1266,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL2
 			// 
-			this->textBoxMethod2RL2->Location = System::Drawing::Point(257, 510);
+			this->textBoxMethod2RL2->Location = System::Drawing::Point(276, 508);
 			this->textBoxMethod2RL2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL2->Name = L"textBoxMethod2RL2";
 			this->textBoxMethod2RL2->Size = System::Drawing::Size(100, 30);
@@ -1236,7 +1274,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// textBoxMethod2RL1
 			// 
-			this->textBoxMethod2RL1->Location = System::Drawing::Point(132, 510);
+			this->textBoxMethod2RL1->Location = System::Drawing::Point(151, 508);
 			this->textBoxMethod2RL1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxMethod2RL1->Name = L"textBoxMethod2RL1";
 			this->textBoxMethod2RL1->Size = System::Drawing::Size(100, 30);
@@ -1254,7 +1292,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(257, 606);
+			this->button3->Location = System::Drawing::Point(276, 604);
 			this->button3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(93, 34);
@@ -1266,7 +1304,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL2
 			// 
 			this->labelMethod2URL2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL2->Location = System::Drawing::Point(257, 567);
+			this->labelMethod2URL2->Location = System::Drawing::Point(276, 565);
 			this->labelMethod2URL2->Name = L"labelMethod2URL2";
 			this->labelMethod2URL2->Size = System::Drawing::Size(99, 36);
 			this->labelMethod2URL2->TabIndex = 199;
@@ -1285,7 +1323,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// button5
 			// 
-			this->button5->Location = System::Drawing::Point(132, 606);
+			this->button5->Location = System::Drawing::Point(151, 604);
 			this->button5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(93, 34);
@@ -1297,7 +1335,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// labelMethod2URL1
 			// 
 			this->labelMethod2URL1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelMethod2URL1->Location = System::Drawing::Point(132, 567);
+			this->labelMethod2URL1->Location = System::Drawing::Point(151, 565);
 			this->labelMethod2URL1->Name = L"labelMethod2URL1";
 			this->labelMethod2URL1->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2URL1->TabIndex = 194;
@@ -1338,6 +1376,7 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->label13);
 			this->groupBox3->Controls->Add(this->textBoxMethod3Ro);
 			this->groupBox3->Controls->Add(this->label33);
 			this->groupBox3->Controls->Add(this->button23);
@@ -1354,6 +1393,17 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->groupBox3->TabIndex = 84;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"3.半电压法";
+			// 
+			// label13
+			// 
+			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label13->ForeColor = System::Drawing::Color::Lime;
+			this->label13->Location = System::Drawing::Point(400, 128);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(145, 26);
+			this->label13->TabIndex = 307;
+			this->label13->Text = L"直流电压表3";
+			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// textBoxMethod3Ro
 			// 
@@ -1504,6 +1554,8 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			// 
 			// groupBox6
 			// 
+			this->groupBox6->Controls->Add(this->label14);
+			this->groupBox6->Controls->Add(this->label15);
 			this->groupBox6->Controls->Add(this->button24);
 			this->groupBox6->Controls->Add(this->chartTrial6);
 			this->groupBox6->Controls->Add(this->button25);
@@ -1572,6 +1624,28 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->groupBox6->TabStop = false;
 			this->groupBox6->Text = L"6.验证";
 			this->groupBox6->Enter += gcnew System::EventHandler(this, &戴维南定理实验内容::groupBox6_Enter);
+			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(-3, 650);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(145, 26);
+			this->label14->TabIndex = 309;
+			this->label14->Text = L"直流电流表2";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label15
+			// 
+			this->label15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label15->ForeColor = System::Drawing::Color::Lime;
+			this->label15->Location = System::Drawing::Point(-3, 556);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(145, 26);
+			this->label15->TabIndex = 308;
+			this->label15->Text = L"直流电压表3";
+			this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// button24
 			// 
@@ -2178,6 +2252,17 @@ private: System::Windows::Forms::TextBox^  textBoxMethod5R0;
 			this->button81->UseVisualStyleBackColor = true;
 			this->button81->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button81_Click);
 			// 
+			// button47
+			// 
+			this->button47->Location = System::Drawing::Point(759, 742);
+			this->button47->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button47->Name = L"button47";
+			this->button47->Size = System::Drawing::Size(129, 34);
+			this->button47->TabIndex = 254;
+			this->button47->Text = L"计算";
+			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button47_Click);
+			// 
 			// 戴维南定理实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -2242,43 +2327,43 @@ private: System::Void button81_Click(System::Object^  sender, System::EventArgs^
 	SendData();
 }
 private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod1Uoc->Text = global::GetU30Data();
+	labelMethod1Uoc->Text = global::GetU30_U400VData();
 }
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelMethod1Isc->Text = global::GetI500Data();
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL1->Text = global::GetU30Data();
+	labelMethod2URL1->Text = global::GetU30_U400VData();
 }
 private: System::Void labelMethod2URL2_Click(System::Object^  sender, System::EventArgs^  e) {
 
 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL2->Text = global::GetU30Data();
+	labelMethod2URL2->Text = global::GetU30_U400VData();
 }
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL3->Text = global::GetU30Data();
+	labelMethod2URL3->Text = global::GetU30_U400VData();
 }
 private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL4->Text = global::GetU30Data();
+	labelMethod2URL4->Text = global::GetU30_U400VData();
 }
 private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL5->Text = global::GetU30Data();
+	labelMethod2URL5->Text = global::GetU30_U400VData();
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL6->Text = global::GetU30Data();
+	labelMethod2URL6->Text = global::GetU30_U400VData();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL7->Text = global::GetU30Data();
+	labelMethod2URL7->Text = global::GetU30_U400VData();
 }
 private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL8->Text = global::GetU30Data();
+	labelMethod2URL8->Text = global::GetU30_U400VData();
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL9->Text = global::GetU30Data();
+	labelMethod2URL9->Text = global::GetU30_U400VData();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod2URL10->Text = global::GetU30Data();
+	labelMethod2URL10->Text = global::GetU30_U400VData();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelMethod2I1->Text = global::GetI500Data();
@@ -2311,34 +2396,34 @@ private: System::Void button13_Click(System::Object^  sender, System::EventArgs^
 	labelMethod2I10->Text = global::GetI500Data();
 }
 private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL1->Text = global::GetU30Data();
+	labelMethod6URL1->Text = global::GetU30_U400VData();
 }
 private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL2->Text = global::GetU30Data();
+	labelMethod6URL2->Text = global::GetU30_U400VData();
 }
 private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL3->Text = global::GetU30Data();
+	labelMethod6URL3->Text = global::GetU30_U400VData();
 }
 private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL4->Text = global::GetU30Data();
+	labelMethod6URL4->Text = global::GetU30_U400VData();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL6->Text = global::GetU30Data();
+	labelMethod6URL6->Text = global::GetU30_U400VData();
 }
 private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL5->Text = global::GetU30Data();
+	labelMethod6URL5->Text = global::GetU30_U400VData();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL7->Text = global::GetU30Data();
+	labelMethod6URL7->Text = global::GetU30_U400VData();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL8->Text = global::GetU30Data();
+	labelMethod6URL8->Text = global::GetU30_U400VData();
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL9->Text = global::GetU30Data();
+	labelMethod6URL9->Text = global::GetU30_U400VData();
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelMethod6URL10->Text = global::GetU30Data();
+	labelMethod6URL10->Text = global::GetU30_U400VData();
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelMethod6I2->Text = global::GetI500Data();
@@ -2380,6 +2465,18 @@ private: System::Void label37_Click(System::Object^  sender, System::EventArgs^ 
 }
 private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxMethod1Us->Text, 0, 30);
+}
+private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
+	try {
+		float Uoc =  Convert::ToSingle(labelMethod1Uoc->Text);
+		float Isc = Convert::ToSingle(labelMethod1Isc->Text);
+		textBoxMethod1Ro->Text = (Uoc / Isc).ToString();
+	}
+	catch (System::Exception ^e) {
+	
+		textBoxMethod1Ro->Text = "计算失败";
+	}
+
 }
 };
 }

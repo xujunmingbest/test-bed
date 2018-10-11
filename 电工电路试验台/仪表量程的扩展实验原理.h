@@ -145,7 +145,7 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label2->Location = System::Drawing::Point(13, 202);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(1025, 89);
+			this->label2->Size = System::Drawing::Size(1025, 86);
 			this->label2->TabIndex = 33;
 			this->label2->Text = L"    2、满量程为5mA的毫安表，最大只允许通过5mA的电流，过大的电流会造成“打针\"，甚至烧断电流线圈而损坏。要用它测量超过5mA的电流，亦即要扩大毫安表的测"
 				L"量范围，可选择一个合适的分流电阻RA与基本表并联，如图22-2所示。RA的大小可以精确算出。设：基本表满量程为Ig=5mA,基本表内阻Rg=160Ω。现要将其量"
@@ -154,7 +154,7 @@ namespace 电工电路试验台 {
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(381, 660);
+			this->pictureBox2->Location = System::Drawing::Point(381, 673);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(262, 97);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -168,7 +168,7 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label4->Location = System::Drawing::Point(13, 409);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(1025, 49);
+			this->label4->Size = System::Drawing::Size(1025, 50);
 			this->label4->TabIndex = 35;
 			this->label4->Text = L"    当用改装后的电流表来测量50mA以下的电流时，只要将基本表的读数乘以10或者直接将电表面板的满刻度刻成50mA即可。";
 			// 
@@ -179,7 +179,7 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label5->Location = System::Drawing::Point(13, 587);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(1025, 70);
+			this->label5->Size = System::Drawing::Size(1025, 83);
 			this->label5->TabIndex = 36;
 			this->label5->Text = L"    3、毫安表改装为电压表。\r\n    一只毫安表也可以改装为一只电压表，只要选择一只合适的分压电阻RV与基本表相串接即可，如图22-3所示。\r\n    设被"
 				L"测电压值为U，则：";
@@ -197,7 +197,7 @@ namespace 电工电路试验台 {
 			// pictureBox4
 			// 
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(429, 451);
+			this->pictureBox4->Location = System::Drawing::Point(426, 462);
 			this->pictureBox4->Name = L"pictureBox4";
 			this->pictureBox4->Size = System::Drawing::Size(265, 94);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -209,7 +209,7 @@ namespace 电工电路试验台 {
 			this->label6->BackColor = System::Drawing::Color::Transparent;
 			this->label6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label6->Location = System::Drawing::Point(516, 559);
+			this->label6->Location = System::Drawing::Point(521, 559);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(78, 28);
 			this->label6->TabIndex = 39;

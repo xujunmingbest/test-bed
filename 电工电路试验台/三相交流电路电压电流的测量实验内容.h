@@ -255,6 +255,7 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  label187;
 private: System::Windows::Forms::Label^  label39;
 private: System::Windows::Forms::Button^  button56;
+private: System::Windows::Forms::Label^  label40;
 
 	private:
 		/// <summary>
@@ -487,6 +488,7 @@ private: System::Windows::Forms::Button^  button56;
 			this->label187 = (gcnew System::Windows::Forms::Label());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button56 = (gcnew System::Windows::Forms::Button());
+			this->label40 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox1->SuspendLayout();
@@ -495,6 +497,7 @@ private: System::Windows::Forms::Button^  button56;
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->label40);
 			this->groupBox8->Controls->Add(this->labelTrial1_Line5_UNO);
 			this->groupBox8->Controls->Add(this->button45);
 			this->groupBox8->Controls->Add(this->labelTrial1_Line5_IO);
@@ -3302,6 +3305,17 @@ private: System::Windows::Forms::Button^  button56;
 			this->button56->UseVisualStyleBackColor = true;
 			this->button56->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button56_Click);
 			// 
+			// label40
+			// 
+			this->label40->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label40->ForeColor = System::Drawing::Color::Lime;
+			this->label40->Location = System::Drawing::Point(15, 488);
+			this->label40->Name = L"label40";
+			this->label40->Size = System::Drawing::Size(290, 96);
+			this->label40->TabIndex = 388;
+			this->label40->Text = L"提示:以下电压用交流电压表2获取，电流用交流电流表1获取";
+			this->label40->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
 			// 三相交流电路电压电流的测量实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -3337,223 +3351,223 @@ private: System::Windows::Forms::Button^  button56;
 		SendData();
 	}
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_IA->Text = global::GetI500Data();
+	labelTrial1_Line1_IA->Text = global::GetGongPingI();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_IA->Text = global::GetI500Data();
+	labelTrial1_Line2_IA->Text = global::GetGongPingI();
 }
 private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_IA->Text = global::GetI500Data();
+	labelTrial1_Line3_IA->Text = global::GetGongPingI();
 }
 private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_IA->Text = global::GetI500Data();
+	labelTrial1_Line4_IA->Text = global::GetGongPingI();
 }
 private: System::Void button55_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_IA->Text = global::GetI500Data();
+	labelTrial1_Line5_IA->Text = global::GetGongPingI();
 }
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_IB->Text = global::GetI500Data();
+	labelTrial1_Line1_IB->Text = global::GetGongPingI();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_IB->Text = global::GetI500Data();
+	labelTrial1_Line2_IB->Text = global::GetGongPingI();
 }
 private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_IB->Text = global::GetI500Data();
+	labelTrial1_Line3_IB->Text = global::GetGongPingI();
 }
 private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_IB->Text = global::GetI500Data();
+	labelTrial1_Line4_IB->Text = global::GetGongPingI();
 }
 private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_IB->Text = global::GetI500Data();
+	labelTrial1_Line5_IB->Text = global::GetGongPingI();
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_IC->Text = global::GetI500Data();
+	labelTrial1_Line1_IC->Text = global::GetGongPingI();
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_IC->Text = global::GetI500Data();
+	labelTrial1_Line2_IC->Text = global::GetGongPingI();
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_IC->Text = global::GetI500Data();
+	labelTrial1_Line3_IC->Text = global::GetGongPingI();
 }
 private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_IC->Text = global::GetI500Data();
+	labelTrial1_Line4_IC->Text = global::GetGongPingI();
 }
 private: System::Void button53_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_IC->Text = global::GetI500Data();
+	labelTrial1_Line5_IC->Text = global::GetGongPingI();
 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_UAB->Text = global::GetU30Data();
+	labelTrial1_Line1_UAB->Text = global::GetGongPingU();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_UAB->Text = global::GetU30Data();
+	labelTrial1_Line2_UAB->Text = global::GetGongPingU();
 }
 private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_UAB->Text = global::GetU30Data();
+	labelTrial1_Line3_UAB->Text = global::GetGongPingU();
 }
 private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_UAB->Text = global::GetU30Data();
+	labelTrial1_Line4_UAB->Text = global::GetGongPingU();
 }
 private: System::Void button52_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_UAB->Text = global::GetU30Data();
+	labelTrial1_Line5_UAB->Text = global::GetGongPingU();
 }
 private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_UBC->Text = global::GetU30Data();
+	labelTrial1_Line1_UBC->Text = global::GetGongPingU();
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_UBC->Text = global::GetU30Data();
+	labelTrial1_Line2_UBC->Text = global::GetGongPingU();
 }
 private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_UBC->Text = global::GetU30Data();
+	labelTrial1_Line3_UBC->Text = global::GetGongPingU();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_UBC->Text = global::GetU30Data();
+	labelTrial1_Line4_UBC->Text = global::GetGongPingU();
 }
 private: System::Void button51_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_UBC->Text = global::GetU30Data();
+	labelTrial1_Line5_UBC->Text = global::GetGongPingU();
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_UCA->Text = global::GetU30Data();
+	labelTrial1_Line1_UCA->Text = global::GetGongPingU();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_UCA->Text = global::GetU30Data();
+	labelTrial1_Line2_UCA->Text = global::GetGongPingU();
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_UCA->Text = global::GetU30Data();
+	labelTrial1_Line3_UCA->Text = global::GetGongPingU();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_UCA->Text = global::GetU30Data();
+	labelTrial1_Line4_UCA->Text = global::GetGongPingU();
 }
 private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_UCA->Text = global::GetU30Data();
+	labelTrial1_Line5_UCA->Text = global::GetGongPingU();
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_UAO->Text = global::GetU30Data();
+	labelTrial1_Line1_UAO->Text = global::GetGongPingU();
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_UAO->Text = global::GetU30Data();
+	labelTrial1_Line2_UAO->Text = global::GetGongPingU();
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_UAO->Text = global::GetU30Data();
+	labelTrial1_Line3_UAO->Text = global::GetGongPingU();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_UAO->Text = global::GetU30Data();
+	labelTrial1_Line4_UAO->Text = global::GetGongPingU();
 }
 private: System::Void button49_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_UAO->Text = global::GetU30Data();
+	labelTrial1_Line5_UAO->Text = global::GetGongPingU();
 }
 private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_UBO->Text = global::GetU30Data();
+	labelTrial1_Line1_UBO->Text = global::GetGongPingU();
 }
 private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_UBO->Text = global::GetU30Data();
+	labelTrial1_Line2_UBO->Text = global::GetGongPingU();
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_UBO->Text = global::GetU30Data();
+	labelTrial1_Line3_UBO->Text = global::GetGongPingU();
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_UBO->Text = global::GetU30Data();
+	labelTrial1_Line4_UBO->Text = global::GetGongPingU();
 }
 private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_UBO->Text = global::GetU30Data();
+	labelTrial1_Line5_UBO->Text = global::GetGongPingU();
 }
 private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_UCO->Text = global::GetU30Data();
+	labelTrial1_Line1_UCO->Text = global::GetGongPingU();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_IO->Text = global::GetI500Data();
+	labelTrial1_Line1_IO->Text = global::GetGongPingI();
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_UCO->Text = global::GetU30Data();
+	labelTrial1_Line2_UCO->Text = global::GetGongPingU();
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_UCO->Text = global::GetU30Data();
+	labelTrial1_Line3_UCO->Text = global::GetGongPingU();
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_UCO->Text = global::GetU30Data();
+	labelTrial1_Line4_UCO->Text = global::GetGongPingU();
 }
 private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_UCO->Text = global::GetU30Data();
+	labelTrial1_Line5_UCO->Text = global::GetGongPingU();
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_IO->Text = global::GetI500Data();
+	labelTrial1_Line2_IO->Text = global::GetGongPingI();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_IO->Text = global::GetI500Data();
+	labelTrial1_Line3_IO->Text = global::GetGongPingI();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_IO->Text = global::GetI500Data();
+	labelTrial1_Line4_IO->Text = global::GetGongPingI();
 }
 private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_IO->Text = global::GetI500Data();
+	labelTrial1_Line5_IO->Text = global::GetGongPingI();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line1_UNO->Text = global::GetI500Data();
+	labelTrial1_Line1_UNO->Text = global::GetGongPingI();
 }
 private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line5_UNO->Text = global::GetI500Data();
+	labelTrial1_Line5_UNO->Text = global::GetGongPingI();
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line2_UNO->Text = global::GetI500Data();
+	labelTrial1_Line2_UNO->Text = global::GetGongPingI();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line3_UNO->Text = global::GetI500Data();
+	labelTrial1_Line3_UNO->Text = global::GetGongPingI();
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_Line4_UNO->Text = global::GetI500Data();
+	labelTrial1_Line4_UNO->Text = global::GetGongPingI();
 }
 private: System::Void button110_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_UAB->Text = global::GetU30Data();
+	labelTrial2_Line1_UAB->Text = global::GetGongPingU();
 }
 private: System::Void button99_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_UAB->Text = global::GetU30Data();
+	labelTrial2_Line2_UAB->Text = global::GetGongPingU();
 }
 private: System::Void button109_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_UBC->Text = global::GetU30Data();
+	labelTrial2_Line1_UBC->Text = global::GetGongPingU();
 }
 private: System::Void button98_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_UBC->Text = global::GetU30Data();
+	labelTrial2_Line2_UBC->Text = global::GetGongPingU();
 }
 private: System::Void button108_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_UCA->Text = global::GetU30Data();
+	labelTrial2_Line1_UCA->Text = global::GetGongPingU();
 }
 private: System::Void button97_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_UCA->Text = global::GetU30Data();
+	labelTrial2_Line2_UCA->Text = global::GetGongPingU();
 }
 private: System::Void button107_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_IA->Text = global::GetI500Data();
+	labelTrial2_Line1_IA->Text = global::GetGongPingI();
 }
 private: System::Void button96_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_IA->Text = global::GetI500Data();
+	labelTrial2_Line2_IA->Text = global::GetGongPingI();
 }
 private: System::Void button106_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_IB->Text = global::GetI500Data();
+	labelTrial2_Line1_IB->Text = global::GetGongPingI();
 }
 private: System::Void button95_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_IB->Text = global::GetI500Data();
+	labelTrial2_Line2_IB->Text = global::GetGongPingI();
 }
 private: System::Void button105_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_IC->Text = global::GetI500Data();
+	labelTrial2_Line1_IC->Text = global::GetGongPingI();
 }
 private: System::Void button94_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_IC->Text = global::GetI500Data();
+	labelTrial2_Line2_IC->Text = global::GetGongPingI();
 }
 private: System::Void button104_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_IAB->Text = global::GetI500Data();
+	labelTrial2_Line1_IAB->Text = global::GetGongPingI();
 }
 private: System::Void button93_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_IAB->Text = global::GetI500Data();
+	labelTrial2_Line2_IAB->Text = global::GetGongPingI();
 }
 private: System::Void button103_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_IBC->Text = global::GetI500Data();
+	labelTrial2_Line1_IBC->Text = global::GetGongPingI();
 }
 private: System::Void button92_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_IBC->Text = global::GetI500Data();
+	labelTrial2_Line2_IBC->Text = global::GetGongPingI();
 }
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_ICA->Text = global::GetI500Data();
+	labelTrial2_Line1_ICA->Text = global::GetGongPingI();
 }
 private: System::Void button91_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_ICA->Text = global::GetI500Data();
+	labelTrial2_Line2_ICA->Text = global::GetGongPingI();
 }
 };
 }

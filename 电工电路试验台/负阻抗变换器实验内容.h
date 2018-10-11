@@ -1593,22 +1593,22 @@ private: System::Void button2_Click(System::Object^  sender, System::EventArgs^ 
 	//labelTrial1_600_I1->Text = global::GetI500Data();
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_300_U1_1->Text = global::GetU30Data();
+	labelTrial1_300_U1_1->Text = global::GetU30_U400VData();
 }
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_300_U1_2->Text = global::GetU30Data();
+	labelTrial1_300_U1_2->Text = global::GetU30_U400VData();
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_300_U1_3->Text = global::GetU30Data();
+	labelTrial1_300_U1_3->Text = global::GetU30_U400VData();
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_300_U1_4->Text = global::GetU30Data();
+	labelTrial1_300_U1_4->Text = global::GetU30_U400VData();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_300_U1_5->Text = global::GetU30Data();
+	labelTrial1_300_U1_5->Text = global::GetU30_U400VData();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_300_U1_6->Text = global::GetU30Data();
+	labelTrial1_300_U1_6->Text = global::GetU30_U400VData();
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial1_300_I1_1->Text = global::GetI500Data();
@@ -1629,22 +1629,22 @@ private: System::Void button13_Click(System::Object^  sender, System::EventArgs^
 	labelTrial1_300_I1_6->Text = global::GetI500Data();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_600_U1_1->Text = global::GetU30Data();
+	labelTrial1_600_U1_1->Text = global::GetU30_U400VData();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_600_U1_2->Text = global::GetU30Data();
+	labelTrial1_600_U1_2->Text = global::GetU30_U400VData();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_600_U1_3->Text = global::GetU30Data();
+	labelTrial1_600_U1_3->Text = global::GetU30_U400VData();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_600_U1_4->Text = global::GetU30Data();
+	labelTrial1_600_U1_4->Text = global::GetU30_U400VData();
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_600_U1_5->Text = global::GetU30Data();
+	labelTrial1_600_U1_5->Text = global::GetU30_U400VData();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_600_U1_6->Text = global::GetU30Data();
+	labelTrial1_600_U1_6->Text = global::GetU30_U400VData();
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial1_600_I1_1->Text = global::GetI500Data();

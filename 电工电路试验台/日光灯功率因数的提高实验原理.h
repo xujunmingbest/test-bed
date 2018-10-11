@@ -122,7 +122,7 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label2->Location = System::Drawing::Point(13, 243);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(940, 56);
+			this->label2->Size = System::Drawing::Size(940, 76);
 			this->label2->TabIndex = 35;
 			this->label2->Text = L"    2．如图17-1所示的RC串联电路，在正弦稳态信号U的激励下，UR与Uc保持有90 O的相位差，即当阻值R改变时，UR的相量轨迹是一个半圆，U、UC与UR"
 				L"三者形成一个直角形的电压三角形。R值改变时，可改变φ角的大小，从而达到移相的目的。";

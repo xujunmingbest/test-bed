@@ -360,6 +360,10 @@ private: System::Windows::Forms::Label^  label106;
 private: System::Windows::Forms::Button^  button81;
 private: System::Windows::Forms::TextBox^  textBox结论;
 private: System::Windows::Forms::Label^  label105;
+private: System::Windows::Forms::PictureBox^  pictureBox1;
+private: System::Windows::Forms::Label^  label35;
+private: System::Windows::Forms::Label^  label34;
+private: System::Windows::Forms::Label^  label33;
 
 
 	protected:
@@ -429,9 +433,9 @@ private: System::Windows::Forms::Label^  label105;
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(RLC元件阻抗特性的测定实验内容::typeid));
 			this->chartTrial3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->label1 = (gcnew System::Windows::Forms::Label());
@@ -606,6 +610,10 @@ private: System::Windows::Forms::Label^  label105;
 			this->button81 = (gcnew System::Windows::Forms::Button());
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label105 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->label33 = (gcnew System::Windows::Forms::Label());
+			this->label34 = (gcnew System::Windows::Forms::Label());
+			this->label35 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3))->BeginInit();
 			this->groupBox8->SuspendLayout();
 			this->groupBox1->SuspendLayout();
@@ -618,20 +626,21 @@ private: System::Windows::Forms::Label^  label105;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_3))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_1))->BeginInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// chartTrial3
 			// 
-			chartArea1->Name = L"ChartArea1";
-			this->chartTrial3->ChartAreas->Add(chartArea1);
-			legend1->Name = L"Legend1";
-			this->chartTrial3->Legends->Add(legend1);
+			chartArea3->Name = L"ChartArea1";
+			this->chartTrial3->ChartAreas->Add(chartArea3);
+			legend3->Name = L"Legend1";
+			this->chartTrial3->Legends->Add(legend3);
 			this->chartTrial3->Location = System::Drawing::Point(314, 340);
 			this->chartTrial3->Name = L"chartTrial3";
-			series1->ChartArea = L"ChartArea1";
-			series1->Legend = L"Legend1";
-			series1->Name = L"Series1";
-			this->chartTrial3->Series->Add(series1);
+			series3->ChartArea = L"ChartArea1";
+			series3->Legend = L"Legend1";
+			series3->Name = L"Series1";
+			this->chartTrial3->Series->Add(series3);
 			this->chartTrial3->Size = System::Drawing::Size(590, 406);
 			this->chartTrial3->TabIndex = 26;
 			this->chartTrial3->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::chart1_Click);
@@ -642,7 +651,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label1->ForeColor = System::Drawing::Color::Red;
-			this->label1->Location = System::Drawing::Point(444, 20);
+			this->label1->Location = System::Drawing::Point(460, 38);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(406, 25);
 			this->label1->TabIndex = 1;
@@ -650,6 +659,10 @@ private: System::Windows::Forms::Label^  label105;
 			// 
 			// groupBox8
 			// 
+			this->groupBox8->Controls->Add(this->label35);
+			this->groupBox8->Controls->Add(this->label34);
+			this->groupBox8->Controls->Add(this->label33);
+			this->groupBox8->Controls->Add(this->pictureBox1);
 			this->groupBox8->Controls->Add(this->labelTrial1_C_IC6);
 			this->groupBox8->Controls->Add(this->labelTrial1_C_IC5);
 			this->groupBox8->Controls->Add(this->labelTrial1_C_IC4);
@@ -751,9 +764,9 @@ private: System::Windows::Forms::Label^  label105;
 			this->groupBox8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox8->ForeColor = System::Drawing::Color::Red;
-			this->groupBox8->Location = System::Drawing::Point(45, 85);
+			this->groupBox8->Location = System::Drawing::Point(47, 106);
 			this->groupBox8->Name = L"groupBox8";
-			this->groupBox8->Size = System::Drawing::Size(1296, 891);
+			this->groupBox8->Size = System::Drawing::Size(1296, 1301);
 			this->groupBox8->TabIndex = 81;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"RLC元件阻抗特性的测定 实验内容1";
@@ -1745,7 +1758,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->groupBox1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
-			this->groupBox1->Location = System::Drawing::Point(45, 993);
+			this->groupBox1->Location = System::Drawing::Point(47, 1424);
 			this->groupBox1->Name = L"groupBox1";
 			this->groupBox1->Size = System::Drawing::Size(1296, 1128);
 			this->groupBox1->TabIndex = 82;
@@ -1878,7 +1891,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->groupBox2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox2->ForeColor = System::Drawing::Color::Red;
-			this->groupBox2->Location = System::Drawing::Point(45, 2156);
+			this->groupBox2->Location = System::Drawing::Point(47, 2587);
 			this->groupBox2->Name = L"groupBox2";
 			this->groupBox2->Size = System::Drawing::Size(1315, 4004);
 			this->groupBox2->TabIndex = 83;
@@ -2503,7 +2516,7 @@ private: System::Windows::Forms::Label^  label105;
 			this->label106->BackColor = System::Drawing::Color::SkyBlue;
 			this->label106->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label106->Location = System::Drawing::Point(25, 6261);
+			this->label106->Location = System::Drawing::Point(27, 6692);
 			this->label106->Name = L"label106";
 			this->label106->Size = System::Drawing::Size(1314, 52);
 			this->label106->TabIndex = 189;
@@ -2512,18 +2525,19 @@ private: System::Windows::Forms::Label^  label105;
 			// 
 			// button81
 			// 
-			this->button81->Location = System::Drawing::Point(579, 6219);
+			this->button81->Location = System::Drawing::Point(581, 6650);
 			this->button81->Name = L"button81";
 			this->button81->Size = System::Drawing::Size(195, 39);
 			this->button81->TabIndex = 188;
 			this->button81->Text = L"成绩完成并上传";
 			this->button81->UseVisualStyleBackColor = true;
+			this->button81->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button81_Click_1);
 			// 
 			// textBox结论
 			// 
 			this->textBox结论->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBox结论->Location = System::Drawing::Point(202, 6172);
+			this->textBox结论->Location = System::Drawing::Point(204, 6603);
 			this->textBox结论->Name = L"textBox结论";
 			this->textBox结论->Size = System::Drawing::Size(1137, 28);
 			this->textBox结论->TabIndex = 187;
@@ -2533,11 +2547,54 @@ private: System::Windows::Forms::Label^  label105;
 			this->label105->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label105->ForeColor = System::Drawing::Color::Black;
-			this->label105->Location = System::Drawing::Point(53, 6175);
+			this->label105->Location = System::Drawing::Point(55, 6606);
 			this->label105->Name = L"label105";
 			this->label105->Size = System::Drawing::Size(95, 25);
 			this->label105->TabIndex = 186;
 			this->label105->Text = L"实验结论";
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(253, 884);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(704, 365);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
+			this->pictureBox1->TabIndex = 145;
+			this->pictureBox1->TabStop = false;
+			// 
+			// label33
+			// 
+			this->label33->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label33->ForeColor = System::Drawing::Color::Lime;
+			this->label33->Location = System::Drawing::Point(66, 250);
+			this->label33->Name = L"label33";
+			this->label33->Size = System::Drawing::Size(204, 28);
+			this->label33->TabIndex = 377;
+			this->label33->Text = L"宽屏测试交流RMS1表";
+			this->label33->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label34
+			// 
+			this->label34->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label34->ForeColor = System::Drawing::Color::Lime;
+			this->label34->Location = System::Drawing::Point(66, 465);
+			this->label34->Name = L"label34";
+			this->label34->Size = System::Drawing::Size(204, 28);
+			this->label34->TabIndex = 378;
+			this->label34->Text = L"宽屏测试交流RMS1表";
+			this->label34->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label35
+			// 
+			this->label35->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label35->ForeColor = System::Drawing::Color::Lime;
+			this->label35->Location = System::Drawing::Point(73, 684);
+			this->label35->Name = L"label35";
+			this->label35->Size = System::Drawing::Size(204, 28);
+			this->label35->TabIndex = 379;
+			this->label35->Text = L"宽屏测试交流RMS1表";
+			this->label35->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// RLC元件阻抗特性的测定实验内容
 			// 
@@ -2572,6 +2629,7 @@ private: System::Windows::Forms::Label^  label105;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_3))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_1))->EndInit();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -2739,58 +2797,58 @@ private: System::Void button25_Click(System::Object^  sender, System::EventArgs^
 }
 
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_R_Ur1->Text = global::GetU30Data();
+	labelTrial1_R_Ur1->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_R_Ur2->Text = global::GetU30Data();
+	labelTrial1_R_Ur2->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_R_Ur3->Text = global::GetU30Data();
+	labelTrial1_R_Ur3->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_R_Ur4->Text = global::GetU30Data();
+	labelTrial1_R_Ur4->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_R_Ur5->Text = global::GetU30Data();
+	labelTrial1_R_Ur5->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_R_Ur6->Text = global::GetU30Data();
+	labelTrial1_R_Ur6->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_L_Ur1->Text = global::GetU30Data();
+	labelTrial1_L_Ur1->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_L_Ur2->Text = global::GetU30Data();
+	labelTrial1_L_Ur2->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_L_Ur3->Text = global::GetU30Data();
+	labelTrial1_L_Ur3->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_L_Ur4->Text = global::GetU30Data();
+	labelTrial1_L_Ur4->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_L_Ur5->Text = global::GetU30Data();
+	labelTrial1_L_Ur5->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_L_Ur6->Text = global::GetU30Data();
+	labelTrial1_L_Ur6->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_C_Ur1->Text = global::GetU30Data();
+	labelTrial1_C_Ur1->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_C_Ur2->Text = global::GetU30Data();
+	labelTrial1_C_Ur2->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_C_Ur3->Text = global::GetU30Data();
+	labelTrial1_C_Ur3->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_C_Ur4->Text = global::GetU30Data();
+	labelTrial1_C_Ur4->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_C_Ur5->Text = global::GetU30Data();
+	labelTrial1_C_Ur5->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_C_Ur6->Text = global::GetU30Data();
+	labelTrial1_C_Ur6->Text = global::GetKuangPingURMS1();
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
 	chartTrial3oad();
@@ -2842,6 +2900,9 @@ private: System::Void button33_Click(System::Object^  sender, System::EventArgs^
 		return;
 	}
 	pictureBoxTrial3_5->ImageLocation = Trial3_5PT_name;
+}
+private: System::Void button81_Click_1(System::Object^  sender, System::EventArgs^  e) {
+	SendData();
 }
 };
 }

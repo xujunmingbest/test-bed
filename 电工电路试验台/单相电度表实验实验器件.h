@@ -70,17 +70,18 @@ namespace 电工电路试验台 {
 			// 
 			// listView1
 			// 
-			this->listView1->BackColor = System::Drawing::Color::Silver;
+			this->listView1->BackColor = System::Drawing::Color::Gainsboro;
 			this->listView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::ColumnHeader^  >(4) {
 				this->columnHeader1, this->columnHeader2,
 					this->columnHeader3, this->columnHeader4
 			});
 			this->listView1->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
+			this->listView1->FullRowSelect = true;
 			this->listView1->GridLines = true;
-			this->listView1->Location = System::Drawing::Point(59, 244);
+			this->listView1->Location = System::Drawing::Point(33, 136);
 			this->listView1->Name = L"listView1";
-			this->listView1->Size = System::Drawing::Size(888, 408);
+			this->listView1->Size = System::Drawing::Size(888, 542);
 			this->listView1->SmallImageList = this->imageList1;
 			this->listView1->TabIndex = 3;
 			this->listView1->UseCompatibleStateImageBehavior = false;
@@ -128,24 +129,35 @@ namespace 电工电路试验台 {
 #pragma endregion
 	private: System::Void 单相电度表实验实验器件_Load(System::Object^  sender, System::EventArgs^  e) {
 		listView1->Items->Add("1");
-		listView1->Items[0]->SubItems->Add("电度表");
+		listView1->Items[0]->SubItems->Add("测量仪表");
 		listView1->Items[0]->SubItems->Add("");
-		listView1->Items[0]->SubItems->Add("DG03");
+		listView1->Items[0]->SubItems->Add("CL04(智能电参数仪)");
 
 		listView1->Items->Add("2");
-		listView1->Items[1]->SubItems->Add("智能测量仪表");
 		listView1->Items[1]->SubItems->Add("");
-		listView1->Items[1]->SubItems->Add("选配");
+		listView1->Items[1]->SubItems->Add("");
+		listView1->Items[1]->SubItems->Add("CL02(AC5A、AC500V、功率、功率因数)");
 
 		listView1->Items->Add("3");
-		listView1->Items[2]->SubItems->Add("灯炮负载");
+		listView1->Items[2]->SubItems->Add("电度表");
 		listView1->Items[2]->SubItems->Add("");
 		listView1->Items[2]->SubItems->Add("DG03");
 
 		listView1->Items->Add("4");
-		listView1->Items[3]->SubItems->Add("秒表");
+		listView1->Items[3]->SubItems->Add("白炽灯");
 		listView1->Items[3]->SubItems->Add("");
-		listView1->Items[3]->SubItems->Add("自备");
+		listView1->Items[3]->SubItems->Add("DG03");
+
+		listView1->Items->Add("5");
+		listView1->Items[4]->SubItems->Add("秒表");
+		listView1->Items[4]->SubItems->Add("");
+		listView1->Items[4]->SubItems->Add("自备");
+
+
+		listView1->Items->Add("6");
+		listView1->Items[5]->SubItems->Add("总电源控制箱");
+		listView1->Items[5]->SubItems->Add("含三相调压器");
+		listView1->Items[5]->SubItems->Add("DY01");
 
 		for (int i = 0; i < 4; i++) {
 			listView1->Columns[i]->Width = -2;

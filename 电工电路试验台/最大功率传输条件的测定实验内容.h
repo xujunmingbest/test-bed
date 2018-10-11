@@ -505,6 +505,14 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL3;
 private: System::Windows::Forms::TextBox^  textBoxTrial2_PL2;
 
 private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
+private: System::Windows::Forms::Label^  label3;
+private: System::Windows::Forms::PictureBox^  pictureBox2;
+private: System::Windows::Forms::Label^  label4;
+private: System::Windows::Forms::Label^  label13;
+private: System::Windows::Forms::Label^  label14;
+private: System::Windows::Forms::Label^  label5;
+private: System::Windows::Forms::Label^  label6;
+private: System::Windows::Forms::Label^  label8;
 
 
 
@@ -524,7 +532,10 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(最大功率传输条件的测定实验内容::typeid));
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->textBoxtrial1_Po9 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxtrial1_Po8 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxtrial1_Po7 = (gcnew System::Windows::Forms::TextBox());
@@ -708,12 +719,24 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
 			this->button81 = (gcnew System::Windows::Forms::Button());
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label105 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->groupBox2->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Controls->Add(this->label4);
+			this->groupBox1->Controls->Add(this->label13);
+			this->groupBox1->Controls->Add(this->label14);
+			this->groupBox1->Controls->Add(this->label3);
+			this->groupBox1->Controls->Add(this->pictureBox2);
 			this->groupBox1->Controls->Add(this->textBoxtrial1_Po9);
 			this->groupBox1->Controls->Add(this->textBoxtrial1_Po8);
 			this->groupBox1->Controls->Add(this->textBoxtrial1_Po7);
@@ -808,11 +831,32 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
 			this->groupBox1->Location = System::Drawing::Point(34, 36);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(1204, 697);
+			this->groupBox1->Size = System::Drawing::Size(1469, 697);
 			this->groupBox1->TabIndex = 83;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"实验内容一";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &最大功率传输条件的测定实验内容::groupBox1_Enter);
+			// 
+			// label3
+			// 
+			this->label3->BackColor = System::Drawing::Color::Transparent;
+			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label3->Location = System::Drawing::Point(1254, 451);
+			this->label3->Name = L"label3";
+			this->label3->Size = System::Drawing::Size(74, 31);
+			this->label3->TabIndex = 368;
+			this->label3->Text = L"图10.2";
+			// 
+			// pictureBox2
+			// 
+			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
+			this->pictureBox2->Location = System::Drawing::Point(1142, 213);
+			this->pictureBox2->Name = L"pictureBox2";
+			this->pictureBox2->Size = System::Drawing::Size(300, 199);
+			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
+			this->pictureBox2->TabIndex = 367;
+			this->pictureBox2->TabStop = false;
 			// 
 			// textBoxtrial1_Po9
 			// 
@@ -1723,6 +1767,9 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->label5);
+			this->groupBox2->Controls->Add(this->label6);
+			this->groupBox2->Controls->Add(this->label8);
 			this->groupBox2->Controls->Add(this->textBoxtrial2_Po9);
 			this->groupBox2->Controls->Add(this->textBoxtrial2_Po8);
 			this->groupBox2->Controls->Add(this->textBoxtrial2_Po7);
@@ -2772,6 +2819,72 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
 			this->label105->Text = L"实验结论";
 			this->label105->Click += gcnew System::EventHandler(this, &最大功率传输条件的测定实验内容::label105_Click);
 			// 
+			// label13
+			// 
+			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label13->ForeColor = System::Drawing::Color::Lime;
+			this->label13->Location = System::Drawing::Point(-7, 317);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(145, 26);
+			this->label13->TabIndex = 370;
+			this->label13->Text = L"直流电流表2";
+			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(-7, 418);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(145, 26);
+			this->label14->TabIndex = 369;
+			this->label14->Text = L"直流电压表3";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label4
+			// 
+			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label4->ForeColor = System::Drawing::Color::Lime;
+			this->label4->Location = System::Drawing::Point(-7, 580);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(145, 26);
+			this->label4->TabIndex = 371;
+			this->label4->Text = L"直流电压表3";
+			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label5
+			// 
+			this->label5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label5->ForeColor = System::Drawing::Color::Lime;
+			this->label5->Location = System::Drawing::Point(-7, 598);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(145, 26);
+			this->label5->TabIndex = 378;
+			this->label5->Text = L"直流电压表3";
+			this->label5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label6
+			// 
+			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label6->ForeColor = System::Drawing::Color::Lime;
+			this->label6->Location = System::Drawing::Point(-7, 315);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(145, 26);
+			this->label6->TabIndex = 377;
+			this->label6->Text = L"直流电流表2";
+			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label8
+			// 
+			this->label8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label8->ForeColor = System::Drawing::Color::Lime;
+			this->label8->Location = System::Drawing::Point(-7, 416);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(145, 26);
+			this->label8->TabIndex = 376;
+			this->label8->Text = L"直流电压表3";
+			this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
 			// 最大功率传输条件的测定实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -2789,6 +2902,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
 			this->Text = L"最大功率传输条件的测定实验内容";
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->groupBox2->ResumeLayout(false);
 			this->groupBox2->PerformLayout();
 			this->ResumeLayout(false);
@@ -2799,7 +2913,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_PL1;
 	private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs^  e) {
 	}
 	private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-		labelTrial1_IUL7->Text = global::GetU30Data();
+		labelTrial1_IUL7->Text = global::GetU30_U400VData();
 	}
 			  public:ST_最大功率传输条件的测定 Load_Grade_data();
 					 void SendData();
@@ -2840,67 +2954,67 @@ private: System::Void button9_Click(System::Object^  sender, System::EventArgs^ 
 	labelTrial1_I9->Text = global::GetI500Data();
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL1->Text = global::GetU30Data();
+	labelTrial1_IUL1->Text = global::GetU30_U400VData();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL2->Text = global::GetU30Data();
+	labelTrial1_IUL2->Text = global::GetU30_U400VData();
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL3->Text = global::GetU30Data();
+	labelTrial1_IUL3->Text = global::GetU30_U400VData();
 }
 private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL4->Text = global::GetU30Data();
+	labelTrial1_IUL4->Text = global::GetU30_U400VData();
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL5->Text = global::GetU30Data();
+	labelTrial1_IUL5->Text = global::GetU30_U400VData();
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL6->Text = global::GetU30Data();
+	labelTrial1_IUL6->Text = global::GetU30_U400VData();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL8->Text = global::GetU30Data();
+	labelTrial1_IUL8->Text = global::GetU30_U400VData();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_IUL9->Text = global::GetU30Data();
+	labelTrial1_IUL9->Text = global::GetU30_U400VData();
 }
 private: System::Void button74_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
 
-	labelTrial2_Uo3->Text = global::GetU30Data();
+	labelTrial2_Uo3->Text = global::GetU30_U400VData();
 }
 private: System::Void button65_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo8->Text = global::GetU30Data();
+	labelTrial2_Uo8->Text = global::GetU30_U400VData();
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
 
-	textBoxtrial1_Po8->Text = global::GetU30Data();
+	textBoxtrial1_Po8->Text = global::GetU30_U400VData();
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po1->Text = global::GetU30Data();
+	textBoxtrial1_Po1->Text = global::GetU30_U400VData();
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po2->Text = global::GetU30Data();
+	textBoxtrial1_Po2->Text = global::GetU30_U400VData();
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po3->Text = global::GetU30Data();
+	textBoxtrial1_Po3->Text = global::GetU30_U400VData();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po4->Text = global::GetU30Data();
+	textBoxtrial1_Po4->Text = global::GetU30_U400VData();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po5->Text = global::GetU30Data();
+	textBoxtrial1_Po5->Text = global::GetU30_U400VData();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po6->Text = global::GetU30Data();
+	textBoxtrial1_Po6->Text = global::GetU30_U400VData();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po7->Text = global::GetU30Data();
+	textBoxtrial1_Po7->Text = global::GetU30_U400VData();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po9->Text = global::GetU30Data();
+	textBoxtrial1_Po9->Text = global::GetU30_U400VData();
 }
 private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
 	labeltrial2_I1->Text = global::GetI500Data();
@@ -2930,52 +3044,52 @@ private: System::Void button46_Click(System::Object^  sender, System::EventArgs^
 	labeltrial2_I9->Text = global::GetI500Data();
 }
 private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL1->Text = global::GetU30Data();
+	labeltrial2_UL1->Text = global::GetU30_U400VData();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo2->Text = global::GetU30Data();
+	labelTrial2_Uo2->Text = global::GetU30_U400VData();
 }
 private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL2->Text = global::GetU30Data();
+	labeltrial2_UL2->Text = global::GetU30_U400VData();
 }
 private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL3->Text = global::GetU30Data();
+	labeltrial2_UL3->Text = global::GetU30_U400VData();
 }
 private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL4->Text = global::GetU30Data();
+	labeltrial2_UL4->Text = global::GetU30_U400VData();
 }
 private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL5->Text = global::GetU30Data();
+	labeltrial2_UL5->Text = global::GetU30_U400VData();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL6->Text = global::GetU30Data();
+	labeltrial2_UL6->Text = global::GetU30_U400VData();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL7->Text = global::GetU30Data();
+	labeltrial2_UL7->Text = global::GetU30_U400VData();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL8->Text = global::GetU30Data();
+	labeltrial2_UL8->Text = global::GetU30_U400VData();
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labeltrial2_UL9->Text = global::GetU30Data();
+	labeltrial2_UL9->Text = global::GetU30_U400VData();
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo1->Text = global::GetU30Data();
+	labelTrial2_Uo1->Text = global::GetU30_U400VData();
 }
 private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo4->Text = global::GetU30Data();
+	labelTrial2_Uo4->Text = global::GetU30_U400VData();
 }
 private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo5->Text = global::GetU30Data();
+	labelTrial2_Uo5->Text = global::GetU30_U400VData();
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo6->Text = global::GetU30Data();
+	labelTrial2_Uo6->Text = global::GetU30_U400VData();
 }
 private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo7->Text = global::GetU30Data();
+	labelTrial2_Uo7->Text = global::GetU30_U400VData();
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Uo9->Text = global::GetU30Data();
+	labelTrial2_Uo9->Text = global::GetU30_U400VData();
 }
 };
 }

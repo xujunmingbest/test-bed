@@ -12,7 +12,17 @@ using namespace System::Threading;
 void main(){
 
 	global::SystemStart(); //控制电源模块
-
+	
+	/*
+	while (1) {
+		Sleep(1000);
+		S_PLCRecv pr;
+		if (!global::sh->GetliKongData(&pr))
+		{
+			MessageBox::Show("获取力控数据失败,请检串口连接是不是正常");
+		}
+		cout << pr.COS << endl;
+	}*/
 	Application::Run(gcnew 主窗体);
 	global::SystemShortDown();
 

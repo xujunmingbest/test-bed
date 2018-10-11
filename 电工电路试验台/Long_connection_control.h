@@ -6,7 +6,11 @@
 ************/
 #include "E:/c++/libsocket/libsocket/libsocket.h"
 #include "tool/gradeSubmit.h"
+#include <vector>
+using namespace std;
 #pragma pack(push,1)
+
+extern vector<ClassElement> g_ClassList;
 struct Long_connection_Head {
 	char req[50]; // CAPTURE|STOPTRIAL|FORCESENDGRADE
 	char reply[50]; // CAPTURE|STOPTRIAL|FORCESENDGRADE
@@ -33,6 +37,7 @@ static map<int, string> Long_connection_Req = {
 	{ 4,"SENDCOMPUTERINFO" }, // 发送自己的机台信息
 	{ 5,"RECOVERTRIAL" }, // 恢复实验
 	{ 6,"GETNOWTRIAL" },// 获取当前实验内容信息
+	{ 7,"GETSTUDENTLIST" },// 获取当前学生列表
 };
 
 class Long_connection_control {
@@ -45,6 +50,8 @@ public :
 
 	void SendComputerInfo(string trialStatus);
 	void SendBack_NowTrial(string &trialName);
+	void GetStudentList();
+
 };
 
 extern Long_connection_control lcc;

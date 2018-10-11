@@ -409,16 +409,24 @@ private: System::Windows::Forms::Button^  button22;
 private: System::Windows::Forms::Button^  button21;
 private: System::Windows::Forms::Button^  button7;
 private: System::Windows::Forms::Label^  label16;
-private: System::Windows::Forms::Label^  label15;
-private: System::Windows::Forms::Label^  label14;
-private: System::Windows::Forms::Label^  label13;
+private: System::Windows::Forms::Label^  labelLine4UBC;
+
+private: System::Windows::Forms::Label^  labelLine4UAB;
+
+private: System::Windows::Forms::Label^  labelLine4UFA;
+
 
 private: System::Windows::Forms::Label^  label11;
-private: System::Windows::Forms::Label^  label10;
-private: System::Windows::Forms::Label^  label9;
-private: System::Windows::Forms::Label^  label8;
-private: System::Windows::Forms::Label^  label7;
-private: System::Windows::Forms::Label^  label6;
+private: System::Windows::Forms::Label^  labelLine4I3;
+
+private: System::Windows::Forms::Label^  labelLine4I2;
+
+private: System::Windows::Forms::Label^  labelLine4I1;
+private: System::Windows::Forms::Label^  labelLine4UDE;
+
+
+private: System::Windows::Forms::Label^  labelLine4UCD;
+
 private: System::Windows::Forms::Label^  label17;
 private: System::Windows::Forms::Label^  label32;
 private: System::Windows::Forms::Label^  label31;
@@ -447,6 +455,10 @@ private: System::Windows::Forms::TextBox^  labelLine7U12;
 private: System::Windows::Forms::TextBox^  labelLine7U11;
 private: System::Windows::Forms::TextBox^  labelLine6U12;
 private: System::Windows::Forms::TextBox^  labelLine5U11;
+private: System::Windows::Forms::Label^  label12;
+private: System::Windows::Forms::Label^  label48;
+private: System::Windows::Forms::Label^  label49;
+private: System::Windows::Forms::Label^  label50;
 
 	private:
 		/// <summary>
@@ -468,6 +480,9 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label48 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4U12 = (gcnew System::Windows::Forms::TextBox());
 			this->labelLine3U12 = (gcnew System::Windows::Forms::TextBox());
 			this->labelLine3U11 = (gcnew System::Windows::Forms::TextBox());
 			this->labelLine2U12 = (gcnew System::Windows::Forms::TextBox());
@@ -509,21 +524,21 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->button10 = (gcnew System::Windows::Forms::Button());
-			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4UBC = (gcnew System::Windows::Forms::Label());
 			this->labelLine3UBC = (gcnew System::Windows::Forms::Label());
-			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4UAB = (gcnew System::Windows::Forms::Label());
 			this->labelLine3UAB = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4UFA = (gcnew System::Windows::Forms::Label());
 			this->labelLine3UFA = (gcnew System::Windows::Forms::Label());
 			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->label10 = (gcnew System::Windows::Forms::Label());
-			this->label9 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4I3 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4I2 = (gcnew System::Windows::Forms::Label());
 			this->labelLine3I3 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4I1 = (gcnew System::Windows::Forms::Label());
 			this->labelLine3I2 = (gcnew System::Windows::Forms::Label());
-			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4UDE = (gcnew System::Windows::Forms::Label());
 			this->labelLine3I1 = (gcnew System::Windows::Forms::Label());
-			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->labelLine4UCD = (gcnew System::Windows::Forms::Label());
 			this->labelLine3UDE = (gcnew System::Windows::Forms::Label());
 			this->labelLine3UCD = (gcnew System::Windows::Forms::Label());
 			this->labelLine2UBC = (gcnew System::Windows::Forms::Label());
@@ -567,6 +582,13 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->label49 = (gcnew System::Windows::Forms::Label());
+			this->label50 = (gcnew System::Windows::Forms::Label());
+			this->labelLine8U12 = (gcnew System::Windows::Forms::TextBox());
+			this->labelLine7U12 = (gcnew System::Windows::Forms::TextBox());
+			this->labelLine7U11 = (gcnew System::Windows::Forms::TextBox());
+			this->labelLine6U12 = (gcnew System::Windows::Forms::TextBox());
+			this->labelLine5U11 = (gcnew System::Windows::Forms::TextBox());
 			this->label34 = (gcnew System::Windows::Forms::Label());
 			this->label35 = (gcnew System::Windows::Forms::Label());
 			this->label36 = (gcnew System::Windows::Forms::Label());
@@ -667,12 +689,6 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->label105 = (gcnew System::Windows::Forms::Label());
 			this->label106 = (gcnew System::Windows::Forms::Label());
 			this->button81 = (gcnew System::Windows::Forms::Button());
-			this->labelLine4U12 = (gcnew System::Windows::Forms::TextBox());
-			this->labelLine5U11 = (gcnew System::Windows::Forms::TextBox());
-			this->labelLine6U12 = (gcnew System::Windows::Forms::TextBox());
-			this->labelLine7U11 = (gcnew System::Windows::Forms::TextBox());
-			this->labelLine7U12 = (gcnew System::Windows::Forms::TextBox());
-			this->labelLine8U12 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox2->SuspendLayout();
@@ -743,6 +759,8 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->label12);
+			this->groupBox2->Controls->Add(this->label48);
 			this->groupBox2->Controls->Add(this->labelLine4U12);
 			this->groupBox2->Controls->Add(this->labelLine3U12);
 			this->groupBox2->Controls->Add(this->labelLine3U11);
@@ -785,21 +803,21 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->groupBox2->Controls->Add(this->button8);
 			this->groupBox2->Controls->Add(this->button9);
 			this->groupBox2->Controls->Add(this->button10);
-			this->groupBox2->Controls->Add(this->label15);
+			this->groupBox2->Controls->Add(this->labelLine4UBC);
 			this->groupBox2->Controls->Add(this->labelLine3UBC);
-			this->groupBox2->Controls->Add(this->label14);
+			this->groupBox2->Controls->Add(this->labelLine4UAB);
 			this->groupBox2->Controls->Add(this->labelLine3UAB);
-			this->groupBox2->Controls->Add(this->label13);
+			this->groupBox2->Controls->Add(this->labelLine4UFA);
 			this->groupBox2->Controls->Add(this->labelLine3UFA);
 			this->groupBox2->Controls->Add(this->label11);
-			this->groupBox2->Controls->Add(this->label10);
-			this->groupBox2->Controls->Add(this->label9);
+			this->groupBox2->Controls->Add(this->labelLine4I3);
+			this->groupBox2->Controls->Add(this->labelLine4I2);
 			this->groupBox2->Controls->Add(this->labelLine3I3);
-			this->groupBox2->Controls->Add(this->label8);
+			this->groupBox2->Controls->Add(this->labelLine4I1);
 			this->groupBox2->Controls->Add(this->labelLine3I2);
-			this->groupBox2->Controls->Add(this->label7);
+			this->groupBox2->Controls->Add(this->labelLine4UDE);
 			this->groupBox2->Controls->Add(this->labelLine3I1);
-			this->groupBox2->Controls->Add(this->label6);
+			this->groupBox2->Controls->Add(this->labelLine4UCD);
 			this->groupBox2->Controls->Add(this->labelLine3UDE);
 			this->groupBox2->Controls->Add(this->labelLine3UCD);
 			this->groupBox2->Controls->Add(this->labelLine2UBC);
@@ -853,6 +871,35 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验数据表一";
 			// 
+			// label12
+			// 
+			this->label12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label12->ForeColor = System::Drawing::Color::Lime;
+			this->label12->Location = System::Drawing::Point(434, 64);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(296, 26);
+			this->label12->TabIndex = 230;
+			this->label12->Text = L"从直流电流表2获取";
+			this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label48
+			// 
+			this->label48->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label48->ForeColor = System::Drawing::Color::Lime;
+			this->label48->Location = System::Drawing::Point(741, 64);
+			this->label48->Name = L"label48";
+			this->label48->Size = System::Drawing::Size(500, 26);
+			this->label48->TabIndex = 229;
+			this->label48->Text = L"从直流电压表3获取";
+			this->label48->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// labelLine4U12
+			// 
+			this->labelLine4U12->Location = System::Drawing::Point(304, 489);
+			this->labelLine4U12->Name = L"labelLine4U12";
+			this->labelLine4U12->Size = System::Drawing::Size(89, 30);
+			this->labelLine4U12->TabIndex = 197;
+			// 
 			// labelLine3U12
 			// 
 			this->labelLine3U12->Location = System::Drawing::Point(304, 360);
@@ -890,7 +937,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button29->TabIndex = 192;
 			this->button29->Text = L"获取";
 			this->button29->UseVisualStyleBackColor = true;
-			this->button29->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button11_Click);
+			this->button29->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button29_Click);
 			// 
 			// button11
 			// 
@@ -912,7 +959,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button28->TabIndex = 191;
 			this->button28->Text = L"获取";
 			this->button28->UseVisualStyleBackColor = true;
-			this->button28->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button12_Click);
+			this->button28->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button28_Click);
 			// 
 			// button12
 			// 
@@ -934,7 +981,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button27->TabIndex = 190;
 			this->button27->Text = L"获取";
 			this->button27->UseVisualStyleBackColor = true;
-			this->button27->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button13_Click);
+			this->button27->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button27_Click);
 			// 
 			// button13
 			// 
@@ -956,7 +1003,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button26->TabIndex = 189;
 			this->button26->Text = L"获取";
 			this->button26->UseVisualStyleBackColor = true;
-			this->button26->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button14_Click);
+			this->button26->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button26_Click);
 			// 
 			// button14
 			// 
@@ -978,7 +1025,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button25->TabIndex = 188;
 			this->button25->Text = L"获取";
 			this->button25->UseVisualStyleBackColor = true;
-			this->button25->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button15_Click);
+			this->button25->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button25_Click);
 			// 
 			// button15
 			// 
@@ -1033,7 +1080,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button22->TabIndex = 185;
 			this->button22->Text = L"获取";
 			this->button22->UseVisualStyleBackColor = true;
-			this->button22->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button18_Click);
+			this->button22->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button22_Click);
 			// 
 			// button18
 			// 
@@ -1055,7 +1102,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button21->TabIndex = 184;
 			this->button21->Text = L"获取";
 			this->button21->UseVisualStyleBackColor = true;
-			this->button21->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button19_Click);
+			this->button21->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button21_Click);
 			// 
 			// button19
 			// 
@@ -1077,7 +1124,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button7->TabIndex = 183;
 			this->button7->Text = L"获取";
 			this->button7->UseVisualStyleBackColor = true;
-			this->button7->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button20_Click);
+			this->button7->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button7_Click);
 			// 
 			// button20
 			// 
@@ -1270,14 +1317,14 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button10->UseVisualStyleBackColor = true;
 			this->button10->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button10_Click);
 			// 
-			// label15
+			// labelLine4UBC
 			// 
-			this->label15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label15->Location = System::Drawing::Point(945, 478);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(93, 42);
-			this->label15->TabIndex = 151;
-			this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4UBC->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4UBC->Location = System::Drawing::Point(945, 478);
+			this->labelLine4UBC->Name = L"labelLine4UBC";
+			this->labelLine4UBC->Size = System::Drawing::Size(93, 42);
+			this->labelLine4UBC->TabIndex = 151;
+			this->labelLine4UBC->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelLine3UBC
 			// 
@@ -1288,14 +1335,14 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->labelLine3UBC->TabIndex = 151;
 			this->labelLine3UBC->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// label14
+			// labelLine4UAB
 			// 
-			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label14->Location = System::Drawing::Point(843, 478);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(93, 42);
-			this->label14->TabIndex = 150;
-			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4UAB->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4UAB->Location = System::Drawing::Point(843, 478);
+			this->labelLine4UAB->Name = L"labelLine4UAB";
+			this->labelLine4UAB->Size = System::Drawing::Size(93, 42);
+			this->labelLine4UAB->TabIndex = 150;
+			this->labelLine4UAB->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelLine3UAB
 			// 
@@ -1306,14 +1353,14 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->labelLine3UAB->TabIndex = 150;
 			this->labelLine3UAB->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// label13
+			// labelLine4UFA
 			// 
-			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label13->Location = System::Drawing::Point(741, 478);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(93, 42);
-			this->label13->TabIndex = 149;
-			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4UFA->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4UFA->Location = System::Drawing::Point(741, 478);
+			this->labelLine4UFA->Name = L"labelLine4UFA";
+			this->labelLine4UFA->Size = System::Drawing::Size(93, 42);
+			this->labelLine4UFA->TabIndex = 149;
+			this->labelLine4UFA->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelLine3UFA
 			// 
@@ -1334,23 +1381,23 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->label11->Text = L"0V";
 			this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
-			// label10
+			// labelLine4I3
 			// 
-			this->label10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label10->Location = System::Drawing::Point(639, 478);
-			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(92, 42);
-			this->label10->TabIndex = 146;
-			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4I3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4I3->Location = System::Drawing::Point(639, 478);
+			this->labelLine4I3->Name = L"labelLine4I3";
+			this->labelLine4I3->Size = System::Drawing::Size(92, 42);
+			this->labelLine4I3->TabIndex = 146;
+			this->labelLine4I3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// label9
+			// labelLine4I2
 			// 
-			this->label9->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label9->Location = System::Drawing::Point(539, 478);
-			this->label9->Name = L"label9";
-			this->label9->Size = System::Drawing::Size(93, 42);
-			this->label9->TabIndex = 145;
-			this->label9->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4I2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4I2->Location = System::Drawing::Point(539, 478);
+			this->labelLine4I2->Name = L"labelLine4I2";
+			this->labelLine4I2->Size = System::Drawing::Size(93, 42);
+			this->labelLine4I2->TabIndex = 145;
+			this->labelLine4I2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelLine3I3
 			// 
@@ -1361,14 +1408,14 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->labelLine3I3->TabIndex = 146;
 			this->labelLine3I3->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// label8
+			// labelLine4I1
 			// 
-			this->label8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label8->Location = System::Drawing::Point(437, 478);
-			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(93, 42);
-			this->label8->TabIndex = 144;
-			this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4I1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4I1->Location = System::Drawing::Point(437, 478);
+			this->labelLine4I1->Name = L"labelLine4I1";
+			this->labelLine4I1->Size = System::Drawing::Size(93, 42);
+			this->labelLine4I1->TabIndex = 144;
+			this->labelLine4I1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelLine3I2
 			// 
@@ -1379,14 +1426,14 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->labelLine3I2->TabIndex = 145;
 			this->labelLine3I2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// label7
+			// labelLine4UDE
 			// 
-			this->label7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label7->Location = System::Drawing::Point(1151, 478);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(93, 42);
-			this->label7->TabIndex = 133;
-			this->label7->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4UDE->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4UDE->Location = System::Drawing::Point(1151, 478);
+			this->labelLine4UDE->Name = L"labelLine4UDE";
+			this->labelLine4UDE->Size = System::Drawing::Size(93, 42);
+			this->labelLine4UDE->TabIndex = 133;
+			this->labelLine4UDE->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelLine3I1
 			// 
@@ -1397,14 +1444,14 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->labelLine3I1->TabIndex = 144;
 			this->labelLine3I1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// label6
+			// labelLine4UCD
 			// 
-			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label6->Location = System::Drawing::Point(1049, 478);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(93, 42);
-			this->label6->TabIndex = 132;
-			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			this->labelLine4UCD->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelLine4UCD->Location = System::Drawing::Point(1049, 478);
+			this->labelLine4UCD->Name = L"labelLine4UCD";
+			this->labelLine4UCD->Size = System::Drawing::Size(93, 42);
+			this->labelLine4UCD->TabIndex = 132;
+			this->labelLine4UCD->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelLine3UDE
 			// 
@@ -1510,7 +1557,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label20->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label20->ForeColor = System::Drawing::Color::Blue;
-			this->label20->Location = System::Drawing::Point(945, 39);
+			this->label20->Location = System::Drawing::Point(945, 28);
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(93, 22);
 			this->label20->TabIndex = 97;
@@ -1521,7 +1568,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label21->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label21->ForeColor = System::Drawing::Color::Blue;
-			this->label21->Location = System::Drawing::Point(843, 39);
+			this->label21->Location = System::Drawing::Point(843, 28);
 			this->label21->Name = L"label21";
 			this->label21->Size = System::Drawing::Size(93, 22);
 			this->label21->TabIndex = 96;
@@ -1532,7 +1579,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label22->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label22->ForeColor = System::Drawing::Color::Blue;
-			this->label22->Location = System::Drawing::Point(741, 39);
+			this->label22->Location = System::Drawing::Point(741, 28);
 			this->label22->Name = L"label22";
 			this->label22->Size = System::Drawing::Size(93, 22);
 			this->label22->TabIndex = 95;
@@ -1543,7 +1590,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label23->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label23->ForeColor = System::Drawing::Color::Blue;
-			this->label23->Location = System::Drawing::Point(304, 39);
+			this->label23->Location = System::Drawing::Point(304, 28);
 			this->label23->Name = L"label23";
 			this->label23->Size = System::Drawing::Size(93, 22);
 			this->label23->TabIndex = 94;
@@ -1554,7 +1601,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label24->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label24->ForeColor = System::Drawing::Color::Blue;
-			this->label24->Location = System::Drawing::Point(209, 39);
+			this->label24->Location = System::Drawing::Point(209, 28);
 			this->label24->Name = L"label24";
 			this->label24->Size = System::Drawing::Size(89, 22);
 			this->label24->TabIndex = 93;
@@ -1565,7 +1612,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label25->ForeColor = System::Drawing::Color::Blue;
-			this->label25->Location = System::Drawing::Point(639, 39);
+			this->label25->Location = System::Drawing::Point(639, 28);
 			this->label25->Name = L"label25";
 			this->label25->Size = System::Drawing::Size(92, 22);
 			this->label25->TabIndex = 92;
@@ -1576,7 +1623,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label26->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label26->ForeColor = System::Drawing::Color::Blue;
-			this->label26->Location = System::Drawing::Point(539, 39);
+			this->label26->Location = System::Drawing::Point(539, 28);
 			this->label26->Name = L"label26";
 			this->label26->Size = System::Drawing::Size(93, 22);
 			this->label26->TabIndex = 91;
@@ -1587,7 +1634,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label27->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label27->ForeColor = System::Drawing::Color::Blue;
-			this->label27->Location = System::Drawing::Point(437, 39);
+			this->label27->Location = System::Drawing::Point(437, 28);
 			this->label27->Name = L"label27";
 			this->label27->Size = System::Drawing::Size(93, 22);
 			this->label27->TabIndex = 90;
@@ -1598,7 +1645,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label28->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label28->ForeColor = System::Drawing::Color::Blue;
-			this->label28->Location = System::Drawing::Point(1151, 39);
+			this->label28->Location = System::Drawing::Point(1151, 28);
 			this->label28->Name = L"label28";
 			this->label28->Size = System::Drawing::Size(93, 22);
 			this->label28->TabIndex = 89;
@@ -1609,7 +1656,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			this->label29->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label29->ForeColor = System::Drawing::Color::Blue;
-			this->label29->Location = System::Drawing::Point(1049, 39);
+			this->label29->Location = System::Drawing::Point(1049, 28);
 			this->label29->Name = L"label29";
 			this->label29->Size = System::Drawing::Size(93, 22);
 			this->label29->TabIndex = 88;
@@ -1830,6 +1877,8 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Controls->Add(this->label49);
+			this->groupBox1->Controls->Add(this->label50);
 			this->groupBox1->Controls->Add(this->labelLine8U12);
 			this->groupBox1->Controls->Add(this->labelLine7U12);
 			this->groupBox1->Controls->Add(this->labelLine7U11);
@@ -1939,6 +1988,63 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->groupBox1->TabIndex = 173;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"实验数据表二";
+			// 
+			// label49
+			// 
+			this->label49->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label49->ForeColor = System::Drawing::Color::Lime;
+			this->label49->Location = System::Drawing::Point(435, 59);
+			this->label49->Name = L"label49";
+			this->label49->Size = System::Drawing::Size(296, 26);
+			this->label49->TabIndex = 228;
+			this->label49->Text = L"从直流电流表2获取";
+			this->label49->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label50
+			// 
+			this->label50->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label50->ForeColor = System::Drawing::Color::Lime;
+			this->label50->Location = System::Drawing::Point(748, 59);
+			this->label50->Name = L"label50";
+			this->label50->Size = System::Drawing::Size(500, 26);
+			this->label50->TabIndex = 227;
+			this->label50->Text = L"从直流电压表3获取";
+			this->label50->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// labelLine8U12
+			// 
+			this->labelLine8U12->Location = System::Drawing::Point(311, 420);
+			this->labelLine8U12->Name = L"labelLine8U12";
+			this->labelLine8U12->Size = System::Drawing::Size(89, 30);
+			this->labelLine8U12->TabIndex = 226;
+			// 
+			// labelLine7U12
+			// 
+			this->labelLine7U12->Location = System::Drawing::Point(311, 316);
+			this->labelLine7U12->Name = L"labelLine7U12";
+			this->labelLine7U12->Size = System::Drawing::Size(89, 30);
+			this->labelLine7U12->TabIndex = 225;
+			// 
+			// labelLine7U11
+			// 
+			this->labelLine7U11->Location = System::Drawing::Point(212, 316);
+			this->labelLine7U11->Name = L"labelLine7U11";
+			this->labelLine7U11->Size = System::Drawing::Size(89, 30);
+			this->labelLine7U11->TabIndex = 224;
+			// 
+			// labelLine6U12
+			// 
+			this->labelLine6U12->Location = System::Drawing::Point(307, 207);
+			this->labelLine6U12->Name = L"labelLine6U12";
+			this->labelLine6U12->Size = System::Drawing::Size(89, 30);
+			this->labelLine6U12->TabIndex = 223;
+			// 
+			// labelLine5U11
+			// 
+			this->labelLine5U11->Location = System::Drawing::Point(212, 100);
+			this->labelLine5U11->Name = L"labelLine5U11";
+			this->labelLine5U11->Size = System::Drawing::Size(89, 30);
+			this->labelLine5U11->TabIndex = 222;
 			// 
 			// label34
 			// 
@@ -2251,7 +2357,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label86
 			// 
 			this->label86->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label86->Location = System::Drawing::Point(212, 41);
+			this->label86->Location = System::Drawing::Point(214, 25);
 			this->label86->Name = L"label86";
 			this->label86->Size = System::Drawing::Size(89, 22);
 			this->label86->TabIndex = 93;
@@ -2272,7 +2378,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label85
 			// 
 			this->label85->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label85->Location = System::Drawing::Point(307, 41);
+			this->label85->Location = System::Drawing::Point(309, 25);
 			this->label85->Name = L"label85";
 			this->label85->Size = System::Drawing::Size(93, 22);
 			this->label85->TabIndex = 94;
@@ -2727,7 +2833,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label82
 			// 
 			this->label82->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label82->Location = System::Drawing::Point(949, 41);
+			this->label82->Location = System::Drawing::Point(951, 25);
 			this->label82->Name = L"label82";
 			this->label82->Size = System::Drawing::Size(93, 22);
 			this->label82->TabIndex = 97;
@@ -2737,7 +2843,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label83
 			// 
 			this->label83->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label83->Location = System::Drawing::Point(847, 41);
+			this->label83->Location = System::Drawing::Point(849, 25);
 			this->label83->Name = L"label83";
 			this->label83->Size = System::Drawing::Size(93, 22);
 			this->label83->TabIndex = 96;
@@ -2747,7 +2853,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label84
 			// 
 			this->label84->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label84->Location = System::Drawing::Point(745, 41);
+			this->label84->Location = System::Drawing::Point(747, 25);
 			this->label84->Name = L"label84";
 			this->label84->Size = System::Drawing::Size(93, 22);
 			this->label84->TabIndex = 95;
@@ -2757,7 +2863,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label87
 			// 
 			this->label87->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label87->Location = System::Drawing::Point(641, 41);
+			this->label87->Location = System::Drawing::Point(643, 25);
 			this->label87->Name = L"label87";
 			this->label87->Size = System::Drawing::Size(92, 22);
 			this->label87->TabIndex = 92;
@@ -2767,7 +2873,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label88
 			// 
 			this->label88->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label88->Location = System::Drawing::Point(541, 41);
+			this->label88->Location = System::Drawing::Point(543, 25);
 			this->label88->Name = L"label88";
 			this->label88->Size = System::Drawing::Size(93, 22);
 			this->label88->TabIndex = 91;
@@ -2777,7 +2883,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label89
 			// 
 			this->label89->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label89->Location = System::Drawing::Point(440, 41);
+			this->label89->Location = System::Drawing::Point(442, 25);
 			this->label89->Name = L"label89";
 			this->label89->Size = System::Drawing::Size(93, 22);
 			this->label89->TabIndex = 90;
@@ -2787,7 +2893,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label90
 			// 
 			this->label90->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label90->Location = System::Drawing::Point(1155, 41);
+			this->label90->Location = System::Drawing::Point(1157, 25);
 			this->label90->Name = L"label90";
 			this->label90->Size = System::Drawing::Size(93, 22);
 			this->label90->TabIndex = 89;
@@ -2797,7 +2903,7 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			// label91
 			// 
 			this->label91->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label91->Location = System::Drawing::Point(1053, 41);
+			this->label91->Location = System::Drawing::Point(1055, 25);
 			this->label91->Name = L"label91";
 			this->label91->Size = System::Drawing::Size(93, 22);
 			this->label91->TabIndex = 88;
@@ -2946,54 +3052,12 @@ private: System::Windows::Forms::TextBox^  labelLine5U11;
 			this->button81->UseVisualStyleBackColor = true;
 			this->button81->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button81_Click);
 			// 
-			// labelLine4U12
-			// 
-			this->labelLine4U12->Location = System::Drawing::Point(304, 489);
-			this->labelLine4U12->Name = L"labelLine4U12";
-			this->labelLine4U12->Size = System::Drawing::Size(89, 30);
-			this->labelLine4U12->TabIndex = 197;
-			// 
-			// labelLine5U11
-			// 
-			this->labelLine5U11->Location = System::Drawing::Point(212, 100);
-			this->labelLine5U11->Name = L"labelLine5U11";
-			this->labelLine5U11->Size = System::Drawing::Size(89, 30);
-			this->labelLine5U11->TabIndex = 222;
-			// 
-			// labelLine6U12
-			// 
-			this->labelLine6U12->Location = System::Drawing::Point(307, 207);
-			this->labelLine6U12->Name = L"labelLine6U12";
-			this->labelLine6U12->Size = System::Drawing::Size(89, 30);
-			this->labelLine6U12->TabIndex = 223;
-			// 
-			// labelLine7U11
-			// 
-			this->labelLine7U11->Location = System::Drawing::Point(212, 316);
-			this->labelLine7U11->Name = L"labelLine7U11";
-			this->labelLine7U11->Size = System::Drawing::Size(89, 30);
-			this->labelLine7U11->TabIndex = 224;
-			// 
-			// labelLine7U12
-			// 
-			this->labelLine7U12->Location = System::Drawing::Point(311, 316);
-			this->labelLine7U12->Name = L"labelLine7U12";
-			this->labelLine7U12->Size = System::Drawing::Size(89, 30);
-			this->labelLine7U12->TabIndex = 225;
-			// 
-			// labelLine8U12
-			// 
-			this->labelLine8U12->Location = System::Drawing::Point(311, 420);
-			this->labelLine8U12->Name = L"labelLine8U12";
-			this->labelLine8U12->Size = System::Drawing::Size(89, 30);
-			this->labelLine8U12->TabIndex = 226;
-			// 
 			// 叠加原理实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1524, 892);
+			this->ClientSize = System::Drawing::Size(1692, 892);
 			this->Controls->Add(this->label106);
 			this->Controls->Add(this->textBox结论);
 			this->Controls->Add(this->groupBox3);
@@ -3057,7 +3121,7 @@ private: System::Void button19_Click(System::Object^  sender, System::EventArgs^
 	labelLine3I2->Text = global::GetI500Data();
 }
 private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4I2->Text = global::GetI500Data();
+	labelLine4UDE->Text = global::GetU30_U400VData();
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelLine1I3->Text = global::GetI500Data();
@@ -3069,23 +3133,23 @@ private: System::Void button18_Click(System::Object^  sender, System::EventArgs^
 	labelLine3I3->Text = global::GetI500Data();
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4I3->Text = global::GetI500Data();
+	labelLine4UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine1U11->Text = global::GetU30Data();
+	//labelLine1U11->Text = global::GetU30_U400VData();
 	SetDVNum(labelLine1U11->Text,0,30);
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine2U11->Text = global::GetU30Data();
+	labelLine4I1->Text = global::GetI500Data();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(labelLine3U11->Text, 0, 30);
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4U11->Text = global::GetU30Data();
+	labelLine4UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine1U12->Text = global::GetU30Data();
+	labelLine1U12->Text = global::GetU30_U400VData();
 }
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(labelLine2U12->Text, 0, 30);
@@ -3094,67 +3158,67 @@ private: System::Void button16_Click(System::Object^  sender, System::EventArgs^
 	SetDVNum(labelLine4U12->Text, 0, 30);
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4U12->Text = global::GetU30Data();
+	labelLine4UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine1UFA->Text = global::GetU30Data();
+	labelLine1UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine2UFA->Text = global::GetU30Data();
+	labelLine2UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine3UFA->Text = global::GetU30Data();
+	labelLine3UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4UFA->Text = global::GetU30Data();
+	labelLine4UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine1UAB->Text = global::GetU30Data();
+	labelLine1UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine2UAB->Text = global::GetU30Data();
+	labelLine2UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine3UAB->Text = global::GetU30Data();
+	labelLine3UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4UAB->Text = global::GetU30Data();
+	//labelLine4UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine1UBC->Text = global::GetU30Data();
+	labelLine1UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine2UBC->Text = global::GetU30Data();
+	labelLine2UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine3UBC->Text = global::GetU30Data();
+	labelLine3UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4UBC->Text = global::GetU30Data();
+	//labelLine4UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine1UCD->Text = global::GetU30Data();
+	labelLine1UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine2UCD->Text = global::GetU30Data();
+	labelLine2UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine3UCD->Text = global::GetU30Data();
+	labelLine3UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	//labelLine4UCD->Text = global::GetU30Data();
+	labelLine4I3->Text = global::GetI500Data();
 }
 private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine1UDE->Text = global::GetU30Data();
+	labelLine1UDE->Text = global::GetU30_U400VData();
 }
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine2UDE->Text = global::GetU30Data();
+	labelLine2UDE->Text = global::GetU30_U400VData();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine3UDE->Text = global::GetU30Data();
+	labelLine3UDE->Text = global::GetU30_U400VData();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-///	labelLine4UDE->Text = global::GetU30Data();
+	labelLine4I2->Text = global::GetI500Data();
 }
 private: System::Void button80_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelLine5I1->Text = global::GetI500Data();
@@ -3193,7 +3257,7 @@ private: System::Void button48_Click(System::Object^  sender, System::EventArgs^
 	labelLine8I3->Text = global::GetI500Data();
 }
 private: System::Void button67_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine6U11->Text = global::GetU30Data();
+	labelLine6U11->Text = global::GetU30_U400VData();
 }
 private: System::Void button77_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(labelLine5U11->Text,0,30);
@@ -3202,10 +3266,10 @@ private: System::Void button57_Click(System::Object^  sender, System::EventArgs^
 	SetDVNum(labelLine7U11->Text, 0, 30);
 }
 private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine8U11->Text = global::GetU30Data();
+	labelLine8U11->Text = global::GetU30_U400VData();
 }
 private: System::Void button76_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine5U12->Text = global::GetU30Data();
+	labelLine5U12->Text = global::GetU30_U400VData();
 }
 
 private: System::Void button66_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -3218,64 +3282,64 @@ private: System::Void button46_Click(System::Object^  sender, System::EventArgs^
 	SetDVNum(labelLine8U12->Text, 0, 30);
 }
 private: System::Void button75_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine5UFA->Text = global::GetU30Data();
+	labelLine5UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button65_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine6UFA->Text = global::GetU30Data();
+	labelLine6UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button55_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine7UFA->Text = global::GetU30Data();
+	labelLine7UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine8UFA->Text = global::GetU30Data();
+	labelLine8UFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button74_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine5UAB->Text = global::GetU30Data();
+	labelLine5UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button64_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine6UAB->Text = global::GetU30Data();
+	labelLine6UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine7UAB->Text = global::GetU30Data();
+	labelLine7UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine8UAB->Text = global::GetU30Data();
+	labelLine8UAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button73_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine5UBC->Text = global::GetU30Data();
+	labelLine5UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button63_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine6UBC->Text = global::GetU30Data();
+	labelLine6UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button53_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine7UBC->Text = global::GetU30Data();
+	labelLine7UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine8UBC->Text = global::GetU30Data();
+	labelLine8UBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button72_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine5UCD->Text = global::GetU30Data();
+	labelLine5UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button62_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine6UCD->Text = global::GetU30Data();
+	labelLine6UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button52_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine7UCD->Text = global::GetU30Data();
+	labelLine7UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine8UCD->Text = global::GetU30Data();
+	labelLine8UCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button71_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine5UDE->Text = global::GetU30Data();
+	labelLine5UDE->Text = global::GetU30_U400VData();
 }
 private: System::Void button61_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine6UDE->Text = global::GetU30Data();
+	labelLine6UDE->Text = global::GetU30_U400VData();
 }
 private: System::Void button51_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine7UDE->Text = global::GetU30Data();
+	labelLine7UDE->Text = global::GetU30_U400VData();
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelLine8UDE->Text = global::GetU30Data();
+	labelLine8UDE->Text = global::GetU30_U400VData();
 }
 };
 };

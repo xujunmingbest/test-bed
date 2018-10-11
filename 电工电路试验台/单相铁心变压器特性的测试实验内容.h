@@ -154,6 +154,14 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::DataVisualization::Charting::Chart^  chartTrial2;
 	private: System::Windows::Forms::Button^  button7;
 	private: System::Windows::Forms::GroupBox^  groupBox1;
+private: System::Windows::Forms::PictureBox^  pictureBox1;
+private: System::Windows::Forms::Label^  label13;
+private: System::Windows::Forms::Label^  label12;
+private: System::Windows::Forms::Label^  label11;
+private: System::Windows::Forms::Label^  label8;
+private: System::Windows::Forms::Label^  label10;
+private: System::Windows::Forms::Label^  label6;
+private: System::Windows::Forms::Label^  label16;
 
 	protected:
 
@@ -428,6 +436,7 @@ namespace 电工电路试验台 {
 			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
 			System::Windows::Forms::DataVisualization::Charting::Legend^  legend1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
 			System::Windows::Forms::DataVisualization::Charting::Series^  series1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(单相铁心变压器特性的测试实验内容::typeid));
 			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
 			System::Windows::Forms::DataVisualization::Charting::Legend^  legend2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
 			System::Windows::Forms::DataVisualization::Charting::Series^  series2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
@@ -505,6 +514,7 @@ namespace 电工电路试验台 {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label27 = (gcnew System::Windows::Forms::Label());
@@ -545,9 +555,17 @@ namespace 电工电路试验台 {
 			this->chartTrial2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->label16 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3))->BeginInit();
 			this->groupBox3->SuspendLayout();
 			this->groupBox2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial2))->BeginInit();
 			this->groupBox1->SuspendLayout();
 			this->SuspendLayout();
@@ -557,7 +575,7 @@ namespace 电工电路试验台 {
 			this->label64->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label64->ForeColor = System::Drawing::Color::Black;
-			this->label64->Location = System::Drawing::Point(74, 1849);
+			this->label64->Location = System::Drawing::Point(53, 2125);
 			this->label64->Name = L"label64";
 			this->label64->Size = System::Drawing::Size(95, 25);
 			this->label64->TabIndex = 249;
@@ -567,7 +585,7 @@ namespace 电工电路试验台 {
 			// 
 			this->textBox结论->Font = (gcnew System::Drawing::Font(L"宋体", 10.8F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBox结论->Location = System::Drawing::Point(183, 1846);
+			this->textBox结论->Location = System::Drawing::Point(162, 2122);
 			this->textBox结论->Name = L"textBox结论";
 			this->textBox结论->Size = System::Drawing::Size(1297, 28);
 			this->textBox结论->TabIndex = 250;
@@ -577,7 +595,7 @@ namespace 电工电路试验台 {
 			this->label5->BackColor = System::Drawing::Color::SkyBlue;
 			this->label5->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label5->Location = System::Drawing::Point(7, 1942);
+			this->label5->Location = System::Drawing::Point(-14, 2218);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(1526, 52);
 			this->label5->TabIndex = 251;
@@ -586,7 +604,7 @@ namespace 电工电路试验台 {
 			// 
 			// button246
 			// 
-			this->button246->Location = System::Drawing::Point(709, 1895);
+			this->button246->Location = System::Drawing::Point(688, 2171);
 			this->button246->Name = L"button246";
 			this->button246->Size = System::Drawing::Size(189, 37);
 			this->button246->TabIndex = 248;
@@ -612,7 +630,7 @@ namespace 电工电路试验台 {
 			this->label45->ForeColor = System::Drawing::Color::Black;
 			this->label45->Location = System::Drawing::Point(10, 116);
 			this->label45->Name = L"label45";
-			this->label45->Size = System::Drawing::Size(157, 67);
+			this->label45->Size = System::Drawing::Size(157, 30);
 			this->label45->TabIndex = 212;
 			this->label45->Text = L"U1";
 			this->label45->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -728,7 +746,7 @@ namespace 电工电路试验台 {
 			this->label37->ForeColor = System::Drawing::Color::Black;
 			this->label37->Location = System::Drawing::Point(10, 206);
 			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(157, 67);
+			this->label37->Size = System::Drawing::Size(157, 30);
 			this->label37->TabIndex = 225;
 			this->label37->Text = L"U20";
 			this->label37->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -844,7 +862,7 @@ namespace 电工电路试验台 {
 			this->label31->ForeColor = System::Drawing::Color::Black;
 			this->label31->Location = System::Drawing::Point(10, 296);
 			this->label31->Name = L"label31";
-			this->label31->Size = System::Drawing::Size(157, 67);
+			this->label31->Size = System::Drawing::Size(157, 33);
 			this->label31->TabIndex = 236;
 			this->label31->Text = L"I10";
 			this->label31->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
@@ -1298,6 +1316,9 @@ namespace 电工电路试验台 {
 			// 
 			// groupBox3
 			// 
+			this->groupBox3->Controls->Add(this->label13);
+			this->groupBox3->Controls->Add(this->label12);
+			this->groupBox3->Controls->Add(this->label11);
 			this->groupBox3->Controls->Add(this->button3);
 			this->groupBox3->Controls->Add(this->chartTrial3);
 			this->groupBox3->Controls->Add(this->button43);
@@ -1367,7 +1388,7 @@ namespace 电工电路试验台 {
 			this->groupBox3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox3->ForeColor = System::Drawing::Color::Red;
-			this->groupBox3->Location = System::Drawing::Point(78, 1054);
+			this->groupBox3->Location = System::Drawing::Point(57, 1330);
 			this->groupBox3->Name = L"groupBox3";
 			this->groupBox3->Size = System::Drawing::Size(1407, 776);
 			this->groupBox3->TabIndex = 247;
@@ -1380,7 +1401,7 @@ namespace 电工电路试验台 {
 			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 15, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label1->ForeColor = System::Drawing::Color::Red;
-			this->label1->Location = System::Drawing::Point(496, 12);
+			this->label1->Location = System::Drawing::Point(499, 32);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(442, 25);
 			this->label1->TabIndex = 89;
@@ -1400,16 +1421,27 @@ namespace 电工电路试验台 {
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->pictureBox1);
 			this->groupBox2->Controls->Add(this->label19);
 			this->groupBox2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox2->ForeColor = System::Drawing::Color::Red;
-			this->groupBox2->Location = System::Drawing::Point(78, 86);
+			this->groupBox2->Location = System::Drawing::Point(57, 84);
 			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Size = System::Drawing::Size(1407, 116);
+			this->groupBox2->Size = System::Drawing::Size(1407, 399);
 			this->groupBox2->TabIndex = 90;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验内容一";
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(344, 146);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(587, 228);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
+			this->pictureBox1->TabIndex = 88;
+			this->pictureBox1->TabStop = false;
 			// 
 			// label2
 			// 
@@ -1447,7 +1479,7 @@ namespace 电工电路试验台 {
 			// 
 			this->label26->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label26->ForeColor = System::Drawing::Color::Black;
-			this->label26->Location = System::Drawing::Point(400, 118);
+			this->label26->Location = System::Drawing::Point(484, 119);
 			this->label26->Name = L"label26";
 			this->label26->Size = System::Drawing::Size(93, 23);
 			this->label26->TabIndex = 210;
@@ -1458,7 +1490,7 @@ namespace 电工电路试验台 {
 			// 
 			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label25->ForeColor = System::Drawing::Color::Black;
-			this->label25->Location = System::Drawing::Point(511, 119);
+			this->label25->Location = System::Drawing::Point(636, 120);
 			this->label25->Name = L"label25";
 			this->label25->Size = System::Drawing::Size(97, 23);
 			this->label25->TabIndex = 211;
@@ -1501,7 +1533,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line1_U1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line1_U1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line1_U1->Location = System::Drawing::Point(400, 179);
+			this->labelTrial2_Line1_U1->Location = System::Drawing::Point(484, 180);
 			this->labelTrial2_Line1_U1->Name = L"labelTrial2_Line1_U1";
 			this->labelTrial2_Line1_U1->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line1_U1->TabIndex = 215;
@@ -1510,7 +1542,7 @@ namespace 电工电路试验台 {
 			// button1
 			// 
 			this->button1->ForeColor = System::Drawing::Color::Black;
-			this->button1->Location = System::Drawing::Point(400, 212);
+			this->button1->Location = System::Drawing::Point(484, 213);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(93, 34);
 			this->button1->TabIndex = 216;
@@ -1522,7 +1554,7 @@ namespace 电工电路试验台 {
 			// 
 			this->label7->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label7->ForeColor = System::Drawing::Color::Black;
-			this->label7->Location = System::Drawing::Point(628, 118);
+			this->label7->Location = System::Drawing::Point(787, 119);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(93, 23);
 			this->label7->TabIndex = 218;
@@ -1533,7 +1565,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line1_I2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line1_I2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line1_I2->Location = System::Drawing::Point(628, 178);
+			this->labelTrial2_Line1_I2->Location = System::Drawing::Point(787, 179);
 			this->labelTrial2_Line1_I2->Name = L"labelTrial2_Line1_I2";
 			this->labelTrial2_Line1_I2->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line1_I2->TabIndex = 219;
@@ -1543,7 +1575,7 @@ namespace 电工电路试验台 {
 			// 
 			this->label9->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label9->ForeColor = System::Drawing::Color::Black;
-			this->label9->Location = System::Drawing::Point(741, 118);
+			this->label9->Location = System::Drawing::Point(939, 119);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(93, 23);
 			this->label9->TabIndex = 220;
@@ -1554,7 +1586,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line1_U2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line1_U2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line1_U2->Location = System::Drawing::Point(741, 178);
+			this->labelTrial2_Line1_U2->Location = System::Drawing::Point(939, 179);
 			this->labelTrial2_Line1_U2->Name = L"labelTrial2_Line1_U2";
 			this->labelTrial2_Line1_U2->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line1_U2->TabIndex = 221;
@@ -1563,7 +1595,7 @@ namespace 电工电路试验台 {
 			// button2
 			// 
 			this->button2->ForeColor = System::Drawing::Color::Black;
-			this->button2->Location = System::Drawing::Point(628, 212);
+			this->button2->Location = System::Drawing::Point(787, 213);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(93, 34);
 			this->button2->TabIndex = 223;
@@ -1574,7 +1606,7 @@ namespace 电工电路试验台 {
 			// button4
 			// 
 			this->button4->ForeColor = System::Drawing::Color::Black;
-			this->button4->Location = System::Drawing::Point(741, 212);
+			this->button4->Location = System::Drawing::Point(939, 213);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(93, 34);
 			this->button4->TabIndex = 224;
@@ -1618,7 +1650,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line2_U1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line2_U1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line2_U1->Location = System::Drawing::Point(400, 269);
+			this->labelTrial2_Line2_U1->Location = System::Drawing::Point(484, 270);
 			this->labelTrial2_Line2_U1->Name = L"labelTrial2_Line2_U1";
 			this->labelTrial2_Line2_U1->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line2_U1->TabIndex = 228;
@@ -1627,7 +1659,7 @@ namespace 电工电路试验台 {
 			// button8
 			// 
 			this->button8->ForeColor = System::Drawing::Color::Black;
-			this->button8->Location = System::Drawing::Point(400, 302);
+			this->button8->Location = System::Drawing::Point(484, 303);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(93, 34);
 			this->button8->TabIndex = 229;
@@ -1639,7 +1671,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line2_I2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line2_I2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line2_I2->Location = System::Drawing::Point(628, 268);
+			this->labelTrial2_Line2_I2->Location = System::Drawing::Point(787, 269);
 			this->labelTrial2_Line2_I2->Name = L"labelTrial2_Line2_I2";
 			this->labelTrial2_Line2_I2->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line2_I2->TabIndex = 231;
@@ -1649,7 +1681,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line2_U2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line2_U2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line2_U2->Location = System::Drawing::Point(741, 268);
+			this->labelTrial2_Line2_U2->Location = System::Drawing::Point(939, 269);
 			this->labelTrial2_Line2_U2->Name = L"labelTrial2_Line2_U2";
 			this->labelTrial2_Line2_U2->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line2_U2->TabIndex = 232;
@@ -1658,7 +1690,7 @@ namespace 电工电路试验台 {
 			// button6
 			// 
 			this->button6->ForeColor = System::Drawing::Color::Black;
-			this->button6->Location = System::Drawing::Point(628, 302);
+			this->button6->Location = System::Drawing::Point(787, 303);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(93, 34);
 			this->button6->TabIndex = 234;
@@ -1669,7 +1701,7 @@ namespace 电工电路试验台 {
 			// button5
 			// 
 			this->button5->ForeColor = System::Drawing::Color::Black;
-			this->button5->Location = System::Drawing::Point(741, 302);
+			this->button5->Location = System::Drawing::Point(939, 303);
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(93, 34);
 			this->button5->TabIndex = 235;
@@ -1713,7 +1745,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line3_U1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line3_U1->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line3_U1->Location = System::Drawing::Point(400, 359);
+			this->labelTrial2_Line3_U1->Location = System::Drawing::Point(484, 360);
 			this->labelTrial2_Line3_U1->Name = L"labelTrial2_Line3_U1";
 			this->labelTrial2_Line3_U1->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line3_U1->TabIndex = 239;
@@ -1722,7 +1754,7 @@ namespace 电工电路试验台 {
 			// button13
 			// 
 			this->button13->ForeColor = System::Drawing::Color::Black;
-			this->button13->Location = System::Drawing::Point(400, 392);
+			this->button13->Location = System::Drawing::Point(484, 393);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(93, 34);
 			this->button13->TabIndex = 240;
@@ -1734,7 +1766,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line3_I2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line3_I2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line3_I2->Location = System::Drawing::Point(628, 358);
+			this->labelTrial2_Line3_I2->Location = System::Drawing::Point(787, 359);
 			this->labelTrial2_Line3_I2->Name = L"labelTrial2_Line3_I2";
 			this->labelTrial2_Line3_I2->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line3_I2->TabIndex = 242;
@@ -1744,7 +1776,7 @@ namespace 电工电路试验台 {
 			// 
 			this->labelTrial2_Line3_U2->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->labelTrial2_Line3_U2->ForeColor = System::Drawing::Color::Black;
-			this->labelTrial2_Line3_U2->Location = System::Drawing::Point(741, 358);
+			this->labelTrial2_Line3_U2->Location = System::Drawing::Point(939, 359);
 			this->labelTrial2_Line3_U2->Name = L"labelTrial2_Line3_U2";
 			this->labelTrial2_Line3_U2->Size = System::Drawing::Size(93, 30);
 			this->labelTrial2_Line3_U2->TabIndex = 243;
@@ -1753,7 +1785,7 @@ namespace 电工电路试验台 {
 			// button11
 			// 
 			this->button11->ForeColor = System::Drawing::Color::Black;
-			this->button11->Location = System::Drawing::Point(628, 392);
+			this->button11->Location = System::Drawing::Point(787, 393);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(93, 34);
 			this->button11->TabIndex = 245;
@@ -1764,7 +1796,7 @@ namespace 电工电路试验台 {
 			// button10
 			// 
 			this->button10->ForeColor = System::Drawing::Color::Black;
-			this->button10->Location = System::Drawing::Point(741, 392);
+			this->button10->Location = System::Drawing::Point(939, 393);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(93, 34);
 			this->button10->TabIndex = 246;
@@ -1774,21 +1806,21 @@ namespace 电工电路试验台 {
 			// 
 			// labelTrial2_Line1_W
 			// 
-			this->labelTrial2_Line1_W->Location = System::Drawing::Point(508, 179);
+			this->labelTrial2_Line1_W->Location = System::Drawing::Point(633, 180);
 			this->labelTrial2_Line1_W->Name = L"labelTrial2_Line1_W";
 			this->labelTrial2_Line1_W->Size = System::Drawing::Size(100, 30);
 			this->labelTrial2_Line1_W->TabIndex = 247;
 			// 
 			// labelTrial2_Line2_W
 			// 
-			this->labelTrial2_Line2_W->Location = System::Drawing::Point(508, 271);
+			this->labelTrial2_Line2_W->Location = System::Drawing::Point(633, 272);
 			this->labelTrial2_Line2_W->Name = L"labelTrial2_Line2_W";
 			this->labelTrial2_Line2_W->Size = System::Drawing::Size(100, 30);
 			this->labelTrial2_Line2_W->TabIndex = 248;
 			// 
 			// labelTrial2_Line3_W
 			// 
-			this->labelTrial2_Line3_W->Location = System::Drawing::Point(508, 361);
+			this->labelTrial2_Line3_W->Location = System::Drawing::Point(633, 362);
 			this->labelTrial2_Line3_W->Name = L"labelTrial2_Line3_W";
 			this->labelTrial2_Line3_W->Size = System::Drawing::Size(100, 30);
 			this->labelTrial2_Line3_W->TabIndex = 249;
@@ -1822,6 +1854,10 @@ namespace 电工电路试验台 {
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Controls->Add(this->label8);
+			this->groupBox1->Controls->Add(this->label10);
+			this->groupBox1->Controls->Add(this->label6);
+			this->groupBox1->Controls->Add(this->label16);
 			this->groupBox1->Controls->Add(this->button7);
 			this->groupBox1->Controls->Add(this->chartTrial2);
 			this->groupBox1->Controls->Add(this->labelTrial2_Line3_W);
@@ -1864,13 +1900,90 @@ namespace 电工电路试验台 {
 			this->groupBox1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
-			this->groupBox1->Location = System::Drawing::Point(78, 228);
+			this->groupBox1->Location = System::Drawing::Point(57, 504);
 			this->groupBox1->Name = L"groupBox1";
 			this->groupBox1->Size = System::Drawing::Size(1407, 805);
 			this->groupBox1->TabIndex = 91;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"实验内容二";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &单相铁心变压器特性的测试实验内容::groupBox1_Enter);
+			// 
+			// label16
+			// 
+			this->label16->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label16->ForeColor = System::Drawing::Color::Lime;
+			this->label16->Location = System::Drawing::Point(461, 143);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(136, 28);
+			this->label16->TabIndex = 382;
+			this->label16->Text = L"交流电压表2";
+			this->label16->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label6
+			// 
+			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label6->ForeColor = System::Drawing::Color::Lime;
+			this->label6->Location = System::Drawing::Point(267, 143);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(136, 28);
+			this->label6->TabIndex = 383;
+			this->label6->Text = L"交流电流表1";
+			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label8
+			// 
+			this->label8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label8->ForeColor = System::Drawing::Color::Lime;
+			this->label8->Location = System::Drawing::Point(761, 143);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(136, 28);
+			this->label8->TabIndex = 385;
+			this->label8->Text = L"交流电流表1";
+			this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label10
+			// 
+			this->label10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label10->ForeColor = System::Drawing::Color::Lime;
+			this->label10->Location = System::Drawing::Point(912, 143);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(136, 28);
+			this->label10->TabIndex = 384;
+			this->label10->Text = L"交流电压表2";
+			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label11
+			// 
+			this->label11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label11->ForeColor = System::Drawing::Color::Lime;
+			this->label11->Location = System::Drawing::Point(6, 155);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(136, 28);
+			this->label11->TabIndex = 383;
+			this->label11->Text = L"交流电压表2";
+			this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label12
+			// 
+			this->label12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label12->ForeColor = System::Drawing::Color::Lime;
+			this->label12->Location = System::Drawing::Point(8, 242);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(136, 28);
+			this->label12->TabIndex = 384;
+			this->label12->Text = L"交流电压表2";
+			this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label13
+			// 
+			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label13->ForeColor = System::Drawing::Color::Lime;
+			this->label13->Location = System::Drawing::Point(10, 335);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(136, 28);
+			this->label13->TabIndex = 386;
+			this->label13->Text = L"交流电流表1";
+			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// 单相铁心变压器特性的测试实验内容
 			// 
@@ -1893,6 +2006,8 @@ namespace 电工电路试验台 {
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3))->EndInit();
 			this->groupBox3->ResumeLayout(false);
 			this->groupBox2->ResumeLayout(false);
+			this->groupBox2->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial2))->EndInit();
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
@@ -1913,132 +2028,132 @@ private: System::Void button246_Click(System::Object^  sender, System::EventArgs
 	SendData();
 }
 private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_I1->Text = global::GetI500Data();
+	labelTrial2_Line1_I1->Text = global::GetGongPingI();
 }
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_U1->Text = global::GetU30Data();
+	labelTrial2_Line1_U1->Text = global::GetGongPingU();
 }
 
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_I2->Text = global::GetI500Data();
+	labelTrial2_Line1_I2->Text = global::GetGongPingI();
 }
 private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line1_U2->Text = global::GetU30Data();
+	labelTrial2_Line1_U2->Text = global::GetGongPingU();
 }
 private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_I1->Text = global::GetI500Data();
+	labelTrial2_Line2_I1->Text = global::GetGongPingI();
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line3_I1->Text = global::GetI500Data();
+	labelTrial2_Line3_I1->Text = global::GetGongPingI();
 }
 private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_U1->Text = global::GetU30Data();
+	labelTrial2_Line2_U1->Text = global::GetGongPingU();
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line3_U1->Text = global::GetU30Data();
+	labelTrial2_Line3_U1->Text = global::GetGongPingU();
 }
 
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_I2->Text = global::GetI500Data();
+	labelTrial2_Line2_I2->Text = global::GetGongPingI();
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line3_I2->Text = global::GetI500Data();
+	labelTrial2_Line3_I2->Text = global::GetGongPingI();
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line2_U2->Text = global::GetU30Data();
+	labelTrial2_Line2_U2->Text = global::GetGongPingU();
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial2_Line3_U2->Text = global::GetU30Data();
+	labelTrial2_Line3_U2->Text = global::GetGongPingU();
 }
 private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_1->Text = global::GetU30Data();
+	labelTrial3_U1_1->Text = global::GetGongPingU();
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_2->Text = global::GetU30Data();
+	labelTrial3_U1_2->Text = global::GetGongPingU();
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_3->Text = global::GetU30Data();
+	labelTrial3_U1_3->Text = global::GetGongPingU();
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_4->Text = global::GetU30Data();
+	labelTrial3_U1_4->Text = global::GetGongPingU();
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_5->Text = global::GetU30Data();
+	labelTrial3_U1_5->Text = global::GetGongPingU();
 }
 private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_6->Text = global::GetU30Data();
+	labelTrial3_U1_6->Text = global::GetGongPingU();
 }
 private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_7->Text = global::GetU30Data();
+	labelTrial3_U1_7->Text = global::GetGongPingU();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_8->Text = global::GetU30Data();
+	labelTrial3_U1_8->Text = global::GetGongPingU();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_9->Text = global::GetU30Data();
+	labelTrial3_U1_9->Text = global::GetGongPingU();
 }
 private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U1_10->Text = global::GetU30Data();
+	labelTrial3_U1_10->Text = global::GetGongPingU();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_1->Text = global::GetU30Data();
+	labelTrial3_U20_1->Text = global::GetGongPingU();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_2->Text = global::GetU30Data();
+	labelTrial3_U20_2->Text = global::GetGongPingU();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_3->Text = global::GetU30Data();
+	labelTrial3_U20_3->Text = global::GetGongPingU();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_4->Text = global::GetU30Data();
+	labelTrial3_U20_4->Text = global::GetGongPingU();
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_5->Text = global::GetU30Data();
+	labelTrial3_U20_5->Text = global::GetGongPingU();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_6->Text = global::GetU30Data();
+	labelTrial3_U20_6->Text = global::GetGongPingU();
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_7->Text = global::GetU30Data();
+	labelTrial3_U20_7->Text = global::GetGongPingU();
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_8->Text = global::GetU30Data();
+	labelTrial3_U20_8->Text = global::GetGongPingU();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_9->Text = global::GetU30Data();
+	labelTrial3_U20_9->Text = global::GetGongPingU();
 }
 private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_U20_10->Text = global::GetU30Data();
+	labelTrial3_U20_10->Text = global::GetGongPingU();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_1->Text = global::GetI500Data();
+	labelTrial3_I10_1->Text = global::GetGongPingI();
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_2->Text = global::GetI500Data();
+	labelTrial3_I10_2->Text = global::GetGongPingI();
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_3->Text = global::GetI500Data();
+	labelTrial3_I10_3->Text = global::GetGongPingI();
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_4->Text = global::GetI500Data();
+	labelTrial3_I10_4->Text = global::GetGongPingI();
 }
 private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_5->Text = global::GetI500Data();
+	labelTrial3_I10_5->Text = global::GetGongPingI();
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_6->Text = global::GetI500Data();
+	labelTrial3_I10_6->Text = global::GetGongPingI();
 }
 private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_7->Text = global::GetI500Data();
+	labelTrial3_I10_7->Text = global::GetGongPingI();
 }
 private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_8->Text = global::GetI500Data();
+	labelTrial3_I10_8->Text = global::GetGongPingI();
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_9->Text = global::GetI500Data();
+	labelTrial3_I10_9->Text = global::GetGongPingI();
 }
 private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial3_I10_10->Text = global::GetI500Data();
+	labelTrial3_I10_10->Text = global::GetGongPingI();
 }
 private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
