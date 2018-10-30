@@ -68,7 +68,7 @@ void 戴维南定理实验内容::chartTrial2_load() {
 	catch (System::Exception^ E) {
 
 	}
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
@@ -106,7 +106,7 @@ void 戴维南定理实验内容::chartTrial6_load() {
 	catch (System::Exception^ E) {
 
 	}
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 

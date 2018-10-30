@@ -140,6 +140,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
@@ -149,6 +150,9 @@
     <ClInclude Include="..\..\..\c++\libsocket\libsocket\libsocket.h" />
     <ClInclude Include="capture.h" />
     <ClInclude Include="data_transf.h" />
+    <ClInclude Include="hardware_debug.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="loginWnd.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -497,6 +501,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="hardware_debug.resx">
+      <DependentUpon>hardware_debug.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="loginWnd.resx">
       <DependentUpon>loginWnd.h</DependentUpon>
     </EmbeddedResource>
@@ -810,6 +817,7 @@
   <ItemGroup>
     <ClCompile Include="capture.cpp" />
     <ClCompile Include="data_transf.cpp" />
+    <ClCompile Include="hardware_debug.cpp" />
     <ClCompile Include="Long_connection_control.cpp">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
     </ClCompile>

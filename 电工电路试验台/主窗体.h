@@ -2,6 +2,7 @@
 #include <windows.h>
 #include "tool/gradeSubmit.h"
 #include "loginWnd.h"
+#include "hardware_debug.h"
 namespace 电工电路试验台 {
 
 	using namespace System;
@@ -85,6 +86,7 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton1;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton2;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton3;
+	private: System::Windows::Forms::ToolStripButton^  toolStripButton4;
 	private: System::ComponentModel::IContainer^  components;
 	protected:
 
@@ -109,6 +111,7 @@ namespace 电工电路试验台 {
 			this->toolStripButton1 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->toolStripButton2 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->toolStripButton3 = (gcnew System::Windows::Forms::ToolStripButton());
+			this->toolStripButton4 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
@@ -157,9 +160,9 @@ namespace 电工电路试验台 {
 			// 
 			this->toolStrip1->AutoSize = false;
 			this->toolStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
-			this->toolStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+			this->toolStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
 				this->toolStripButton1,
-					this->toolStripButton2, this->toolStripButton3
+					this->toolStripButton2, this->toolStripButton3, this->toolStripButton4
 			});
 			this->toolStrip1->Location = System::Drawing::Point(0, 0);
 			this->toolStrip1->Name = L"toolStrip1";
@@ -203,6 +206,18 @@ namespace 电工电路试验台 {
 			this->toolStripButton3->Size = System::Drawing::Size(50, 50);
 			this->toolStripButton3->Text = L"toolStripButton3";
 			this->toolStripButton3->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton3_Click);
+			// 
+			// toolStripButton4
+			// 
+			this->toolStripButton4->AutoSize = false;
+			this->toolStripButton4->DisplayStyle = System::Windows::Forms::ToolStripItemDisplayStyle::Image;
+			this->toolStripButton4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStripButton4.Image")));
+			this->toolStripButton4->ImageTransparentColor = System::Drawing::Color::Magenta;
+			this->toolStripButton4->Name = L"toolStripButton4";
+			this->toolStripButton4->Size = System::Drawing::Size(50, 50);
+			this->toolStripButton4->Text = L"toolStripButton4";
+			this->toolStripButton4->ToolTipText = L"硬件调试";
+			this->toolStripButton4->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton4_Click);
 			// 
 			// label7
 			// 
@@ -570,6 +585,9 @@ private: System::Void toolStripButton3_Click(System::Object^  sender, System::Ev
 	this->WindowState = FormWindowState::Minimized;
 }
 private: System::Void toolStrip1_ItemClicked(System::Object^  sender, System::Windows::Forms::ToolStripItemClickedEventArgs^  e) {
+}
+private: System::Void toolStripButton4_Click(System::Object^  sender, System::EventArgs^  e) {
+	(gcnew hardware_debug)->ShowDialog();
 }
 };
 }

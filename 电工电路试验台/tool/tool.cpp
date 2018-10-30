@@ -287,7 +287,7 @@ bool SetDVNum(String ^text,int min,int max) {
 	}
 
 	int num = num_f*100;
-	cout << "num" << num << endl;
+
 	if (num < min * 100) {
 		MessageBox::Show("不能小于" + min.ToString());
 		return false;

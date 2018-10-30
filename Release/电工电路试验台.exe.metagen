@@ -1,3 +1,4 @@
+  电工电路试验台.hardware_debug.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.loginWnd.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.RC网络的频率特性实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.RC网络的频率特性实验原理.resources - Embedded, ContainedInManifestFile, 
@@ -118,6 +119,8 @@ Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e0
 	hash=None, flags=None
 Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
 	hash=None, flags=None
+Assembly System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
 Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
 	hash=None, flags=None
 Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
@@ -135,13 +138,6 @@ Class Capture: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Open(): PrivateScope, Public, HideBySig
     SendCapture(): PrivateScope, Public, HideBySig
     RecvAndClose(): PrivateScope, Public, HideBySig
-Class monitorTrialssc: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Methods:
-    SendTrial(): PrivateScope, Public, HideBySig
-    _SendTrial(): PrivateScope, Public, HideBySig
-    GetNowTrialForm(Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
-    SendMonitorData(UInt32, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class 电工电路试验台.底部: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -216,6 +212,16 @@ Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     GetGongPingCos(): PrivateScope, Public, Static, HideBySig
     GetKuangPingURMS1(): PrivateScope, Public, Static, HideBySig
     GetKuangPingURMS2(): PrivateScope, Public, Static, HideBySig
+Class 电工电路试验台.hardware_debug: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class monitorTrialssc: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SendTrial(): PrivateScope, Public, HideBySig
+    _SendTrial(): PrivateScope, Public, HideBySig
+    GetNowTrialForm(Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    SendMonitorData(UInt32, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class 电工电路试验台.loginWnd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

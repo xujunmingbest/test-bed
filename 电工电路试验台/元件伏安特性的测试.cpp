@@ -313,7 +313,7 @@ void 元件伏安特性的测试实验报告::chart线性_load() {
 	catch (System::Exception^ E) {
 
 	}
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
@@ -351,7 +351,7 @@ void 元件伏安特性的测试实验报告::chart白炽_load() {
 	catch (System::Exception^ E) {
 
 	}
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验报告::chart稳压_load() {
@@ -398,7 +398,7 @@ void 元件伏安特性的测试实验报告::chart稳压_load() {
 	catch (System::Exception^ E) {
 
 	}
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验报告::chart锗管_load() {
@@ -445,7 +445,7 @@ void 元件伏安特性的测试实验报告::chart锗管_load() {
 	catch (System::Exception^ E) {
 
 	}
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验报告::chart硅管_load() {
@@ -492,7 +492,7 @@ void 元件伏安特性的测试实验报告::chart硅管_load() {
 	catch (System::Exception^ E) {
 
 	}
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
@@ -840,7 +840,7 @@ void 元件伏安特性的测试实验内容::Loadchart线性() {
 	catch (System::Exception^ E) {
 
 	}
-		s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+		s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
@@ -933,7 +933,7 @@ void 元件伏安特性的测试实验内容::Loadchart锗管() {
 
 	}
 
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验内容::chart硅管Init() {
@@ -984,7 +984,7 @@ void 元件伏安特性的测试实验内容::Loadchart硅管() {
 
 	}
 
-	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void 元件伏安特性的测试实验内容::chart稳压Init() {
@@ -1035,7 +1035,7 @@ void 元件伏安特性的测试实验内容::Loadchart稳压() {
 	}
 	catch (System::Exception^ E) {
 
-	}	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending);
+	}	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending,"X");
 	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
