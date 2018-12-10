@@ -57,8 +57,8 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Button^  button39;
 	private: System::Windows::Forms::Button^  button38;
 	private: System::Windows::Forms::Button^  button37;
-	private: System::Windows::Forms::Button^  button36;
-	private: System::Windows::Forms::Button^  button35;
+
+
 	private: System::Windows::Forms::Button^  button34;
 	private: System::Windows::Forms::Button^  button33;
 	private: System::Windows::Forms::Button^  button32;
@@ -187,6 +187,8 @@ private: System::Windows::Forms::Button^  button8;
 private: System::Windows::Forms::Button^  button9;
 private: System::Windows::Forms::Button^  button10;
 private: System::Windows::Forms::Button^  button11;
+private: System::Windows::Forms::Button^  button12;
+private: System::Windows::Forms::Button^  button13;
 
 
 	private:
@@ -207,35 +209,41 @@ private: System::Windows::Forms::Button^  button11;
 			this->label37 = (gcnew System::Windows::Forms::Label());
 			this->label38 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->button12 = (gcnew System::Windows::Forms::Button());
+			this->button13 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button7 = (gcnew System::Windows::Forms::Button());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->button10 = (gcnew System::Windows::Forms::Button());
+			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button11 = (gcnew System::Windows::Forms::Button());
 			this->label11 = (gcnew System::Windows::Forms::Label());
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label64 = (gcnew System::Windows::Forms::Label());
 			this->label20 = (gcnew System::Windows::Forms::Label());
 			this->label21 = (gcnew System::Windows::Forms::Label());
-			this->label22 = (gcnew System::Windows::Forms::Label());
-			this->label23 = (gcnew System::Windows::Forms::Label());
 			this->label24 = (gcnew System::Windows::Forms::Label());
+			this->label22 = (gcnew System::Windows::Forms::Label());
+			this->textBoxcalU11 = (gcnew System::Windows::Forms::TextBox());
 			this->label25 = (gcnew System::Windows::Forms::Label());
+			this->textBoxcalU12 = (gcnew System::Windows::Forms::TextBox());
 			this->label26 = (gcnew System::Windows::Forms::Label());
 			this->label27 = (gcnew System::Windows::Forms::Label());
 			this->label28 = (gcnew System::Windows::Forms::Label());
+			this->label23 = (gcnew System::Windows::Forms::Label());
+			this->labelmeaU11 = (gcnew System::Windows::Forms::Label());
 			this->label29 = (gcnew System::Windows::Forms::Label());
+			this->labelmeaU12 = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
+			this->labelrelaU11 = (gcnew System::Windows::Forms::Label());
 			this->labelrelaUBC = (gcnew System::Windows::Forms::Label());
+			this->labelrelaU12 = (gcnew System::Windows::Forms::Label());
 			this->labelrelaUAB = (gcnew System::Windows::Forms::Label());
 			this->labelrelaUFA = (gcnew System::Windows::Forms::Label());
-			this->labelrelaU12 = (gcnew System::Windows::Forms::Label());
-			this->labelrelaU11 = (gcnew System::Windows::Forms::Label());
 			this->labelrelaI3 = (gcnew System::Windows::Forms::Label());
 			this->labelrelaI2 = (gcnew System::Windows::Forms::Label());
 			this->labelrelaI1 = (gcnew System::Windows::Forms::Label());
@@ -244,8 +252,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->labelmeaUBC = (gcnew System::Windows::Forms::Label());
 			this->labelmeaUAB = (gcnew System::Windows::Forms::Label());
 			this->labelmeaUFA = (gcnew System::Windows::Forms::Label());
-			this->labelmeaU12 = (gcnew System::Windows::Forms::Label());
-			this->labelmeaU11 = (gcnew System::Windows::Forms::Label());
 			this->labelmeaI3 = (gcnew System::Windows::Forms::Label());
 			this->labelmeaI2 = (gcnew System::Windows::Forms::Label());
 			this->labelmeaI1 = (gcnew System::Windows::Forms::Label());
@@ -254,8 +260,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->button39 = (gcnew System::Windows::Forms::Button());
 			this->button38 = (gcnew System::Windows::Forms::Button());
 			this->button37 = (gcnew System::Windows::Forms::Button());
-			this->button36 = (gcnew System::Windows::Forms::Button());
-			this->button35 = (gcnew System::Windows::Forms::Button());
 			this->button34 = (gcnew System::Windows::Forms::Button());
 			this->button33 = (gcnew System::Windows::Forms::Button());
 			this->button32 = (gcnew System::Windows::Forms::Button());
@@ -266,8 +270,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->textBoxcalUBC = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxcalUAB = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxcalUFA = (gcnew System::Windows::Forms::TextBox());
-			this->textBoxcalU12 = (gcnew System::Windows::Forms::TextBox());
-			this->textBoxcalU11 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxcalI3 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxcalI2 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxcalI1 = (gcnew System::Windows::Forms::TextBox());
@@ -330,6 +332,8 @@ private: System::Windows::Forms::Button^  button11;
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->button12);
+			this->groupBox2->Controls->Add(this->button13);
 			this->groupBox2->Controls->Add(this->button2);
 			this->groupBox2->Controls->Add(this->button3);
 			this->groupBox2->Controls->Add(this->button4);
@@ -351,9 +355,7 @@ private: System::Windows::Forms::Button^  button11;
 			this->groupBox2->Controls->Add(this->label25);
 			this->groupBox2->Controls->Add(this->textBoxcalU12);
 			this->groupBox2->Controls->Add(this->label26);
-			this->groupBox2->Controls->Add(this->button35);
 			this->groupBox2->Controls->Add(this->label27);
-			this->groupBox2->Controls->Add(this->button36);
 			this->groupBox2->Controls->Add(this->label28);
 			this->groupBox2->Controls->Add(this->label23);
 			this->groupBox2->Controls->Add(this->labelmeaU11);
@@ -407,6 +409,28 @@ private: System::Windows::Forms::Button^  button11;
 			this->groupBox2->TabIndex = 81;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"测量数据";
+			// 
+			// button12
+			// 
+			this->button12->Location = System::Drawing::Point(297, 175);
+			this->button12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button12->Name = L"button12";
+			this->button12->Size = System::Drawing::Size(93, 29);
+			this->button12->TabIndex = 128;
+			this->button12->Text = L"获取";
+			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button12_Click);
+			// 
+			// button13
+			// 
+			this->button13->Location = System::Drawing::Point(203, 175);
+			this->button13->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button13->Name = L"button13";
+			this->button13->Size = System::Drawing::Size(93, 29);
+			this->button13->TabIndex = 127;
+			this->button13->Text = L"获取";
+			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button13_Click);
 			// 
 			// button2
 			// 
@@ -474,17 +498,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->button7->UseVisualStyleBackColor = true;
 			this->button7->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button7_Click);
 			// 
-			// button8
-			// 
-			this->button8->Location = System::Drawing::Point(203, 269);
-			this->button8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(93, 29);
-			this->button8->TabIndex = 120;
-			this->button8->Text = L"计算";
-			this->button8->UseVisualStyleBackColor = true;
-			this->button8->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button8_Click);
-			// 
 			// button9
 			// 
 			this->button9->Location = System::Drawing::Point(599, 269);
@@ -506,6 +519,17 @@ private: System::Windows::Forms::Button^  button11;
 			this->button10->Text = L"计算";
 			this->button10->UseVisualStyleBackColor = true;
 			this->button10->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button10_Click);
+			// 
+			// button8
+			// 
+			this->button8->Location = System::Drawing::Point(203, 269);
+			this->button8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button8->Name = L"button8";
+			this->button8->Size = System::Drawing::Size(93, 29);
+			this->button8->TabIndex = 120;
+			this->button8->Text = L"计算";
+			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button8_Click);
 			// 
 			// button11
 			// 
@@ -568,26 +592,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->label21->Text = L"UAB";
 			this->label21->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// label22
-			// 
-			this->label22->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label22->Location = System::Drawing::Point(697, 39);
-			this->label22->Name = L"label22";
-			this->label22->Size = System::Drawing::Size(93, 22);
-			this->label22->TabIndex = 95;
-			this->label22->Text = L"UFA";
-			this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
-			// label23
-			// 
-			this->label23->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label23->Location = System::Drawing::Point(297, 39);
-			this->label23->Name = L"label23";
-			this->label23->Size = System::Drawing::Size(93, 22);
-			this->label23->TabIndex = 94;
-			this->label23->Text = L"U12";
-			this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
 			// label24
 			// 
 			this->label24->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
@@ -598,6 +602,25 @@ private: System::Windows::Forms::Button^  button11;
 			this->label24->Text = L"U11";
 			this->label24->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
+			// label22
+			// 
+			this->label22->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label22->Location = System::Drawing::Point(697, 39);
+			this->label22->Name = L"label22";
+			this->label22->Size = System::Drawing::Size(93, 22);
+			this->label22->TabIndex = 95;
+			this->label22->Text = L"UFA";
+			this->label22->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// textBoxcalU11
+			// 
+			this->textBoxcalU11->Location = System::Drawing::Point(203, 88);
+			this->textBoxcalU11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxcalU11->Name = L"textBoxcalU11";
+			this->textBoxcalU11->Size = System::Drawing::Size(89, 30);
+			this->textBoxcalU11->TabIndex = 14;
+			this->textBoxcalU11->TextChanged += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::textBoxcalU11_TextChanged);
+			// 
 			// label25
 			// 
 			this->label25->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
@@ -607,6 +630,15 @@ private: System::Windows::Forms::Button^  button11;
 			this->label25->TabIndex = 92;
 			this->label25->Text = L"I3(mA)";
 			this->label25->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// textBoxcalU12
+			// 
+			this->textBoxcalU12->Location = System::Drawing::Point(297, 88);
+			this->textBoxcalU12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->textBoxcalU12->Name = L"textBoxcalU12";
+			this->textBoxcalU12->Size = System::Drawing::Size(93, 30);
+			this->textBoxcalU12->TabIndex = 16;
+			this->textBoxcalU12->TextChanged += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::textBoxcalU12_TextChanged);
 			// 
 			// label26
 			// 
@@ -638,6 +670,25 @@ private: System::Windows::Forms::Button^  button11;
 			this->label28->Text = L"UDE";
 			this->label28->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
+			// label23
+			// 
+			this->label23->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label23->Location = System::Drawing::Point(297, 39);
+			this->label23->Name = L"label23";
+			this->label23->Size = System::Drawing::Size(93, 22);
+			this->label23->TabIndex = 94;
+			this->label23->Text = L"U12";
+			this->label23->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// labelmeaU11
+			// 
+			this->labelmeaU11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelmeaU11->Location = System::Drawing::Point(203, 146);
+			this->labelmeaU11->Name = L"labelmeaU11";
+			this->labelmeaU11->Size = System::Drawing::Size(89, 22);
+			this->labelmeaU11->TabIndex = 72;
+			this->labelmeaU11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
 			// label29
 			// 
 			this->label29->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
@@ -648,6 +699,15 @@ private: System::Windows::Forms::Button^  button11;
 			this->label29->Text = L"UCD";
 			this->label29->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
+			// labelmeaU12
+			// 
+			this->labelmeaU12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelmeaU12->Location = System::Drawing::Point(297, 146);
+			this->labelmeaU12->Name = L"labelmeaU12";
+			this->labelmeaU12->Size = System::Drawing::Size(93, 22);
+			this->labelmeaU12->TabIndex = 73;
+			this->labelmeaU12->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
 			// label19
 			// 
 			this->label19->ForeColor = System::Drawing::Color::Black;
@@ -657,6 +717,15 @@ private: System::Windows::Forms::Button^  button11;
 			this->label19->TabIndex = 87;
 			this->label19->Text = L"被测量";
 			// 
+			// labelrelaU11
+			// 
+			this->labelrelaU11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelrelaU11->Location = System::Drawing::Point(203, 235);
+			this->labelrelaU11->Name = L"labelrelaU11";
+			this->labelrelaU11->Size = System::Drawing::Size(89, 22);
+			this->labelrelaU11->TabIndex = 82;
+			this->labelrelaU11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
 			// labelrelaUBC
 			// 
 			this->labelrelaUBC->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
@@ -665,6 +734,15 @@ private: System::Windows::Forms::Button^  button11;
 			this->labelrelaUBC->Size = System::Drawing::Size(93, 22);
 			this->labelrelaUBC->TabIndex = 86;
 			this->labelrelaUBC->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
+			// 
+			// labelrelaU12
+			// 
+			this->labelrelaU12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->labelrelaU12->Location = System::Drawing::Point(297, 235);
+			this->labelrelaU12->Name = L"labelrelaU12";
+			this->labelrelaU12->Size = System::Drawing::Size(93, 22);
+			this->labelrelaU12->TabIndex = 83;
+			this->labelrelaU12->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelrelaUAB
 			// 
@@ -683,24 +761,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->labelrelaUFA->Size = System::Drawing::Size(93, 22);
 			this->labelrelaUFA->TabIndex = 84;
 			this->labelrelaUFA->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
-			// labelrelaU12
-			// 
-			this->labelrelaU12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelrelaU12->Location = System::Drawing::Point(297, 235);
-			this->labelrelaU12->Name = L"labelrelaU12";
-			this->labelrelaU12->Size = System::Drawing::Size(93, 22);
-			this->labelrelaU12->TabIndex = 83;
-			this->labelrelaU12->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
-			// labelrelaU11
-			// 
-			this->labelrelaU11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelrelaU11->Location = System::Drawing::Point(203, 235);
-			this->labelrelaU11->Name = L"labelrelaU11";
-			this->labelrelaU11->Size = System::Drawing::Size(89, 22);
-			this->labelrelaU11->TabIndex = 82;
-			this->labelrelaU11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelrelaI3
 			// 
@@ -773,24 +833,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->labelmeaUFA->Size = System::Drawing::Size(93, 22);
 			this->labelmeaUFA->TabIndex = 74;
 			this->labelmeaUFA->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
-			// labelmeaU12
-			// 
-			this->labelmeaU12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelmeaU12->Location = System::Drawing::Point(297, 146);
-			this->labelmeaU12->Name = L"labelmeaU12";
-			this->labelmeaU12->Size = System::Drawing::Size(93, 22);
-			this->labelmeaU12->TabIndex = 73;
-			this->labelmeaU12->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
-			// 
-			// labelmeaU11
-			// 
-			this->labelmeaU11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->labelmeaU11->Location = System::Drawing::Point(203, 146);
-			this->labelmeaU11->Name = L"labelmeaU11";
-			this->labelmeaU11->Size = System::Drawing::Size(89, 22);
-			this->labelmeaU11->TabIndex = 72;
-			this->labelmeaU11->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelmeaI3
 			// 
@@ -873,28 +915,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->button37->Text = L"获取";
 			this->button37->UseVisualStyleBackColor = true;
 			this->button37->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button37_Click);
-			// 
-			// button36
-			// 
-			this->button36->Location = System::Drawing::Point(297, 175);
-			this->button36->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button36->Name = L"button36";
-			this->button36->Size = System::Drawing::Size(93, 29);
-			this->button36->TabIndex = 53;
-			this->button36->Text = L"设置";
-			this->button36->UseVisualStyleBackColor = true;
-			this->button36->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button36_Click);
-			// 
-			// button35
-			// 
-			this->button35->Location = System::Drawing::Point(199, 175);
-			this->button35->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button35->Name = L"button35";
-			this->button35->Size = System::Drawing::Size(93, 29);
-			this->button35->TabIndex = 52;
-			this->button35->Text = L"设置";
-			this->button35->UseVisualStyleBackColor = true;
-			this->button35->Click += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::button35_Click);
 			// 
 			// button34
 			// 
@@ -991,24 +1011,6 @@ private: System::Windows::Forms::Button^  button11;
 			this->textBoxcalUFA->Size = System::Drawing::Size(93, 30);
 			this->textBoxcalUFA->TabIndex = 18;
 			this->textBoxcalUFA->TextChanged += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::textBoxcalUFA_TextChanged);
-			// 
-			// textBoxcalU12
-			// 
-			this->textBoxcalU12->Location = System::Drawing::Point(297, 88);
-			this->textBoxcalU12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->textBoxcalU12->Name = L"textBoxcalU12";
-			this->textBoxcalU12->Size = System::Drawing::Size(93, 30);
-			this->textBoxcalU12->TabIndex = 16;
-			this->textBoxcalU12->TextChanged += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::textBoxcalU12_TextChanged);
-			// 
-			// textBoxcalU11
-			// 
-			this->textBoxcalU11->Location = System::Drawing::Point(203, 88);
-			this->textBoxcalU11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->textBoxcalU11->Name = L"textBoxcalU11";
-			this->textBoxcalU11->Size = System::Drawing::Size(89, 30);
-			this->textBoxcalU11->TabIndex = 14;
-			this->textBoxcalU11->TextChanged += gcnew System::EventHandler(this, &基尔霍夫定律实验内容::textBoxcalU11_TextChanged);
 			// 
 			// textBoxcalI3
 			// 
@@ -1206,43 +1208,15 @@ private: System::Windows::Forms::Button^  button11;
 private: System::Void 基尔霍夫定律实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaI1->Text = GetIData();
+	labelmeaI1->Text = global::GetI500Data();
 }
 
-		 S_PLCRecv GetMData() {
-			 S_PLCRecv pr;
-			 if (!global::sh->GetliKongData(&pr))
-			 {
-				 MessageBox::Show("获取力控数据失败,请检串口连接是不是正常");
-			 }
-			 return pr;
-		 }
-		 String^ GetUData() {
-			 S_PLCRecv p = GetMData();
-
-			 if (p.HeaderId == 6) {
-				 return  DcNumToString(p.U, p.DCsymbol);
-			 }
-			 else {
-				 return "0.00";
-			 }
-		 }
-		 String^ GetIData() {
-			 S_PLCRecv p = GetMData();
-
-			 if (p.HeaderId == 5) {
-				 return  DcNumToString(p.I, p.DCsymbol);
-			 }
-			 else {
-				 return "0.00";
-			 }
-		 }
 
 private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaI2->Text = GetIData();
+	labelmeaI2->Text = global::GetI500Data();
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaI3->Text = GetIData();
+	labelmeaI3->Text = global::GetI500Data();
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelmeaU11->Text = textBoxcalU11->Text;
@@ -1253,19 +1227,19 @@ private: System::Void button36_Click(System::Object^  sender, System::EventArgs^
 	SetDVNum(textBoxcalU12->Text, 0, 30);
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaUFA->Text = GetUData();
+	labelmeaUFA->Text = global::GetU30_U400VData();
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaUAB->Text = GetUData();
+	labelmeaUAB->Text = global::GetU30_U400VData();
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaUBC->Text = GetUData();
+	labelmeaUBC->Text = global::GetU30_U400VData();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaUCD->Text = GetUData();
+	labelmeaUCD->Text = global::GetU30_U400VData();
 }
 private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelmeaUDE->Text = GetUData();
+	labelmeaUDE->Text = global::GetU30_U400VData();
 }
 		 void Calculation(TextBox^ t1, Label^ l1, Label^ld) {
 			 try {
@@ -1336,6 +1310,12 @@ private: System::Void button3_Click(System::Object^  sender, System::EventArgs^ 
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 	Calculation(textBoxcalUDE, labelmeaUDE, labelrelaUDE);
+}
+private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelmeaU11->Text = global::GetU30_U400VData();
+}
+private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelmeaU12->Text = global::GetU30_U400VData();
 }
 };
 }

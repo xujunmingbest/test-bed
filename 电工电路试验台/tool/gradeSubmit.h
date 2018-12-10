@@ -673,13 +673,10 @@ struct ST_一阶电路的响应测试 {
 	TrialInfo ti;
 	char τ[10];
 	char Trial1Bmp_in[387072];
-	char Trial1Bmp_out[387072];
 	int Trial1Score;
 	char Trial2Bmp_in[387072];
-	char Trial2Bmp_out[387072];
 	int Trial2Score;
 	char Trial3Bmp_in[387072];
-	char Trial3Bmp_out[387072];
 	int Trial3Score;
 	char summing_up[100];
 };
@@ -732,6 +729,16 @@ struct ST_VCVS实验 {
 	char trial1_1U2_9[10];
 	char trial1_1u[10];
 	int scoretrial1_1;
+
+
+	char trial1_2RL_1[10];
+	char trial1_2RL_2[10];
+	char trial1_2RL_3[10];
+	char trial1_2RL_4[10];
+	char trial1_2RL_5[10];
+	char trial1_2RL_6[10];
+	char trial1_2RL_7[10];
+	char trial1_2RL_8[10];
 
 	char trial1_2V2_1[10];
 	char trial1_2V2_2[10];

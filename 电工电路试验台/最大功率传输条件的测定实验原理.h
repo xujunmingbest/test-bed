@@ -105,9 +105,9 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->label7->Location = System::Drawing::Point(12, 29);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(220, 25);
+			this->label7->Size = System::Drawing::Size(298, 25);
 			this->label7->TabIndex = 25;
-			this->label7->Text = L"二端口网络的研究";
+			this->label7->Text = L"最大功率传输条件的测定";
 			// 
 			// pictureBox1
 			// 

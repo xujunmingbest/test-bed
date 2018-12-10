@@ -1,6 +1,6 @@
 #include "戴维南定理实验内容.h"
 #include "data_transf.h"
-
+#include "E:/c++/libfilesql/libfilesql/libfilesql.h"
 using namespace 电工电路试验台;
 
 void 戴维南定理实验内容::SendData() {
@@ -55,15 +55,15 @@ void 戴维南定理实验内容::chartTrial2_load() {
 	try {
 		s->Name = "";
 		s->Points->AddXY(Convert::ToSingle(labelMethod2I1->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I2->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I3->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I4->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I5->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I6->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I7->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I8->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I9->Text), Convert::ToSingle(labelMethod2URL1->Text));
-		s->Points->AddXY(Convert::ToSingle(labelMethod2I10->Text), Convert::ToSingle(labelMethod2URL1->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I2->Text), Convert::ToSingle(labelMethod2URL2->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I3->Text), Convert::ToSingle(labelMethod2URL3->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I4->Text), Convert::ToSingle(labelMethod2URL4->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I5->Text), Convert::ToSingle(labelMethod2URL5->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I6->Text), Convert::ToSingle(labelMethod2URL6->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I7->Text), Convert::ToSingle(labelMethod2URL7->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I8->Text), Convert::ToSingle(labelMethod2URL8->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I9->Text), Convert::ToSingle(labelMethod2URL9->Text));
+		s->Points->AddXY(Convert::ToSingle(labelMethod2I10->Text), Convert::ToSingle(labelMethod2URL10->Text));
 	}
 	catch (System::Exception^ E) {
 

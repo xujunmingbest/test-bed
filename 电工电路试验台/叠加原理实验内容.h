@@ -171,7 +171,7 @@ private: System::Windows::Forms::Label^  labelLine1I1;
 	private: System::Windows::Forms::Button^  button38;
 	private: System::Windows::Forms::Button^  button37;
 
-	private: System::Windows::Forms::Button^  button35;
+
 	private: System::Windows::Forms::Button^  button34;
 	private: System::Windows::Forms::Button^  button33;
 	private: System::Windows::Forms::Button^  button32;
@@ -339,8 +339,8 @@ private: System::Windows::Forms::Button^  button12;
 private: System::Windows::Forms::Button^  button13;
 private: System::Windows::Forms::Button^  button14;
 private: System::Windows::Forms::Button^  button15;
-private: System::Windows::Forms::Button^  button16;
-private: System::Windows::Forms::Button^  button17;
+
+
 private: System::Windows::Forms::Button^  button18;
 private: System::Windows::Forms::Button^  button19;
 private: System::Windows::Forms::Button^  button20;
@@ -349,7 +349,7 @@ private: System::Windows::Forms::Button^  button2;
 private: System::Windows::Forms::Button^  button3;
 private: System::Windows::Forms::Button^  button4;
 private: System::Windows::Forms::Button^  button5;
-private: System::Windows::Forms::Button^  button6;
+
 
 private: System::Windows::Forms::Button^  button8;
 private: System::Windows::Forms::Button^  button9;
@@ -359,7 +359,7 @@ private: System::Windows::Forms::Button^  button42;
 private: System::Windows::Forms::Button^  button43;
 private: System::Windows::Forms::Button^  button44;
 private: System::Windows::Forms::Button^  button45;
-private: System::Windows::Forms::Button^  button46;
+
 
 private: System::Windows::Forms::Button^  button48;
 private: System::Windows::Forms::Button^  button49;
@@ -369,8 +369,8 @@ private: System::Windows::Forms::Button^  button52;
 private: System::Windows::Forms::Button^  button53;
 private: System::Windows::Forms::Button^  button54;
 private: System::Windows::Forms::Button^  button55;
-private: System::Windows::Forms::Button^  button56;
-private: System::Windows::Forms::Button^  button57;
+
+
 private: System::Windows::Forms::Button^  button58;
 private: System::Windows::Forms::Button^  button59;
 private: System::Windows::Forms::Button^  button60;
@@ -379,7 +379,7 @@ private: System::Windows::Forms::Button^  button62;
 private: System::Windows::Forms::Button^  button63;
 private: System::Windows::Forms::Button^  button64;
 private: System::Windows::Forms::Button^  button65;
-private: System::Windows::Forms::Button^  button66;
+
 
 private: System::Windows::Forms::Button^  button68;
 private: System::Windows::Forms::Button^  button69;
@@ -390,7 +390,7 @@ private: System::Windows::Forms::Button^  button73;
 private: System::Windows::Forms::Button^  button74;
 private: System::Windows::Forms::Button^  button75;
 
-private: System::Windows::Forms::Button^  button77;
+
 private: System::Windows::Forms::Button^  button78;
 private: System::Windows::Forms::Button^  button79;
 private: System::Windows::Forms::Button^  button80;
@@ -403,7 +403,7 @@ private: System::Windows::Forms::Button^  button28;
 private: System::Windows::Forms::Button^  button27;
 private: System::Windows::Forms::Button^  button26;
 private: System::Windows::Forms::Button^  button25;
-private: System::Windows::Forms::Button^  button24;
+
 
 private: System::Windows::Forms::Button^  button22;
 private: System::Windows::Forms::Button^  button21;
@@ -497,9 +497,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button14 = (gcnew System::Windows::Forms::Button());
 			this->button25 = (gcnew System::Windows::Forms::Button());
 			this->button15 = (gcnew System::Windows::Forms::Button());
-			this->button24 = (gcnew System::Windows::Forms::Button());
-			this->button16 = (gcnew System::Windows::Forms::Button());
-			this->button17 = (gcnew System::Windows::Forms::Button());
 			this->button22 = (gcnew System::Windows::Forms::Button());
 			this->button18 = (gcnew System::Windows::Forms::Button());
 			this->button21 = (gcnew System::Windows::Forms::Button());
@@ -520,7 +517,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->button5 = (gcnew System::Windows::Forms::Button());
-			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->button10 = (gcnew System::Windows::Forms::Button());
@@ -572,7 +568,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button39 = (gcnew System::Windows::Forms::Button());
 			this->button38 = (gcnew System::Windows::Forms::Button());
 			this->button37 = (gcnew System::Windows::Forms::Button());
-			this->button35 = (gcnew System::Windows::Forms::Button());
 			this->button34 = (gcnew System::Windows::Forms::Button());
 			this->button33 = (gcnew System::Windows::Forms::Button());
 			this->button32 = (gcnew System::Windows::Forms::Button());
@@ -606,7 +601,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button43 = (gcnew System::Windows::Forms::Button());
 			this->button44 = (gcnew System::Windows::Forms::Button());
 			this->button45 = (gcnew System::Windows::Forms::Button());
-			this->button46 = (gcnew System::Windows::Forms::Button());
 			this->button48 = (gcnew System::Windows::Forms::Button());
 			this->button49 = (gcnew System::Windows::Forms::Button());
 			this->button50 = (gcnew System::Windows::Forms::Button());
@@ -614,7 +608,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button52 = (gcnew System::Windows::Forms::Button());
 			this->button53 = (gcnew System::Windows::Forms::Button());
 			this->button54 = (gcnew System::Windows::Forms::Button());
-			this->button66 = (gcnew System::Windows::Forms::Button());
 			this->button55 = (gcnew System::Windows::Forms::Button());
 			this->button58 = (gcnew System::Windows::Forms::Button());
 			this->labelLine5U12 = (gcnew System::Windows::Forms::Label());
@@ -622,11 +615,9 @@ private: System::Windows::Forms::Label^  label50;
 			this->label86 = (gcnew System::Windows::Forms::Label());
 			this->button60 = (gcnew System::Windows::Forms::Button());
 			this->label85 = (gcnew System::Windows::Forms::Label());
-			this->button56 = (gcnew System::Windows::Forms::Button());
 			this->button61 = (gcnew System::Windows::Forms::Button());
 			this->labelLine6U11 = (gcnew System::Windows::Forms::Label());
 			this->button62 = (gcnew System::Windows::Forms::Button());
-			this->button57 = (gcnew System::Windows::Forms::Button());
 			this->button63 = (gcnew System::Windows::Forms::Button());
 			this->button64 = (gcnew System::Windows::Forms::Button());
 			this->button65 = (gcnew System::Windows::Forms::Button());
@@ -634,7 +625,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->labelLine8U11 = (gcnew System::Windows::Forms::Label());
 			this->button69 = (gcnew System::Windows::Forms::Button());
 			this->button70 = (gcnew System::Windows::Forms::Button());
-			this->button77 = (gcnew System::Windows::Forms::Button());
 			this->button71 = (gcnew System::Windows::Forms::Button());
 			this->button72 = (gcnew System::Windows::Forms::Button());
 			this->button73 = (gcnew System::Windows::Forms::Button());
@@ -776,9 +766,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox2->Controls->Add(this->button14);
 			this->groupBox2->Controls->Add(this->button25);
 			this->groupBox2->Controls->Add(this->button15);
-			this->groupBox2->Controls->Add(this->button24);
-			this->groupBox2->Controls->Add(this->button16);
-			this->groupBox2->Controls->Add(this->button17);
 			this->groupBox2->Controls->Add(this->button22);
 			this->groupBox2->Controls->Add(this->button18);
 			this->groupBox2->Controls->Add(this->button21);
@@ -799,7 +786,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox2->Controls->Add(this->button3);
 			this->groupBox2->Controls->Add(this->button4);
 			this->groupBox2->Controls->Add(this->button5);
-			this->groupBox2->Controls->Add(this->button6);
 			this->groupBox2->Controls->Add(this->button8);
 			this->groupBox2->Controls->Add(this->button9);
 			this->groupBox2->Controls->Add(this->button10);
@@ -851,7 +837,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox2->Controls->Add(this->button39);
 			this->groupBox2->Controls->Add(this->button38);
 			this->groupBox2->Controls->Add(this->button37);
-			this->groupBox2->Controls->Add(this->button35);
 			this->groupBox2->Controls->Add(this->button34);
 			this->groupBox2->Controls->Add(this->button33);
 			this->groupBox2->Controls->Add(this->button32);
@@ -870,6 +855,7 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox2->TabIndex = 87;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验数据表一";
+			this->groupBox2->Enter += gcnew System::EventHandler(this, &叠加原理实验内容::groupBox2_Enter);
 			// 
 			// label12
 			// 
@@ -1037,39 +1023,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button15->Text = L"获取";
 			this->button15->UseVisualStyleBackColor = true;
 			this->button15->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button15_Click);
-			// 
-			// button24
-			// 
-			this->button24->Location = System::Drawing::Point(304, 524);
-			this->button24->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button24->Name = L"button24";
-			this->button24->Size = System::Drawing::Size(93, 42);
-			this->button24->TabIndex = 187;
-			this->button24->Text = L"设置";
-			this->button24->UseVisualStyleBackColor = true;
-			this->button24->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button16_Click);
-			// 
-			// button16
-			// 
-			this->button16->Location = System::Drawing::Point(304, 399);
-			this->button16->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button16->Name = L"button16";
-			this->button16->Size = System::Drawing::Size(93, 42);
-			this->button16->TabIndex = 187;
-			this->button16->Text = L"设置";
-			this->button16->UseVisualStyleBackColor = true;
-			this->button16->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button16_Click);
-			// 
-			// button17
-			// 
-			this->button17->Location = System::Drawing::Point(209, 399);
-			this->button17->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button17->Name = L"button17";
-			this->button17->Size = System::Drawing::Size(93, 42);
-			this->button17->TabIndex = 186;
-			this->button17->Text = L"设置";
-			this->button17->UseVisualStyleBackColor = true;
-			this->button17->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button17_Click);
 			// 
 			// button22
 			// 
@@ -1272,17 +1225,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button5->Text = L"获取";
 			this->button5->UseVisualStyleBackColor = true;
 			this->button5->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button5_Click);
-			// 
-			// button6
-			// 
-			this->button6->Location = System::Drawing::Point(304, 280);
-			this->button6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(93, 42);
-			this->button6->TabIndex = 177;
-			this->button6->Text = L"设置";
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button6_Click);
 			// 
 			// button8
 			// 
@@ -1783,17 +1725,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button37->UseVisualStyleBackColor = true;
 			this->button37->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button37_Click);
 			// 
-			// button35
-			// 
-			this->button35->Location = System::Drawing::Point(209, 159);
-			this->button35->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button35->Name = L"button35";
-			this->button35->Size = System::Drawing::Size(93, 42);
-			this->button35->TabIndex = 52;
-			this->button35->Text = L"设置";
-			this->button35->UseVisualStyleBackColor = true;
-			this->button35->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button35_Click);
-			// 
 			// button34
 			// 
 			this->button34->Location = System::Drawing::Point(639, 159);
@@ -1901,7 +1832,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox1->Controls->Add(this->button43);
 			this->groupBox1->Controls->Add(this->button44);
 			this->groupBox1->Controls->Add(this->button45);
-			this->groupBox1->Controls->Add(this->button46);
 			this->groupBox1->Controls->Add(this->button48);
 			this->groupBox1->Controls->Add(this->button49);
 			this->groupBox1->Controls->Add(this->button50);
@@ -1909,7 +1839,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox1->Controls->Add(this->button52);
 			this->groupBox1->Controls->Add(this->button53);
 			this->groupBox1->Controls->Add(this->button54);
-			this->groupBox1->Controls->Add(this->button66);
 			this->groupBox1->Controls->Add(this->button55);
 			this->groupBox1->Controls->Add(this->button58);
 			this->groupBox1->Controls->Add(this->labelLine5U12);
@@ -1917,11 +1846,9 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox1->Controls->Add(this->label86);
 			this->groupBox1->Controls->Add(this->button60);
 			this->groupBox1->Controls->Add(this->label85);
-			this->groupBox1->Controls->Add(this->button56);
 			this->groupBox1->Controls->Add(this->button61);
 			this->groupBox1->Controls->Add(this->labelLine6U11);
 			this->groupBox1->Controls->Add(this->button62);
-			this->groupBox1->Controls->Add(this->button57);
 			this->groupBox1->Controls->Add(this->button63);
 			this->groupBox1->Controls->Add(this->button64);
 			this->groupBox1->Controls->Add(this->button65);
@@ -1929,7 +1856,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->groupBox1->Controls->Add(this->labelLine8U11);
 			this->groupBox1->Controls->Add(this->button69);
 			this->groupBox1->Controls->Add(this->button70);
-			this->groupBox1->Controls->Add(this->button77);
 			this->groupBox1->Controls->Add(this->button71);
 			this->groupBox1->Controls->Add(this->button72);
 			this->groupBox1->Controls->Add(this->button73);
@@ -2212,17 +2138,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button45->UseVisualStyleBackColor = true;
 			this->button45->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button45_Click);
 			// 
-			// button46
-			// 
-			this->button46->Location = System::Drawing::Point(307, 455);
-			this->button46->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button46->Name = L"button46";
-			this->button46->Size = System::Drawing::Size(93, 42);
-			this->button46->TabIndex = 207;
-			this->button46->Text = L"设置";
-			this->button46->UseVisualStyleBackColor = true;
-			this->button46->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button46_Click);
-			// 
 			// button48
 			// 
 			this->button48->Location = System::Drawing::Point(641, 455);
@@ -2300,17 +2215,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button54->UseVisualStyleBackColor = true;
 			this->button54->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button54_Click);
 			// 
-			// button66
-			// 
-			this->button66->Location = System::Drawing::Point(307, 250);
-			this->button66->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button66->Name = L"button66";
-			this->button66->Size = System::Drawing::Size(93, 42);
-			this->button66->TabIndex = 187;
-			this->button66->Text = L"设置";
-			this->button66->UseVisualStyleBackColor = true;
-			this->button66->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button66_Click);
-			// 
 			// button55
 			// 
 			this->button55->Location = System::Drawing::Point(745, 346);
@@ -2385,17 +2289,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->label85->Text = L"U12";
 			this->label85->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button56
-			// 
-			this->button56->Location = System::Drawing::Point(307, 351);
-			this->button56->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button56->Name = L"button56";
-			this->button56->Size = System::Drawing::Size(93, 42);
-			this->button56->TabIndex = 197;
-			this->button56->Text = L"设置";
-			this->button56->UseVisualStyleBackColor = true;
-			this->button56->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button56_Click);
-			// 
 			// button61
 			// 
 			this->button61->Location = System::Drawing::Point(1155, 250);
@@ -2427,17 +2320,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button62->Text = L"获取";
 			this->button62->UseVisualStyleBackColor = true;
 			this->button62->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button62_Click);
-			// 
-			// button57
-			// 
-			this->button57->Location = System::Drawing::Point(212, 351);
-			this->button57->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button57->Name = L"button57";
-			this->button57->Size = System::Drawing::Size(93, 42);
-			this->button57->TabIndex = 196;
-			this->button57->Text = L"设置";
-			this->button57->UseVisualStyleBackColor = true;
-			this->button57->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button57_Click);
 			// 
 			// button63
 			// 
@@ -2514,17 +2396,6 @@ private: System::Windows::Forms::Label^  label50;
 			this->button70->Text = L"获取";
 			this->button70->UseVisualStyleBackColor = true;
 			this->button70->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button70_Click);
-			// 
-			// button77
-			// 
-			this->button77->Location = System::Drawing::Point(212, 139);
-			this->button77->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button77->Name = L"button77";
-			this->button77->Size = System::Drawing::Size(93, 42);
-			this->button77->TabIndex = 176;
-			this->button77->Text = L"设置";
-			this->button77->UseVisualStyleBackColor = true;
-			this->button77->Click += gcnew System::EventHandler(this, &叠加原理实验内容::button77_Click);
 			// 
 			// button71
 			// 
@@ -3340,6 +3211,8 @@ private: System::Void button51_Click(System::Object^  sender, System::EventArgs^
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelLine8UDE->Text = global::GetU30_U400VData();
+}
+private: System::Void groupBox2_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 };

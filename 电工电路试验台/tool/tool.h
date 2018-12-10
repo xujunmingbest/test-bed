@@ -288,7 +288,7 @@ public:
 #define LOGINNORMAL 1;
 #define LOGINYOUKE 2;
 #define BMPSAVEPATH "bmp/"
-
+#define FORMDATASAVEPATH "FormData/"
 extern QueueMutex g_ClassListMutex; //向量操作锁
 
 public ref class global {
@@ -300,7 +300,7 @@ public:
 	static void SystemShortDown();
 
 	static S_PLCRecv *PLCRecv ;
-	static SerialHandle^ sh = gcnew SerialHandle;  //全局seriesPort 变量
+	//static SerialHandle^ sh = gcnew SerialHandle;  //全局seriesPort 变量
 	static SerialControlSource^ scs = gcnew SerialControlSource;
 	//static Voice^ voice = gcnew Voice();
 
@@ -308,16 +308,33 @@ public:
 	/* LiKongMonter
 	功能: 用于力控线程开辟的函数
 	*/
-	static void LiKongMonter();
+	//static void LiKongMonter();
 	static void SetDV(String^t);
+	static uint MeterId = 2;
 
-
+#define MeterHeBing
 	static S_PLCRecv GetMData() {
 		S_PLCRecv pr;
-		if (!global::sh->GetliKongData(&pr))
-		{
-			MessageBox::Show("获取力控数据失败,请检串口连接是不是正常");
+		memset(&pr,0x00,sizeof(S_PLCRecv));
+		int time = 3;
+		int act_time = 0;
+		for (int i = 0; i < time;i++) { //连续获取5次  // 可以设置
+			Sleep(400);
+			S_PLCRecv prTemp;
+#ifndef MeterHeBing
+			if (!global::sh->GetliKongData(&pr))
+#else
+			if (!global::scs->GetMeterData(MeterId, prTemp))
+#endif
+			{ //获取失败
+				
+			}
+			else {
+				pr = prTemp;
+				act_time++;
+			}
 		}
+		if (act_time == 0) MessageBox::Show("数据获取失败");
 		return pr;
 	}
 	static String^ GetU30_U400VData() {
@@ -353,48 +370,52 @@ public:
 	static String^ GetGongPingU() {
 		S_PLCRecv p = GetMData();
 
+		if (p.HeaderId < 11 || p.HeaderId >15) return "0.00";
 		uint zs = p.U / 100;
 		uint xs = p.U % 100;
 
-		return zs.ToString() + "." + xs.ToString();
+		return zs.ToString() + "." + String::Format("{0:00}", xs);
 	}
 
 	static String^ GetGongPingI() {
 		S_PLCRecv p = GetMData();
-
+		if (p.HeaderId < 11 || p.HeaderId >15) return "0.000";
 		uint zs = p.I / 1000;
 		uint xs = p.I % 1000;
 
-		return zs.ToString() + "." + xs.ToString();
+		return zs.ToString() + "." + String::Format("{0:000}",xs);
 	}
 	static String^ GetGongPingP() {
 
 		S_PLCRecv p = GetMData();
-		
+		if (p.HeaderId < 11 || p.HeaderId >15) return "0";
 		return p.P.ToString();
 	}	
 	static String^ GetGongPingCos() {
 
 		S_PLCRecv p = GetMData();
+		if (p.HeaderId < 11 || p.HeaderId >15) return "0.000";
 		uint zs = p.I / 1000;
 		uint xs = p.I % 1000;
-		return zs.ToString() + "." + xs.ToString();
+		return zs.ToString() + "." + String::Format("{0:000}", xs);
 	}
 
 	static String^ GetKuangPingURMS1() {
 
 		S_PLCRecv p = GetMData();
+		if (p.HeaderId != 21) return "0.000";
 		uint zs = p.U / 1000;
 		uint xs = p.U % 1000;
 
-		return zs.ToString() + "." + xs.ToString();
+		return zs.ToString() + "." + String::Format("{0:000}", xs);
 	}	
 	static String^ GetKuangPingURMS2() {
 		S_PLCRecv p = GetMData();
+		if (p.HeaderId != 22) return "0.00";
 		uint zs = p.U / 100;
 		uint xs = p.U % 100;
 
-		return zs.ToString() + "." + xs.ToString();
+		return zs.ToString() + "." + String::Format("{0:00}", xs);
 	}
 
 };

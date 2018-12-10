@@ -80,7 +80,7 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  label16;
 	private: System::Windows::Forms::Button^  button3;
 
-	private: System::Windows::Forms::Button^  button1;
+
 	private: System::Windows::Forms::TextBox^  textBoxTrial1_R_R1;
 
 
@@ -107,7 +107,7 @@ namespace 电工电路试验台 {
 
 
 
-	private: System::Windows::Forms::Button^  button10;
+
 	private: System::Windows::Forms::TextBox^  textBoxTrial3_φ1;
 
 
@@ -162,11 +162,11 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Button^  button18;
 	private: System::Windows::Forms::Button^  button17;
 	private: System::Windows::Forms::Button^  button16;
-	private: System::Windows::Forms::Button^  button15;
-	private: System::Windows::Forms::Button^  button14;
-	private: System::Windows::Forms::Button^  button13;
-	private: System::Windows::Forms::Button^  button12;
-	private: System::Windows::Forms::Button^  button11;
+
+
+
+
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F_6;
 private: System::Windows::Forms::TextBox^  textBoxTrial1_C_XC6;
 
@@ -282,7 +282,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial3_m6;
 
 
 
-private: System::Windows::Forms::Button^  button25;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial3_φ6;
 private: System::Windows::Forms::TextBox^  textBoxTrial3_F_5;
 
@@ -292,7 +292,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial3_m5;
 
 
 
-private: System::Windows::Forms::Button^  button24;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial3_φ5;
 private: System::Windows::Forms::TextBox^  textBoxTrial3_F_4;
 
@@ -302,7 +302,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial3_m4;
 
 
 
-private: System::Windows::Forms::Button^  button23;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial3_φ4;
 private: System::Windows::Forms::TextBox^  textBoxTrial3_F_3;
 
@@ -312,7 +312,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial3_m3;
 
 
 
-private: System::Windows::Forms::Button^  button22;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial3_φ3;
 private: System::Windows::Forms::TextBox^  textBoxTrial3_F_2;
 
@@ -322,7 +322,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial3_m2;
 
 
 
-private: System::Windows::Forms::Button^  button21;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial3_φ2;
 private: System::Windows::Forms::TextBox^  textBoxTrial3_F_1;
 
@@ -433,13 +433,17 @@ private: System::Windows::Forms::Label^  label33;
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(RLC元件阻抗特性的测定实验内容::typeid));
 			this->chartTrial3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->label35 = (gcnew System::Windows::Forms::Label());
+			this->label34 = (gcnew System::Windows::Forms::Label());
+			this->label33 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->labelTrial1_C_IC6 = (gcnew System::Windows::Forms::TextBox());
 			this->labelTrial1_C_IC5 = (gcnew System::Windows::Forms::TextBox());
 			this->labelTrial1_C_IC4 = (gcnew System::Windows::Forms::TextBox());
@@ -475,11 +479,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->button18 = (gcnew System::Windows::Forms::Button());
 			this->button17 = (gcnew System::Windows::Forms::Button());
 			this->button16 = (gcnew System::Windows::Forms::Button());
-			this->button15 = (gcnew System::Windows::Forms::Button());
-			this->button14 = (gcnew System::Windows::Forms::Button());
-			this->button13 = (gcnew System::Windows::Forms::Button());
-			this->button12 = (gcnew System::Windows::Forms::Button());
-			this->button11 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F_6 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial1_C_XC6 = (gcnew System::Windows::Forms::TextBox());
 			this->labelTrial1_C_Ur6 = (gcnew System::Windows::Forms::Label());
@@ -529,7 +528,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->label16 = (gcnew System::Windows::Forms::Label());
 			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_R_R1 = (gcnew System::Windows::Forms::TextBox());
 			this->labelTrial1_R_Ur1 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -574,32 +572,26 @@ private: System::Windows::Forms::Label^  label33;
 			this->textBoxTrial3_F_6 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_n6 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_m6 = (gcnew System::Windows::Forms::TextBox());
-			this->button25 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial3_φ6 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_F_5 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_n5 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_m5 = (gcnew System::Windows::Forms::TextBox());
-			this->button24 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial3_φ5 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_F_4 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_n4 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_m4 = (gcnew System::Windows::Forms::TextBox());
-			this->button23 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial3_φ4 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_F_3 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_n3 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_m3 = (gcnew System::Windows::Forms::TextBox());
-			this->button22 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial3_φ3 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_F_2 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_n2 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_m2 = (gcnew System::Windows::Forms::TextBox());
-			this->button21 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial3_φ2 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_F_1 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_n1 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial3_m1 = (gcnew System::Windows::Forms::TextBox());
-			this->button10 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial3_φ1 = (gcnew System::Windows::Forms::TextBox());
 			this->label26 = (gcnew System::Windows::Forms::Label());
 			this->label27 = (gcnew System::Windows::Forms::Label());
@@ -610,12 +602,9 @@ private: System::Windows::Forms::Label^  label33;
 			this->button81 = (gcnew System::Windows::Forms::Button());
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label105 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
-			this->label33 = (gcnew System::Windows::Forms::Label());
-			this->label34 = (gcnew System::Windows::Forms::Label());
-			this->label35 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3))->BeginInit();
 			this->groupBox8->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial2_2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial2_1))->BeginInit();
@@ -626,21 +615,20 @@ private: System::Windows::Forms::Label^  label33;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_3))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_1))->BeginInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// chartTrial3
 			// 
-			chartArea3->Name = L"ChartArea1";
-			this->chartTrial3->ChartAreas->Add(chartArea3);
-			legend3->Name = L"Legend1";
-			this->chartTrial3->Legends->Add(legend3);
+			chartArea2->Name = L"ChartArea1";
+			this->chartTrial3->ChartAreas->Add(chartArea2);
+			legend2->Name = L"Legend1";
+			this->chartTrial3->Legends->Add(legend2);
 			this->chartTrial3->Location = System::Drawing::Point(314, 340);
 			this->chartTrial3->Name = L"chartTrial3";
-			series3->ChartArea = L"ChartArea1";
-			series3->Legend = L"Legend1";
-			series3->Name = L"Series1";
-			this->chartTrial3->Series->Add(series3);
+			series2->ChartArea = L"ChartArea1";
+			series2->Legend = L"Legend1";
+			series2->Name = L"Series1";
+			this->chartTrial3->Series->Add(series2);
 			this->chartTrial3->Size = System::Drawing::Size(590, 406);
 			this->chartTrial3->TabIndex = 26;
 			this->chartTrial3->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::chart1_Click);
@@ -698,11 +686,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->groupBox8->Controls->Add(this->button18);
 			this->groupBox8->Controls->Add(this->button17);
 			this->groupBox8->Controls->Add(this->button16);
-			this->groupBox8->Controls->Add(this->button15);
-			this->groupBox8->Controls->Add(this->button14);
-			this->groupBox8->Controls->Add(this->button13);
-			this->groupBox8->Controls->Add(this->button12);
-			this->groupBox8->Controls->Add(this->button11);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F_6);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_C_XC6);
 			this->groupBox8->Controls->Add(this->labelTrial1_C_Ur6);
@@ -752,7 +735,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->groupBox8->Controls->Add(this->label15);
 			this->groupBox8->Controls->Add(this->label16);
 			this->groupBox8->Controls->Add(this->button3);
-			this->groupBox8->Controls->Add(this->button1);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_R_R1);
 			this->groupBox8->Controls->Add(this->labelTrial1_R_Ur1);
 			this->groupBox8->Controls->Add(this->label6);
@@ -771,6 +753,49 @@ private: System::Windows::Forms::Label^  label33;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"RLC元件阻抗特性的测定 实验内容1";
 			this->groupBox8->Enter += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::groupBox8_Enter);
+			// 
+			// label35
+			// 
+			this->label35->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label35->ForeColor = System::Drawing::Color::Lime;
+			this->label35->Location = System::Drawing::Point(73, 684);
+			this->label35->Name = L"label35";
+			this->label35->Size = System::Drawing::Size(204, 28);
+			this->label35->TabIndex = 379;
+			this->label35->Text = L"宽屏测试交流RMS1表";
+			this->label35->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label34
+			// 
+			this->label34->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label34->ForeColor = System::Drawing::Color::Lime;
+			this->label34->Location = System::Drawing::Point(66, 465);
+			this->label34->Name = L"label34";
+			this->label34->Size = System::Drawing::Size(204, 28);
+			this->label34->TabIndex = 378;
+			this->label34->Text = L"宽屏测试交流RMS1表";
+			this->label34->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label33
+			// 
+			this->label33->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label33->ForeColor = System::Drawing::Color::Lime;
+			this->label33->Location = System::Drawing::Point(66, 250);
+			this->label33->Name = L"label33";
+			this->label33->Size = System::Drawing::Size(204, 28);
+			this->label33->TabIndex = 377;
+			this->label33->Text = L"宽屏测试交流RMS1表";
+			this->label33->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(253, 884);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(704, 365);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
+			this->pictureBox1->TabIndex = 145;
+			this->pictureBox1->TabStop = false;
 			// 
 			// labelTrial1_C_IC6
 			// 
@@ -1118,71 +1143,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->button16->Text = L"获取";
 			this->button16->UseVisualStyleBackColor = true;
 			this->button16->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button16_Click);
-			// 
-			// button15
-			// 
-			this->button15->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button15->ForeColor = System::Drawing::Color::Black;
-			this->button15->Location = System::Drawing::Point(944, 143);
-			this->button15->Name = L"button15";
-			this->button15->Size = System::Drawing::Size(122, 31);
-			this->button15->TabIndex = 91;
-			this->button15->Text = L"设置";
-			this->button15->UseVisualStyleBackColor = true;
-			this->button15->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button15_Click);
-			// 
-			// button14
-			// 
-			this->button14->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button14->ForeColor = System::Drawing::Color::Black;
-			this->button14->Location = System::Drawing::Point(816, 143);
-			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(122, 31);
-			this->button14->TabIndex = 90;
-			this->button14->Text = L"设置";
-			this->button14->UseVisualStyleBackColor = true;
-			this->button14->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button14_Click);
-			// 
-			// button13
-			// 
-			this->button13->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button13->ForeColor = System::Drawing::Color::Black;
-			this->button13->Location = System::Drawing::Point(683, 143);
-			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(122, 31);
-			this->button13->TabIndex = 89;
-			this->button13->Text = L"设置";
-			this->button13->UseVisualStyleBackColor = true;
-			this->button13->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button13_Click);
-			// 
-			// button12
-			// 
-			this->button12->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button12->ForeColor = System::Drawing::Color::Black;
-			this->button12->Location = System::Drawing::Point(553, 143);
-			this->button12->Name = L"button12";
-			this->button12->Size = System::Drawing::Size(122, 31);
-			this->button12->TabIndex = 88;
-			this->button12->Text = L"设置";
-			this->button12->UseVisualStyleBackColor = true;
-			this->button12->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button12_Click);
-			// 
-			// button11
-			// 
-			this->button11->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button11->ForeColor = System::Drawing::Color::Black;
-			this->button11->Location = System::Drawing::Point(418, 143);
-			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(122, 31);
-			this->button11->TabIndex = 87;
-			this->button11->Text = L"设置";
-			this->button11->UseVisualStyleBackColor = true;
-			this->button11->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button11_Click);
 			// 
 			// textBoxTrial1_F_6
 			// 
@@ -1643,19 +1603,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button3_Click);
 			// 
-			// button1
-			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button1->ForeColor = System::Drawing::Color::Black;
-			this->button1->Location = System::Drawing::Point(290, 141);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(122, 31);
-			this->button1->TabIndex = 11;
-			this->button1->Text = L"设置";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button1_Click);
-			// 
 			// textBoxTrial1_R_R1
 			// 
 			this->textBoxTrial1_R_R1->Location = System::Drawing::Point(290, 370);
@@ -1855,33 +1802,27 @@ private: System::Windows::Forms::Label^  label33;
 			this->groupBox2->Controls->Add(this->textBoxTrial3_F_6);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_n6);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_m6);
-			this->groupBox2->Controls->Add(this->button25);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_φ6);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_F_5);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_n5);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_m5);
-			this->groupBox2->Controls->Add(this->button24);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_φ5);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_F_4);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_n4);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_m4);
-			this->groupBox2->Controls->Add(this->button23);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_φ4);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_F_3);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_n3);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_m3);
-			this->groupBox2->Controls->Add(this->button22);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_φ3);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_F_2);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_n2);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_m2);
-			this->groupBox2->Controls->Add(this->button21);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_φ2);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_F_1);
 			this->groupBox2->Controls->Add(this->chartTrial3);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_n1);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_m1);
-			this->groupBox2->Controls->Add(this->button10);
 			this->groupBox2->Controls->Add(this->textBoxTrial3_φ1);
 			this->groupBox2->Controls->Add(this->label26);
 			this->groupBox2->Controls->Add(this->label27);
@@ -2227,19 +2168,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->textBoxTrial3_m6->Size = System::Drawing::Size(102, 30);
 			this->textBoxTrial3_m6->TabIndex = 50;
 			// 
-			// button25
-			// 
-			this->button25->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button25->ForeColor = System::Drawing::Color::Black;
-			this->button25->Location = System::Drawing::Point(874, 131);
-			this->button25->Name = L"button25";
-			this->button25->Size = System::Drawing::Size(102, 31);
-			this->button25->TabIndex = 49;
-			this->button25->Text = L"设置";
-			this->button25->UseVisualStyleBackColor = true;
-			this->button25->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button25_Click);
-			// 
 			// textBoxTrial3_φ6
 			// 
 			this->textBoxTrial3_φ6->Location = System::Drawing::Point(874, 249);
@@ -2267,19 +2195,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->textBoxTrial3_m5->Name = L"textBoxTrial3_m5";
 			this->textBoxTrial3_m5->Size = System::Drawing::Size(102, 30);
 			this->textBoxTrial3_m5->TabIndex = 45;
-			// 
-			// button24
-			// 
-			this->button24->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button24->ForeColor = System::Drawing::Color::Black;
-			this->button24->Location = System::Drawing::Point(766, 131);
-			this->button24->Name = L"button24";
-			this->button24->Size = System::Drawing::Size(102, 31);
-			this->button24->TabIndex = 44;
-			this->button24->Text = L"设置";
-			this->button24->UseVisualStyleBackColor = true;
-			this->button24->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button24_Click);
 			// 
 			// textBoxTrial3_φ5
 			// 
@@ -2309,19 +2224,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->textBoxTrial3_m4->Size = System::Drawing::Size(102, 30);
 			this->textBoxTrial3_m4->TabIndex = 40;
 			// 
-			// button23
-			// 
-			this->button23->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button23->ForeColor = System::Drawing::Color::Black;
-			this->button23->Location = System::Drawing::Point(658, 131);
-			this->button23->Name = L"button23";
-			this->button23->Size = System::Drawing::Size(102, 31);
-			this->button23->TabIndex = 39;
-			this->button23->Text = L"设置";
-			this->button23->UseVisualStyleBackColor = true;
-			this->button23->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button23_Click);
-			// 
 			// textBoxTrial3_φ4
 			// 
 			this->textBoxTrial3_φ4->Location = System::Drawing::Point(658, 249);
@@ -2349,19 +2251,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->textBoxTrial3_m3->Name = L"textBoxTrial3_m3";
 			this->textBoxTrial3_m3->Size = System::Drawing::Size(102, 30);
 			this->textBoxTrial3_m3->TabIndex = 35;
-			// 
-			// button22
-			// 
-			this->button22->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button22->ForeColor = System::Drawing::Color::Black;
-			this->button22->Location = System::Drawing::Point(550, 131);
-			this->button22->Name = L"button22";
-			this->button22->Size = System::Drawing::Size(102, 31);
-			this->button22->TabIndex = 34;
-			this->button22->Text = L"设置";
-			this->button22->UseVisualStyleBackColor = true;
-			this->button22->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button22_Click);
 			// 
 			// textBoxTrial3_φ3
 			// 
@@ -2391,19 +2280,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->textBoxTrial3_m2->Size = System::Drawing::Size(102, 30);
 			this->textBoxTrial3_m2->TabIndex = 30;
 			// 
-			// button21
-			// 
-			this->button21->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button21->ForeColor = System::Drawing::Color::Black;
-			this->button21->Location = System::Drawing::Point(442, 132);
-			this->button21->Name = L"button21";
-			this->button21->Size = System::Drawing::Size(102, 31);
-			this->button21->TabIndex = 29;
-			this->button21->Text = L"设置";
-			this->button21->UseVisualStyleBackColor = true;
-			this->button21->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button21_Click);
-			// 
 			// textBoxTrial3_φ2
 			// 
 			this->textBoxTrial3_φ2->Location = System::Drawing::Point(442, 250);
@@ -2431,19 +2307,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->textBoxTrial3_m1->Name = L"textBoxTrial3_m1";
 			this->textBoxTrial3_m1->Size = System::Drawing::Size(102, 30);
 			this->textBoxTrial3_m1->TabIndex = 24;
-			// 
-			// button10
-			// 
-			this->button10->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button10->ForeColor = System::Drawing::Color::Black;
-			this->button10->Location = System::Drawing::Point(334, 133);
-			this->button10->Name = L"button10";
-			this->button10->Size = System::Drawing::Size(102, 31);
-			this->button10->TabIndex = 23;
-			this->button10->Text = L"设置";
-			this->button10->UseVisualStyleBackColor = true;
-			this->button10->Click += gcnew System::EventHandler(this, &RLC元件阻抗特性的测定实验内容::button10_Click);
 			// 
 			// textBoxTrial3_φ1
 			// 
@@ -2553,49 +2416,6 @@ private: System::Windows::Forms::Label^  label33;
 			this->label105->TabIndex = 186;
 			this->label105->Text = L"实验结论";
 			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(253, 884);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(704, 365);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
-			this->pictureBox1->TabIndex = 145;
-			this->pictureBox1->TabStop = false;
-			// 
-			// label33
-			// 
-			this->label33->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label33->ForeColor = System::Drawing::Color::Lime;
-			this->label33->Location = System::Drawing::Point(66, 250);
-			this->label33->Name = L"label33";
-			this->label33->Size = System::Drawing::Size(204, 28);
-			this->label33->TabIndex = 377;
-			this->label33->Text = L"宽屏测试交流RMS1表";
-			this->label33->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label34
-			// 
-			this->label34->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label34->ForeColor = System::Drawing::Color::Lime;
-			this->label34->Location = System::Drawing::Point(66, 465);
-			this->label34->Name = L"label34";
-			this->label34->Size = System::Drawing::Size(204, 28);
-			this->label34->TabIndex = 378;
-			this->label34->Text = L"宽屏测试交流RMS1表";
-			this->label34->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label35
-			// 
-			this->label35->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label35->ForeColor = System::Drawing::Color::Lime;
-			this->label35->Location = System::Drawing::Point(73, 684);
-			this->label35->Name = L"label35";
-			this->label35->Size = System::Drawing::Size(204, 28);
-			this->label35->TabIndex = 379;
-			this->label35->Text = L"宽屏测试交流RMS1表";
-			this->label35->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
 			// RLC元件阻抗特性的测定实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -2617,6 +2437,7 @@ private: System::Windows::Forms::Label^  label33;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chartTrial3))->EndInit();
 			this->groupBox8->ResumeLayout(false);
 			this->groupBox8->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial2_2))->EndInit();
@@ -2629,7 +2450,6 @@ private: System::Windows::Forms::Label^  label33;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_3))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_2))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial3_1))->EndInit();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 

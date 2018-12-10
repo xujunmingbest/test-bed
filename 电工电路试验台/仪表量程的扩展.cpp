@@ -5,7 +5,6 @@ using namespace 电工电路试验台;
 void 仪表量程的扩展实验内容::SendData() {
 	int TrialCode = 22;
 	ST_仪表量程的扩展 s;
-	memset(&s, 0x00, sizeof(ST_仪表量程的扩展));
 	s = Load_Grade_data();
 	s.ti = trialInfo;
 	s.ti.TrialCode = TrialCode;

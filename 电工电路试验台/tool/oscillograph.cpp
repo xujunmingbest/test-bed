@@ -33,6 +33,7 @@ bool oscillograph::oscillographOpen() {
 	}
 }
 
+//×öÒ»¸ö ½ØÍ¼²ÎÊýµÄ¹¦ÄÜ
 bool oscillograph::GetOscilloscopePrtScnBmp(string &bmpName) {
 	unsigned char data[BMPLENGTH];
 	memset(data, 0x00, BMPLENGTH);
@@ -40,10 +41,11 @@ bool oscillograph::GetOscilloscopePrtScnBmp(string &bmpName) {
 	uci::RParams rrr;
 	rrr.CMDString = "PrtScn:bmp;";
 	rrr.RetCount = BMPLENGTH;
-	rrr.Timeout = 4000;
+	rrr.Timeout = 6000;
 	int r = uci::uci_Read(g_curSession, &rrr, data, BMPLENGTH);
 	if (r <= 0) {
 		//SYS_LOG_ERROR("Ê¾²¨Æ÷¶ÁÈ¡Í¼Æ¬Ê§°Ü");
+		cout << "Ê¾²¨Æ÷¶ÁÈ¡Í¼Æ¬Ê§°Ü" << endl;
 	    return false;
 	}
 
@@ -52,6 +54,7 @@ bool oscillograph::GetOscilloscopePrtScnBmp(string &bmpName) {
 	ofstream f;
 	f.open(T);
 	if (!f) {
+		cout << "Ê¾²¨Æ÷±£´æÍ¼Æ¬Ê§°Ü" << endl;
 		//SYS_LOG_ERROR("Ê¾²¨Æ÷±£´æÍ¼Æ¬Ê§°Ü");
 	    return false;
 	}

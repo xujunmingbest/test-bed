@@ -246,12 +246,6 @@
     <ClInclude Include="tool\xml\xml.h">
       <Filter>tool\xml</Filter>
     </ClInclude>
-    <ClInclude Include="元件伏安特性的测试实验报告.h">
-      <Filter>元件伏安特性的测试</Filter>
-    </ClInclude>
-    <ClInclude Include="元件伏安特性的测试.h">
-      <Filter>元件伏安特性的测试</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\c++\libsocket\libsocket\libsocket.h">
       <Filter>tool</Filter>
     </ClInclude>
@@ -1025,6 +1019,9 @@
       <Filter>资源文件</Filter>
     </EmbeddedResource>
     <EmbeddedResource Include="功率因数及相序的测量实验目的.resx">
+      <Filter>资源文件</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hardware_debug.resx">
       <Filter>资源文件</Filter>
     </EmbeddedResource>
   </ItemGroup>

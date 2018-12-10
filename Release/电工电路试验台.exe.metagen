@@ -48,7 +48,6 @@
   电工电路试验台.元件伏安特性的测试实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验器件.resources - Embedded, ContainedInManifestFile, 
-  电工电路试验台.元件伏安特性的测试实验报告.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.元件伏安特性的测试实验目的.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.功率因数及相序的测量实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.功率因数及相序的测量实验原理.resources - Embedded, ContainedInManifestFile, 
@@ -171,6 +170,7 @@ Class 电工电路试验台.SerialControlSource: AutoLayout, AnsiClass, Class, P
     CloseSource(Int32): PrivateScope, Public, HideBySig
     SetWaveForm(Int32): PrivateScope, Public, HideBySig
     SetFrequency(Int32): PrivateScope, Public, HideBySig
+    GetMeterData(UInt32, S_PLCRecv* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
 Class 电工电路试验台.Waver: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
@@ -195,12 +195,11 @@ Class global: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     System.String Pupilage : Public, Static
     System.Threading.Thread t : Public, Static
     S_PLCRecv* PLCRecv : Public, Static
-    电工电路试验台.SerialHandle sh : Public, Static
     电工电路试验台.SerialControlSource scs : Public, Static
+    UInt32 MeterId : Public, Static
   Methods:
     SystemStart(): PrivateScope, Public, Static, HideBySig
     SystemShortDown(): PrivateScope, Public, Static, HideBySig
-    LiKongMonter(): PrivateScope, Public, Static, HideBySig
     SetDV(String): PrivateScope, Public, Static, HideBySig
     GetMData(): PrivateScope, Public, Static, HideBySig
     GetU30_U400VData(): PrivateScope, Public, Static, HideBySig
@@ -233,270 +232,6 @@ Class 电工电路试验台.元件伏安特性的测试实验目的: AutoLayout,
 Class 电工电路试验台.元件伏安特性的测试实验原理: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class N_元件伏安特性的测试.s_基本信息: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Fields:
-    System.String 姓名1 : Public, Static
-Class N_元件伏安特性的测试.s_线性电阻器: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Fields:
-    System.String SU1 : Public, Static
-    System.String SU2 : Public, Static
-    System.String SU3 : Public, Static
-    System.String SU4 : Public, Static
-    System.String SU5 : Public, Static
-    System.String SU6 : Public, Static
-    System.String SU7 : Public, Static
-    System.String SU8 : Public, Static
-    System.String SU9 : Public, Static
-    System.String SU10 : Public, Static
-    System.String U1 : Public, Static
-    System.String U2 : Public, Static
-    System.String U3 : Public, Static
-    System.String U4 : Public, Static
-    System.String U5 : Public, Static
-    System.String U6 : Public, Static
-    System.String U7 : Public, Static
-    System.String U8 : Public, Static
-    System.String U9 : Public, Static
-    System.String U10 : Public, Static
-    System.String I1 : Public, Static
-    System.String I2 : Public, Static
-    System.String I3 : Public, Static
-    System.String I4 : Public, Static
-    System.String I5 : Public, Static
-    System.String I6 : Public, Static
-    System.String I7 : Public, Static
-    System.String I8 : Public, Static
-    System.String I9 : Public, Static
-    System.String I10 : Public, Static
-    System.String summing_up : Public, Static
-Class N_元件伏安特性的测试.s_白炽灯: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Fields:
-    System.String SU1 : Public, Static
-    System.String SU2 : Public, Static
-    System.String SU3 : Public, Static
-    System.String SU4 : Public, Static
-    System.String SU5 : Public, Static
-    System.String SU6 : Public, Static
-    System.String SU7 : Public, Static
-    System.String SU8 : Public, Static
-    System.String SU9 : Public, Static
-    System.String SU10 : Public, Static
-    System.String U1 : Public, Static
-    System.String U2 : Public, Static
-    System.String U3 : Public, Static
-    System.String U4 : Public, Static
-    System.String U5 : Public, Static
-    System.String U6 : Public, Static
-    System.String U7 : Public, Static
-    System.String U8 : Public, Static
-    System.String U9 : Public, Static
-    System.String U10 : Public, Static
-    System.String I1 : Public, Static
-    System.String I2 : Public, Static
-    System.String I3 : Public, Static
-    System.String I4 : Public, Static
-    System.String I5 : Public, Static
-    System.String I6 : Public, Static
-    System.String I7 : Public, Static
-    System.String I8 : Public, Static
-    System.String I9 : Public, Static
-    System.String I10 : Public, Static
-    System.String summing_up : Public, Static
-Class N_元件伏安特性的测试.s_锗管: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Fields:
-    System.String ZSU1 : Public, Static
-    System.String ZSU2 : Public, Static
-    System.String ZSU3 : Public, Static
-    System.String ZSU4 : Public, Static
-    System.String ZSU5 : Public, Static
-    System.String ZSU6 : Public, Static
-    System.String ZSU7 : Public, Static
-    System.String ZSU8 : Public, Static
-    System.String ZSU9 : Public, Static
-    System.String ZSU10 : Public, Static
-    System.String ZU1 : Public, Static
-    System.String ZU2 : Public, Static
-    System.String ZU3 : Public, Static
-    System.String ZU4 : Public, Static
-    System.String ZU5 : Public, Static
-    System.String ZU6 : Public, Static
-    System.String ZU7 : Public, Static
-    System.String ZU8 : Public, Static
-    System.String ZU9 : Public, Static
-    System.String ZU10 : Public, Static
-    System.String ZI1 : Public, Static
-    System.String ZI2 : Public, Static
-    System.String ZI3 : Public, Static
-    System.String ZI4 : Public, Static
-    System.String ZI5 : Public, Static
-    System.String ZI6 : Public, Static
-    System.String ZI7 : Public, Static
-    System.String ZI8 : Public, Static
-    System.String ZI9 : Public, Static
-    System.String ZI10 : Public, Static
-    System.String FSU1 : Public, Static
-    System.String FSU2 : Public, Static
-    System.String FSU3 : Public, Static
-    System.String FSU4 : Public, Static
-    System.String FSU5 : Public, Static
-    System.String FSU6 : Public, Static
-    System.String FSU7 : Public, Static
-    System.String FSU8 : Public, Static
-    System.String FSU9 : Public, Static
-    System.String FSU10 : Public, Static
-    System.String FU1 : Public, Static
-    System.String FU2 : Public, Static
-    System.String FU3 : Public, Static
-    System.String FU4 : Public, Static
-    System.String FU5 : Public, Static
-    System.String FU6 : Public, Static
-    System.String FU7 : Public, Static
-    System.String FU8 : Public, Static
-    System.String FU9 : Public, Static
-    System.String FU10 : Public, Static
-    System.String FI1 : Public, Static
-    System.String FI2 : Public, Static
-    System.String FI3 : Public, Static
-    System.String FI4 : Public, Static
-    System.String FI5 : Public, Static
-    System.String FI6 : Public, Static
-    System.String FI7 : Public, Static
-    System.String FI8 : Public, Static
-    System.String FI9 : Public, Static
-    System.String FI10 : Public, Static
-    System.String summing_up : Public, Static
-Class N_元件伏安特性的测试.s_硅管: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Fields:
-    System.String ZSU1 : Public, Static
-    System.String ZSU2 : Public, Static
-    System.String ZSU3 : Public, Static
-    System.String ZSU4 : Public, Static
-    System.String ZSU5 : Public, Static
-    System.String ZSU6 : Public, Static
-    System.String ZSU7 : Public, Static
-    System.String ZSU8 : Public, Static
-    System.String ZSU9 : Public, Static
-    System.String ZSU10 : Public, Static
-    System.String ZU1 : Public, Static
-    System.String ZU2 : Public, Static
-    System.String ZU3 : Public, Static
-    System.String ZU4 : Public, Static
-    System.String ZU5 : Public, Static
-    System.String ZU6 : Public, Static
-    System.String ZU7 : Public, Static
-    System.String ZU8 : Public, Static
-    System.String ZU9 : Public, Static
-    System.String ZU10 : Public, Static
-    System.String ZI1 : Public, Static
-    System.String ZI2 : Public, Static
-    System.String ZI3 : Public, Static
-    System.String ZI4 : Public, Static
-    System.String ZI5 : Public, Static
-    System.String ZI6 : Public, Static
-    System.String ZI7 : Public, Static
-    System.String ZI8 : Public, Static
-    System.String ZI9 : Public, Static
-    System.String ZI10 : Public, Static
-    System.String FSU1 : Public, Static
-    System.String FSU2 : Public, Static
-    System.String FSU3 : Public, Static
-    System.String FSU4 : Public, Static
-    System.String FSU5 : Public, Static
-    System.String FSU6 : Public, Static
-    System.String FSU7 : Public, Static
-    System.String FSU8 : Public, Static
-    System.String FSU9 : Public, Static
-    System.String FSU10 : Public, Static
-    System.String FU1 : Public, Static
-    System.String FU2 : Public, Static
-    System.String FU3 : Public, Static
-    System.String FU4 : Public, Static
-    System.String FU5 : Public, Static
-    System.String FU6 : Public, Static
-    System.String FU7 : Public, Static
-    System.String FU8 : Public, Static
-    System.String FU9 : Public, Static
-    System.String FU10 : Public, Static
-    System.String FI1 : Public, Static
-    System.String FI2 : Public, Static
-    System.String FI3 : Public, Static
-    System.String FI4 : Public, Static
-    System.String FI5 : Public, Static
-    System.String FI6 : Public, Static
-    System.String FI7 : Public, Static
-    System.String FI8 : Public, Static
-    System.String FI9 : Public, Static
-    System.String FI10 : Public, Static
-    System.String summing_up : Public, Static
-Class N_元件伏安特性的测试.s_稳压: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Fields:
-    System.String ZSU1 : Public, Static
-    System.String ZSU2 : Public, Static
-    System.String ZSU3 : Public, Static
-    System.String ZSU4 : Public, Static
-    System.String ZSU5 : Public, Static
-    System.String ZSU6 : Public, Static
-    System.String ZSU7 : Public, Static
-    System.String ZSU8 : Public, Static
-    System.String ZSU9 : Public, Static
-    System.String ZSU10 : Public, Static
-    System.String ZU1 : Public, Static
-    System.String ZU2 : Public, Static
-    System.String ZU3 : Public, Static
-    System.String ZU4 : Public, Static
-    System.String ZU5 : Public, Static
-    System.String ZU6 : Public, Static
-    System.String ZU7 : Public, Static
-    System.String ZU8 : Public, Static
-    System.String ZU9 : Public, Static
-    System.String ZU10 : Public, Static
-    System.String ZI1 : Public, Static
-    System.String ZI2 : Public, Static
-    System.String ZI3 : Public, Static
-    System.String ZI4 : Public, Static
-    System.String ZI5 : Public, Static
-    System.String ZI6 : Public, Static
-    System.String ZI7 : Public, Static
-    System.String ZI8 : Public, Static
-    System.String ZI9 : Public, Static
-    System.String ZI10 : Public, Static
-    System.String FSU1 : Public, Static
-    System.String FSU2 : Public, Static
-    System.String FSU3 : Public, Static
-    System.String FSU4 : Public, Static
-    System.String FSU5 : Public, Static
-    System.String FSU6 : Public, Static
-    System.String FSU7 : Public, Static
-    System.String FSU8 : Public, Static
-    System.String FSU9 : Public, Static
-    System.String FSU10 : Public, Static
-    System.String FU1 : Public, Static
-    System.String FU2 : Public, Static
-    System.String FU3 : Public, Static
-    System.String FU4 : Public, Static
-    System.String FU5 : Public, Static
-    System.String FU6 : Public, Static
-    System.String FU7 : Public, Static
-    System.String FU8 : Public, Static
-    System.String FU9 : Public, Static
-    System.String FU10 : Public, Static
-    System.String FI1 : Public, Static
-    System.String FI2 : Public, Static
-    System.String FI3 : Public, Static
-    System.String FI4 : Public, Static
-    System.String FI5 : Public, Static
-    System.String FI6 : Public, Static
-    System.String FI7 : Public, Static
-    System.String FI8 : Public, Static
-    System.String FI9 : Public, Static
-    System.String FI10 : Public, Static
-    System.String summing_up : Public, Static
 Class 电工电路试验台.元件伏安特性的测试实验内容: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -505,9 +240,6 @@ Class 电工电路试验台.元件伏安特性的测试实验内容: AutoLayout,
   Methods:
     LoadGradeData(ST_元件伏安特性测试*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.元件伏安特性的测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class 电工电路试验台.元件伏安特性的测试实验报告: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.基尔霍夫定律实验目的: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

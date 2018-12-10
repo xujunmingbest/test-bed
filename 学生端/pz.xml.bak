@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Info>
+    <LangDuNvPath>C:\Program Files (x86)\朗读女\朗读女.exe</LangDuNvPath> <!--朗读女路径-->
+    <VoiceEngine>0</VoiceEngine>
+    <DesMac>zt</DesMac> <!--设备终端mac地址 默认是zt-->
+    <SrcMac>mac1</SrcMac> 
+    <RepeaterIp>47.94.219.135</RepeaterIp> <!--装发服务器ip-->
+    <RepeaterPort>10001</RepeaterPort> <!--装发服务器端口-->
+    <SerialHandle>COM18</SerialHandle> <!--测试仪器力控包接收-->
+    <SerialControlSource>COM6</SerialControlSource> <!--控制电源-->
+    <TeacherIp>127.0.0.1</TeacherIp> <!--成绩上传IP 短连接-->
+    <GradePort>10000</GradePort> <!--成绩上传端口-->
+    <LongConnectPort>10001</LongConnectPort><!--长连接接口-->
+    <CapturePort>1237</CapturePort> <!--发送屏幕截图的 -->
+    <GradeMonitorPort>10002</GradeMonitorPort><!--发送数据监控的 -->
+    <ComputerId>机台1</ComputerId> <!--机台编号 -->
+</Info>

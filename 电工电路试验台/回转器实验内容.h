@@ -1448,7 +1448,7 @@ private: System::Windows::Forms::Label^  label5;
 			// 
 			// textBoxTrial1_G1_line2
 			// 
-			this->textBoxTrial1_G1_line2->Location = System::Drawing::Point(569, 723);
+			this->textBoxTrial1_G1_line2->Location = System::Drawing::Point(569, 725);
 			this->textBoxTrial1_G1_line2->Name = L"textBoxTrial1_G1_line2";
 			this->textBoxTrial1_G1_line2->Size = System::Drawing::Size(112, 30);
 			this->textBoxTrial1_G1_line2->TabIndex = 78;

@@ -37,7 +37,7 @@ namespace 电工电路试验台 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Label^  label1;
+
 	private: System::Windows::Forms::Label^  label2;
 	private: System::Windows::Forms::Timer^  timer1;
 	private: System::Windows::Forms::GroupBox^  groupBox1;
@@ -47,25 +47,31 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::TextBox^  textBox1;
 	private: System::Windows::Forms::Button^  button2;
 	private: System::Windows::Forms::Button^  button1;
-	private: System::Windows::Forms::GroupBox^  groupBox2;
 
 
 
-	private: System::Windows::Forms::Button^  button5;
-	private: System::Windows::Forms::Button^  button6;
-	private: System::Windows::Forms::ComboBox^  comboBox2;
-	private: System::Windows::Forms::Button^  button13;
-	private: System::Windows::Forms::Button^  button11;
-	private: System::Windows::Forms::Button^  button12;
-	private: System::Windows::Forms::TextBox^  textBox3;
-	private: System::Windows::Forms::Button^  button10;
-	private: System::Windows::Forms::Button^  button4;
-	private: System::Windows::Forms::TextBox^  textBox2;
+
+
+
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::GroupBox^  groupBox3;
 	private: System::Windows::Forms::PictureBox^  pictureBox2;
 	private: System::Windows::Forms::Button^  button7;
 	private: System::Windows::Forms::Button^  button8;
 	private: System::Windows::Forms::Button^  button9;
+	private: System::Windows::Forms::Button^  button14;
+	private: System::Windows::Forms::Label^  label4;
+	private: System::Windows::Forms::TextBox^  textBox4;
+	private: System::Windows::Forms::Label^  label1;
+
+
 
 
 
@@ -97,48 +103,28 @@ namespace 电工电路试验台 {
 		{
 			this->components = (gcnew System::ComponentModel::Container());
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(hardware_debug::typeid));
-			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
+			this->button14 = (gcnew System::Windows::Forms::Button());
+			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->comboBox1 = (gcnew System::Windows::Forms::ComboBox());
-			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
-			this->button13 = (gcnew System::Windows::Forms::Button());
-			this->button11 = (gcnew System::Windows::Forms::Button());
-			this->button12 = (gcnew System::Windows::Forms::Button());
-			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
-			this->button10 = (gcnew System::Windows::Forms::Button());
-			this->button4 = (gcnew System::Windows::Forms::Button());
-			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
-			this->button5 = (gcnew System::Windows::Forms::Button());
-			this->button6 = (gcnew System::Windows::Forms::Button());
-			this->comboBox2 = (gcnew System::Windows::Forms::ComboBox());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->button9 = (gcnew System::Windows::Forms::Button());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1->SuspendLayout();
-			this->groupBox2->SuspendLayout();
 			this->groupBox3->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->SuspendLayout();
-			// 
-			// label1
-			// 
-			this->label1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label1->Location = System::Drawing::Point(31, 98);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(1091, 32);
-			this->label1->TabIndex = 0;
-			this->label1->Text = L"label1";
 			// 
 			// label2
 			// 
@@ -161,6 +147,9 @@ namespace 电工电路试验台 {
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Controls->Add(this->textBox4);
+			this->groupBox1->Controls->Add(this->button14);
+			this->groupBox1->Controls->Add(this->label4);
 			this->groupBox1->Controls->Add(this->button3);
 			this->groupBox1->Controls->Add(this->label3);
 			this->groupBox1->Controls->Add(this->textBox1);
@@ -171,14 +160,43 @@ namespace 电工电路试验台 {
 				static_cast<System::Byte>(134)));
 			this->groupBox1->Location = System::Drawing::Point(31, 191);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(1091, 206);
+			this->groupBox1->Size = System::Drawing::Size(1091, 189);
 			this->groupBox1->TabIndex = 2;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"电测量参数仪调试";
+			this->groupBox1->Enter += gcnew System::EventHandler(this, &hardware_debug::groupBox1_Enter);
+			// 
+			// textBox4
+			// 
+			this->textBox4->Location = System::Drawing::Point(332, 94);
+			this->textBox4->Name = L"textBox4";
+			this->textBox4->Size = System::Drawing::Size(300, 30);
+			this->textBox4->TabIndex = 8;
+			// 
+			// button14
+			// 
+			this->button14->Location = System::Drawing::Point(332, 143);
+			this->button14->Name = L"button14";
+			this->button14->Size = System::Drawing::Size(300, 35);
+			this->button14->TabIndex = 7;
+			this->button14->Text = L"设置";
+			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &hardware_debug::button14_Click);
+			// 
+			// label4
+			// 
+			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label4->Location = System::Drawing::Point(332, 60);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(300, 31);
+			this->label4->TabIndex = 5;
+			this->label4->Text = L"监控的参数仪器编号（正整数）";
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(310, 165);
+			this->button3->Location = System::Drawing::Point(662, 143);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(235, 35);
 			this->button3->TabIndex = 4;
@@ -191,7 +209,7 @@ namespace 电工电路试验台 {
 			this->label3->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label3->Location = System::Drawing::Point(310, 95);
+			this->label3->Location = System::Drawing::Point(662, 60);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(235, 31);
 			this->label3->TabIndex = 3;
@@ -199,7 +217,7 @@ namespace 电工电路试验台 {
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(310, 129);
+			this->textBox1->Location = System::Drawing::Point(662, 94);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(235, 30);
 			this->textBox1->TabIndex = 3;
@@ -238,122 +256,6 @@ namespace 电工电路试验台 {
 			this->comboBox1->Size = System::Drawing::Size(121, 28);
 			this->comboBox1->TabIndex = 0;
 			// 
-			// groupBox2
-			// 
-			this->groupBox2->Controls->Add(this->button13);
-			this->groupBox2->Controls->Add(this->button11);
-			this->groupBox2->Controls->Add(this->button12);
-			this->groupBox2->Controls->Add(this->textBox3);
-			this->groupBox2->Controls->Add(this->button10);
-			this->groupBox2->Controls->Add(this->button4);
-			this->groupBox2->Controls->Add(this->textBox2);
-			this->groupBox2->Controls->Add(this->button5);
-			this->groupBox2->Controls->Add(this->button6);
-			this->groupBox2->Controls->Add(this->comboBox2);
-			this->groupBox2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->groupBox2->Location = System::Drawing::Point(31, 419);
-			this->groupBox2->Name = L"groupBox2";
-			this->groupBox2->Size = System::Drawing::Size(1091, 242);
-			this->groupBox2->TabIndex = 3;
-			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"智能控制电源从机调试";
-			// 
-			// button13
-			// 
-			this->button13->Location = System::Drawing::Point(310, 199);
-			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(235, 37);
-			this->button13->TabIndex = 11;
-			this->button13->Text = L"方波设置";
-			this->button13->UseVisualStyleBackColor = true;
-			this->button13->Click += gcnew System::EventHandler(this, &hardware_debug::button13_Click);
-			// 
-			// button11
-			// 
-			this->button11->Location = System::Drawing::Point(551, 153);
-			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(43, 30);
-			this->button11->TabIndex = 10;
-			this->button11->Text = L"HZ";
-			this->button11->UseVisualStyleBackColor = true;
-			// 
-			// button12
-			// 
-			this->button12->Location = System::Drawing::Point(600, 153);
-			this->button12->Name = L"button12";
-			this->button12->Size = System::Drawing::Size(218, 30);
-			this->button12->TabIndex = 9;
-			this->button12->Text = L"频率设置";
-			this->button12->UseVisualStyleBackColor = true;
-			this->button12->Click += gcnew System::EventHandler(this, &hardware_debug::button12_Click);
-			// 
-			// textBox3
-			// 
-			this->textBox3->Location = System::Drawing::Point(310, 153);
-			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(235, 30);
-			this->textBox3->TabIndex = 8;
-			// 
-			// button10
-			// 
-			this->button10->Location = System::Drawing::Point(551, 103);
-			this->button10->Name = L"button10";
-			this->button10->Size = System::Drawing::Size(26, 30);
-			this->button10->TabIndex = 7;
-			this->button10->Text = L"V";
-			this->button10->UseVisualStyleBackColor = true;
-			// 
-			// button4
-			// 
-			this->button4->Location = System::Drawing::Point(583, 103);
-			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(235, 30);
-			this->button4->TabIndex = 6;
-			this->button4->Text = L"直流电压设置";
-			this->button4->UseVisualStyleBackColor = true;
-			this->button4->Click += gcnew System::EventHandler(this, &hardware_debug::button4_Click);
-			// 
-			// textBox2
-			// 
-			this->textBox2->Location = System::Drawing::Point(310, 103);
-			this->textBox2->Name = L"textBox2";
-			this->textBox2->Size = System::Drawing::Size(235, 30);
-			this->textBox2->TabIndex = 5;
-			// 
-			// button5
-			// 
-			this->button5->Location = System::Drawing::Point(227, 48);
-			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(75, 35);
-			this->button5->TabIndex = 2;
-			this->button5->Text = L"关闭";
-			this->button5->UseVisualStyleBackColor = true;
-			this->button5->Click += gcnew System::EventHandler(this, &hardware_debug::button5_Click);
-			// 
-			// button6
-			// 
-			this->button6->Location = System::Drawing::Point(146, 47);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(75, 35);
-			this->button6->TabIndex = 1;
-			this->button6->Text = L"打开";
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Click += gcnew System::EventHandler(this, &hardware_debug::button6_Click);
-			// 
-			// comboBox2
-			// 
-			this->comboBox2->FormattingEnabled = true;
-			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(29) {
-				L"COM1", L"COM2", L"COM3", L"COM4", L"COM5", L"COM6",
-					L"COM7", L"COM8", L"COM9", L"COM10", L"COM11", L"COM12", L"COM13", L"COM14", L"COM15", L"COM16", L"COM17", L"COM18", L"COM19",
-					L"COM20", L"COM21", L"COM22", L"COM23", L"COM24", L"COM25", L"COM26", L"COM27", L"COM28", L"COM29"
-			});
-			this->comboBox2->Location = System::Drawing::Point(18, 47);
-			this->comboBox2->Name = L"comboBox2";
-			this->comboBox2->Size = System::Drawing::Size(121, 28);
-			this->comboBox2->TabIndex = 0;
-			// 
 			// groupBox3
 			// 
 			this->groupBox3->Controls->Add(this->pictureBox2);
@@ -362,12 +264,13 @@ namespace 电工电路试验台 {
 			this->groupBox3->Controls->Add(this->button9);
 			this->groupBox3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->groupBox3->Location = System::Drawing::Point(31, 680);
+			this->groupBox3->Location = System::Drawing::Point(31, 400);
 			this->groupBox3->Name = L"groupBox3";
 			this->groupBox3->Size = System::Drawing::Size(1091, 612);
 			this->groupBox3->TabIndex = 4;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"示波器模块调试";
+			this->groupBox3->Enter += gcnew System::EventHandler(this, &hardware_debug::groupBox3_Enter);
 			// 
 			// pictureBox2
 			// 
@@ -409,14 +312,24 @@ namespace 电工电路试验台 {
 			this->button9->UseVisualStyleBackColor = true;
 			this->button9->Click += gcnew System::EventHandler(this, &hardware_debug::button9_Click);
 			// 
+			// label1
+			// 
+			this->label1->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label1->Font = (gcnew System::Drawing::Font(L"宋体", 13.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label1->Location = System::Drawing::Point(31, 98);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(1091, 29);
+			this->label1->TabIndex = 0;
+			this->label1->Text = L"label1";
+			// 
 			// hardware_debug
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1439, 736);
+			this->ClientSize = System::Drawing::Size(1481, 736);
 			this->Controls->Add(this->groupBox3);
-			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
@@ -427,8 +340,6 @@ namespace 电工电路试验台 {
 			this->Load += gcnew System::EventHandler(this, &hardware_debug::hardware_debug_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
-			this->groupBox2->ResumeLayout(false);
-			this->groupBox2->PerformLayout();
 			this->groupBox3->ResumeLayout(false);
 			this->groupBox3->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
@@ -447,8 +358,8 @@ namespace 电工电路试验台 {
 private: System::Void textBox1_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	configXml.SerialHandle = T_to_string(comboBox1->Text);
-	if (!global::sh->SerialHandleInit()) {
+	configXml.SerialControlSource = T_to_string(comboBox1->Text);
+	if (!global::scs->SerialHandleInit()) {
 		MessageBox::Show("参数测试仪串口初始化失败");
 	}
 	else {
@@ -456,7 +367,7 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 	}
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-	global::sh->SerialHandleClose();
+	//global::sh->SerialHandleClose();
 }
 private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
 	if (!oscillograph::oscillographOpen()) 	{
@@ -469,33 +380,14 @@ private: System::Void button9_Click(System::Object^  sender, System::EventArgs^ 
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 	textBox1->Text = global::GetU30_U400VData();
 }
-private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
-	configXml.SerialControlSource = T_to_string(comboBox2->Text);
-	if (!global::scs->SerialHandleInit()) {
-		MessageBox::Show("控制电源模块串口初始化失败");
-	}
-	else {
-		MessageBox::Show("控制电源模块串口初始化成功");
-	}
-}
+
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
 	global::scs->SerialHandleClose();
 }
 private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
 	oscillograph::oscillographClose();
 }
-private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
-	SetDVNum(textBox2->Text,0,30);
-}
-private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
-	try {
-		int value = Convert::ToInt32(textBox3->Text);
-		global::scs->SetFrequency(value * 100);
-	}
-	catch (System::Exception^e) {
 
-	}
-}
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
 	global::scs->SetWaveForm(SQUAREWAVE);
 }
@@ -509,6 +401,23 @@ private: System::Void button7_Click(System::Object^  sender, System::EventArgs^ 
 		return;
 	}
 	pictureBox2->ImageLocation = imageLocation;
+}
+
+private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+	uint Id;
+	try {
+		Id = Convert::ToUInt32(textBox4->Text);
+	}catch(System::Exception^e){
+		MessageBox::Show("输入不合法");
+		return;
+	}
+	global::MeterId = Id;
+	MessageBox::Show("设置成功");
+}
+
+private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void groupBox3_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

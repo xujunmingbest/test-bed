@@ -427,7 +427,7 @@ private: System::Void listView1_SelectedIndexChanged(System::Object^  sender, Sy
 		 void SelectWindows(int index);
 		 void listViewForeBlack();
 		 void CloseAllMidchild();
-		 bool GetWindowsChild(String ^FormName);
+		 Control^ GetWindowsChild(String ^FormName);
 
 		 /*******窗体打开******/
 		 void open元件伏安特性的测试实验目的();

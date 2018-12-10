@@ -20,8 +20,8 @@ void VCVS实验实验内容::chartTrial1_1Init() {
 	c->AxisY->Interval = 2;
 	c->AxisX->ScrollBar->IsPositionedInside = true;
 	c->AxisX->ScrollBar->Enabled = true;
-	c->AxisX->Title = "电压";
-	c->AxisY->Title = "电流";
+	c->AxisX->Title = "U1(V)";
+	c->AxisY->Title = "U2(V)";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
 	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
@@ -49,7 +49,8 @@ void VCVS实验实验内容::LoadTrial1_1() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 void VCVS实验实验内容::chartTrial1_2Init() {
 
@@ -60,8 +61,8 @@ void VCVS实验实验内容::chartTrial1_2Init() {
 	c->AxisY->Interval = 2;
 	c->AxisX->ScrollBar->IsPositionedInside = true;
 	c->AxisX->ScrollBar->Enabled = true;
-	c->AxisX->Title = "电压";
-	c->AxisY->Title = "电流";
+	c->AxisX->Title = "电流";
+	c->AxisY->Title = "电压";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
 	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
@@ -87,13 +88,14 @@ void VCVS实验实验内容::LoadTrial1_2() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 void VCVS实验实验内容::chartTrial2_1Init() {
 
 	Series ^s = chartTrial2_1->Series[0];
-	chartTrial2_1->Titles->Add("负载特性 U2＝F（IL）");
+	chartTrial2_1->Titles->Add("IL＝F（U1）");
 	ChartArea ^ c = chartTrial2_1->ChartAreas[0];
 	c->AxisX->Interval = 2;
 	c->AxisY->Interval = 2;
@@ -127,14 +129,15 @@ void VCVS实验实验内容::LoadTrial2_1() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 
 void VCVS实验实验内容::chartTrial2_2Init() {
 
 	Series ^s = chartTrial2_2->Series[0];
-	chartTrial2_2->Titles->Add("负载特性 U2＝F（IL）");
+	chartTrial2_2->Titles->Add("IL＝F（U2）");
 	ChartArea ^ c = chartTrial2_2->ChartAreas[0];
 	c->AxisX->Interval = 2;
 	c->AxisY->Interval = 2;
@@ -166,19 +169,21 @@ void VCVS实验实验内容::LoadTrial2_2() {
 	}
 	catch (System::Exception^ E) {
 	}
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 void VCVS实验实验内容::chartTrial3_1Init() {
 
 	Series ^s = chartTrial3_1->Series[0];
-	chartTrial3_1->Titles->Add("负载特性 U2＝F（IL）");
+	chartTrial3_1->Titles->Add("U2=F（I1）");
 	ChartArea ^ c = chartTrial3_1->ChartAreas[0];
 	c->AxisX->Interval = 2;
 	c->AxisY->Interval = 2;
 	c->AxisX->ScrollBar->IsPositionedInside = true;
 	c->AxisX->ScrollBar->Enabled = true;
-	c->AxisX->Title = "电压";
-	c->AxisY->Title = "电流";
+	c->AxisX->Title = "电流";
+	c->AxisY->Title = "电压";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
 	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
@@ -204,20 +209,22 @@ void VCVS实验实验内容::LoadTrial3_1() {
 	}
 	catch (System::Exception^ E) {
 	}
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 
 void VCVS实验实验内容::chartTrial3_2Init() {
 
 	Series ^s = chartTrial3_2->Series[0];
-	chartTrial3_2->Titles->Add("负载特性 U2＝F（IL）");
+	chartTrial3_2->Titles->Add("U2＝F（IL）");
 	ChartArea ^ c = chartTrial3_2->ChartAreas[0];
 	c->AxisX->Interval = 2;
 	c->AxisY->Interval = 2;
 	c->AxisX->ScrollBar->IsPositionedInside = true;
 	c->AxisX->ScrollBar->Enabled = true;
-	c->AxisX->Title = "电压";
-	c->AxisY->Title = "电流";
+	c->AxisX->Title = "电流";
+	c->AxisY->Title = "电压";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
 	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
@@ -242,6 +249,8 @@ void VCVS实验实验内容::LoadTrial3_2() {
 	}
 	catch (System::Exception^ E) {
 	}
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 
@@ -249,14 +258,14 @@ void VCVS实验实验内容::LoadTrial3_2() {
 void VCVS实验实验内容::chartTrial4_1Init() {
 
 	Series ^s = chartTrial4_1->Series[0];
-	chartTrial4_1->Titles->Add("负载特性 U2＝F（IL）");
+	chartTrial4_1->Titles->Add("IL＝F（I1）");
 	ChartArea ^ c = chartTrial4_1->ChartAreas[0];
 	c->AxisX->Interval = 2;
 	c->AxisY->Interval = 2;
 	c->AxisX->ScrollBar->IsPositionedInside = true;
 	c->AxisX->ScrollBar->Enabled = true;
-	c->AxisX->Title = "电压";
-	c->AxisY->Title = "电流";
+	c->AxisX->Title = "I1";
+	c->AxisY->Title = "IL";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
 	s->ChartType = SeriesChartType::Spline;
 	s->IsVisibleInLegend = false;
@@ -282,13 +291,15 @@ void VCVS实验实验内容::LoadTrial4_1() {
 	}
 	catch (System::Exception^ E) {
 	}
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 
 void VCVS实验实验内容::chartTrial4_2Init() {
 
 	Series ^s = chartTrial4_2->Series[0];
-	chartTrial4_2->Titles->Add("负载特性 U2＝F（IL）");
+	chartTrial4_2->Titles->Add("IL＝F（U2）");
 	ChartArea ^ c = chartTrial4_2->ChartAreas[0];
 	c->AxisX->Interval = 2;
 	c->AxisY->Interval = 2;
@@ -321,6 +332,8 @@ void VCVS实验实验内容::LoadTrial4_2() {
 	}
 	catch (System::Exception^ E) {
 	}
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }
 
 
@@ -378,6 +391,16 @@ ST_VCVS实验 VCVS实验实验内容::Load_Grade_data() {
 	snprintf(d.trial1_1U2_7, 10, "%s", labeltrial1_1U2_7->Text);
 	snprintf(d.trial1_1U2_8, 10, "%s", labeltrial1_1U2_8->Text);
 	snprintf(d.trial1_1U2_9, 10, "%s", labeltrial1_1U2_9->Text);
+
+	snprintf(d.trial1_2RL_1, 10, "%s", textBoxtrial1_2RL_1->Text);
+	snprintf(d.trial1_2RL_2, 10, "%s", textBoxtrial1_2RL_2->Text);
+	snprintf(d.trial1_2RL_3, 10, "%s", textBoxtrial1_2RL_3->Text);
+	snprintf(d.trial1_2RL_4, 10, "%s", textBoxtrial1_2RL_4->Text);
+	snprintf(d.trial1_2RL_5, 10, "%s", textBoxtrial1_2RL_5->Text);
+	snprintf(d.trial1_2RL_6, 10, "%s", textBoxtrial1_2RL_6->Text);
+	snprintf(d.trial1_2RL_7, 10, "%s", textBoxtrial1_2RL_7->Text);
+	snprintf(d.trial1_2RL_8, 10, "%s", textBoxtrial1_2RL_8->Text);
+
 
 	snprintf(d.trial1_2V2_1, 10, "%s", labeltrial1_2V2_1->Text);
 	snprintf(d.trial1_2V2_2, 10, "%s", labeltrial1_2V2_2->Text);

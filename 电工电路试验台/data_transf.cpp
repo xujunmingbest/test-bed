@@ -50,7 +50,7 @@ TrialInfo trialInfo;
 		GradesHead H;
 		memcpy(&H, f_s.c_str(), sizeof(GradesHead));
 		if (ShowRetMsg) {
-			MessageBox::Show(gcnew String(s_s.c_str()));
+			MessageBox::Show(gcnew String(s_s.c_str())); //显示返回的消息
 		}
 	}
 

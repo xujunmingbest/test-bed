@@ -261,7 +261,7 @@ private: System::Windows::Forms::Label^  label5;
 private: System::Windows::Forms::Button^  button2;
 private: System::Windows::Forms::Button^  button24;
 private: System::Windows::Forms::Label^  labelMethod2I1;
-private: System::Windows::Forms::Button^  button46;
+
 private: System::Windows::Forms::TextBox^  textBoxMethod1I;
 private: System::Windows::Forms::TextBox^  textBoxMethod1Us;
 private: System::Windows::Forms::Label^  label6;
@@ -301,7 +301,7 @@ private: System::Windows::Forms::Button^  button47;
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
 			this->label38 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-			this->button46 = (gcnew System::Windows::Forms::Button());
+			this->button47 = (gcnew System::Windows::Forms::Button());
 			this->textBoxMethod1I = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxMethod1Us = (gcnew System::Windows::Forms::TextBox());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -460,7 +460,6 @@ private: System::Windows::Forms::Button^  button47;
 			this->label105 = (gcnew System::Windows::Forms::Label());
 			this->label106 = (gcnew System::Windows::Forms::Label());
 			this->button81 = (gcnew System::Windows::Forms::Button());
-			this->button47 = (gcnew System::Windows::Forms::Button());
 			this->groupBox1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox2->SuspendLayout();
@@ -504,7 +503,6 @@ private: System::Windows::Forms::Button^  button47;
 			// groupBox1
 			// 
 			this->groupBox1->Controls->Add(this->button47);
-			this->groupBox1->Controls->Add(this->button46);
 			this->groupBox1->Controls->Add(this->textBoxMethod1I);
 			this->groupBox1->Controls->Add(this->textBoxMethod1Us);
 			this->groupBox1->Controls->Add(this->label6);
@@ -533,16 +531,16 @@ private: System::Windows::Forms::Button^  button47;
 			this->groupBox1->Text = L"1.开路电压、短路电流法";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &戴维南定理实验内容::groupBox1_Enter);
 			// 
-			// button46
+			// button47
 			// 
-			this->button46->Location = System::Drawing::Point(959, 742);
-			this->button46->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button46->Name = L"button46";
-			this->button46->Size = System::Drawing::Size(119, 34);
-			this->button46->TabIndex = 253;
-			this->button46->Text = L"设置";
-			this->button46->UseVisualStyleBackColor = true;
-			this->button46->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button46_Click);
+			this->button47->Location = System::Drawing::Point(759, 742);
+			this->button47->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
+			this->button47->Name = L"button47";
+			this->button47->Size = System::Drawing::Size(129, 34);
+			this->button47->TabIndex = 254;
+			this->button47->Text = L"计算";
+			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button47_Click);
 			// 
 			// textBoxMethod1I
 			// 
@@ -915,6 +913,7 @@ private: System::Windows::Forms::Button^  button47;
 			this->button19->TabIndex = 241;
 			this->button19->Text = L"获取";
 			this->button19->UseVisualStyleBackColor = true;
+			this->button19->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button19_Click);
 			// 
 			// button20
 			// 
@@ -1287,7 +1286,7 @@ private: System::Windows::Forms::Button^  button47;
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(93, 26);
 			this->label8->TabIndex = 201;
-			this->label8->Text = L"RL";
+			this->label8->Text = L"RL(Ω)";
 			this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// button3
@@ -1432,6 +1431,7 @@ private: System::Windows::Forms::Button^  button47;
 			this->button23->TabIndex = 239;
 			this->button23->Text = L"获取";
 			this->button23->UseVisualStyleBackColor = true;
+			this->button23->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button23_Click);
 			// 
 			// textBoxMethod3Uoc
 			// 
@@ -2252,23 +2252,12 @@ private: System::Windows::Forms::Button^  button47;
 			this->button81->UseVisualStyleBackColor = true;
 			this->button81->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button81_Click);
 			// 
-			// button47
-			// 
-			this->button47->Location = System::Drawing::Point(759, 742);
-			this->button47->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button47->Name = L"button47";
-			this->button47->Size = System::Drawing::Size(129, 34);
-			this->button47->TabIndex = 254;
-			this->button47->Text = L"计算";
-			this->button47->UseVisualStyleBackColor = true;
-			this->button47->Click += gcnew System::EventHandler(this, &戴维南定理实验内容::button47_Click);
-			// 
 			// 戴维南定理实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1600, 738);
+			this->ClientSize = System::Drawing::Size(1621, 738);
 			this->Controls->Add(this->label106);
 			this->Controls->Add(this->button81);
 			this->Controls->Add(this->textBox结论);
@@ -2284,6 +2273,8 @@ private: System::Windows::Forms::Button^  button47;
 			this->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->Name = L"戴维南定理实验内容";
 			this->Text = L"戴维南定理实验内容";
+			this->FormClosing += gcnew System::Windows::Forms::FormClosingEventHandler(this, &戴维南定理实验内容::戴维南定理实验内容_FormClosing);
+			this->FormClosed += gcnew System::Windows::Forms::FormClosedEventHandler(this, &戴维南定理实验内容::戴维南定理实验内容_FormClosed);
 			this->Load += gcnew System::EventHandler(this, &戴维南定理实验内容::戴维南定理实验内容_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
@@ -2477,6 +2468,18 @@ private: System::Void button47_Click(System::Object^  sender, System::EventArgs^
 		textBoxMethod1Ro->Text = "计算失败";
 	}
 
+}
+private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelMethod2I4->Text = global::GetI500Data();
+}
+private: System::Void 戴维南定理实验内容_FormClosed(System::Object^  sender, System::Windows::Forms::FormClosedEventArgs^  e) {
+
+}
+private: System::Void 戴维南定理实验内容_FormClosing(System::Object^  sender, System::Windows::Forms::FormClosingEventArgs^  e) {
+
+}
+private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
+	textBoxMethod3Uoc->Text = global::GetU30_U400VData();
 }
 };
 }

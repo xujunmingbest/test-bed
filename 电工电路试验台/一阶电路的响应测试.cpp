@@ -46,26 +46,13 @@ ST_一阶电路的响应测试 一阶电路的响应测试实验内容::Load_Grade_data() {
 	if(trial1bmp_in.length() == sizeof(d.Trial1Bmp_in))
 		memcpy(d.Trial1Bmp_in, trial1bmp_in.c_str(), sizeof(d.Trial1Bmp_in));
 
-	string trial1bmp_out = f.Readfile(T_to_string(trial1Path_out));
-	if (trial1bmp_out.length() == sizeof(d.Trial1Bmp_out))
-		memcpy(d.Trial1Bmp_out, trial1bmp_out.c_str(), sizeof(d.Trial1Bmp_out));
-
 	string trial2bmp_in = f.Readfile(T_to_string(trial2Path_in));
 	if (trial2bmp_in.length() == sizeof(d.Trial2Bmp_in))
 		memcpy(d.Trial2Bmp_in, trial2bmp_in.c_str(), sizeof(d.Trial2Bmp_in));
 
-	string trial2bmp_out = f.Readfile(T_to_string(trial2Path_out));
-	if (trial2bmp_out.length() == sizeof(d.Trial2Bmp_out))
-		memcpy(d.Trial2Bmp_out, trial2bmp_out.c_str(), sizeof(d.Trial2Bmp_out));
-
-
 	string trial3bmp_in = f.Readfile(T_to_string(trial3Path_in));
 	if (trial3bmp_in.length() == sizeof(d.Trial3Bmp_in))
 		memcpy(d.Trial3Bmp_in, trial3bmp_in.c_str(), sizeof(d.Trial3Bmp_in));
-
-	string trial3bmp_out = f.Readfile(T_to_string(trial3Path_out));
-	if (trial3bmp_out.length() == sizeof(d.Trial3Bmp_out))
-		memcpy(d.Trial3Bmp_out, trial3bmp_out.c_str(), sizeof(d.Trial3Bmp_out));
 
 	snprintf(d.summing_up, 100, "%s", textBox结论->Text);
 	return d;

@@ -184,7 +184,7 @@ void RLC元件阻抗特性的测定实验内容::chartTrial3oad() {
 	c->AxisY->Interval = 2;
 	c->AxisX->ScrollBar->IsPositionedInside = true;
 	c->AxisX->ScrollBar->Enabled = true;
-	c->AxisX->Title = "频率V";
+	c->AxisX->Title = "频率f";
 	c->AxisY->Title = "阻抗角φ";
 	c->AxisY->TextOrientation = TextOrientation::Horizontal;
 	s->ChartType = SeriesChartType::Spline;
@@ -206,5 +206,6 @@ void RLC元件阻抗特性的测定实验内容::chartTrial3oad() {
 	catch (System::Exception^ E) {
 
 	}
-
+	s->Sort(System::Windows::Forms::DataVisualization::Charting::PointSortOrder::Descending, "X");
+	s->MarkerStyle = MarkerStyle::Circle;  //获取标记样式
 }

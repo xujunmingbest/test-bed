@@ -159,7 +159,7 @@ private: System::Windows::Forms::TextBox^  textBoxTrial12Load3;
 
 private: System::Windows::Forms::TextBox^  textBoxTrial12Load2;
 
-	private: System::Windows::Forms::Label^  label7;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial12Load1;
 
 	private: System::Windows::Forms::Label^  label8;
@@ -320,10 +320,10 @@ private: System::Windows::Forms::TextBox^  textBox结论;
 private: System::Windows::Forms::Label^  label105;
 private: System::Windows::Forms::Label^  label106;
 private: System::Windows::Forms::Button^  button81;
-private: System::Windows::Forms::Button^  button52;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial11UP2;
 
-private: System::Windows::Forms::Button^  button51;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial11UP1;
 private: System::Windows::Forms::TextBox^  textBoxTrial2Is;
 private: System::Windows::Forms::Label^  label10;
@@ -332,6 +332,9 @@ private: System::Windows::Forms::Label^  label14;
 private: System::Windows::Forms::Label^  label11;
 private: System::Windows::Forms::Label^  label12;
 private: System::Windows::Forms::Label^  label15;
+private: System::Windows::Forms::Label^  label7;
+private: System::Windows::Forms::Label^  label17;
+private: System::Windows::Forms::Label^  label16;
 
 
 
@@ -370,9 +373,12 @@ private: System::Windows::Forms::Label^  label15;
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(电压源与电流源的等效变换实验内容::typeid));
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
-			this->button52 = (gcnew System::Windows::Forms::Button());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->textBoxTrial11UP2 = (gcnew System::Windows::Forms::TextBox());
-			this->button51 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial11UP1 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial12Load10 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial12Load9 = (gcnew System::Windows::Forms::TextBox());
@@ -383,7 +389,6 @@ private: System::Windows::Forms::Label^  label15;
 			this->textBoxTrial12Load4 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial12Load3 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial12Load2 = (gcnew System::Windows::Forms::TextBox());
-			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->textBoxTrial12Load1 = (gcnew System::Windows::Forms::TextBox());
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->label9 = (gcnew System::Windows::Forms::Label());
@@ -486,6 +491,7 @@ private: System::Windows::Forms::Label^  label15;
 			this->labelTrial11U9 = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->label15 = (gcnew System::Windows::Forms::Label());
 			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->textBoxTrial2Is = (gcnew System::Windows::Forms::TextBox());
 			this->label43 = (gcnew System::Windows::Forms::Label());
@@ -527,11 +533,8 @@ private: System::Windows::Forms::Label^  label15;
 			this->label105 = (gcnew System::Windows::Forms::Label());
 			this->label106 = (gcnew System::Windows::Forms::Label());
 			this->button81 = (gcnew System::Windows::Forms::Button());
-			this->label11 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->label16 = (gcnew System::Windows::Forms::Label());
+			this->label17 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox3->SuspendLayout();
@@ -540,13 +543,14 @@ private: System::Windows::Forms::Label^  label15;
 			// 
 			// groupBox2
 			// 
+			this->groupBox2->Controls->Add(this->label17);
+			this->groupBox2->Controls->Add(this->label16);
+			this->groupBox2->Controls->Add(this->label7);
 			this->groupBox2->Controls->Add(this->label13);
 			this->groupBox2->Controls->Add(this->label14);
 			this->groupBox2->Controls->Add(this->label11);
 			this->groupBox2->Controls->Add(this->label12);
-			this->groupBox2->Controls->Add(this->button52);
 			this->groupBox2->Controls->Add(this->textBoxTrial11UP2);
-			this->groupBox2->Controls->Add(this->button51);
 			this->groupBox2->Controls->Add(this->textBoxTrial11UP1);
 			this->groupBox2->Controls->Add(this->textBoxTrial12Load10);
 			this->groupBox2->Controls->Add(this->textBoxTrial12Load9);
@@ -557,7 +561,6 @@ private: System::Windows::Forms::Label^  label15;
 			this->groupBox2->Controls->Add(this->textBoxTrial12Load4);
 			this->groupBox2->Controls->Add(this->textBoxTrial12Load3);
 			this->groupBox2->Controls->Add(this->textBoxTrial12Load2);
-			this->groupBox2->Controls->Add(this->label7);
 			this->groupBox2->Controls->Add(this->textBoxTrial12Load1);
 			this->groupBox2->Controls->Add(this->label8);
 			this->groupBox2->Controls->Add(this->label9);
@@ -672,19 +675,60 @@ private: System::Windows::Forms::Label^  label15;
 			this->groupBox2->Text = L"1．测定直流稳压电源与电压源的外特性";
 			this->groupBox2->Enter += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::groupBox2_Enter);
 			// 
-			// button52
+			// label7
 			// 
-			this->button52->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->button52->ForeColor = System::Drawing::Color::Black;
-			this->button52->Location = System::Drawing::Point(1004, 299);
-			this->button52->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button52->Name = L"button52";
-			this->button52->Size = System::Drawing::Size(93, 42);
-			this->button52->TabIndex = 276;
-			this->button52->Text = L"设置";
-			this->button52->UseVisualStyleBackColor = true;
-			this->button52->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button52_Click);
+			this->label7->ForeColor = System::Drawing::Color::Black;
+			this->label7->Location = System::Drawing::Point(10, 881);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(118, 32);
+			this->label7->TabIndex = 312;
+			this->label7->Text = L"负载(欧姆)";
+			// 
+			// label13
+			// 
+			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label13->ForeColor = System::Drawing::Color::Lime;
+			this->label13->Location = System::Drawing::Point(6, 1086);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(145, 26);
+			this->label13->TabIndex = 311;
+			this->label13->Text = L"直流电流表2";
+			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(6, 992);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(145, 26);
+			this->label14->TabIndex = 310;
+			this->label14->Text = L"直流电压表3";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label11
+			// 
+			this->label11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label11->ForeColor = System::Drawing::Color::Lime;
+			this->label11->Location = System::Drawing::Point(6, 758);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(145, 26);
+			this->label11->TabIndex = 309;
+			this->label11->Text = L"直流电流表2";
+			this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label12
+			// 
+			this->label12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label12->ForeColor = System::Drawing::Color::Lime;
+			this->label12->Location = System::Drawing::Point(6, 664);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(145, 26);
+			this->label12->TabIndex = 308;
+			this->label12->Text = L"直流电压表3";
+			this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// textBoxTrial11UP2
 			// 
@@ -695,20 +739,6 @@ private: System::Windows::Forms::Label^  label15;
 			this->textBoxTrial11UP2->Name = L"textBoxTrial11UP2";
 			this->textBoxTrial11UP2->Size = System::Drawing::Size(93, 30);
 			this->textBoxTrial11UP2->TabIndex = 275;
-			// 
-			// button51
-			// 
-			this->button51->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button51->ForeColor = System::Drawing::Color::Black;
-			this->button51->Location = System::Drawing::Point(35, 227);
-			this->button51->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button51->Name = L"button51";
-			this->button51->Size = System::Drawing::Size(93, 42);
-			this->button51->TabIndex = 274;
-			this->button51->Text = L"设置";
-			this->button51->UseVisualStyleBackColor = true;
-			this->button51->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button51_Click);
 			// 
 			// textBoxTrial11UP1
 			// 
@@ -809,17 +839,6 @@ private: System::Windows::Forms::Label^  label15;
 			this->textBoxTrial12Load2->Name = L"textBoxTrial12Load2";
 			this->textBoxTrial12Load2->Size = System::Drawing::Size(93, 30);
 			this->textBoxTrial12Load2->TabIndex = 264;
-			// 
-			// label7
-			// 
-			this->label7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label7->ForeColor = System::Drawing::Color::Black;
-			this->label7->Location = System::Drawing::Point(33, 881);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(60, 32);
-			this->label7->TabIndex = 263;
-			this->label7->Text = L"负载";
 			// 
 			// textBoxTrial12Load1
 			// 
@@ -1479,11 +1498,11 @@ private: System::Windows::Forms::Label^  label15;
 			this->label5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
 			this->label5->ForeColor = System::Drawing::Color::Black;
-			this->label5->Location = System::Drawing::Point(33, 555);
+			this->label5->Location = System::Drawing::Point(14, 556);
 			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(60, 32);
+			this->label5->Size = System::Drawing::Size(118, 32);
 			this->label5->TabIndex = 209;
-			this->label5->Text = L"负载";
+			this->label5->Text = L"负载(欧姆)";
 			// 
 			// textBoxTrial11Load1
 			// 
@@ -2134,6 +2153,17 @@ private: System::Windows::Forms::Label^  label15;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"2．测定电流源的外特性";
 			// 
+			// label15
+			// 
+			this->label15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label15->ForeColor = System::Drawing::Color::Lime;
+			this->label15->Location = System::Drawing::Point(18, 647);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(145, 26);
+			this->label15->TabIndex = 311;
+			this->label15->Text = L"直流电流表2";
+			this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
 			// label10
 			// 
 			this->label10->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
@@ -2142,16 +2172,16 @@ private: System::Windows::Forms::Label^  label15;
 			this->label10->ForeColor = System::Drawing::Color::Black;
 			this->label10->Location = System::Drawing::Point(421, 194);
 			this->label10->Name = L"label10";
-			this->label10->Size = System::Drawing::Size(116, 42);
+			this->label10->Size = System::Drawing::Size(76, 42);
 			this->label10->TabIndex = 277;
-			this->label10->Text = L"填写Is的值";
+			this->label10->Text = L"Is=";
 			this->label10->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// textBoxTrial2Is
 			// 
 			this->textBoxTrial2Is->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->textBoxTrial2Is->Location = System::Drawing::Point(421, 255);
+			this->textBoxTrial2Is->Location = System::Drawing::Point(421, 250);
 			this->textBoxTrial2Is->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->textBoxTrial2Is->Name = L"textBoxTrial2Is";
 			this->textBoxTrial2Is->Size = System::Drawing::Size(116, 30);
@@ -2616,60 +2646,27 @@ private: System::Windows::Forms::Label^  label15;
 			this->button81->UseVisualStyleBackColor = true;
 			this->button81->Click += gcnew System::EventHandler(this, &电压源与电流源的等效变换实验内容::button81_Click);
 			// 
-			// label11
+			// label16
 			// 
-			this->label11->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label11->ForeColor = System::Drawing::Color::Lime;
-			this->label11->Location = System::Drawing::Point(6, 758);
-			this->label11->Name = L"label11";
-			this->label11->Size = System::Drawing::Size(145, 26);
-			this->label11->TabIndex = 309;
-			this->label11->Text = L"直流电流表2";
-			this->label11->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->label16->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label16->ForeColor = System::Drawing::Color::Black;
+			this->label16->Location = System::Drawing::Point(48, 160);
+			this->label16->Name = L"label16";
+			this->label16->Size = System::Drawing::Size(55, 22);
+			this->label16->TabIndex = 313;
+			this->label16->Text = L"US=";
 			// 
-			// label12
+			// label17
 			// 
-			this->label12->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label12->ForeColor = System::Drawing::Color::Lime;
-			this->label12->Location = System::Drawing::Point(6, 664);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(145, 26);
-			this->label12->TabIndex = 308;
-			this->label12->Text = L"直流电压表3";
-			this->label12->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label13
-			// 
-			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label13->ForeColor = System::Drawing::Color::Lime;
-			this->label13->Location = System::Drawing::Point(6, 1086);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(145, 26);
-			this->label13->TabIndex = 311;
-			this->label13->Text = L"直流电流表2";
-			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label14
-			// 
-			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label14->ForeColor = System::Drawing::Color::Lime;
-			this->label14->Location = System::Drawing::Point(6, 992);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(145, 26);
-			this->label14->TabIndex = 310;
-			this->label14->Text = L"直流电压表3";
-			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label15
-			// 
-			this->label15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label15->ForeColor = System::Drawing::Color::Lime;
-			this->label15->Location = System::Drawing::Point(18, 647);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(145, 26);
-			this->label15->TabIndex = 311;
-			this->label15->Text = L"直流电流表2";
-			this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->label17->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label17->ForeColor = System::Drawing::Color::Black;
+			this->label17->Location = System::Drawing::Point(1023, 232);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(55, 22);
+			this->label17->TabIndex = 314;
+			this->label17->Text = L"US=";
 			// 
 			// 电压源与电流源的等效变换实验内容
 			// 
@@ -2740,34 +2737,34 @@ private: System::Void button11_Click(System::Object^  sender, System::EventArgs^
 	labelTrial11U10->Text = global::GetU30_U400VData();
 }
 private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I1->Text = global::GetU30_U400VData();
+	labelTrial11I1->Text = global::GetI500Data();
 }
 private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I2->Text = global::GetU30_U400VData();
+	labelTrial11I2->Text = global::GetI500Data();
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I3->Text = global::GetU30_U400VData();
+	labelTrial11I3->Text = global::GetI500Data();
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I4->Text = global::GetU30_U400VData();
+	labelTrial11I4->Text = global::GetI500Data();
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I5->Text = global::GetU30_U400VData();
+	labelTrial11I5->Text = global::GetI500Data();
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I6->Text = global::GetU30_U400VData();
+	labelTrial11I6->Text = global::GetI500Data();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I7->Text = global::GetU30_U400VData();
+	labelTrial11I7->Text = global::GetI500Data();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I8->Text = global::GetU30_U400VData();
+	labelTrial11I8->Text = global::GetI500Data();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I9->Text = global::GetU30_U400VData();
+	labelTrial11I9->Text = global::GetI500Data();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial11I10->Text = global::GetU30_U400VData();
+	labelTrial11I10->Text = global::GetI500Data();
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial12U1->Text = global::GetU30_U400VData();

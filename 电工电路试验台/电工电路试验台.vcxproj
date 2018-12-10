@@ -80,6 +80,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Release</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -326,7 +327,6 @@
     <ClInclude Include="仪表量程的扩展实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="元件伏安特性的测试.h" />
     <ClInclude Include="元件伏安特性的测试实验内容.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -334,9 +334,6 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="元件伏安特性的测试实验器件.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="元件伏安特性的测试实验报告.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="元件伏安特性的测试实验目的.h">
@@ -650,9 +647,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="元件伏安特性的测试实验器件.resx">
       <DependentUpon>元件伏安特性的测试实验器件.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="元件伏安特性的测试实验报告.resx">
-      <DependentUpon>元件伏安特性的测试实验报告.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="元件伏安特性的测试实验目的.resx">
       <DependentUpon>元件伏安特性的测试实验目的.h</DependentUpon>

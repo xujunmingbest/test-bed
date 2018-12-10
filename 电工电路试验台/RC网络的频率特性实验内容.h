@@ -116,28 +116,28 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Button^  button16;
 
 	private: System::Windows::Forms::Label^  label4;
-	private: System::Windows::Forms::Button^  button3;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F8;
 
-	private: System::Windows::Forms::Button^  button6;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F7;
 
-	private: System::Windows::Forms::Button^  button7;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F6;
 
-	private: System::Windows::Forms::Button^  button8;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F5;
 
-	private: System::Windows::Forms::Button^  button1;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F4;
 
-	private: System::Windows::Forms::Button^  button2;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F3;
 
-	private: System::Windows::Forms::Button^  button5;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_F2;
 
-	private: System::Windows::Forms::Button^  button4;
+
 	private: System::Windows::Forms::GroupBox^  groupBox1;
 private: System::Windows::Forms::TextBox^  textBoxTrial2_τ2_8;
 
@@ -191,28 +191,28 @@ private: System::Windows::Forms::TextBox^  textBoxTrial2_T1;
 
 
 	private: System::Windows::Forms::Label^  label9;
-	private: System::Windows::Forms::Button^  button41;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F8;
 
-	private: System::Windows::Forms::Button^  button42;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F7;
 
-	private: System::Windows::Forms::Button^  button43;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F6;
 
-	private: System::Windows::Forms::Button^  button44;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F5;
 
-	private: System::Windows::Forms::Button^  button45;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F4;
 
-	private: System::Windows::Forms::Button^  button46;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F3;
 
-	private: System::Windows::Forms::Button^  button47;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F2;
 
-	private: System::Windows::Forms::Button^  button48;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_F1;
 
 	private: System::Windows::Forms::Label^  label10;
@@ -333,6 +333,8 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(RC网络的频率特性实验内容::typeid));
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->labelTrial1_Uo2_8 = (gcnew System::Windows::Forms::Label());
 			this->labelTrial1_Uo2_7 = (gcnew System::Windows::Forms::Label());
 			this->labelTrial1_Uo2_6 = (gcnew System::Windows::Forms::Label());
@@ -368,21 +370,13 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->button15 = (gcnew System::Windows::Forms::Button());
 			this->button16 = (gcnew System::Windows::Forms::Button());
 			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F8 = (gcnew System::Windows::Forms::TextBox());
-			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F7 = (gcnew System::Windows::Forms::TextBox());
-			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F6 = (gcnew System::Windows::Forms::TextBox());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F5 = (gcnew System::Windows::Forms::TextBox());
-			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F4 = (gcnew System::Windows::Forms::TextBox());
-			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F3 = (gcnew System::Windows::Forms::TextBox());
-			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F2 = (gcnew System::Windows::Forms::TextBox());
-			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_F1 = (gcnew System::Windows::Forms::TextBox());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
@@ -435,21 +429,13 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->textBoxTrial2_T2 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxTrial2_T1 = (gcnew System::Windows::Forms::TextBox());
 			this->label9 = (gcnew System::Windows::Forms::Label());
-			this->button41 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F8 = (gcnew System::Windows::Forms::TextBox());
-			this->button42 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F7 = (gcnew System::Windows::Forms::TextBox());
-			this->button43 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F6 = (gcnew System::Windows::Forms::TextBox());
-			this->button44 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F5 = (gcnew System::Windows::Forms::TextBox());
-			this->button45 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F4 = (gcnew System::Windows::Forms::TextBox());
-			this->button46 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F3 = (gcnew System::Windows::Forms::TextBox());
-			this->button47 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F2 = (gcnew System::Windows::Forms::TextBox());
-			this->button48 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_F1 = (gcnew System::Windows::Forms::TextBox());
 			this->label10 = (gcnew System::Windows::Forms::Label());
 			this->label11 = (gcnew System::Windows::Forms::Label());
@@ -458,11 +444,9 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->button102 = (gcnew System::Windows::Forms::Button());
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label105 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox8->SuspendLayout();
-			this->groupBox1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			this->groupBox1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// groupBox8
@@ -504,21 +488,13 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->groupBox8->Controls->Add(this->button15);
 			this->groupBox8->Controls->Add(this->button16);
 			this->groupBox8->Controls->Add(this->label4);
-			this->groupBox8->Controls->Add(this->button3);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F8);
-			this->groupBox8->Controls->Add(this->button6);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F7);
-			this->groupBox8->Controls->Add(this->button7);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F6);
-			this->groupBox8->Controls->Add(this->button8);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F5);
-			this->groupBox8->Controls->Add(this->button1);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F4);
-			this->groupBox8->Controls->Add(this->button2);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F3);
-			this->groupBox8->Controls->Add(this->button5);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F2);
-			this->groupBox8->Controls->Add(this->button4);
 			this->groupBox8->Controls->Add(this->textBoxTrial1_F1);
 			this->groupBox8->Controls->Add(this->label3);
 			this->groupBox8->Controls->Add(this->label2);
@@ -533,6 +509,27 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"RC网络的频率特性 实验内容1";
 			this->groupBox8->Enter += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::groupBox8_Enter);
+			// 
+			// label13
+			// 
+			this->label13->BackColor = System::Drawing::Color::Transparent;
+			this->label13->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label13->Location = System::Drawing::Point(556, 822);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(79, 27);
+			this->label13->TabIndex = 162;
+			this->label13->Text = L"图21-1";
+			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(370, 603);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(455, 216);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
+			this->pictureBox1->TabIndex = 161;
+			this->pictureBox1->TabStop = false;
 			// 
 			// labelTrial1_Uo2_8
 			// 
@@ -940,40 +937,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->label4->Text = L"R=1KΩ，C=0.1μF";
 			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
-			// button3
-			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button3->ForeColor = System::Drawing::Color::Black;
-			this->button3->Location = System::Drawing::Point(810, 308);
-			this->button3->Name = L"button3";
-			this->button3->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button3->Size = System::Drawing::Size(88, 29);
-			this->button3->TabIndex = 66;
-			this->button3->Text = L"设置";
-			this->button3->UseVisualStyleBackColor = true;
-			this->button3->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button3_Click);
-			// 
 			// textBoxTrial1_F8
 			// 
 			this->textBoxTrial1_F8->Location = System::Drawing::Point(810, 271);
 			this->textBoxTrial1_F8->Name = L"textBoxTrial1_F8";
 			this->textBoxTrial1_F8->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial1_F8->TabIndex = 65;
-			// 
-			// button6
-			// 
-			this->button6->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button6->ForeColor = System::Drawing::Color::Black;
-			this->button6->Location = System::Drawing::Point(711, 308);
-			this->button6->Name = L"button6";
-			this->button6->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button6->Size = System::Drawing::Size(88, 29);
-			this->button6->TabIndex = 64;
-			this->button6->Text = L"设置";
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button6_Click);
 			// 
 			// textBoxTrial1_F7
 			// 
@@ -982,40 +951,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->textBoxTrial1_F7->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial1_F7->TabIndex = 63;
 			// 
-			// button7
-			// 
-			this->button7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button7->ForeColor = System::Drawing::Color::Black;
-			this->button7->Location = System::Drawing::Point(614, 308);
-			this->button7->Name = L"button7";
-			this->button7->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button7->Size = System::Drawing::Size(88, 29);
-			this->button7->TabIndex = 62;
-			this->button7->Text = L"设置";
-			this->button7->UseVisualStyleBackColor = true;
-			this->button7->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button7_Click);
-			// 
 			// textBoxTrial1_F6
 			// 
 			this->textBoxTrial1_F6->Location = System::Drawing::Point(614, 271);
 			this->textBoxTrial1_F6->Name = L"textBoxTrial1_F6";
 			this->textBoxTrial1_F6->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial1_F6->TabIndex = 61;
-			// 
-			// button8
-			// 
-			this->button8->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button8->ForeColor = System::Drawing::Color::Black;
-			this->button8->Location = System::Drawing::Point(520, 308);
-			this->button8->Name = L"button8";
-			this->button8->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button8->Size = System::Drawing::Size(88, 29);
-			this->button8->TabIndex = 60;
-			this->button8->Text = L"设置";
-			this->button8->UseVisualStyleBackColor = true;
-			this->button8->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button8_Click);
 			// 
 			// textBoxTrial1_F5
 			// 
@@ -1024,40 +965,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->textBoxTrial1_F5->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial1_F5->TabIndex = 59;
 			// 
-			// button1
-			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button1->ForeColor = System::Drawing::Color::Black;
-			this->button1->Location = System::Drawing::Point(425, 308);
-			this->button1->Name = L"button1";
-			this->button1->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button1->Size = System::Drawing::Size(88, 29);
-			this->button1->TabIndex = 58;
-			this->button1->Text = L"设置";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button1_Click);
-			// 
 			// textBoxTrial1_F4
 			// 
 			this->textBoxTrial1_F4->Location = System::Drawing::Point(425, 271);
 			this->textBoxTrial1_F4->Name = L"textBoxTrial1_F4";
 			this->textBoxTrial1_F4->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial1_F4->TabIndex = 57;
-			// 
-			// button2
-			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button2->ForeColor = System::Drawing::Color::Black;
-			this->button2->Location = System::Drawing::Point(326, 308);
-			this->button2->Name = L"button2";
-			this->button2->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button2->Size = System::Drawing::Size(88, 29);
-			this->button2->TabIndex = 56;
-			this->button2->Text = L"设置";
-			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button2_Click);
 			// 
 			// textBoxTrial1_F3
 			// 
@@ -1066,40 +979,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->textBoxTrial1_F3->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial1_F3->TabIndex = 55;
 			// 
-			// button5
-			// 
-			this->button5->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button5->ForeColor = System::Drawing::Color::Black;
-			this->button5->Location = System::Drawing::Point(229, 308);
-			this->button5->Name = L"button5";
-			this->button5->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button5->Size = System::Drawing::Size(88, 29);
-			this->button5->TabIndex = 54;
-			this->button5->Text = L"设置";
-			this->button5->UseVisualStyleBackColor = true;
-			this->button5->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button5_Click);
-			// 
 			// textBoxTrial1_F2
 			// 
 			this->textBoxTrial1_F2->Location = System::Drawing::Point(229, 271);
 			this->textBoxTrial1_F2->Name = L"textBoxTrial1_F2";
 			this->textBoxTrial1_F2->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial1_F2->TabIndex = 53;
-			// 
-			// button4
-			// 
-			this->button4->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button4->ForeColor = System::Drawing::Color::Black;
-			this->button4->Location = System::Drawing::Point(135, 308);
-			this->button4->Name = L"button4";
-			this->button4->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button4->Size = System::Drawing::Size(88, 29);
-			this->button4->TabIndex = 52;
-			this->button4->Text = L"设置";
-			this->button4->UseVisualStyleBackColor = true;
-			this->button4->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button4_Click);
 			// 
 			// textBoxTrial1_F1
 			// 
@@ -1203,21 +1088,13 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->groupBox1->Controls->Add(this->textBoxTrial2_T2);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_T1);
 			this->groupBox1->Controls->Add(this->label9);
-			this->groupBox1->Controls->Add(this->button41);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F8);
-			this->groupBox1->Controls->Add(this->button42);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F7);
-			this->groupBox1->Controls->Add(this->button43);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F6);
-			this->groupBox1->Controls->Add(this->button44);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F5);
-			this->groupBox1->Controls->Add(this->button45);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F4);
-			this->groupBox1->Controls->Add(this->button46);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F3);
-			this->groupBox1->Controls->Add(this->button47);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F2);
-			this->groupBox1->Controls->Add(this->button48);
 			this->groupBox1->Controls->Add(this->textBoxTrial2_F1);
 			this->groupBox1->Controls->Add(this->label10);
 			this->groupBox1->Controls->Add(this->label11);
@@ -1586,40 +1463,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->label9->Text = L"R=1KΩ，C=0.1μF";
 			this->label9->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
-			// button41
-			// 
-			this->button41->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button41->ForeColor = System::Drawing::Color::Black;
-			this->button41->Location = System::Drawing::Point(797, 138);
-			this->button41->Name = L"button41";
-			this->button41->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button41->Size = System::Drawing::Size(88, 29);
-			this->button41->TabIndex = 66;
-			this->button41->Text = L"设置";
-			this->button41->UseVisualStyleBackColor = true;
-			this->button41->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button41_Click);
-			// 
 			// textBoxTrial2_F8
 			// 
 			this->textBoxTrial2_F8->Location = System::Drawing::Point(797, 101);
 			this->textBoxTrial2_F8->Name = L"textBoxTrial2_F8";
 			this->textBoxTrial2_F8->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial2_F8->TabIndex = 65;
-			// 
-			// button42
-			// 
-			this->button42->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button42->ForeColor = System::Drawing::Color::Black;
-			this->button42->Location = System::Drawing::Point(698, 138);
-			this->button42->Name = L"button42";
-			this->button42->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button42->Size = System::Drawing::Size(88, 29);
-			this->button42->TabIndex = 64;
-			this->button42->Text = L"设置";
-			this->button42->UseVisualStyleBackColor = true;
-			this->button42->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button42_Click);
 			// 
 			// textBoxTrial2_F7
 			// 
@@ -1628,40 +1477,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->textBoxTrial2_F7->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial2_F7->TabIndex = 63;
 			// 
-			// button43
-			// 
-			this->button43->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button43->ForeColor = System::Drawing::Color::Black;
-			this->button43->Location = System::Drawing::Point(601, 138);
-			this->button43->Name = L"button43";
-			this->button43->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button43->Size = System::Drawing::Size(88, 29);
-			this->button43->TabIndex = 62;
-			this->button43->Text = L"设置";
-			this->button43->UseVisualStyleBackColor = true;
-			this->button43->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button43_Click);
-			// 
 			// textBoxTrial2_F6
 			// 
 			this->textBoxTrial2_F6->Location = System::Drawing::Point(601, 101);
 			this->textBoxTrial2_F6->Name = L"textBoxTrial2_F6";
 			this->textBoxTrial2_F6->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial2_F6->TabIndex = 61;
-			// 
-			// button44
-			// 
-			this->button44->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button44->ForeColor = System::Drawing::Color::Black;
-			this->button44->Location = System::Drawing::Point(507, 138);
-			this->button44->Name = L"button44";
-			this->button44->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button44->Size = System::Drawing::Size(88, 29);
-			this->button44->TabIndex = 60;
-			this->button44->Text = L"设置";
-			this->button44->UseVisualStyleBackColor = true;
-			this->button44->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button44_Click);
 			// 
 			// textBoxTrial2_F5
 			// 
@@ -1670,40 +1491,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->textBoxTrial2_F5->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial2_F5->TabIndex = 59;
 			// 
-			// button45
-			// 
-			this->button45->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button45->ForeColor = System::Drawing::Color::Black;
-			this->button45->Location = System::Drawing::Point(412, 138);
-			this->button45->Name = L"button45";
-			this->button45->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button45->Size = System::Drawing::Size(88, 29);
-			this->button45->TabIndex = 58;
-			this->button45->Text = L"设置";
-			this->button45->UseVisualStyleBackColor = true;
-			this->button45->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button45_Click);
-			// 
 			// textBoxTrial2_F4
 			// 
 			this->textBoxTrial2_F4->Location = System::Drawing::Point(412, 101);
 			this->textBoxTrial2_F4->Name = L"textBoxTrial2_F4";
 			this->textBoxTrial2_F4->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial2_F4->TabIndex = 57;
-			// 
-			// button46
-			// 
-			this->button46->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button46->ForeColor = System::Drawing::Color::Black;
-			this->button46->Location = System::Drawing::Point(313, 138);
-			this->button46->Name = L"button46";
-			this->button46->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button46->Size = System::Drawing::Size(88, 29);
-			this->button46->TabIndex = 56;
-			this->button46->Text = L"设置";
-			this->button46->UseVisualStyleBackColor = true;
-			this->button46->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button46_Click);
 			// 
 			// textBoxTrial2_F3
 			// 
@@ -1712,40 +1505,12 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->textBoxTrial2_F3->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial2_F3->TabIndex = 55;
 			// 
-			// button47
-			// 
-			this->button47->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button47->ForeColor = System::Drawing::Color::Black;
-			this->button47->Location = System::Drawing::Point(216, 138);
-			this->button47->Name = L"button47";
-			this->button47->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button47->Size = System::Drawing::Size(88, 29);
-			this->button47->TabIndex = 54;
-			this->button47->Text = L"设置";
-			this->button47->UseVisualStyleBackColor = true;
-			this->button47->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button47_Click);
-			// 
 			// textBoxTrial2_F2
 			// 
 			this->textBoxTrial2_F2->Location = System::Drawing::Point(216, 101);
 			this->textBoxTrial2_F2->Name = L"textBoxTrial2_F2";
 			this->textBoxTrial2_F2->Size = System::Drawing::Size(88, 30);
 			this->textBoxTrial2_F2->TabIndex = 53;
-			// 
-			// button48
-			// 
-			this->button48->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button48->ForeColor = System::Drawing::Color::Black;
-			this->button48->Location = System::Drawing::Point(122, 138);
-			this->button48->Name = L"button48";
-			this->button48->RightToLeft = System::Windows::Forms::RightToLeft::Yes;
-			this->button48->Size = System::Drawing::Size(88, 29);
-			this->button48->TabIndex = 52;
-			this->button48->Text = L"设置";
-			this->button48->UseVisualStyleBackColor = true;
-			this->button48->Click += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::button48_Click);
 			// 
 			// textBoxTrial2_F1
 			// 
@@ -1831,27 +1596,6 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->label105->TabIndex = 196;
 			this->label105->Text = L"实验结论";
 			// 
-			// label13
-			// 
-			this->label13->BackColor = System::Drawing::Color::Transparent;
-			this->label13->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label13->Location = System::Drawing::Point(556, 822);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(79, 27);
-			this->label13->TabIndex = 162;
-			this->label13->Text = L"图21-1";
-			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(370, 603);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(455, 216);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
-			this->pictureBox1->TabIndex = 161;
-			this->pictureBox1->TabStop = false;
-			// 
 			// RC网络的频率特性实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -1871,9 +1615,9 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 			this->Load += gcnew System::EventHandler(this, &RC网络的频率特性实验内容::RC网络的频率特性实验内容_Load);
 			this->groupBox8->ResumeLayout(false);
 			this->groupBox8->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -1882,6 +1626,7 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 	private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 	}
 private: System::Void RC网络的频率特性实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[21] + "正在实验中");
 }
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();

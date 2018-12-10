@@ -9,7 +9,7 @@ struct ConfigXml {
 	string DesMac;
 	string RepeaterPort;
 	string RepeaterIp;
-	string SerialHandle;
+	//string SerialHandle;
 	string SerialControlSource;
 
 	string TeacherIp;

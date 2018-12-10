@@ -534,6 +534,9 @@ private: System::Windows::Forms::Label^  label8;
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(最大功率传输条件的测定实验内容::typeid));
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->textBoxtrial1_Po9 = (gcnew System::Windows::Forms::TextBox());
@@ -626,6 +629,9 @@ private: System::Windows::Forms::Label^  label8;
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->label5 = (gcnew System::Windows::Forms::Label());
+			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->textBoxtrial2_Po9 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxtrial2_Po8 = (gcnew System::Windows::Forms::TextBox());
 			this->textBoxtrial2_Po7 = (gcnew System::Windows::Forms::TextBox());
@@ -719,12 +725,6 @@ private: System::Windows::Forms::Label^  label8;
 			this->button81 = (gcnew System::Windows::Forms::Button());
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->label105 = (gcnew System::Windows::Forms::Label());
-			this->label13 = (gcnew System::Windows::Forms::Label());
-			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->label4 = (gcnew System::Windows::Forms::Label());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			this->groupBox2->SuspendLayout();
@@ -831,18 +831,51 @@ private: System::Windows::Forms::Label^  label8;
 			this->groupBox1->ForeColor = System::Drawing::Color::Red;
 			this->groupBox1->Location = System::Drawing::Point(34, 36);
 			this->groupBox1->Name = L"groupBox1";
-			this->groupBox1->Size = System::Drawing::Size(1469, 697);
+			this->groupBox1->Size = System::Drawing::Size(1563, 697);
 			this->groupBox1->TabIndex = 83;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"实验内容一";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &最大功率传输条件的测定实验内容::groupBox1_Enter);
+			// 
+			// label4
+			// 
+			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label4->ForeColor = System::Drawing::Color::Lime;
+			this->label4->Location = System::Drawing::Point(-7, 580);
+			this->label4->Name = L"label4";
+			this->label4->Size = System::Drawing::Size(145, 26);
+			this->label4->TabIndex = 371;
+			this->label4->Text = L"直流电压表3";
+			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label13
+			// 
+			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label13->ForeColor = System::Drawing::Color::Lime;
+			this->label13->Location = System::Drawing::Point(-7, 317);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(145, 26);
+			this->label13->TabIndex = 370;
+			this->label13->Text = L"直流电流表2";
+			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(-7, 418);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(145, 26);
+			this->label14->TabIndex = 369;
+			this->label14->Text = L"直流电压表3";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// label3
 			// 
 			this->label3->BackColor = System::Drawing::Color::Transparent;
 			this->label3->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(134)));
-			this->label3->Location = System::Drawing::Point(1254, 451);
+			this->label3->Location = System::Drawing::Point(1281, 437);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(74, 31);
 			this->label3->TabIndex = 368;
@@ -851,9 +884,9 @@ private: System::Windows::Forms::Label^  label8;
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(1142, 213);
+			this->pictureBox2->Location = System::Drawing::Point(1098, 178);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(300, 199);
+			this->pictureBox2->Size = System::Drawing::Size(433, 240);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
 			this->pictureBox2->TabIndex = 367;
 			this->pictureBox2->TabStop = false;
@@ -1392,7 +1425,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label60->Name = L"label60";
 			this->label60->Size = System::Drawing::Size(100, 36);
 			this->label60->TabIndex = 251;
-			this->label60->Text = L"Po";
+			this->label60->Text = L"Po(W)";
 			this->label60->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelTrial1_Uo9
@@ -1493,7 +1526,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label50->Name = L"label50";
 			this->label50->Size = System::Drawing::Size(100, 36);
 			this->label50->TabIndex = 241;
-			this->label50->Text = L"Uo";
+			this->label50->Text = L"Uo(V)";
 			this->label50->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label40
@@ -1504,7 +1537,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label40->Name = L"label40";
 			this->label40->Size = System::Drawing::Size(100, 36);
 			this->label40->TabIndex = 231;
-			this->label40->Text = L"PL";
+			this->label40->Text = L"PL(W)";
 			this->label40->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelTrial1_IUL9
@@ -1605,7 +1638,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label30->Name = L"label30";
 			this->label30->Size = System::Drawing::Size(100, 36);
 			this->label30->TabIndex = 221;
-			this->label30->Text = L"UL";
+			this->label30->Text = L"UL(V)";
 			this->label30->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelTrial1_I9
@@ -1706,7 +1739,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(100, 36);
 			this->label20->TabIndex = 211;
-			this->label20->Text = L"I";
+			this->label20->Text = L"I(mA)";
 			this->label20->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label9
@@ -1739,7 +1772,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->labelMethod2URL1->Name = L"labelMethod2URL1";
 			this->labelMethod2URL1->Size = System::Drawing::Size(100, 36);
 			this->labelMethod2URL1->TabIndex = 201;
-			this->labelMethod2URL1->Text = L"RL";
+			this->labelMethod2URL1->Text = L"RL(Ω)";
 			this->labelMethod2URL1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label7
@@ -1868,6 +1901,39 @@ private: System::Windows::Forms::Label^  label8;
 			this->groupBox2->TabIndex = 313;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验内容二";
+			// 
+			// label5
+			// 
+			this->label5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label5->ForeColor = System::Drawing::Color::Lime;
+			this->label5->Location = System::Drawing::Point(-7, 598);
+			this->label5->Name = L"label5";
+			this->label5->Size = System::Drawing::Size(145, 26);
+			this->label5->TabIndex = 378;
+			this->label5->Text = L"直流电压表3";
+			this->label5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label6
+			// 
+			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label6->ForeColor = System::Drawing::Color::Lime;
+			this->label6->Location = System::Drawing::Point(-7, 315);
+			this->label6->Name = L"label6";
+			this->label6->Size = System::Drawing::Size(145, 26);
+			this->label6->TabIndex = 377;
+			this->label6->Text = L"直流电流表2";
+			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label8
+			// 
+			this->label8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label8->ForeColor = System::Drawing::Color::Lime;
+			this->label8->Location = System::Drawing::Point(-7, 416);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(145, 26);
+			this->label8->TabIndex = 376;
+			this->label8->Text = L"直流电压表3";
+			this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// textBoxtrial2_Po9
 			// 
@@ -2403,7 +2469,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(100, 36);
 			this->label2->TabIndex = 251;
-			this->label2->Text = L"Po";
+			this->label2->Text = L"Po(W)";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labelTrial2_Uo9
@@ -2504,7 +2570,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label34->Name = L"label34";
 			this->label34->Size = System::Drawing::Size(100, 36);
 			this->label34->TabIndex = 241;
-			this->label34->Text = L"Uo";
+			this->label34->Text = L"Uo(V)";
 			this->label34->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label35
@@ -2515,7 +2581,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label35->Name = L"label35";
 			this->label35->Size = System::Drawing::Size(100, 36);
 			this->label35->TabIndex = 231;
-			this->label35->Text = L"PL";
+			this->label35->Text = L"PL(W)";
 			this->label35->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labeltrial2_UL9
@@ -2616,7 +2682,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label56->Name = L"label56";
 			this->label56->Size = System::Drawing::Size(100, 36);
 			this->label56->TabIndex = 221;
-			this->label56->Text = L"UL";
+			this->label56->Text = L"UL(V)";
 			this->label56->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// labeltrial2_I9
@@ -2717,7 +2783,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label67->Name = L"label67";
 			this->label67->Size = System::Drawing::Size(100, 36);
 			this->label67->TabIndex = 211;
-			this->label67->Text = L"I";
+			this->label67->Text = L"I(mA)";
 			this->label67->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label68
@@ -2750,7 +2816,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->label70->Name = L"label70";
 			this->label70->Size = System::Drawing::Size(100, 36);
 			this->label70->TabIndex = 201;
-			this->label70->Text = L"RL";
+			this->label70->Text = L"RL(Ω)";
 			this->label70->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
 			// label71
@@ -2819,78 +2885,12 @@ private: System::Windows::Forms::Label^  label8;
 			this->label105->Text = L"实验结论";
 			this->label105->Click += gcnew System::EventHandler(this, &最大功率传输条件的测定实验内容::label105_Click);
 			// 
-			// label13
-			// 
-			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label13->ForeColor = System::Drawing::Color::Lime;
-			this->label13->Location = System::Drawing::Point(-7, 317);
-			this->label13->Name = L"label13";
-			this->label13->Size = System::Drawing::Size(145, 26);
-			this->label13->TabIndex = 370;
-			this->label13->Text = L"直流电流表2";
-			this->label13->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label14
-			// 
-			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label14->ForeColor = System::Drawing::Color::Lime;
-			this->label14->Location = System::Drawing::Point(-7, 418);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(145, 26);
-			this->label14->TabIndex = 369;
-			this->label14->Text = L"直流电压表3";
-			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label4
-			// 
-			this->label4->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label4->ForeColor = System::Drawing::Color::Lime;
-			this->label4->Location = System::Drawing::Point(-7, 580);
-			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(145, 26);
-			this->label4->TabIndex = 371;
-			this->label4->Text = L"直流电压表3";
-			this->label4->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label5
-			// 
-			this->label5->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label5->ForeColor = System::Drawing::Color::Lime;
-			this->label5->Location = System::Drawing::Point(-7, 598);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(145, 26);
-			this->label5->TabIndex = 378;
-			this->label5->Text = L"直流电压表3";
-			this->label5->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label6
-			// 
-			this->label6->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label6->ForeColor = System::Drawing::Color::Lime;
-			this->label6->Location = System::Drawing::Point(-7, 315);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(145, 26);
-			this->label6->TabIndex = 377;
-			this->label6->Text = L"直流电流表2";
-			this->label6->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label8
-			// 
-			this->label8->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label8->ForeColor = System::Drawing::Color::Lime;
-			this->label8->Location = System::Drawing::Point(-7, 416);
-			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(145, 26);
-			this->label8->TabIndex = 376;
-			this->label8->Text = L"直流电压表3";
-			this->label8->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
 			// 最大功率传输条件的测定实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1791, 741);
+			this->ClientSize = System::Drawing::Size(1812, 741);
 			this->Controls->Add(this->textBox结论);
 			this->Controls->Add(this->label105);
 			this->Controls->Add(this->label106);
@@ -2900,6 +2900,7 @@ private: System::Windows::Forms::Label^  label8;
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"最大功率传输条件的测定实验内容";
 			this->Text = L"最大功率传输条件的测定实验内容";
+			this->Load += gcnew System::EventHandler(this, &最大功率传输条件的测定实验内容::最大功率传输条件的测定实验内容_Load);
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
@@ -2990,31 +2991,31 @@ private: System::Void button29_Click(System::Object^  sender, System::EventArgs^
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
 
-	textBoxtrial1_Po8->Text = global::GetU30_U400VData();
+	labelTrial1_Uo8->Text = global::GetU30_U400VData();
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po1->Text = global::GetU30_U400VData();
+	labelTrial1_Uo1->Text = global::GetU30_U400VData();
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po2->Text = global::GetU30_U400VData();
+	labelTrial1_Uo2->Text = global::GetU30_U400VData();
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po3->Text = global::GetU30_U400VData();
+	labelTrial1_Uo3->Text = global::GetU30_U400VData();
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po4->Text = global::GetU30_U400VData();
+	labelTrial1_Uo4->Text = global::GetU30_U400VData();
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po5->Text = global::GetU30_U400VData();
+	labelTrial1_Uo5->Text = global::GetU30_U400VData();
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po6->Text = global::GetU30_U400VData();
+	labelTrial1_Uo6->Text = global::GetU30_U400VData();
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po7->Text = global::GetU30_U400VData();
+	labelTrial1_Uo7->Text = global::GetU30_U400VData();
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
-	textBoxtrial1_Po9->Text = global::GetU30_U400VData();
+	labelTrial1_Uo9->Text = global::GetU30_U400VData();
 }
 private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
 	labeltrial2_I1->Text = global::GetI500Data();
@@ -3090,6 +3091,8 @@ private: System::Void button30_Click(System::Object^  sender, System::EventArgs^
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial2_Uo9->Text = global::GetU30_U400VData();
+}
+private: System::Void 最大功率传输条件的测定实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

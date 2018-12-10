@@ -76,35 +76,42 @@ void 主窗体::SelectWindows(int index) {
 	case 25: open功率因数及相序的测量实验目的(); break;
 	}
 }
-
+#include "实验汇总头文件.h"
 
 
 
 void 主窗体::CloseAllMidchild() {
-	panel4->Controls->Clear();
-	for each(Form^ f in MdiChildren)
-	{
-		f->Close();
-	}
+	//for each(Control^ f in this->panel4->Controls)
+	//{
+	//	if (f->Name == "戴维南定理实验内容")
+	//	{
+	//		戴维南定理实验内容^ 戴维南定理实验内容Wnd = (戴维南定理实验内容^)f;
+	//		戴维南定理实验内容Wnd->Close();
+	//	}
+	//}
+	//panel4->Controls->Clear();
+	//for each(Form^ f in MdiChildren)
+	//{
+	//	f->Close();
+	//}
 }
 
-bool 主窗体::GetWindowsChild(String ^FormName) {
-	for each(Form^ f in MdiChildren)
-	{
-		if (f->Name == FormName)
-		{
-			return true;
-		}
-	}
+Control^ 主窗体::GetWindowsChild(String ^FormName) {
+	//for each(Form^ f in MdiChildren)
+	//{
+	//	if (f->Name == FormName)
+	//	{
+	//		return true;
+	//	}
+	//}
 	for each(Control^ f in this->panel4->Controls)
 	{
 		if (f->Name == FormName)
 		{
-			return true;
+			return f;
 		}
 	}
-
-	return false;
+	return nullptr;
 }
 
 

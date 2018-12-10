@@ -86,7 +86,8 @@ namespace 电工电路试验台 {
 		/********波形控制********/
 		bool SetWaveForm(int WaveType);
 		bool SetFrequency(int f);
-
+		/*******获取力控数据包***/
+		bool GetMeterData(uint Id, S_PLCRecv &data);  //Id 是监控的编号 0-255
 	};
 
 }

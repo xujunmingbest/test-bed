@@ -126,6 +126,7 @@ string SerialControl::RecvNoCrc(int len)
 			char *pinp = (char *)c;
 			out += string(pinp, recvlen);
 			actrecvlen += recvlen;
+			//cout << "actrecvlen" << actrecvlen << endl;
 			if (recvlen <= 0) {
 				MessageBox::Show("串口退出");
 				throw "串口退出";
@@ -217,7 +218,8 @@ uint crc16(uchar *buf, uchar len)			//校验函数 高位在前，低位在后
 
 bool SerialHandle::SerialHandleInit()
 {
-	return sc->serialPortOpen(gcnew String(configXml.SerialHandle.c_str()) );
+	//return sc->serialPortOpen(gcnew String(configXml.SerialHandle.c_str()) );
+	return true;
 }
 
 bool SerialControlSource::SerialHandleInit()
@@ -424,4 +426,34 @@ bool SerialControlSource::SetFrequency(int f) {
 	snprintf(buff, 10,"%09d", f);
 	
 	return sc->SendNoCrc(string("bf")+ buff + "\r");
+}
+
+bool SerialControlSource::GetMeterData(uint Id, S_PLCRecv &data)  //Id 是监控的编号
+{
+	memset(&data, 0x00, sizeof(S_PLCRecv));
+	char buff[3];
+	buff[0] = 0xAD;
+	buff[1] = Id & 0xff;
+	buff[2] = 0x01;
+	buff[3] = 0xDA;
+	string sendBuff(buff,4);
+	if (!sc->SendNoCrc(sendBuff)) return false;
+	string RecvData = sc->RecvNoCrc(15);
+	if (RecvData.length() == 0) return false;
+	if( buff[1] != RecvData.c_str()[1] ) return false;
+	if (buff[0] != RecvData.c_str()[0]) return false;
+	if (buff[3] != RecvData.c_str()[14]) return false;
+
+	data.MId = RecvData[1];
+	data.HeaderId = RecvData[2];
+
+	data.U = TwoByteTouInt(&RecvData[3]);
+	data.I = TwoByteTouInt(&RecvData[5]);
+	data.P = TwoByteTouInt(&RecvData[7]);
+	data.COS = TwoByteTouInt(&RecvData[9]);
+	data.Fhz = TwoByteTouInt(&RecvData[11]);
+	data.DCsymbol = RecvData[13];
+	data.Usymbol = data.DCsymbol >> 4;
+	data.Isymbol = data.DCsymbol & 0x01;
+	return true;
 }

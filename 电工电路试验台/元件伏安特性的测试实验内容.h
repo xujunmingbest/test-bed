@@ -1,8 +1,6 @@
 ﻿#pragma once
-#include "元件伏安特性的测试.h"
 #include "data_transf.h"
 #include "tool/tool.h"
-using namespace  N_元件伏安特性的测试;
 namespace 电工电路试验台 {
 
 	using namespace System;
@@ -117,25 +115,25 @@ private: System::Windows::Forms::Label^  label白炽U4;
 private: System::Windows::Forms::Label^  label白炽U3;
 private: System::Windows::Forms::Label^  label白炽U2;
 private: System::Windows::Forms::Label^  label白炽U1;
-private: System::Windows::Forms::Button^  button51;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU10;
-private: System::Windows::Forms::Button^  button52;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU9;
-private: System::Windows::Forms::Button^  button53;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU8;
-private: System::Windows::Forms::Button^  button54;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU7;
-private: System::Windows::Forms::Button^  button55;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU6;
-private: System::Windows::Forms::Button^  button56;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU5;
-private: System::Windows::Forms::Button^  button57;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU4;
-private: System::Windows::Forms::Button^  button58;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU3;
-private: System::Windows::Forms::Button^  button59;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU2;
-private: System::Windows::Forms::Button^  button60;
+
 private: System::Windows::Forms::TextBox^  textBox白炽SU1;
 private: System::Windows::Forms::Label^  label48;
 private: System::Windows::Forms::Label^  label49;
@@ -191,25 +189,25 @@ private: System::Windows::Forms::Label^  label线性I4;
 private: System::Windows::Forms::Label^  label线性I3;
 private: System::Windows::Forms::Label^  label线性I2;
 private: System::Windows::Forms::Label^  label线性I1;
-private: System::Windows::Forms::Button^  button10;
+
 private: System::Windows::Forms::TextBox^  textBoxSU10;
-private: System::Windows::Forms::Button^  button9;
+
 private: System::Windows::Forms::TextBox^  textBoxSU9;
-private: System::Windows::Forms::Button^  button8;
+
 private: System::Windows::Forms::TextBox^  textBoxSU8;
-private: System::Windows::Forms::Button^  button7;
+
 private: System::Windows::Forms::TextBox^  textBoxSU7;
-private: System::Windows::Forms::Button^  button6;
+
 private: System::Windows::Forms::TextBox^  textBoxSU6;
-private: System::Windows::Forms::Button^  button5;
+
 private: System::Windows::Forms::TextBox^  textBoxSU5;
-private: System::Windows::Forms::Button^  button4;
+
 private: System::Windows::Forms::TextBox^  textBoxSU4;
-private: System::Windows::Forms::Button^  button3;
+
 private: System::Windows::Forms::TextBox^  textBoxSU3;
-private: System::Windows::Forms::Button^  button2;
+
 private: System::Windows::Forms::TextBox^  textBoxSU2;
-private: System::Windows::Forms::Button^  button1;
+
 private: System::Windows::Forms::TextBox^  textBoxSU1;
 private: System::Windows::Forms::Label^  label40;
 private: System::Windows::Forms::Label^  label41;
@@ -261,25 +259,25 @@ private: System::Windows::Forms::Label^  label锗管ZU4;
 private: System::Windows::Forms::Label^  label锗管ZU3;
 private: System::Windows::Forms::Label^  label锗管ZU2;
 private: System::Windows::Forms::Label^  label锗管ZU1;
-private: System::Windows::Forms::Button^  button81;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU10;
-private: System::Windows::Forms::Button^  button82;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU9;
-private: System::Windows::Forms::Button^  button83;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU8;
-private: System::Windows::Forms::Button^  button84;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU7;
-private: System::Windows::Forms::Button^  button85;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU6;
-private: System::Windows::Forms::Button^  button86;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU5;
-private: System::Windows::Forms::Button^  button87;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU4;
-private: System::Windows::Forms::Button^  button88;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU3;
-private: System::Windows::Forms::Button^  button89;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU2;
-private: System::Windows::Forms::Button^  button90;
+
 private: System::Windows::Forms::TextBox^  textBox锗管ZSU1;
 private: System::Windows::Forms::Label^  label58;
 private: System::Windows::Forms::Label^  label59;
@@ -328,25 +326,25 @@ private: System::Windows::Forms::Label^  label锗管FU4;
 private: System::Windows::Forms::Label^  label锗管FU3;
 private: System::Windows::Forms::Label^  label锗管FU2;
 private: System::Windows::Forms::Label^  label锗管FU1;
-private: System::Windows::Forms::Button^  button111;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU10;
-private: System::Windows::Forms::Button^  button112;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU9;
-private: System::Windows::Forms::Button^  button113;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU8;
-private: System::Windows::Forms::Button^  button114;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU7;
-private: System::Windows::Forms::Button^  button115;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU6;
-private: System::Windows::Forms::Button^  button116;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU5;
-private: System::Windows::Forms::Button^  button117;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU4;
-private: System::Windows::Forms::Button^  button118;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU3;
-private: System::Windows::Forms::Button^  button119;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU2;
-private: System::Windows::Forms::Button^  button120;
+
 private: System::Windows::Forms::TextBox^  textBox锗管FSU1;
 private: System::Windows::Forms::Label^  label55;
 private: System::Windows::Forms::Label^  label56;
@@ -401,25 +399,25 @@ private: System::Windows::Forms::Label^  label1硅管FU4;
 private: System::Windows::Forms::Label^  label1硅管FU3;
 private: System::Windows::Forms::Label^  label1硅管FU2;
 private: System::Windows::Forms::Label^  label1硅管FU1;
-private: System::Windows::Forms::Button^  button11;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU10;
-private: System::Windows::Forms::Button^  button12;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU9;
-private: System::Windows::Forms::Button^  button13;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU8;
-private: System::Windows::Forms::Button^  button14;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU7;
-private: System::Windows::Forms::Button^  button15;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU6;
-private: System::Windows::Forms::Button^  button16;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU5;
-private: System::Windows::Forms::Button^  button17;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU4;
-private: System::Windows::Forms::Button^  button18;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU3;
-private: System::Windows::Forms::Button^  button19;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU2;
-private: System::Windows::Forms::Button^  button20;
+
 private: System::Windows::Forms::TextBox^  textBox硅管FSU1;
 private: System::Windows::Forms::Label^  label178;
 private: System::Windows::Forms::Label^  label179;
@@ -465,25 +463,25 @@ private: System::Windows::Forms::Label^  label硅管ZU4;
 private: System::Windows::Forms::Label^  label硅管ZU3;
 private: System::Windows::Forms::Label^  label硅管ZU2;
 private: System::Windows::Forms::Label^  label硅管ZU1;
-private: System::Windows::Forms::Button^  button21;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU10;
-private: System::Windows::Forms::Button^  button22;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU9;
-private: System::Windows::Forms::Button^  button23;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU8;
-private: System::Windows::Forms::Button^  button24;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU7;
-private: System::Windows::Forms::Button^  button25;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU6;
-private: System::Windows::Forms::Button^  button26;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU5;
-private: System::Windows::Forms::Button^  button27;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU4;
-private: System::Windows::Forms::Button^  button28;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU3;
-private: System::Windows::Forms::Button^  button29;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU2;
-private: System::Windows::Forms::Button^  button30;
+
 private: System::Windows::Forms::TextBox^  textBox硅管ZSU1;
 private: System::Windows::Forms::Label^  label201;
 private: System::Windows::Forms::Label^  label202;
@@ -538,25 +536,25 @@ private: System::Windows::Forms::Label^  label稳压ZU4;
 private: System::Windows::Forms::Label^  label稳压ZU3;
 private: System::Windows::Forms::Label^  label稳压ZU2;
 private: System::Windows::Forms::Label^  label稳压ZU1;
-private: System::Windows::Forms::Button^  button171;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU10;
-private: System::Windows::Forms::Button^  button172;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU9;
-private: System::Windows::Forms::Button^  button173;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU8;
-private: System::Windows::Forms::Button^  button174;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU7;
-private: System::Windows::Forms::Button^  button175;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU6;
-private: System::Windows::Forms::Button^  button176;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU5;
-private: System::Windows::Forms::Button^  button177;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU4;
-private: System::Windows::Forms::Button^  button178;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU3;
-private: System::Windows::Forms::Button^  button179;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU2;
-private: System::Windows::Forms::Button^  button180;
+
 private: System::Windows::Forms::TextBox^  textBox稳压ZSU1;
 private: System::Windows::Forms::Label^  label68;
 private: System::Windows::Forms::Label^  label69;
@@ -603,25 +601,25 @@ private: System::Windows::Forms::Label^  label稳压FU4;
 private: System::Windows::Forms::Label^  label稳压FU3;
 private: System::Windows::Forms::Label^  label稳压FU2;
 private: System::Windows::Forms::Label^  label稳压FU1;
-private: System::Windows::Forms::Button^  button141;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU10;
-private: System::Windows::Forms::Button^  button142;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU9;
-private: System::Windows::Forms::Button^  button143;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU8;
-private: System::Windows::Forms::Button^  button144;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU7;
-private: System::Windows::Forms::Button^  button145;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU6;
-private: System::Windows::Forms::Button^  button146;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU5;
-private: System::Windows::Forms::Button^  button147;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU4;
-private: System::Windows::Forms::Button^  button148;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU3;
-private: System::Windows::Forms::Button^  button149;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU2;
-private: System::Windows::Forms::Button^  button150;
+
 private: System::Windows::Forms::TextBox^  textBox稳压FSU1;
 private: System::Windows::Forms::Label^  label65;
 private: System::Windows::Forms::Label^  label66;
@@ -649,22 +647,22 @@ private: System::Windows::Forms::Label^  label6;
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea6 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(元件伏安特性的测试实验内容::typeid));
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea7 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend7 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series7 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea8 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend8 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series8 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea9 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend9 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series9 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea10 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^  legend10 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^  series10 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea4 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^  chartArea5 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^  legend5 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^  series5 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
 			this->button246 = (gcnew System::Windows::Forms::Button());
 			this->label6 = (gcnew System::Windows::Forms::Label());
@@ -721,25 +719,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label稳压ZU3 = (gcnew System::Windows::Forms::Label());
 			this->label稳压ZU2 = (gcnew System::Windows::Forms::Label());
 			this->label稳压ZU1 = (gcnew System::Windows::Forms::Label());
-			this->button171 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button172 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button173 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button174 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button175 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button176 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button177 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button178 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button179 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button180 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压ZSU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label68 = (gcnew System::Windows::Forms::Label());
 			this->label69 = (gcnew System::Windows::Forms::Label());
@@ -788,25 +776,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label稳压FU3 = (gcnew System::Windows::Forms::Label());
 			this->label稳压FU2 = (gcnew System::Windows::Forms::Label());
 			this->label稳压FU1 = (gcnew System::Windows::Forms::Label());
-			this->button141 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button142 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button143 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button144 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button145 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button146 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button147 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button148 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button149 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button150 = (gcnew System::Windows::Forms::Button());
 			this->textBox稳压FSU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label65 = (gcnew System::Windows::Forms::Label());
 			this->label66 = (gcnew System::Windows::Forms::Label());
@@ -864,25 +842,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label1硅管FU3 = (gcnew System::Windows::Forms::Label());
 			this->label1硅管FU2 = (gcnew System::Windows::Forms::Label());
 			this->label1硅管FU1 = (gcnew System::Windows::Forms::Label());
-			this->button11 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button12 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button13 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button14 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button15 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button16 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button17 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button18 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button19 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button20 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管FSU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label178 = (gcnew System::Windows::Forms::Label());
 			this->label179 = (gcnew System::Windows::Forms::Label());
@@ -931,25 +899,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label硅管ZU3 = (gcnew System::Windows::Forms::Label());
 			this->label硅管ZU2 = (gcnew System::Windows::Forms::Label());
 			this->label硅管ZU1 = (gcnew System::Windows::Forms::Label());
-			this->button21 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button22 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button23 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button24 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button25 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button26 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button27 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button28 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button29 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button30 = (gcnew System::Windows::Forms::Button());
 			this->textBox硅管ZSU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label201 = (gcnew System::Windows::Forms::Label());
 			this->label202 = (gcnew System::Windows::Forms::Label());
@@ -998,25 +956,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label锗管ZU3 = (gcnew System::Windows::Forms::Label());
 			this->label锗管ZU2 = (gcnew System::Windows::Forms::Label());
 			this->label锗管ZU1 = (gcnew System::Windows::Forms::Label());
-			this->button81 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button82 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button83 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button84 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button85 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button86 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button87 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button88 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button89 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button90 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管ZSU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label58 = (gcnew System::Windows::Forms::Label());
 			this->label59 = (gcnew System::Windows::Forms::Label());
@@ -1071,25 +1019,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label锗管FU3 = (gcnew System::Windows::Forms::Label());
 			this->label锗管FU2 = (gcnew System::Windows::Forms::Label());
 			this->label锗管FU1 = (gcnew System::Windows::Forms::Label());
-			this->button111 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button112 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button113 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button114 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button115 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button116 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button117 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button118 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button119 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button120 = (gcnew System::Windows::Forms::Button());
 			this->textBox锗管FSU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label55 = (gcnew System::Windows::Forms::Label());
 			this->label56 = (gcnew System::Windows::Forms::Label());
@@ -1141,25 +1079,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label线性I3 = (gcnew System::Windows::Forms::Label());
 			this->label线性I2 = (gcnew System::Windows::Forms::Label());
 			this->label线性I1 = (gcnew System::Windows::Forms::Label());
-			this->button10 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button9 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button8 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button7 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button6 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button5 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->textBoxSU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label40 = (gcnew System::Windows::Forms::Label());
 			this->label41 = (gcnew System::Windows::Forms::Label());
@@ -1217,25 +1145,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->label白炽U3 = (gcnew System::Windows::Forms::Label());
 			this->label白炽U2 = (gcnew System::Windows::Forms::Label());
 			this->label白炽U1 = (gcnew System::Windows::Forms::Label());
-			this->button51 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU10 = (gcnew System::Windows::Forms::TextBox());
-			this->button52 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU9 = (gcnew System::Windows::Forms::TextBox());
-			this->button53 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU8 = (gcnew System::Windows::Forms::TextBox());
-			this->button54 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU7 = (gcnew System::Windows::Forms::TextBox());
-			this->button55 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU6 = (gcnew System::Windows::Forms::TextBox());
-			this->button56 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU5 = (gcnew System::Windows::Forms::TextBox());
-			this->button57 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU4 = (gcnew System::Windows::Forms::TextBox());
-			this->button58 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU3 = (gcnew System::Windows::Forms::TextBox());
-			this->button59 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU2 = (gcnew System::Windows::Forms::TextBox());
-			this->button60 = (gcnew System::Windows::Forms::Button());
 			this->textBox白炽SU1 = (gcnew System::Windows::Forms::TextBox());
 			this->label48 = (gcnew System::Windows::Forms::Label());
 			this->label49 = (gcnew System::Windows::Forms::Label());
@@ -1359,17 +1277,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart稳压
 			// 
-			chartArea6->Name = L"ChartArea1";
-			this->chart稳压->ChartAreas->Add(chartArea6);
-			legend6->Name = L"Legend1";
-			this->chart稳压->Legends->Add(legend6);
+			chartArea1->Name = L"ChartArea1";
+			this->chart稳压->ChartAreas->Add(chartArea1);
+			legend1->Name = L"Legend1";
+			this->chart稳压->Legends->Add(legend1);
 			this->chart稳压->Location = System::Drawing::Point(945, 3785);
 			this->chart稳压->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart稳压->Name = L"chart稳压";
-			series6->ChartArea = L"ChartArea1";
-			series6->Legend = L"Legend1";
-			series6->Name = L"Series1";
-			this->chart稳压->Series->Add(series6);
+			series1->ChartArea = L"ChartArea1";
+			series1->Legend = L"Legend1";
+			series1->Name = L"Series1";
+			this->chart稳压->Series->Add(series1);
 			this->chart稳压->Size = System::Drawing::Size(592, 542);
 			this->chart稳压->TabIndex = 109;
 			this->chart稳压->Text = L"chart5";
@@ -1511,25 +1429,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox14->Controls->Add(this->label稳压ZU3);
 			this->groupBox14->Controls->Add(this->label稳压ZU2);
 			this->groupBox14->Controls->Add(this->label稳压ZU1);
-			this->groupBox14->Controls->Add(this->button171);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU10);
-			this->groupBox14->Controls->Add(this->button172);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU9);
-			this->groupBox14->Controls->Add(this->button173);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU8);
-			this->groupBox14->Controls->Add(this->button174);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU7);
-			this->groupBox14->Controls->Add(this->button175);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU6);
-			this->groupBox14->Controls->Add(this->button176);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU5);
-			this->groupBox14->Controls->Add(this->button177);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU4);
-			this->groupBox14->Controls->Add(this->button178);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU3);
-			this->groupBox14->Controls->Add(this->button179);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU2);
-			this->groupBox14->Controls->Add(this->button180);
 			this->groupBox14->Controls->Add(this->textBox稳压ZSU1);
 			this->groupBox14->Controls->Add(this->label68);
 			this->groupBox14->Controls->Add(this->label69);
@@ -1963,17 +1871,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label稳压ZU1->TabIndex = 38;
 			this->label稳压ZU1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button171
-			// 
-			this->button171->Location = System::Drawing::Point(817, 72);
-			this->button171->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button171->Name = L"button171";
-			this->button171->Size = System::Drawing::Size(61, 34);
-			this->button171->TabIndex = 27;
-			this->button171->Text = L"设置";
-			this->button171->UseVisualStyleBackColor = true;
-			this->button171->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button171_Click);
-			// 
 			// textBox稳压ZSU10
 			// 
 			this->textBox稳压ZSU10->Location = System::Drawing::Point(817, 38);
@@ -1981,17 +1878,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU10->Name = L"textBox稳压ZSU10";
 			this->textBox稳压ZSU10->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU10->TabIndex = 26;
-			// 
-			// button172
-			// 
-			this->button172->Location = System::Drawing::Point(749, 72);
-			this->button172->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button172->Name = L"button172";
-			this->button172->Size = System::Drawing::Size(61, 34);
-			this->button172->TabIndex = 25;
-			this->button172->Text = L"设置";
-			this->button172->UseVisualStyleBackColor = true;
-			this->button172->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button172_Click);
 			// 
 			// textBox稳压ZSU9
 			// 
@@ -2001,17 +1887,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU9->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU9->TabIndex = 24;
 			// 
-			// button173
-			// 
-			this->button173->Location = System::Drawing::Point(681, 72);
-			this->button173->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button173->Name = L"button173";
-			this->button173->Size = System::Drawing::Size(61, 34);
-			this->button173->TabIndex = 23;
-			this->button173->Text = L"设置";
-			this->button173->UseVisualStyleBackColor = true;
-			this->button173->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button173_Click);
-			// 
 			// textBox稳压ZSU8
 			// 
 			this->textBox稳压ZSU8->Location = System::Drawing::Point(681, 38);
@@ -2019,17 +1894,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU8->Name = L"textBox稳压ZSU8";
 			this->textBox稳压ZSU8->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU8->TabIndex = 22;
-			// 
-			// button174
-			// 
-			this->button174->Location = System::Drawing::Point(613, 72);
-			this->button174->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button174->Name = L"button174";
-			this->button174->Size = System::Drawing::Size(61, 34);
-			this->button174->TabIndex = 21;
-			this->button174->Text = L"设置";
-			this->button174->UseVisualStyleBackColor = true;
-			this->button174->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button174_Click);
 			// 
 			// textBox稳压ZSU7
 			// 
@@ -2039,17 +1903,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU7->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU7->TabIndex = 20;
 			// 
-			// button175
-			// 
-			this->button175->Location = System::Drawing::Point(545, 72);
-			this->button175->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button175->Name = L"button175";
-			this->button175->Size = System::Drawing::Size(61, 34);
-			this->button175->TabIndex = 19;
-			this->button175->Text = L"设置";
-			this->button175->UseVisualStyleBackColor = true;
-			this->button175->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button175_Click);
-			// 
 			// textBox稳压ZSU6
 			// 
 			this->textBox稳压ZSU6->Location = System::Drawing::Point(545, 38);
@@ -2057,17 +1910,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU6->Name = L"textBox稳压ZSU6";
 			this->textBox稳压ZSU6->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU6->TabIndex = 18;
-			// 
-			// button176
-			// 
-			this->button176->Location = System::Drawing::Point(477, 72);
-			this->button176->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button176->Name = L"button176";
-			this->button176->Size = System::Drawing::Size(61, 34);
-			this->button176->TabIndex = 17;
-			this->button176->Text = L"设置";
-			this->button176->UseVisualStyleBackColor = true;
-			this->button176->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button176_Click);
 			// 
 			// textBox稳压ZSU5
 			// 
@@ -2077,17 +1919,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU5->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU5->TabIndex = 16;
 			// 
-			// button177
-			// 
-			this->button177->Location = System::Drawing::Point(409, 72);
-			this->button177->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button177->Name = L"button177";
-			this->button177->Size = System::Drawing::Size(61, 34);
-			this->button177->TabIndex = 15;
-			this->button177->Text = L"设置";
-			this->button177->UseVisualStyleBackColor = true;
-			this->button177->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button177_Click);
-			// 
 			// textBox稳压ZSU4
 			// 
 			this->textBox稳压ZSU4->Location = System::Drawing::Point(409, 38);
@@ -2095,17 +1926,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU4->Name = L"textBox稳压ZSU4";
 			this->textBox稳压ZSU4->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU4->TabIndex = 14;
-			// 
-			// button178
-			// 
-			this->button178->Location = System::Drawing::Point(341, 72);
-			this->button178->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button178->Name = L"button178";
-			this->button178->Size = System::Drawing::Size(61, 34);
-			this->button178->TabIndex = 13;
-			this->button178->Text = L"设置";
-			this->button178->UseVisualStyleBackColor = true;
-			this->button178->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button178_Click);
 			// 
 			// textBox稳压ZSU3
 			// 
@@ -2115,17 +1935,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU3->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU3->TabIndex = 12;
 			// 
-			// button179
-			// 
-			this->button179->Location = System::Drawing::Point(273, 72);
-			this->button179->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button179->Name = L"button179";
-			this->button179->Size = System::Drawing::Size(61, 34);
-			this->button179->TabIndex = 11;
-			this->button179->Text = L"设置";
-			this->button179->UseVisualStyleBackColor = true;
-			this->button179->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button179_Click);
-			// 
 			// textBox稳压ZSU2
 			// 
 			this->textBox稳压ZSU2->Location = System::Drawing::Point(273, 38);
@@ -2133,17 +1942,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压ZSU2->Name = L"textBox稳压ZSU2";
 			this->textBox稳压ZSU2->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压ZSU2->TabIndex = 10;
-			// 
-			// button180
-			// 
-			this->button180->Location = System::Drawing::Point(207, 72);
-			this->button180->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button180->Name = L"button180";
-			this->button180->Size = System::Drawing::Size(61, 34);
-			this->button180->TabIndex = 9;
-			this->button180->Text = L"设置";
-			this->button180->UseVisualStyleBackColor = true;
-			this->button180->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button180_Click);
 			// 
 			// textBox稳压ZSU1
 			// 
@@ -2225,25 +2023,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox6->Controls->Add(this->label稳压FU3);
 			this->groupBox6->Controls->Add(this->label稳压FU2);
 			this->groupBox6->Controls->Add(this->label稳压FU1);
-			this->groupBox6->Controls->Add(this->button141);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU10);
-			this->groupBox6->Controls->Add(this->button142);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU9);
-			this->groupBox6->Controls->Add(this->button143);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU8);
-			this->groupBox6->Controls->Add(this->button144);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU7);
-			this->groupBox6->Controls->Add(this->button145);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU6);
-			this->groupBox6->Controls->Add(this->button146);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU5);
-			this->groupBox6->Controls->Add(this->button147);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU4);
-			this->groupBox6->Controls->Add(this->button148);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU3);
-			this->groupBox6->Controls->Add(this->button149);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU2);
-			this->groupBox6->Controls->Add(this->button150);
 			this->groupBox6->Controls->Add(this->textBox稳压FSU1);
 			this->groupBox6->Controls->Add(this->label65);
 			this->groupBox6->Controls->Add(this->label66);
@@ -2688,17 +2476,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label稳压FU1->TabIndex = 38;
 			this->label稳压FU1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button141
-			// 
-			this->button141->Location = System::Drawing::Point(815, 72);
-			this->button141->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button141->Name = L"button141";
-			this->button141->Size = System::Drawing::Size(61, 34);
-			this->button141->TabIndex = 27;
-			this->button141->Text = L"设置";
-			this->button141->UseVisualStyleBackColor = true;
-			this->button141->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button141_Click);
-			// 
 			// textBox稳压FSU10
 			// 
 			this->textBox稳压FSU10->Location = System::Drawing::Point(815, 38);
@@ -2706,17 +2483,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU10->Name = L"textBox稳压FSU10";
 			this->textBox稳压FSU10->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU10->TabIndex = 26;
-			// 
-			// button142
-			// 
-			this->button142->Location = System::Drawing::Point(747, 72);
-			this->button142->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button142->Name = L"button142";
-			this->button142->Size = System::Drawing::Size(61, 34);
-			this->button142->TabIndex = 25;
-			this->button142->Text = L"设置";
-			this->button142->UseVisualStyleBackColor = true;
-			this->button142->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button142_Click);
 			// 
 			// textBox稳压FSU9
 			// 
@@ -2726,17 +2492,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU9->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU9->TabIndex = 24;
 			// 
-			// button143
-			// 
-			this->button143->Location = System::Drawing::Point(679, 72);
-			this->button143->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button143->Name = L"button143";
-			this->button143->Size = System::Drawing::Size(61, 34);
-			this->button143->TabIndex = 23;
-			this->button143->Text = L"设置";
-			this->button143->UseVisualStyleBackColor = true;
-			this->button143->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button143_Click);
-			// 
 			// textBox稳压FSU8
 			// 
 			this->textBox稳压FSU8->Location = System::Drawing::Point(679, 38);
@@ -2744,17 +2499,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU8->Name = L"textBox稳压FSU8";
 			this->textBox稳压FSU8->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU8->TabIndex = 22;
-			// 
-			// button144
-			// 
-			this->button144->Location = System::Drawing::Point(611, 72);
-			this->button144->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button144->Name = L"button144";
-			this->button144->Size = System::Drawing::Size(61, 34);
-			this->button144->TabIndex = 21;
-			this->button144->Text = L"设置";
-			this->button144->UseVisualStyleBackColor = true;
-			this->button144->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button144_Click);
 			// 
 			// textBox稳压FSU7
 			// 
@@ -2764,17 +2508,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU7->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU7->TabIndex = 20;
 			// 
-			// button145
-			// 
-			this->button145->Location = System::Drawing::Point(543, 72);
-			this->button145->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button145->Name = L"button145";
-			this->button145->Size = System::Drawing::Size(61, 34);
-			this->button145->TabIndex = 19;
-			this->button145->Text = L"设置";
-			this->button145->UseVisualStyleBackColor = true;
-			this->button145->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button145_Click);
-			// 
 			// textBox稳压FSU6
 			// 
 			this->textBox稳压FSU6->Location = System::Drawing::Point(543, 38);
@@ -2782,17 +2515,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU6->Name = L"textBox稳压FSU6";
 			this->textBox稳压FSU6->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU6->TabIndex = 18;
-			// 
-			// button146
-			// 
-			this->button146->Location = System::Drawing::Point(475, 72);
-			this->button146->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button146->Name = L"button146";
-			this->button146->Size = System::Drawing::Size(61, 34);
-			this->button146->TabIndex = 17;
-			this->button146->Text = L"设置";
-			this->button146->UseVisualStyleBackColor = true;
-			this->button146->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button146_Click);
 			// 
 			// textBox稳压FSU5
 			// 
@@ -2802,17 +2524,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU5->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU5->TabIndex = 16;
 			// 
-			// button147
-			// 
-			this->button147->Location = System::Drawing::Point(407, 72);
-			this->button147->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button147->Name = L"button147";
-			this->button147->Size = System::Drawing::Size(61, 34);
-			this->button147->TabIndex = 15;
-			this->button147->Text = L"设置";
-			this->button147->UseVisualStyleBackColor = true;
-			this->button147->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button147_Click);
-			// 
 			// textBox稳压FSU4
 			// 
 			this->textBox稳压FSU4->Location = System::Drawing::Point(407, 38);
@@ -2820,17 +2531,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU4->Name = L"textBox稳压FSU4";
 			this->textBox稳压FSU4->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU4->TabIndex = 14;
-			// 
-			// button148
-			// 
-			this->button148->Location = System::Drawing::Point(339, 72);
-			this->button148->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button148->Name = L"button148";
-			this->button148->Size = System::Drawing::Size(61, 34);
-			this->button148->TabIndex = 13;
-			this->button148->Text = L"设置";
-			this->button148->UseVisualStyleBackColor = true;
-			this->button148->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button148_Click);
 			// 
 			// textBox稳压FSU3
 			// 
@@ -2840,17 +2540,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU3->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU3->TabIndex = 12;
 			// 
-			// button149
-			// 
-			this->button149->Location = System::Drawing::Point(271, 72);
-			this->button149->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button149->Name = L"button149";
-			this->button149->Size = System::Drawing::Size(61, 34);
-			this->button149->TabIndex = 11;
-			this->button149->Text = L"设置";
-			this->button149->UseVisualStyleBackColor = true;
-			this->button149->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button149_Click);
-			// 
 			// textBox稳压FSU2
 			// 
 			this->textBox稳压FSU2->Location = System::Drawing::Point(271, 38);
@@ -2858,17 +2547,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox稳压FSU2->Name = L"textBox稳压FSU2";
 			this->textBox稳压FSU2->Size = System::Drawing::Size(63, 28);
 			this->textBox稳压FSU2->TabIndex = 10;
-			// 
-			// button150
-			// 
-			this->button150->Location = System::Drawing::Point(205, 72);
-			this->button150->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button150->Name = L"button150";
-			this->button150->Size = System::Drawing::Size(61, 34);
-			this->button150->TabIndex = 9;
-			this->button150->Text = L"设置";
-			this->button150->UseVisualStyleBackColor = true;
-			this->button150->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button150_Click);
 			// 
 			// textBox稳压FSU1
 			// 
@@ -2919,17 +2597,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart硅管
 			// 
-			chartArea7->Name = L"ChartArea1";
-			this->chart硅管->ChartAreas->Add(chartArea7);
-			legend7->Name = L"Legend1";
-			this->chart硅管->Legends->Add(legend7);
+			chartArea2->Name = L"ChartArea1";
+			this->chart硅管->ChartAreas->Add(chartArea2);
+			legend2->Name = L"Legend1";
+			this->chart硅管->Legends->Add(legend2);
 			this->chart硅管->Location = System::Drawing::Point(907, 2832);
 			this->chart硅管->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart硅管->Name = L"chart硅管";
-			series7->ChartArea = L"ChartArea1";
-			series7->Legend = L"Legend1";
-			series7->Name = L"Series1";
-			this->chart硅管->Series->Add(series7);
+			series2->ChartArea = L"ChartArea1";
+			series2->Legend = L"Legend1";
+			series2->Name = L"Series1";
+			this->chart硅管->Series->Add(series2);
 			this->chart硅管->Size = System::Drawing::Size(615, 546);
 			this->chart硅管->TabIndex = 99;
 			this->chart硅管->Text = L"chart4";
@@ -3058,25 +2736,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox12->Controls->Add(this->label1硅管FU3);
 			this->groupBox12->Controls->Add(this->label1硅管FU2);
 			this->groupBox12->Controls->Add(this->label1硅管FU1);
-			this->groupBox12->Controls->Add(this->button11);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU10);
-			this->groupBox12->Controls->Add(this->button12);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU9);
-			this->groupBox12->Controls->Add(this->button13);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU8);
-			this->groupBox12->Controls->Add(this->button14);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU7);
-			this->groupBox12->Controls->Add(this->button15);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU6);
-			this->groupBox12->Controls->Add(this->button16);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU5);
-			this->groupBox12->Controls->Add(this->button17);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU4);
-			this->groupBox12->Controls->Add(this->button18);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU3);
-			this->groupBox12->Controls->Add(this->button19);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU2);
-			this->groupBox12->Controls->Add(this->button20);
 			this->groupBox12->Controls->Add(this->textBox硅管FSU1);
 			this->groupBox12->Controls->Add(this->label178);
 			this->groupBox12->Controls->Add(this->label179);
@@ -3521,17 +3189,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label1硅管FU1->TabIndex = 38;
 			this->label1硅管FU1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button11
-			// 
-			this->button11->Location = System::Drawing::Point(805, 66);
-			this->button11->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(61, 34);
-			this->button11->TabIndex = 27;
-			this->button11->Text = L"设置";
-			this->button11->UseVisualStyleBackColor = true;
-			this->button11->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button11_Click);
-			// 
 			// textBox硅管FSU10
 			// 
 			this->textBox硅管FSU10->Location = System::Drawing::Point(809, 32);
@@ -3539,17 +3196,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU10->Name = L"textBox硅管FSU10";
 			this->textBox硅管FSU10->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU10->TabIndex = 26;
-			// 
-			// button12
-			// 
-			this->button12->Location = System::Drawing::Point(739, 66);
-			this->button12->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button12->Name = L"button12";
-			this->button12->Size = System::Drawing::Size(61, 34);
-			this->button12->TabIndex = 25;
-			this->button12->Text = L"设置";
-			this->button12->UseVisualStyleBackColor = true;
-			this->button12->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button12_Click);
 			// 
 			// textBox硅管FSU9
 			// 
@@ -3559,17 +3205,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU9->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU9->TabIndex = 24;
 			// 
-			// button13
-			// 
-			this->button13->Location = System::Drawing::Point(671, 66);
-			this->button13->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(61, 34);
-			this->button13->TabIndex = 23;
-			this->button13->Text = L"设置";
-			this->button13->UseVisualStyleBackColor = true;
-			this->button13->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button13_Click);
-			// 
 			// textBox硅管FSU8
 			// 
 			this->textBox硅管FSU8->Location = System::Drawing::Point(673, 32);
@@ -3577,17 +3212,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU8->Name = L"textBox硅管FSU8";
 			this->textBox硅管FSU8->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU8->TabIndex = 22;
-			// 
-			// button14
-			// 
-			this->button14->Location = System::Drawing::Point(607, 66);
-			this->button14->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(61, 34);
-			this->button14->TabIndex = 21;
-			this->button14->Text = L"设置";
-			this->button14->UseVisualStyleBackColor = true;
-			this->button14->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button14_Click);
 			// 
 			// textBox硅管FSU7
 			// 
@@ -3597,17 +3221,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU7->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU7->TabIndex = 20;
 			// 
-			// button15
-			// 
-			this->button15->Location = System::Drawing::Point(537, 66);
-			this->button15->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button15->Name = L"button15";
-			this->button15->Size = System::Drawing::Size(61, 34);
-			this->button15->TabIndex = 19;
-			this->button15->Text = L"设置";
-			this->button15->UseVisualStyleBackColor = true;
-			this->button15->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button15_Click);
-			// 
 			// textBox硅管FSU6
 			// 
 			this->textBox硅管FSU6->Location = System::Drawing::Point(537, 32);
@@ -3615,17 +3228,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU6->Name = L"textBox硅管FSU6";
 			this->textBox硅管FSU6->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU6->TabIndex = 18;
-			// 
-			// button16
-			// 
-			this->button16->Location = System::Drawing::Point(471, 66);
-			this->button16->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button16->Name = L"button16";
-			this->button16->Size = System::Drawing::Size(61, 34);
-			this->button16->TabIndex = 17;
-			this->button16->Text = L"设置";
-			this->button16->UseVisualStyleBackColor = true;
-			this->button16->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button16_Click);
 			// 
 			// textBox硅管FSU5
 			// 
@@ -3635,17 +3237,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU5->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU5->TabIndex = 16;
 			// 
-			// button17
-			// 
-			this->button17->Location = System::Drawing::Point(403, 66);
-			this->button17->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button17->Name = L"button17";
-			this->button17->Size = System::Drawing::Size(61, 34);
-			this->button17->TabIndex = 15;
-			this->button17->Text = L"设置";
-			this->button17->UseVisualStyleBackColor = true;
-			this->button17->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button17_Click);
-			// 
 			// textBox硅管FSU4
 			// 
 			this->textBox硅管FSU4->Location = System::Drawing::Point(401, 32);
@@ -3653,17 +3244,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU4->Name = L"textBox硅管FSU4";
 			this->textBox硅管FSU4->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU4->TabIndex = 14;
-			// 
-			// button18
-			// 
-			this->button18->Location = System::Drawing::Point(333, 66);
-			this->button18->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button18->Name = L"button18";
-			this->button18->Size = System::Drawing::Size(61, 34);
-			this->button18->TabIndex = 13;
-			this->button18->Text = L"设置";
-			this->button18->UseVisualStyleBackColor = true;
-			this->button18->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button18_Click);
 			// 
 			// textBox硅管FSU3
 			// 
@@ -3673,17 +3253,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU3->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU3->TabIndex = 12;
 			// 
-			// button19
-			// 
-			this->button19->Location = System::Drawing::Point(265, 66);
-			this->button19->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button19->Name = L"button19";
-			this->button19->Size = System::Drawing::Size(61, 34);
-			this->button19->TabIndex = 11;
-			this->button19->Text = L"设置";
-			this->button19->UseVisualStyleBackColor = true;
-			this->button19->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button19_Click);
-			// 
 			// textBox硅管FSU2
 			// 
 			this->textBox硅管FSU2->Location = System::Drawing::Point(265, 32);
@@ -3691,17 +3260,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管FSU2->Name = L"textBox硅管FSU2";
 			this->textBox硅管FSU2->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管FSU2->TabIndex = 10;
-			// 
-			// button20
-			// 
-			this->button20->Location = System::Drawing::Point(195, 66);
-			this->button20->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button20->Name = L"button20";
-			this->button20->Size = System::Drawing::Size(61, 34);
-			this->button20->TabIndex = 9;
-			this->button20->Text = L"设置";
-			this->button20->UseVisualStyleBackColor = true;
-			this->button20->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button20_Click);
 			// 
 			// textBox硅管FSU1
 			// 
@@ -3740,17 +3298,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart锗管
 			// 
-			chartArea8->Name = L"ChartArea1";
-			this->chart锗管->ChartAreas->Add(chartArea8);
-			legend8->Name = L"Legend1";
-			this->chart锗管->Legends->Add(legend8);
+			chartArea3->Name = L"ChartArea1";
+			this->chart锗管->ChartAreas->Add(chartArea3);
+			legend3->Name = L"Legend1";
+			this->chart锗管->Legends->Add(legend3);
 			this->chart锗管->Location = System::Drawing::Point(965, 1908);
 			this->chart锗管->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart锗管->Name = L"chart锗管";
-			series8->ChartArea = L"ChartArea1";
-			series8->Legend = L"Legend1";
-			series8->Name = L"Series1";
-			this->chart锗管->Series->Add(series8);
+			series3->ChartArea = L"ChartArea1";
+			series3->Legend = L"Legend1";
+			series3->Name = L"Series1";
+			this->chart锗管->Series->Add(series3);
 			this->chart锗管->Size = System::Drawing::Size(547, 522);
 			this->chart锗管->TabIndex = 91;
 			this->chart锗管->Text = L"chart3";
@@ -3799,25 +3357,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox13->Controls->Add(this->label硅管ZU3);
 			this->groupBox13->Controls->Add(this->label硅管ZU2);
 			this->groupBox13->Controls->Add(this->label硅管ZU1);
-			this->groupBox13->Controls->Add(this->button21);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU10);
-			this->groupBox13->Controls->Add(this->button22);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU9);
-			this->groupBox13->Controls->Add(this->button23);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU8);
-			this->groupBox13->Controls->Add(this->button24);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU7);
-			this->groupBox13->Controls->Add(this->button25);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU6);
-			this->groupBox13->Controls->Add(this->button26);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU5);
-			this->groupBox13->Controls->Add(this->button27);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU4);
-			this->groupBox13->Controls->Add(this->button28);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU3);
-			this->groupBox13->Controls->Add(this->button29);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU2);
-			this->groupBox13->Controls->Add(this->button30);
 			this->groupBox13->Controls->Add(this->textBox硅管ZSU1);
 			this->groupBox13->Controls->Add(this->label201);
 			this->groupBox13->Controls->Add(this->label202);
@@ -4251,17 +3799,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label硅管ZU1->TabIndex = 38;
 			this->label硅管ZU1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button21
-			// 
-			this->button21->Location = System::Drawing::Point(809, 72);
-			this->button21->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button21->Name = L"button21";
-			this->button21->Size = System::Drawing::Size(61, 34);
-			this->button21->TabIndex = 27;
-			this->button21->Text = L"设置";
-			this->button21->UseVisualStyleBackColor = true;
-			this->button21->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button21_Click);
-			// 
 			// textBox硅管ZSU10
 			// 
 			this->textBox硅管ZSU10->Location = System::Drawing::Point(809, 38);
@@ -4269,17 +3806,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU10->Name = L"textBox硅管ZSU10";
 			this->textBox硅管ZSU10->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU10->TabIndex = 26;
-			// 
-			// button22
-			// 
-			this->button22->Location = System::Drawing::Point(741, 72);
-			this->button22->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button22->Name = L"button22";
-			this->button22->Size = System::Drawing::Size(61, 34);
-			this->button22->TabIndex = 25;
-			this->button22->Text = L"设置";
-			this->button22->UseVisualStyleBackColor = true;
-			this->button22->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button22_Click);
 			// 
 			// textBox硅管ZSU9
 			// 
@@ -4289,17 +3815,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU9->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU9->TabIndex = 24;
 			// 
-			// button23
-			// 
-			this->button23->Location = System::Drawing::Point(673, 72);
-			this->button23->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button23->Name = L"button23";
-			this->button23->Size = System::Drawing::Size(61, 34);
-			this->button23->TabIndex = 23;
-			this->button23->Text = L"设置";
-			this->button23->UseVisualStyleBackColor = true;
-			this->button23->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button23_Click);
-			// 
 			// textBox硅管ZSU8
 			// 
 			this->textBox硅管ZSU8->Location = System::Drawing::Point(673, 38);
@@ -4307,17 +3822,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU8->Name = L"textBox硅管ZSU8";
 			this->textBox硅管ZSU8->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU8->TabIndex = 22;
-			// 
-			// button24
-			// 
-			this->button24->Location = System::Drawing::Point(605, 72);
-			this->button24->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button24->Name = L"button24";
-			this->button24->Size = System::Drawing::Size(61, 34);
-			this->button24->TabIndex = 21;
-			this->button24->Text = L"设置";
-			this->button24->UseVisualStyleBackColor = true;
-			this->button24->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button24_Click);
 			// 
 			// textBox硅管ZSU7
 			// 
@@ -4327,17 +3831,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU7->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU7->TabIndex = 20;
 			// 
-			// button25
-			// 
-			this->button25->Location = System::Drawing::Point(537, 72);
-			this->button25->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button25->Name = L"button25";
-			this->button25->Size = System::Drawing::Size(61, 34);
-			this->button25->TabIndex = 19;
-			this->button25->Text = L"设置";
-			this->button25->UseVisualStyleBackColor = true;
-			this->button25->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button25_Click);
-			// 
 			// textBox硅管ZSU6
 			// 
 			this->textBox硅管ZSU6->Location = System::Drawing::Point(537, 38);
@@ -4345,17 +3838,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU6->Name = L"textBox硅管ZSU6";
 			this->textBox硅管ZSU6->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU6->TabIndex = 18;
-			// 
-			// button26
-			// 
-			this->button26->Location = System::Drawing::Point(469, 72);
-			this->button26->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button26->Name = L"button26";
-			this->button26->Size = System::Drawing::Size(61, 34);
-			this->button26->TabIndex = 17;
-			this->button26->Text = L"设置";
-			this->button26->UseVisualStyleBackColor = true;
-			this->button26->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button26_Click);
 			// 
 			// textBox硅管ZSU5
 			// 
@@ -4365,17 +3847,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU5->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU5->TabIndex = 16;
 			// 
-			// button27
-			// 
-			this->button27->Location = System::Drawing::Point(401, 72);
-			this->button27->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button27->Name = L"button27";
-			this->button27->Size = System::Drawing::Size(61, 34);
-			this->button27->TabIndex = 15;
-			this->button27->Text = L"设置";
-			this->button27->UseVisualStyleBackColor = true;
-			this->button27->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button27_Click);
-			// 
 			// textBox硅管ZSU4
 			// 
 			this->textBox硅管ZSU4->Location = System::Drawing::Point(401, 38);
@@ -4383,17 +3854,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU4->Name = L"textBox硅管ZSU4";
 			this->textBox硅管ZSU4->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU4->TabIndex = 14;
-			// 
-			// button28
-			// 
-			this->button28->Location = System::Drawing::Point(333, 72);
-			this->button28->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button28->Name = L"button28";
-			this->button28->Size = System::Drawing::Size(61, 34);
-			this->button28->TabIndex = 13;
-			this->button28->Text = L"设置";
-			this->button28->UseVisualStyleBackColor = true;
-			this->button28->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button28_Click);
 			// 
 			// textBox硅管ZSU3
 			// 
@@ -4403,17 +3863,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU3->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU3->TabIndex = 12;
 			// 
-			// button29
-			// 
-			this->button29->Location = System::Drawing::Point(265, 72);
-			this->button29->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button29->Name = L"button29";
-			this->button29->Size = System::Drawing::Size(61, 34);
-			this->button29->TabIndex = 11;
-			this->button29->Text = L"设置";
-			this->button29->UseVisualStyleBackColor = true;
-			this->button29->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button29_Click);
-			// 
 			// textBox硅管ZSU2
 			// 
 			this->textBox硅管ZSU2->Location = System::Drawing::Point(265, 38);
@@ -4421,17 +3870,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox硅管ZSU2->Name = L"textBox硅管ZSU2";
 			this->textBox硅管ZSU2->Size = System::Drawing::Size(63, 28);
 			this->textBox硅管ZSU2->TabIndex = 10;
-			// 
-			// button30
-			// 
-			this->button30->Location = System::Drawing::Point(199, 72);
-			this->button30->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button30->Name = L"button30";
-			this->button30->Size = System::Drawing::Size(61, 34);
-			this->button30->TabIndex = 9;
-			this->button30->Text = L"设置";
-			this->button30->UseVisualStyleBackColor = true;
-			this->button30->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button30_Click);
 			// 
 			// textBox硅管ZSU1
 			// 
@@ -4522,25 +3960,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox5->Controls->Add(this->label锗管ZU3);
 			this->groupBox5->Controls->Add(this->label锗管ZU2);
 			this->groupBox5->Controls->Add(this->label锗管ZU1);
-			this->groupBox5->Controls->Add(this->button81);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU10);
-			this->groupBox5->Controls->Add(this->button82);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU9);
-			this->groupBox5->Controls->Add(this->button83);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU8);
-			this->groupBox5->Controls->Add(this->button84);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU7);
-			this->groupBox5->Controls->Add(this->button85);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU6);
-			this->groupBox5->Controls->Add(this->button86);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU5);
-			this->groupBox5->Controls->Add(this->button87);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU4);
-			this->groupBox5->Controls->Add(this->button88);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU3);
-			this->groupBox5->Controls->Add(this->button89);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU2);
-			this->groupBox5->Controls->Add(this->button90);
 			this->groupBox5->Controls->Add(this->textBox锗管ZSU1);
 			this->groupBox5->Controls->Add(this->label58);
 			this->groupBox5->Controls->Add(this->label59);
@@ -4975,17 +4403,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label锗管ZU1->TabIndex = 38;
 			this->label锗管ZU1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button81
-			// 
-			this->button81->Location = System::Drawing::Point(809, 72);
-			this->button81->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button81->Name = L"button81";
-			this->button81->Size = System::Drawing::Size(61, 34);
-			this->button81->TabIndex = 27;
-			this->button81->Text = L"设置";
-			this->button81->UseVisualStyleBackColor = true;
-			this->button81->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button81_Click_1);
-			// 
 			// textBox锗管ZSU10
 			// 
 			this->textBox锗管ZSU10->Location = System::Drawing::Point(809, 38);
@@ -4993,17 +4410,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU10->Name = L"textBox锗管ZSU10";
 			this->textBox锗管ZSU10->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU10->TabIndex = 26;
-			// 
-			// button82
-			// 
-			this->button82->Location = System::Drawing::Point(741, 72);
-			this->button82->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button82->Name = L"button82";
-			this->button82->Size = System::Drawing::Size(61, 34);
-			this->button82->TabIndex = 25;
-			this->button82->Text = L"设置";
-			this->button82->UseVisualStyleBackColor = true;
-			this->button82->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button82_Click_1);
 			// 
 			// textBox锗管ZSU9
 			// 
@@ -5013,17 +4419,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU9->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU9->TabIndex = 24;
 			// 
-			// button83
-			// 
-			this->button83->Location = System::Drawing::Point(673, 72);
-			this->button83->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button83->Name = L"button83";
-			this->button83->Size = System::Drawing::Size(61, 34);
-			this->button83->TabIndex = 23;
-			this->button83->Text = L"设置";
-			this->button83->UseVisualStyleBackColor = true;
-			this->button83->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button83_Click);
-			// 
 			// textBox锗管ZSU8
 			// 
 			this->textBox锗管ZSU8->Location = System::Drawing::Point(673, 38);
@@ -5031,17 +4426,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU8->Name = L"textBox锗管ZSU8";
 			this->textBox锗管ZSU8->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU8->TabIndex = 22;
-			// 
-			// button84
-			// 
-			this->button84->Location = System::Drawing::Point(605, 72);
-			this->button84->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button84->Name = L"button84";
-			this->button84->Size = System::Drawing::Size(61, 34);
-			this->button84->TabIndex = 21;
-			this->button84->Text = L"设置";
-			this->button84->UseVisualStyleBackColor = true;
-			this->button84->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button84_Click);
 			// 
 			// textBox锗管ZSU7
 			// 
@@ -5051,17 +4435,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU7->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU7->TabIndex = 20;
 			// 
-			// button85
-			// 
-			this->button85->Location = System::Drawing::Point(537, 72);
-			this->button85->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button85->Name = L"button85";
-			this->button85->Size = System::Drawing::Size(61, 34);
-			this->button85->TabIndex = 19;
-			this->button85->Text = L"设置";
-			this->button85->UseVisualStyleBackColor = true;
-			this->button85->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button85_Click);
-			// 
 			// textBox锗管ZSU6
 			// 
 			this->textBox锗管ZSU6->Location = System::Drawing::Point(537, 38);
@@ -5069,17 +4442,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU6->Name = L"textBox锗管ZSU6";
 			this->textBox锗管ZSU6->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU6->TabIndex = 18;
-			// 
-			// button86
-			// 
-			this->button86->Location = System::Drawing::Point(469, 72);
-			this->button86->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button86->Name = L"button86";
-			this->button86->Size = System::Drawing::Size(61, 34);
-			this->button86->TabIndex = 17;
-			this->button86->Text = L"设置";
-			this->button86->UseVisualStyleBackColor = true;
-			this->button86->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button86_Click);
 			// 
 			// textBox锗管ZSU5
 			// 
@@ -5089,17 +4451,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU5->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU5->TabIndex = 16;
 			// 
-			// button87
-			// 
-			this->button87->Location = System::Drawing::Point(401, 72);
-			this->button87->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button87->Name = L"button87";
-			this->button87->Size = System::Drawing::Size(61, 34);
-			this->button87->TabIndex = 15;
-			this->button87->Text = L"设置";
-			this->button87->UseVisualStyleBackColor = true;
-			this->button87->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button87_Click);
-			// 
 			// textBox锗管ZSU4
 			// 
 			this->textBox锗管ZSU4->Location = System::Drawing::Point(401, 38);
@@ -5107,17 +4458,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU4->Name = L"textBox锗管ZSU4";
 			this->textBox锗管ZSU4->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU4->TabIndex = 14;
-			// 
-			// button88
-			// 
-			this->button88->Location = System::Drawing::Point(333, 72);
-			this->button88->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button88->Name = L"button88";
-			this->button88->Size = System::Drawing::Size(61, 34);
-			this->button88->TabIndex = 13;
-			this->button88->Text = L"设置";
-			this->button88->UseVisualStyleBackColor = true;
-			this->button88->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button88_Click);
 			// 
 			// textBox锗管ZSU3
 			// 
@@ -5127,17 +4467,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU3->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU3->TabIndex = 12;
 			// 
-			// button89
-			// 
-			this->button89->Location = System::Drawing::Point(265, 72);
-			this->button89->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button89->Name = L"button89";
-			this->button89->Size = System::Drawing::Size(61, 34);
-			this->button89->TabIndex = 11;
-			this->button89->Text = L"设置";
-			this->button89->UseVisualStyleBackColor = true;
-			this->button89->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button89_Click);
-			// 
 			// textBox锗管ZSU2
 			// 
 			this->textBox锗管ZSU2->Location = System::Drawing::Point(265, 38);
@@ -5145,17 +4474,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管ZSU2->Name = L"textBox锗管ZSU2";
 			this->textBox锗管ZSU2->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管ZSU2->TabIndex = 10;
-			// 
-			// button90
-			// 
-			this->button90->Location = System::Drawing::Point(199, 72);
-			this->button90->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button90->Name = L"button90";
-			this->button90->Size = System::Drawing::Size(61, 34);
-			this->button90->TabIndex = 9;
-			this->button90->Text = L"设置";
-			this->button90->UseVisualStyleBackColor = true;
-			this->button90->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button90_Click);
 			// 
 			// textBox锗管ZSU1
 			// 
@@ -5310,25 +4628,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox4->Controls->Add(this->label锗管FU3);
 			this->groupBox4->Controls->Add(this->label锗管FU2);
 			this->groupBox4->Controls->Add(this->label锗管FU1);
-			this->groupBox4->Controls->Add(this->button111);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU10);
-			this->groupBox4->Controls->Add(this->button112);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU9);
-			this->groupBox4->Controls->Add(this->button113);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU8);
-			this->groupBox4->Controls->Add(this->button114);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU7);
-			this->groupBox4->Controls->Add(this->button115);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU6);
-			this->groupBox4->Controls->Add(this->button116);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU5);
-			this->groupBox4->Controls->Add(this->button117);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU4);
-			this->groupBox4->Controls->Add(this->button118);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU3);
-			this->groupBox4->Controls->Add(this->button119);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU2);
-			this->groupBox4->Controls->Add(this->button120);
 			this->groupBox4->Controls->Add(this->textBox锗管FSU1);
 			this->groupBox4->Controls->Add(this->label55);
 			this->groupBox4->Controls->Add(this->label56);
@@ -5773,17 +5081,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label锗管FU1->TabIndex = 38;
 			this->label锗管FU1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button111
-			// 
-			this->button111->Location = System::Drawing::Point(805, 69);
-			this->button111->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button111->Name = L"button111";
-			this->button111->Size = System::Drawing::Size(61, 34);
-			this->button111->TabIndex = 27;
-			this->button111->Text = L"设置";
-			this->button111->UseVisualStyleBackColor = true;
-			this->button111->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button111_Click);
-			// 
 			// textBox锗管FSU10
 			// 
 			this->textBox锗管FSU10->Location = System::Drawing::Point(809, 35);
@@ -5791,17 +5088,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU10->Name = L"textBox锗管FSU10";
 			this->textBox锗管FSU10->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU10->TabIndex = 26;
-			// 
-			// button112
-			// 
-			this->button112->Location = System::Drawing::Point(739, 69);
-			this->button112->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button112->Name = L"button112";
-			this->button112->Size = System::Drawing::Size(61, 34);
-			this->button112->TabIndex = 25;
-			this->button112->Text = L"设置";
-			this->button112->UseVisualStyleBackColor = true;
-			this->button112->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button112_Click);
 			// 
 			// textBox锗管FSU9
 			// 
@@ -5811,17 +5097,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU9->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU9->TabIndex = 24;
 			// 
-			// button113
-			// 
-			this->button113->Location = System::Drawing::Point(671, 69);
-			this->button113->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button113->Name = L"button113";
-			this->button113->Size = System::Drawing::Size(61, 34);
-			this->button113->TabIndex = 23;
-			this->button113->Text = L"设置";
-			this->button113->UseVisualStyleBackColor = true;
-			this->button113->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button113_Click);
-			// 
 			// textBox锗管FSU8
 			// 
 			this->textBox锗管FSU8->Location = System::Drawing::Point(673, 35);
@@ -5829,17 +5104,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU8->Name = L"textBox锗管FSU8";
 			this->textBox锗管FSU8->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU8->TabIndex = 22;
-			// 
-			// button114
-			// 
-			this->button114->Location = System::Drawing::Point(607, 69);
-			this->button114->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button114->Name = L"button114";
-			this->button114->Size = System::Drawing::Size(61, 34);
-			this->button114->TabIndex = 21;
-			this->button114->Text = L"设置";
-			this->button114->UseVisualStyleBackColor = true;
-			this->button114->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button114_Click);
 			// 
 			// textBox锗管FSU7
 			// 
@@ -5849,17 +5113,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU7->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU7->TabIndex = 20;
 			// 
-			// button115
-			// 
-			this->button115->Location = System::Drawing::Point(537, 69);
-			this->button115->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button115->Name = L"button115";
-			this->button115->Size = System::Drawing::Size(61, 34);
-			this->button115->TabIndex = 19;
-			this->button115->Text = L"设置";
-			this->button115->UseVisualStyleBackColor = true;
-			this->button115->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button115_Click);
-			// 
 			// textBox锗管FSU6
 			// 
 			this->textBox锗管FSU6->Location = System::Drawing::Point(537, 35);
@@ -5867,17 +5120,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU6->Name = L"textBox锗管FSU6";
 			this->textBox锗管FSU6->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU6->TabIndex = 18;
-			// 
-			// button116
-			// 
-			this->button116->Location = System::Drawing::Point(471, 69);
-			this->button116->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button116->Name = L"button116";
-			this->button116->Size = System::Drawing::Size(61, 34);
-			this->button116->TabIndex = 17;
-			this->button116->Text = L"设置";
-			this->button116->UseVisualStyleBackColor = true;
-			this->button116->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button116_Click);
 			// 
 			// textBox锗管FSU5
 			// 
@@ -5887,17 +5129,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU5->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU5->TabIndex = 16;
 			// 
-			// button117
-			// 
-			this->button117->Location = System::Drawing::Point(403, 69);
-			this->button117->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button117->Name = L"button117";
-			this->button117->Size = System::Drawing::Size(61, 34);
-			this->button117->TabIndex = 15;
-			this->button117->Text = L"设置";
-			this->button117->UseVisualStyleBackColor = true;
-			this->button117->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button117_Click);
-			// 
 			// textBox锗管FSU4
 			// 
 			this->textBox锗管FSU4->Location = System::Drawing::Point(401, 35);
@@ -5905,17 +5136,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU4->Name = L"textBox锗管FSU4";
 			this->textBox锗管FSU4->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU4->TabIndex = 14;
-			// 
-			// button118
-			// 
-			this->button118->Location = System::Drawing::Point(333, 69);
-			this->button118->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button118->Name = L"button118";
-			this->button118->Size = System::Drawing::Size(61, 34);
-			this->button118->TabIndex = 13;
-			this->button118->Text = L"设置";
-			this->button118->UseVisualStyleBackColor = true;
-			this->button118->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button118_Click);
 			// 
 			// textBox锗管FSU3
 			// 
@@ -5925,17 +5145,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU3->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU3->TabIndex = 12;
 			// 
-			// button119
-			// 
-			this->button119->Location = System::Drawing::Point(265, 69);
-			this->button119->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button119->Name = L"button119";
-			this->button119->Size = System::Drawing::Size(61, 34);
-			this->button119->TabIndex = 11;
-			this->button119->Text = L"设置";
-			this->button119->UseVisualStyleBackColor = true;
-			this->button119->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button119_Click);
-			// 
 			// textBox锗管FSU2
 			// 
 			this->textBox锗管FSU2->Location = System::Drawing::Point(265, 35);
@@ -5943,17 +5152,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox锗管FSU2->Name = L"textBox锗管FSU2";
 			this->textBox锗管FSU2->Size = System::Drawing::Size(63, 28);
 			this->textBox锗管FSU2->TabIndex = 10;
-			// 
-			// button120
-			// 
-			this->button120->Location = System::Drawing::Point(195, 69);
-			this->button120->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button120->Name = L"button120";
-			this->button120->Size = System::Drawing::Size(61, 34);
-			this->button120->TabIndex = 9;
-			this->button120->Text = L"设置";
-			this->button120->UseVisualStyleBackColor = true;
-			this->button120->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button120_Click);
 			// 
 			// textBox锗管FSU1
 			// 
@@ -6000,17 +5198,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart线性
 			// 
-			chartArea9->Name = L"ChartArea1";
-			this->chart线性->ChartAreas->Add(chartArea9);
-			legend9->Name = L"Legend1";
-			this->chart线性->Legends->Add(legend9);
+			chartArea4->Name = L"ChartArea1";
+			this->chart线性->ChartAreas->Add(chartArea4);
+			legend4->Name = L"Legend1";
+			this->chart线性->Legends->Add(legend4);
 			this->chart线性->Location = System::Drawing::Point(939, 349);
 			this->chart线性->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart线性->Name = L"chart线性";
-			series9->ChartArea = L"ChartArea1";
-			series9->Legend = L"Legend1";
-			series9->Name = L"Series1";
-			this->chart线性->Series->Add(series9);
+			series4->ChartArea = L"ChartArea1";
+			series4->Legend = L"Legend1";
+			series4->Name = L"Series1";
+			this->chart线性->Series->Add(series4);
 			this->chart线性->Size = System::Drawing::Size(560, 360);
 			this->chart线性->TabIndex = 82;
 			this->chart线性->Text = L"chart1";
@@ -6068,25 +5266,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox2->Controls->Add(this->label线性I3);
 			this->groupBox2->Controls->Add(this->label线性I2);
 			this->groupBox2->Controls->Add(this->label线性I1);
-			this->groupBox2->Controls->Add(this->button10);
 			this->groupBox2->Controls->Add(this->textBoxSU10);
-			this->groupBox2->Controls->Add(this->button9);
 			this->groupBox2->Controls->Add(this->textBoxSU9);
-			this->groupBox2->Controls->Add(this->button8);
 			this->groupBox2->Controls->Add(this->textBoxSU8);
-			this->groupBox2->Controls->Add(this->button7);
 			this->groupBox2->Controls->Add(this->textBoxSU7);
-			this->groupBox2->Controls->Add(this->button6);
 			this->groupBox2->Controls->Add(this->textBoxSU6);
-			this->groupBox2->Controls->Add(this->button5);
 			this->groupBox2->Controls->Add(this->textBoxSU5);
-			this->groupBox2->Controls->Add(this->button4);
 			this->groupBox2->Controls->Add(this->textBoxSU4);
-			this->groupBox2->Controls->Add(this->button3);
 			this->groupBox2->Controls->Add(this->textBoxSU3);
-			this->groupBox2->Controls->Add(this->button2);
 			this->groupBox2->Controls->Add(this->textBoxSU2);
-			this->groupBox2->Controls->Add(this->button1);
 			this->groupBox2->Controls->Add(this->textBoxSU1);
 			this->groupBox2->Controls->Add(this->label40);
 			this->groupBox2->Controls->Add(this->label41);
@@ -6572,19 +5760,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label线性I1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			this->label线性I1->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::label线性I1_Click);
 			// 
-			// button10
-			// 
-			this->button10->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button10->Location = System::Drawing::Point(808, 72);
-			this->button10->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button10->Name = L"button10";
-			this->button10->Size = System::Drawing::Size(61, 34);
-			this->button10->TabIndex = 27;
-			this->button10->Text = L"设置";
-			this->button10->UseVisualStyleBackColor = true;
-			this->button10->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button10_Click);
-			// 
 			// textBoxSU10
 			// 
 			this->textBoxSU10->Location = System::Drawing::Point(808, 38);
@@ -6592,19 +5767,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU10->Name = L"textBoxSU10";
 			this->textBoxSU10->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU10->TabIndex = 26;
-			// 
-			// button9
-			// 
-			this->button9->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button9->Location = System::Drawing::Point(740, 72);
-			this->button9->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button9->Name = L"button9";
-			this->button9->Size = System::Drawing::Size(61, 34);
-			this->button9->TabIndex = 25;
-			this->button9->Text = L"设置";
-			this->button9->UseVisualStyleBackColor = true;
-			this->button9->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button9_Click);
 			// 
 			// textBoxSU9
 			// 
@@ -6614,19 +5776,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU9->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU9->TabIndex = 24;
 			// 
-			// button8
-			// 
-			this->button8->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button8->Location = System::Drawing::Point(672, 72);
-			this->button8->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(61, 34);
-			this->button8->TabIndex = 23;
-			this->button8->Text = L"设置";
-			this->button8->UseVisualStyleBackColor = true;
-			this->button8->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button8_Click);
-			// 
 			// textBoxSU8
 			// 
 			this->textBoxSU8->Location = System::Drawing::Point(672, 38);
@@ -6634,19 +5783,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU8->Name = L"textBoxSU8";
 			this->textBoxSU8->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU8->TabIndex = 22;
-			// 
-			// button7
-			// 
-			this->button7->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button7->Location = System::Drawing::Point(604, 72);
-			this->button7->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(61, 34);
-			this->button7->TabIndex = 21;
-			this->button7->Text = L"设置";
-			this->button7->UseVisualStyleBackColor = true;
-			this->button7->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button7_Click);
 			// 
 			// textBoxSU7
 			// 
@@ -6656,19 +5792,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU7->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU7->TabIndex = 20;
 			// 
-			// button6
-			// 
-			this->button6->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button6->Location = System::Drawing::Point(536, 72);
-			this->button6->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(61, 34);
-			this->button6->TabIndex = 19;
-			this->button6->Text = L"设置";
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button6_Click);
-			// 
 			// textBoxSU6
 			// 
 			this->textBoxSU6->Location = System::Drawing::Point(536, 38);
@@ -6676,19 +5799,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU6->Name = L"textBoxSU6";
 			this->textBoxSU6->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU6->TabIndex = 18;
-			// 
-			// button5
-			// 
-			this->button5->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button5->Location = System::Drawing::Point(468, 72);
-			this->button5->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(61, 34);
-			this->button5->TabIndex = 17;
-			this->button5->Text = L"设置";
-			this->button5->UseVisualStyleBackColor = true;
-			this->button5->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button5_Click);
 			// 
 			// textBoxSU5
 			// 
@@ -6698,19 +5808,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU5->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU5->TabIndex = 16;
 			// 
-			// button4
-			// 
-			this->button4->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button4->Location = System::Drawing::Point(400, 72);
-			this->button4->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(61, 34);
-			this->button4->TabIndex = 15;
-			this->button4->Text = L"设置";
-			this->button4->UseVisualStyleBackColor = true;
-			this->button4->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button4_Click);
-			// 
 			// textBoxSU4
 			// 
 			this->textBoxSU4->Location = System::Drawing::Point(400, 38);
@@ -6718,19 +5815,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU4->Name = L"textBoxSU4";
 			this->textBoxSU4->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU4->TabIndex = 14;
-			// 
-			// button3
-			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button3->Location = System::Drawing::Point(332, 72);
-			this->button3->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(61, 34);
-			this->button3->TabIndex = 13;
-			this->button3->Text = L"设置";
-			this->button3->UseVisualStyleBackColor = true;
-			this->button3->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button3_Click);
 			// 
 			// textBoxSU3
 			// 
@@ -6740,19 +5824,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU3->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU3->TabIndex = 12;
 			// 
-			// button2
-			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button2->Location = System::Drawing::Point(264, 72);
-			this->button2->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(61, 34);
-			this->button2->TabIndex = 11;
-			this->button2->Text = L"设置";
-			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button2_Click);
-			// 
 			// textBoxSU2
 			// 
 			this->textBoxSU2->Location = System::Drawing::Point(264, 38);
@@ -6760,19 +5831,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBoxSU2->Name = L"textBoxSU2";
 			this->textBoxSU2->Size = System::Drawing::Size(63, 30);
 			this->textBoxSU2->TabIndex = 10;
-			// 
-			// button1
-			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"宋体", 10.5F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button1->Location = System::Drawing::Point(197, 72);
-			this->button1->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(61, 34);
-			this->button1->TabIndex = 9;
-			this->button1->Text = L"设置";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button1_Click);
 			// 
 			// textBoxSU1
 			// 
@@ -6879,17 +5937,17 @@ private: System::Windows::Forms::Label^  label6;
 			// 
 			// chart白炽
 			// 
-			chartArea10->Name = L"ChartArea1";
-			this->chart白炽->ChartAreas->Add(chartArea10);
-			legend10->Name = L"Legend1";
-			this->chart白炽->Legends->Add(legend10);
+			chartArea5->Name = L"ChartArea1";
+			this->chart白炽->ChartAreas->Add(chartArea5);
+			legend5->Name = L"Legend1";
+			this->chart白炽->Legends->Add(legend5);
 			this->chart白炽->Location = System::Drawing::Point(961, 1125);
 			this->chart白炽->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
 			this->chart白炽->Name = L"chart白炽";
-			series10->ChartArea = L"ChartArea1";
-			series10->Legend = L"Legend1";
-			series10->Name = L"Series1";
-			this->chart白炽->Series->Add(series10);
+			series5->ChartArea = L"ChartArea1";
+			series5->Legend = L"Legend1";
+			series5->Name = L"Series1";
+			this->chart白炽->Series->Add(series5);
 			this->chart白炽->Size = System::Drawing::Size(564, 360);
 			this->chart白炽->TabIndex = 74;
 			this->chart白炽->Text = L"chart2";
@@ -6960,25 +6018,15 @@ private: System::Windows::Forms::Label^  label6;
 			this->groupBox3->Controls->Add(this->label白炽U3);
 			this->groupBox3->Controls->Add(this->label白炽U2);
 			this->groupBox3->Controls->Add(this->label白炽U1);
-			this->groupBox3->Controls->Add(this->button51);
 			this->groupBox3->Controls->Add(this->textBox白炽SU10);
-			this->groupBox3->Controls->Add(this->button52);
 			this->groupBox3->Controls->Add(this->textBox白炽SU9);
-			this->groupBox3->Controls->Add(this->button53);
 			this->groupBox3->Controls->Add(this->textBox白炽SU8);
-			this->groupBox3->Controls->Add(this->button54);
 			this->groupBox3->Controls->Add(this->textBox白炽SU7);
-			this->groupBox3->Controls->Add(this->button55);
 			this->groupBox3->Controls->Add(this->textBox白炽SU6);
-			this->groupBox3->Controls->Add(this->button56);
 			this->groupBox3->Controls->Add(this->textBox白炽SU5);
-			this->groupBox3->Controls->Add(this->button57);
 			this->groupBox3->Controls->Add(this->textBox白炽SU4);
-			this->groupBox3->Controls->Add(this->button58);
 			this->groupBox3->Controls->Add(this->textBox白炽SU3);
-			this->groupBox3->Controls->Add(this->button59);
 			this->groupBox3->Controls->Add(this->textBox白炽SU2);
-			this->groupBox3->Controls->Add(this->button60);
 			this->groupBox3->Controls->Add(this->textBox白炽SU1);
 			this->groupBox3->Controls->Add(this->label48);
 			this->groupBox3->Controls->Add(this->label49);
@@ -7423,17 +6471,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->label白炽U1->TabIndex = 38;
 			this->label白炽U1->TextAlign = System::Drawing::ContentAlignment::MiddleLeft;
 			// 
-			// button51
-			// 
-			this->button51->Location = System::Drawing::Point(811, 84);
-			this->button51->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button51->Name = L"button51";
-			this->button51->Size = System::Drawing::Size(61, 34);
-			this->button51->TabIndex = 27;
-			this->button51->Text = L"设置";
-			this->button51->UseVisualStyleBackColor = true;
-			this->button51->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button51_Click);
-			// 
 			// textBox白炽SU10
 			// 
 			this->textBox白炽SU10->Location = System::Drawing::Point(811, 48);
@@ -7441,17 +6478,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU10->Name = L"textBox白炽SU10";
 			this->textBox白炽SU10->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU10->TabIndex = 26;
-			// 
-			// button52
-			// 
-			this->button52->Location = System::Drawing::Point(743, 84);
-			this->button52->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button52->Name = L"button52";
-			this->button52->Size = System::Drawing::Size(61, 34);
-			this->button52->TabIndex = 25;
-			this->button52->Text = L"设置";
-			this->button52->UseVisualStyleBackColor = true;
-			this->button52->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button52_Click);
 			// 
 			// textBox白炽SU9
 			// 
@@ -7461,17 +6487,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU9->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU9->TabIndex = 24;
 			// 
-			// button53
-			// 
-			this->button53->Location = System::Drawing::Point(675, 84);
-			this->button53->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button53->Name = L"button53";
-			this->button53->Size = System::Drawing::Size(61, 34);
-			this->button53->TabIndex = 23;
-			this->button53->Text = L"设置";
-			this->button53->UseVisualStyleBackColor = true;
-			this->button53->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button53_Click);
-			// 
 			// textBox白炽SU8
 			// 
 			this->textBox白炽SU8->Location = System::Drawing::Point(675, 48);
@@ -7479,17 +6494,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU8->Name = L"textBox白炽SU8";
 			this->textBox白炽SU8->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU8->TabIndex = 22;
-			// 
-			// button54
-			// 
-			this->button54->Location = System::Drawing::Point(607, 84);
-			this->button54->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button54->Name = L"button54";
-			this->button54->Size = System::Drawing::Size(61, 34);
-			this->button54->TabIndex = 21;
-			this->button54->Text = L"设置";
-			this->button54->UseVisualStyleBackColor = true;
-			this->button54->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button54_Click);
 			// 
 			// textBox白炽SU7
 			// 
@@ -7499,17 +6503,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU7->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU7->TabIndex = 20;
 			// 
-			// button55
-			// 
-			this->button55->Location = System::Drawing::Point(539, 84);
-			this->button55->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button55->Name = L"button55";
-			this->button55->Size = System::Drawing::Size(61, 34);
-			this->button55->TabIndex = 19;
-			this->button55->Text = L"设置";
-			this->button55->UseVisualStyleBackColor = true;
-			this->button55->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button55_Click);
-			// 
 			// textBox白炽SU6
 			// 
 			this->textBox白炽SU6->Location = System::Drawing::Point(539, 48);
@@ -7517,17 +6510,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU6->Name = L"textBox白炽SU6";
 			this->textBox白炽SU6->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU6->TabIndex = 18;
-			// 
-			// button56
-			// 
-			this->button56->Location = System::Drawing::Point(471, 84);
-			this->button56->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button56->Name = L"button56";
-			this->button56->Size = System::Drawing::Size(61, 34);
-			this->button56->TabIndex = 17;
-			this->button56->Text = L"设置";
-			this->button56->UseVisualStyleBackColor = true;
-			this->button56->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button56_Click);
 			// 
 			// textBox白炽SU5
 			// 
@@ -7537,17 +6519,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU5->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU5->TabIndex = 16;
 			// 
-			// button57
-			// 
-			this->button57->Location = System::Drawing::Point(403, 84);
-			this->button57->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button57->Name = L"button57";
-			this->button57->Size = System::Drawing::Size(61, 34);
-			this->button57->TabIndex = 15;
-			this->button57->Text = L"设置";
-			this->button57->UseVisualStyleBackColor = true;
-			this->button57->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button57_Click);
-			// 
 			// textBox白炽SU4
 			// 
 			this->textBox白炽SU4->Location = System::Drawing::Point(403, 48);
@@ -7555,17 +6526,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU4->Name = L"textBox白炽SU4";
 			this->textBox白炽SU4->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU4->TabIndex = 14;
-			// 
-			// button58
-			// 
-			this->button58->Location = System::Drawing::Point(335, 84);
-			this->button58->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button58->Name = L"button58";
-			this->button58->Size = System::Drawing::Size(61, 34);
-			this->button58->TabIndex = 13;
-			this->button58->Text = L"设置";
-			this->button58->UseVisualStyleBackColor = true;
-			this->button58->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button58_Click);
 			// 
 			// textBox白炽SU3
 			// 
@@ -7575,17 +6535,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU3->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU3->TabIndex = 12;
 			// 
-			// button59
-			// 
-			this->button59->Location = System::Drawing::Point(267, 84);
-			this->button59->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button59->Name = L"button59";
-			this->button59->Size = System::Drawing::Size(61, 34);
-			this->button59->TabIndex = 11;
-			this->button59->Text = L"设置";
-			this->button59->UseVisualStyleBackColor = true;
-			this->button59->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button59_Click);
-			// 
 			// textBox白炽SU2
 			// 
 			this->textBox白炽SU2->Location = System::Drawing::Point(267, 48);
@@ -7593,17 +6542,6 @@ private: System::Windows::Forms::Label^  label6;
 			this->textBox白炽SU2->Name = L"textBox白炽SU2";
 			this->textBox白炽SU2->Size = System::Drawing::Size(63, 28);
 			this->textBox白炽SU2->TabIndex = 10;
-			// 
-			// button60
-			// 
-			this->button60->Location = System::Drawing::Point(201, 84);
-			this->button60->Margin = System::Windows::Forms::Padding(3, 2, 3, 2);
-			this->button60->Name = L"button60";
-			this->button60->Size = System::Drawing::Size(61, 34);
-			this->button60->TabIndex = 9;
-			this->button60->Text = L"设置";
-			this->button60->UseVisualStyleBackColor = true;
-			this->button60->Click += gcnew System::EventHandler(this, &元件伏安特性的测试实验内容::button60_Click);
 			// 
 			// textBox白炽SU1
 			// 
@@ -7743,15 +6681,6 @@ private: System::Windows::Forms::Label^  label6;
 	}
 
 
-			 S_PLCRecv GetMData() {
-				 S_PLCRecv pr;
-				 if (!global::sh->GetliKongData(&pr))
-				 {
-					 MessageBox::Show("获取力控数据失败,请检串口连接是不是正常");
-				 }					
-				 return pr;
-			 }
-
 private: System::Void tabPage1_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 
@@ -7776,40 +6705,31 @@ private: System::Void tabPage3_Click(System::Object^  sender, System::EventArgs^
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 
 	SetDVNum(textBoxSU2->Text, 0, 30);
-	s_线性电阻器::SU2= textBoxSU2->Text;
 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxSU3->Text, 0, 30);
-	s_线性电阻器::SU3 = textBoxSU3->Text;
 }
 private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxSU4->Text, 0, 30);
-	s_线性电阻器::SU4 = textBoxSU4->Text;
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxSU5->Text, 0, 30);
-	s_线性电阻器::SU5 = textBoxSU5->Text;
 }
 private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxSU6->Text, 0, 30);
-	s_线性电阻器::SU6 = textBoxSU6->Text;
 }
 private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
 
 	SetDVNum(textBoxSU7->Text, 0, 30);
-	s_线性电阻器::SU7 = textBoxSU7->Text;
 }
 private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxSU8->Text, 0, 30);
-	s_线性电阻器::SU8 = textBoxSU8->Text;
 }
 private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxSU9->Text, 0, 30);
-	s_线性电阻器::SU9 = textBoxSU9->Text;
 }
 private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBoxSU10->Text, 0, 30);
-	s_线性电阻器::SU10 = textBoxSU10->Text;
 }
 private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
 	Loadchart线性();
@@ -7819,86 +6739,65 @@ private: System::Void groupBox6_Enter(System::Object^  sender, System::EventArgs
 }
 private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U1->Text = GetUData();
-	s_线性电阻器::U1 =label线性U1->Text;
 }
 private: System::Void button61_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I1->Text = GetIData();
-	s_线性电阻器::I1 = label线性I1->Text;
 }
 private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U2->Text = GetUData();
-	s_线性电阻器::U2 = label线性U2->Text;
 }
 private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I2->Text = GetIData();
-	s_线性电阻器::I2 = label线性I2->Text;
 }
 private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U3->Text = GetUData();
-	s_线性电阻器::U3 = label线性U3->Text;
 }
 private: System::Void button49_Click(System::Object^  sender, System::EventArgs^  e) {
 
 	label线性I3->Text = GetIData();
-	s_线性电阻器::I3 = label线性I3->Text;
 }
 private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U4->Text = GetUData();
-	s_线性电阻器::U4 = label线性U4->Text;
 }
 private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I4->Text = GetIData();
-	s_线性电阻器::I4 = label线性I4->Text;
 }
 private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U5->Text = GetUData();
-	s_线性电阻器::U5 = label线性U5->Text;
 }
 private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I5->Text = GetIData();
-	s_线性电阻器::I5 =label线性I5->Text;
 }
 private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U6->Text = GetUData();
-	s_线性电阻器::U6 = label线性U6->Text;
 }
 private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I6->Text = GetIData();
-
-	s_线性电阻器::I6 = label线性I6->Text;
 }
 private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
 
 	label线性U7->Text = GetUData();
-	s_线性电阻器::U7 = label线性U7->Text;
 }
 private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I7->Text = GetIData();
-	s_线性电阻器::I7 = label线性I7->Text;
 }
 private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U8->Text = GetUData();
-	s_线性电阻器::U8 = label线性U8->Text;
 }
 private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I8->Text = GetIData();
-	s_线性电阻器::I8 = label线性I8->Text;
 }
 private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U9->Text = GetUData();
-	s_线性电阻器::U9 = label线性U9->Text;
 }
 private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I9->Text = GetIData();
-	s_线性电阻器::I9 = label线性I9->Text;
 }
 private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性U10->Text = GetUData();
-	s_线性电阻器::U10 = label线性U10->Text;
 }
 private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
 	label线性I10->Text = GetIData();
-	s_线性电阻器::I10 = label线性I10->Text;
 }
 private: System::Void label50_Click(System::Object^  sender, System::EventArgs^  e) {
 }
@@ -7910,882 +6809,670 @@ private: System::Void 元件伏安特性的测试实验内容_Load(System::Objec
 		 void This_Load();
 
 private: System::Void textBox1_TextChanged(System::Object^  sender, System::EventArgs^  e) {
-	s_线性电阻器::summing_up = textBox线性结论->Text;
 }
 private: System::Void label132_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void button60_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU1->Text, 0, 30);
-	s_白炽灯::SU1 = textBox白炽SU1->Text;
 }
 private: System::Void button59_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU2->Text, 0, 30);
-	s_白炽灯::SU2 = textBox白炽SU2->Text;
 }
 private: System::Void button58_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU3->Text, 0, 30);
-	s_白炽灯::SU3 = textBox白炽SU3->Text;
 }
 private: System::Void button57_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU4->Text, 0, 30);
-	s_白炽灯::SU4 = textBox白炽SU4->Text;
 }
 private: System::Void button56_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU5->Text, 0, 30);
-	s_白炽灯::SU5 = textBox白炽SU5->Text;
 }
 private: System::Void button55_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU6->Text, 0, 30);
-	s_白炽灯::SU6 = textBox白炽SU6->Text;
 }
 private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU7->Text, 0, 30);
-	s_白炽灯::SU7 = textBox白炽SU7->Text;
 }
 private: System::Void button53_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU8->Text, 0, 30);
-	s_白炽灯::SU8 = textBox白炽SU8->Text;
 }
 private: System::Void button52_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU9->Text, 0, 30);
-	s_白炽灯::SU9 = textBox白炽SU9->Text;
 }
 private: System::Void button51_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox白炽SU10->Text, 0, 30);
-	s_白炽灯::SU10 = textBox白炽SU10->Text;
 }
 
 		 String^ GetUData();
 		 String^ GetIData();
 private: System::Void button71_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U1->Text = GetUData();
-	s_白炽灯::U1 = label白炽U1->Text;
 }
 private: System::Void tabPage2_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void button91_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I1->Text = GetIData();
-	s_白炽灯::I1 = label白炽I1->Text;
 }
 private: System::Void button70_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U2->Text = GetUData();
-	s_白炽灯::U2 = label白炽U2->Text;
 }
 private: System::Void button69_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U3->Text = GetUData();
-	s_白炽灯::U3 = label白炽U3->Text;
 }
 private: System::Void button68_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U4->Text = GetUData();
-	s_白炽灯::U4 = label白炽U4->Text;
 }
 private: System::Void button67_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U5->Text = GetUData();
-	s_白炽灯::U5 = label白炽U5->Text;
 }
 private: System::Void button66_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U6->Text = GetUData();
-	s_白炽灯::U6 = label白炽U6->Text;
 }
 private: System::Void button65_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U7->Text = GetUData();
-	s_白炽灯::U7 = label白炽U7->Text;
 }
 private: System::Void button64_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U8->Text = GetUData();
-	s_白炽灯::U8 = label白炽U8->Text;
 }
 private: System::Void button63_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U9->Text = GetUData();
-	s_白炽灯::U9 = label白炽U9->Text;
 }
 private: System::Void button62_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽U10->Text = GetUData();
-	s_白炽灯::U10 = label白炽U10->Text;
 }
 private: System::Void button80_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I2->Text = GetIData();
-	s_白炽灯::I2 = label白炽I2->Text;
 }
 private: System::Void button79_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I3->Text = GetIData();
-	s_白炽灯::I3 = label白炽I3->Text;
 }
 private: System::Void button78_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I4->Text = GetIData();
-	s_白炽灯::I4 = label白炽I4->Text;
 }
 private: System::Void button77_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I5->Text = GetIData();
-	s_白炽灯::I5 = label白炽I5->Text;
 }
+
 private: System::Void button76_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I6->Text = GetIData();
-	s_白炽灯::I6 = label白炽I6->Text;
 }
 private: System::Void button75_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I7->Text = GetIData();
-	s_白炽灯::I7 = label白炽I7->Text;
 }
 private: System::Void button74_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I8->Text = GetIData();
-	s_白炽灯::I8 = label白炽I8->Text;
 }
 private: System::Void button73_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I9->Text = GetIData();
-	s_白炽灯::I9 = label白炽I9->Text;
 }
 private: System::Void button72_Click(System::Object^  sender, System::EventArgs^  e) {
 	label白炽I10->Text = GetIData();
-	s_白炽灯::I10 = label白炽I10->Text;
 }
 private: System::Void button245_Click(System::Object^  sender, System::EventArgs^  e) {
 	Loadchart白炽();
 }
 private: System::Void button90_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU1->Text, 0, 30);
-	s_锗管::ZSU1 = textBox锗管ZSU1->Text;
 }
 private: System::Void button89_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU2->Text, 0, 30);
-	s_锗管::ZSU2 = textBox锗管ZSU2->Text;
 }
 private: System::Void button88_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU3->Text, 0, 30);
-	s_锗管::ZSU3 = textBox锗管ZSU3->Text;
 }
 private: System::Void button87_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU4->Text, 0, 30);
-	s_锗管::ZSU4 = textBox锗管ZSU4->Text;
 }
 private: System::Void button86_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU5->Text, 0, 30);
-	s_锗管::ZSU5 = textBox锗管ZSU5->Text;
 }
 private: System::Void button85_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU6->Text, 0, 30);
-	s_锗管::ZSU6 = textBox锗管ZSU6->Text;
 }
 private: System::Void button84_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU7->Text, 0, 30);
-	s_锗管::ZSU7 = textBox锗管ZSU7->Text;
 }
 private: System::Void button83_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU8->Text, 0, 30);
-	s_锗管::ZSU8 = textBox锗管ZSU8->Text;
 }
 private: System::Void button82_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU9->Text, 0, 30);
-	s_锗管::ZSU9 = textBox锗管ZSU9->Text;
 }
 private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管ZSU10->Text, 0, 30);
-	s_锗管::ZSU10 = textBox锗管ZSU10->Text;
 }
 private: System::Void button101_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU1->Text = GetUData();
-	s_锗管::ZU1 = label锗管ZU1->Text;
 }
 private: System::Void button100_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU2->Text = GetUData();
-	s_锗管::ZU2 = label锗管ZU2->Text;
 }
 private: System::Void button99_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU3->Text = GetUData();
-	s_锗管::ZU3 = label锗管ZU3->Text;
 }
 private: System::Void button98_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU4->Text = GetUData();
-	s_锗管::ZU4 = label锗管ZU4->Text;
 }
 private: System::Void button97_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU5->Text = GetUData();
-	s_锗管::ZU5 = label锗管ZU5->Text;
 }
 private: System::Void button96_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU6->Text = GetUData();
-	s_锗管::ZU6 = label锗管ZU6->Text;
 }
 private: System::Void button95_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU7->Text = GetUData();
-	s_锗管::ZU7 = label锗管ZU7->Text;
 }
 private: System::Void button94_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU8->Text = GetUData();
-	s_锗管::ZU8 = label锗管ZU8->Text;
 }
 private: System::Void button93_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU9->Text = GetUData();
-	s_锗管::ZU9 = label锗管ZU9->Text;
 }
 private: System::Void button92_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZU10->Text = GetUData();
-	s_锗管::ZU10 = label锗管ZU10->Text;
 }
 private: System::Void button121_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI1->Text = GetIData();
-	s_锗管::ZI1 = label锗管ZI1->Text;
 }
 private: System::Void button110_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI2->Text = GetIData();
-	s_锗管::ZI2 = label锗管ZI2->Text;
 }
 private: System::Void button109_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI3->Text = GetIData();
-	s_锗管::ZI3 = label锗管ZI3->Text;
 }
 private: System::Void button108_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI4->Text = GetIData();
-	s_锗管::ZI4 = label锗管ZI4->Text;
 }
 private: System::Void button107_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI5->Text = GetIData();
-	s_锗管::ZI5 = label锗管ZI5->Text;
 }
 private: System::Void button106_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI6->Text = GetIData();
-	s_锗管::ZI6 = label锗管ZI6->Text;
 }
 private: System::Void button105_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI7->Text = GetIData();
-	s_锗管::ZI7 = label锗管ZI7->Text;
 }
 private: System::Void button104_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI8->Text = GetIData();
-	s_锗管::ZI8 = label锗管ZI8->Text;
 }
 private: System::Void button103_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI9->Text = GetIData();
-	s_锗管::ZI9 = label锗管ZI9->Text;
 }
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管ZI10->Text = GetIData();
-	s_锗管::ZI10 = label锗管ZI10->Text;
 }
 private: System::Void button120_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU1->Text, 0, 30);
-	s_锗管::FSU1 = textBox锗管FSU1->Text;
 }
 private: System::Void button119_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU2->Text, 0, 30);
-	s_锗管::FSU2 = textBox锗管FSU2->Text;
 }
 private: System::Void button118_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU3->Text, 0, 30);
-	s_锗管::FSU3 = textBox锗管FSU3->Text;
 }
 private: System::Void button117_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU4->Text, 0, 30);
-	s_锗管::FSU4 = textBox锗管FSU4->Text;
 }
 private: System::Void button116_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU5->Text, 0, 30);
-	s_锗管::FSU5 = textBox锗管FSU5->Text;
 }
 private: System::Void button115_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU6->Text, 0, 30);
-	s_锗管::FSU6 = textBox锗管FSU6->Text;
 }
 private: System::Void button114_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU7->Text, 0, 30);
-	s_锗管::FSU7 = textBox锗管FSU7->Text;
 }
 private: System::Void button113_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU8->Text, 0, 30);
-	s_锗管::FSU8 = textBox锗管FSU8->Text;
 }
 private: System::Void button112_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU9->Text, 0, 30);
-	s_锗管::FSU9 = textBox锗管FSU9->Text;
 }
 private: System::Void button111_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox锗管FSU10->Text, 0, 30);
-	s_锗管::FSU10 = textBox锗管FSU10->Text;
 }
 private: System::Void button131_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU1->Text = GetUData();
-	s_锗管::FU1 = label锗管FU1->Text;
 }
 private: System::Void button130_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU2->Text = GetUData();
-	s_锗管::FU2 = label锗管FU2->Text;
 }
 private: System::Void button129_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU3->Text = GetUData();
-	s_锗管::FU3 = label锗管FU3->Text;
 }
 private: System::Void button128_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU4->Text = GetUData();
-	s_锗管::FU4 = label锗管FU4->Text;
 }
 private: System::Void button127_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU5->Text = GetUData();
-	s_锗管::FU5 = label锗管FU5->Text;
 }
 private: System::Void button126_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU6->Text = GetUData();
-	s_锗管::FU6 = label锗管FU6->Text;
 }
 private: System::Void button125_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU7->Text = GetUData();
-	s_锗管::FU7 = label锗管FU7->Text;
 }
 private: System::Void button124_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU8->Text = GetUData();
-	s_锗管::FU8 = label锗管FU8->Text;
 }
 private: System::Void button123_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU9->Text = GetUData();
-	s_锗管::FU9 = label锗管FU9->Text;
 }
 private: System::Void button122_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FU10->Text = GetUData();
-	s_锗管::FU10 = label锗管FU10->Text;
 }
 private: System::Void button151_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI1->Text = GetIData();
-	s_锗管::FI1 = label锗管FI1->Text;
 }
 private: System::Void button140_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI2->Text = GetIData();
-	s_锗管::FI2 = label锗管FI2->Text;
 }
 private: System::Void button139_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI3->Text = GetIData();
-	s_锗管::FI3 = label锗管FI3->Text;
 }
 private: System::Void button138_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI4->Text = GetIData();
-	s_锗管::FI4 = label锗管FI4->Text;
 }
 private: System::Void button137_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI5->Text = GetIData();
-	s_锗管::FI5 = label锗管FI5->Text;
 }
 private: System::Void button136_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI6->Text = GetIData();
-	s_锗管::FI6 = label锗管FI6->Text;
 }
 private: System::Void button135_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI7->Text = GetIData();
-	s_锗管::FI7 = label锗管FI7->Text;
 }
 private: System::Void button134_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI8->Text = GetIData();
-	s_锗管::FI8 = label锗管FI8->Text;
 }
 private: System::Void button133_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI9->Text = GetIData();
-	s_锗管::FI9 = label锗管FI9->Text;
 }
 private: System::Void button132_Click(System::Object^  sender, System::EventArgs^  e) {
 	label锗管FI10->Text = GetIData();
-	s_锗管::FI10 = label锗管FI10->Text;
 }
 private: System::Void button152_Click(System::Object^  sender, System::EventArgs^  e) {
 	Loadchart锗管();
 }
 private: System::Void textBox锗管结论_TextChanged(System::Object^  sender, System::EventArgs^  e) {
-
-	s_锗管::summing_up = textBox锗管结论->Text;
 }
 private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU1->Text, 0, 30);
-	s_硅管::ZSU1 = textBox硅管ZSU1->Text;
 }
 private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU2->Text, 0, 30);
-	s_硅管::ZSU2 = textBox硅管ZSU2->Text;
 }
 private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU3->Text, 0, 30);
-	s_硅管::ZSU3 = textBox硅管ZSU3->Text;
 }
 private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU4->Text, 0, 30);
-	s_硅管::ZSU4 = textBox硅管ZSU4->Text;
 }
 private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU5->Text, 0, 30);
-	s_硅管::ZSU5 = textBox硅管ZSU5->Text;
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU6->Text, 0, 30);
-	s_硅管::ZSU6 = textBox硅管ZSU6->Text;
 }
 private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU7->Text, 0, 30);
-	s_硅管::ZSU7 = textBox硅管ZSU7->Text;
 }
 private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU8->Text, 0, 30);
-	s_硅管::ZSU8 = textBox硅管ZSU8->Text;
 }
 private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU9->Text, 0, 30);
-	s_硅管::ZSU9 = textBox硅管ZSU9->Text;
 }
 private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管ZSU10->Text, 0, 30);
-	s_硅管::ZSU10 = textBox硅管ZSU10->Text;
 }
 private: System::Void button162_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU1->Text = GetUData();
-	s_硅管::ZU1 = label硅管ZU1->Text;
 }
 private: System::Void button161_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU2->Text = GetUData();
-	s_硅管::ZU2 = label硅管ZU2->Text;
 }
 private: System::Void button160_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU3->Text = GetUData();
-	s_硅管::ZU3 = label硅管ZU3->Text;
 }
 private: System::Void button159_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU4->Text = GetUData();
-	s_硅管::ZU4 = label硅管ZU4->Text;
 }
 private: System::Void button158_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU5->Text = GetUData();
-	s_硅管::ZU5 = label硅管ZU5->Text;
 }
 private: System::Void button157_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU6->Text = GetUData();
-	s_硅管::ZU6 = label硅管ZU6->Text;
 }
 private: System::Void button156_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU7->Text = GetUData();
-	s_硅管::ZU7 = label硅管ZU7->Text;
 }
 private: System::Void button155_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU8->Text = GetUData();
-	s_硅管::ZU8 = label硅管ZU8->Text;
 }
 private: System::Void button154_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU9->Text = GetUData();
-	s_硅管::ZU9 = label硅管ZU9->Text;
 }
 private: System::Void button153_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZU10->Text = GetUData();
-	s_硅管::ZU10 = label硅管ZU10->Text;
 }
 private: System::Void button182_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI1->Text = GetIData();
-	s_硅管::ZI1 = label硅管ZI1->Text;
 }
 
 private: System::Void button181_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI2->Text = GetIData();
-	s_硅管::ZI2 = label硅管ZI2->Text;
 }
 private: System::Void button170_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI3->Text = GetIData();
-	s_硅管::ZI3 = label硅管ZI3->Text;
 }
 private: System::Void button169_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI4->Text = GetIData();
-	s_硅管::ZI4 = label硅管ZI4->Text;
 }
 private: System::Void button168_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI5->Text = GetIData();
-	s_硅管::ZI5 = label硅管ZI5->Text;
 }
 private: System::Void button167_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI6->Text = GetIData();
-	s_硅管::ZI6 = label硅管ZI6->Text;
 }
 private: System::Void button166_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI7->Text = GetIData();
-	s_硅管::ZI7 = label硅管ZI7->Text;
 }
 private: System::Void button165_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI8->Text = GetIData();
-	s_硅管::ZI8 = label硅管ZI8->Text;
 }
 private: System::Void button164_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI9->Text = GetIData();
-	s_硅管::ZI9 = label硅管ZI9->Text;
 }
 private: System::Void button163_Click(System::Object^  sender, System::EventArgs^  e) {
 	label硅管ZI10->Text = GetIData();
-	s_硅管::ZI10 = label硅管ZI10->Text;
 }
 private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU1->Text, 0, 30);
-	s_硅管::FSU1 = textBox硅管FSU1->Text;
 }
 private: System::Void textBox稳压结论_TextChanged(System::Object^  sender, System::EventArgs^  e) {
-	s_稳压::summing_up = textBox稳压结论->Text;
 }
 private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU2->Text, 0, 30);
-	s_硅管::FSU2 = textBox硅管FSU2->Text;
 }
 private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU3->Text, 0, 30);
-	s_硅管::FSU3 = textBox硅管FSU3->Text;
+
 }
 private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU4->Text, 0, 30);
-	s_硅管::FSU4 = textBox硅管FSU4->Text;
 }
 private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU5->Text, 0, 30);
-	s_硅管::FSU5 = textBox硅管FSU5->Text;
 }
 private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU6->Text, 0, 30);
-	s_硅管::FSU6 = textBox硅管FSU6->Text;
 }
 private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU7->Text, 0, 30);
-	s_硅管::FSU7 = textBox硅管FSU7->Text;
 }
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU8->Text, 0, 30);
-	s_硅管::FSU8 = textBox硅管FSU8->Text;
 }
 private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU9->Text, 0, 30);
-	s_硅管::FSU9 = textBox硅管FSU9->Text;
 }
 private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox硅管FSU10->Text, 0, 30);
-	s_硅管::FSU10 = textBox硅管FSU10->Text;
 }
 private: System::Void button192_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU1->Text = GetUData();
-	s_硅管::FU1 = label1硅管FU1->Text;
 }
 private: System::Void button191_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU2->Text = GetUData();
-	s_硅管::FU2 = label1硅管FU2->Text;
 }
 private: System::Void button190_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU3->Text = GetUData();
-	s_硅管::FU3 = label1硅管FU3->Text;
 }
 private: System::Void button189_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU4->Text = GetUData();
-	s_硅管::FU4 = label1硅管FU4->Text;
 }
 private: System::Void button188_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU5->Text = GetUData();
-	s_硅管::FU5 = label1硅管FU5->Text;
 }
 private: System::Void button187_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU6->Text = GetUData();
-	s_硅管::FU6 = label1硅管FU6->Text;
 }
 private: System::Void button186_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU7->Text = GetUData();
-	s_硅管::FU7 = label1硅管FU7->Text;
 }
 private: System::Void button185_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU8->Text = GetUData();
-	s_硅管::FU8 = label1硅管FU8->Text;
 }
 private: System::Void button184_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU9->Text = GetUData();
-	s_硅管::FU9 = label1硅管FU9->Text;
 }
 private: System::Void button183_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FU10->Text = GetUData();
-	s_硅管::FU10 = label1硅管FU10->Text;
 }
 private: System::Void button202_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI1->Text = GetIData();
-	s_硅管::FI1= label1硅管FI1->Text;
 }
 private: System::Void button201_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI2->Text = GetIData();
-	s_硅管::FI2 = label1硅管FI2->Text;
 }
 private: System::Void button200_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI3->Text = GetIData();
-	s_硅管::FI3 = label1硅管FI3->Text;
 }
 private: System::Void button199_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI4->Text = GetIData();
-	s_硅管::FI4 = label1硅管FI4->Text;
 }
 private: System::Void button198_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI5->Text = GetIData();
-	s_硅管::FI5 = label1硅管FI5->Text;
 }
 private: System::Void button197_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI6->Text = GetIData();
-	s_硅管::FI6 = label1硅管FI6->Text;
 }
 private: System::Void button196_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI7->Text = GetIData();
-	s_硅管::FI7 = label1硅管FI7->Text;
 }
 private: System::Void button195_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI8->Text = GetIData();
-	s_硅管::FI8 = label1硅管FI8->Text;
 }
 private: System::Void button194_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI9->Text = GetIData();
-	s_硅管::FI9 = label1硅管FI9->Text;
 }
 private: System::Void button193_Click(System::Object^  sender, System::EventArgs^  e) {
 	label1硅管FI10->Text = GetIData();
-	s_硅管::FI10 = label1硅管FI10->Text;
 }
 private: System::Void button244_Click(System::Object^  sender, System::EventArgs^  e) {
 	Loadchart稳压();
 }
 private: System::Void button205_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU9->Text = GetUData();
-	s_稳压::FU9 = label稳压FU9->Text;
 }
 private: System::Void button180_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU1->Text, 0, 30);
-	s_稳压::ZSU1 = textBox稳压ZSU1->Text;
 }
 private: System::Void button179_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU2->Text, 0, 30);
-	s_稳压::ZSU2 = textBox稳压ZSU2->Text;
 }
 private: System::Void button178_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU3->Text, 0, 30);
-	s_稳压::ZSU3 = textBox稳压ZSU3->Text;
 }
 private: System::Void button177_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU4->Text, 0, 30);
-	s_稳压::ZSU4 = textBox稳压ZSU4->Text;
 }
 private: System::Void button176_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU5->Text, 0, 30);
-	s_稳压::ZSU5 = textBox稳压ZSU5->Text;
 }
 private: System::Void button175_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU6->Text, 0, 30);
-	s_稳压::ZSU6 = textBox稳压ZSU6->Text;
 }
 private: System::Void button174_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU7->Text, 0, 30);
-	s_稳压::ZSU7 = textBox稳压ZSU7->Text;
 }
 private: System::Void button173_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU8->Text, 0, 30);
-	s_稳压::ZSU8 = textBox稳压ZSU8->Text;
 }
 private: System::Void button172_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU9->Text, 0, 30);
-	s_稳压::ZSU9 = textBox稳压ZSU9->Text;
 }
 private: System::Void button171_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压ZSU10->Text, 0, 30);
-	s_稳压::ZSU10 = textBox稳压ZSU10->Text;
 }
 private: System::Void button150_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU1->Text, 0, 30);
-	s_稳压::FSU1 = textBox稳压FSU1->Text;
 }
 private: System::Void button149_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU2->Text, 0, 30);
-	s_稳压::FSU2 = textBox稳压FSU2->Text;
 }
 private: System::Void button233_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU1->Text = GetUData();
-	s_稳压::ZU1 = label稳压ZU1->Text;
 }
 private: System::Void button232_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU2->Text = GetUData();
-	s_稳压::ZU2 = label稳压ZU2->Text;
 }
 private: System::Void button231_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU3->Text = GetUData();
-	s_稳压::ZU3 = label稳压ZU3->Text;
 }
 private: System::Void button230_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU4->Text = GetUData();
-	s_稳压::ZU4 = label稳压ZU4->Text;
 }
 private: System::Void button229_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU5->Text = GetUData();
-	s_稳压::ZU5 = label稳压ZU5->Text;
 }
 private: System::Void button228_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU6->Text = GetUData();
-	s_稳压::ZU6 = label稳压ZU6->Text;
 }
 private: System::Void button227_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU7->Text = GetUData();
-	s_稳压::ZU7 = label稳压ZU7->Text;
 }
 private: System::Void button226_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU8->Text = GetUData();
-	s_稳压::ZU8 = label稳压ZU8->Text;
 }
 private: System::Void button225_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU9->Text = GetUData();
-	s_稳压::ZU9 = label稳压ZU9->Text;
 }
 private: System::Void button224_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZU10->Text = GetUData();
-	s_稳压::ZU10 = label稳压ZU10->Text;
 }
 private: System::Void button243_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI1->Text = GetIData();
-	s_稳压::ZI1 = label稳压ZI1->Text;
 }
 private: System::Void button242_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI2->Text = GetIData();
-	s_稳压::ZI2 = label稳压ZI2->Text;
 }
 private: System::Void button241_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI3->Text = GetIData();
-	s_稳压::ZI3 = label稳压ZI3->Text;
 }
 private: System::Void button240_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI4->Text = GetIData();
-	s_稳压::ZI4 = label稳压ZI4->Text;
 }
 private: System::Void button239_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI5->Text = GetIData();
-	s_稳压::ZI5 = label稳压ZI5->Text;
 }
 private: System::Void button238_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI6->Text = GetIData();
-	s_稳压::ZI6 = label稳压ZI6->Text;
 }
 private: System::Void button237_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI7->Text = GetIData();
-	s_稳压::ZI7 = label稳压ZI7->Text;
 }
 private: System::Void button236_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI8->Text = GetIData();
-	s_稳压::ZI8 = label稳压ZI8->Text;
 }
 private: System::Void button235_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI9->Text = GetIData();
-	s_稳压::ZI9 = label稳压ZI9->Text;
 }
 private: System::Void button234_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压ZI10->Text = GetIData();
-	s_稳压::ZI10 = label稳压ZI10->Text;
 }
 private: System::Void button148_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU3->Text, 0, 30);
-	s_稳压::FSU3 = textBox稳压FSU3->Text;
 }
 private: System::Void button147_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU4->Text, 0, 30);
-	s_稳压::FSU4 = textBox稳压FSU4->Text;
 }
 private: System::Void button146_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU5->Text, 0, 30);
-	s_稳压::FSU5 = textBox稳压FSU5->Text;
 }
 private: System::Void button145_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU6->Text, 0, 30);
-	s_稳压::FSU6 = textBox稳压FSU6->Text;
 }
 private: System::Void button144_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU7->Text, 0, 30);
-	s_稳压::FSU7 = textBox稳压FSU7->Text;
 }
 private: System::Void button143_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU8->Text, 0, 30);
-	s_稳压::FSU8 = textBox稳压FSU8->Text;
 }
 private: System::Void button142_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU9->Text, 0, 30);
-	s_稳压::FSU9 = textBox稳压FSU9->Text;
 }
 private: System::Void button141_Click(System::Object^  sender, System::EventArgs^  e) {
 	SetDVNum(textBox稳压FSU10->Text, 0, 30);
-	s_稳压::FSU10 = textBox稳压FSU10->Text;
 }
 private: System::Void button213_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU1->Text = GetUData();
-	s_稳压::FU1 = label稳压FU1->Text;
 }
 private: System::Void button212_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU2->Text = GetUData();
-	s_稳压::FU2 = label稳压FU2->Text;
 }
 private: System::Void button211_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU3->Text = GetUData();
-	s_稳压::FU3 = label稳压FU3->Text;
 }
 private: System::Void button210_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU4->Text = GetUData();
-	s_稳压::FU4 = label稳压FU4->Text;
 }
 private: System::Void button209_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU5->Text = GetUData();
-	s_稳压::FU5 = label稳压FU5->Text;
 }
 private: System::Void button208_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU6->Text = GetUData();
-	s_稳压::FU6 = label稳压FU6->Text;
 }
 private: System::Void button207_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU7->Text = GetUData();
-	s_稳压::FU7 = label稳压FU7->Text;
 }
 private: System::Void button206_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU8->Text = GetUData();
-	s_稳压::FU8 = label稳压FU8->Text;
 }
 private: System::Void button204_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FU10->Text = GetUData();
-	s_稳压::FU10 = label稳压FU10->Text;
 }
 private: System::Void button223_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI1->Text = GetIData();
-	s_稳压::FI1 = label稳压FI1->Text;
 }
 private: System::Void button222_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI2->Text = GetIData();
-	s_稳压::FI2 = label稳压FI2->Text;
 }
 private: System::Void button221_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI3->Text = GetIData();
-	s_稳压::FI3 = label稳压FI3->Text;
 }
 private: System::Void button220_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI4->Text = GetIData();
-	s_稳压::FI4 = label稳压FI4->Text;
 }
 private: System::Void groupBox5_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void button219_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI5->Text = GetIData();
-	s_稳压::FI5 = label稳压FI5->Text;
 }
 private: System::Void button218_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI6->Text = GetIData();
-	s_稳压::FI6 = label稳压FI6->Text;
 }
 private: System::Void button217_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI7->Text = GetIData();
-	s_稳压::FI7 = label稳压FI7->Text;
 }
 private: System::Void button216_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI8->Text = GetIData();
-	s_稳压::FI8 = label稳压FI8->Text;
+
 }
 private: System::Void button215_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI9->Text = GetIData();
-	s_稳压::FI9 = label稳压FI9->Text;
+
 }
 private: System::Void button214_Click(System::Object^  sender, System::EventArgs^  e) {
 	label稳压FI10->Text = GetIData();
-	s_稳压::FI10 = label稳压FI10->Text;
 }
 private: System::Void textBox白炽结论_TextChanged(System::Object^  sender, System::EventArgs^  e) {
-	s_白炽灯::summing_up = textBox白炽结论->Text;
 }
 private: System::Void button203_Click(System::Object^  sender, System::EventArgs^  e) {
 	Loadchart硅管();
 }
 private: System::Void textBox硅管结论_TextChanged(System::Object^  sender, System::EventArgs^  e) {
-	s_硅管::summing_up = textBox硅管结论->Text;
 }
 		public: ST_元件伏安特性测试 LoadGradeData();
 
@@ -8795,34 +7482,32 @@ private: System::Void panel1_Paint(System::Object^  sender, System::Windows::For
 
 		 String ^GenerateStuInfo();
 private: System::Void button246_Click(System::Object^  sender, System::EventArgs^  e) {
-	System::Windows::Forms::DialogResult dr = MessageBox::Show(GenerateStuInfo(), "请确认信息", MessageBoxButtons::OKCancel);
-	if (dr == System::Windows::Forms::DialogResult::OK)
-	{
-		ST_元件伏安特性测试 s = LoadGradeData();
-		memset(&s, 0x00, sizeof(ST_元件伏安特性测试));
-		s.ti = trialInfo;
-		s.ti.TrialCode = 1;
-		s.ti.totalscore = -1;
-		snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[1].c_str());
-		snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
-		snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
-		data_transf d;
-		GradesHead H;
-		H.TrialCode = 1;
-		snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[1].c_str());
-		snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
-		if (!d.open()) {
-			MessageBox::Show("TCP连接失败");
-			return;
-		}
-		if (!d.SendGrade(H, string((char*)&s, sizeof(ST_元件伏安特性测试)))) {
-			MessageBox::Show("TCP连接失败");
-			return;
-		}
-		d.RecvHandle(true);
-		d.close();
-		lcc.SendComputerInfo(Grades[1] + "已交卷");
+	//System::Windows::Forms::DialogResult dr = MessageBox::Show(GenerateStuInfo(), "请确认信息", MessageBoxButtons::OKCancel);
+		
+	ST_元件伏安特性测试 s;
+    s = LoadGradeData();
+	s.ti = trialInfo;
+	s.ti.TrialCode = 1;
+	s.ti.totalscore = -1;
+	snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[1].c_str());
+	snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+	snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+	data_transf d;
+	GradesHead H;
+	H.TrialCode = 1;
+	snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[1].c_str());
+	snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+	if (!d.open()) {
+		MessageBox::Show("TCP连接失败");
+		return;
 	}
+	if (!d.SendGrade(H, string((char*)&s, sizeof(ST_元件伏安特性测试)))) {
+		MessageBox::Show("TCP连接失败");
+		return;
+	}
+	d.RecvHandle(true);
+	d.close();
+	lcc.SendComputerInfo(Grades[1] + "已交卷");
 
 }
 private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {

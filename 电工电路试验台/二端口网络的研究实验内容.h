@@ -224,17 +224,18 @@ private: System::Windows::Forms::TextBox^  labelTrial2_1_R2S;
 private: System::Windows::Forms::TextBox^  labelTrial2_1_R20;
 private: System::Windows::Forms::TextBox^  labelTrial2_1_R1S;
 private: System::Windows::Forms::TextBox^  labelTrial2_1_R10;
-private: System::Windows::Forms::Button^  button18;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_1_U21;
 
 
-private: System::Windows::Forms::Button^  button15;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial1_1_U11;
 
 
-private: System::Windows::Forms::Button^  button19;
+
 private: System::Windows::Forms::TextBox^  textBoxTrial2_1_U;
 private: System::Windows::Forms::Label^  label14;
+private: System::Windows::Forms::Label^  label13;
 
 
 	private:
@@ -252,13 +253,12 @@ private: System::Windows::Forms::Label^  label14;
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(二端口网络的研究实验内容::typeid));
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->label14 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox2 = (gcnew System::Windows::Forms::PictureBox());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->label37 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
-			this->button18 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_1_U21 = (gcnew System::Windows::Forms::TextBox());
-			this->button15 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_1_U11 = (gcnew System::Windows::Forms::TextBox());
 			this->button11 = (gcnew System::Windows::Forms::Button());
 			this->button12 = (gcnew System::Windows::Forms::Button());
@@ -324,7 +324,6 @@ private: System::Windows::Forms::Label^  label14;
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
-			this->button19 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial2_1_U = (gcnew System::Windows::Forms::TextBox());
 			this->labelTrial2_1_R2S = (gcnew System::Windows::Forms::TextBox());
 			this->labelTrial2_1_R20 = (gcnew System::Windows::Forms::TextBox());
@@ -374,7 +373,7 @@ private: System::Windows::Forms::Label^  label14;
 			this->label103 = (gcnew System::Windows::Forms::Label());
 			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->button25 = (gcnew System::Windows::Forms::Button());
-			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
@@ -397,6 +396,17 @@ private: System::Windows::Forms::Label^  label14;
 			this->groupBox8->TabIndex = 81;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"二端口网络的研究实验原理";
+			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(791, 52);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(408, 70);
+			this->label14->TabIndex = 312;
+			this->label14->Text = L"说明:以下表电压用直流电压表3获取，电流用直流电流表2获取";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// pictureBox2
 			// 
@@ -431,9 +441,7 @@ private: System::Windows::Forms::Label^  label14;
 			// 
 			// groupBox1
 			// 
-			this->groupBox1->Controls->Add(this->button18);
 			this->groupBox1->Controls->Add(this->textBoxTrial1_1_U21);
-			this->groupBox1->Controls->Add(this->button15);
 			this->groupBox1->Controls->Add(this->textBoxTrial1_1_U11);
 			this->groupBox1->Controls->Add(this->button11);
 			this->groupBox1->Controls->Add(this->button12);
@@ -508,37 +516,12 @@ private: System::Windows::Forms::Label^  label14;
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"实验内容一";
 			// 
-			// button18
-			// 
-			this->button18->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button18->ForeColor = System::Drawing::Color::Black;
-			this->button18->Location = System::Drawing::Point(93, 699);
-			this->button18->Name = L"button18";
-			this->button18->Size = System::Drawing::Size(130, 34);
-			this->button18->TabIndex = 77;
-			this->button18->Text = L"U21设置";
-			this->button18->UseVisualStyleBackColor = true;
-			// 
 			// textBoxTrial1_1_U21
 			// 
 			this->textBoxTrial1_1_U21->Location = System::Drawing::Point(93, 663);
 			this->textBoxTrial1_1_U21->Name = L"textBoxTrial1_1_U21";
 			this->textBoxTrial1_1_U21->Size = System::Drawing::Size(130, 30);
 			this->textBoxTrial1_1_U21->TabIndex = 76;
-			// 
-			// button15
-			// 
-			this->button15->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button15->ForeColor = System::Drawing::Color::Black;
-			this->button15->Location = System::Drawing::Point(104, 285);
-			this->button15->Name = L"button15";
-			this->button15->Size = System::Drawing::Size(130, 34);
-			this->button15->TabIndex = 75;
-			this->button15->Text = L"U11设置";
-			this->button15->UseVisualStyleBackColor = true;
-			this->button15->Click += gcnew System::EventHandler(this, &二端口网络的研究实验内容::button15_Click_1);
 			// 
 			// textBoxTrial1_1_U11
 			// 
@@ -705,6 +688,7 @@ private: System::Windows::Forms::Label^  label14;
 			this->button5->TabIndex = 57;
 			this->button5->Text = L"获取";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &二端口网络的研究实验内容::button5_Click);
 			// 
 			// button4
 			// 
@@ -1263,7 +1247,7 @@ private: System::Windows::Forms::Label^  label14;
 			// 
 			// groupBox2
 			// 
-			this->groupBox2->Controls->Add(this->button19);
+			this->groupBox2->Controls->Add(this->label13);
 			this->groupBox2->Controls->Add(this->textBoxTrial2_1_U);
 			this->groupBox2->Controls->Add(this->labelTrial2_1_R2S);
 			this->groupBox2->Controls->Add(this->labelTrial2_1_R20);
@@ -1321,18 +1305,6 @@ private: System::Windows::Forms::Label^  label14;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"实验内容二";
 			this->groupBox2->Enter += gcnew System::EventHandler(this, &二端口网络的研究实验内容::groupBox2_Enter);
-			// 
-			// button19
-			// 
-			this->button19->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->button19->ForeColor = System::Drawing::Color::Black;
-			this->button19->Location = System::Drawing::Point(27, 365);
-			this->button19->Name = L"button19";
-			this->button19->Size = System::Drawing::Size(155, 58);
-			this->button19->TabIndex = 90;
-			this->button19->Text = L"输入电压设置";
-			this->button19->UseVisualStyleBackColor = true;
 			// 
 			// textBoxTrial2_1_U
 			// 
@@ -1875,16 +1847,17 @@ private: System::Windows::Forms::Label^  label14;
 			this->button25->UseVisualStyleBackColor = true;
 			this->button25->Click += gcnew System::EventHandler(this, &二端口网络的研究实验内容::button25_Click);
 			// 
-			// label14
+			// label13
 			// 
-			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label14->ForeColor = System::Drawing::Color::Lime;
-			this->label14->Location = System::Drawing::Point(791, 52);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(408, 70);
-			this->label14->TabIndex = 312;
-			this->label14->Text = L"说明:以下表电压用直流电压表3获取，电流用直流电流表2获取";
-			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			this->label13->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label13->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label13->ForeColor = System::Drawing::Color::Black;
+			this->label13->Location = System::Drawing::Point(29, 291);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(153, 30);
+			this->label13->TabIndex = 90;
+			this->label13->Text = L"输入电压";
 			// 
 			// 二端口网络的研究实验内容
 			// 
@@ -1940,7 +1913,7 @@ private: System::Void button7_Click(System::Object^  sender, System::EventArgs^ 
 	labelTrial1_1_I11S->Text = global::GetI500Data();
 }
 private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
-	labelTrial1_1_U12S->Text = global::GetU30_U400VData();
+	labelTrial1_1_U12S->Text = global::GetI500Data();
 }
 
 
@@ -1992,6 +1965,9 @@ private: System::Void button20_Click(System::Object^  sender, System::EventArgs^
 	labelTrial2_1_I2S->Text = global::GetI500Data();
 }
 private: System::Void button15_Click_1(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+	labelTrial1_2_U220->Text = global::GetU30_U400VData();
 }
 };
 };

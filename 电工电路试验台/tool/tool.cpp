@@ -5,8 +5,8 @@
 #include "tool.h"
 
 using namespace std;
-
-CControl g_c("wnd"); 
+ 
+CControl g_c("wnd");   
 
 CControl::CControl(char *Name)
 {
@@ -185,6 +185,7 @@ void global::SystemStart()
 	g_ClassListMutex.Create(string("学生向量操作锁"));
 
 	Directory::CreateDirectory(gcnew String(BMPSAVEPATH));
+	Directory::CreateDirectory(gcnew String(FORMDATASAVEPATH));
 
 	PLCRecv = new S_PLCRecv;
 	//消息队列初始化 
@@ -193,17 +194,9 @@ void global::SystemStart()
 	//配置文件初始化
 	readXmlConfigFile(configXml);
 	LOG_DETAIL(configXml.DesMac, configXml.RepeaterIp, configXml.RepeaterPort,
-		"力控串口", configXml.SerialHandle, "电源控制", configXml.SerialControlSource,
+		"电源控制", configXml.SerialControlSource,
 		configXml.TeacherIp, configXml.GradePort);
 
-
-	//力控模块初始化
-	if ( !global::sh->SerialHandleInit()) {
-	    LOG_DETAIL("参数测试仪串口初始化失败");
-	}
-	global::sh->MonitorTesterId(1);
-	//t = gcnew Thread(gcnew ThreadStart(LiKongMonter));
-	//t->Start();
 	//电源控制模块初始化
 	if (!global::scs->SerialHandleInit()) {
 		LOG_DETAIL("控制电源模块串口初始化失败");
@@ -222,40 +215,9 @@ void global::SystemShortDown()
 {
 	if( t!= nullptr) t->Abort();
 	global::scs->SerialHandleClose();
-	global::sh->SerialHandleClose();
+	//global::sh->SerialHandleClose();
 	delete PLCRecv;
 	exit(0);
-}
-
-void global::LiKongMonter()
-{
-	while (1) {
-		memset(PLCRecv, 0x00, sizeof(S_PLCRecv));
-		Thread::Sleep(1000);
-		if (!sh->GetliKongData(PLCRecv))
-		{
-			if (!sh->SerialHandleInit()) {
-				//SYS_LOG_ERROR("获取力控数据失败,请检串口连接是不是正常");
-				Thread::Sleep(60000);
-			}
-			continue;
-		}
-		/*
-		try {
-			switch (PLCRecv->HeaderId) {
-			case 1:	break;
-			case 2:break;
-			case 3:break;
-			case 4:break;
-			case 5:break;
-
-			}
-
-		}
-		catch (System::Exception ^E) {
-			
-		}*/
-	}
 }
 
 
