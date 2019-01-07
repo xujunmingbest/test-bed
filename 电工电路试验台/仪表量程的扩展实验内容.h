@@ -790,6 +790,9 @@ namespace 电工电路试验台 {
 		}
 #pragma endregion
 	private: System::Void 仪表量程的扩展实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+		lcc.SendComputerInfo(Grades[22] + "正在实验中");
+		NowTrial::NowTrailCode = 22;
+		NowTrial::NowTrailForm = this;
 	}
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();

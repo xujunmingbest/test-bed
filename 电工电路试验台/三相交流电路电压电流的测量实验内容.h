@@ -272,6 +272,7 @@ private: System::Windows::Forms::Label^  label40;
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(三相交流电路电压电流的测量实验内容::typeid));
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->label40 = (gcnew System::Windows::Forms::Label());
 			this->labelTrial1_Line5_UNO = (gcnew System::Windows::Forms::Label());
 			this->button45 = (gcnew System::Windows::Forms::Button());
 			this->labelTrial1_Line5_IO = (gcnew System::Windows::Forms::Label());
@@ -488,7 +489,6 @@ private: System::Windows::Forms::Label^  label40;
 			this->label187 = (gcnew System::Windows::Forms::Label());
 			this->label39 = (gcnew System::Windows::Forms::Label());
 			this->button56 = (gcnew System::Windows::Forms::Button());
-			this->label40 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox1->SuspendLayout();
@@ -657,6 +657,17 @@ private: System::Windows::Forms::Label^  label40;
 			this->groupBox8->TabIndex = 84;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"三相交流电路电压电流的测量 实验内容1";
+			// 
+			// label40
+			// 
+			this->label40->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label40->ForeColor = System::Drawing::Color::Lime;
+			this->label40->Location = System::Drawing::Point(15, 507);
+			this->label40->Name = L"label40";
+			this->label40->Size = System::Drawing::Size(290, 96);
+			this->label40->TabIndex = 388;
+			this->label40->Text = L"提示:以下电压用交流电压表2获取，电流用交流电流表1获取";
+			this->label40->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// labelTrial1_Line5_UNO
 			// 
@@ -2436,7 +2447,7 @@ private: System::Windows::Forms::Label^  label40;
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(348, 251);
+			this->pictureBox1->Location = System::Drawing::Point(370, 270);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(456, 333);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::AutoSize;
@@ -2450,7 +2461,7 @@ private: System::Windows::Forms::Label^  label40;
 			this->label37->ForeColor = System::Drawing::Color::Black;
 			this->label37->Location = System::Drawing::Point(24, 45);
 			this->label37->Name = L"label37";
-			this->label37->Size = System::Drawing::Size(1161, 203);
+			this->label37->Size = System::Drawing::Size(1288, 222);
 			this->label37->TabIndex = 0;
 			this->label37->Text = resources->GetString(L"label37.Text");
 			// 
@@ -3305,17 +3316,6 @@ private: System::Windows::Forms::Label^  label40;
 			this->button56->UseVisualStyleBackColor = true;
 			this->button56->Click += gcnew System::EventHandler(this, &三相交流电路电压电流的测量实验内容::button56_Click);
 			// 
-			// label40
-			// 
-			this->label40->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label40->ForeColor = System::Drawing::Color::Lime;
-			this->label40->Location = System::Drawing::Point(15, 488);
-			this->label40->Name = L"label40";
-			this->label40->Size = System::Drawing::Size(290, 96);
-			this->label40->TabIndex = 388;
-			this->label40->Text = L"提示:以下电压用交流电压表2获取，电流用交流电流表1获取";
-			this->label40->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
 			// 三相交流电路电压电流的测量实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -3342,10 +3342,12 @@ private: System::Windows::Forms::Label^  label40;
 
 		}
 #pragma endregion
-		void 三相交流电路电压电流的测量实验内容::SendData();
+		public:void 三相交流电路电压电流的测量实验内容::SendData();
 			 public: ST_三相交流电路电压电流的测量 三相交流电路电压电流的测量实验内容::Load_Grade_data();
 	private: System::Void 三相交流电路电压电流的测量实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
-
+		lcc.SendComputerInfo(Grades[16] + "正在实验中");
+		NowTrial::NowTrailCode = 16;
+		NowTrial::NowTrailForm = this;
 	}
 	private: System::Void button56_Click(System::Object^  sender, System::EventArgs^  e) {
 		SendData();

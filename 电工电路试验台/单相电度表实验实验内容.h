@@ -133,6 +133,9 @@ namespace 电工电路试验台 {
 		{
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(单相电度表实验实验内容::typeid));
 			this->groupBox8 = (gcnew System::Windows::Forms::GroupBox());
+			this->label17 = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
 			this->labelTrial1_mea_P = (gcnew System::Windows::Forms::Label());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->textBoxTrial1_cal_WW = (gcnew System::Windows::Forms::TextBox());
@@ -177,9 +180,6 @@ namespace 电工电路试验台 {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->label129 = (gcnew System::Windows::Forms::Label());
 			this->button102 = (gcnew System::Windows::Forms::Button());
-			this->label14 = (gcnew System::Windows::Forms::Label());
-			this->label15 = (gcnew System::Windows::Forms::Label());
-			this->label17 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
@@ -239,6 +239,40 @@ namespace 电工电路试验台 {
 			this->groupBox8->TabIndex = 84;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"单相电度表实验 实验内容1";
+			this->groupBox8->Enter += gcnew System::EventHandler(this, &单相电度表实验实验内容::groupBox8_Enter);
+			// 
+			// label17
+			// 
+			this->label17->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label17->ForeColor = System::Drawing::Color::Lime;
+			this->label17->Location = System::Drawing::Point(546, 895);
+			this->label17->Name = L"label17";
+			this->label17->Size = System::Drawing::Size(136, 28);
+			this->label17->TabIndex = 388;
+			this->label17->Text = L"交流功率表";
+			this->label17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label15
+			// 
+			this->label15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label15->ForeColor = System::Drawing::Color::Lime;
+			this->label15->Location = System::Drawing::Point(364, 893);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(136, 28);
+			this->label15->TabIndex = 387;
+			this->label15->Text = L"交流电流表1";
+			this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			// 
+			// label14
+			// 
+			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
+			this->label14->ForeColor = System::Drawing::Color::Lime;
+			this->label14->Location = System::Drawing::Point(204, 894);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(136, 28);
+			this->label14->TabIndex = 386;
+			this->label14->Text = L"交流电压表2";
+			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
 			// labelTrial1_mea_P
 			// 
@@ -715,45 +749,12 @@ namespace 电工电路试验台 {
 			this->button102->UseVisualStyleBackColor = true;
 			this->button102->Click += gcnew System::EventHandler(this, &单相电度表实验实验内容::button102_Click);
 			// 
-			// label14
-			// 
-			this->label14->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label14->ForeColor = System::Drawing::Color::Lime;
-			this->label14->Location = System::Drawing::Point(204, 894);
-			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(136, 28);
-			this->label14->TabIndex = 386;
-			this->label14->Text = L"交流电压表2";
-			this->label14->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label15
-			// 
-			this->label15->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label15->ForeColor = System::Drawing::Color::Lime;
-			this->label15->Location = System::Drawing::Point(364, 893);
-			this->label15->Name = L"label15";
-			this->label15->Size = System::Drawing::Size(136, 28);
-			this->label15->TabIndex = 387;
-			this->label15->Text = L"交流电流表1";
-			this->label15->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
-			// label17
-			// 
-			this->label17->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
-			this->label17->ForeColor = System::Drawing::Color::Lime;
-			this->label17->Location = System::Drawing::Point(546, 895);
-			this->label17->Name = L"label17";
-			this->label17->Size = System::Drawing::Size(136, 28);
-			this->label17->TabIndex = 388;
-			this->label17->Text = L"交流功率表";
-			this->label17->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
-			// 
 			// 单相电度表实验实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1454, 740);
+			this->ClientSize = System::Drawing::Size(1475, 740);
 			this->Controls->Add(this->label129);
 			this->Controls->Add(this->button102);
 			this->Controls->Add(this->groupBox8);
@@ -772,9 +773,12 @@ namespace 电工电路试验台 {
 #pragma endregion
 	private: System::Void label10_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
-			 void 单相电度表实验实验内容::SendData();
+			 public:void 单相电度表实验实验内容::SendData();
 			 public: ST_单相电度表实验 单相电度表实验实验内容::Load_Grade_data();
 private: System::Void 单相电度表实验实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[15] + "正在实验中");
+	NowTrial::NowTrailCode = 15;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();
@@ -787,6 +791,8 @@ private: System::Void button2_Click(System::Object^  sender, System::EventArgs^ 
 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelTrial1_mea_P->Text = global::GetGongPingP();
+}
+private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

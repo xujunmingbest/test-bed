@@ -2470,6 +2470,9 @@ private: System::Void chart1_Click(System::Object^  sender, System::EventArgs^  
 }
 private: System::Void RLC元件阻抗特性的测定实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 	chartTrial3->Titles->Add("R、L、C元件串联的阻抗角频率特性");
+	lcc.SendComputerInfo(Grades[12] + "正在实验中");
+	NowTrial::NowTrailCode = 12;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void pictureBoxTrial2_1_Click(System::Object^  sender, System::EventArgs^  e) {
 }

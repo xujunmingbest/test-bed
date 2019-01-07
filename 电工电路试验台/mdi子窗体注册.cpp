@@ -5,8 +5,6 @@ using namespace 电工电路试验台;
 
 
 
-
-
 void 主窗体::open元件伏安特性的测试实验目的() {
 	String ^name = "元件伏安特性的测试实验目的";
 	Control^ wndf= GetWindowsChild(name);
@@ -82,6 +80,7 @@ void 主窗体::open元件伏安特性的测试实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -158,6 +157,7 @@ void 主窗体::open基尔霍夫定律实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -233,6 +233,7 @@ void 主窗体::open叠加原理实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -306,6 +307,7 @@ void 主窗体::open戴维南定理实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -381,6 +383,7 @@ void 主窗体::open电压源与电流源的等效变换实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -479,6 +482,7 @@ void 主窗体::open一阶电路的响应测试实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 
@@ -556,6 +560,7 @@ void 主窗体::open二阶动态电路响应的研究实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 
@@ -629,6 +634,7 @@ void 主窗体::openVCVS实验实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 
@@ -703,6 +709,7 @@ void 主窗体::open二端口网络的研究实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 
@@ -777,6 +784,7 @@ void 主窗体::open最大功率传输条件的测定实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 
@@ -854,6 +862,7 @@ void 主窗体::open电路状态轨迹的观测实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 
@@ -930,6 +939,7 @@ void 主窗体::openRLC元件阻抗特性的测定实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 
@@ -1003,6 +1013,7 @@ void 主窗体::openRLC串联谐振电路的研究实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1077,6 +1088,7 @@ void 主窗体::open单相铁心变压器特性的测试实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1150,6 +1162,7 @@ void 主窗体::open单相电度表实验实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1225,6 +1238,7 @@ void 主窗体::open三相交流电路电压电流的测量实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1298,6 +1312,7 @@ void 主窗体::open日光灯功率因数的提高实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1371,6 +1386,7 @@ void 主窗体::open回转器实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1444,6 +1460,7 @@ void 主窗体::open三相电路功率的测量实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1518,6 +1535,7 @@ void 主窗体::open负阻抗变换器实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1592,6 +1610,7 @@ void 主窗体::openRC网络的频率特性实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1666,6 +1685,7 @@ void 主窗体::open仪表量程的扩展实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1738,6 +1758,7 @@ void 主窗体::open基本电工仪表的使用与测量误差的计算实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1812,6 +1833,7 @@ void 主窗体::open功率因数及相序的测量实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }
@@ -1887,6 +1909,7 @@ void 主窗体::open互感器实验内容() {
 	}
 	else {
 		wndf->BringToFront();
+		NowTrial::NowTrailForm = (Form^)wndf;
 		return;
 	}
 }

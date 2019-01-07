@@ -222,10 +222,12 @@ private: System::Windows::Forms::Label^  label7;
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->label19 = (gcnew System::Windows::Forms::Label());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->pictureBoxTrial2_in = (gcnew System::Windows::Forms::PictureBox());
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->groupBox3 = (gcnew System::Windows::Forms::GroupBox());
+			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->button3 = (gcnew System::Windows::Forms::Button());
 			this->pictureBoxTrial3_in = (gcnew System::Windows::Forms::PictureBox());
 			this->label4 = (gcnew System::Windows::Forms::Label());
@@ -233,8 +235,6 @@ private: System::Windows::Forms::Label^  label7;
 			this->textBox结论 = (gcnew System::Windows::Forms::TextBox());
 			this->button81 = (gcnew System::Windows::Forms::Button());
 			this->label105 = (gcnew System::Windows::Forms::Label());
-			this->label12 = (gcnew System::Windows::Forms::Label());
-			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox3))->BeginInit();
@@ -265,6 +265,7 @@ private: System::Windows::Forms::Label^  label7;
 			this->groupBox8->TabIndex = 81;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"一阶电路的响应测试实验内容";
+			this->groupBox8->Enter += gcnew System::EventHandler(this, &一阶电路的响应测试实验内容::groupBox8_Enter);
 			// 
 			// pictureBox2
 			// 
@@ -442,6 +443,17 @@ private: System::Windows::Forms::Label^  label7;
 			this->groupBox1->Text = L"实验内容二";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &一阶电路的响应测试实验内容::groupBox1_Enter);
 			// 
+			// label12
+			// 
+			this->label12->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label12->ForeColor = System::Drawing::Color::Black;
+			this->label12->Location = System::Drawing::Point(401, 592);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(158, 25);
+			this->label12->TabIndex = 316;
+			this->label12->Text = L"输入输出波形";
+			// 
 			// button2
 			// 
 			this->button2->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
@@ -493,6 +505,17 @@ private: System::Windows::Forms::Label^  label7;
 			this->groupBox3->TabIndex = 90;
 			this->groupBox3->TabStop = false;
 			this->groupBox3->Text = L"实验内容三";
+			// 
+			// label7
+			// 
+			this->label7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->label7->ForeColor = System::Drawing::Color::Black;
+			this->label7->Location = System::Drawing::Point(410, 641);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(158, 25);
+			this->label7->TabIndex = 316;
+			this->label7->Text = L"输入输出波形";
 			// 
 			// button3
 			// 
@@ -575,28 +598,6 @@ private: System::Windows::Forms::Label^  label7;
 			this->label105->TabIndex = 180;
 			this->label105->Text = L"实验结论";
 			// 
-			// label12
-			// 
-			this->label12->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label12->ForeColor = System::Drawing::Color::Black;
-			this->label12->Location = System::Drawing::Point(401, 592);
-			this->label12->Name = L"label12";
-			this->label12->Size = System::Drawing::Size(158, 25);
-			this->label12->TabIndex = 316;
-			this->label12->Text = L"输入输出波形";
-			// 
-			// label7
-			// 
-			this->label7->Font = (gcnew System::Drawing::Font(L"宋体", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(134)));
-			this->label7->ForeColor = System::Drawing::Color::Black;
-			this->label7->Location = System::Drawing::Point(410, 641);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(158, 25);
-			this->label7->TabIndex = 316;
-			this->label7->Text = L"输入输出波形";
-			// 
 			// 一阶电路的响应测试实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -637,6 +638,9 @@ private: System::Windows::Forms::Label^  label7;
 		}
 #pragma endregion
 	private: System::Void 一阶电路的响应测试实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+		lcc.SendComputerInfo(Grades[6] + "正在实验中");
+		NowTrial::NowTrailCode = 6;
+		NowTrial::NowTrailForm = this;
 	}
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 	
@@ -698,6 +702,8 @@ private: System::Void label2_Click(System::Object^  sender, System::EventArgs^  
 private: System::Void pictureBoxTrial1_out_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

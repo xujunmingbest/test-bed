@@ -137,6 +137,11 @@ Class Capture: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Open(): PrivateScope, Public, HideBySig
     SendCapture(): PrivateScope, Public, HideBySig
     RecvAndClose(): PrivateScope, Public, HideBySig
+Class NowTrial: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 NowTrailCode : Public, Static
+    System.Windows.Forms.Form NowTrailForm : Public, Static
 Class 电工电路试验台.底部: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -221,6 +226,31 @@ Class monitorTrialssc: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     _SendTrial(): PrivateScope, Public, HideBySig
     GetNowTrialForm(Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
     SendMonitorData(UInt32, basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    Send元件伏安特性的测试实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send基尔霍夫定律实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send叠加原理实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send戴维南定理实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send电压源与电流源的等效变换实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send一阶电路的响应测试实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send二阶动态电路响应的研究实验内容(UInt32): PrivateScope, Public, HideBySig
+    SendVCVS实验实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send二端口网络的研究实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send最大功率传输条件的测定实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send电路状态轨迹的观测实验内容(UInt32): PrivateScope, Public, HideBySig
+    SendRLC元件阻抗特性的测定实验内容(UInt32): PrivateScope, Public, HideBySig
+    SendRLC串联谐振电路的研究实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send单相铁心变压器特性的测试实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send单相电度表实验实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send三相交流电路电压电流的测量实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send日光灯功率因数的提高实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send回转器实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send三相电路功率的测量实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send负阻抗变换器实验内容(UInt32): PrivateScope, Public, HideBySig
+    SendRC网络的频率特性实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send仪表量程的扩展实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send互感器实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send基本电工仪表的使用与测量误差的计算实验内容(UInt32): PrivateScope, Public, HideBySig
+    Send功率因数及相序的测量实验内容(UInt32): PrivateScope, Public, HideBySig
 Class 电工电路试验台.loginWnd: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -239,6 +269,8 @@ Class 电工电路试验台.元件伏安特性的测试实验内容: AutoLayout,
     Boolean Open : Public
   Methods:
     LoadGradeData(ST_元件伏安特性测试*): PrivateScope, Public, HideBySig
+    SendGrade(): PrivateScope, Public, HideBySig
+    GenerateStuInfo(): PrivateScope, Public, HideBySig
 Class 电工电路试验台.元件伏安特性的测试实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -299,6 +331,7 @@ Class 电工电路试验台.电压源与电流源的等效变换实验内容: Au
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_电压源与电流源的等效变换*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.电压源与电流源的等效变换实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -375,6 +408,7 @@ Class 电工电路试验台.二端口网络的研究实验内容: AutoLayout, An
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    SendGrade(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_二端口网络的研究*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.二端口网络的研究实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -404,6 +438,7 @@ Class 电工电路试验台.电路状态轨迹的观测实验内容: AutoLayout,
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_电路状态轨迹的观测*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.电路状态轨迹的观测实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -434,6 +469,7 @@ Class 电工电路试验台.RLC串联谐振电路的研究实验内容: AutoLayo
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_RLC串联谐振电路的研究*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.RLC串联谐振电路的研究实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -465,6 +501,7 @@ Class 电工电路试验台.单相电度表实验实验内容: AutoLayout, AnsiC
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_单相电度表实验*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.单相电度表实验实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -479,6 +516,7 @@ Class 电工电路试验台.三相交流电路电压电流的测量实验内容:
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_三相交流电路电压电流的测量*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.三相交流电路电压电流的测量实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -508,6 +546,7 @@ Class 电工电路试验台.回转器实验内容: AutoLayout, AnsiClass, Class,
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
+    SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_回转器*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.回转器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -542,6 +581,7 @@ Class 电工电路试验台.负阻抗变换器实验内容: AutoLayout, AnsiClas
     System.String PT_name2 : Public
   Methods:
     chart_load(): PrivateScope, Public, HideBySig
+    SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_负阻抗变换器*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.负阻抗变换器实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
@@ -626,3 +666,5 @@ Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, Bef
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     System.Windows.Forms.Panel panel4 : Public
+  Methods:
+    ShowName(): PrivateScope, Public, HideBySig

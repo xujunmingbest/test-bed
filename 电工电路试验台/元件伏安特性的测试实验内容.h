@@ -6804,6 +6804,8 @@ private: System::Void label50_Click(System::Object^  sender, System::EventArgs^ 
 private: System::Void 元件伏安特性的测试实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 
 	lcc.SendComputerInfo(Grades[1]+"正在实验中");
+	NowTrial::NowTrailCode = 1;
+	NowTrial::NowTrailForm = this;
 	This_Load();
 }
 		 void This_Load();
@@ -7479,36 +7481,11 @@ private: System::Void textBox硅管结论_TextChanged(System::Object^  sender, S
 private: System::Void panel1_Paint(System::Object^  sender, System::Windows::Forms::PaintEventArgs^  e) {
 }
 
-
+		 public: void  SendGrade();
 		 String ^GenerateStuInfo();
 private: System::Void button246_Click(System::Object^  sender, System::EventArgs^  e) {
 	//System::Windows::Forms::DialogResult dr = MessageBox::Show(GenerateStuInfo(), "请确认信息", MessageBoxButtons::OKCancel);
-		
-	ST_元件伏安特性测试 s;
-    s = LoadGradeData();
-	s.ti = trialInfo;
-	s.ti.TrialCode = 1;
-	s.ti.totalscore = -1;
-	snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[1].c_str());
-	snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
-	snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
-	data_transf d;
-	GradesHead H;
-	H.TrialCode = 1;
-	snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[1].c_str());
-	snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
-	if (!d.open()) {
-		MessageBox::Show("TCP连接失败");
-		return;
-	}
-	if (!d.SendGrade(H, string((char*)&s, sizeof(ST_元件伏安特性测试)))) {
-		MessageBox::Show("TCP连接失败");
-		return;
-	}
-	d.RecvHandle(true);
-	d.close();
-	lcc.SendComputerInfo(Grades[1] + "已交卷");
-
+	SendGrade();
 }
 private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
 }

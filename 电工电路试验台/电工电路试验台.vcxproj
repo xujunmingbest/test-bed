@@ -113,10 +113,12 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
-      <HeapReserveSize>20000000</HeapReserveSize>
-      <HeapCommitSize>20000000</HeapCommitSize>
-      <StackReserveSize>20000000</StackReserveSize>
-      <StackCommitSize>20000000</StackCommitSize>
+      <HeapReserveSize>
+      </HeapReserveSize>
+      <HeapCommitSize>
+      </HeapCommitSize>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>10000000</StackCommitSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

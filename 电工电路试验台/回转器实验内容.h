@@ -869,6 +869,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->groupBox8->TabIndex = 84;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"回转器 实验内容1";
+			this->groupBox8->Enter += gcnew System::EventHandler(this, &回转器实验内容::groupBox8_Enter);
 			// 
 			// label5
 			// 
@@ -3819,7 +3820,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1528, 706);
+			this->ClientSize = System::Drawing::Size(1570, 706);
 			this->Controls->Add(this->label129);
 			this->Controls->Add(this->button102);
 			this->Controls->Add(this->groupBox2);
@@ -3829,6 +3830,7 @@ private: System::Windows::Forms::Label^  label5;
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"回转器实验内容";
 			this->Text = L"回转器实验内容";
+			this->Load += gcnew System::EventHandler(this, &回转器实验内容::回转器实验内容_Load);
 			this->groupBox8->ResumeLayout(false);
 			this->groupBox8->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBoxTrial1_I))->EndInit();
@@ -3844,7 +3846,7 @@ private: System::Windows::Forms::Label^  label5;
 
 		}
 #pragma endregion
-		void SendData();
+		public:void SendData();
 		public: ST_回转器 Load_Grade_data();
 	private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 		SendData();
@@ -4088,6 +4090,13 @@ private: System::Void button4_Click_1(System::Object^  sender, System::EventArgs
 		return;
 	}
 	pictureBoxTrial1_U->ImageLocation = imageLocation;
+}
+private: System::Void 回转器实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[18] + "正在实验中");
+	NowTrial::NowTrailCode = 18;
+	NowTrial::NowTrailForm = this;
+}
+private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

@@ -1206,6 +1206,9 @@ private: System::Windows::Forms::Button^  button13;
 			public: ST_基尔霍夫定律 Load_Grade_data();
 			public: void SendGrade();
 private: System::Void 基尔霍夫定律实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[2] + "正在实验中");
+	NowTrial::NowTrailCode = 2;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
 	labelmeaI1->Text = global::GetI500Data();

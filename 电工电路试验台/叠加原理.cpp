@@ -38,16 +38,16 @@ ST_叠加原理 叠加原理实验内容::Load_Grade_data() {
 	ST_叠加原理 d;
 	memset(&d,0x00,sizeof(ST_叠加原理));
 
-	snprintf(d.Line3I1, 10, "%s", labelLine3I1->Text);
-	snprintf(d.Line3I2, 10, "%s", labelLine3I2->Text);
-	snprintf(d.Line3I3, 10, "%s", labelLine3I3->Text);
-	snprintf(d.Line3U11, 10, "%s", labelLine3U11->Text);
-	snprintf(d.Line3U12, 10, "%s", labelLine3U12->Text);
-	snprintf(d.Line3UDE, 10, "%s", labelLine3UDE->Text);
-	snprintf(d.Line3UFA, 10, "%s", labelLine3UFA->Text);
-	snprintf(d.Line3UAB, 10, "%s", labelLine3UAB->Text);
-	snprintf(d.Line3UBC, 10, "%s", labelLine3UBC->Text);
-	snprintf(d.Line3UCD, 10, "%s", labelLine3UCD->Text);
+	snprintf(d.Line1I1, 10, "%s", labelLine1I1->Text);
+	snprintf(d.Line1I2, 10, "%s", labelLine1I2->Text);
+	snprintf(d.Line1I3, 10, "%s", labelLine1I3->Text);
+	snprintf(d.Line1U11, 10, "%s", labelLine1U11->Text);
+	snprintf(d.Line1U12, 10, "%s", labelLine1U12->Text);
+	snprintf(d.Line1UDE, 10, "%s", labelLine1UDE->Text);
+	snprintf(d.Line1UFA, 10, "%s", labelLine1UFA->Text);
+	snprintf(d.Line1UAB, 10, "%s", labelLine1UAB->Text);
+	snprintf(d.Line1UBC, 10, "%s", labelLine1UBC->Text);
+	snprintf(d.Line1UCD, 10, "%s", labelLine1UCD->Text);
 
 	snprintf(d.Line2I1, 10, "%s", labelLine2I1->Text);
 	snprintf(d.Line2I2, 10, "%s", labelLine2I2->Text);
@@ -71,17 +71,27 @@ ST_叠加原理 叠加原理实验内容::Load_Grade_data() {
 	snprintf(d.Line3UBC, 10, "%s", labelLine3UBC->Text);
 	snprintf(d.Line3UCD, 10, "%s", labelLine3UCD->Text);
 
-	/*
+	snprintf(d.Line3I1, 10, "%s", labelLine3I1->Text);
+	snprintf(d.Line3I2, 10, "%s", labelLine3I2->Text);
+	snprintf(d.Line3I3, 10, "%s", labelLine3I3->Text);
+	snprintf(d.Line3U11, 10, "%s", labelLine3U11->Text);
+	snprintf(d.Line3U12, 10, "%s", labelLine3U12->Text);
+	snprintf(d.Line3UDE, 10, "%s", labelLine3UDE->Text);
+	snprintf(d.Line3UFA, 10, "%s", labelLine3UFA->Text);
+	snprintf(d.Line3UAB, 10, "%s", labelLine3UAB->Text);
+	snprintf(d.Line3UBC, 10, "%s", labelLine3UBC->Text);
+	snprintf(d.Line3UCD, 10, "%s", labelLine3UCD->Text);
+
+	
 	snprintf(d.Line4I1, 10, "%s", labelLine4I1->Text);
 	snprintf(d.Line4I2, 10, "%s", labelLine4I2->Text);
 	snprintf(d.Line4I3, 10, "%s", labelLine4I3->Text);
-	snprintf(d.Line4U11, 10, "%s", labelLine4U11->Text);
 	snprintf(d.Line4U12, 10, "%s", labelLine4U12->Text);
 	snprintf(d.Line4UDE, 10, "%s", labelLine4UDE->Text);
 	snprintf(d.Line4UFA, 10, "%s", labelLine4UFA->Text);
 	snprintf(d.Line4UAB, 10, "%s", labelLine4UAB->Text);
 	snprintf(d.Line4UBC, 10, "%s", labelLine4UBC->Text);
-	snprintf(d.Line4UCD, 10, "%s", labelLine4UCD->Text);*/
+	snprintf(d.Line4UCD, 10, "%s", labelLine4UCD->Text);
 
 	snprintf(d.Line5I1, 10, "%s", labelLine5I1->Text);
 	snprintf(d.Line5I2, 10, "%s", labelLine5I2->Text);

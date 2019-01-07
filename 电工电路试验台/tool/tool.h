@@ -18,6 +18,7 @@ void Exceptioninit();
 int String_to_Int(String^in);
 string Int_to_string(int in);
 
+
 class CControl
 {
 	HANDLE hMutex1;
@@ -395,8 +396,8 @@ public:
 
 		S_PLCRecv p = GetMData();
 		if (p.HeaderId < 11 || p.HeaderId >15) return "0.000";
-		uint zs = p.I / 1000;
-		uint xs = p.I % 1000;
+		uint zs = p.COS / 1000;
+		uint xs = p.COS % 1000;
 		return zs.ToString() + "." + String::Format("{0:000}", xs);
 	}
 

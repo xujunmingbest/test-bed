@@ -148,6 +148,16 @@ ST_戴维南定理 戴维南定理实验内容::Load_Grade_data() {
 	snprintf(d.Method2RL8, 10, "%s", textBoxMethod2RL8->Text);
 	snprintf(d.Method2RL9, 10, "%s", textBoxMethod2RL9->Text);
 	snprintf(d.Method2RL10, 10, "%s", textBoxMethod2RL10->Text);
+	snprintf(d.Method2URL1,10, "%s", labelMethod2URL1->Text);
+	snprintf(d.Method2URL2, 10, "%s", labelMethod2URL1->Text);
+	snprintf(d.Method2URL3, 10, "%s", labelMethod2URL2->Text);
+	snprintf(d.Method2URL4, 10, "%s", labelMethod2URL3->Text);
+	snprintf(d.Method2URL5, 10, "%s", labelMethod2URL4->Text);
+	snprintf(d.Method2URL6, 10, "%s", labelMethod2URL5->Text);
+	snprintf(d.Method2URL7, 10, "%s", labelMethod2URL6->Text);
+	snprintf(d.Method2URL8, 10, "%s", labelMethod2URL7->Text);
+	snprintf(d.Method2URL9, 10, "%s", labelMethod2URL8->Text);
+	snprintf(d.Method2URL10, 10, "%s", labelMethod2URL9->Text);
 
 	snprintf(d.Method3Ro, 10, "%s", textBoxMethod3Ro->Text);
 	snprintf(d.Method3Uoc, 10, "%s", textBoxMethod3Uoc->Text);
@@ -172,6 +182,17 @@ ST_戴维南定理 戴维南定理实验内容::Load_Grade_data() {
 	snprintf(d.Method6RL8, 10, "%s", textBoxMethod6RL8->Text);
 	snprintf(d.Method6RL9, 10, "%s", textBoxMethod6RL9->Text);
 	snprintf(d.Method6RL10, 10, "%s", textBoxMethod6RL10->Text);
+
+	snprintf(d.Method6URL1, 10, "%s", labelMethod6URL1->Text);
+	snprintf(d.Method6URL2, 10, "%s", labelMethod6URL1->Text);
+	snprintf(d.Method6URL3, 10, "%s", labelMethod6URL2->Text);
+	snprintf(d.Method6URL4, 10, "%s", labelMethod6URL3->Text);
+	snprintf(d.Method6URL5, 10, "%s", labelMethod6URL4->Text);
+	snprintf(d.Method6URL6, 10, "%s", labelMethod6URL5->Text);
+	snprintf(d.Method6URL7, 10, "%s", labelMethod6URL6->Text);
+	snprintf(d.Method6URL8, 10, "%s", labelMethod6URL7->Text);
+	snprintf(d.Method6URL9, 10, "%s", labelMethod6URL8->Text);
+	snprintf(d.Method6URL10, 10, "%s", labelMethod6URL9->Text);
 
 	snprintf(d.summing_up, 100, "%s", textBox结论->Text);
 	return d;

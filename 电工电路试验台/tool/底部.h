@@ -1,4 +1,10 @@
 #pragma once
+
+public ref class NowTrial{
+public:static int NowTrailCode = 0;
+public:static System::Windows::Forms::Form^ NowTrailForm = nullptr;
+};
+
 namespace 电工电路试验台 {
 
 	using namespace System;

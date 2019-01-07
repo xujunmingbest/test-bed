@@ -455,6 +455,9 @@ private: System::Windows::Forms::TextBox^  labelTrial3_Q_1;
 			this->label56 = (gcnew System::Windows::Forms::Label());
 			this->label57 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->labelTrial3_Q_3 = (gcnew System::Windows::Forms::TextBox());
+			this->labelTrial3_Q_2 = (gcnew System::Windows::Forms::TextBox());
+			this->labelTrial3_Q_1 = (gcnew System::Windows::Forms::TextBox());
 			this->label95 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox4 = (gcnew System::Windows::Forms::PictureBox());
 			this->button17 = (gcnew System::Windows::Forms::Button());
@@ -499,9 +502,6 @@ private: System::Windows::Forms::TextBox^  labelTrial3_Q_1;
 			this->label128 = (gcnew System::Windows::Forms::Label());
 			this->button246 = (gcnew System::Windows::Forms::Button());
 			this->label166 = (gcnew System::Windows::Forms::Label());
-			this->labelTrial3_Q_3 = (gcnew System::Windows::Forms::TextBox());
-			this->labelTrial3_Q_2 = (gcnew System::Windows::Forms::TextBox());
-			this->labelTrial3_Q_1 = (gcnew System::Windows::Forms::TextBox());
 			this->groupBox8->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->groupBox1->SuspendLayout();
@@ -926,7 +926,7 @@ private: System::Windows::Forms::TextBox^  labelTrial3_Q_1;
 			this->label14->ForeColor = System::Drawing::Color::Black;
 			this->label14->Location = System::Drawing::Point(24, 40);
 			this->label14->Name = L"label14";
-			this->label14->Size = System::Drawing::Size(1070, 200);
+			this->label14->Size = System::Drawing::Size(1193, 200);
 			this->label14->TabIndex = 52;
 			this->label14->Text = resources->GetString(L"label14.Text");
 			// 
@@ -1993,6 +1993,27 @@ private: System::Windows::Forms::TextBox^  labelTrial3_Q_1;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"三相电路功率的测量  实验内容3";
 			// 
+			// labelTrial3_Q_3
+			// 
+			this->labelTrial3_Q_3->Location = System::Drawing::Point(604, 791);
+			this->labelTrial3_Q_3->Name = L"labelTrial3_Q_3";
+			this->labelTrial3_Q_3->Size = System::Drawing::Size(110, 30);
+			this->labelTrial3_Q_3->TabIndex = 114;
+			// 
+			// labelTrial3_Q_2
+			// 
+			this->labelTrial3_Q_2->Location = System::Drawing::Point(604, 709);
+			this->labelTrial3_Q_2->Name = L"labelTrial3_Q_2";
+			this->labelTrial3_Q_2->Size = System::Drawing::Size(110, 30);
+			this->labelTrial3_Q_2->TabIndex = 113;
+			// 
+			// labelTrial3_Q_1
+			// 
+			this->labelTrial3_Q_1->Location = System::Drawing::Point(604, 630);
+			this->labelTrial3_Q_1->Name = L"labelTrial3_Q_1";
+			this->labelTrial3_Q_1->Size = System::Drawing::Size(110, 30);
+			this->labelTrial3_Q_1->TabIndex = 112;
+			// 
 			// label95
 			// 
 			this->label95->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
@@ -2481,27 +2502,6 @@ private: System::Windows::Forms::TextBox^  labelTrial3_Q_1;
 			this->label166->Text = L"答题结束";
 			this->label166->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
 			// 
-			// labelTrial3_Q_3
-			// 
-			this->labelTrial3_Q_3->Location = System::Drawing::Point(604, 791);
-			this->labelTrial3_Q_3->Name = L"labelTrial3_Q_3";
-			this->labelTrial3_Q_3->Size = System::Drawing::Size(110, 30);
-			this->labelTrial3_Q_3->TabIndex = 114;
-			// 
-			// labelTrial3_Q_2
-			// 
-			this->labelTrial3_Q_2->Location = System::Drawing::Point(604, 709);
-			this->labelTrial3_Q_2->Name = L"labelTrial3_Q_2";
-			this->labelTrial3_Q_2->Size = System::Drawing::Size(110, 30);
-			this->labelTrial3_Q_2->TabIndex = 113;
-			// 
-			// labelTrial3_Q_1
-			// 
-			this->labelTrial3_Q_1->Location = System::Drawing::Point(604, 630);
-			this->labelTrial3_Q_1->Name = L"labelTrial3_Q_1";
-			this->labelTrial3_Q_1->Size = System::Drawing::Size(110, 30);
-			this->labelTrial3_Q_1->TabIndex = 112;
-			// 
 			// 三相电路功率的测量实验内容
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
@@ -2624,6 +2624,9 @@ private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs
 private: System::Void label24_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void 三相电路功率的测量实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[19] + "正在实验中");
+	NowTrial::NowTrailCode = 19;
+	NowTrial::NowTrailForm = this;
 }
 			public:ST_三相电路功率的测量 Load_Grade_data();
 				   void SendData();

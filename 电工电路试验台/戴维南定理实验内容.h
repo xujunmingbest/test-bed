@@ -2313,6 +2313,9 @@ private: System::Void groupBox6_Enter(System::Object^  sender, System::EventArgs
 private: System::Void 戴维南定理实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 	chartTrial2->Titles->Add("  外特性曲线");
 	chartTrial6->Titles->Add("  外特性曲线");
+	lcc.SendComputerInfo(Grades[4] + "正在实验中");
+	NowTrial::NowTrailCode = 4;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();

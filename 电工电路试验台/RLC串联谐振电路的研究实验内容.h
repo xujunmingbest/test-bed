@@ -2930,10 +2930,13 @@ private: System::Windows::Forms::Label^  label19;
 		String ^picdir = gcnew String(BMPSAVEPATH);
 		String ^Trial1PT_name = picdir + "RLC串联谐振电路的研究Trial1_1.bmp";
 	private: System::Void RLC串联谐振电路的研究实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+		lcc.SendComputerInfo(Grades[13] + "正在实验中");
+		NowTrial::NowTrailCode = 13;
+		NowTrial::NowTrailForm = this;
 	}
 	private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 	}
-		 void SendData();
+		 public:void SendData();
 		 public :ST_RLC串联谐振电路的研究 Load_Grade_data();
 private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 	File::Delete(Trial1PT_name);

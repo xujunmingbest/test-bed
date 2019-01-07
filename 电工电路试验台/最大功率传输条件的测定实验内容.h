@@ -3093,6 +3093,9 @@ private: System::Void button28_Click(System::Object^  sender, System::EventArgs^
 	labelTrial2_Uo9->Text = global::GetU30_U400VData();
 }
 private: System::Void 最大功率传输条件的测定实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[10] + "正在实验中");
+	NowTrial::NowTrailCode = 10;
+	NowTrial::NowTrailForm = this;
 }
 };
 }

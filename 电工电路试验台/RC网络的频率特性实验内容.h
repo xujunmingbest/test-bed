@@ -1627,6 +1627,8 @@ private: System::Windows::Forms::PictureBox^  pictureBox1;
 	}
 private: System::Void RC网络的频率特性实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 	lcc.SendComputerInfo(Grades[21] + "正在实验中");
+	NowTrial::NowTrailCode = 21;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();

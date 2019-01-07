@@ -2958,6 +2958,9 @@ private: System::Windows::Forms::Label^  label50;
 #pragma endregion
 	private: System::Void 叠加原理实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 		this->VerticalScroll->Value = 100;
+		lcc.SendComputerInfo(Grades[3] + "正在实验中");
+		NowTrial::NowTrailCode = 3;
+		NowTrial::NowTrailForm = this;
 	}
 private: System::Void label6_Click(System::Object^  sender, System::EventArgs^  e) {
 }

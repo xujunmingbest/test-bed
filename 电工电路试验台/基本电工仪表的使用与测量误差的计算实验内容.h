@@ -542,6 +542,9 @@ private: System::Windows::Forms::Label^  label50;
 		}
 #pragma endregion
 	private: System::Void 基本电工仪表的使用与测量误差的计算实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+		lcc.SendComputerInfo(Grades[24] + "正在实验中");
+		NowTrial::NowTrailCode = 24;
+		NowTrial::NowTrailForm = this;
 	}
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();

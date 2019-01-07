@@ -556,3 +556,30 @@ String ^元件伏安特性的测试实验内容::GenerateStuInfo() {
 	return info;
 }
 
+
+void  元件伏安特性的测试实验内容::SendGrade() {
+	ST_元件伏安特性测试 s;
+	s = LoadGradeData();
+	s.ti = trialInfo;
+	s.ti.TrialCode = 1;
+	s.ti.totalscore = -1;
+	snprintf(s.ti.TrialName, sizeof(s.ti.TrialName), "%s", Grades[1].c_str());
+	snprintf(s.ti.date, sizeof(s.ti.TrialName), "%s", DateTime::Now.ToString("yyyy-MM-dd HH:mm:ss"));
+	snprintf(s.ti.SeriaNumber, sizeof(s.ti.SeriaNumber), "%s", GenerateOrderNumber());
+	data_transf d;
+	GradesHead H;
+	H.TrialCode = 1;
+	snprintf(H.TrialName, sizeof(H.TrialName), "%s", Grades[1].c_str());
+	snprintf(H.MsgType, sizeof(H.MsgType), "GRADE");
+	if (!d.open()) {
+		MessageBox::Show("TCP连接失败");
+		return;
+	}
+	if (!d.SendGrade(H, string((char*)&s, sizeof(ST_元件伏安特性测试)))) {
+		MessageBox::Show("TCP连接失败");
+		return;
+	}
+	d.RecvHandle(true);
+	d.close();
+	lcc.SendComputerInfo(Grades[1] + "已交卷");
+}

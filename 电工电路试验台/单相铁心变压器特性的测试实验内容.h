@@ -2064,6 +2064,9 @@ private: System::Windows::Forms::Button^  button47;
 			 void SendData();
 private: System::Void 单相铁心变压器特性的测试实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 	chartTrial3->Titles->Add("变压器的空载特性曲线");
+	lcc.SendComputerInfo(Grades[14] + "正在实验中");
+	NowTrial::NowTrailCode = 14;
+	NowTrial::NowTrailForm = this;
 	chartTrial2->Titles->Add("变压器外特性曲线");
 }
 private: System::Void button246_Click(System::Object^  sender, System::EventArgs^  e) {

@@ -1577,6 +1577,9 @@ private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs
 private: System::Void groupBox2_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void 二阶动态电路响应的研究实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[7] + "正在实验中");
+	NowTrial::NowTrailCode = 7;
+	NowTrial::NowTrailForm = this;
 }
 };
 }

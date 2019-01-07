@@ -1886,12 +1886,15 @@ private: System::Windows::Forms::Label^  label13;
 
 		}
 #pragma endregion
-		void SendGrade();
+		public:void SendGrade();
 		public: ST_二端口网络的研究 Load_Grade_data();
 
 	private: System::Void groupBox2_Enter(System::Object^  sender, System::EventArgs^  e) {
 	}
 private: System::Void 二端口网络的研究实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[9] + "正在实验中");
+	NowTrial::NowTrailCode = 9;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
 

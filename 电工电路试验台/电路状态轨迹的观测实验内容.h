@@ -356,9 +356,12 @@ private: System::Void button3_Click(System::Object^  sender, System::EventArgs^ 
 	}
 	pictureBox3->ImageLocation = Trial3_name;
 }
-		 void SendData();
+		public: void SendData();
 		public: ST_电路状态轨迹的观测 Load_Grade_data();
 private: System::Void 电路状态轨迹的观测实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[11] + "正在实验中");
+	NowTrial::NowTrailCode = 11;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs^  e) {
 }

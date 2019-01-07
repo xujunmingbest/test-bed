@@ -1555,7 +1555,7 @@ private: System::Windows::Forms::Label^  label37;
 
 		}
 #pragma endregion
-		void SendData();
+		public:void SendData();
 		public:ST_负阻抗变换器 Load_Grade_data();
 		String ^picdir = gcnew String(BMPSAVEPATH);
 		String ^PT_name1 = picdir + "负阻抗变换器_1.bmp";
@@ -1563,6 +1563,9 @@ private: System::Windows::Forms::Label^  label37;
 
 	private: System::Void 负阻抗变换器实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
 		chartTrial1->Titles->Add("  负阻的伏安特性曲线");
+		lcc.SendComputerInfo(Grades[20] + "正在实验中");
+		NowTrial::NowTrailCode = 20;
+		NowTrial::NowTrailForm = this;
 	}
 private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 }

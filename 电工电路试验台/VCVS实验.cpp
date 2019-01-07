@@ -447,7 +447,7 @@ ST_VCVS实验 VCVS实验实验内容::Load_Grade_data() {
 	snprintf(d.trial2_2V2_5, 10, "%s", labeltrial2_2V2_5->Text);
 	snprintf(d.trial2_2V2_6, 10, "%s", labeltrial2_2V2_6->Text);
 	snprintf(d.trial2_2V2_7, 10, "%s", labeltrial2_2V2_7->Text); 
-
+	
 	snprintf(d.trial2_2RL_1, 10, "%s", textBoxtrial2_2RL_1->Text);
 	snprintf(d.trial2_2RL_2, 10, "%s", textBoxtrial2_2RL_2->Text);
 	snprintf(d.trial2_2RL_3, 10, "%s", textBoxtrial2_2RL_3->Text);
@@ -455,6 +455,14 @@ ST_VCVS实验 VCVS实验实验内容::Load_Grade_data() {
 	snprintf(d.trial2_2RL_5, 10, "%s", textBoxtrial2_2RL_5->Text);
 	snprintf(d.trial2_2RL_6, 10, "%s", textBoxtrial2_2RL_6->Text);
 	snprintf(d.trial2_2RL_7, 10, "%s", textBoxtrial2_2RL_7->Text);
+
+	snprintf(d.trial2_2IL_1, 10, "%s", labeltrial2_2IL_1->Text);
+	snprintf(d.trial2_2IL_2, 10, "%s", labeltrial2_2IL_2->Text);
+	snprintf(d.trial2_2IL_3, 10, "%s", labeltrial2_2IL_3->Text);
+	snprintf(d.trial2_2IL_4, 10, "%s", labeltrial2_2IL_4->Text);
+	snprintf(d.trial2_2IL_5, 10, "%s", labeltrial2_2IL_5->Text);
+	snprintf(d.trial2_2IL_6, 10, "%s", labeltrial2_2IL_6->Text);
+	snprintf(d.trial2_2IL_7, 10, "%s", labeltrial2_2IL_7->Text);
 
 	snprintf(d.trial3_1I1_1, 10, "%s", labeltrial3_1I1_1->Text);
 	snprintf(d.trial3_1I1_2, 10, "%s", labeltrial3_1I1_2->Text);

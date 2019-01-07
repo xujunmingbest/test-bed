@@ -28,12 +28,15 @@ namespace 电工电路试验台 {
 
 			loginWnd^ lw = gcnew loginWnd;
 			lw->ShowDialog();
-
+			ShowName();
 			//
 			//TODO:  在此处添加构造函数代码
 			//
 		}
-
+		void ShowName() {
+			user1label->Text = "用户名1: "+gcnew String( trialInfo.stuName1);
+			user2label->Text = "用户名2: " + gcnew String(trialInfo.stuName2);
+		}
 	protected:
 		/// <summary>
 		/// 清理所有正在使用的资源。
@@ -87,6 +90,8 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton2;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton3;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton4;
+	private: System::Windows::Forms::Label^  user2label;
+	private: System::Windows::Forms::Label^  user1label;
 	private: System::ComponentModel::IContainer^  components;
 	protected:
 
@@ -123,6 +128,8 @@ namespace 电工电路试验台 {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel4 = (gcnew System::Windows::Forms::Panel());
+			this->user1label = (gcnew System::Windows::Forms::Label());
+			this->user2label = (gcnew System::Windows::Forms::Label());
 			this->panel1->SuspendLayout();
 			this->panel2->SuspendLayout();
 			this->toolStrip1->SuspendLayout();
@@ -131,6 +138,9 @@ namespace 电工电路试验台 {
 			// 
 			// panel1
 			// 
+			this->panel1->AutoScroll = true;
+			this->panel1->Controls->Add(this->user2label);
+			this->panel1->Controls->Add(this->user1label);
 			this->panel1->Controls->Add(this->panel2);
 			this->panel1->Controls->Add(this->pictureBox1);
 			this->panel1->Dock = System::Windows::Forms::DockStyle::Left;
@@ -332,7 +342,7 @@ namespace 电工电路试验台 {
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
 			this->pictureBox1->Location = System::Drawing::Point(0, 0);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(319, 209);
+			this->pictureBox1->Size = System::Drawing::Size(319, 169);
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
 			// 
@@ -345,6 +355,24 @@ namespace 电工电路试验台 {
 			this->panel4->Size = System::Drawing::Size(1518, 1043);
 			this->panel4->TabIndex = 6;
 			this->panel4->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &主窗体::panel4_Paint);
+			// 
+			// user1label
+			// 
+			this->user1label->AutoSize = true;
+			this->user1label->Location = System::Drawing::Point(3, 172);
+			this->user1label->Name = L"user1label";
+			this->user1label->Size = System::Drawing::Size(55, 15);
+			this->user1label->TabIndex = 2;
+			this->user1label->Text = L"label5";
+			// 
+			// user2label
+			// 
+			this->user2label->AutoSize = true;
+			this->user2label->Location = System::Drawing::Point(3, 200);
+			this->user2label->Name = L"user2label";
+			this->user2label->Size = System::Drawing::Size(55, 15);
+			this->user2label->TabIndex = 3;
+			this->user2label->Text = L"label8";
 			// 
 			// 主窗体
 			// 
@@ -361,6 +389,7 @@ namespace 电工电路试验台 {
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &主窗体::主窗体_Load);
 			this->panel1->ResumeLayout(false);
+			this->panel1->PerformLayout();
 			this->panel2->ResumeLayout(false);
 			this->panel2->PerformLayout();
 			this->toolStrip1->ResumeLayout(false);
@@ -580,7 +609,9 @@ private: System::Void label5_Click(System::Object^  sender, System::EventArgs^  
 private: System::Void toolStripButton1_Click(System::Object^  sender, System::EventArgs^  e) {
 	loginWnd ^lw = gcnew loginWnd;
 	lw->ShowDialog();
+	ShowName();
 }
+
 private: System::Void toolStripButton3_Click(System::Object^  sender, System::EventArgs^  e) {
 	this->WindowState = FormWindowState::Minimized;
 }

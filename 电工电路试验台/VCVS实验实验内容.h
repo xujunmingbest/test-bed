@@ -1355,7 +1355,7 @@ private: System::Windows::Forms::TextBox^  textBoxtrial1_2RL_1;
 			this->button25->Name = L"button25";
 			this->button25->Size = System::Drawing::Size(96, 29);
 			this->button25->TabIndex = 131;
-			this->button25->Text = L" ";
+			this->button25->Text = L" 获取";
 			this->button25->UseVisualStyleBackColor = true;
 			this->button25->Click += gcnew System::EventHandler(this, &VCVS实验实验内容::button25_Click);
 			// 
@@ -5275,7 +5275,9 @@ private: System::Void VCVS实验实验内容_Load(System::Object^  sender, System::Eve
 	 chartTrial3_2Init();
 	 chartTrial4_1Init();
 	 chartTrial4_2Init();
-
+	 lcc.SendComputerInfo(Grades[8] + "正在实验中");
+	 NowTrial::NowTrailCode = 8;
+	 NowTrial::NowTrailForm = this;
 }
 private: System::Void groupBox4_Enter(System::Object^  sender, System::EventArgs^  e) {
 }

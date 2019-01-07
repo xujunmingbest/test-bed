@@ -2609,6 +2609,9 @@ private: System::Windows::Forms::Label^  label50;
 		}
 #pragma endregion
 	private: System::Void 互感器实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+		lcc.SendComputerInfo(Grades[23] + "正在实验中");
+		NowTrial::NowTrailCode = 23;
+		NowTrial::NowTrailForm = this;
 	}
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();

@@ -2296,6 +2296,9 @@ private: System::Void button33_Click(System::Object^  sender, System::EventArgs^
 	labelTrial3_mea_IC_line4->Text = global::GetGongPingI();
 }
 private: System::Void 日光灯功率因数的提高实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[17] + "正在实验中");
+	NowTrial::NowTrailCode = 17;
+	NowTrial::NowTrailForm = this;
 }
 private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
 	textBoxTrial2_cos_line1->Text = global::GetGongPingCos();

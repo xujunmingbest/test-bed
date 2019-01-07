@@ -2699,8 +2699,11 @@ private: System::Windows::Forms::Label^  label16;
 	private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 private: System::Void 电压源与电流源的等效变换实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+	lcc.SendComputerInfo(Grades[5] + "正在实验中");
+	NowTrial::NowTrailCode = 5;
+	NowTrial::NowTrailForm = this;
 }
-		 void SendData();
+		public:void SendData();
 		public: ST_电压源与电流源的等效变换 Load_Grade_data();
 private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
 

@@ -367,7 +367,7 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 	}
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-	//global::sh->SerialHandleClose();
+	global::scs->SerialHandleClose();
 }
 private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
 	if (!oscillograph::oscillographOpen()) 	{

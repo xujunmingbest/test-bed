@@ -359,6 +359,7 @@ private: System::Windows::Forms::Label^  labelTrial2_P_1;
 			this->groupBox8->TabIndex = 88;
 			this->groupBox8->TabStop = false;
 			this->groupBox8->Text = L"功率因数及相序的测量 实验内容1";
+			this->groupBox8->Enter += gcnew System::EventHandler(this, &功率因数及相序的测量实验内容::groupBox8_Enter);
 			// 
 			// textBox结论
 			// 
@@ -1438,6 +1439,9 @@ private: System::Windows::Forms::Label^  labelTrial2_P_1;
 		}
 #pragma endregion
 	private: System::Void 功率因数及相序的测量实验内容_Load(System::Object^  sender, System::EventArgs^  e) {
+		lcc.SendComputerInfo(Grades[25] + "正在实验中");
+		NowTrial::NowTrailCode = 25;
+		NowTrial::NowTrailForm = this;
 	}
 private: System::Void button102_Click(System::Object^  sender, System::EventArgs^  e) {
 	SendData();
@@ -1528,6 +1532,8 @@ private: System::Void button26_Click(System::Object^  sender, System::EventArgs^
 }
 private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
 	textBoxTrial2_φ_4->Text = global::GetGongPingCos();
+}
+private: System::Void groupBox8_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }
