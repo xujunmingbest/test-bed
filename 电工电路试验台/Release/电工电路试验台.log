@@ -5,15 +5,15 @@ e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
 e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(333): warning C4018: “<”: 有符号/无符号不匹配
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(341): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(342): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(335): warning C4018: “<”: 有符号/无符号不匹配
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(343): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(344): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(345): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(346): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(347): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(348): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(349): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(350): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\基尔霍夫定律实验内容.h(1253): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\戴维南定理实验内容.h(2469): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\RLC元件阻抗特性的测定实验内容.h(2517): warning C4101: “e”: 未引用的局部变量
@@ -95,24 +95,43 @@ e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性
 e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性实验内容.h(1832): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性实验内容.h(1839): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
 e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性实验内容.h(1842): warning C4101: “e”: 未引用的局部变量
-e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(410): warning C4101: “e”: 未引用的局部变量
-e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(413): warning C4018: “<”: 有符号/无符号不匹配
-  mdi子窗体注册.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(424): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\呼叫老师.h(97): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(408): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
 e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
 e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(333): warning C4018: “<”: 有符号/无符号不匹配
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(341): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(342): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(335): warning C4018: “<”: 有符号/无符号不匹配
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(343): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(344): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(345): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(346): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(347): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(348): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(410): warning C4101: “e”: 未引用的局部变量
-e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(413): warning C4018: “<”: 有符号/无符号不匹配
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(349): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(350): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(424): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\呼叫老师.h(97): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(408): warning C4018: “<”: 有符号/无符号不匹配
+  mdi子窗体注册.cpp
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(335): warning C4018: “<”: 有符号/无符号不匹配
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(343): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(344): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(345): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(346): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(347): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(348): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(349): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(350): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(424): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\呼叫老师.h(97): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(408): warning C4018: “<”: 有符号/无符号不匹配
 e:\clr中腾\电工电路试验台\电工电路试验台\基尔霍夫定律实验内容.h(1253): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\戴维南定理实验内容.h(2469): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\RLC元件阻抗特性的测定实验内容.h(2517): warning C4101: “e”: 未引用的局部变量
@@ -280,17 +299,18 @@ e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性
 e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性实验内容.h(1832): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性实验内容.h(1839): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
 e:\clr中腾\电工电路试验台\电工电路试验台\RC网络的频率特性实验内容.h(1842): warning C4101: “e”: 未引用的局部变量
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(333): warning C4018: “<”: 有符号/无符号不匹配
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(341): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(342): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(335): warning C4018: “<”: 有符号/无符号不匹配
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(343): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(344): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(345): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(346): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(347): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(348): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(410): warning C4101: “e”: 未引用的局部变量
-e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(413): warning C4018: “<”: 有符号/无符号不匹配
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(349): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(350): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(424): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\呼叫老师.h(97): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(408): warning C4018: “<”: 有符号/无符号不匹配
 monitorTrial.cpp(120): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 monitorTrial.cpp(121): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 monitorTrial.cpp(136): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
@@ -341,141 +361,23 @@ monitorTrial.cpp(499): warning C4477: “snprintf”: 格式字符串“%s”需
 monitorTrial.cpp(500): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 monitorTrial.cpp(515): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 monitorTrial.cpp(516): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-  三相交流电路电压电流的测量.cpp
-e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
-e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
-三相交流电路电压电流的测量.cpp(16): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(17): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(42): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(43): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(44): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(45): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(46): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(48): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(49): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(50): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(51): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(52): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(54): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(55): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(56): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(57): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(58): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(60): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(61): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(62): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(63): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(64): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(66): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(67): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(68): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(69): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(70): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(72): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(73): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(74): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(75): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(76): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(78): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(79): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(80): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(81): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(82): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(84): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(85): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(86): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(87): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(88): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(90): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(91): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(92): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(93): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(94): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(96): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(97): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(98): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(99): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(100): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(102): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(103): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(104): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(105): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(106): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(108): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(109): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(111): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(112): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(114): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(115): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(117): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(118): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(120): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(121): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(123): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(124): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(126): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(127): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(129): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(130): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(132): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相交流电路电压电流的测量.cpp(133): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-  三相电路功率的测量.cpp
-e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
-e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
-三相电路功率的测量.cpp(15): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(16): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(43): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(44): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(45): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(46): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(47): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(48): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(49): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(50): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(52): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(53): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(54): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(55): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(56): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(57): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(58): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(59): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(60): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(61): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(62): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(63): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(66): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(67): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(68): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(69): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(70): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(71): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(72): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(73): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(74): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(75): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(76): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-三相电路功率的测量.cpp(77): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
   主窗体.cpp
 e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(36): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
 e:\clr中腾\电工电路试验台\电工电路试验台\tool\log.h(47): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: 参见“localtime”的声明
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(333): warning C4018: “<”: 有符号/无符号不匹配
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(341): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(342): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(335): warning C4018: “<”: 有符号/无符号不匹配
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(343): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(344): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(345): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(346): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(347): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
 e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(348): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
-e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(410): warning C4101: “e”: 未引用的局部变量
-e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(413): warning C4018: “<”: 有符号/无符号不匹配
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(349): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\loginWnd.h(350): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\hardware_debug.h(424): warning C4101: “e”: 未引用的局部变量
+e:\clr中腾\电工电路试验台\电工电路试验台\呼叫老师.h(97): warning C4477: “snprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“System::String ^”
+e:\clr中腾\电工电路试验台\电工电路试验台\主窗体.h(408): warning C4018: “<”: 有符号/无符号不匹配
 e:\clr中腾\电工电路试验台\电工电路试验台\基尔霍夫定律实验内容.h(1253): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\戴维南定理实验内容.h(2469): warning C4101: “e”: 未引用的局部变量
 e:\clr中腾\电工电路试验台\电工电路试验台\RLC元件阻抗特性的测定实验内容.h(2517): warning C4101: “e”: 未引用的局部变量

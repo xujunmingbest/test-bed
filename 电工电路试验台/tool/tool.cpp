@@ -178,6 +178,28 @@ void funct() {
 
 QueueMutex g_ClassListMutex;
 
+string get_computer_ip(const char *name)
+{
+	struct hostent *ent = gethostbyname(name);
+	if (ent != NULL)
+	{
+
+		LPIN_ADDR addr = (LPIN_ADDR)ent->h_addr_list[0];
+		WSADATA wsaData;
+		WSAStartup(MAKEWORD(2, 2), &wsaData);
+		if (addr)
+			printf("IP: %s\n", inet_ntoa(*addr));
+		else
+			return "";
+
+		WSACleanup();
+		return string(inet_ntoa(*addr));
+	}
+	return "";
+}
+
+
+
 #define BMPLENGTH 387072
 void global::SystemStart()
 {
@@ -193,9 +215,11 @@ void global::SystemStart()
 
 	//配置文件初始化
 	readXmlConfigFile(configXml);
+	configXml.TeacherIp = get_computer_ip(configXml.ServerComputerName.c_str());
 	LOG_DETAIL(configXml.DesMac, configXml.RepeaterIp, configXml.RepeaterPort,
 		"电源控制", configXml.SerialControlSource,
-		configXml.TeacherIp, configXml.GradePort);
+		configXml.TeacherIp, configXml.GradePort, configXml.ServerComputerName);
+	snprintf(trialInfo.computerId, sizeof(trialInfo.computerId), "%s", configXml.ComputerId.c_str());
 
 	//电源控制模块初始化
 	if (!global::scs->SerialHandleInit()) {

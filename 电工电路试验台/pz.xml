@@ -13,4 +13,5 @@
     <CapturePort>1237</CapturePort> <!--发送屏幕截图的 -->
     <GradeMonitorPort>10002</GradeMonitorPort><!--发送数据监控的 -->
     <ComputerId>机台1</ComputerId> <!--机台编号 -->
+    <ServerComputerName>SKY-20180103XGL</ServerComputerName><!--服务器计算机名字 -->
 </Info>

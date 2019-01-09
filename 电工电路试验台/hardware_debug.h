@@ -20,7 +20,7 @@ namespace 电工电路试验台 {
 			InitializeComponent();
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->Font = gcnew System::Drawing::Font("宋体", 15, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Pixel, ((unsigned char)(134)));
-
+			GetComList_Reg();
 			//
 			//TODO:  在此处添加构造函数代码
 			//
@@ -70,6 +70,7 @@ namespace 电工电路试验台 {
 	private: System::Windows::Forms::Label^  label4;
 	private: System::Windows::Forms::TextBox^  textBox4;
 	private: System::Windows::Forms::Label^  label1;
+	private: System::Windows::Forms::Button^  button4;
 
 
 
@@ -106,6 +107,7 @@ namespace 电工电路试验台 {
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
+			this->button4 = (gcnew System::Windows::Forms::Button());
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
 			this->button14 = (gcnew System::Windows::Forms::Button());
 			this->label4 = (gcnew System::Windows::Forms::Label());
@@ -147,6 +149,7 @@ namespace 电工电路试验台 {
 			// 
 			// groupBox1
 			// 
+			this->groupBox1->Controls->Add(this->button4);
 			this->groupBox1->Controls->Add(this->textBox4);
 			this->groupBox1->Controls->Add(this->button14);
 			this->groupBox1->Controls->Add(this->label4);
@@ -165,6 +168,16 @@ namespace 电工电路试验台 {
 			this->groupBox1->TabStop = false;
 			this->groupBox1->Text = L"电测量参数仪调试";
 			this->groupBox1->Enter += gcnew System::EventHandler(this, &hardware_debug::groupBox1_Enter);
+			// 
+			// button4
+			// 
+			this->button4->Location = System::Drawing::Point(18, 105);
+			this->button4->Name = L"button4";
+			this->button4->Size = System::Drawing::Size(184, 37);
+			this->button4->TabIndex = 9;
+			this->button4->Text = L"重新加载串口";
+			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &hardware_debug::button4_Click);
 			// 
 			// textBox4
 			// 
@@ -322,13 +335,14 @@ namespace 电工电路试验台 {
 			this->label1->Size = System::Drawing::Size(1091, 29);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"label1";
+			this->label1->Click += gcnew System::EventHandler(this, &hardware_debug::label1_Click);
 			// 
 			// hardware_debug
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 15);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
-			this->ClientSize = System::Drawing::Size(1481, 736);
+			this->ClientSize = System::Drawing::Size(1502, 736);
 			this->Controls->Add(this->groupBox3);
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->label2);
@@ -418,6 +432,12 @@ private: System::Void button14_Click(System::Object^  sender, System::EventArgs^
 private: System::Void groupBox1_Enter(System::Object^  sender, System::EventArgs^  e) {
 }
 private: System::Void groupBox3_Enter(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+	GetComList_Reg();
+}
+		 int GetComList_Reg();
+private: System::Void label1_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

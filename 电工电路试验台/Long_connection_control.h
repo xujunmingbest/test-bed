@@ -28,6 +28,10 @@ struct TrialStatus {
 	char trialStatus[50];
 	char computerId[50];
 };
+struct S_CallTeacher {
+	TrialInfo ti;
+	char msg[100];
+};
 #pragma pack(pop)
 
 static map<int, string> Long_connection_Req = {
@@ -38,6 +42,7 @@ static map<int, string> Long_connection_Req = {
 	{ 5,"RECOVERTRIAL" }, // 恢复实验
 	{ 6,"GETNOWTRIAL" },// 获取当前实验内容信息
 	{ 7,"GETSTUDENTLIST" },// 获取当前学生列表
+	{ 8,"CALLTEACHER"}, //呼叫老师
 };
 
 class Long_connection_control {
@@ -51,7 +56,7 @@ public :
 	void SendComputerInfo(string trialStatus);
 	void SendBack_NowTrial(string &trialName);
 	void GetStudentList();
-
+	void CallTeacher(string &body);
 };
 
 extern Long_connection_control lcc;

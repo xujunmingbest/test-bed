@@ -389,6 +389,9 @@
     <ClInclude Include="叠加原理实验目的.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="呼叫老师.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="回转器实验内容.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -701,6 +704,9 @@
     <EmbeddedResource Include="叠加原理实验目的.resx">
       <DependentUpon>叠加原理实验目的.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="呼叫老师.resx">
+      <DependentUpon>呼叫老师.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="回转器实验内容.resx">
       <DependentUpon>回转器实验内容.h</DependentUpon>
     </EmbeddedResource>
@@ -857,6 +863,7 @@
     <ClCompile Include="单相电度表实验.cpp" />
     <ClCompile Include="单相铁心变压器特性的测试.cpp" />
     <ClCompile Include="叠加原理.cpp" />
+    <ClCompile Include="呼叫老师.cpp" />
     <ClCompile Include="回转器.cpp" />
     <ClCompile Include="基尔霍夫定律.cpp" />
     <ClCompile Include="基本电工仪表的使用与测量误差的计算.cpp" />

@@ -17,7 +17,7 @@ struct ConfigXml {
 	string LongConnectPort; //长连接端口
 	string CapturePort;  //屏幕监控端口
 	string GradeMonitorPort; //截图端口
-
+	string ServerComputerName; //服务器计算机名字
 	string ComputerId;
 };
 

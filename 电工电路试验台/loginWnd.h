@@ -267,6 +267,7 @@ namespace 电工电路试验台 {
 			this->textBoxStuName2->Name = L"textBoxStuName2";
 			this->textBoxStuName2->Size = System::Drawing::Size(168, 23);
 			this->textBoxStuName2->TabIndex = 27;
+			this->textBoxStuName2->SelectedIndexChanged += gcnew System::EventHandler(this, &loginWnd::textBoxStuName2_SelectedIndexChanged);
 			// 
 			// textBoxStuName1
 			// 
@@ -275,6 +276,7 @@ namespace 电工电路试验台 {
 			this->textBoxStuName1->Name = L"textBoxStuName1";
 			this->textBoxStuName1->Size = System::Drawing::Size(168, 23);
 			this->textBoxStuName1->TabIndex = 28;
+			this->textBoxStuName1->SelectedIndexChanged += gcnew System::EventHandler(this, &loginWnd::textBoxStuName1_SelectedIndexChanged);
 			// 
 			// textBoxXueHao1
 			// 
@@ -370,6 +372,16 @@ private: System::Void textBoxclass_SelectedIndexChanged(System::Object^  sender,
 			textBoxXueHao1->SelectedIndex = 0;
 			textBoxXueHao2->SelectedIndex = 0;
 		}
+	}
+}
+private: System::Void textBoxStuName1_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+	if (textBoxStuName1->SelectedIndex > 0) {
+		textBoxXueHao1->SelectedIndex = textBoxStuName1->SelectedIndex;
+	}
+}
+private: System::Void textBoxStuName2_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
+	if (textBoxStuName2->SelectedIndex > 0) {
+		textBoxXueHao2->SelectedIndex = textBoxStuName2->SelectedIndex;
 	}
 }
 };

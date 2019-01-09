@@ -8,8 +8,8 @@ using namespace System::Threading;
 
 
 [STAThreadAttribute]
-//int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
-void main(){
+int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
+//void main(){
 	global::SystemStart(); //控制电源模块
 	Application::Run(gcnew 主窗体);
 	global::SystemShortDown();

@@ -3,6 +3,8 @@
 #include "tool/gradeSubmit.h"
 #include "loginWnd.h"
 #include "hardware_debug.h"
+#include "呼叫老师.h"
+
 namespace 电工电路试验台 {
 
 	using namespace System;
@@ -87,11 +89,12 @@ namespace 电工电路试验台 {
 
 	private: System::Windows::Forms::ToolStrip^  toolStrip1;
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton1;
-	private: System::Windows::Forms::ToolStripButton^  toolStripButton2;
-	private: System::Windows::Forms::ToolStripButton^  toolStripButton3;
+
+
 	private: System::Windows::Forms::ToolStripButton^  toolStripButton4;
 	private: System::Windows::Forms::Label^  user2label;
 	private: System::Windows::Forms::Label^  user1label;
+	private: System::Windows::Forms::ToolStripButton^  toolStripButton2;
 	private: System::ComponentModel::IContainer^  components;
 	protected:
 
@@ -111,12 +114,13 @@ namespace 电工电路试验台 {
 			this->components = (gcnew System::ComponentModel::Container());
 			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(主窗体::typeid));
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
+			this->user2label = (gcnew System::Windows::Forms::Label());
+			this->user1label = (gcnew System::Windows::Forms::Label());
 			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->toolStrip1 = (gcnew System::Windows::Forms::ToolStrip());
 			this->toolStripButton1 = (gcnew System::Windows::Forms::ToolStripButton());
-			this->toolStripButton2 = (gcnew System::Windows::Forms::ToolStripButton());
-			this->toolStripButton3 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->toolStripButton4 = (gcnew System::Windows::Forms::ToolStripButton());
+			this->toolStripButton2 = (gcnew System::Windows::Forms::ToolStripButton());
 			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->label6 = (gcnew System::Windows::Forms::Label());
 			this->label4 = (gcnew System::Windows::Forms::Label());
@@ -128,8 +132,6 @@ namespace 电工电路试验台 {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->panel4 = (gcnew System::Windows::Forms::Panel());
-			this->user1label = (gcnew System::Windows::Forms::Label());
-			this->user2label = (gcnew System::Windows::Forms::Label());
 			this->panel1->SuspendLayout();
 			this->panel2->SuspendLayout();
 			this->toolStrip1->SuspendLayout();
@@ -148,6 +150,28 @@ namespace 电工电路试验台 {
 			this->panel1->Name = L"panel1";
 			this->panel1->Size = System::Drawing::Size(319, 1043);
 			this->panel1->TabIndex = 1;
+			// 
+			// user2label
+			// 
+			this->user2label->AutoSize = true;
+			this->user2label->Font = (gcnew System::Drawing::Font(L"新宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->user2label->Location = System::Drawing::Point(3, 200);
+			this->user2label->Name = L"user2label";
+			this->user2label->Size = System::Drawing::Size(75, 20);
+			this->user2label->TabIndex = 3;
+			this->user2label->Text = L"label8";
+			// 
+			// user1label
+			// 
+			this->user1label->AutoSize = true;
+			this->user1label->Font = (gcnew System::Drawing::Font(L"新宋体", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(134)));
+			this->user1label->Location = System::Drawing::Point(3, 172);
+			this->user1label->Name = L"user1label";
+			this->user1label->Size = System::Drawing::Size(75, 20);
+			this->user1label->TabIndex = 2;
+			this->user1label->Text = L"label5";
 			// 
 			// panel2
 			// 
@@ -170,9 +194,9 @@ namespace 电工电路试验台 {
 			// 
 			this->toolStrip1->AutoSize = false;
 			this->toolStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
-			this->toolStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
+			this->toolStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
 				this->toolStripButton1,
-					this->toolStripButton2, this->toolStripButton3, this->toolStripButton4
+					this->toolStripButton4, this->toolStripButton2
 			});
 			this->toolStrip1->Location = System::Drawing::Point(0, 0);
 			this->toolStrip1->Name = L"toolStrip1";
@@ -195,28 +219,6 @@ namespace 电工电路试验台 {
 			this->toolStripButton1->ToolTipText = L"切换登入";
 			this->toolStripButton1->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton1_Click);
 			// 
-			// toolStripButton2
-			// 
-			this->toolStripButton2->AutoSize = false;
-			this->toolStripButton2->DisplayStyle = System::Windows::Forms::ToolStripItemDisplayStyle::Image;
-			this->toolStripButton2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStripButton2.Image")));
-			this->toolStripButton2->ImageTransparentColor = System::Drawing::Color::Magenta;
-			this->toolStripButton2->Name = L"toolStripButton2";
-			this->toolStripButton2->Size = System::Drawing::Size(50, 50);
-			this->toolStripButton2->Text = L"toolStripButton2";
-			this->toolStripButton2->ToolTipText = L"登出";
-			// 
-			// toolStripButton3
-			// 
-			this->toolStripButton3->AutoSize = false;
-			this->toolStripButton3->DisplayStyle = System::Windows::Forms::ToolStripItemDisplayStyle::Image;
-			this->toolStripButton3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStripButton3.Image")));
-			this->toolStripButton3->ImageTransparentColor = System::Drawing::Color::Magenta;
-			this->toolStripButton3->Name = L"toolStripButton3";
-			this->toolStripButton3->Size = System::Drawing::Size(50, 50);
-			this->toolStripButton3->Text = L"toolStripButton3";
-			this->toolStripButton3->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton3_Click);
-			// 
 			// toolStripButton4
 			// 
 			this->toolStripButton4->AutoSize = false;
@@ -228,6 +230,18 @@ namespace 电工电路试验台 {
 			this->toolStripButton4->Text = L"toolStripButton4";
 			this->toolStripButton4->ToolTipText = L"硬件调试";
 			this->toolStripButton4->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton4_Click);
+			// 
+			// toolStripButton2
+			// 
+			this->toolStripButton2->AutoSize = false;
+			this->toolStripButton2->DisplayStyle = System::Windows::Forms::ToolStripItemDisplayStyle::Image;
+			this->toolStripButton2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"toolStripButton2.Image")));
+			this->toolStripButton2->ImageTransparentColor = System::Drawing::Color::Magenta;
+			this->toolStripButton2->Name = L"toolStripButton2";
+			this->toolStripButton2->Size = System::Drawing::Size(45, 45);
+			this->toolStripButton2->Text = L"toolStripButton2";
+			this->toolStripButton2->ToolTipText = L"呼叫老师";
+			this->toolStripButton2->Click += gcnew System::EventHandler(this, &主窗体::toolStripButton2_Click);
 			// 
 			// label7
 			// 
@@ -339,7 +353,6 @@ namespace 电工电路试验台 {
 			// pictureBox1
 			// 
 			this->pictureBox1->Dock = System::Windows::Forms::DockStyle::Top;
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
 			this->pictureBox1->Location = System::Drawing::Point(0, 0);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(319, 169);
@@ -355,24 +368,6 @@ namespace 电工电路试验台 {
 			this->panel4->Size = System::Drawing::Size(1518, 1043);
 			this->panel4->TabIndex = 6;
 			this->panel4->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &主窗体::panel4_Paint);
-			// 
-			// user1label
-			// 
-			this->user1label->AutoSize = true;
-			this->user1label->Location = System::Drawing::Point(3, 172);
-			this->user1label->Name = L"user1label";
-			this->user1label->Size = System::Drawing::Size(55, 15);
-			this->user1label->TabIndex = 2;
-			this->user1label->Text = L"label5";
-			// 
-			// user2label
-			// 
-			this->user2label->AutoSize = true;
-			this->user2label->Location = System::Drawing::Point(3, 200);
-			this->user2label->Name = L"user2label";
-			this->user2label->Size = System::Drawing::Size(55, 15);
-			this->user2label->TabIndex = 3;
-			this->user2label->Text = L"label8";
 			// 
 			// 主窗体
 			// 
@@ -619,6 +614,10 @@ private: System::Void toolStrip1_ItemClicked(System::Object^  sender, System::Wi
 }
 private: System::Void toolStripButton4_Click(System::Object^  sender, System::EventArgs^  e) {
 	(gcnew hardware_debug)->ShowDialog();
+}
+private: System::Void toolStripButton2_Click(System::Object^  sender, System::EventArgs^  e) {
+//发送呼叫指令
+	(gcnew 呼叫老师())->ShowDialog();
 }
 };
 }

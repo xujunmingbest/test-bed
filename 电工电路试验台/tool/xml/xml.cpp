@@ -57,6 +57,10 @@ bool readXmlConfigFile(ConfigXml &configXml)
 		else if (zd == "ComputerId") {
 			configXml.ComputerId = value;
 		}
+		else if (zd == "ServerComputerName") {
+			configXml.ServerComputerName = value;
+		}
+
 	}
 	return true;
 }

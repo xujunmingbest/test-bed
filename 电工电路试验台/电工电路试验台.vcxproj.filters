@@ -124,6 +124,9 @@
     <Filter Include="调试界面">
       <UniqueIdentifier>{6e40cc70-a6d2-4f01-bd46-2bef2d618fb9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="呼叫老师">
+      <UniqueIdentifier>{2f8c0ad9-a5d5-41b7-9e9c-fb8e74211c0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="主窗体.h">
@@ -555,6 +558,9 @@
     <ClInclude Include="hardware_debug.h">
       <Filter>调试界面</Filter>
     </ClInclude>
+    <ClInclude Include="呼叫老师.h">
+      <Filter>呼叫老师</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -709,6 +715,9 @@
     </ClCompile>
     <ClCompile Include="hardware_debug.cpp">
       <Filter>调试界面</Filter>
+    </ClCompile>
+    <ClCompile Include="呼叫老师.cpp">
+      <Filter>呼叫老师</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

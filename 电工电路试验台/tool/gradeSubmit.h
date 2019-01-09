@@ -89,6 +89,7 @@ struct TrialInfo {
 	char teacher[100];
 	char major[100];
 	int totalscore;  //总分
+	char computerId[50]; //进行实验的机台号
 };
 extern TrialInfo trialInfo;
 

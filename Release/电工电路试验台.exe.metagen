@@ -65,6 +65,7 @@
   电工电路试验台.叠加原理实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.叠加原理实验器件.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.叠加原理实验目的.resources - Embedded, ContainedInManifestFile, 
+  电工电路试验台.呼叫老师.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.回转器实验内容.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.回转器实验原理.resources - Embedded, ContainedInManifestFile, 
   电工电路试验台.回转器实验器件.resources - Embedded, ContainedInManifestFile, 
@@ -659,6 +660,9 @@ Class 电工电路试验台.功率因数及相序的测量实验内容: AutoLayo
     SendData(): PrivateScope, Public, HideBySig
     Load_Grade_data(ST_功率因数及相序的测量*): PrivateScope, Public, HideBySig
 Class 电工电路试验台.功率因数及相序的测量实验器件: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class 电工电路试验台.呼叫老师: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class 电工电路试验台.主窗体: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
